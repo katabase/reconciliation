@@ -29,6 +29,8 @@ def remove_multiple_spaces(text):
     text = re.sub('	', ' ', text)
     text = re.sub('\n', ' ', text)
     text = re.sub('\s+', ' ', text)
+    text = re.sub('\s+$', '', text)
+    text = re.sub('«$', '', text)
     return text
 
 
