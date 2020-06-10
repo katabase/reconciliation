@@ -143,5 +143,6 @@ if __name__ == "__main__":
     output_dict = price_extractor(list_desc)
     output_dict = date_extractor(list_desc, output_dict)
     print(output_dict)
+    print(len(output_dict))
     print("Number of entries without price: %s" % str(no_price))
     print("Number of entries without date: %s" % str(no_date))
