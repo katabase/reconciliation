@@ -16,18 +16,19 @@ def price_extractor(descList):
     for item in descList:
         id = item[1]
         desc = item[0]
-        last_element = re.split("[\s]", desc)[-1]
-        pattern_0 = re.compile("^\d{1,3}$") # matches any non decimal number
-        patter_0b = re.compile("^\d{1,3}\.\d{1,3}$") # matches any decimal numbers
-        pattern_1 = re.compile(".*\.\d$") # matches this kind of values: "Rare.75"
-        pattern_2 = re.compile("in-\d°\d") # matches this kind of values: "in-4°50"
-        pattern_3 = re.compile("^(?!.*in)(-\d*)$") # matches this kind of values: "-5", ignoring any string that
+        last_element = re.split("[\s]", desc)[-1] # usually the price is the last information in the tei:desc node
+        pattern_0 = re.compile("^\d{1,3}$") # searches for any non decimal number
+        pattern_0b = re.compile("^\d{1,3}\.\d{1,3}$") # searches for any decimal numbers
+        # exceptional rules
+        pattern_1 = re.compile(".*\.\d$") # searches for this kind of values: "Rare.75"
+        pattern_2 = re.compile("in-\d°\d") # searches for this kind of values: "in-4°50"
+        pattern_3 = re.compile("^(?!.*in)(-\d*)$") # searches for this kind of values: "-5", ignoring any string that
         # corresponds to a measure (in-4, in-8, etc.)
         dict_values = {"desc": desc}
         if pattern_0.match(last_element):
             dict_values["price"] = last_element
             output_dict[id] = dict_values
-        elif patter_0b.match(last_element):
+        elif pattern_0b.match(last_element):
             dict_values["price"] = last_element
             output_dict[id] = dict_values
         elif pattern_1.match(last_element):
@@ -117,6 +118,7 @@ def clean_text(input_text):
     :return: the cleaned string
     """
     input_text = re.sub('	', ' ', input_text)
+    input_text = re.sub(r'\.$', '', input_text)
     input_text = re.sub(r'-$', '', input_text)
     input_text = re.sub('\n', ' ', input_text)
     input_text = re.sub('\s+', ' ', input_text)
