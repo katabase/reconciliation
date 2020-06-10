@@ -13,15 +13,66 @@ def price_extractor(input_list):
         id = item[1]
         desc = item[0]
         last_element = re.split("[\s]", desc)[-1]
-        pattern = re.compile("[0-999]")
+        pattern_0 = re.compile("[\d]")
+        pattern_1 = re.compile(".*\.\d") # matches this kind of values: "Rare.75"
+        pattern_2 = re.compile("in-\d°\d") # matches this kind of values: "in-4°50"
+        pattern_3 = re.compile("^(?!.*in)(-\d*)$") # matches this kind of values: "-5", ignoring any string that corresponds to a measure
         dict_values = {}
-        if pattern.match(last_element):
+        if pattern_0.match(last_element):
             dict_values["price"] = last_element
             output_dict[id] = dict_values
+        elif pattern_1.match(last_element):
+            price = re.sub(r".*\.(\d)", r"\1", last_element)
+            dict_values["price"] = price
+            output_dict[id] = dict_values
+        elif pattern_2.match(last_element):
+            price = re.sub(r"in-\d°(\d)", r"\1", last_element)
+            dict_values["price"] = price
+            output_dict[id] = dict_values
+        elif pattern_3.match(last_element):
+            price = re.sub(r"^(?!.*in)-(\d*)$", r"\1", last_element)
+            dict_values["price"] = price
+            output_dict[id] = dict_values
         else:
-            output_dict[str(id)] = "none"
+            dict_values["price"] = "none"
+            output_dict[id] = dict_values
+            no_price_trigger()
     return(output_dict)
 
+
+# Second, the extraction of the date
+def date_extractor(input_list, output_dict):
+    for item in input_list:
+        id = item[1]
+        desc = item[0]
+        pattern_date_0 = re.compile(".*(1[5-9][0-9][0-9]).*")
+        dict_values = {}
+        if pattern_date_0.match(desc):
+            date = re.sub(r".*(1[5-9][0-9][0-9]).*", r"\1", desc)
+            dict_values["price"] = output_dict[id]
+            dict_values["date"] = date
+            output_dict[id] = dict_values
+        else:
+            dict_values["price"] = output_dict.get(id).get("price")
+            dict_values["date"] = "none"
+            output_dict[id] = dict_values
+            no_date_trigger()
+    return(output_dict)
+
+
+def no_price_trigger():
+    """
+    :return: Increases a counter when called
+    """
+    global no_price
+    no_price += 1
+
+def no_date_trigger():
+    """
+    :return: Increases a counter when called
+    """
+    global no_date
+    no_date += 1
 
 def desc_extractor(input):
     """
@@ -46,6 +97,7 @@ def desc_extractor(input):
 
 def clean_text(text):
     text = re.sub('	', ' ', text)
+    text = re.sub(r'-', r'', text)
     text = re.sub('\n', ' ', text)
     text = re.sub('\s+', ' ', text)
     text = re.sub('«$', '', text)
@@ -58,13 +110,17 @@ def clean_text(text):
 def conversion_to_list(path):
     final_list = []
     for xml_file in glob.iglob(path):
-        print(xml_file)
         for desc_element in desc_extractor(xml_file):
             final_list.append(desc_element)
     return final_list
 
 
 if __name__ == "__main__":
+    no_price = 0
+    no_date = 0
     list_desc = conversion_to_list("../../Data/*.xml")
     output_dict = price_extractor(list_desc)
+    output_dict = date_extractor(list_desc, output_dict)
     print(output_dict)
+    print("Number of entries without price: %s" % str(no_price))
+    print("Number of entries without date: %s" % str(no_date))

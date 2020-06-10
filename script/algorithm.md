@@ -7,7 +7,7 @@ The simplest rule: **if the last token is a number, we have a price**.
 `Let.aut. sig. P. Lx; Boussac, 15 avril (1848), 2 p. 1/2 in-8.10`. 
 Here, there is no space after the format of the document.  
 - New rule: **if the last token ends with a dot and a number, we also have a price**.
-"\.[0-999]" 
+"\.[0-999]$" 
 - Another rule: ".*-6$" (in-6 does not exist), but we can't generalize 
 as we would match in-4 and in-8. 
 - "in-[0-10]°[0-999]"
