@@ -18,14 +18,18 @@ def price_extractor(descList):
         id = item[1]
         desc = item[0]
         last_element = re.split("[\s]", desc)[-1]
-        pattern_0 = re.compile("\d")
+        pattern_0 = re.compile("^\d{1,3}$") # matches any non decimal number
+        patter_0b = re.compile("^\d{1,3}\.\d{1,3}$") # matches any decimal numbers
         pattern_1 = re.compile(".*\.\d$") # matches this kind of values: "Rare.75"
         pattern_2 = re.compile("in-\d°\d") # matches this kind of values: "in-4°50"
         pattern_3 = re.compile("^(?!.*in)(-\d*)$") # matches this kind of values: "-5", ignoring any string that
         # corresponds to a measure (in-4, in-8, etc.)
         dict_values = {}
         if pattern_0.match(last_element):
-            dict_values["price"] = "%s" % last_element
+            dict_values["price"] = last_element
+            output_dict[id] = dict_values
+        elif patter_0b.match(last_element):
+            dict_values["price"] = last_element
             output_dict[id] = dict_values
         elif pattern_1.match(last_element):
             price = re.sub(r".*\.(\d)", r"\1", last_element)
