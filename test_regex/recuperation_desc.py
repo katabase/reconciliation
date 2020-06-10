@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# coding: utf-8
 import glob
 import re
 from lxml import etree
@@ -14,7 +16,7 @@ def desc_extractor(input):
         root = f.getroot()
         desc = root.xpath("//tei:desc", namespaces=tei)
         for i in desc:
-            i = remove_multiple_spaces(i.text)
+            i = clean_text(i.text)
             dernier_item = re.split("[\s]", i)[-1]
             pattern = re.compile("[0-999]")
             if pattern.match(dernier_item):
@@ -25,12 +27,14 @@ def desc_extractor(input):
         return desc
 
 
-def remove_multiple_spaces(text):
+def clean_text(text):
     text = re.sub('	', ' ', text)
     text = re.sub('\n', ' ', text)
     text = re.sub('\s+', ' ', text)
-    text = re.sub('\s+$', '', text)
     text = re.sub('«$', '', text)
+    text = re.sub('»$', '', text)
+    text = re.sub('-$', '', text)
+    text = re.sub('\s+$', '', text)
     return text
 
 
