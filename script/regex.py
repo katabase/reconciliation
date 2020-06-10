@@ -9,7 +9,6 @@ from lxml import etree
 # First step: extraction of the price
 def price_extractor(descList):
     """
-
     :param descList: the list containing all of the tei:desc
     :return: a dict with the ids as keys, and value another dict with the prices
     """
@@ -24,7 +23,7 @@ def price_extractor(descList):
         pattern_2 = re.compile("in-\d°\d") # matches this kind of values: "in-4°50"
         pattern_3 = re.compile("^(?!.*in)(-\d*)$") # matches this kind of values: "-5", ignoring any string that
         # corresponds to a measure (in-4, in-8, etc.)
-        dict_values = {}
+        dict_values = {"desc": desc}
         if pattern_0.match(last_element):
             dict_values["price"] = last_element
             output_dict[id] = dict_values
@@ -63,7 +62,7 @@ def date_extractor(descList, input_dict):
         id = item[1]
         desc = item[0]
         pattern_date_0 = re.compile(".*(1[5-9][0-9][0-9]).*") # we search for any series of four digits
-        dict_values = {}
+        dict_values = {"desc": input_dict[id].get("desc")}
         if pattern_date_0.match(desc):
             date = re.sub(r".*(1[5-9][0-9][0-9]).*", r"\1", desc)
             dict_values["price"] = input_dict[id].get("price")
@@ -93,7 +92,6 @@ def no_date_trigger():
 
 def desc_extractor(input):
     """
-
     :return: a list that contains all of the tei:desc elements
     """
     with open(input, 'r+') as fichier:
