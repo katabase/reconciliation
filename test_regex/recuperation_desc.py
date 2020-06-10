@@ -27,15 +27,20 @@ def desc_extractor(input):
         return desc
 
 
-def clean_text(text):
-    text = re.sub('	', ' ', text)
-    text = re.sub('\n', ' ', text)
-    text = re.sub('\s+', ' ', text)
-    text = re.sub('«$', '', text)
-    text = re.sub('»$', '', text)
-    text = re.sub('-$', '', text)
-    text = re.sub('\s+$', '', text)
-    return text
+def clean_text(input_text):
+    """
+    A function that cleans the text
+    :param text: any string
+    :return: the cleaned string
+    """
+    input_text = re.sub('	', ' ', input_text)
+    input_text = re.sub(r'-$', '', input_text)
+    input_text = re.sub('\n', ' ', input_text)
+    input_text = re.sub('\s+', ' ', input_text)
+    input_text = re.sub('«$', '', input_text)
+    input_text = re.sub('»$', '', input_text)
+    output_text = re.sub('\s+$', '', input_text)
+    return output_text
 
 
 def trigger_price():
@@ -58,6 +63,6 @@ if __name__ == "__main__":
         for i in glob.iglob('../../Data/*.xml'):
             for j in desc_extractor(i):
                 total_number()
-                output.write("%s\n" % j.text.replace("\n", "s"))
+                output.write("%s\n" % j.text.replace("\n", " "))
     print("Items with price: %s" % n)
     print("Total numbers: %s" % p)
