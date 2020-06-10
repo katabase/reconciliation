@@ -10,6 +10,7 @@ from lxml import etree
 # First step: extraction of the price
 def price_extractor(descList):
     """
+    TODO: fix the problem of inconsistency between the lenght of the input list and the lenght of the output dict
     :param descList: the list containing all of the tei:desc
     :return: a dict with the ids as keys, and value another dict with the prices
     """
@@ -17,7 +18,7 @@ def price_extractor(descList):
     for item in descList:
         id = item[1]
         desc = item[0]
-        last_element = re.split("[\s]", desc)[-1] # usually the price is the last information of the tei:desc nodes
+        raw_price = re.split("[\s]", desc)[-1] # usually the price is the last information of the tei:desc nodes
         pattern_0 = re.compile("^\d{1,3}$") # searches for any non decimal number
         pattern_0b = re.compile("^\d{1,3}\.\d{1,3}$") # searches for any decimal numbers
         # exceptional rules
@@ -26,24 +27,23 @@ def price_extractor(descList):
         pattern_3 = re.compile("^(?!.*in)(-\d*)$") # searches for this kind of values: "-5", ignoring any string that
         # corresponds to a measure (in-4, in-8, etc.)
         dict_values = {"desc": desc}
-        if pattern_0.match(last_element):
-            dict_values["price"] = last_element
-        elif pattern_0b.match(last_element):
-            dict_values["price"] = last_element
-        elif pattern_1.match(last_element):
-            price = re.sub(r".*\.(\d)", r"\1", last_element)
+        if pattern_0.match(raw_price):
+            dict_values["price"] = raw_price
+        elif pattern_0b.match(raw_price):
+            dict_values["price"] = raw_price
+        elif pattern_1.match(raw_price):
+            price = re.sub(r".*\.(\d)", r"\1", raw_price)
             dict_values["price"] = price
-        elif pattern_2.match(last_element):
-            price = re.sub(r"in-\d°(\d)", r"\1", last_element)
+        elif pattern_2.match(raw_price):
+            price = re.sub(r"in-\d°(\d)", r"\1", raw_price)
             dict_values["price"] = price
-        elif pattern_3.match(last_element):
-            price = re.sub(r"^(?!.*in)-(\d*)$", r"\1", last_element)
+        elif pattern_3.match(raw_price):
+            price = re.sub(r"^(?!.*in)-(\d*)$", r"\1", raw_price)
             dict_values["price"] = price
         else:
             dict_values["price"] = "none"
             no_price_trigger()
         output_dict[id] = dict_values
-    print(len(output_dict))
     return(output_dict)
 
 
@@ -139,7 +139,7 @@ if __name__ == "__main__":
     list_desc = conversion_to_list("../../Data/*.xml")
     print("Total number of tei:desc elements: %s" % len(list_desc))
     output_dict = price_extractor(list_desc)
-    print("Lenght of the dictionnary (prices): %s" % len(output_dict))
+    print("Lenght of the dictionnary (prices): %s" % len(output_dict.keys()))
     output_dict = date_extractor(list_desc, output_dict)
     print("Lenght of the dictionnary (prices + dates): %s" % len(output_dict))
     with open('../json/export.json', 'w') as outfile:
