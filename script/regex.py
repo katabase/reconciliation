@@ -17,7 +17,7 @@ def price_extractor(descList):
     for item in descList:
         id = item[1]
         desc = item[0]
-        last_element = re.split("[\s]", desc)[-1] # usually the price is the last information in the tei:desc node
+        last_element = re.split("[\s]", desc)[-1] # usually the price is the last information of the tei:desc nodes
         pattern_0 = re.compile("^\d{1,3}$") # searches for any non decimal number
         pattern_0b = re.compile("^\d{1,3}\.\d{1,3}$") # searches for any decimal numbers
         # exceptional rules
@@ -28,26 +28,22 @@ def price_extractor(descList):
         dict_values = {"desc": desc}
         if pattern_0.match(last_element):
             dict_values["price"] = last_element
-            output_dict[id] = dict_values
         elif pattern_0b.match(last_element):
             dict_values["price"] = last_element
-            output_dict[id] = dict_values
         elif pattern_1.match(last_element):
             price = re.sub(r".*\.(\d)", r"\1", last_element)
             dict_values["price"] = price
-            output_dict[id] = dict_values
         elif pattern_2.match(last_element):
             price = re.sub(r"in-\d°(\d)", r"\1", last_element)
             dict_values["price"] = price
-            output_dict[id] = dict_values
         elif pattern_3.match(last_element):
             price = re.sub(r"^(?!.*in)-(\d*)$", r"\1", last_element)
             dict_values["price"] = price
-            output_dict[id] = dict_values
         else:
             dict_values["price"] = "none"
-            output_dict[id] = dict_values
             no_price_trigger()
+        output_dict[id] = dict_values
+    print(len(output_dict))
     return(output_dict)
 
 
@@ -141,11 +137,13 @@ if __name__ == "__main__":
     no_price = 0
     no_date = 0
     list_desc = conversion_to_list("../../Data/*.xml")
+    print("Total number of tei:desc elements: %s" % len(list_desc))
     output_dict = price_extractor(list_desc)
+    print("Lenght of the dictionnary (prices): %s" % len(output_dict))
     output_dict = date_extractor(list_desc, output_dict)
+    print("Lenght of the dictionnary (prices + dates): %s" % len(output_dict))
     with open('../json/export.json', 'w') as outfile:
         outfile.truncate(0)
         json.dump(output_dict, outfile)
-    print("Lenght of the dictionnary: %s" % len(output_dict))
     print("Number of entries without price: %s" % str(no_price))
     print("Number of entries without date: %s" % str(no_date))
