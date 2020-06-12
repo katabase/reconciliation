@@ -24,3 +24,13 @@ Certificat de noblesse de Th.-Ph. de Saint-Nicolas, trésorier de France au bure
 d'Alençon, avec ses armoiries)
 - Quittance (Pièce sur vélin; 15 mars 1392 (1393), in-8 obl.; fragment de sceau. 50 Quittance)
 
+## Errors in date extraction
+- 1734-55 > 1734
+- CAT_000086_e196:  [L. a. s.; 1825; 1 p. in-4. 2] > ø [fixed]
+- CAT_000086_e171: né à Rodez en 1767 [-J.-H. de), poète distingué, né à Rodez en 1767. -1° L. a. s. à M. Déhault, 10 flor, an XII, 3 p. in-4. Légère déchirure toute relative à sa traduction de l'Enéide. -2° Sa biographie, pièce aut. de M. Villenave, 11 p. in-4. 5]
+- CAT_000123_e148: Pièce de vers aut. sig. sig. aussi par sa femme Caroline Vanhove: 18 janvier 1798 [Pièce de vers aut. sig. sig. aussi par sa femme Caroline Vanhove: 18 janvier 1798, 1 p. in-8 obl. 22]
+- CAT_000123_e81: L. a. s. au comte de Villèle : 14 avril 1826 [L. a. s. au comte de Villèle : 14 avril 1826, 1 p. in-fol. 15] [fixed]
+- CAT_000123_e81: au comte de Villèle : 14 avril 1826 [L. a. s. au comte de Villèle : 14 avril 1826, 1 p. in-fol. 15] [fixed]
+- CAT_000102_e135: Leipzig. « juin 1846 [Morceau de musique aut. sig.; Leipzig. « juin 1846, 1/2 p. in-8 obl. 15]
+
+
