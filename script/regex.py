@@ -62,7 +62,33 @@ def date_extractor(descList, input_dict):
         pattern_date_0 = re.compile(".*(1[5-9][0-9][0-9]).*") # we search for any series of four digits
         dict_values = {"desc": input_dict[id].get("desc")}
         if pattern_date_0.match(desc):
-            date = re.sub(r".*(1[5-9][0-9][0-9]).*", r"\1", desc)
+            # on va tokéniser avec la virgule comme délimiteur.
+            tokenizedDesc = desc.split(",")
+            newList = []
+            for item in tokenizedDesc:
+                if pattern_date_0.match(item):
+                    newList.append(item)
+            newList = newList[-1]
+            newList = newList.split(";")
+            for elem in newList:
+                if pattern_date_0.match(elem):
+                    newList = elem
+            newList = re.split("(1[5-9][0-9][0-9])", newList)
+            newList = newList[:-1]
+            newList = ' '.join([str(elem) for elem in newList])
+            newList = newList.split(":")
+            for elem in newList:
+                if pattern_date_0.match(elem):
+                    newList = elem
+            newList = re.sub(r'\s+', ' ', newList)
+            newList = re.sub(r'\(', '', newList)
+            newList = re.sub(r'^\s+', '', newList)
+            date = re.sub(r'L\. a\. s\.', '', newList)
+
+
+
+            print("%s: %s [%s]" % (id, date, desc))
+
             dict_values["price"] = input_dict[id].get("price")
             dict_values["date"] = date
             output_dict[id] = dict_values
