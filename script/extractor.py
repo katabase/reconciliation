@@ -3,6 +3,10 @@
 import glob
 import re
 import json
+import dateparser
+import datetime
+import conversion
+from dateparser.search import search_dates
 from lxml import etree
 
 
@@ -50,7 +54,7 @@ def price_extractor(descList):
 # Second, the extraction of the date
 def date_extractor(descList, input_dict):
     """
-    TODO: extend the algorithm to the full dates (day and month if possible)
+    TODO: extend the algorithm to the full dates (day and month if possible): in progress
     TODO: find a way to manage the revolutionnary calendar ("30 pluviôse an XIII")
     :param descList: the list containing all of the tei:desc
     :param input_dict: the dictionnary containing the data previously extracted (at this moment, only the price)
@@ -59,8 +63,13 @@ def date_extractor(descList, input_dict):
     for item in descList:
         id = item[1]
         desc = item[0]
-        pattern_date_0 = re.compile(".*(1[5-9][0-9][0-9]).*") # we search for any series of four digits
+
+        pattern_date_0 = re.compile(".*(1[0-9][0-9][0-9]).*") # we search for any series of four digits
+        pattern_republican_calendar = re.compile(".*\san\s[IVX].*") # we search for any hint of the republican calendar (in
+        # general, "an" and a year in roman)
         dict_values = {"desc": input_dict[id].get("desc")}
+
+        # We start with the extraction of the traditional date information (using the gregorian calendar system)
         if pattern_date_0.match(desc):
             # on va tokéniser avec la virgule comme délimiteur.
             tokenizedDesc = desc.split(",")
@@ -73,25 +82,50 @@ def date_extractor(descList, input_dict):
             for elem in newList:
                 if pattern_date_0.match(elem):
                     newList = elem
-            newList = re.split("(1[5-9][0-9][0-9])", newList)
+            newList = re.split("(1[0-9][0-9][0-9])", newList) # we split the string by the date, keeping it
             newList = newList[:-1]
             newList = ' '.join([str(elem) for elem in newList])
             newList = newList.split(":")
             for elem in newList:
                 if pattern_date_0.match(elem):
                     newList = elem
+            newList = newList.split("«")
+            for elem in newList:
+                if pattern_date_0.match(elem):
+                    newList = elem
             newList = re.sub(r'\s+', ' ', newList)
             newList = re.sub(r'\(', '', newList)
-            newList = re.sub(r'^\s+', '', newList)
-            date = re.sub(r'L\. a\. s\.', '', newList)
-
-
+            newList = re.sub(r'L\. a\. s\.', '', newList)
+            date = re.sub(r'^\s', '', newList)
+            newpattern = re.compile("^1[0-9][0-9][0-9]$")
+            # print(date)
+            if newpattern.match(date):
+                pass
+            else:
+                parsed_date = dateparser.date.DateDataParser().get_date_data(u'%s' % date)
+                if parsed_date["date_obj"] is None:
+                    date = re.search(r"1[0-9][0-9][0-9]", date).group(0)
+                else:
+                    if parsed_date["period"] == "month": # get the precision of the date
+                        date = parsed_date["date_obj"].strftime('%Y-%m')
+                    elif parsed_date["period"] == "year":
+                        date = parsed_date["date_obj"].strftime('%Y')
+                    else:
+                        date = parsed_date["date_obj"].strftime('%Y-%m-%d')
 
             print("%s: %s [%s]" % (id, date, desc))
-
             dict_values["price"] = input_dict[id].get("price")
             dict_values["date"] = date
             output_dict[id] = dict_values
+
+        elif pattern_republican_calendar.match(desc):
+            date = conversion.main(desc)
+            dict_values["price"] = input_dict[id].get("price")
+            dict_values["date"] = date
+            output_dict[id] = dict_values
+
+
+
         else:
             dict_values["price"] = input_dict.get(id).get("price")
             dict_values["date"] = "none"
@@ -145,6 +179,8 @@ def clean_text(input_text):
     input_text = re.sub(r'-$', '', input_text)
     input_text = re.sub('\n', ' ', input_text)
     input_text = re.sub('\s+', ' ', input_text)
+    input_text = re.sub('\(', '', input_text)
+    input_text = re.sub('\)', '', input_text)
     input_text = re.sub('«$', '', input_text)
     input_text = re.sub('»$', '', input_text)
     output_text = re.sub('\s+$', '', input_text)
