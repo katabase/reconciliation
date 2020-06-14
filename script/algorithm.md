@@ -60,4 +60,38 @@ d'Alençon, avec ses armoiries)
     "price": "none",
     "date": "none"
   },
-
+ -   "CAT_000025_e75": {
+    "desc": "L. a. s. aux administrateurs du district de Boulogne ; Calais, 15 frim. an 2, 2 p. in-4. 20",
+    "price": "20",
+    "date": "none"
+  }, [fixed]
+ -   "CAT_000123_e216": {
+    "desc": "L. a. s., Paris, 26 vendémiaire an XI, 1 p. in-4. 10",
+    "price": "10",
+    "date": "none"
+  }, [fixed: vendémiaire is more than 10 characters long]
+-   "CAT_000138_e229": {
+    "desc": "L. a. s., en français, au citoyen Le Roux; Paris, 21 nivôse an II 10 janvier 1794, 3 p. in-8. 12",
+    "price": "12",
+    "date": "1794"
+  },
+-   "CAT_000025_e35": {
+    "desc": "L. a. s. au citoyen Flaminius Aquaronc; Toulon, 6 vent, an XI, 1 p. in-8. 10",
+    "price": "10",
+    "date": "none"
+  }, [fixed]
+-   "CAT_000046_e119": {
+    "desc": "L. aut. sig. de ses initiales à l'imprimeur Agasse; 3 ventôse, 3 p. pl. in-4. 6",
+    "price": "6",
+    "date": "none"
+  },
+-   "CAT_000046_e136": {
+    "desc": "L. a. s. Jacques Sutamier, à la duchesse de Saxe-Gotha; Nyon, au pays de Vaud, 15 fév., 4 p. pl. in-4. 50",
+    "price": "50",
+    "date": "none"
+  },
+-   "CAT_000104_e192": {
+    "desc": "Pièce sig. sur vélin ; Nancy, 27 mars 1488 1489, 1 p. in-4 obl. 40",
+    "date": "1488",
+    "price": "40"
+  },
