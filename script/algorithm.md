@@ -95,3 +95,11 @@ d'Alençon, avec ses armoiries)
     "date": "1488",
     "price": "40"
   },
+  
+  
+## Issues with the extraction of number of pages
+  "CAT_000100_e32": {
+    "desc": "Let. sig. ; Lyon, 1850, 3/4 de p. in-4. 2",
+    "date": "1850",
+    "price": "2"
+  },

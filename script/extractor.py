@@ -5,9 +5,23 @@ import re
 import json
 import dateparser
 import datetime
-import conversion
+import date_conversion
 from dateparser.search import search_dates
 from lxml import etree
+
+fractions_to_float = {
+    "I": 1,
+    "II": 2,
+    "III": 3,
+    "IV": 4,
+    "V": 5,
+    "XXXIII": 33,
+    "1/2": 0.5,
+    "1/4": 0.25,
+    "3/4": 0.75,
+    "1/3": 0.33,
+    "2/3": 0.66
+}
 
 
 # First step: extraction of the price
@@ -123,14 +137,14 @@ def date_extractor(descList, input_dict):
                 pass
             else:
                 parsed_date = dateparser.date.DateDataParser().get_date_data(u'%s' % date)
-                if parsed_date["date_obj"] is None: # if it doesn't work, we select the YYYY string.
+                if parsed_date["date_obj"] is None:  # if it doesn't work, we select the YYYY string.
                     date = re.search(r"1[0-9][0-9][0-9]", date).group(0)
                 else:
                     # We get the precision of the date: dateparser will autocomplete
                     # the date using the current date if it has only the month. That is not what we want.
                     if parsed_date["period"] == "month":
                         date = parsed_date["date_obj"].strftime('%Y-%m')
-                    elif parsed_date["period"] == "year": # this statement should never be true
+                    elif parsed_date["period"] == "year":  # this statement should never be true
                         date = parsed_date["date_obj"].strftime('%Y')
                     else:
                         date = parsed_date["date_obj"].strftime('%Y-%m-%d')
@@ -139,7 +153,7 @@ def date_extractor(descList, input_dict):
         # If we do not match a gregorian year string (YYYY), but a republican year string ('an V', for instance),
         # we convert the republican date
         elif republican_calendar_pattern.match(desc):
-            date = conversion.main(desc)
+            date = date_conversion.main(desc)
             dict_values["date"] = date
         else:
             dict_values["date"] = "none"
@@ -149,6 +163,56 @@ def date_extractor(descList, input_dict):
         output_dict[id] = dict_values
 
     return output_dict
+
+def isInt(string):
+    try:
+        int(string)
+        return True
+    except:
+        return False
+
+
+def pn_extractor(descList, input_dict):
+    page_number_pattern = re.compile(".*[0-9\/]{0,4} p\s?[0-9\/]{0,3}.*")
+    for item in descList:
+        id = item[1]
+        desc = item[0]
+        desc = desc.translate({ord(','): ord(' '), ord('.'): ord(' ')})
+        desc = re.sub(r"\s+", " ", desc)
+        desc = desc.replace("p/", "p")
+        dict_values = {"desc": input_dict[id].get("desc")}
+        if page_number_pattern.match(desc):
+            pn_search = re.search("([IVXivx0-9\/]{0,6}) p\s?([0-9\/]{0,3})", desc)
+            print(id + ": " + desc + ": " + pn_search.group(1) + pn_search.group(2))
+            if pn_search.groups()[1] == '': # if the second group is empty
+                page_number = pn_search.group(1)
+            else:
+                if isInt(pn_search.group(1)):
+                    value_1 = int(pn_search.group(1))
+                else:
+                    value_1 = fractions_to_float[pn_search.group(1)]
+                if isInt(pn_search.group(2)):
+                    value_2 = int(pn_search.group(2))
+                else:
+                    value_2 = fractions_to_float[pn_search.group(2)]
+                page_number = float(value_1) + float(value_2)
+        dict_values["number_of_pages"] = page_number
+        dict_values["date"] = input_dict.get(id).get("date")
+        dict_values["price"] = input_dict.get(id).get("price")
+        output_dict[id] = dict_values
+    return input_dict
+
+
+def format_extractor(descList, input_dict):
+    for item in descList:
+        id = item[1]
+        desc = item[0]
+        dict_values["format"] = ms_format
+        dict_values["number_of_pages"] = input_dict.get(id).get("number_of_pages")
+        dict_values["date"] = input_dict.get(id).get("date")
+        dict_values["price"] = input_dict.get(id).get("price")
+        output_dict[id] = dict_values
+    return input_dict
 
 
 def no_price_trigger():
@@ -217,11 +281,14 @@ if __name__ == "__main__":
     no_price = 0
     no_date = 0
     list_desc = conversion_to_list("../../Data/*.xml")
-    print("Total number of tei:desc elements: %s" % len(list_desc))
+    # print("Total number of tei:desc elements: %s" % len(list_desc))
     output_dict = price_extractor(list_desc)
-    print("Lenght of the dictionnary (prices): %s" % len(output_dict.keys()))
+    # print("Lenght of the dictionnary (prices): %s" % len(output_dict.keys()))
     output_dict = date_extractor(list_desc, output_dict)
-    print("Lenght of the dictionnary (prices + dates): %s" % len(output_dict))
+    # print("Lenght of the dictionnary (prices + dates): %s" % len(output_dict))
+    output_dict = pn_extractor(list_desc, output_dict)
+    # output_dict = format_extractor(list_desc, output_dict)
+
     with open('../json/export.json', 'w') as outfile:
         outfile.truncate(0)
         json.dump(output_dict, outfile)
