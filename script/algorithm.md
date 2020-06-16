@@ -103,3 +103,9 @@ d'Alençon, avec ses armoiries)
     "date": "1850",
     "price": "2"
   },
+    "CAT_000133_e31": {
+    "desc": "Let. sig. avec la souscript. aut. à M. de Brosses, bailly de Gex ; Chamy, 21 nov. 1639, 3/4 de p. 30",
+    "number_of_pages": "",
+    "date": "1639-11-21",
+    "price": "30"
+  },

@@ -5,23 +5,12 @@ import re
 import json
 import dateparser
 import datetime
-import date_conversion
+import rep_greg_conversion
+from conversion_tables import *
 from dateparser.search import search_dates
 from lxml import etree
 
-fractions_to_float = {
-    "I": 1,
-    "II": 2,
-    "III": 3,
-    "IV": 4,
-    "V": 5,
-    "XXXIII": 33,
-    "1/2": 0.5,
-    "1/4": 0.25,
-    "3/4": 0.75,
-    "1/3": 0.33,
-    "2/3": 0.66
-}
+
 
 
 # First step: extraction of the price
@@ -153,7 +142,7 @@ def date_extractor(descList, input_dict):
         # If we do not match a gregorian year string (YYYY), but a republican year string ('an V', for instance),
         # we convert the republican date
         elif republican_calendar_pattern.match(desc):
-            date = date_conversion.main(desc)
+            date = rep_greg_conversion.main(desc)
             dict_values["date"] = date
         else:
             dict_values["date"] = "none"
@@ -172,6 +161,15 @@ def isInt(string):
         return False
 
 
+def is_roman(value):
+    try:
+        value in roman_to_arabic.keys()
+        value = roman_to_arabic[value]
+        return value
+    except:
+        return value
+
+
 def pn_extractor(descList, input_dict):
     page_number_pattern = re.compile(".*[0-9\/]{0,4} p\s?[0-9\/]{0,3}.*")
     for item in descList:
@@ -181,21 +179,35 @@ def pn_extractor(descList, input_dict):
         desc = re.sub(r"\s+", " ", desc)
         desc = desc.replace("p/", "p")
         dict_values = {"desc": input_dict[id].get("desc")}
+        page_number = "not yet"
         if page_number_pattern.match(desc):
             pn_search = re.search("([IVXivx0-9\/]{0,6}) p\s?([0-9\/]{0,3})", desc)
-            print(id + ": " + desc + ": " + pn_search.group(1) + pn_search.group(2))
-            if pn_search.groups()[1] == '': # if the second group is empty
-                page_number = pn_search.group(1)
-            else:
+            first_group = pn_search.group(1)
+            second_group = pn_search.group(2)
+            if pn_search.groups()[1] == '': # if the second group is empty, there is no fraction
+                if first_group != '':
+                    if isInt(first_group):
+                        pass
+                    else:
+                        page_number = int(fractions_to_float[first_group])
+            elif pn_search.groups()[0] != '' and pn_search.groups()[1] != '':
                 if isInt(pn_search.group(1)):
                     value_1 = int(pn_search.group(1))
                 else:
-                    value_1 = fractions_to_float[pn_search.group(1)]
+                    value_1 = is_roman(pn_search.group(1)) # the price
+                    # can be in roman numbers
+                    if isInt(value_1):
+                        pass
+                    else:
+                        value_1 = fractions_to_float[value_1]
                 if isInt(pn_search.group(2)):
                     value_2 = int(pn_search.group(2))
                 else:
-                    value_2 = fractions_to_float[pn_search.group(2)]
+                    value_2 = fractions_to_float[second_group]
                 page_number = float(value_1) + float(value_2)
+            else:
+                page_number = "TBD"
+        print("%s: ; desc: %s; p1: [%s] p2: [%s]. pn: %s" % (id, desc, pn_search.group(1), pn_search.group(2), page_number))
         dict_values["number_of_pages"] = page_number
         dict_values["date"] = input_dict.get(id).get("date")
         dict_values["price"] = input_dict.get(id).get("price")
