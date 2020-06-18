@@ -15,7 +15,7 @@ from lxml import etree
 def price_extractor(descList):
     """
     Extracts the prices of the manuscripts sold and described in the tei:desc.
-    TODO: fix the problem of inconsistency between the lenght of the input list and the lenght of the output dict
+    TODO: fix the problem of inconsistency between the length of the input list and the length of the output dict
     :param descList: the list containing all of the tei:desc
     :return: a dict with the ids as keys, and value another dict with the prices
     """
@@ -59,16 +59,19 @@ def price_extractor(descList):
             start_position = position[0]
             end_position = position[1]
         else:
-            price = "none"
+            price = None
             no_price_trigger()
             start_position = None
             end_position = None
         dict_values["price"] = price
         if start_position and end_position:
-            desc_xml = "%s<measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"%s\" type=\"price\">%s</measure>%s" \
+            desc_xml = "%s<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 quantity=\u0022%s\u0022 " \
+                       "type=\u0022price\u0022>%s</measure>%s" \
                        % (desc[:start_position], price, desc[start_position:end_position], desc[end_position:])
             if isInt(dict_values["price"]):  # we convert the given price to integers
                 dict_values["price"] = int(dict_values["price"])
+        else:
+            desc_xml = desc # to avoid using the variable corresponding to the previous entry
         dict_values["desc_xml"] = desc_xml
         output_dict[id] = dict_values
         item[0] = desc_xml
@@ -92,7 +95,7 @@ def date_extractor(descList, input_dict):
         republican_calendar_pattern = re.compile(
             ".*\san ([XIVxiv]{1,4}|[0-9]{1,2}).*")  # we search for any hint of the republican calendar (in
         # general, "an" and a year in roman)
-        dict_values = {"desc": input_dict[id].get("desc")}
+        dict_values = input_dict[id]
 
         # Let's extract the gregorian calendar dates.
         # Example: "Pièce de vers aut. sig. sig. aussi par sa femme Caroline Vanhove: 18 janvier 1798, 1 p. in-8 obl. 22"
@@ -102,9 +105,9 @@ def date_extractor(descList, input_dict):
             # ['Pièce de vers aut. sig. sig. aussi par sa femme Caroline Vanhove: 18 janvier 1798', ' 1 p. in-8 obl. 22']
             tokenizedDesc = desc.split(",")
             string_list = []
-            for item in tokenizedDesc:
-                if loose_gregorian_calendar_pattern.match(item):
-                    string_list.append(item)
+            for tok_item in tokenizedDesc:
+                if loose_gregorian_calendar_pattern.match(tok_item):
+                    string_list.append(tok_item)
             # we can reduce the list to its last element: it will contain the date, as (usually) there is only a
             # single date:
             # ['Pièce de vers aut. sig. sig. aussi par sa femme Caroline Vanhove: 18 janvier 1798']
@@ -140,13 +143,20 @@ def date_extractor(descList, input_dict):
             # And eventually we can extract the date as a string to process it
             date = re.sub(r'^\s', '', date_string)
 
-            gregorian_calendar_pattern = re.compile("^1[0-9][0-9][0-9]$")  # this pattern matches strings that contains
+
+            gregorian_year_pattern = re.compile("^1[0-9][0-9][0-9]$")  # this pattern matches strings that contains
             # only a year
 
             # If the date is a year and nothing else, no need to process it.
-            if gregorian_calendar_pattern.match(date):
-                pass
+            if gregorian_year_pattern.match(date):
+                date_range = re.search(date, desc).span()
+                start_position = date_range[0]
+                end_position = date_range[1]
+                desc_xml = "%s<date xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 when=\u0022%s\u0022>%s</date>%s" \
+                           % (desc[:start_position], date, desc[start_position:end_position],
+                              desc[end_position:])
             else:
+                split_date = date.replace("(", "").replace(")", "").replace("[", "").split(" ")
                 parsed_date = dateparser.date.DateDataParser().get_date_data(u'%s' % date)
                 if parsed_date["date_obj"] is None:  # if it doesn't work, we select the YYYY string.
                     date = re.search(r"1[0-9][0-9][0-9]", date).group(0)
@@ -159,37 +169,52 @@ def date_extractor(descList, input_dict):
                         date = parsed_date["date_obj"].strftime('%Y')
                     else:
                         date = parsed_date["date_obj"].strftime('%Y-%m-%d')
+                search = re.search("%s.*%s" % (split_date[0], split_date[-1]), desc)
+                date_range = search.span()
+                start_position = date_range[0]
+                end_position = date_range[1]
+                desc_xml = "%s<date xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 date=\u0022%s\u0022 type=\u0022length\u0022>%s</date>%s" \
+                           % (desc[:start_position], date, desc[start_position:end_position],
+                              desc[end_position:])
             dict_values["date"] = date
 
         # If we do not match a gregorian year string (YYYY), but a republican year string ('an V', for instance),
         # we convert the republican date
         elif republican_calendar_pattern.match(desc):
-            date = rep_greg_conversion.main(desc)
+            date, start_position, end_position = rep_greg_conversion.main(desc)
+            if start_position and end_position:
+                desc_xml = "%s<date xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 date=\u0022%s\u0022 type=\u0022length\u0022>%s</date>%s" \
+                           % (desc[:start_position], date, desc[start_position:end_position],
+                              desc[end_position:])
+                dict_values["desc_xml"] = desc_xml
+            else:
+                desc_xml = input_dict[id].get("desc_xml")
             dict_values["date"] = date
         else:
-            dict_values["date"] = "none"
+            dict_values["date"] = None
             no_date_trigger()
-
-        dict_values["price"] = input_dict.get(id).get("price")
-        dict_values["desc_xml"] = input_dict.get(id).get("desc_xml")
+            desc_xml = input_dict[id].get("desc_xml")
         output_dict[id] = dict_values
+        item[0] = desc_xml
     return output_dict
 
 
 def isInt(string):
     try:
         int(string)
-        return True
+        result = isinstance(int(string), int)
     except:
-        return False
+        result = False
+    return result
 
 
 def is_float(string):
     try:
         float(string)
-        return True
+        result = isinstance(float(string), float)
     except:
-        return False
+        result = False
+    return result
 
 
 def is_roman(value):
@@ -209,78 +234,78 @@ def pn_extractor(descList, input_dict):
         id = item[1]
         desc = item[0]
         desc = clean_text(desc)
-        print("%s: %s" % (id, desc))
-        # desc = desc.translate({ord(','): ord(' ')})
         desc = re.sub(r"\s+", " ", desc)
         desc = desc.replace("p/", "p")
-        dict_values = {"desc": input_dict[id].get("desc")}
-        page_number = ""
+        dict_values = input_dict[id]
+        page_number = None
+        groups = ""
         if re.search(page_number_pattern, desc):
-            print(re.search(page_number_pattern, desc).groups())
-            print(re.search(page_number_pattern, desc).span())
             position_chaîne = re.search(page_number_pattern, desc).span()
             pn_search = re.search(page_number_pattern, desc)
+            groups = pn_search.groups()
             first_group = pn_search.group(1)
             second_group = pn_search.group(2)
             if second_group == "":  # if the second group is empty, there is no fraction
                 if first_group != "":
                     if isInt(is_roman(first_group.upper())):
-                        print("it is an integer")
-                        page_number = is_roman(first_group.upper())
+                        page_number = int(is_roman(first_group.upper()))
+                        path = 1
                     else:
-                        print("it is NOT an integer")
                         try:
                             page_number = fractions_to_float[first_group]
+                            path = 2
                         except:
                             page_number = "key error, please check the transcription: %s" % first_group
-                        print(page_number)
+                            path = 3
             elif first_group != "" and second_group != "":
                 if isInt(first_group):
                     value_1 = int(first_group)
+                    path = 4
                 else:
                     value_1 = is_roman(first_group.upper())  # the price
                     # can be in roman numbers
+                    path = 5
                     if isInt(value_1):
+                        path = 6
                         pass
                     else:
                         try:
                             value_1 = fractions_to_float[value_1]
+                            path = 7
                         except:
                             value_1 = 501
+                            path = 8
                 if isInt(second_group):
                     value_2 = int(second_group)
+                    path = 9
                 else:
                     try:
                         value_2 = fractions_to_float[second_group]
+                        path = 10
                     except:
                         value_2 = 404
+                        path = 11
                 page_number = float(value_1) + float(value_2)
             else:
-                page_number = first_group
+                page_number = None
+                path = 12
         elif pattern_fraction.match(desc):
             search = re.search("([0-9\s?\/]{0,6})\s?de\s?p\.?", desc)
             page_number = fraction_to_float[search.group(1)]
-        print(page_number)
-        if isInt(page_number):
-            page_number = int(page_number)
-        elif page_number == "":
-            page_number = "none"
-        elif is_float(page_number):
-            page_number = float(page_number)
+
+        if page_number != None:
+            starting_position = position_chaîne[0]
+            ending_position = position_chaîne[1]
+            desc_xml = "%s<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 quantity=\u0022%s\u0022 type=\u0022length\u0022>%s</measure>%s" \
+                       % (desc[:starting_position], page_number, desc[starting_position:ending_position],
+                          desc[ending_position:])
         else:
-            page_number = "probably an error"
-        # print("%s: ; desc: %s; p1: [%s] p2: [%s]. pn: %s" % (id, desc, first_group, second_group, page_number))
-        starting_position = position_chaîne[0]
-        ending_position = position_chaîne[1]
-        desc_xml = "%s<measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"%s\" type=\"lenght\">%s</measure>%s" \
-                   % (desc[:starting_position], page_number, desc[starting_position:ending_position],
-                      desc[ending_position:])
+            desc_xml = input_dict[id].get("desc_xml")
         dict_values["desc_xml"] = desc_xml
         dict_values["number_of_pages"] = page_number
-        dict_values["date"] = input_dict.get(id).get("date")
-        dict_values["price"] = input_dict.get(id).get("price")
         output_dict[id] = dict_values
         item[0] = desc_xml
+        print(desc_xml)
     return input_dict
 
 
@@ -336,15 +361,8 @@ def clean_text(input_text):
     :param text: any string
     :return: the cleaned string
     """
-    # input_text = re.sub('	', ' ', input_text)
-    # input_text = re.sub(r'\.$', '', input_text)
-    # input_text = re.sub(r'-$', '', input_text)
     input_text = re.sub('\n', ' ', input_text)
     input_text = re.sub('\s+', ' ', input_text)
-    # input_text = re.sub('\(', '', input_text)
-    # input_text = re.sub('\)', '', input_text)
-    # input_text = re.sub('«$', '', input_text)
-    # input_text = re.sub('»$', '', input_text)
     output_text = re.sub('\s+$', '', input_text)
     return output_text
 
@@ -352,7 +370,8 @@ def clean_text(input_text):
 def conversion_to_list(path):
     final_list = []
     for xml_file in glob.iglob(path):
-        for desc_element in desc_extractor(xml_file):
+        for desc_element in desc_extractor(xml_file)[:10]: # we select only the 10 first entries to speed up
+            # processing (to be deleted)
             final_list.append(desc_element)
     return final_list
 
@@ -361,11 +380,8 @@ if __name__ == "__main__":
     no_price = 0
     no_date = 0
     list_desc = conversion_to_list("../../Data/*.xml")
-    # print("Total number of tei:desc elements: %s" % len(list_desc))
     output_dict = price_extractor(list_desc)
-    # print("Lenght of the dictionnary (prices): %s" % len(output_dict.keys()))
     output_dict = date_extractor(list_desc, output_dict)
-    # print("Lenght of the dictionnary (prices + dates): %s" % len(output_dict))
     output_dict = pn_extractor(list_desc, output_dict)
     # output_dict = format_extractor(list_desc, output_dict)
 
@@ -375,5 +391,4 @@ if __name__ == "__main__":
     print("Number of entries without price: %s" % str(no_price))
     print("Number of entries without date: %s" % str(no_date))
 
-# mode texte : position + longueur, et gérer le namespace avec des xmlns pour chaque element
-# reconstruire le xml
+
