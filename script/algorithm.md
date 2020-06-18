@@ -152,4 +152,23 @@ d'Alençon, avec ses armoiries)
     "desc_xml": "Pièce sig., sig. auss<measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"1\" type=\"length\">i p</measure>ar Laplaïgne; thermidor <date xmlns=\"http://www.tei-c.org/ns/1.0\" date=\"1794-1795\" type=\"length\">an III</date>, 1 p. 1/2 in-fol., tête imp. <measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"10\" type=\"price\">10</measure>",
     "date": "1794-1795",
     "number_of_pages": 1
-  }, [revoir l'identification des dates républicaines]
+  }, [revoir l'identification des dates républicaines; mais dans ces dates partielles pour l'instant le mois n'est pas pris en compte]
+    "CAT_000074_e7": {
+    "desc": "Let. sig., avec la souscript. et un post-script, de 6 lignes aut., à M. de Rambouillet ; Lyon, 12 octobre 1574, 1 p. in-fol. Deux petites déchirures dans le texte. 20",
+    "price": 20,
+    "desc_xml": "Let. sig., avec la souscr<measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"1\" type=\"length\">ip</measure>t. et un post-script, de 6 lignes aut., à M. de Rambouillet ; Lyon, <date xmlns=\"http://www.tei-c.org/ns/1.0\" date=\"1574-10-12\" type=\"length\">12 octobre 1574</date>, 1 p. in-fol. Deux petites déchirures dans le texte. <measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"20\" type=\"price\">20</measure>",
+    "date": "1574-10-12",
+    "number_of_pages": 1
+  },
+   "CAT_000077_e7": {
+    "desc": "Let. sig., avec la souscript. aut., comme cardinal, à Albergati Capacelli; Ancône, 1731, 3/4 de p. in-4. 10",
+    "price": 10,
+    "desc_xml": "Let. sig., avec la souscr<measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"1\" type=\"length\">ip</measure>t. aut., comme cardinal, à Albergati Capacelli; Ancône, <date xmlns=\"http://www.tei-c.org/ns/1.0\" when=\"1731\">1731</date>, 3/4 de p. in-4. <measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"10\" type=\"price\">10</measure>",
+    "date": "1731",
+    "groups": [
+      "i",
+      ""
+    ],
+    "path": 1,
+    "number_of_pages": 1
+  },
