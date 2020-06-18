@@ -169,7 +169,7 @@ def date_extractor(descList, input_dict):
             else:
                 date_path = 3
                 split_date = date.replace("(", "").replace(")", "").replace("[", "").split(" ")
-                date_string = " ".join(split_date)
+
                 parsed_date = dateparser.date.DateDataParser().get_date_data(u'%s' % date)
                 if parsed_date["date_obj"] is None:  # if it doesn't work, we select the YYYY string.
                     date_path = 4
@@ -186,24 +186,8 @@ def date_extractor(descList, input_dict):
                     else:
                         date = parsed_date["date_obj"].strftime('%Y-%m-%d')
                 print("split date: %s; id: %s" % (split_date, id))
-                if split_date[0] == "": # if we have only a year, the result of the split can be ['', 'YYYY']
-                    search = re.search("%s" % split_date[-1], desc)
-                elif split_date[0] == ".":
-                    search = re.search("%s" % split_date[-1], desc)
-                else:
-                    print(date_string)
-                    search = re.search(date_string, desc)
-                print(desc)
-                date_range = search.span()
-                start_position = date_range[0]
-                end_position = date_range[1]
-                desc_xml = "%s<date " \
-                           "xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 date=\u0022%s\u0022 " \
-                           "type=\u0022length\u0022>%s</date>%s" \
-                           % (desc[:start_position], date, desc[start_position:end_position],
-                              desc[end_position:])
+
             print(desc_xml)
-            dict_values["date_range"] = date_range
             dict_values["date_path"] = date_path
             dict_values["date"] = date
 
@@ -225,7 +209,7 @@ def date_extractor(descList, input_dict):
             dict_values["date"] = None
             no_date_trigger()
             desc_xml = input_dict[id].get("desc_xml")
-        dict_values["date_range"] = date_range
+        # dict_values["date_range"] = date_range
         output_dict[id] = dict_values
         item[0] = desc_xml
     return output_dict
@@ -418,20 +402,34 @@ def conversion_to_list(path):
 
 
 def xml_output_production(dict):
-    with open("output.xml", 'w') as fichier:
-        tei_namespace = "http://www.tei-c.org/ns/1.0"
-        tei = "{%s}" % tei_namespace
-        NSMAP0 = {None: tei_namespace}  # the default namespace (no prefix)
-        NSMAP1 = {'tei': tei_namespace}  # pour la recherche d'éléments avec la méthode xpath
-        root = etree.Element(tei + "root", nsmap=NSMAP0)  # https://lxml.de/tutorial.html#namespaces
-        root = ElementTree.Element("root")
-        #  https://stackoverflow.com/questions/7703018/how-to-write-namespaced-element-attributes-with-lxml
-        for key in dict:
-            d = dict[key]["desc_xml"]
-            print(d)
-            c = ElementTree.XML(d)
-            root.append(c)
-        ElementTree.dump(root)
+    tei_namespace = "http://www.tei-c.org/ns/1.0"
+    tei = "{%s}" % tei_namespace
+    NSMAP0 = {None: tei_namespace}  # the default namespace (no prefix)
+    NSMAP1 = {'tei': tei_namespace}  # pour la recherche d'éléments avec la méthode xpath
+    root = etree.Element(tei + "root", nsmap=NSMAP0)  # https://lxml.de/tutorial.html#namespaces
+    ElementTree.register_namespace("", tei_namespace)
+    root = ElementTree.XML("<TEI xmlns=\"http://www.tei-c.org/ns/1.0\"/>") # https://stackoverflow.com/a/22411515
+    #  https://stackoverflow.com/questions/7703018/how-to-write-namespaced-element-attributes-with-lxml
+    for key in dict:
+        input_info = key.split("_")
+        file = "%s_%s.xml" % (input_info[0], input_info[1])
+        item = input_info[2].split("e")[-1]
+        print(file)
+        print(item)
+        desc_string = dict[key]["desc_xml"].replace("&", "&amp;")
+        desc_element = ElementTree.XML(desc_string)
+        root.append(desc_element)
+        file = "../../Data/%s" % file
+        with open(file, 'r+') as fichier:
+            tei2 = {'tei': 'http://www.tei-c.org/ns/1.0'}
+            f = etree.parse(fichier)
+            root2 = f.getroot()
+            desc2 = root2.xpath("//tei:item[@n=\'%s\']/tei:desc" % item, namespaces=tei2)
+            print(desc2)
+
+
+    tree = ET.ElementTree(root)
+    tree.write("output/output.xml", encoding="utf-8")
 
 
 
@@ -443,7 +441,7 @@ if __name__ == "__main__":
     output_dict = date_extractor(list_desc, output_dict)
     output_dict = pn_extractor(list_desc, output_dict)
     # output_dict = format_extractor(list_desc, output_dict)
-    # xml_output_production(output_dict)
+    xml_output_production(output_dict)
 
     with open('../json/export.json', 'w') as outfile:
         outfile.truncate(0)

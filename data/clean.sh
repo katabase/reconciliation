@@ -33,12 +33,12 @@ if [ -f "$f" ]
   then
     b=$(basename ${f} .xml)
     #Getting rid of TEI namespace
-    sed -i "" 's/xmlns=\"http\:\/\/www\.tei-c\.org\/ns\/1\.0"//g' ${f};
+    sed -i 's/xmlns=\"http\:\/\/www\.tei-c\.org\/ns\/1\.0"//g' ${f};
     #Applying XSLT
     java -jar _transformation/saxon9he.jar -o:${b}_new.xml ${f} _transformation/cleanDesc.xsl;
     #Re-introducing TEI namespace
-    sed -i "" 's/<TEI /<TEI xmlns=\"http\:\/\/www\.tei-c\.org\/ns\/1\.0\" /g' ${f};
-    sed -i "" 's/<TEI /<TEI xmlns=\"http\:\/\/www\.tei-c\.org\/ns\/1\.0\" /g' ${b}_new.xml ;
+    sed -i 's/<TEI /<TEI xmlns=\"http\:\/\/www\.tei-c\.org\/ns\/1\.0\" /g' ${f};
+    sed -i 's/<TEI /<TEI xmlns=\"http\:\/\/www\.tei-c\.org\/ns\/1\.0\" /g' ${b}_new.xml ;
     #Create/add to folder
     mkdir -p Data_clean;
     mv ${b}_new.xml Data_clean;
@@ -51,12 +51,12 @@ else [ -d "$d" ]
       #then
         b=$(basename "$f" .xml)
         #Getting rid of TEI namespace
-        sed -i "" 's/xmlns=\"http\:\/\/www\.tei-c\.org\/ns\/1\.0"//g' ${f};
+        sed -i 's/xmlns=\"http\:\/\/www\.tei-c\.org\/ns\/1\.0"//g' ${f};
         #Applying XSLT
         java -jar _transformation/saxon9he.jar -o:${b}_clean.xml ${f} _transformation/cleanDesc.xsl;
         #Re-introducing TEI namespace
-        sed -i "" 's/<TEI /<TEI xmlns=\"http\:\/\/www\.tei-c\.org\/ns\/1\.0\" /g' ${f};
-        sed -i "" 's/<TEI /<TEI xmlns=\"http\:\/\/www\.tei-c\.org\/ns\/1\.0\" /g' ${b}_clean.xml ;
+        sed -i 's/<TEI /<TEI xmlns=\"http\:\/\/www\.tei-c\.org\/ns\/1\.0\" /g' ${f};
+        sed -i 's/<TEI /<TEI xmlns=\"http\:\/\/www\.tei-c\.org\/ns\/1\.0\" /g' ${b}_clean.xml ;
         #Move to folder
         mv ${b}_clean.xml ${d}_clean;
       #fi

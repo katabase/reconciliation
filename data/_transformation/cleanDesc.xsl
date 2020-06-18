@@ -56,6 +56,7 @@
             <phrase input=" in([0-9]+)\." output=" in-$1."/>
             <phrase input=" in([0-9]+)," output=" in-$1,"/>
             <phrase input=" in([0-9]+);" output=" in-$1;"/>
+            <phrase input=" (\([0-9]+\))" output=" $1;"/>
             <phrase input=" inf " output=" in-f. "/>
             <phrase input=" inf$" output=" in-f."/>
             <phrase input=" inf," output=" in-f.,"/>
