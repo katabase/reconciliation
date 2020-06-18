@@ -1,4 +1,4 @@
-# Algorithm
+## Algorithm
 
 - First we have to clean the tei:desc elements. 
 - We start with the end of the string. We tokenize using the space as a delimiter. 
@@ -37,7 +37,7 @@ d'Alençon, avec ses armoiries)
     "desc": "L. a. s. à M. Perraut, à Lons-le-Saunier; Montaigu, 24 décembre, 1 p. in-8. 40",
     "price": "40",
     "date": "none"
-  }, 
+  }, [do we have to extract partial date information ? would it be useful ?]
 -  "CAT_000151_e138": {
     "desc": "L. a. s. à ses électeurs ; Paris, 1er oct. an Ier de de la République, 1 p. in-4. 25",
     "price": "25",
@@ -95,6 +95,13 @@ d'Alençon, avec ses armoiries)
     "date": "1488",
     "price": "40"
   },
+    "CAT_000001_e148": {
+    "desc": "Quittance aut. sig., de la somme de mille livres en l'acquit de M. le duc de Bouillon, etc. Paris, le 7 mai 1605. Demi-page in-folio.",
+    "price": "none",
+    "desc_xml": "Quittance aut. sig., de la somme de mille livres en l'acquit de M. le duc de Bouillon, etc. Paris, le 7 mai 1605. Demi-page in-folio.",
+    "date": "1605-05-07",
+    "number_of_pages": "none"
+  },
   
   
 ## Issues with the extraction of number of pages
@@ -103,9 +110,46 @@ d'Alençon, avec ses armoiries)
     "date": "1850",
     "price": "2"
   },
-    "CAT_000133_e31": {
+  "CAT_000133_e31": {
     "desc": "Let. sig. avec la souscript. aut. à M. de Brosses, bailly de Gex ; Chamy, 21 nov. 1639, 3/4 de p. 30",
-    "number_of_pages": "",
+    "price": 30,
+    "desc_xml": "Let. sig. avec la souscr<measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"1\" type=\"lenght\">ip</measure>t. aut. à M. de Brosses, bailly de Gex ; Chamy, <date xmlns=\"http://www.tei-c.org/ns/1.0\" date=\"1639-11-21\" type=\"lenght\">21 nov. 1639</date>, 3/4 de p. <measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"30\" type=\"price\">30</measure>",
     "date": "1639-11-21",
-    "price": "30"
+    "number_of_pages": 1
   },
+    "CAT_000100_e8": {
+    "desc": "Billet à ordre signé, 1846, in-8. Curieux. 8",
+    "price": 8,
+    "desc_xml": "Billet à <measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"none\" type=\"lenght\">ordr</measure>e signé, <date xmlns=\"http://www.tei-c.org/ns/1.0\" when=\"1846\">1846</date>, in-8. Curieux. <measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"8\" type=\"price\">8</measure>",
+    "date": "1846",
+    "number_of_pages": "none"
+  }, [fixed]
+    "CAT_000001_e148": {
+    "desc": "Quittance aut. sig., de la somme de mille livres en l'acquit de M. le duc de Bouillon, etc. Paris, le 7 mai 1605. Demi-page in-folio.",
+    "price": "none",
+    "desc_xml": "Quittance aut. sig., de la somme de mille livres en l'acquit de M. le duc de Bouillon, etc. Paris, le 7 mai 1605. Demi-page in-folio.",
+    "date": "1605-05-07",
+    "number_of_pages": "none"
+  },
+    "CAT_000143_e111": {
+    "desc": "L. a. s. au ministre Windham ; (Londres), 29 janv. 1794, 1/2 p. in-4. 50",
+    "price": 50,
+    "desc_xml": "L. a. s. au ministre Windham ; (Londres), <date xmlns=\"http://www.tei-c.org/ns/1.0\" date=\"1794-01-29\" type=\"lenght\">29 janv. 1794</date>, <measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"0\" type=\"lenght\">1/2 p. </measure>in-4. <measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"50\" type=\"price\">50</measure>",
+    "date": "1794-01-29",
+    "number_of_pages": 0
+  }, [fixed]
+    "CAT_000022_e5": {
+    "desc": "L. a. s., 1853. Spirituelle épître. 2 50",
+    "price": 50,
+    "desc_xml": "L. a. s., <date xm<measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"\" type=\"length\">lns=\"ht</measure>tp://www.tei-c.org/ns/1.0\" when=\"1853\">1853</date>. Spirituelle épître. 2 <measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"50\" type=\"price\">50</measure>",
+    "date": "1853",
+    "path": 2,
+    "number_of_pages": ""
+  },[big problem] [fixed]
+    "CAT_000138_e7": {
+    "desc": "Pièce sig., sig. aussi par Laplaïgne; thermidor an III, 1 p. 1/2 in-fol., tête imp. 10",
+    "price": 10,
+    "desc_xml": "Pièce sig., sig. auss<measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"1\" type=\"length\">i p</measure>ar Laplaïgne; thermidor <date xmlns=\"http://www.tei-c.org/ns/1.0\" date=\"1794-1795\" type=\"length\">an III</date>, 1 p. 1/2 in-fol., tête imp. <measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"10\" type=\"price\">10</measure>",
+    "date": "1794-1795",
+    "number_of_pages": 1
+  }, [revoir l'identification des dates républicaines]
