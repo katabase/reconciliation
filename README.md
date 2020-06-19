@@ -7,6 +7,7 @@ Manuscript sale catalogues propose list of manuscript for sale. A same manuscrip
 
 <img src="README/1894_05_RDA_N166_14_sev.jpeg" width="20%" align="left"><img src="README/1897_07_RDA_N200_16_sev.jpeg" width="30%" align="middle"><img src="README/1902_04_RDA_N257_13_sev.jpeg" width="30%" align="middle">
 
+
 Our objective is to detect similar entries.
 
 # 2. Workflow
