@@ -2,7 +2,7 @@
 
 Reconciliation of manuscript sale catalogues entries
 
-## Clean the data
+## 1. Clean the data
 
 Entries of catalogues look like the following:
 
@@ -25,7 +25,7 @@ The `clean-xml.py` script [available here](https://github.com/katabase/reconcili
   * `python clean-xml.py -f FILENAME` processes one single file
   * `python clean-xml.py -d DIRECTORY` processes all the files contained in a directory
 
-## Information retrieval in the `desc`
+## 2. Information retrieval in the `desc`
 
 We need to extract data from the `desc` and transform
 
@@ -57,8 +57,8 @@ into
 
 To carry this task we use the `extractor.py` [available here](https://github.com/katabase/reconciliation/tree/master/script).
 
-## Cite this repository
+### Cite this repository
 Matthias Gille Levenson and Simon Gabay (éd.), _Operation Reconciliation: Reconciliation of Manuscript Sale Catalogues Entries_, Genève: Université de Genève, Lyon: Ecole normale supérieure de Lyon, 2020, [https://github.com/katabase/Data](https://github.com/katabase/reconciliation).
 
-## Licence
+### Licence
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
