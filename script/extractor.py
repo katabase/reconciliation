@@ -341,13 +341,38 @@ def pn_extractor(descList, input_dict):
 
 
 def format_extractor(descList, input_dict):
+    print("Extracting format information")
     for item in descList:
         id = item[1]
         desc = item[0]
+        desc_xml = desc
+        ms_format = None
+        dict_values = input_dict[id]
+        format_simple_pattern = re.compile("(in-[0-9]{1,2}°?\.?\s?[obl]{0,3}\.?)")
+        format_simple_pattern2 = re.compile("(in-fol\.?\s?[obl]{0,3}\.?)")
+        if re.search(format_simple_pattern, desc):
+            format_search = re.search(format_simple_pattern, desc)
+            ms_format = format_search.group(1)
+            position = format_search.span()
+            start_position = position[0]
+            end_position = position[1]
+            desc_xml = "%s<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022" \
+                       " type=\u0022format\u0022>%s</measure>%s" \
+                       % (desc[:start_position], desc[start_position:end_position],
+                          desc[end_position:])
+        elif re.search(format_simple_pattern2, desc):
+            format_search = re.search(format_simple_pattern2, desc)
+            ms_format = format_search.group(1)
+            position = format_search.span()
+            start_position = position[0]
+            end_position = position[1]
+            desc_xml = "%s<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022" \
+                       " type=\u0022format\u0022>%s</measure>%s" \
+                       % (desc[:start_position], desc[start_position:end_position],
+                          desc[end_position:])
+
+        dict_values["desc_xml"] = desc_xml
         dict_values["format"] = ms_format
-        dict_values["number_of_pages"] = input_dict.get(id).get("number_of_pages")
-        dict_values["date"] = input_dict.get(id).get("date")
-        dict_values["price"] = input_dict.get(id).get("price")
         output_dict[id] = dict_values
     return input_dict
 
@@ -401,7 +426,7 @@ def clean_text(input_text):
 def conversion_to_list(path):
     final_list = []
     for xml_file in glob.iglob(path):
-        for desc_element in desc_extractor(xml_file):
+        for desc_element in desc_extractor(xml_file)[:10]:
             final_list.append(desc_element)
     return final_list
 
@@ -430,8 +455,7 @@ def xml_output_production(dictionnary):
             for desc in desc_list:
                 item_element = desc.getparent() # https://stackoverflow.com/questions/7474972/python-lxml-append
                 # -element-after-another-element
-                item_element.insert(item_element.index(desc)+1, etree.fromstring("<desc xmlns=\"http://www.tei-c.org/ns/1"
-                                                                             ".0\">%s</desc>" % desc_string))
+                item_element.insert(item_element.index(desc)+1, etree.fromstring("<desc xmlns=\"http://www.tei-c.org/ns/1\">%s</desc>" % desc_string))
                 item_element.remove(desc) # we remove the non processed tei:desc
 
             output_file = "../output/xml/%s" % file
@@ -456,7 +480,7 @@ if __name__ == "__main__":
     output_dict = price_extractor(list_desc)
     output_dict = date_extractor(list_desc, output_dict)
     output_dict = pn_extractor(list_desc, output_dict)
-    # output_dict = format_extractor(list_desc, output_dict)
+    output_dict = format_extractor(list_desc, output_dict)
 
     print("Producing the json output")
     with open('../output/json/export.json', 'w') as outfile:
