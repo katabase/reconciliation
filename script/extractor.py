@@ -414,10 +414,9 @@ def xml_output_production(output_dict):
         input_info = key.split("_")
         file = "%s_%s_clean.xml" % (input_info[0], input_info[1])
         item = input_info[2].split("e")[-1]
-        desc_string = dict[key]["desc_xml"].replace("&", "&amp;")
+        desc_string = output_dict[key]["desc_xml"].replace("&", "&amp;")
         input_file = "../../Datas/%s" % file
         with open(input_file, 'r+') as fichier:
-            print(input_file)
             f = etree.parse(fichier)
             root2 = f.getroot()
             path = "//tei:item[@n=\'%s\']/tei:desc" % item
@@ -442,10 +441,11 @@ if __name__ == "__main__":
     output_dict = date_extractor(list_desc, output_dict)
     output_dict = pn_extractor(list_desc, output_dict)
     # output_dict = format_extractor(list_desc, output_dict)
-    xml_output_production(output_dict)
 
     with open('../json/export.json', 'w') as outfile:
         outfile.truncate(0)
         json.dump(output_dict, outfile)
+
+    xml_output_production(output_dict)
     print("Number of entries without price: %s" % str(no_price))
     print("Number of entries without date: %s" % str(no_date))
