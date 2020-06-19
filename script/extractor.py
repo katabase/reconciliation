@@ -1,11 +1,12 @@
 #!/usr/bin/python
 # coding: utf-8
+import shutil
+import os
 import glob
 import re
 import json
 import dateparser
 import datetime
-from io import BytesIO
 import rep_greg_conversion
 from conversion_tables import *
 from dateparser.search import search_dates
@@ -14,7 +15,7 @@ import xml.etree.ElementTree as ET
 from xml.etree import ElementTree
 
 
-# First step: extraction of the price
+# First step: Extracting the price
 def price_extractor(descList):
     """
     Extracts the prices of the manuscripts sold and described in the tei:desc.
@@ -22,6 +23,7 @@ def price_extractor(descList):
     :param descList: the list containing all of the tei:desc
     :return: a dict with the ids as keys, and value another dict with the prices
     """
+    print("Extracting the price of the documents")
     output_dict = {}
     for item in descList:
         id = item[1]
@@ -81,7 +83,7 @@ def price_extractor(descList):
     return (output_dict)
 
 
-# Second, the extraction of the date
+# Second, the Extracting the date
 def date_extractor(descList, input_dict):
     """
     Extracts the dates from the list containing all of the tei:desc, and update the main dict.
@@ -89,6 +91,7 @@ def date_extractor(descList, input_dict):
     :param input_dict: the dictionnary containing the data previously extracted (at this moment, only the price)
     :return: a dict which keys are the ids, and which values are another dict with prices and dates
     """
+    print("Extracting the date of the documents")
     for item in descList:
         id = item[1]
         desc = item[0]
@@ -243,6 +246,7 @@ def is_roman(value):
 
 
 def pn_extractor(descList, input_dict):
+    print("Extracting the length of the documents")
     page_number_pattern = re.compile(
         "([IVXivx0-9\/]{1,6})\sp\.?\s?([0-5\/]{0,3})")  # this pattern matches the most frequent case.
     pattern_fraction = re.compile("([0-9\/]{1,6})\s?de\s?p\.?")
@@ -309,7 +313,6 @@ def pn_extractor(descList, input_dict):
         elif re.search(pattern_fraction, desc):
             path = 13
             search = re.search("([0-9\/]{1,6})\s?de\s?p\.?", desc)
-            print(id)
             position_chaîne = search.span()
             try: # test to be removed after.
                 page_number = fractions_to_float[search.group(1)]
@@ -405,9 +408,8 @@ def conversion_to_list(path):
 
 
 def xml_output_production(output_dict):
+    print("Updating the xml files")
     tei_namespace = "http://www.tei-c.org/ns/1.0"
-    tei = "{%s}" % tei_namespace
-    NSMAP0 = {None: tei_namespace}  # the default namespace (no prefix)
     NSMAP1 = {'tei': tei_namespace}  # pour la recherche d'éléments avec la méthode xpath
     ElementTree.register_namespace("", tei_namespace)
     for key in output_dict:
@@ -415,19 +417,20 @@ def xml_output_production(output_dict):
         file = "%s_%s_clean.xml" % (input_info[0], input_info[1])
         item = input_info[2].split("e")[-1]
         desc_string = output_dict[key]["desc_xml"].replace("&", "&amp;")
-        input_file = "../../Datas/%s" % file
+        input_file = "../output/xml/%s" % file
         with open(input_file, 'r+') as fichier:
             f = etree.parse(fichier)
             root2 = f.getroot()
             path = "//tei:item[@n=\'%s\']/tei:desc" % item
             desc2 = root2.xpath(path, namespaces=NSMAP1)
             for elem in desc2:
-                item_element = elem.getparent() # https://stackoverflow.com/questions/7474972/python-lxml-append-element-after-another-element
+                item_element = elem.getparent() # https://stackoverflow.com/questions/7474972/python-lxml-append
+                # -element-after-another-element
                 item_element.insert(item_element.index(elem)+1, etree.fromstring("<desc xmlns=\"http://www.tei-c.org/ns/1"
                                                                              ".0\">%s</desc>" % desc_string))
                 item_element.remove(elem) # we remove the non processed tei:desc
 
-            output_file = "../../Datas/%s" % file
+            output_file = "../output/xml/%s" % file
             with open(output_file, "w+") as sortie_xml:
                 output = etree.tostring(root2, pretty_print=True, encoding='utf-8', xml_declaration=True).decode('utf8')
                 sortie_xml.write(str(output))
@@ -436,16 +439,27 @@ def xml_output_production(output_dict):
 if __name__ == "__main__":
     no_price = 0
     no_date = 0
-    list_desc = conversion_to_list("../data/Data/_clean/*.xml")
+    files = "../input/Data/_clean/*.xml" # the path to the files to be processed
+    input_dir = os.path.dirname(files)
+    output_dir = "../output/xml"
+    try:
+        shutil.copytree(input_dir, output_dir) # copytree contains a mkdir command, we have to delete the directory
+        # if it exists
+    except:
+        shutil.rmtree(output_dir)
+        shutil.copytree(input_dir, output_dir)
+    list_desc = conversion_to_list(files)
     output_dict = price_extractor(list_desc)
     output_dict = date_extractor(list_desc, output_dict)
     output_dict = pn_extractor(list_desc, output_dict)
     # output_dict = format_extractor(list_desc, output_dict)
 
-    with open('../json/export.json', 'w') as outfile:
+    print("Producing the json file")
+    with open('../output/json/export.json', 'w') as outfile:
         outfile.truncate(0)
         json.dump(output_dict, outfile)
 
     xml_output_production(output_dict)
+    print("Done !")
     print("Number of entries without price: %s" % str(no_price))
     print("Number of entries without date: %s" % str(no_date))

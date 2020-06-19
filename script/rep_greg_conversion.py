@@ -3,7 +3,7 @@ import re
 from conversion_tables import *
 
 
-with open("../json/corresp_table.json", "r") as corresp_table:
+with open("corresp_table.json", "r") as corresp_table:
     conversion_table = json.load(corresp_table)
 
 def is_int(string):
