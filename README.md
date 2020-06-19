@@ -2,7 +2,18 @@
 
 Reconciliation of manuscript sale catalogues entries
 
-## 1. Clean the data
+# 1. Objective
+Manuscript sale catalogues propose list of manuscript for sale. A same manuscript can be sold multiple times.
+
+<img src="README/1894_05_RDA_N166_14_sev.jpeg" width="20%">
+<img src="README/1897_07_RDA_N200_16_sev.jpeg" width="30%">
+<img src="README/1902_04_RDA_N257_13_sev.jpeg" width="30%">
+
+Our objective is to detect similar entries.
+
+# 2. Workflow
+
+## 2.1. Clean the data
 
 Entries of catalogues look like the following:
 
@@ -25,7 +36,7 @@ The `clean-xml.py` script [available here](https://github.com/katabase/reconcili
   * `python clean-xml.py -f FILENAME` processes one single file
   * `python clean-xml.py -d DIRECTORY` processes all the files contained in a directory
 
-## 2. Information retrieval in the `desc`
+## 2.2. Information retrieval in the `desc`
 
 We need to extract data from the `desc` and transform
 
