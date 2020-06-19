@@ -5,13 +5,13 @@ import re
 import json
 import dateparser
 import datetime
+from io import BytesIO
 import rep_greg_conversion
 from conversion_tables import *
 from dateparser.search import search_dates
 from lxml import etree
 import xml.etree.ElementTree as ET
 from xml.etree import ElementTree
-
 
 
 # First step: extraction of the price
@@ -68,13 +68,13 @@ def price_extractor(descList):
             end_position = None
         dict_values["price"] = price
         if start_position and end_position:
-            desc_xml = "<desc xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022>%s<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 quantity=\u0022%s\u0022 " \
-                       "type=\u0022price\u0022>%s</measure>%s</desc>" \
+            desc_xml = "%s<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 quantity=\u0022%s\u0022 " \
+                       "type=\u0022price\u0022>%s</measure>%s" \
                        % (desc[:start_position], price, desc[start_position:end_position], desc[end_position:])
             if isInt(dict_values["price"]):  # we convert the given price to integers
                 dict_values["price"] = int(dict_values["price"])
         else:
-            desc_xml = "<desc xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022>%s</desc>" % desc  # to avoid using the variable corresponding to the previous entry
+            desc_xml = desc  # to avoid using the variable corresponding to the previous entry
         dict_values["desc_xml"] = desc_xml
         output_dict[id] = dict_values
         item[0] = desc_xml
@@ -185,9 +185,9 @@ def date_extractor(descList, input_dict):
                         date = parsed_date["date_obj"].strftime('%Y')
                     else:
                         date = parsed_date["date_obj"].strftime('%Y-%m-%d')
-                print("split date: %s; id: %s" % (split_date, id))
-
-            print(desc_xml)
+                # print("split date: %s; id: %s" % (split_date, id))
+            ## IDÉE: on ne met pas de <desc/>, qu'on ajoute avec Etree. Ça peut régler certains problèmes.
+            # print(desc_xml)
             dict_values["date_path"] = date_path
             dict_values["date"] = date
 
@@ -309,8 +309,12 @@ def pn_extractor(descList, input_dict):
         elif re.search(pattern_fraction, desc):
             path = 13
             search = re.search("([0-9\/]{1,6})\s?de\s?p\.?", desc)
+            print(id)
             position_chaîne = search.span()
-            page_number = fractions_to_float[search.group(1)]
+            try: # test to be removed after.
+                page_number = fractions_to_float[search.group(1)]
+            except:
+                page_number = 0
 
         if page_number != None:
             starting_position = position_chaîne[0]
@@ -325,7 +329,7 @@ def pn_extractor(descList, input_dict):
         else:
             desc_xml = input_dict[id].get("desc_xml")
         # dict_values["groups"] = groups # for debugging purposes only
-        dict_values["path"] = path #idem
+        dict_values["path"] = path  # idem
         dict_values["desc_xml"] = desc_xml
         dict_values["number_of_pages"] = page_number
         output_dict[id] = dict_values
@@ -394,49 +398,46 @@ def clean_text(input_text):
 def conversion_to_list(path):
     final_list = []
     for xml_file in glob.iglob(path):
-        for desc_element in desc_extractor(xml_file)[:10]:  # we select only the 10 first entries to speed up
+        for desc_element in desc_extractor(xml_file):  # we select only the 10 first entries to speed up
             # processing (to be deleted)
             final_list.append(desc_element)
     return final_list
 
 
-
-def xml_output_production(dict):
+def xml_output_production(output_dict):
     tei_namespace = "http://www.tei-c.org/ns/1.0"
     tei = "{%s}" % tei_namespace
     NSMAP0 = {None: tei_namespace}  # the default namespace (no prefix)
     NSMAP1 = {'tei': tei_namespace}  # pour la recherche d'éléments avec la méthode xpath
-    root = etree.Element(tei + "root", nsmap=NSMAP0)  # https://lxml.de/tutorial.html#namespaces
     ElementTree.register_namespace("", tei_namespace)
-    root = ElementTree.XML("<TEI xmlns=\"http://www.tei-c.org/ns/1.0\"/>") # https://stackoverflow.com/a/22411515
-    #  https://stackoverflow.com/questions/7703018/how-to-write-namespaced-element-attributes-with-lxml
-    for key in dict:
+    for key in output_dict:
         input_info = key.split("_")
-        file = "%s_%s.xml" % (input_info[0], input_info[1])
+        file = "%s_%s_clean.xml" % (input_info[0], input_info[1])
         item = input_info[2].split("e")[-1]
-        print(file)
-        print(item)
         desc_string = dict[key]["desc_xml"].replace("&", "&amp;")
-        desc_element = ElementTree.XML(desc_string)
-        root.append(desc_element)
-        file = "../../Data/%s" % file
-        with open(file, 'r+') as fichier:
-            tei2 = {'tei': 'http://www.tei-c.org/ns/1.0'}
+        input_file = "../../Datas/%s" % file
+        with open(input_file, 'r+') as fichier:
+            print(input_file)
             f = etree.parse(fichier)
             root2 = f.getroot()
-            desc2 = root2.xpath("//tei:item[@n=\'%s\']/tei:desc" % item, namespaces=tei2)
-            print(desc2)
+            path = "//tei:item[@n=\'%s\']/tei:desc" % item
+            desc2 = root2.xpath(path, namespaces=NSMAP1)
+            for elem in desc2:
+                item_element = elem.getparent() # https://stackoverflow.com/questions/7474972/python-lxml-append-element-after-another-element
+                item_element.insert(item_element.index(elem)+1, etree.fromstring("<desc xmlns=\"http://www.tei-c.org/ns/1"
+                                                                             ".0\">%s</desc>" % desc_string))
+                item_element.remove(elem) # we remove the non processed tei:desc
 
-
-    tree = ET.ElementTree(root)
-    tree.write("output/output.xml", encoding="utf-8")
-
+            output_file = "../../Datas/%s" % file
+            with open(output_file, "w+") as sortie_xml:
+                output = etree.tostring(root2, pretty_print=True, encoding='utf-8', xml_declaration=True).decode('utf8')
+                sortie_xml.write(str(output))
 
 
 if __name__ == "__main__":
     no_price = 0
     no_date = 0
-    list_desc = conversion_to_list("../../Data/*.xml")
+    list_desc = conversion_to_list("../data/Data/_clean/*.xml")
     output_dict = price_extractor(list_desc)
     output_dict = date_extractor(list_desc, output_dict)
     output_dict = pn_extractor(list_desc, output_dict)
