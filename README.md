@@ -61,4 +61,4 @@ To carry this task we use the `extractor.py` [available here](https://github.com
 Matthias Gille Levenson and Simon Gabay (éd.), _Operation Reconciliation: Reconciliation of Manuscript Sale Catalogues Entries_, Genève: Université de Genève, Lyon: Ecole normale supérieure de Lyon, 2020, [https://github.com/katabase/Data](https://github.com/katabase/reconciliation).
 
 ### Licence
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
