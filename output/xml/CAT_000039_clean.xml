@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000039">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000039">
 	  <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -87,9 +88,7 @@
 
 
 
-               <desc>L. a. s. à Quérard, 1826, 1 p. 1/2 in-4. 5</desc>
-
-               <note>Intéressante lettre dans laquelle il donne sa biographie, qui rectifie certains points de celle de Fétis</note>
+               <desc>L. a. s. à Quérard, <date when="1826">1826</date>, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-4. <measure quantity="5" type="price">5</measure></desc><note>Intéressante lettre dans laquelle il donne sa biographie, qui rectifie certains points de celle de Fétis</note>
 
             </item>
 
@@ -106,9 +105,7 @@
 
 
 
-               <desc>L. a. s., 1836, 1 p. in-8. 3</desc>
-
-               <note>Relative à un incident fâcheux survenu pendant la représentation d'un de ses opéras, le Postillon de Lonjumeau probablement</note>
+               <desc>L. a. s., <date when="1836">1836</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc><note>Relative à un incident fâcheux survenu pendant la représentation d'un de ses opéras, le Postillon de Lonjumeau probablement</note>
 
             </item>
 
@@ -125,9 +122,7 @@
 
 
 
-               <desc>L. a. s., 1696, 1 p. in-4. 5</desc>
-
-            </item>
+               <desc>L. a. s., <date when="1696">1696</date>, <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="5" type="price">5</measure></desc></item>
 
             <item n="4" xml:id="CAT_000039_e4">
                <num>4</num>
@@ -142,9 +137,7 @@
 
 
 
-               <desc>L. a. s. au rédacteur du Vengeur (Félix Pyat), 5 mai 1871, en-tête et timbre de la Commune. 4</desc>
-
-               <note>Curieuse lettre relative à la batterie du moulin Saquet</note>
+               <desc>L. a. s. au rédacteur du Vengeur (Félix Pyat), 5 mai 1871, en-tête et timbre de la Commune. <measure quantity="4" type="price">4</measure></desc><note>Curieuse lettre relative à la batterie du moulin Saquet</note>
 
             </item>
 
@@ -157,9 +150,7 @@
 
 
 
-               <desc>L.), avocat, poète et auteur dramatique du XVIIIe siècle. -Pièce de vers aut. sig., 3 p. 1/2 in-4. 3</desc>
-
-               <note>Etrennes à Mlle Arnoud, de l'Acad, royale de musique. Curieuse pièce</note>
+               <desc>L.), avocat, poète et auteur dramatique du XVIIIe siècle. -Pièce de vers aut. sig., <measure quantity="3.5" type="length">3 p. 1/2</measure> in-4. <measure quantity="3" type="price">3</measure></desc><note>Etrennes à Mlle Arnoud, de l'Acad, royale de musique. Curieuse pièce</note>
 
             </item>
 
@@ -176,9 +167,7 @@
 
 
 
-               <desc>L. a. s. au duc de La Force, 1718, 1 p. in-4. 2</desc>
-
-            </item>
+               <desc>L. a. s. au duc de La Force, <date when="1718">1718</date>, <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="2" type="price">2</measure></desc></item>
 
             <item n="7" xml:id="CAT_000039_e7">
                <num>7</num>
@@ -193,9 +182,7 @@
 
 
 
-               <desc>L. a. s., 1 p. in-8. Un peu fatiguée. 3</desc>
-
-            </item>
+               <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. Un peu fatiguée. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="8" xml:id="CAT_000039_e8">
                <num>8</num>
@@ -210,9 +197,7 @@
 
 
 
-               <desc>L. a. s., 1868, 3 p. 1/2 in-8. 4</desc>
-
-               <note>Jolie lettre relative à sa collaboration au journal le Don Quichotte</note>
+               <desc>L. a. s., <date when="1868">1868</date>, <measure quantity="3.5" type="length">3 p. 1/2</measure> in-8. <measure quantity="4" type="price">4</measure></desc><note>Jolie lettre relative à sa collaboration au journal le Don Quichotte</note>
 
             </item>
 
@@ -229,9 +214,7 @@
 
 
 
-               <desc>L. a. s., 1 p. in-8. Relative à ses Nouvelles recherches sur la Phonation. 3</desc>
-
-            </item>
+               <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. Relative à ses Nouvelles recherches sur la Phonation. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="10" xml:id="CAT_000039_e10">
                <num>10</num>
@@ -246,9 +229,7 @@
 
 
 
-               <desc>L. a. s., 1848, 2 p. in-8. Jolie pièce. 5</desc>
-
-            </item>
+               <desc>L. a. s., <date when="1848">1848</date>, <measure quantity="2" type="length">2 p.</measure> in-8. Jolie pièce. <measure quantity="5" type="price">5</measure></desc></item>
 
             <item n="11" xml:id="CAT_000039_e11">
                <num>11</num>
@@ -262,9 +243,7 @@
 
 
 
-               <desc>L. a. s., 1848, 1 p. in-8. 4</desc>
-
-            </item>
+               <desc>L. a. s., <date when="1848">1848</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="4" type="price">4</measure></desc></item>
 
             <item n="12" xml:id="CAT_000039_e12">
                <num>12</num>
@@ -279,9 +258,7 @@
 
 
 
-               <desc>L. a. s. à M. Maurice, 1 p. 1/2 in-8. 3</desc>
-
-               <note>Sur une série de comptes-rendus qu'il fait d'une partition de Meyerbeer. Il voudrait voir l'auteur pour serrer la main qui a écrit de si belles choses</note>
+               <desc>L. a. s. à M. Maurice, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-8. <measure quantity="3" type="price">3</measure></desc><note>Sur une série de comptes-rendus qu'il fait d'une partition de Meyerbeer. Il voudrait voir l'auteur pour serrer la main qui a écrit de si belles choses</note>
 
             </item>
 
@@ -298,9 +275,7 @@
 
 
 
-               <desc>L. s.ig.; Hambourg, 1809, 1 p. in-f. 4</desc>
-
-            </item>
+               <desc>L. s.ig.; Hambourg, <date when="1809">1809</date>, <measure quantity="1" type="length">1 p.</measure> in-f. <measure quantity="4" type="price">4</measure></desc></item>
 
             <item n="14" xml:id="CAT_000039_e14">
                <num>14</num>
@@ -314,10 +289,7 @@
 
 
 
-               <desc>L. s.ig. comme roi de Suède, 1835, 1/2 p. in-f. 4</desc>
-
-
-            </item>
+               <desc>L. s.ig. comme roi de Suède, <date when="1835">1835</date>, <measure quantity="0.5" type="length">1/2 p.</measure> in-f. <measure quantity="4" type="price">4</measure></desc></item>
             <item n="15" xml:id="CAT_000039_e15">
                <num>15</num>
 
@@ -331,9 +303,7 @@
 
 
 
-               <desc>L. a. s., 1868, 1 p. in-8. 2</desc>
-
-            </item>
+               <desc>L. a. s., <date when="1868">1868</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="2" type="price">2</measure></desc></item>
 
             <item n="16" xml:id="CAT_000039_e16">
                <num>16</num>
@@ -348,9 +318,7 @@
 
 
 
-               <desc>3 lignes aut. sig., concernant la rectification de sa biographie. 2</desc>
-
-            </item>
+               <desc>3 lignes aut. sig., concernant la rectification de sa biographie. <measure quantity="2" type="price">2</measure></desc></item>
 
             <item n="17" xml:id="CAT_000039_e17">
                <num>17</num>
@@ -365,9 +333,7 @@
 
 
 
-               <desc>L. a. s., 1870, 2 p. in-18. Il promet son concours pour le bénéfice de son camarade Potier. 2</desc>
-
-            </item>
+               <desc>L. a. s., <date when="1870">1870</date>, <measure quantity="2" type="length">2 p.</measure> in-18. Il promet son concours pour le bénéfice de son camarade Potier. <measure quantity="2" type="price">2</measure></desc></item>
 
             <item n="18" xml:id="CAT_000039_e18">
                <num>18</num>
@@ -382,9 +348,7 @@
 
 
 
-               <desc>L. a. s. au directeur de l'Artiste; 1841, 1/2 p. in-4. concernant le paysagiste Schiter. 3</desc>
-
-            </item>
+               <desc>L. a. s. au directeur de l'Artiste; <date when="1841">1841</date>, <measure quantity="0.5" type="length">1/2 p.</measure> in-4. concernant le paysagiste Schiter. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="19" xml:id="CAT_000039_e19">
                <num>19</num>
@@ -399,9 +363,7 @@
 
 
 
-               <desc>L. a. s. au colonel Marnier, 1833, 1 p. in-8. 6</desc>
-
-               <note>Il a reçu du bon prince Dietrichstein le portrait du petit Napoléon. Cela lui rappelle la vie paisible qu'il menait à Hyères. Il voudrait y passer un mois tous les huit jours pour guérir son larynx</note>
+               <desc>L. a. s. au colonel Marnier, <date when="1833">1833</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="6" type="price">6</measure></desc><note>Il a reçu du bon prince Dietrichstein le portrait du petit Napoléon. Cela lui rappelle la vie paisible qu'il menait à Hyères. Il voudrait y passer un mois tous les huit jours pour guérir son larynx</note>
 
             </item>
 
@@ -418,9 +380,7 @@
 
 
 
-               <desc>L. s.ig., 1851, 1 p. in-f. 3</desc>
-
-            </item>
+               <desc>L. s.ig., <date when="1851">1851</date>, <measure quantity="1" type="length">1 p.</measure> in-f. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="21" xml:id="CAT_000039_e21">
                <num>21</num>
@@ -435,9 +395,7 @@
 
 
 
-               <desc>L. a. s. à un journaliste, 11 mars, 1 p. in-8. 5</desc>
-
-               <note>Jolie lettre relative à sa pièce la Fille de Roland</note>
+               <desc>L. a. s. à un journaliste, 11 mars, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="5" type="price">5</measure></desc><note>Jolie lettre relative à sa pièce la Fille de Roland</note>
 
             </item>
 
@@ -454,9 +412,7 @@
 
 
 
-               <desc>Quittance sig. sur vélin, comme abbesse de Sainte- Croix, 1580, in-8. obl., sceau. 3</desc>
-
-            </item>
+               <desc>Quittance sig. sur vélin, comme abbesse de Sainte- Croix, 1580, in-8. obl., sceau. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="23" xml:id="CAT_000039_e23">
                <num>23</num>
@@ -471,9 +427,7 @@
 
 
 
-               <desc>L. s. à son collègue le conventionnel Joubert, an III, 1 p. 1/2 in-4. 2</desc>
-
-            </item>
+               <desc>L. s. à son collègue le conventionnel Joubert, <date date="1794-1795" type="length">an III</date>, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-4. <measure quantity="2" type="price">2</measure></desc></item>
 
             <item n="24" xml:id="CAT_000039_e24">
                <num>24</num>
@@ -488,9 +442,7 @@
 
 
 
-               <desc>L. a. s.; Londres, 1 p. in-12. Jolie lettre avec sa devise au canard. 3</desc>
-
-               <note>Il consent à chanter le Faust à un théâtre de Londres</note>
+               <desc>L. a. s.; Londres, <measure quantity="1" type="length">1 p.</measure> in-12. Jolie lettre avec sa devise au canard. <measure quantity="3" type="price">3</measure></desc><note>Il consent à chanter le Faust à un théâtre de Londres</note>
 
             </item>
 
@@ -507,9 +459,7 @@
 
 
 
-               <desc>L. a. s. à un journaliste, 1 p. in-8. 4</desc>
-
-            </item>
+               <desc>L. a. s. à un journaliste, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="4" type="price">4</measure></desc></item>
 
             <item n="26" xml:id="CAT_000039_e26">
                <num>26</num>
@@ -524,9 +474,7 @@
 
 
 
-               <desc>L. a. s., 1836, 3/4 de p. in-8. 4</desc>
-
-            </item>
+               <desc>L. a. s., <date when="1836">1836</date>, <measure quantity="0.75" type="length">3/4 de p.</measure> in-8. <measure quantity="4" type="price">4</measure></desc></item>
 
             <item n="27" xml:id="CAT_000039_e27">
                <num>27</num>
@@ -541,9 +489,7 @@
 
 
 
-               <desc>L. s.ig. à Ed. Plouvier, 1840, 1 p. in-8. 3</desc>
-
-               <note>Curieuse lettre de remerciements pour l'envoi d'un article sur l'abbaye de la Trappe</note>
+               <desc>L. s.ig. à Ed. Plouvier, <date when="1840">1840</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc><note>Curieuse lettre de remerciements pour l'envoi d'un article sur l'abbaye de la Trappe</note>
 
             </item>
 
@@ -560,9 +506,7 @@
 
 
 
-               <desc>L. s.ig. à Ed. Blanc, 1832, 1 p. in-4. 3</desc>
-
-               <note>Relative au concours du Conservatoire de musique</note>
+               <desc>L. s.ig. à Ed. Blanc, <date when="1832">1832</date>, <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="3" type="price">3</measure></desc><note>Relative au concours du Conservatoire de musique</note>
 
             </item>
 
@@ -579,9 +523,7 @@
 
 
 
-               <desc>Curieux couplet aut. sig. sur les autographes, 1 p. in-8. 3</desc>
-
-            </item>
+               <desc>Curieux couplet aut. sig. sur les autographes, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="30" xml:id="CAT_000039_e30">
                <num>30</num>
@@ -596,9 +538,7 @@
 
 
 
-               <desc>L. a. s., à M. Couville, 1847, 3 p. 1/2 in-8. 8</desc>
-
-               <note>Intéressante lettre par laquelle il démontre qu'une diminution dans l'effectif de l'armée n'entraine point une augmentation de la taxe des pauvres</note>
+               <desc>L. a. s., à M. Couville, <date when="1847">1847</date>, <measure quantity="3.5" type="length">3 p. 1/2</measure> in-8. <measure quantity="8" type="price">8</measure></desc><note>Intéressante lettre par laquelle il démontre qu'une diminution dans l'effectif de l'armée n'entraine point une augmentation de la taxe des pauvres</note>
 
             </item>
 
@@ -615,9 +555,7 @@
 
 
 
-               <desc>L. a. s., 1 p. in-8. 3</desc>
-
-               <note>Relative à son grand ouvrage sur la Religion</note>
+               <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc><note>Relative à son grand ouvrage sur la Religion</note>
 
             </item>
 
@@ -634,9 +572,7 @@
 
 
 
-               <desc>Ordonnance sig. comme gouverneur du Dauphiné, concernant le sieur La Tour La Bastie, 1636, 1 p. in-4, cachet. Un peu fatiguée. 3</desc>
-
-            </item>
+               <desc>Ordonnance sig. comme gouverneur du Dauphiné, concernant le sieur La Tour La Bastie, <date when="1636">1636</date>, <measure quantity="1" type="length">1 p.</measure> in-4, cachet. Un peu fatiguée. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="33" xml:id="CAT_000039_e33">
                <num>33</num>
@@ -651,9 +587,7 @@
 
 
 
-               <desc>L. a. s. au peintre Du Pavillon; Lyon, 25 mars 1832, 3 p. in-8. 3</desc>
-
-               <note>Touchante lettre sur les événements de Lyon et son départ de cette ville avec ses enfants</note>
+               <desc>L. a. s. au peintre Du Pavillon; Lyon, 25 mars 1832, <measure quantity="3" type="length">3 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc><note>Touchante lettre sur les événements de Lyon et son départ de cette ville avec ses enfants</note>
 
             </item>
 
@@ -670,9 +604,7 @@
 
 
 
-               <desc>L. a. s. à Jules Pautet, 1844, 2 p. in-8. 3</desc>
-
-            </item>
+               <desc>L. a. s. à Jules Pautet, <date when="1844">1844</date>, <measure quantity="2" type="length">2 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="35" xml:id="CAT_000039_e35">
                <num>35</num>
@@ -687,9 +619,7 @@
 
 
 
-               <desc>L. a. s. à Ed. Plouvier, 1 p. in-8. 2</desc>
-
-            </item>
+               <desc>L. a. s. à Ed. Plouvier, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="2" type="price">2</measure></desc></item>
 
             <item n="36" xml:id="CAT_000039_e36">
                <num>36</num>
@@ -704,9 +634,7 @@
 
 
 
-               <desc>L. a. s., 1833, 1 p. in-8. Relative à un portrait de Mme Malibran. 3</desc>
-
-            </item>
+               <desc>L. a. s., <date when="1833">1833</date>, <measure quantity="1" type="length">1 p.</measure> in-8. Relative à un portrait de Mme Malibran. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="37" xml:id="CAT_000039_e37">
                <num>37</num>
@@ -721,9 +649,7 @@
 
 
 
-               <desc>Epître en vers à Nep. Le mercier, avec des corrections et une page aut., 12 p. in-4. 6</desc>
-
-               <note>La page de la main de Ducis contient une anecdote curieuse relative à la mort de sa première femme, et à sa rencontre à Saint-Denis avec Mme Louise de France</note>
+               <desc>Epître en vers à Nep. Le mercier, avec des corrections et une page aut., <measure quantity="12" type="length">12 p.</measure> in-4. <measure quantity="6" type="price">6</measure></desc><note>La page de la main de Ducis contient une anecdote curieuse relative à la mort de sa première femme, et à sa rencontre à Saint-Denis avec Mme Louise de France</note>
 
             </item>
 
@@ -740,9 +666,7 @@
 
 
 
-               <desc>Petite lettre de 5 lignes aut. sig. à M. Maurice, 1 p. in-8. 3</desc>
-
-            </item>
+               <desc>Petite lettre de 5 lignes aut. sig. à M. Maurice, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="39" xml:id="CAT_000039_e39">
                <num>39</num>
@@ -757,9 +681,7 @@
 
 
 
-               <desc>L. a. s. (à Antony Béraud), 1 p. in-8. 6</desc>
-
-               <note>Plaisante épitre relative à un travail qu'il fait sur Henri IV, qui était un grand roi, mais qui lui donne autant de soucis qu'aux catholiques, sans doute parce qu'il l'est, lui-même. « J'ai la tête qui pète. C'est un privilège que je croyais réservé à une autre partie du corps...</note>
+               <desc>L. a. s. (à Antony Béraud), <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="6" type="price">6</measure></desc><note>Plaisante épitre relative à un travail qu'il fait sur Henri IV, qui était un grand roi, mais qui lui donne autant de soucis qu'aux catholiques, sans doute parce qu'il l'est, lui-même. « J'ai la tête qui pète. C'est un privilège que je croyais réservé à une autre partie du corps...</note>
 
             </item>
 
@@ -775,9 +697,7 @@
 
 
 
-               <desc>L. a. s., 1 p. in-8. 3</desc>
-
-            </item>
+               <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="41" xml:id="CAT_000039_e41">
                <num>41</num>
@@ -792,9 +712,7 @@
 
 
 
-               <desc>L. a. s. à M. Taschereau, 1832, 2 p. in-8. 2</desc>
-
-            </item>
+               <desc>L. a. s. à M. Taschereau, <date when="1832">1832</date>, <measure quantity="2" type="length">2 p.</measure> in-8. <measure quantity="2" type="price">2</measure></desc></item>
 
             <item n="42" xml:id="CAT_000039_e42">
                <num>42</num>
@@ -809,9 +727,7 @@
 
 
 
-               <desc>L. a. s. à M. Guizot, 1842, 3 p. in-8. 4</desc>
-
-               <note>Curieuse lettre relative à un article qu'il a publié sur le fatalisme des Musulmans. Il exprime le profond regret que lui a causé la mort du duc d'Orléans, auquel il était attaché de coeur</note>
+               <desc>L. a. s. à M. Guizot, <date when="1842">1842</date>, <measure quantity="3" type="length">3 p.</measure> in-8. <measure quantity="4" type="price">4</measure></desc><note>Curieuse lettre relative à un article qu'il a publié sur le fatalisme des Musulmans. Il exprime le profond regret que lui a causé la mort du duc d'Orléans, auquel il était attaché de coeur</note>
 
             </item>
 
@@ -828,9 +744,7 @@
 
 
 
-               <desc>L. s.ig. aux trésoriers de Lyon; 1627, 1 p. in-f., cachets à ses armes. 5</desc>
-
-            </item>
+               <desc>L. s.ig. aux trésoriers de Lyon; <date when="1627">1627</date>, <measure quantity="1" type="length">1 p.</measure> in-f., cachets à ses armes. <measure quantity="5" type="price">5</measure></desc></item>
 
             <item n="44" xml:id="CAT_000039_e44">
                <num>44</num>
@@ -845,9 +759,7 @@
 
 
 
-               <desc>L. a. s. à Boieldieu, 1812, 1 p. 1/2 in-4. 4</desc>
-
-               <note>Il conteste à l'Odéon le droit de céder sa pièce (Les deux Gendres) au Théâtre Feydeau</note>
+               <desc>L. a. s. à Boieldieu, <date when="1812">1812</date>, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-4. <measure quantity="4" type="price">4</measure></desc><note>Il conteste à l'Odéon le droit de céder sa pièce (Les deux Gendres) au Théâtre Feydeau</note>
 
             </item>
 
@@ -864,9 +776,7 @@
 
 
 
-               <desc>L. a. s., 1 p. in-8. 3</desc>
-
-               <note>Il décline la proposition d'écrire un livre sur la Normandie, sujet qui lui parait épuisé</note>
+               <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc><note>Il décline la proposition d'écrire un livre sur la Normandie, sujet qui lui parait épuisé</note>
 
             </item>
 
@@ -883,9 +793,7 @@
 
 
 
-               <desc>L. a. s. à M. Mabru, 1859, 1 p. in-8. 2</desc>
-
-            </item>
+               <desc>L. a. s. à M. Mabru, <date when="1859">1859</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="2" type="price">2</measure></desc></item>
 
             <item n="47" xml:id="CAT_000039_e47">
                <num>47</num>
@@ -900,9 +808,7 @@
 
 
 
-               <desc>Pièce sig., 1634, 1/2 p. in-4. 3</desc>
-
-            </item>
+               <desc>Pièce sig., <date when="1634">1634</date>, <measure quantity="0.5" type="length">1/2 p.</measure> in-4. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="48" xml:id="CAT_000039_e48">
                <num>48</num>
@@ -917,9 +823,7 @@
 
 
 
-               <desc>1° L. a. s., 1 p. in-4.-2° 2 pièces sig. relatives à ses pièces La Colonie et l'Olympiade. 3</desc>
-
-            </item>
+               <desc>1° L. a. s., <measure quantity="1" type="length">1 p.</measure> in-4.-2° 2 pièces sig. relatives à ses pièces La Colonie et l'Olympiade. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="49" xml:id="CAT_000039_e49">
                <num>49</num>
@@ -934,9 +838,7 @@
 
 
 
-               <desc>Pièce sig., 4 juin 1847, 1/2 p. in-f., cachet. 6</desc>
-
-            </item>
+               <desc>Pièce sig., 4 juin 1847, <measure quantity="0.5" type="length">1/2 p.</measure> in-f., cachet. <measure quantity="6" type="price">6</measure></desc></item>
 
             <item n="50" xml:id="CAT_000039_e50">
                <num>50</num>
@@ -951,9 +853,7 @@
 
 
 
-               <desc>L. a. s. à Eug. Guinot, 1848, 3 p. in-f. 3</desc>
-
-               <note>Lettre relative à ses travaux, très-intéressante pour sa biographie</note>
+               <desc>L. a. s. à Eug. Guinot, <date when="1848">1848</date>, <measure quantity="3" type="length">3 p.</measure> in-f. <measure quantity="3" type="price">3</measure></desc><note>Lettre relative à ses travaux, très-intéressante pour sa biographie</note>
 
             </item>
 
@@ -970,9 +870,7 @@
 
 
 
-               <desc>L. a. s. au général Chérin, 14 fruct. (an VI), 3 p. 1/4 in-4. 6</desc>
-
-               <note>Epître d'un républicanisme très-accentué, contenant des détails intéressants sur le choix des ambassadeurs par le Directoire. Talleyrand y a peu d'influence, mais ses liaisons avec Bonaparte augmentent son crédit. Garat ne connaît pas de plus beau sujet que le 18 fructidor, et il s'occupe avec ardeur de l'histoire de cette journée mémorable</note>
+               <desc>L. a. s. au général Chérin, 14 fruct. (an VI), <measure quantity="3.25" type="length">3 p. 1/4</measure> in-4. <measure quantity="6" type="price">6</measure></desc><note>Epître d'un républicanisme très-accentué, contenant des détails intéressants sur le choix des ambassadeurs par le Directoire. Talleyrand y a peu d'influence, mais ses liaisons avec Bonaparte augmentent son crédit. Garat ne connaît pas de plus beau sujet que le 18 fructidor, et il s'occupe avec ardeur de l'histoire de cette journée mémorable</note>
 
             </item>
 
@@ -989,9 +887,7 @@
 
 
 
-               <desc>L. s.ig. à M. Mabru; Caprera, 1865, 1 p. in-8. 7</desc>
-
-               <note>Au sujet d'un ouvrage sur la Maçonnerie française. « Attendons le triomphe de la fraternité des peuples, but suprême de la Maçonnerie.</note>
+               <desc>L. s.ig. à M. Mabru; Caprera, <date when="1865">1865</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="7" type="price">7</measure></desc><note>Au sujet d'un ouvrage sur la Maçonnerie française. « Attendons le triomphe de la fraternité des peuples, but suprême de la Maçonnerie.</note>
 
             </item>
 
@@ -1008,9 +904,7 @@
 
 
 
-               <desc>L. a. s. à son ami Aussandon, 1/2 p. in-12. 10</desc>
-
-               <note>Il ne peut rendre compte de la Tempesta, ni citer le nom d'Estelle. « Il m'est défendu de parler de Lumley, dont Girardin n'admet pas l'existence...</note>
+               <desc>L. a. s. à son ami Aussandon, <measure quantity="0.5" type="length">1/2 p.</measure> in-12. <measure quantity="10" type="price">10</measure></desc><note>Il ne peut rendre compte de la Tempesta, ni citer le nom d'Estelle. « Il m'est défendu de parler de Lumley, dont Girardin n'admet pas l'existence...</note>
 
             </item>
 
@@ -1027,9 +921,7 @@
 
 
 
-               <desc>L. a. s. au duc de Feltre; Bruxelles, 6 juil. 1816, 1 p. in-f. 5</desc>
-
-               <note>Il demande l'agrément du roi pour contracter mariage avec Mlle de Valence</note>
+               <desc>L. a. s. au duc de Feltre; Bruxelles, 6 juil. 1816, <measure quantity="1" type="length">1 p.</measure> in-f. <measure quantity="5" type="price">5</measure></desc><note>Il demande l'agrément du roi pour contracter mariage avec Mlle de Valence</note>
 
             </item>
 
@@ -1046,9 +938,7 @@
 
 
 
-               <desc>L. a. s.; Rongis, 1818, 1 p. in-8. Rare. 8</desc>
-
-               <note>Jolie épitre par laquelle elle se réjouit de recevoir bientôt à sa table Béranger et Manuel</note>
+               <desc>L. a. s.; Rongis, <date when="1818">1818</date>, <measure quantity="1" type="length">1 p.</measure> in-8. Rare. <measure quantity="8" type="price">8</measure></desc><note>Jolie épitre par laquelle elle se réjouit de recevoir bientôt à sa table Béranger et Manuel</note>
 
             </item>
 
@@ -1065,9 +955,7 @@
 
 
 
-               <desc>L. a. s. à un journaliste, 1871, 1 p. in-8. 5</desc>
-
-               <note>Etabli à Lillebonne après une maladie sérieuse, il se réjouit de se trouver avec des amis, lui qui a été si près de la serpillière finale</note>
+               <desc>L. a. s. à un journaliste, <date when="1871">1871</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="5" type="price">5</measure></desc><note>Etabli à Lillebonne après une maladie sérieuse, il se réjouit de se trouver avec des amis, lui qui a été si près de la serpillière finale</note>
 
             </item>
 
@@ -1084,9 +972,7 @@
 
 
 
-               <desc>L. a. s., 1854, 1 p. in-8. 6</desc>
-
-               <note>Au sujet de critiques injustes dont il est l'objet comme directeur de l'Orphéon.</note>
+               <desc>L. a. s., <date when="1854">1854</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="6" type="price">6</measure></desc><note>Au sujet de critiques injustes dont il est l'objet comme directeur de l'Orphéon.</note>
 
             </item>
             <item n="58" xml:id="CAT_000039_e58">
@@ -1102,9 +988,7 @@
 
 
 
-               <desc>L. a. s. à un journaliste, 1 p. in-12. 3</desc>
-
-               <note>Il demande un article pour sa Collection des anciens historiens français</note>
+               <desc>L. a. s. à un journaliste, <measure quantity="1" type="length">1 p.</measure> in-12. <measure quantity="3" type="price">3</measure></desc><note>Il demande un article pour sa Collection des anciens historiens français</note>
 
             </item>
 
@@ -1120,9 +1004,7 @@
 
 
 
-               <desc>L. a. s. au roi Louis-Philippe, 1847, 1/2 p. in-8. 3</desc>
-
-            </item>
+               <desc>L. a. s. au roi Louis-Philippe, <date when="1847">1847</date>, <measure quantity="0.5" type="length">1/2 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="60" xml:id="CAT_000039_e60">
                <num>60</num>
@@ -1137,9 +1019,7 @@
 
 
 
-               <desc>L. a. s.; Rouen, 1820, 2 p. 1/4 in-8. 4</desc>
-
-               <note>Jolie lettre dans laquelle il est question des élections et de Béranger</note>
+               <desc>L. a. s.; Rouen, <date when="1820">1820</date>, <measure quantity="2.25" type="length">2 p. 1/4</measure> in-8. <measure quantity="4" type="price">4</measure></desc><note>Jolie lettre dans laquelle il est question des élections et de Béranger</note>
 
             </item>
 
@@ -1154,9 +1034,7 @@
 
 
 
-               <desc>L'habit et la robe de chambre, fable aut. sig., 2 p. 1/4 in-4. La partie blanche du second feuillet enlevée. 5</desc>
-
-            </item>
+               <desc>L'habit et la robe de chambre, fable aut. sig., <measure quantity="2.25" type="length">2 p. 1/4</measure> in-4. La partie blanche du second feuillet enlevée. <measure quantity="5" type="price">5</measure></desc></item>
 
             <item n="62" xml:id="CAT_000039_e62">
                <num>62</num>
@@ -1171,9 +1049,7 @@
 
 
 
-               <desc>L. a. s. à Leguillois, 1867, 1 p. in-8. 4</desc>
-
-            </item>
+               <desc>L. a. s. à Leguillois, <date when="1867">1867</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="4" type="price">4</measure></desc></item>
 
             <item n="63" xml:id="CAT_000039_e63">
                <num>63</num>
@@ -1188,9 +1064,7 @@
 
 
 
-               <desc>L. a. s.; Bagneux, 15 août 1830, 4 p. in-4. 5</desc>
-
-               <note>Très-curieuse lettre sur les journées de Juillet. « Les annales historiques de tous les peuples du monde n'offrent rien de semblable : en trois jours une révolution achevée, un vieux despote, sa cour et son armée mis en fuite, le drapeau tricolore flottant au sommet de la colonne, souillée depuis quinze ans par le sale étendard des Bourbons.....</note>
+               <desc>L. a. s.; Bagneux, 15 août 1830, <measure quantity="4" type="length">4 p.</measure> in-4. <measure quantity="5" type="price">5</measure></desc><note>Très-curieuse lettre sur les journées de Juillet. « Les annales historiques de tous les peuples du monde n'offrent rien de semblable : en trois jours une révolution achevée, un vieux despote, sa cour et son armée mis en fuite, le drapeau tricolore flottant au sommet de la colonne, souillée depuis quinze ans par le sale étendard des Bourbons.....</note>
 
             </item>
 
@@ -1207,9 +1081,7 @@
 
 
 
-               <desc>L. a. s. à M. Mabru ; Sorrèze, 1860, 2 p. in-4. 6</desc>
-
-               <note>Belle et très-curieuse lettre par laquelle il établit qu'il n'y a pas d'opposition radicale entre l'Eglise et l'esprit moderne. La société moderne offre un alliage de vrai et de faux, de bien et de mal, qui tient en suspens l'esprit de l'Eglise. Le clergé a été proscrit ou dédaigné en 1789, 93, et 1814, et il ne faut pas demander aux hommes d'aimer ce qui les hait, etc</note>
+               <desc>L. a. s. à M. Mabru ; Sorrèze, <date when="1860">1860</date>, <measure quantity="2" type="length">2 p.</measure> in-4. <measure quantity="6" type="price">6</measure></desc><note>Belle et très-curieuse lettre par laquelle il établit qu'il n'y a pas d'opposition radicale entre l'Eglise et l'esprit moderne. La société moderne offre un alliage de vrai et de faux, de bien et de mal, qui tient en suspens l'esprit de l'Eglise. Le clergé a été proscrit ou dédaigné en 1789, 93, et 1814, et il ne faut pas demander aux hommes d'aimer ce qui les hait, etc</note>
 
             </item>
 
@@ -1226,9 +1098,7 @@
 
 
 
-               <desc>L. a. s., 1836, 1 p. in-8. 5</desc>
-
-               <note>Relative à son Duo sur les Huguenots, composé avec Kalkbrenner</note>
+               <desc>L. a. s., <date when="1836">1836</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="5" type="price">5</measure></desc><note>Relative à son Duo sur les Huguenots, composé avec Kalkbrenner</note>
 
             </item>
 
@@ -1245,9 +1115,7 @@
 
 
 
-               <desc>L. a. s. à un journaliste ; 8 janv. 1824, 1 p. in-8. 3</desc>
-
-               <note>Il désire que l'on fasse connaître qu'il a été reçu en audience particulière par Louis XVIII</note>
+               <desc>L. a. s. à un journaliste ; 8 janv. 1824, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc><note>Il désire que l'on fasse connaître qu'il a été reçu en audience particulière par Louis XVIII</note>
 
             </item>
 
@@ -1264,9 +1132,7 @@
 
 
 
-               <desc>L. a. s. à Béranger, 4 av. 1848, 1 p. in-8. 5</desc>
-
-               <note>Curieux billet portant une note de trois lignes autographes de Béranger, signées B</note>
+               <desc>L. a. s. à Béranger, 4 av. 1848, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="5" type="price">5</measure></desc><note>Curieux billet portant une note de trois lignes autographes de Béranger, signées B</note>
 
             </item>
 
@@ -1283,9 +1149,7 @@
 
 
 
-               <desc>Petit billet aut. sig. L à Béranger, 1 p. in-32. 3</desc>
-
-               <note>Il fait gracieusement présent à Béranger du tableau des Fumeurs, que celui-ci a vu dans sa chambre et qui a paru lui plaire</note>
+               <desc>Petit billet aut. sig. L à Béranger, <measure quantity="1" type="length">1 p.</measure> in-32. <measure quantity="3" type="price">3</measure></desc><note>Il fait gracieusement présent à Béranger du tableau des Fumeurs, que celui-ci a vu dans sa chambre et qui a paru lui plaire</note>
 
             </item>
 
@@ -1302,9 +1166,7 @@
 
 
 
-               <desc>L. a. s., 1 p. in-8. 3</desc>
-
-            </item>
+               <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="70" xml:id="CAT_000039_e70">
                <num>70</num>
@@ -1319,9 +1181,7 @@
 
 
 
-               <desc>L. a. s.; Lille, 1818, 1 p. in-4. Concernant 3 romances qu'il vient d'achever. 3</desc>
-
-            </item>
+               <desc>L. a. s.; Lille, <date when="1818">1818</date>, <measure quantity="1" type="length">1 p.</measure> in-4. Concernant 3 romances qu'il vient d'achever. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="71" xml:id="CAT_000039_e71">
                <num>71</num>
@@ -1336,9 +1196,7 @@
 
 
 
-               <desc>L. a. s. au général Chérin; Quartier-général de Hochstett, 18 mess, an V, 2 p. in-f., cachet. 8</desc>
-
-               <note>Intéressante lettre relative à l'expédition de Hoche en Irlande. Il se lamente de n'en point faire partie avec les différents corps qui se dirigent sur Brest. « Mandez-moi si vous restez avec nous, ou si vous suivez notre ami.... Ah 1 Chérin, si vous saviez le chagrin que me cause la dissolution de notre armée, vous auriez pitié de moi, et surtout me voyant dans l'impossibilité de les suivre....</note>
+               <desc>L. a. s. au général Chérin; Quartier-général de Hochstett, <date date="1797-07-06" type="length">18 mess, an V</date>, <measure quantity="2" type="length">2 p.</measure> in-f., cachet. <measure quantity="8" type="price">8</measure></desc><note>Intéressante lettre relative à l'expédition de Hoche en Irlande. Il se lamente de n'en point faire partie avec les différents corps qui se dirigent sur Brest. « Mandez-moi si vous restez avec nous, ou si vous suivez notre ami.... Ah 1 Chérin, si vous saviez le chagrin que me cause la dissolution de notre armée, vous auriez pitié de moi, et surtout me voyant dans l'impossibilité de les suivre....</note>
 
             </item>
 
@@ -1355,9 +1213,7 @@
 
 
 
-               <desc>L. a. s., 1859, 2 p. in-8. Relative à une invitation qui lui est commune avec Mme Brohan. 3</desc>
-
-            </item>
+               <desc>L. a. s., <date when="1859">1859</date>, <measure quantity="2" type="length">2 p.</measure> in-8. Relative à une invitation qui lui est commune avec Mme Brohan. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="73" xml:id="CAT_000039_e73">
                <num>73</num>
@@ -1372,9 +1228,7 @@
 
 
 
-               <desc>L. a. s. à un diplomate son collègue; Alexandrie, 1837 , 2 p. in-4. 6</desc>
-
-            </item>
+               <desc>L. a. s. à un diplomate son collègue; Alexandrie, <date when="1837">1837</date> , <measure quantity="2" type="length">2 p.</measure> in-4. <measure quantity="6" type="price">6</measure></desc></item>
 
             <item n="74" xml:id="CAT_000039_e74">
                <num>74</num>
@@ -1389,9 +1243,7 @@
 
 
 
-               <desc>L. a. s., 1876, 1 p. in-4. 4</desc>
-
-               <note>Plaisante épitre à un ami qui lui demande sa biographie</note>
+               <desc>L. a. s., <date when="1876">1876</date>, <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="4" type="price">4</measure></desc><note>Plaisante épitre à un ami qui lui demande sa biographie</note>
 
             </item>
 
@@ -1408,9 +1260,7 @@
 
 
 
-               <desc>Pièce sig., 1782, 1 p. in-f. Petite écornure dans la marge. 6</desc>
-
-               <note>Ordre de compter 500 livres pour les pauvres de la paroisse de Rabastens (Tarn), sur les bénéfices des ci-devant jésuites</note>
+               <desc>Pièce sig., <date when="1782">1782</date>, <measure quantity="1" type="length">1 p.</measure> in-f. Petite écornure dans la marge. <measure quantity="6" type="price">6</measure></desc><note>Ordre de compter 500 livres pour les pauvres de la paroisse de Rabastens (Tarn), sur les bénéfices des ci-devant jésuites</note>
 
             </item>
 
@@ -1427,9 +1277,7 @@
 
 
 
-               <desc>Pièce sig.; 1er juil. 1797, cachet royal. 3</desc>
-
-               <note>Nomination de M. de Baudinot au grade de lieutenant-colonel</note>
+               <desc>Pièce sig.; 1er juil. 1797, cachet royal. <measure quantity="3" type="price">3</measure></desc><note>Nomination de M. de Baudinot au grade de lieutenant-colonel</note>
 
             </item>
 
@@ -1446,9 +1294,7 @@
 
 
 
-               <desc>L. a. s., comme évêque de Bayeux, à une dame, 1 p. pet. in-4. 5</desc>
-
-            </item>
+               <desc>L. a. s., comme évêque de Bayeux, à une dame, <measure quantity="1" type="length">1 p.</measure> pet. in-4. <measure quantity="5" type="price">5</measure></desc></item>
 
             <item n="78" xml:id="CAT_000039_e78">
                <num>78</num>
@@ -1463,9 +1309,7 @@
 
 
 
-               <desc>L. a. s., 1 p. in-8. 3</desc>
-
-            </item>
+               <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="79" xml:id="CAT_000039_e79">
                <num>79</num>
@@ -1480,9 +1324,7 @@
 
 
 
-               <desc>L. a. s. en français, à sa tante la reine Marie-Amélie; Lisbonne, 14 juil. 1839, 3 p. in-8. 6</desc>
-
-               <note>Jolie et charmante épitre, dans laquelle elle témoigne de sa tendre affection pour la reine et sa famille. Elle demande à la princesse Clémentine un dessin pour son album</note>
+               <desc>L. a. s. en français, à sa tante la reine Marie-Amélie; Lisbonne, 14 juil. 1839, <measure quantity="3" type="length">3 p.</measure> in-8. <measure quantity="6" type="price">6</measure></desc><note>Jolie et charmante épitre, dans laquelle elle témoigne de sa tendre affection pour la reine et sa famille. Elle demande à la princesse Clémentine un dessin pour son album</note>
 
             </item>
 
@@ -1499,10 +1341,7 @@
 
 
 
-               <desc>L. s.ig. au cardinal Oppizoni, 1825, 1/2 p. in-f. cachet à ses armes. 4</desc>
-
-
-            </item>
+               <desc>L. s.ig. au cardinal Oppizoni, <date when="1825">1825</date>, <measure quantity="0.5" type="length">1/2 p.</measure> in-f. cachet à ses armes. <measure quantity="4" type="price">4</measure></desc></item>
             <item n="81" xml:id="CAT_000039_e81">
                <num>81</num>
 
@@ -1516,9 +1355,7 @@
 
 
 
-               <desc>L. a. s. au cardinal de Fleury; (Versailles, août 1726), 3 p. pl. in-4, cachets et soies. Magnifique pièce. 50</desc>
-
-               <note>Il est son résident près du roi pour l'assurer tous les jours de ses tendres sentiments ; mais si elle avait su que le roi dût lire sa précédente lettre, elle se serait plus étudiée à l'écrire. Si, à Fontainebleau (où est le roi), on baille d'envie de dormir, ici c'est de ne savoir que faire. Elle tâche d'amuser ses dames en leur donnant dans son cabinet une comédie avec des paravents. Elle termine par ce trait de coquetterie destiné à rendre jaloux son mari. « Quant vous verrez M. de Charost, dites-lui qu'il baisera ma main aussi souvent qu'il sera de jours sans me voir. Vous voyez bien qu'après cela il n'y a pas moyen de montrer ma lettre au roy.</note>
+               <desc>L. a. s. au cardinal de Fleury; (Versailles, août 1726), <measure quantity="3" type="length">3 p.</measure> pl. in-4, cachets et soies. Magnifique pièce. <measure quantity="50" type="price">50</measure></desc><note>Il est son résident près du roi pour l'assurer tous les jours de ses tendres sentiments ; mais si elle avait su que le roi dût lire sa précédente lettre, elle se serait plus étudiée à l'écrire. Si, à Fontainebleau (où est le roi), on baille d'envie de dormir, ici c'est de ne savoir que faire. Elle tâche d'amuser ses dames en leur donnant dans son cabinet une comédie avec des paravents. Elle termine par ce trait de coquetterie destiné à rendre jaloux son mari. « Quant vous verrez M. de Charost, dites-lui qu'il baisera ma main aussi souvent qu'il sera de jours sans me voir. Vous voyez bien qu'après cela il n'y a pas moyen de montrer ma lettre au roy.</note>
 
             </item>
 
@@ -1535,10 +1372,7 @@
 
 
 
-               <desc>Consultation aut. sig., 1 p. in-4. 2</desc>
-
-
-            </item>
+               <desc>Consultation aut. sig., <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="2" type="price">2</measure></desc></item>
             <item n="83" xml:id="CAT_000039_e83">
                <num>83</num>
 
@@ -1552,9 +1386,7 @@
 
 
 
-               <desc>L. a. s. à Joseph Bonaparte; 1er pluv. (an IX : 21 janv. 1801), 1 p. in-4. 5</desc>
-
-               <note>Il se rappelle au souvenir de Joseph, occupé alors des négociations de la paix d'Amiens. Le 1er Consul est absent, et Paris est triste en ce moment. « Les fêtes sont devenues si rares qu'on ne s'aperçoit pas que nous sommes dans la saison des plaisirs.</note>
+               <desc>L. a. s. à Joseph Bonaparte; 1er pluv. (an IX : 21 janv. 1801), <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="5" type="price">5</measure></desc><note>Il se rappelle au souvenir de Joseph, occupé alors des négociations de la paix d'Amiens. Le 1er Consul est absent, et Paris est triste en ce moment. « Les fêtes sont devenues si rares qu'on ne s'aperçoit pas que nous sommes dans la saison des plaisirs.</note>
 
             </item>
 
@@ -1571,9 +1403,7 @@
 
 
 
-               <desc>Let. sig. à Turenne ; Melun, 15 juin 1652, 1 p. in-4. Légère tache d'eau. 20</desc>
-
-               <note>Le comte de Broglie (Franc.-Marie), et M. de Canillac venant d'être faits prisonniers, le cardinal en témoigne tout son déplaisir. Il craint que la partie adverse (Fondé) ne chicane sur l'échange, et il annonce que le marquis de Caltelnau, connu de Turenne, vient d'être choisi pour remplacer M . de Broglie comme lieutenant-général.</note>
+               <desc>Let. sig. à Turenne ; Melun, 15 juin 1652, <measure quantity="1" type="length">1 p.</measure> in-4. Légère tache d'eau. <measure quantity="20" type="price">20</measure></desc><note>Le comte de Broglie (Franc.-Marie), et M. de Canillac venant d'être faits prisonniers, le cardinal en témoigne tout son déplaisir. Il craint que la partie adverse (Fondé) ne chicane sur l'échange, et il annonce que le marquis de Caltelnau, connu de Turenne, vient d'être choisi pour remplacer M . de Broglie comme lieutenant-général.</note>
 
             </item>
 
@@ -1583,8 +1413,7 @@
                <trait>
                   <p>célèbre historien, de l'Acad. fr.</p>
                </trait> 
-               <desc>L. a. s., 1831, 1 p. in-8. 3</desc>
-            </item>            
+               <desc>L. a. s., <date when="1831">1831</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>            
             <item n="86" xml:id="CAT_000039_e86">
                <num>86</num>
 
@@ -1598,9 +1427,7 @@
 
 
 
-               <desc>L. a. s., 1836, 1 p. in-8. Relative à sa partition de Piquillo. 4</desc>
-
-            </item>
+               <desc>L. a. s., <date when="1836">1836</date>, <measure quantity="1" type="length">1 p.</measure> in-8. Relative à sa partition de Piquillo. <measure quantity="4" type="price">4</measure></desc></item>
 
             <item n="87" xml:id="CAT_000039_e87">
                <num>87</num>
@@ -1615,9 +1442,7 @@
 
 
 
-               <desc>L. a. s., 1875, 1 p. in-18. 2</desc>
-
-            </item>
+               <desc>L. a. s., <date when="1875">1875</date>, <measure quantity="1" type="length">1 p.</measure> in-18. <measure quantity="2" type="price">2</measure></desc></item>
 
             <item n="88" xml:id="CAT_000039_e88">
                <num>88</num>
@@ -1632,9 +1457,7 @@
 
 
 
-               <desc>L. a. s. au maréchal Marmont, 1814, 1 p. in-4. 3</desc>
-
-            </item>
+               <desc>L. a. s. au maréchal Marmont, <date when="1814">1814</date>, <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="89" xml:id="CAT_000039_e89">
                <num>89</num>
@@ -1649,9 +1472,7 @@
 
 
 
-               <desc>L. s.ig. avec un postscriptum de 2 lignes aut. sig. de ses initiales; quartier général de Strasbourg, 26 fructidor an XIII, 1 p. 1/2 in-f. 10</desc>
-
-               <note>Importante lettre relative aux préparatifs de la campagne de 1805, qui se termina par la bataille d'Austerlitz.</note>
+               <desc>L. s.ig. avec un postscriptum de 2 lignes aut. sig. de ses initiales; quartier général de Strasbourg, <date date="1805-09-13" type="length">26 fructidor an XIII</date>, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-f. <measure quantity="10" type="price">10</measure></desc><note>Importante lettre relative aux préparatifs de la campagne de 1805, qui se termina par la bataille d'Austerlitz.</note>
 
             </item>
             <item n="90" xml:id="CAT_000039_e90">
@@ -1667,9 +1488,7 @@
 
 
 
-               <desc>Brevet sig., sur vélin, comme 1er Consul, an XI, in-f. Jôlie vignette de Roger, cachet. Très-belle pièce. 10</desc>
-
-            </item>
+               <desc>Brevet sig., sur vélin, comme 1er Consul, an XI, in-f. Jôlie vignette de Roger, cachet. Très-belle pièce. <measure quantity="10" type="price">10</measure></desc></item>
 
             <item n="91" xml:id="CAT_000039_e91">
                <num>91</num>
@@ -1683,9 +1502,7 @@
 
 
 
-               <desc>Apostille sig. N. Sur une lettre sig. du maréchal Davout, 14 avril 1815, 1 p. in-f. 8</desc>
-
-               <note>Au dos est. une note curieuse, écrite par abréviations, pour suivre la dictée rapide de l'Empereur</note>
+               <desc>Apostille sig. N. Sur une lettre sig. du maréchal Davout, 14 avril 1815, <measure quantity="1" type="length">1 p.</measure> in-f. <measure quantity="8" type="price">8</measure></desc><note>Au dos est. une note curieuse, écrite par abréviations, pour suivre la dictée rapide de l'Empereur</note>
 
             </item>
 
@@ -1702,9 +1519,7 @@
 
 
 
-               <desc>Deux croquis au crayon, représentant un bateau de pêche et un pécheur à la traine, signés à la plume, 1 p. double in-4, papier au chiffre impérial. 20</desc>
-
-            </item>
+               <desc>Deux croquis au crayon, représentant un bateau de pêche et un pécheur à la traine, signés à la plume, <measure quantity="1" type="length">1 p.</measure> double in-4, papier au chiffre impérial. <measure quantity="20" type="price">20</measure></desc></item>
 
             <item n="93" xml:id="CAT_000039_e93">
                <num>93</num>
@@ -1719,9 +1534,7 @@
 
 
 
-               <desc>L. a. s., 1847, 2 p. in-8. 3</desc>
-
-            </item>
+               <desc>L. a. s., <date when="1847">1847</date>, <measure quantity="2" type="length">2 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="94" xml:id="CAT_000039_e94">
                <num>94</num>
@@ -1736,9 +1549,7 @@
 
 
 
-               <desc>L. a. s. au baron de Marguerittes, 1816, 1 p. in-4, cachet à ses armes. 5</desc>
-
-               <note>Relative à la fameuse polémique entre les deux émigrés FaucheBorel et Perlet</note>
+               <desc>L. a. s. au baron de Marguerittes, <date when="1816">1816</date>, <measure quantity="1" type="length">1 p.</measure> in-4, cachet à ses armes. <measure quantity="5" type="price">5</measure></desc><note>Relative à la fameuse polémique entre les deux émigrés FaucheBorel et Perlet</note>
 
             </item>
 
@@ -1751,9 +1562,7 @@
                <trait>
                   <p>littérateur et grand bibliophile, de l'Acad. fr.</p>
                </trait>
-                <desc>1° Le Prix de Cythère, opéra comique en un acte, manuscrit autog. (incomplet) 1742, 32 p. in-4 2° Pièce sig., 1751, 1 p. in-4. 5</desc>
-
-            </item>
+                <desc>1° Le Prix de Cythère, opéra comique en un acte, manuscrit autog. (incomplet) 1742, <measure quantity="32" type="length">32 p.</measure> in-4 2° Pièce sig., <date when="1751">1751</date>, 1 p. in-4. <measure quantity="5" type="price">5</measure></desc></item>
 
             <item n="96" xml:id="CAT_000039_e96">
                <num>96</num>
@@ -1768,9 +1577,7 @@
 
 
 
-               <desc>L. a. s. à Ch. Gounod, (1852);, 1 p. in-8. 4 </desc> 
-                
-                <note>Relative à sa tragédie d'Ulysse, dont les choeurs ont été composés par Gounod</note>
+               <desc>L. a. s. à Ch. Gounod, (1852);, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="4" type="price">4</measure></desc><note>Relative à sa tragédie d'Ulysse, dont les choeurs ont été composés par Gounod</note>
              
             </item>
 
@@ -1787,9 +1594,7 @@
 
 
 
-               <desc>L. a. s. à un général, 2 p. pl. in-4. 5</desc>
-
-               <note>Curieuse épitre relative à un de ses opéras, probablement les Horaces</note>
+               <desc>L. a. s. à un général, <measure quantity="2" type="length">2 p.</measure> pl. in-4. <measure quantity="5" type="price">5</measure></desc><note>Curieuse épitre relative à un de ses opéras, probablement les Horaces</note>
 
             </item>
 
@@ -1806,9 +1611,7 @@
 
 
 
-               <desc>L. a. s., 1820, 1 p. in-8. Curieuse. 3</desc>
-
-            </item>
+               <desc>L. a. s., <date when="1820">1820</date>, <measure quantity="1" type="length">1 p.</measure> in-8. Curieuse. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="99" xml:id="CAT_000039_e99">
                <num>99</num>
@@ -1823,9 +1626,7 @@
 
 
 
-               <desc>L. a. s. à Pichard, Chambéry, 1822, 1 p. in-4.-Envoi d'un mottet de sa composition. 3</desc>
-
-            </item>
+               <desc>L. a. s. à Pichard, Chambéry, <date when="1822">1822</date>, <measure quantity="1" type="length">1 p.</measure> in-4.-Envoi d'un mottet de sa composition. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="100" xml:id="CAT_000039_e100">
                <num>100</num>
@@ -1840,9 +1641,7 @@
 
 
 
-               <desc>L. a. s., en français; Londres, 1837, 1 p. in-4. Relative à plusieurs de ses compositions. 5</desc>
-
-            </item>
+               <desc>L. a. s., en français; Londres, <date when="1837">1837</date>, <measure quantity="1" type="length">1 p.</measure> in-4. Relative à plusieurs de ses compositions. <measure quantity="5" type="price">5</measure></desc></item>
 
             <item n="101" xml:id="CAT_000039_e101">
                <num>101</num>
@@ -1857,9 +1656,7 @@
 
 
 
-               <desc>L. a. s. à Mme de Genlis; 1823, 1 p. in-4. 3</desc>
-
-               <note>Relative au fameux livre de Mme de Genlis intitulé les Diners du baron d'Holbach.</note>
+               <desc>L. a. s. à Mme de Genlis; <date when="1823">1823</date>, <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="3" type="price">3</measure></desc><note>Relative au fameux livre de Mme de Genlis intitulé les Diners du baron d'Holbach.</note>
 
             </item>
             <item n="102" xml:id="CAT_000039_e102">
@@ -1875,9 +1672,7 @@
 
 
 
-               <desc>L. a. s.; SanJorris Polder, 1741, 4 p. in-4. 10</desc>
-
-               <note>Belle et curieuse lettre écrite sans doute à Dortous de Mairan, et toute relative aux Institutions de physique de Mme du Châtelet</note>
+               <desc>L. a. s.; SanJorris Polder, <date when="1741">1741</date>, <measure quantity="4" type="length">4 p.</measure> in-4. <measure quantity="10" type="price">10</measure></desc><note>Belle et curieuse lettre écrite sans doute à Dortous de Mairan, et toute relative aux Institutions de physique de Mme du Châtelet</note>
 
             </item>
 
@@ -1894,9 +1689,7 @@
 
 
 
-               <desc>L. a. s. au peintre Descamps, à Rouen; 1786, 1 p. 1/3 in-4. 10</desc>
-
-               <note>Belle lettre, inédite, au sujet de ses Etudes de la Nature</note>
+               <desc>L. a. s. au peintre Descamps, à Rouen; <date when="1786">1786</date>, <measure quantity="1.33" type="length">1 p. 1/3</measure> in-4. <measure quantity="10" type="price">10</measure></desc><note>Belle lettre, inédite, au sujet de ses Etudes de la Nature</note>
 
             </item>
 
@@ -1913,9 +1706,7 @@
 
 
 
-               <desc>Pièce avec 3 lignes aut. sig.; Nancy, 1720, 1 p. in-4. Rare. 5</desc>
-
-            </item>
+               <desc>Pièce avec 3 lignes aut. sig.; Nancy, <date when="1720">1720</date>, <measure quantity="1" type="length">1 p.</measure> in-4. Rare. <measure quantity="5" type="price">5</measure></desc></item>
 
             <item n="105" xml:id="CAT_000039_e105">
                <num>105</num>
@@ -1930,9 +1721,7 @@
 
 
 
-               <desc>Quit. sig. d'une pension que lui fait le grand-duc de Toscane, 1769, 1 p. in-f. 3</desc>
-
-            </item>
+               <desc>Quit. sig. d'une pension que lui fait le grand-duc de Toscane, <date when="1769">1769</date>, <measure quantity="1" type="length">1 p.</measure> in-f. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="106" xml:id="CAT_000039_e106">
                <num>106</num>
@@ -1947,9 +1736,7 @@
 
 
 
-               <desc>L. a. s. à Buloz, 2 p. in-12. 3</desc>
-          
-                <note>Curieuse épitre, déjà ancienne, relative au compte-rendu qu'il est chargé de faire d'un volume d'Alfred de Musset</note>
+               <desc>L. a. s. à Buloz, <measure quantity="2" type="length">2 p.</measure> in-12. <measure quantity="3" type="price">3</measure></desc><note>Curieuse épitre, déjà ancienne, relative au compte-rendu qu'il est chargé de faire d'un volume d'Alfred de Musset</note>
 
             </item>
 
@@ -1966,9 +1753,7 @@
 
 
 
-               <desc>L. a. s., 1 p. in-8. 2</desc>
-
-            </item>
+               <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="2" type="price">2</measure></desc></item>
 
             <item n="108" xml:id="CAT_000039_e108">
                <num>108</num>
@@ -1983,9 +1768,7 @@
 
 
 
-               <desc>Pièce aut. sig., 1 p. in-f. 5</desc>
-
-               <note>Curieuse requète faite à l'âge de 74 ans, où il donne ses états de service et réclame contre la suppression de sa gratification comme lieutenant-général</note>
+               <desc>Pièce aut. sig., <measure quantity="1" type="length">1 p.</measure> in-f. <measure quantity="5" type="price">5</measure></desc><note>Curieuse requète faite à l'âge de 74 ans, où il donne ses états de service et réclame contre la suppression de sa gratification comme lieutenant-général</note>
 
             </item>
 
@@ -2002,9 +1785,7 @@
 
 
 
-               <desc>L. a. s., en français; Nancy, 1797, 3 p. in-4. Relative à un de ses ouvrages. 4</desc>
-
-            </item>
+               <desc>L. a. s., en français; Nancy, <date when="1797">1797</date>, <measure quantity="3" type="length">3 p.</measure> in-4. Relative à un de ses ouvrages. <measure quantity="4" type="price">4</measure></desc></item>
 
             <item n="110" xml:id="CAT_000039_e110">
                <num>110</num>
@@ -2019,9 +1800,7 @@
 
 
 
-               <desc>L. a. s., 1839, 3 p. in-8. 3</desc>
-
-               <note>Belle lettre politique, dans laquelle il parle de la mort de la princesse Marie d'Orleans</note>
+               <desc>L. a. s., <date when="1839">1839</date>, <measure quantity="3" type="length">3 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc><note>Belle lettre politique, dans laquelle il parle de la mort de la princesse Marie d'Orleans</note>
 
             </item>
 
@@ -2038,9 +1817,7 @@
 
 
 
-               <desc>L. a. s., 1 p. in-8. 4</desc>
-
-            </item>
+               <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="4" type="price">4</measure></desc></item>
 
             <item n="112" xml:id="CAT_000039_e112">
                <num>112</num>
@@ -2055,9 +1832,7 @@
 
 
 
-               <desc>L. a. s., à un journaliste, 2 p. in-8. 3</desc>
-
-            </item>
+               <desc>L. a. s., à un journaliste, <measure quantity="2" type="length">2 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="113" xml:id="CAT_000039_e113">
                <num>113</num>
@@ -2072,9 +1847,7 @@
 
 
 
-               <desc>L. a. s., 1 p. in-8. 3</desc>
-
-            </item>
+               <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
             <item n="114" xml:id="CAT_000039_e114">
                <num>114</num>
@@ -2089,9 +1862,7 @@
 
 
 
-               <desc>L. a. s. à Chatelain, 1 p. in-8. 3</desc>
-
-               <note>Envoi d'une réponse à l'infâme Gazette</note>
+               <desc>L. a. s. à Chatelain, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc><note>Envoi d'une réponse à l'infâme Gazette</note>
 
             </item>
 
@@ -2108,9 +1879,7 @@
 
 
 
-               <desc>L. a. s., en italien, au peintre sicilien Marsigli; Rome, 1819, 3/4 de p. in-4. 4</desc>
-
-               <note>Relative à la visite que doivent lui faire le prince et la princesse de Luperano</note>
+               <desc>L. a. s., en italien, au peintre sicilien Marsigli; Rome, <date when="1819">1819</date>, <measure quantity="0.75" type="length">3/4 de p.</measure> in-4. <measure quantity="4" type="price">4</measure></desc><note>Relative à la visite que doivent lui faire le prince et la princesse de Luperano</note>
 
             </item>
 

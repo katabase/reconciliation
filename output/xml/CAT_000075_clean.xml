@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000075">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000075">
     <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
         <fileDesc>
             <titleStmt>
@@ -90,9 +91,7 @@
 
 
 
-                    <desc>L. a. s. au photographe Trinquart, 1860, 3/4 de p. in-8. 8</desc>
-
-                    <note>Jolie lettre. Il le charge de remettre sa grande photographie à son ami
+                    <desc>L. a. s. au photographe Trinquart, <date when="1860">1860</date>, <measure quantity="0.75" type="length">3/4 de p.</measure> in-8. <measure quantity="8" type="price">8</measure></desc><note>Jolie lettre. Il le charge de remettre sa grande photographie à son ami
                         Fauvel : « Il me mettra en bonne compagnie, et je serai très-heureux d'être
                         pendu en effigie dans son salon, en attendant que la justice des prêtres
                         fasse mieux.</note>
@@ -112,10 +111,7 @@
 
 
 
-                    <desc>L. a. s. à M. de Pontchartrain; Paris, 28 juillet 1702, 2 p. 1/2 in-4.
-            Belle et intéressante lettre. 15</desc>
-
-                </item>
+                    <desc>L. a. s. à M. de Pontchartrain; Paris, 28 juillet 1702, <measure quantity="2.5" type="length">2 p. 1/2</measure> in-4. Belle et intéressante lettre. <measure quantity="15" type="price">15</measure></desc></item>
 
                 <item n="3" xml:id="CAT_000075_e3">
                     <num>3</num>
@@ -130,9 +126,7 @@
 
 
 
-                    <desc>L. a. s., 1860, 1 p. in-8. 2</desc>
-
-                </item>
+                    <desc>L. a. s., <date when="1860">1860</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="2" type="price">2</measure></desc></item>
 
                 <item n="4" xml:id="CAT_000075_e4">
                     <num>4</num>
@@ -148,9 +142,7 @@
 
 
 
-                    <desc>P. s.ig. avec une ligne aut., en français, 1 p. in-8 obl. 15</desc>
-
-                </item>
+                    <desc>P. s.ig. avec une ligne aut., en français, <measure quantity="1" type="length">1 p.</measure> in-8 obl. <measure quantity="15" type="price">15</measure></desc></item>
 
                 <item n="5" xml:id="CAT_000075_e5">
                     <num>5</num>
@@ -166,9 +158,7 @@
 
 
 
-                    <desc>L. a. s. à une dame, 1 p. 1/2 in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s. à une dame, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="6" xml:id="CAT_000075_e6">
                     <num>6</num>
@@ -184,9 +174,7 @@
 
 
 
-                    <desc>L. a. s.; Paris, 27 juillet 1710, 4 p. in-4. 20</desc>
-
-                    <note>Lettre des plus curieuses. Il vient de saisir chez l'abbé Du Pin, dans
+                    <desc>L. a. s.; Paris, 27 juillet 1710, <measure quantity="4" type="length">4 p.</measure> in-4. <measure quantity="20" type="price">20</measure></desc><note>Lettre des plus curieuses. Il vient de saisir chez l'abbé Du Pin, dans
                         expédiées à Valenciennes et à Tournay. Ces cartes appartenaient à la veuve
                         d'un sieur Lamblin, receveur général du Poitou; auparavant elles avaient été
                         possédées par le fils de Louvois, ministre de la guerre comme son père M. de
@@ -212,9 +200,7 @@
 
 
 
-                    <desc>L. a. s.; Rennes, 23 juillet 1667, 1 p. in-4. 15</desc>
-
-                    <note>Relative au clergé.</note>
+                    <desc>L. a. s.; Rennes, 23 juillet 1667, <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="15" type="price">15</measure></desc><note>Relative au clergé.</note>
 
                 </item>
                 <item n="8" xml:id="CAT_000075_e8">
@@ -231,11 +217,7 @@
 
 
 
-                    <desc>L. a. s. à Mme de Villeroi, sa cousine; Saint-Germain, 9 février 1677, 1
-            p. pet. in-4. Cachets à ses armes. 12</desc>
-
-
-                </item>
+                    <desc>L. a. s. à Mme de Villeroi, sa cousine; Saint-Germain, 9 février 1677, <measure quantity="1" type="length">1 p.</measure> pet. in-4. Cachets à ses armes. <measure quantity="12" type="price">12</measure></desc></item>
                 <item n="9" xml:id="CAT_000075_e9">
                     <num>9</num>
 
@@ -251,10 +233,7 @@
 
 
 
-                    <desc>L. a. s. à M. Chibert, conseiller à la Cour des Aides, (1716);, 2 p. 1/2
-            in-8. 6</desc>
-
-                    <note>Belle lettre sur les finances, à l'époque des projets de réforme qui
+                    <desc>L. a. s. à M. Chibert, conseiller à la Cour des Aides, (1716);, <measure quantity="2.5" type="length">2 p. 1/2</measure> in-8. <measure quantity="6" type="price">6</measure></desc><note>Belle lettre sur les finances, à l'époque des projets de réforme qui
                         précédèrent le système de Law. Il parle de calculs que M. Chibert auraient
                         faits et qu'il serait bon de répéter à M. de Torcy</note>
 
@@ -273,9 +252,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. 3/4 in-18. 2 fr. 50</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1.75" type="length">1 p. 3/4</measure> in-18. 2 fr. <measure quantity="50" type="price">50</measure></desc></item>
                 <item n="11" xml:id="CAT_000075_e11">
                     <num>11</num>
 
@@ -290,10 +267,7 @@
 
 
 
-                    <desc>L. a. s. aux membres du Conseil des Etats des Pays-Bas; Amsterdam, 25
-            juillet 1636, 3/4 de p. in-fol. 15</desc>
-
-                    <note>Très-belle lettre où il leur annonce l'envoi d'une dépèche du prince
+                    <desc>L. a. s. aux membres du Conseil des Etats des Pays-Bas; Amsterdam, 25 juillet 1636, <measure quantity="0.75" type="length">3/4 de p.</measure> in-fol. <measure quantity="15" type="price">15</measure></desc><note>Très-belle lettre où il leur annonce l'envoi d'une dépèche du prince
                         d'Orange</note>
 
                 </item>
@@ -312,10 +286,7 @@
 
 
 
-                    <desc>10 lettres à lui adressées par Choron, le baron Méchain, Etienne Lenoir,
-            La Rochefoucauld-Liancourt, etc.; 1817-22, 17 pages in-8 ou in-4. 10</desc>
-
-                </item>
+                    <desc>10 lettres à lui adressées par Choron, le baron Méchain, Etienne Lenoir, La Rochefoucauld-Liancourt, etc.; <date when="1817">1817</date>-22, <measure quantity="17" type="length">17 p</measure>ages in-8 ou in-4. <measure quantity="10" type="price">10</measure></desc></item>
 
                 <item n="13" xml:id="CAT_000075_e13">
                     <num>13</num>
@@ -332,9 +303,7 @@
 
 
 
-                    <desc>2 1. a. s. (à Dirois); 1681-85, 5 p. in-8. 20</desc>
-
-                    <note>Belles lettres : (1681). Il parle de la nomination de Jean d'Estrées comme
+                    <desc>2 1. a. s. (à Dirois); <date when="1681">1681</date>-85, <measure quantity="5" type="length">5 p.</measure> in-8. <measure quantity="20" type="price">20</measure></desc><note>Belles lettres : (1681). Il parle de la nomination de Jean d'Estrées comme
                         maréchal de France et demande des nouvelles de l'affaire de la régale.
                         -(1685). Recommandation en faveur d'un écossais de ses parents, O'Daly, qui
                         a du goût pour le prosélitisme et la prédication; il désirerait le voir
@@ -354,10 +323,7 @@
                     </trait>
 
 
-                    <desc>Let. sig. au vice-roi d'Italie (le prince Eugène); Laybach, 17 octobre
-            1809, 2 p. 1/2 in-f. 10</desc>
-
-                    <note>Importante lettre historique sur la guerre avec l'Autriche; il donne les
+                    <desc>Let. sig. au vice-roi d'Italie (le prince Eugène); Laybach, 17 octobre 1809, <measure quantity="2.5" type="length">2 p. 1/2</measure> in-f. <measure quantity="10" type="price">10</measure></desc><note>Importante lettre historique sur la guerre avec l'Autriche; il donne les
                         bius grands détails sur la situation du pays vis-à-vis des insurgés du Tyrol
                         et de l'Istrie ; les troupes régulières sont souvent battues et les
                         défections deviennent de plus en plus nombreuses; les prisonniers faits par
@@ -379,10 +345,7 @@
 
 
 
-                    <desc>L. a. s. à Emmanuel Arago; prison de la Conciergerie, 17 juin 1839, 1/2 p.
-            in-4. 5</desc>
-
-                </item>
+                    <desc>L. a. s. à Emmanuel Arago; prison de la Conciergerie, 17 juin 1839, <measure quantity="0.5" type="length">1/2 p.</measure> in-4. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="16" xml:id="CAT_000075_e16">
                     <num>16</num>
@@ -399,9 +362,7 @@
 
 
 
-                    <desc>L. a. s. à un général; Boulogne, 26 octobre 1811, 1 p. in-4. 5</desc>
-
-                </item>
+                    <desc>L. a. s. à un général; Boulogne, 26 octobre 1811, <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="17" xml:id="CAT_000075_e17">
                     <num>17</num>
@@ -416,9 +377,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="18" xml:id="CAT_000075_e18">
                     <num>18</num>
@@ -433,10 +392,7 @@
 
 
 
-                    <desc>12 1. a. s. à Sauvage, directeur de l'Odéon; 1839-50; 20 p. in-8.
-            10</desc>
-
-                    <note>Belles lettres, toutes relatives à ses ouvrages</note>
+                    <desc>12 1. a. s. à Sauvage, directeur de l'Odéon; <date when="1839">1839</date>-50; <measure quantity="20" type="length">20 p.</measure> in-8. <measure quantity="10" type="price">10</measure></desc><note>Belles lettres, toutes relatives à ses ouvrages</note>
 
                 </item>
 
@@ -454,9 +410,7 @@
 
 
 
-                    <desc>L. a. s. à Menage; Paris, 13 décembre 1691, 3 p. pl. in-4. 25</desc>
-
-                    <note>Curieuse lettre. Bien des contretemps l'ont empêché de lui écrire; on
+                    <desc>L. a. s. à Menage; Paris, 13 décembre 1691, <measure quantity="3" type="length">3 p.</measure> pl. in-4. <measure quantity="25" type="price">25</measure></desc><note>Curieuse lettre. Bien des contretemps l'ont empêché de lui écrire; on
                         retient ses lettres à la poste. Il parle d'Eléonore de Guyenne, composée par
                         un réfugié français à Berlin, M. de Larrey; il a déjà donné la Vie d'Auguste
                         et prépare une Histoire d'Angleterre. Il désire connaître l'époque de la
@@ -482,9 +436,7 @@
 
 
 
-                    <desc>L. a. s.; Plessala (Côtes-du-Nord), 1 p. in-4. 20</desc>
-
-                    <note>Il se rend à Brest, auprès du duc de Chaulnes, et se plaint de la
+                    <desc>L. a. s.; Plessala (Côtes-du-Nord), <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="20" type="price">20</measure></desc><note>Il se rend à Brest, auprès du duc de Chaulnes, et se plaint de la
                         négligence de son correspondant</note>
 
                 </item>
@@ -503,9 +455,7 @@
 
 
 
-                    <desc>L. a. s. à Ribeyrolles ; Londres, 21 septembre 1855, 2 p. in-8. 4</desc>
-
-                </item>
+                    <desc>L. a. s. à Ribeyrolles ; Londres, 21 septembre 1855, <measure quantity="2" type="length">2 p.</measure> in-8. <measure quantity="4" type="price">4</measure></desc></item>
 
                 <item n="22" xml:id="CAT_000075_e22">
                     <num>22</num>
@@ -520,9 +470,7 @@
 
 
 
-                    <desc>Let. sig. au géographe Robert; Rome, 27 juillet 1790, 1 p. in-4. 4</desc>
-
-                    <note>Il lui annonce en termes flatteurs sa nomination comme membre de
+                    <desc>Let. sig. au géographe Robert; Rome, 27 juillet 1790, <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="4" type="price">4</measure></desc><note>Il lui annonce en termes flatteurs sa nomination comme membre de
                         l'Institut de Bologne</note>
 
                 </item>
@@ -540,10 +488,7 @@
 
 
 
-                    <desc>L. a. s., en latin, à J.-G. Liebknecht, professeur de mathématiques à
-            Giessen; Bâle, 7 juillet 1714, 4 p. pl. in-4. 12</desc>
-
-                    <note>Très-belle lettre scientifique. Il le remercie de l'envoi de ses Eléments
+                    <desc>L. a. s., en latin, à J.-G. Liebknecht, professeur de mathématiques à Giessen; Bâle, 7 juillet 1714, <measure quantity="4" type="length">4 p.</measure> pl. in-4. <measure quantity="12" type="price">12</measure></desc><note>Très-belle lettre scientifique. Il le remercie de l'envoi de ses Eléments
                         de géographie générale. Il parle de l'opinion de Liebknecht qui veut
                         expliquer le Déluge par la rencontre de la terre avec une comète. A propos
                         de ses théories sur le calcul infinitésimal, il lui annonce qu'il a écrit à
@@ -567,10 +512,7 @@
 
 
 
-                    <desc>Let. aut. à M. de Préaulx, ambassadeur en Flandre; Xanten, 17 octobre
-            1614, 2 p. in-fol. 10</desc>
-
-                    <note>Lettre historique. Les ambassadeurs de plusieurs puissances se sont réunis
+                    <desc>Let. aut. à M. de Préaulx, ambassadeur en Flandre; Xanten, 17 octobre 1614, <measure quantity="2" type="length">2 p.</measure> in-fol. <measure quantity="10" type="price">10</measure></desc><note>Lettre historique. Les ambassadeurs de plusieurs puissances se sont réunis
                         à Xanten pour décider du partage de Clèves et de Juliers entre l'électeur de
                         Brandebourg et le prince de Neubourg ; Juliers serait mise sous la garde du
                         prince d'Orange; ces propositions viennent de l'Angleterre, mais les
@@ -591,9 +533,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 2.50</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="2.50" type="price">2.50</measure></desc></item>
                 <item n="26" xml:id="CAT_000075_e26">
                     <num>26</num>
 
@@ -609,9 +549,7 @@
 
 
 
-                    <desc>Quitt. sig. sur vélin, 1623, 1 p. in-8 obl. Rare. 15</desc>
-
-                </item>
+                    <desc>Quitt. sig. sur vélin, <date when="1623">1623</date>, <measure quantity="1" type="length">1 p.</measure> in-8 obl. Rare. <measure quantity="15" type="price">15</measure></desc></item>
 
                 <item n="27" xml:id="CAT_000075_e27">
                     <num>27</num>
@@ -626,9 +564,7 @@
 
 
 
-                    <desc>L. a. s., 1860, 1 p. in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s., <date when="1860">1860</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="28" xml:id="CAT_000075_e28">
                     <num>28</num>
@@ -643,10 +579,7 @@
 
 
 
-                    <desc>Let. sig. avec la souscription aut., en latin, à Armand Polain, docteur de
-            l'Eglise de Bâle; 1/2 p. in-4, cachet. 100</desc>
-
-                    <note>Il le félicite sur son mariage et lui annonce qu'il donne à Grynaeus, pour
+                    <desc>Let. sig. avec la souscription aut., en latin, à Armand Polain, docteur de l'Eglise de Bâle; <measure quantity="0.5" type="length">1/2 p.</measure> in-4, cachet. <measure quantity="100" type="price">100</measure></desc><note>Il le félicite sur son mariage et lui annonce qu'il donne à Grynaeus, pour
                         les lui communiquer, des nouvelles de France. Il fait l'éloge de Borgkius et
                         parle de Baladius</note>
 
@@ -666,10 +599,7 @@
 
 
 
-                    <desc>L. a. s. au maréchal de Brézé; Vouillé, 1er novembre 1639, 1 p. in-4,
-            cachets et soies. 15</desc>
-
-                    <note>Il se déclare tout à son service et s'excuse de n'être pas allé lui
+                    <desc>L. a. s. au maréchal de Brézé; Vouillé, 1er novembre 1639, <measure quantity="1" type="length">1 p.</measure> in-4, cachets et soies. <measure quantity="15" type="price">15</measure></desc><note>Il se déclare tout à son service et s'excuse de n'être pas allé lui
                         présenter ses devoirs en personne</note>
 
                 </item>
@@ -687,9 +617,7 @@
 
 
 
-                    <desc>L. a. s., 1/2 p. in-8. 2</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="0.5" type="length">1/2 p.</measure> in-8. <measure quantity="2" type="price">2</measure></desc></item>
 
                 <item n="31" xml:id="CAT_000075_e31">
                     <num>31</num>
@@ -705,9 +633,7 @@
 
 
 
-                    <desc>L. a. s. à Richelieu, 2 p. in-fol. Rare. 20</desc>
-
-                    <note>Volontaire à l'armée de Flandre, il a déserté son corps; il craint d'être
+                    <desc>L. a. s. à Richelieu, <measure quantity="2" type="length">2 p.</measure> in-fol. Rare. <measure quantity="20" type="price">20</measure></desc><note>Volontaire à l'armée de Flandre, il a déserté son corps; il craint d'être
                         obligé comme de Marsillac et Cursol de retourner dans ses terres, et demande
                         au cardinal de ne pas le traiter aussi sévèrement</note>
 
@@ -727,9 +653,7 @@
 
 
 
-                    <desc>L. a. s., 1870, 2 p. in-8. 2.50</desc>
-
-                </item>
+                    <desc>L. a. s., <date when="1870">1870</date>, <measure quantity="2" type="length">2 p.</measure> in-8. <measure quantity="2.50" type="price">2.50</measure></desc></item>
                 <item n="33" xml:id="CAT_000075_e33">
                     <num>33</num>
 
@@ -744,9 +668,7 @@
 
 
 
-                    <desc>L. a. s.; 12 septembre (1861);, 1 p. in-8. 3</desc>
-
-                    <note>Il offre, pour la Revue contemporaine, des travaux littéraires sur tous
+                    <desc>L. a. s.; 12 septembre (1861);, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc><note>Il offre, pour la Revue contemporaine, des travaux littéraires sur tous
                         sujets, « sauf la politique que j'ignore »</note>
 
                 </item>
@@ -764,9 +686,7 @@
 
 
 
-                    <desc>Pièce aut., 2 p. in-18 obl. 10</desc>
-
-                    <note>Fragment du Traité de la Politique tirée de l'Ecriture sainte</note>
+                    <desc>Pièce aut., <measure quantity="2" type="length">2 p.</measure> in-18 obl. <measure quantity="10" type="price">10</measure></desc><note>Fragment du Traité de la Politique tirée de l'Ecriture sainte</note>
 
                 </item>
 
@@ -783,9 +703,7 @@
 
 
 
-                    <desc>L. a. s. Zulma, 1 p. in-18. 2</desc>
-
-                </item>
+                    <desc>L. a. s. Zulma, <measure quantity="1" type="length">1 p.</measure> in-18. <measure quantity="2" type="price">2</measure></desc></item>
 
                 <item n="36" xml:id="CAT_000075_e36">
                     <num>36</num>
@@ -800,9 +718,7 @@
 
 
 
-                    <desc>Pièce sig., comme gouverneur de Gorée, 1787, 1 p. in-4. 5</desc>
-
-                </item>
+                    <desc>Pièce sig., comme gouverneur de Gorée, <date when="1787">1787</date>, <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="37" xml:id="CAT_000075_e37">
                     <num>37</num>
@@ -818,10 +734,7 @@
 
 
 
-                    <desc>Pièce aut. sig.; Paris, 1er nov. 1882, 3/4 de p. in-8, avec une belle
-            photographie par Nadar, in-8. 30</desc>
-
-                    <note>Curieuse pièce dont voici le texte : « L'Afrique dans sa fécondité
+                    <desc>Pièce aut. sig.; Paris, 1er nov. 1882, <measure quantity="0.75" type="length">3/4 de p.</measure> in-8, avec une belle photographie par Nadar, in-8. <measure quantity="30" type="price">30</measure></desc><note>Curieuse pièce dont voici le texte : « L'Afrique dans sa fécondité
                         primitive rendra au centuple ce qui y sera semé, le bien comme le
                         mal.</note>
 
@@ -840,9 +753,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. Rare. 10</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. Rare. <measure quantity="10" type="price">10</measure></desc></item>
 
                 <item n="39" xml:id="CAT_000075_e39">
                     <num>39</num>
@@ -857,10 +768,7 @@
 
 
 
-                    <desc>Let. sig. au géographe Robert; Montbard, 16 juillet 1777,3/4 de p. pet.
-            in-4, cachet à ses armes. 5</desc>
-
-                </item>
+                    <desc>Let. sig. au géographe Robert; Montbard, 16 juillet 1777,<measure quantity="0.75" type="length">3/4 de p.</measure> pet. in-4, cachet à ses armes. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="40" xml:id="CAT_000075_e40">
                     <num>40</num>
@@ -876,10 +784,7 @@
 
 
 
-                    <desc>Let. sig. à Richelieu; Wésel, 26 septembre 1633, 1 p. in-fol. Cachets.
-            Légère déchirure. 20</desc>
-
-                    <note>Lettre historique. D'après l'avis de M. de Feuquières, l'Electeur de
+                    <desc>Let. sig. à Richelieu; Wésel, 26 septembre 1633, <measure quantity="1" type="length">1 p.</measure> in-fol. Cachets. Légère déchirure. <measure quantity="20" type="price">20</measure></desc><note>Lettre historique. D'après l'avis de M. de Feuquières, l'Electeur de
                         Mayence n'assiégera pas Philipsbourg et se retirera à Spire ; de Spire à
                         Coblentz, les places sont très-mal gardées. On s'est emparé du père Seneul.
                         (Il s'agit probablement du médecin Senel condamné aux galères perpétuelles
@@ -900,10 +805,7 @@
 
 
 
-                    <desc>L. a. s. au vicomte Dambray ; Londres, 7 janvier 1837, 3 p. in-4. Cachet à
-            ses armes. 6</desc>
-
-                    <note>Belle lettre politique où il fait allusion à la mort de Charles X. « à la
+                    <desc>L. a. s. au vicomte Dambray ; Londres, 7 janvier 1837, <measure quantity="3" type="length">3 p.</measure> in-4. Cachet à ses armes. <measure quantity="6" type="price">6</measure></desc><note>Belle lettre politique où il fait allusion à la mort de Charles X. « à la
                         perte irréparable que nous avons faite en novembre dernier. Notre juste
                         douleur a trouvé ici de nombreuses sympathies.</note>
 
@@ -922,10 +824,7 @@
 
 
 
-                    <desc>12 let. a. s. à Sauvage, directeur de l'Odéon; 1827-57, 15 p. in-8 et
-            in-18. 10</desc>
-
-                    <note>Intéressante correspondance sur la représentation de ses ouvrages à
+                    <desc>12 let. a. s. à Sauvage, directeur de l'Odéon; <date when="1827">1827</date>-57, <measure quantity="15" type="length">15 p.</measure> in-8 et in-18. <measure quantity="10" type="price">10</measure></desc><note>Intéressante correspondance sur la représentation de ses ouvrages à
                         l'Odéon</note>
 
                 </item>
@@ -943,9 +842,7 @@
 
 
 
-                    <desc>L. a. s.; 1875, 1 p. in-18. 3</desc>
-
-                </item>
+                    <desc>L. a. s.; <date when="1875">1875</date>, <measure quantity="1" type="length">1 p.</measure> in-18. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="44" xml:id="CAT_000075_e44">
                     <num>44</num>
@@ -962,10 +859,7 @@
 
 
 
-                    <desc>L. a. s. à M. Lebret; Paris, 2 mai 1695, 1 p. in-4. Belle lettre.
-            10</desc>
-
-                </item>
+                    <desc>L. a. s. à M. Lebret; Paris, 2 mai 1695, <measure quantity="1" type="length">1 p.</measure> in-4. Belle lettre. <measure quantity="10" type="price">10</measure></desc></item>
 
                 <item n="45" xml:id="CAT_000075_e45">
                     <num>45</num>
@@ -981,9 +875,7 @@
 
 
 
-                    <desc>Billet aut. à Mlle de Scudéry ; 1 p. in-18 obl. 15</desc>
-
-                </item>
+                    <desc>Billet aut. à Mlle de Scudéry ; <measure quantity="1" type="length">1 p.</measure> in-18 obl. <measure quantity="15" type="price">15</measure></desc></item>
 
                 <item n="46" xml:id="CAT_000075_e46">
                     <num>46</num>
@@ -999,10 +891,7 @@
 
 
 
-                    <desc>L. a. s. au comte de Belleisle (plus tard maréchal) ; Fontainebleau, 16
-            octobre 1740, 5 p. in-4. 12</desc>
-
-                    <note>Très-curieuse lettre au sujet de l'ingénieur Forest de Bélidor, qui avait
+                    <desc>L. a. s. au comte de Belleisle (plus tard maréchal) ; Fontainebleau, 16 octobre 1740, <measure quantity="5" type="length">5 p.</measure> in-4. <measure quantity="12" type="price">12</measure></desc><note>Très-curieuse lettre au sujet de l'ingénieur Forest de Bélidor, qui avait
                         trouvé le moyen de diminuer la charge de poudre dans les gargousses sans
                         rendre plus courte la portée de la pièce. Le comte de Belleisle n'en veut
                         plus entendre parler et se retranche derrière l'indignation du corps
@@ -1026,9 +915,7 @@
 
 
 
-                    <desc>L. a. s.; 22 novembre 1864, 2 p. in-8. 5</desc>
-
-                    <note>Jolie lettre politique : « J'aimerais fort à être de ceux qui montrent
+                    <desc>L. a. s.; 22 novembre 1864, <measure quantity="2" type="length">2 p.</measure> in-8. <measure quantity="5" type="price">5</measure></desc><note>Jolie lettre politique : « J'aimerais fort à être de ceux qui montrent
                         dans votre Revue (la Revue contemporaine) que le gouvernement impérial est
                         un représentant plus sérieux du progrès que l'une quelconque des écoles qui
                         lui font opposition.</note>
@@ -1049,10 +936,7 @@
 
 
 
-                    <desc>L. a. s. à l'évêque d'Autun (Bernard de Senaux) ; Paris, 20 juillet 1703,
-            4 p.in-8. 15</desc>
-
-                    <note>Belle lettre. Il lui annonce la mort du cardinal de Bonsi, à Montpellier.
+                    <desc>L. a. s. à l'évêque d'Autun (Bernard de Senaux) ; Paris, 20 juillet 1703, <measure quantity="4" type="length">4 p.</measure>in-8. <measure quantity="15" type="price">15</measure></desc><note>Belle lettre. Il lui annonce la mort du cardinal de Bonsi, à Montpellier.
                         Il désapprouve les honneurs rendus, à Beaune, à M. Petit-Pied. Le duc de
                         Bourgogne a passé le Rhin, etc</note>
 
@@ -1071,9 +955,7 @@
 
 
 
-                    <desc>L. a. s. ; 1 p. in-8. 2</desc>
-
-                </item>
+                    <desc>L. a. s. ; <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="2" type="price">2</measure></desc></item>
 
                 <item n="50" xml:id="CAT_000075_e50">
                     <num>50</num>
@@ -1090,9 +972,7 @@
 
 
 
-                    <desc>Quittance sig.; Augsbourg, 26 octobre 1518, 1/2 p. in-fol. 15</desc>
-
-                    <note>Il reconnaît avoir reçu du fameux banquier d'Augsbourg, Jacques Fugger, la
+                    <desc>Quittance sig.; Augsbourg, 26 octobre 1518, <measure quantity="0.5" type="length">1/2 p.</measure> in-fol. <measure quantity="15" type="price">15</measure></desc><note>Il reconnaît avoir reçu du fameux banquier d'Augsbourg, Jacques Fugger, la
                         somme de 40,000 florins d'or « pour fournir à l'entretenement des
                         praticques, conduictes et demenées pour le fait de l'Empire.(Charles-Quint
                         préparait son élection à l'Empire et se préoccupait d'acheter les voix des
@@ -1117,11 +997,7 @@
 
 
 
-                    <desc>Approbation de 7 petites lig. aut. sig. comme censeur, au bas du manuscrit
-            intitulé : la Gageure, opera-comique en un acte ; 25 février 1745, 36 p.
-            petit in-4. 10</desc>
-
-                </item>
+                    <desc>Approbation de <measure quantity="7" type="length">7 p</measure>etites lig. aut. sig. comme censeur, au bas du manuscrit intitulé : la Gageure, opera-comique en un acte ; 25 février 1745, 36 p. petit in-4. <measure quantity="10" type="price">10</measure></desc></item>
 
                 <item n="52" xml:id="CAT_000075_e52">
                     <num>52</num>
@@ -1136,9 +1012,7 @@
 
 
 
-                    <desc>L. a. s. ; 1/2 p. in-8. 2.50</desc>
-
-                </item>
+                    <desc>L. a. s. ; <measure quantity="0.5" type="length">1/2 p.</measure> in-8. <measure quantity="2.50" type="price">2.50</measure></desc></item>
                 <item n="53" xml:id="CAT_000075_e53">
                     <num>53</num>
 
@@ -1152,9 +1026,7 @@
 
 
 
-                    <desc>L. a. s.; Bordeaux, 14 juin 1865, 2 p. 1/2 in-8. 5</desc>
-
-                    <note>Belle et intéressante lettre sur Abd-el-Kader</note>
+                    <desc>L. a. s.; Bordeaux, 14 juin 1865, <measure quantity="2.5" type="length">2 p. 1/2</measure> in-8. <measure quantity="5" type="price">5</measure></desc><note>Belle et intéressante lettre sur Abd-el-Kader</note>
 
                 </item>
 
@@ -1172,9 +1044,7 @@
 
 
 
-                    <desc>L. a. s.; 1858, 2 p. 1/4 in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s.; <date when="1858">1858</date>, <measure quantity="2.25" type="length">2 p. 1/4</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="55" xml:id="CAT_000075_e55">
                     <num>55</num>
@@ -1189,10 +1059,7 @@
 
 
 
-                    <desc>L. a. s. à M. Darmy ; Amsterdam, 1843, 1 p. 1/2 in-8. Charmante épître.
-            3</desc>
-
-                </item>
+                    <desc>L. a. s. à M. Darmy ; Amsterdam, <date when="1843">1843</date>, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-8. Charmante épître. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="56" xml:id="CAT_000075_e56">
                     <num>56</num>
@@ -1207,9 +1074,7 @@
 
 
 
-                    <desc>L. a. s.; 1 p. in-18. 2</desc>
-
-                </item>
+                    <desc>L. a. s.; <measure quantity="1" type="length">1 p.</measure> in-18. <measure quantity="2" type="price">2</measure></desc></item>
 
                 <item n="57" xml:id="CAT_000075_e57">
                     <num>57</num>
@@ -1224,9 +1089,7 @@
 
 
 
-                    <desc>L. a. s., 2 p. 1/2 in-18. 3</desc>
-
-                    <note>Jolie lettre où il demande une place pour voir jouer Giralda. « Je n'ai
+                    <desc>L. a. s., <measure quantity="2.5" type="length">2 p. 1/2</measure> in-18. <measure quantity="3" type="price">3</measure></desc><note>Jolie lettre où il demande une place pour voir jouer Giralda. « Je n'ai
                         jamais entendu, même à la création, la Giralda de mon maître Adam.</note>
 
                 </item>
@@ -1245,10 +1108,7 @@
 
 
 
-                    <desc>Let. sig. (à la duchesse de Devonshire) ; Paris, 8 novembre 1810, 2 p.
-            in-4. 5</desc>
-
-                    <note>Charmante épître. Il espère bientôt causer avec elle de Naples, d'Ischia,
+                    <desc>Let. sig. (à la duchesse de Devonshire) ; Paris, 8 novembre 1810, <measure quantity="2" type="length">2 p.</measure> in-4. <measure quantity="5" type="price">5</measure></desc><note>Charmante épître. Il espère bientôt causer avec elle de Naples, d'Ischia,
                         de Paris, et laisse à M. Heath le soin de lui rendre compte de la dernière
                         exposition de peinture</note>
 
@@ -1267,9 +1127,7 @@
 
 
 
-                    <desc>20 1. a. s. ; 1854-60, 20 p. in-8. 35</desc>
-
-                    <note>Lettres d'amour dont plusieurs sont fort piquantes</note>
+                    <desc>20 1. a. s. ; <date when="1854">1854</date>-60, <measure quantity="20" type="length">20 p.</measure> in-8. <measure quantity="35" type="price">35</measure></desc><note>Lettres d'amour dont plusieurs sont fort piquantes</note>
 
                 </item>
 
@@ -1286,10 +1144,7 @@
 
 
 
-                    <desc>Let. sig. à Auger, de l'Acad. fr.; Paris, 17 avril 1825, 1 p. in-8.
-            3</desc>
-
-                    <note>Il vient d'apprendre par M. Raynouard qu'il voulait bien se charger de
+                    <desc>Let. sig. à Auger, de l'Acad. fr.; Paris, 17 avril 1825, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc><note>Il vient d'apprendre par M. Raynouard qu'il voulait bien se charger de
                         répondre à sa place au discours de réception de Droz, qui remplaçait
                         Lacretelle aîné à l'Académie française : « M. Droz y gagnera et le public
                         aussi.</note>
@@ -1309,9 +1164,7 @@
 
 
 
-                    <desc>L. a. s. de ses initiales; 1865, 1 p. 1/2 in-8. 5</desc>
-
-                </item>
+                    <desc>L. a. s. de ses initiales; <date when="1865">1865</date>, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-8. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="62" xml:id="CAT_000075_e62">
                     <num>62</num>
@@ -1326,9 +1179,7 @@
 
 
 
-                    <desc>L. a. s., 1/2 p. in-8. 2</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="0.5" type="length">1/2 p.</measure> in-8. <measure quantity="2" type="price">2</measure></desc></item>
 
                 <item n="63" xml:id="CAT_000075_e63">
                     <num>63</num>
@@ -1343,9 +1194,7 @@
 
 
 
-                    <desc>L. a. s. (au vicomte de La Rochefoucauld), 1 p. in-8. 5</desc>
-
-                    <note>Elle lui annonce qu'elle va reprendre son service et qu'il peut compter
+                    <desc>L. a. s. (au vicomte de La Rochefoucauld), <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="5" type="price">5</measure></desc><note>Elle lui annonce qu'elle va reprendre son service et qu'il peut compter
                         sur elle pour le rôle d'Aménaïde : « Je suis trop heureuse de jouer à la
                         Cour pour manquer cette occasion de paraître devant Sa Majesté.</note>
 
@@ -1364,9 +1213,7 @@
 
 
 
-                    <desc>L. a. s. à M. Vandermonde ; 9 janv. 1787, 1 p. in-4. 3</desc>
-
-                </item>
+                    <desc>L. a. s. à M. Vandermonde ; 9 janv. 1787, <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="65" xml:id="CAT_000075_e65">
                     <num>65</num>
@@ -1383,10 +1230,7 @@
 
 
 
-                    <desc>L. a. s. à l'évêque de Chartres (Pierre Lescot); 1635, 2 p. pl. in-fol.
-            15</desc>
-
-                    <note>Très-curieuse lettre écrite contre l'archevêque d'Auch (Dominique de Vic),
+                    <desc>L. a. s. à l'évêque de Chartres (Pierre Lescot); <date when="1635">1635</date>, <measure quantity="2" type="length">2 p.</measure> pl. in-fol. <measure quantity="15" type="price">15</measure></desc><note>Très-curieuse lettre écrite contre l'archevêque d'Auch (Dominique de Vic),
                         qui, dans la dernière assemblée du clergé, attaqua les déclarations de
                         l'évêque de Chartres ; « il trouva que la Bible était citée à tort et qu'à
                         propos de dons gratuits il ne fallait pas faire intervenir David et
@@ -1407,9 +1251,7 @@
 
 
 
-                    <desc>Pièce aut. ; 6 p. 1/2 grand in-f. 15</desc>
-
-                    <note>Curieuse pièce dont voici le titre : Comment Tony Johannot n'ayant pas
+                    <desc>Pièce aut. ; <measure quantity="6.5" type="length">6 p. 1/2</measure> grand in-f. <measure quantity="15" type="price">15</measure></desc><note>Curieuse pièce dont voici le titre : Comment Tony Johannot n'ayant pas
                         assez de bois se procura une chatte et comment cette chatte étant morte
                         Jacques II eut la queue gelée</note>
 
@@ -1428,10 +1270,7 @@
 
 
 
-                    <desc>Let. sig. à Mme Cuvillier-Leduc; Orléans, 4 février 1865, 1 p. in-8.
-            5</desc>
-
-                    <note>Curieuse lettre sur son dernier écrit en faveur du Saint-Siège : « Tandis
+                    <desc>Let. sig. à Mme Cuvillier-Leduc; Orléans, 4 février 1865, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="5" type="price">5</measure></desc><note>Curieuse lettre sur son dernier écrit en faveur du Saint-Siège : « Tandis
                         que la mauvaise foi, la témérité et l'imprudence interprétaient et
                         dénaturaient de toute manière les paroles du Souverain-Pontife, je n'ai eu
                         d'autre mérite que d'avoir parlé le simple langage de la bonne foi et du bon
@@ -1452,10 +1291,7 @@
 
 
 
-                    <desc>L. a. s. à un de ses compatriotes ; Paris, 21 décembre 1830, 4 p. pl.
-            in-4. 15</desc>
-
-                    <note>Lettre politique des plus remarquables. Il a reçu l'adresse au roi que lui
+                    <desc>L. a. s. à un de ses compatriotes ; Paris, 21 décembre 1830, <measure quantity="4" type="length">4 p.</measure> pl. in-4. <measure quantity="15" type="price">15</measure></desc><note>Lettre politique des plus remarquables. Il a reçu l'adresse au roi que lui
                         envoie son compatriote. Il espère que les carlistes, bonapartistes et
                         républicains ne pourront remettre tout en question, « On a tant flatté les
                         dernières classes du peuple, que ceux mêmes qui se croyaient les plus en
@@ -1488,9 +1324,7 @@
 
 
 
-                    <desc>L. a. s. à M. Focet; Paris, 11 avril 1831, 2 p. pet. in-4. 10</desc>
-
-                    <note>Très-intéressante lettre sur la situation de la Pologne après la
+                    <desc>L. a. s. à M. Focet; Paris, 11 avril 1831, <measure quantity="2" type="length">2 p.</measure> pet. in-4. <measure quantity="10" type="price">10</measure></desc><note>Très-intéressante lettre sur la situation de la Pologne après la
                         Révolution de novembre 1830. « Nos braves amis de la Pologne viennent de
                         donner un nouvel exemple au monde de ce que peuvent le patriotisme et la
                         constance d'une nation qui ne veut pas être conquise. La résistance des
@@ -1519,9 +1353,7 @@
 
 
 
-                    <desc>L. a. s. à M. Michel, à Alais; 1864, 1 p. in-8. 5</desc>
-
-                </item>
+                    <desc>L. a. s. à M. Michel, à Alais; <date when="1864">1864</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="71" xml:id="CAT_000075_e71">
                     <num>71</num>
@@ -1537,10 +1369,7 @@
 
 
 
-                    <desc>L. a. s. à Son Excellence... ; Paris (Petit- Luxembourg), 2 juin 1778, 4
-            p. pl. pet. in-4. Papier avec entourage de couleur. 30</desc>
-
-                    <note>Importante lettre qui contient de précieux détails sur la mort de
+                    <desc>L. a. s. à Son Excellence... ; Paris (Petit- Luxembourg), 2 juin 1778, <measure quantity="4" type="length">4 p.</measure> pl. pet. in-4. Papier avec entourage de couleur. <measure quantity="30" type="price">30</measure></desc><note>Importante lettre qui contient de précieux détails sur la mort de
                         Voltaire. A son avis, ce n'est ni l'âge, ni d'anciennes maladies. mais les
                         critiques de ses ennemis, la satire des Der viches, qui ont précipité sa
                         mort. Il voulait amener l'Académie à enrichir la langue française et à
@@ -1570,9 +1399,7 @@
 
 
 
-                    <desc>L. a. s.; 1865, 1 p. in-18. 3</desc>
-
-                </item>
+                    <desc>L. a. s.; <date when="1865">1865</date>, <measure quantity="1" type="length">1 p.</measure> in-18. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="73" xml:id="CAT_000075_e73">
                     <num>73</num>
@@ -1588,9 +1415,7 @@
 
 
 
-                    <desc>L. a. s. ; 3/4 de p. in-8. 5</desc>
-
-                </item>
+                    <desc>L. a. s. ; <measure quantity="0.75" type="length">3/4 de p.</measure> in-8. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="74" xml:id="CAT_000075_e74">
                     <num>74</num>
@@ -1609,9 +1434,7 @@
 
 
 
-                    <desc>Pièce sig.; 1608, 2 p. in-fol. 10</desc>
-
-                    <note>Il reconnaît devoir à Jehan Reynard, conseiller et médecin ordinaire du
+                    <desc>Pièce sig.; <date when="1608">1608</date>, <measure quantity="2" type="length">2 p.</measure> in-fol. <measure quantity="10" type="price">10</measure></desc><note>Il reconnaît devoir à Jehan Reynard, conseiller et médecin ordinaire du
                         roi, la somme de 1,800 livres tournois</note>
 
                 </item>
@@ -1628,11 +1451,7 @@
                     </trait>
 
 
-                    <desc>Prés. « En pensions du Roi et bénéfices, dit Saint-Simon, il jouissait de
-            plus de 700,000 livres, et cependant il mourait exactement de faim. » -Pièce
-            aut. sig.; la Bourdaisière, 1703, 1 p. 1/2 in-8. Rare. 10</desc>
-
-                </item>
+                    <desc>Prés. « En pensions du Roi et bénéfices, dit Saint-Simon, il jouissait de plus de 700,000 livres, et cependant il mourait exactement de faim. » -Pièce aut. sig.; la Bourdaisière, <date when="1703">1703</date>, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-8. Rare. <measure quantity="10" type="price">10</measure></desc></item>
 
                 <item n="76" xml:id="CAT_000075_e76">
                     <num>76</num>
@@ -1647,9 +1466,7 @@
 
 
 
-                    <desc>Let. sig. à Aug. Vecchi ; Caprera, 15 mai 1865, 1 p. in-8. 3</desc>
-
-                </item>
+                    <desc>Let. sig. à Aug. Vecchi ; Caprera, 15 mai 1865, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="77" xml:id="CAT_000075_e77">
                     <num>77</num>
@@ -1665,9 +1482,7 @@
 
 
 
-                    <desc>Reçu aut. sig.; Paris, 7 janv. 1752,3/4 de p. in-8. Jolie pièce. 15</desc>
-
-                </item>
+                    <desc>Reçu aut. sig.; Paris, 7 janv. 1752,<measure quantity="0.75" type="length">3/4 de p.</measure> in-8. Jolie pièce. <measure quantity="15" type="price">15</measure></desc></item>
 
                 <item n="78" xml:id="CAT_000075_e78">
                     <num>78</num>
@@ -1682,9 +1497,7 @@
 
 
 
-                    <desc>L. a. s.; 1 p. in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s.; <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="79" xml:id="CAT_000075_e79">
                     <num>79</num>
@@ -1699,9 +1512,7 @@
 
 
 
-                    <desc>L. a. s.; 3/4 de p. in-8. 2.50</desc>
-
-                </item>
+                    <desc>L. a. s.; <measure quantity="0.75" type="length">3/4 de p.</measure> in-8. <measure quantity="2.50" type="price">2.50</measure></desc></item>
                 <item n="80" xml:id="CAT_000075_e80">
                     <num>80</num>
 
@@ -1715,9 +1526,7 @@
 
 
 
-                    <desc>Pensée de 4 lig. aut., 1 p. in-32. 8</desc>
-
-                </item>
+                    <desc>Pensée de 4 lig. aut., <measure quantity="1" type="length">1 p.</measure> in-32. <measure quantity="8" type="price">8</measure></desc></item>
 
                 <item n="81" xml:id="CAT_000075_e81">
                     <num>81</num>
@@ -1732,9 +1541,7 @@
 
 
 
-                    <desc>L. a. s. au docteur Dumont, 1860, 2 p. in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s. au docteur Dumont, <date when="1860">1860</date>, <measure quantity="2" type="length">2 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="82" xml:id="CAT_000075_e82">
                     <num>82</num>
@@ -1749,10 +1556,7 @@
 
 
 
-                    <desc>L. a. s., en français, à Mlie Vecchi; Paris, 4 août 1848, 2 p. pl. in-4.
-            10</desc>
-
-                    <note>Très-intéressante lettre. Les Milanais et les Piémontais réclament des
+                    <desc>L. a. s., en français, à Mlie Vecchi; Paris, 4 août 1848, <measure quantity="2" type="length">2 p.</measure> pl. in-4. <measure quantity="10" type="price">10</measure></desc><note>Très-intéressante lettre. Les Milanais et les Piémontais réclament des
                         secours de la République. « Ils espèrent un peu et craignent beaucoup. »
                         Elle constate que pour défendre Paris contre les insurgés, il faudrait plus
                         de 50,000 hommes; les lettres de Rome sont désolantes, etc</note>
@@ -1772,9 +1576,7 @@
 
 
 
-                    <desc>L. a. s.; Val-Richer, 9 septembre 1854, 2 p. in-18. Cachet. 8</desc>
-
-                    <note>Belle et intéressante lettre. « Vous avez raison de vouloir publier Ruth
+                    <desc>L. a. s.; Val-Richer, 9 septembre 1854, <measure quantity="2" type="length">2 p.</measure> in-18. Cachet. <measure quantity="8" type="price">8</measure></desc><note>Belle et intéressante lettre. « Vous avez raison de vouloir publier Ruth
                         en quatre grands fragments, et raison aussi de le faire précéder d'un
                         article de M. Philarète Chasles sur la personne et le genre de talent de
                         l'auteur. M. Chasles connaît très-bien la société et la littérature
@@ -1797,9 +1599,7 @@
 
 
 
-                    <desc>L. a. s. à M. de Calonne, (1862);, 2 p. 1/2 in-8. 5</desc>
-
-                    <note>Jolie lettre sur la mort de Fromental Halévy, le grand compositeur. Il
+                    <desc>L. a. s. à M. de Calonne, (1862);, <measure quantity="2.5" type="length">2 p. 1/2</measure> in-8. <measure quantity="5" type="price">5</measure></desc><note>Jolie lettre sur la mort de Fromental Halévy, le grand compositeur. Il
                         venait de terminer un grand-opéra intitulé Noé ou le Déluge, dont le poème
                         est de M. de Saint-Georges; quant aux travaux littéraires, il laisse
                         inachevés plusieurs articles et études sur des questions d'art « nous savons
@@ -1822,9 +1622,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-18. 3</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-18. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="86" xml:id="CAT_000075_e86">
                     <num>86</num>
@@ -1840,10 +1638,7 @@
 
 
 
-                    <desc>L. a. s. (à l'abbé Morellet) ; Varsovie, 17 juillet 1760, 3 p. in-4.
-            10</desc>
-
-                    <note>Il vient de recevoir deux ouvrages contre Palissot : la Comédie des
+                    <desc>L. a. s. (à l'abbé Morellet) ; Varsovie, 17 juillet 1760, <measure quantity="3" type="length">3 p.</measure> in-4. <measure quantity="10" type="price">10</measure></desc><note>Il vient de recevoir deux ouvrages contre Palissot : la Comédie des
                         Philosophes et la Vision de Palissot; il lui donne des détails sur la cour
                         de Pologne, etc</note>
 
@@ -1863,9 +1658,7 @@
 
 
 
-                    <desc>L. a. s., 1829, 1 p. 1/2 in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s., <date when="1829">1829</date>, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="88" xml:id="CAT_000075_e88">
                     <num>88</num>
@@ -1880,9 +1673,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="89" xml:id="CAT_000075_e89">
                     <num>89</num>
@@ -1897,9 +1688,7 @@
 
 
 
-                    <desc>L. a. s. à M. Lewis, 1er mars 1862, 1 p. in-8. Jolie lettre. 5</desc>
-
-                </item>
+                    <desc>L. a. s. à M. Lewis, 1er mars 1862, <measure quantity="1" type="length">1 p.</measure> in-8. Jolie lettre. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="90" xml:id="CAT_000075_e90">
                     <num>90</num>
@@ -1914,10 +1703,7 @@
 
 
 
-                    <desc>P. a. s. en tête, en français; camp de Mokotow, 20 juil. 1794, 1 p. in-18.
-            5</desc>
-
-                    <note>Il ordonne au général major Gzyz, de prendre le commandement des batteries
+                    <desc>P. a. s. en tête, en français; camp de Mokotow, 20 juil. 1794, <measure quantity="1" type="length">1 p.</measure> in-18. <measure quantity="5" type="price">5</measure></desc><note>Il ordonne au général major Gzyz, de prendre le commandement des batteries
                         et de toutes les troupes qui sont disposées hors de la ville</note>
 
                 </item>
@@ -1935,9 +1721,7 @@
 
 
 
-                    <desc>L. a. s. à M. Zahnsdorf; Londres, 26 juil. 1853, 3/4 de p. in-8. 6</desc>
-
-                </item>
+                    <desc>L. a. s. à M. Zahnsdorf; Londres, 26 juil. 1853, <measure quantity="0.75" type="length">3/4 de p.</measure> in-8. <measure quantity="6" type="price">6</measure></desc></item>
 
                 <item n="92" xml:id="CAT_000075_e92">
                     <num>92</num>
@@ -1954,10 +1738,7 @@
 
 
 
-                    <desc>L. a. s., en espagnol, à Piccolomini; 27 juin 1646, 2 p. in-fol. Rare
-            20</desc>
-
-                    <note>Très-belle lettre militaire, écrite la veille de la prise de Courtrai (28
+                    <desc>L. a. s., en espagnol, à Piccolomini; 27 juin 1646, <measure quantity="2" type="length">2 p.</measure> in-fol. Rare <measure quantity="20" type="price">20</measure></desc><note>Très-belle lettre militaire, écrite la veille de la prise de Courtrai (28
                         juin) par le duc d'Orléans (Gaston). Les soldats espagnols ont été
                         démoralisés par des nouvelles extravagantes; lui-même est à Zelzacte. Les
                         Hollandais conservent leurs positions, ils ont du monde du côté d'Hulst et
@@ -1979,9 +1760,7 @@
 
 
 
-                    <desc>L. a. s. à M. Severini, 1 p. in-18. 3</desc>
-
-                </item>
+                    <desc>L. a. s. à M. Severini, <measure quantity="1" type="length">1 p.</measure> in-18. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="94" xml:id="CAT_000075_e94">
                     <num>94</num>
@@ -1997,9 +1776,7 @@
 
 
 
-                    <desc>L. a. s. à un évêque ; Toulouse, 25 mars 1700, 3 p. 1/2 in-4. 20</desc>
-
-                    <note>Curieuse lettre sur une discussion avec l'évêque d'Alais où le duc du
+                    <desc>L. a. s. à un évêque ; Toulouse, 25 mars 1700, <measure quantity="3.5" type="length">3 p. 1/2</measure> in-4. <measure quantity="20" type="price">20</measure></desc><note>Curieuse lettre sur une discussion avec l'évêque d'Alais où le duc du
                         Maine interviendra</note>
 
                 </item>
@@ -2019,9 +1796,7 @@
 
 
 
-                    <desc>L. a. s.; 12 décembre 1863, 2 p. in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s.; 12 décembre 1863, <measure quantity="2" type="length">2 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="96" xml:id="CAT_000075_e96">
                     <num>96</num>
@@ -2037,10 +1812,7 @@
 
 
 
-                    <desc>Pièce sig., 1697, 1 p. in-4 obl., cachet à ses armes. Belle pièce.
-            Très-rare. 50</desc>
-
-                </item>
+                    <desc>Pièce sig., <date when="1697">1697</date>, <measure quantity="1" type="length">1 p.</measure> in-4 obl., cachet à ses armes. Belle pièce. Très-rare. <measure quantity="50" type="price">50</measure></desc></item>
 
                 <item n="97" xml:id="CAT_000075_e97">
                     <num>97</num>
@@ -2056,9 +1828,7 @@
 
 
 
-                    <desc>Portrait-carte avec sa signature aut., in-18. 5</desc>
-
-                </item>
+                    <desc>Portrait-carte avec sa signature aut., in-18. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="98" xml:id="CAT_000075_e98">
                     <num>98</num>
@@ -2074,9 +1844,7 @@
 
 
 
-                    <desc>L. a. s.; (novembre 1857), 1 p. 1/2 in-8. 5</desc>
-
-                    <note>Curieuse lettre : « Toutes mes tentatives ont été infructueuses, Il y a
+                    <desc>L. a. s.; (novembre 1857), <measure quantity="1.5" type="length">1 p. 1/2</measure> in-8. <measure quantity="5" type="price">5</measure></desc><note>Curieuse lettre : « Toutes mes tentatives ont été infructueuses, Il y a
                         une force de résistance plus forte que ma volonté dès qu'elle est opposée
                         par une femme. Ne comptez donc pas sur l'article pour le 15. Evidemment,
                         pour des motifs que je vous expliquerai, on ne veut le laisser publier que
@@ -2098,9 +1866,7 @@
 
 
 
-                    <desc>L. a. s. à un Prince, 1 p. in-4. Très-belle lettre. 5</desc>
-
-                </item>
+                    <desc>L. a. s. à un Prince, <measure quantity="1" type="length">1 p.</measure> in-4. Très-belle lettre. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="100" xml:id="CAT_000075_e100">
                     <num>100</num>
@@ -2118,10 +1884,7 @@
 
 
 
-                    <desc>L. s.ig. avec la souscript. aut., en latin, à Achille Comte; Rome, 7 sept.
-            1844, 2 p. in-4. 3</desc>
-
-                    <note>Il le félicite au nom de Grégoire XVI, à l'occasion de son ouvrage
+                    <desc>L. s.ig. avec la souscript. aut., en latin, à Achille Comte; Rome, 7 sept. 1844, <measure quantity="2" type="length">2 p.</measure> in-4. <measure quantity="3" type="price">3</measure></desc><note>Il le félicite au nom de Grégoire XVI, à l'occasion de son ouvrage
                         intitulé : Organisation et physiologie de l'homme.</note>
 
                 </item>
@@ -2139,11 +1902,7 @@
 
 
 
-                    <desc>Let. sig. par lui et par le maréchal Duplessis-Praslin, à l'abbé de
-            Saint-Nicolas, envoyé en Italie; à bord du vaisseau amiral, en rade de l'île
-            d'Elbe, 4 octobre 1646, 1 p. in-fol. 10</desc>
-
-                    <note>Pièce historigue. Ils envoient auprès du duc de Toscane le marquis de
+                    <desc>Let. sig. par lui et par le maréchal Duplessis-Praslin, à l'abbé de Saint-Nicolas, envoyé en Italie; à bord du vaisseau amiral, en rade de l'île d'Elbe, 4 octobre 1646, <measure quantity="1" type="length">1 p.</measure> in-fol. <measure quantity="10" type="price">10</measure></desc><note>Pièce historigue. Ils envoient auprès du duc de Toscane le marquis de
                         Pallavicini qui informera l'abbé de Saint-Nicolas (Henri Arnaud, évêque
                         d'Angers) de leurs résolutions. (Ils allaient assiéger et prendre Piombino
                         et Porto-Longone, puis obliger le Pape Innocent X à se soumettre à
@@ -2164,9 +1923,7 @@
 
 
 
-                    <desc>L. a. s.; 19 avril 1853, 1 p. 3/4 in-8. Cachet. 3</desc>
-
-                    <note>Jolie lettre sur le panorama de la bataille des Pyramides</note>
+                    <desc>L. a. s.; 19 avril 1853, <measure quantity="1.75" type="length">1 p. 3/4</measure> in-8. Cachet. <measure quantity="3" type="price">3</measure></desc><note>Jolie lettre sur le panorama de la bataille des Pyramides</note>
 
                 </item>
 
@@ -2185,11 +1942,7 @@
 
 
 
-                    <desc>Quitt. sig. sur vélin, février 1591; Brissac (Maine-et-Loire), 1 p. in-8.
-            8</desc>
-
-
-                </item>
+                    <desc>Quitt. sig. sur vélin, février 1591; Brissac (Maine-et-Loire), <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="8" type="price">8</measure></desc></item>
                 <item n="104" xml:id="CAT_000075_e104">
                     <num>104</num>
 
@@ -2204,11 +1957,7 @@
 
 
 
-                    <desc>Let. sig. avec la sous- crip. aut. aux conseillers, présidents et
-            trésoriers généraux de France, à Lyon; 25 janv. 1623, 1 p. in-f. Légère
-            tache. 5</desc>
-
-                </item>
+                    <desc>Let. sig. avec la sous- crip. aut. aux conseillers, présidents et trésoriers généraux de France, à Lyon; 25 janv. 1623, <measure quantity="1" type="length">1 p.</measure> in-f. Légère tache. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="105" xml:id="CAT_000075_e105">
                     <num>105</num>
@@ -2223,10 +1972,7 @@
 
 
 
-                    <desc>Notre-Dame-de-Bonne-Nouvelle, statue de l'église Saint-Michel, à
-            Quimperlé; dessin au crayon, sig.; in-18. 5</desc>
-
-                </item>
+                    <desc>Notre-Dame-de-Bonne-Nouvelle, statue de l'église Saint-Michel, à Quimperlé; dessin au crayon, sig.; in-18. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="106" xml:id="CAT_000075_e106">
                     <num>106</num>
@@ -2242,9 +1988,7 @@
 
 
 
-                    <desc>L. a. s., 1750, 1 p. in-4. Curieuse. 10</desc>
-
-                </item>
+                    <desc>L. a. s., <date when="1750">1750</date>, <measure quantity="1" type="length">1 p.</measure> in-4. Curieuse. <measure quantity="10" type="price">10</measure></desc></item>
 
                 <item n="107" xml:id="CAT_000075_e107">
                     <num>107</num>
@@ -2259,9 +2003,7 @@
 
 
 
-                    <desc>L. a. s., 2 p. in-8. 2</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="2" type="length">2 p.</measure> in-8. <measure quantity="2" type="price">2</measure></desc></item>
 
                 <item n="108" xml:id="CAT_000075_e108">
                     <num>108</num>
@@ -2277,9 +2019,7 @@
 
 
 
-                    <desc>L. a. s., 1874, 1 p. in-8. 2</desc>
-
-                </item>
+                    <desc>L. a. s., <date when="1874">1874</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="2" type="price">2</measure></desc></item>
 
                 <item n="109" xml:id="CAT_000075_e109">
                     <num>109</num>
@@ -2294,9 +2034,7 @@
 
 
 
-                    <desc>L. a. s., 2 p. in-18 obl. 2</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="2" type="length">2 p.</measure> in-18 obl. <measure quantity="2" type="price">2</measure></desc></item>
 
                 <item n="110" xml:id="CAT_000075_e110">
                     <num>110</num>
@@ -2312,10 +2050,7 @@
 
 
 
-                    <desc>L. a. s. à Henriette de Lorraine, princesse de Phalsbourg, (1648);, 2 p.
-            in-fol. Rare. 15</desc>
-
-                    <note>Il demande la place de bailli aux comté d'Horbourg et seigneurie de
+                    <desc>L. a. s. à Henriette de Lorraine, princesse de Phalsbourg, (1648);, <measure quantity="2" type="length">2 p.</measure> in-fol. Rare. <measure quantity="15" type="price">15</measure></desc><note>Il demande la place de bailli aux comté d'Horbourg et seigneurie de
                         Riquevir pour Voghtin, ancien avocat au conseil souverain d'Alsace et grand
                         bailli du palatin de Birkenfeld. Il sait l'allemand et est alsacien, il
                         remplacera parfaitement le sieur Harter devenu bailli de Bar</note>
@@ -2336,10 +2071,7 @@
 
 
 
-                    <desc>L. a. s. à l'abbé Le Blanc; Fontainebleau, 18 octobre 1749, 1 p. in-4.
-            12</desc>
-
-                    <note>Au bas de cette pièce se trouve un post-scriptum d'une ligne autog. sig.
+                    <desc>L. a. s. à l'abbé Le Blanc; Fontainebleau, 18 octobre 1749, <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="12" type="price">12</measure></desc><note>Au bas de cette pièce se trouve un post-scriptum d'une ligne autog. sig.
                         de M. Poisson, seigneur de Marigny, père de la marquise de Pompadour. -Ils
                         félicitent l'abbé Le Blanc de sa nomination comme historiographe des
                         bâtiments du Roi. :</note>
@@ -2359,9 +2091,7 @@
 
 
 
-                    <desc>L. a. s. au comte de Milly, 1 p. 1/2 in-4. 8</desc>
-
-                    <note>Belle lettre relative à la nomination de l'abbé Boscovich à
+                    <desc>L. a. s. au comte de Milly, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-4. <measure quantity="8" type="price">8</measure></desc><note>Belle lettre relative à la nomination de l'abbé Boscovich à
                         l'Institut</note>
 
                 </item>
@@ -2381,9 +2111,7 @@
 
 
 
-                    <desc>Quitt. sig. sur vélin; Paris, 15 janvier 1570, 1 p. in-8. 3</desc>
-
-                </item>
+                    <desc>Quitt. sig. sur vélin; Paris, 15 janvier 1570, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="114" xml:id="CAT_000075_e114">
                     <num>114</num>
@@ -2400,10 +2128,7 @@
 
 
 
-                    <desc>Quitt. aut. sig.; Paris, 14 juillet 1767, in-8 obl. 5</desc>
-
-
-                </item>
+                    <desc>Quitt. aut. sig.; Paris, 14 juillet 1767, in-8 obl. <measure quantity="5" type="price">5</measure></desc></item>
                 <item n="115" xml:id="CAT_000075_e115">
                     <num>115</num>
 
@@ -2417,11 +2142,7 @@
 
 
 
-                    <desc>L. a. s. au prince Christian d'Anhalt, ministre de l'électeur palatin
-            Frédéric V; Vienne, janvier 1613, 1 p. in-fol., cachet à ses armes.
-            25</desc>
-
-                    <note>Importante lettre historique. En relation avec le baron de Dohna, il a
+                    <desc>L. a. s. au prince Christian d'Anhalt, ministre de l'électeur palatin Frédéric V; Vienne, janvier 1613, <measure quantity="1" type="length">1 p.</measure> in-fol., cachet à ses armes. <measure quantity="25" type="price">25</measure></desc><note>Importante lettre historique. En relation avec le baron de Dohna, il a
                         reçu des nouvelles de France et d'Angleterre. Comme chargé d'affaires de
                         Jacques Ier, il prépare le mariage de l'électeur palatin Frédéric V avec
                         Elisabeth d'Angleterre. Le mariage pourra se conclure avant la diète de
@@ -2443,9 +2164,7 @@
 
 
 
-                    <desc>L. a. s.; 2 janvier 1664, 1 p. in-4. 15</desc>
-
-                    <note>Il est informé de l'arrivée des ministres du duc de Savoie, Charles-
+                    <desc>L. a. s.; 2 janvier 1664, <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="15" type="price">15</measure></desc><note>Il est informé de l'arrivée des ministres du duc de Savoie, Charles-
                         Emmanuel Ier; il vient d'en référer à l'abbé Siri qui s'entendra avec M. de
                         Lorme. (Par l'occupation de Pignerol, la France était presque maîtresse de
                         la Savoie, elle était en continuels rapports avec son souverain.)</note>
@@ -2464,10 +2183,7 @@
 
 
 
-                    <desc>L. a. s. au prince Christian d'Anhalt; Venise, 6 mai 1617, 1 p. in-fol.
-            Rare. 15</desc>
-
-                    <note>Importante lettre. Le livre que demandait Christian d'Anhalt vient d'être
+                    <desc>L. a. s. au prince Christian d'Anhalt; Venise, 6 mai 1617, <measure quantity="1" type="length">1 p.</measure> in-fol. Rare. <measure quantity="15" type="price">15</measure></desc><note>Importante lettre. Le livre que demandait Christian d'Anhalt vient d'être
                         achevé par le « bonhomme ». Allusion à des délibérations secrètes où les
                         personnages ne sont désignés que par initiales ou lettres conventionnelles.
                         L'ambassadeur du duc de Savoie est arrivé. Il va retourner à ses études de
@@ -2487,11 +2203,7 @@
                         <p>homme d'Etat et diplomate, littérateur et poète, auteur de Mémoires é en
                             1635, mort à l'abbaye de Château-Landon en 1698.</p>
                     </trait>
-                    <desc>, nLet. sig. avec la souscript. aut. à son père (Henri-Auguste, ministre
-            et secrétaire d'Etat); Nantes, 2 septembre 1661, 6 p. in-4. Cachets et
-            soies. 20</desc>
-
-                    <note>Importante lettre. Il raconte son arrivée à Nantes, à la suite du roi, en
+                    <desc>, nLet. sig. avec la souscript. aut. à son père (Henri-Auguste, ministre et secrétaire d'Etat); Nantes, 2 septembre 1661, <measure quantity="6" type="length">6 p.</measure> in-4. Cachets et soies. <measure quantity="20" type="price">20</measure></desc><note>Importante lettre. Il raconte son arrivée à Nantes, à la suite du roi, en
                         compagnie de Le Tellier et de de Lyonne. Il est descendu chez M. Boucherat;
                         les Etats de Bretagne viennent de s'ouvrir; il y a eu querelle de préséance
                         entre la noblesse et le clergé ; sur la place du Château, tous les
@@ -2514,10 +2226,7 @@
 
 
 
-                    <desc>Let. sig. à M. Dossonville; Pastorechia (Corse), 19 juin 1739, 4 p. in-4.
-            12</desc>
-
-                    <note>Importante lettre historique. Détails sur les opérations accomplies à
+                    <desc>Let. sig. à M. Dossonville; Pastorechia (Corse), 19 juin 1739, <measure quantity="4" type="length">4 p.</measure> in-4. <measure quantity="12" type="price">12</measure></desc><note>Importante lettre historique. Détails sur les opérations accomplies à
                         Bastia, de concert avec les Génois ; chemins à réparer du côté de Lento;
                         détachements à envoyer à la Walpaiolla. (Il luttait alors contre le roi
                         Théodore Neuhof, Luca d'Ornano, Giafferi et les Paoli; il les traquait dans
@@ -2538,10 +2247,7 @@
 
 
 
-                    <desc>Let. sig. au duc de Vendôme ; Josselies (Belgique), 10 juin 1696, 3 p. 1
-            /2 in-8. 15</desc>
-
-                    <note>Importante lettre relative à la victoire que la cavalerie du duc de
+                    <desc>Let. sig. au duc de Vendôme ; Josselies (Belgique), 10 juin 1696, <measure quantity="4.0" type="length">3 p. 1</measure> /2 in-8. <measure quantity="15" type="price">15</measure></desc><note>Importante lettre relative à la victoire que la cavalerie du duc de
                         Vendôme venait de remporter sur l'ennemi. Il y a des pourparlers avec le
                         prince d'Orange (Guillaume III) et l'électeur de Bavière. Il regrette la
                         mort de Longueval, mais « on ne fait pas d'omelettes sans casser d'oeufs».
@@ -2564,9 +2270,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-18. 2.50</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-18. <measure quantity="2.50" type="price">2.50</measure></desc></item>
                 <item n="122" xml:id="CAT_000075_e122">
                     <num>122</num>
 
@@ -2581,9 +2285,7 @@
 
 
 
-                    <desc>Pièce aut. sig.; octobre 1793, 2 p. in-f. 15</desc>
-
-                    <note>Curieuse pièce relative au paiement de ses appointements comme général de
+                    <desc>Pièce aut. sig.; octobre 1793, <measure quantity="2" type="length">2 p.</measure> in-f. <measure quantity="15" type="price">15</measure></desc><note>Curieuse pièce relative au paiement de ses appointements comme général de
                         brigade</note>
 
                 </item>
@@ -2603,10 +2305,7 @@
 
 
 
-                    <desc>Quittance aut. sig. sur vélin; 1606, in-4 obl. Sceau. Ecornure enlevant
-            plusieurs mots. 20</desc>
-
-                </item>
+                    <desc>Quittance aut. sig. sur vélin; 1606, in-4 obl. Sceau. Ecornure enlevant plusieurs mots. <measure quantity="20" type="price">20</measure></desc></item>
 
                 <item n="124" xml:id="CAT_000075_e124">
                     <num>124</num>
@@ -2622,11 +2321,7 @@
 
 
 
-                    <desc>1° L. a. s. à l'éditeur Coquebert; 1839, 1 p. in-8. -2° 5 pièces sig. par
-            ses éditeurs, dont une signée aussi par lui; 1837-40, 18 p. 1/2 in-4.
-            15</desc>
-
-                    <note>Traités avec ses éditeurs pour son Histoire de France</note>
+                    <desc>1° L. a. s. à l'éditeur Coquebert; 1839, <measure quantity="1" type="length">1 p.</measure> in-8. -2° 5 pièces sig. par ses éditeurs, dont une signée aussi par lui; <date when="1837">1837</date>-40, 18 p. 1/2 in-4. <measure quantity="15" type="price">15</measure></desc><note>Traités avec ses éditeurs pour son Histoire de France</note>
 
                 </item>
 
@@ -2644,10 +2339,7 @@
 
 
 
-                    <desc>L. a. s. à l'évêque de Condom (Jacques de Matignon, son frère); Thorigny,
-            27 janvier (1675);, 1 p. in-4. Cachet a ses armes. Fripée. 6</desc>
-
-                    <note>Relative à la mort de son père François de Matignon</note>
+                    <desc>L. a. s. à l'évêque de Condom (Jacques de Matignon, son frère); Thorigny, 27 janvier (1675);, <measure quantity="1" type="length">1 p.</measure> in-4. Cachet a ses armes. Fripée. <measure quantity="6" type="price">6</measure></desc><note>Relative à la mort de son père François de Matignon</note>
 
                 </item>
 
@@ -2664,9 +2356,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-18. 2</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-18. <measure quantity="2" type="price">2</measure></desc></item>
 
                 <item n="127" xml:id="CAT_000075_e127">
                     <num>127</num>
@@ -2682,9 +2372,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 2</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="2" type="price">2</measure></desc></item>
 
                 <item n="128" xml:id="CAT_000075_e128">
                     <num>128</num>
@@ -2700,9 +2388,7 @@
 
 
 
-                    <desc>L. a. s. à M. Poultier; 16 février 1788, 2 p. 3/4 in-4. 8</desc>
-
-                    <note>Très-curieuse lettre relative à la vente de son mobilier, dont il fait
+                    <desc>L. a. s. à M. Poultier; 16 février 1788, <measure quantity="2.75" type="length">2 p. 3/4</measure> in-4. <measure quantity="8" type="price">8</measure></desc><note>Très-curieuse lettre relative à la vente de son mobilier, dont il fait
                         l'énumération, et à son projet de se retirer, par misère, dans une maison de
                         religieux, à quelque distance de Paris</note>
 
@@ -2722,9 +2408,7 @@
 
 
 
-                    <desc>L. a. s., 16 avril 1855, 1/2 p. in-8. 4</desc>
-
-                </item>
+                    <desc>L. a. s., 16 avril 1855, <measure quantity="0.5" type="length">1/2 p.</measure> in-8. <measure quantity="4" type="price">4</measure></desc></item>
 
                 <item n="130" xml:id="CAT_000075_e130">
                     <num>130</num>
@@ -2739,9 +2423,7 @@
 
 
 
-                    <desc>L. a. s.; Vienne, 15 août 1832, 1 p. in-4. 6</desc>
-
-                </item>
+                    <desc>L. a. s.; Vienne, 15 août 1832, <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="6" type="price">6</measure></desc></item>
 
                 <item n="131" xml:id="CAT_000075_e131">
                     <num>131</num>
@@ -2756,9 +2438,7 @@
 
 
 
-                    <desc>L. a. s., 1866, 1 p. in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s., <date when="1866">1866</date>, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="132" xml:id="CAT_000075_e132">
                     <num>132</num>
@@ -2773,9 +2453,7 @@
 
 
 
-                    <desc>L. a. s.; Munster, 13 nov. 1833, 1 p. 1/4 in-8. Jolie lettre. 5</desc>
-
-                </item>
+                    <desc>L. a. s.; Munster, 13 nov. 1833, <measure quantity="1.25" type="length">1 p. 1/4</measure> in-8. Jolie lettre. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="133" xml:id="CAT_000075_e133">
                     <num>133</num>
@@ -2790,9 +2468,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 6</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="6" type="price">6</measure></desc></item>
 
                 <item n="134" xml:id="CAT_000075_e134">
                     <num>134</num>
@@ -2808,9 +2484,7 @@
 
 
 
-                    <desc>L. a. s. à Marie de Médicis; Tolède, 20 septembre, 1 p. in-f. 5</desc>
-
-                    <note>Sur la santé de sa fille Elisabeth, mariée en octobre 1615 à l'infant
+                    <desc>L. a. s. à Marie de Médicis; Tolède, 20 septembre, <measure quantity="1" type="length">1 p.</measure> in-f. <measure quantity="5" type="price">5</measure></desc><note>Sur la santé de sa fille Elisabeth, mariée en octobre 1615 à l'infant
                         d'Espagne, devenu roi sous le nom de Philippe IV.</note>
 
                 </item>
@@ -2827,10 +2501,7 @@
 
 
 
-                    <desc>Pièce avec 4 lignes aut.; 20 brumaire an XIII, 1 p. 1/4 in-f., à
-            mi-marges. 25</desc>
-
-                    <note>Curieux document. Projet de rapport pour le Ministre des Cultes, sur la
+                    <desc>Pièce avec 4 lignes aut.; <date date="1804-11-11" type="length">20 brumaire an XIII</date>, <measure quantity="1.25" type="length">1 p. 1/4</measure> in-f., à mi-marges. <measure quantity="25" type="price">25</measure></desc><note>Curieux document. Projet de rapport pour le Ministre des Cultes, sur la
                         fixation du nombre des succursales. Napoléon a écrit de sa main 24,000 pour
                         tout l'empire (au lieu de 32,000). -On y a joint la lettre signée de Hugues
                         Maret, annonçant l'envoi de la pièce précédente. </note>
@@ -2842,10 +2513,7 @@
                     <trait>
                         <p>empereur des Français.</p>
                     </trait>
-                    <desc>Pièce sig. Napole, sur vélin, contresignée par Cambacérès; 24 janv. 1814,
-            1 p. double in-f. 20</desc>
-
-                    <note>Superbe pièce. Nomination du général J.-C.-M.-J. Charbonnel, né à Dijon,
+                    <desc>Pièce sig. Napole, sur vélin, contresignée par Cambacérès; 24 janv. 1814, <measure quantity="1" type="length">1 p.</measure> double in-f. <measure quantity="20" type="price">20</measure></desc><note>Superbe pièce. Nomination du général J.-C.-M.-J. Charbonnel, né à Dijon,
                         comme comte de Salès, avec armoiries peintes.</note>
                 </item>
 
@@ -2855,10 +2523,7 @@
                     <trait>
                         <p>empereur des Français.</p>
                     </trait>
-                    <desc>L. a. s.ig. de ses initiales; ile d'Arrau (Ecosse), 8 nov. 1847, 2 p. in-8.
-            25</desc>
-
-                    <note>Très-belle lettre adressée à un écrivain</note>
+                    <desc>L. a. s.ig. de ses initiales; ile d'Arrau (Ecosse), 8 nov. 1847, <measure quantity="2" type="length">2 p.</measure> in-8. <measure quantity="25" type="price">25</measure></desc><note>Très-belle lettre adressée à un écrivain</note>
 
                 </item>
 
@@ -2875,9 +2540,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="139" xml:id="CAT_000075_e139">
                     <num>139</num>
@@ -2894,9 +2557,7 @@
 
 
 
-                    <desc>Pièce sig.; 12 janvier 1662, 16 p. in-f. 20</desc>
-
-                    <note>Très-curieux document. Extrait du testament du cardinal Mazarin, relatif à
+                    <desc>Pièce sig.; 12 janvier 1662, <measure quantity="16" type="length">16 p.</measure> in-f. <measure quantity="20" type="price">20</measure></desc><note>Très-curieux document. Extrait du testament du cardinal Mazarin, relatif à
                         ses biens sis à Rome, qu'il lègue au duc de Nevers; celui-ci constitue par
                         un acte spécial, à la suite du testament, pour son procureur général le
                         sieur de Mazocchi Romani, docteur en droit</note>
@@ -2917,9 +2578,7 @@
 
 
 
-                    <desc>L. a. s.; 18 avril 1856, 4 p. in-8. 6</desc>
-
-                    <note>Très-intéressante lettre sur sa collaboration à la Revue contemporaine. «
+                    <desc>L. a. s.; 18 avril 1856, <measure quantity="4" type="length">4 p.</measure> in-8. <measure quantity="6" type="price">6</measure></desc><note>Très-intéressante lettre sur sa collaboration à la Revue contemporaine. «
                         Les intérêts de ma notoriété littéraire sont une cause que j'ai rarement
                         plaidée, et que je n'aurais jamais dû plaider; car le jour où on plaide ces
                         sortes de causes, on les perd, à moins que ce ne soit la position ou la
@@ -2940,10 +2599,7 @@
 
 
 
-                    <desc>P. s.ig., sig. aussi par Mlle de Montpensier; Blois, 20 décembre 1652, 1 p.
-            1/2 in-f. 20</desc>
-
-                    <note>Curieuse pièce par laquelle Gaston d'Orléans ordonne à son trésorier de
+                    <desc>P. s.ig., sig. auss<measure quantity="1" type="length">i p</measure>ar Mlle de Montpensier; Blois, 20 décembre 1652, 1 p. 1/2 in-f. <measure quantity="20" type="price">20</measure></desc><note>Curieuse pièce par laquelle Gaston d'Orléans ordonne à son trésorier de
                         payer à la grande Mademoiselle la somme de 75,000 livres qu'elle lui avait
                         avancée. Au dos se trouve l'acquit de Mlle de Montpensier, qui reconnaît
                         avoir reçu cette somme</note>
@@ -2960,8 +2616,7 @@
                         <p>frère du roi Louis XIII. </p>
                     </trait>
 
-                    <desc> -P. s., 1652 </desc>
-                </item>
+                    <desc> -P. s., 1652</desc></item>
 
                 <item n="143" xml:id="CAT_000075_e143">
 
@@ -2973,10 +2628,7 @@
                     </trait>
 
 
-                    <desc>L. a. s., en français, à M. de Vigne, à Nice, 9 janvier, 1840, 1 p. pet.
-            in-4. 8</desc>
-
-                </item>
+                    <desc>L. a. s., en français, à M. de Vigne, à Nice, 9 janvier, <date when="1840">1840</date>, <measure quantity="1" type="length">1 p.</measure> pet. in-4. <measure quantity="8" type="price">8</measure></desc></item>
 
                 <item n="144" xml:id="CAT_000075_e144">
                     <num>144</num>
@@ -2992,9 +2644,7 @@
 
 
 
-                    <desc>L. a. s., en français, au marquis Gherardini, 4 p. in-4. 15</desc>
-
-                    <note>Belle lettre où il demande des minéraux d'Italie, dont il donne une longue
+                    <desc>L. a. s., en français, au marquis Gherardini, <measure quantity="4" type="length">4 p.</measure> in-4. <measure quantity="15" type="price">15</measure></desc><note>Belle lettre où il demande des minéraux d'Italie, dont il donne une longue
                         liste</note>
 
                 </item>
@@ -3012,9 +2662,7 @@
 
 
 
-                    <desc>L. a. s. au crayon, 1 p. in-8. Spirituelle épître. 3</desc>
-
-                </item>
+                    <desc>L. a. s. au crayon, <measure quantity="1" type="length">1 p.</measure> in-8. Spirituelle épître. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="146" xml:id="CAT_000075_e146">
                     <num>146</num>
@@ -3030,9 +2678,7 @@
 
 
 
-                    <desc>L. a. s. à M. Wotts, à Londres; 24 mai 1832, 1 p. in-8. Relative à un
-            concert 3</desc>
-                </item>
+                    <desc>L. a. s. à M. Wotts, à Londres; 24 mai 1832, <measure quantity="1" type="length">1 p.</measure> in-8. Relative à un concert <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="147" xml:id="CAT_000075_e147">
                     <num>147</num>
@@ -3040,10 +2686,7 @@
                     <trait>
                         <p>l'auteur de Mes Prisons.</p>
                     </trait>
-                    <desc>P. a. s.; Turin, 1837, 1 p. in-18. Montée. 3</desc>
-
-
-                </item>
+                    <desc>P. a. s.; Turin, <date when="1837">1837</date>, <measure quantity="1" type="length">1 p.</measure> in-18. Montée. <measure quantity="3" type="price">3</measure></desc></item>
                 <item n="148" xml:id="CAT_000075_e148">
                     <num>148</num>
 
@@ -3057,10 +2700,7 @@
 
 
 
-                    <desc>L. a. s., en français, 19 décembre 1839, 3/4 de p. in-8. Jolie lettre.
-            6</desc>
-
-                </item>
+                    <desc>L. a. s., en français, 19 décembre 1839, <measure quantity="0.75" type="length">3/4 de p.</measure> in-8. Jolie lettre. <measure quantity="6" type="price">6</measure></desc></item>
 
                 <item n="149" xml:id="CAT_000075_e149">
                     <num>149</num>
@@ -3076,10 +2716,7 @@
 
 
 
-                    <desc>Let. sig., avec la souscrip. aut., à M. de Valençay; Poitiers, 20 août
-            1620, 1 p. in-f. 10</desc>
-
-                    <note>Ordre de licencier sa compagnie de gendarmes et de carabins, on la paiera
+                    <desc>Let. sig., avec la souscrip. aut., à M. de Valençay; Poitiers, 20 août 1620, <measure quantity="1" type="length">1 p.</measure> in-f. <measure quantity="10" type="price">10</measure></desc><note>Ordre de licencier sa compagnie de gendarmes et de carabins, on la paiera
                         plus tard, après une montre par procuration. Le trésor ne peut même
                         rembourser de leurs frais de voyages le sire de Boisselas et le valet de
                         pied, envoyés par le dit capitaine. (Louis XIII, vainqueur des nobles
@@ -3103,9 +2740,7 @@
 
 
 
-                    <desc>Pièce aut. sig.; Paris, 28 mars 1678 1/2 p. in-8. Rare. 10</desc>
-
-                    <note>Relative à sa Vie de Charles-Gustave, roi de Suède</note>
+                    <desc>Pièce aut. sig.; Paris, 28 mars 1678 <measure quantity="0.5" type="length">1/2 p.</measure> in-8. Rare. <measure quantity="10" type="price">10</measure></desc><note>Relative à sa Vie de Charles-Gustave, roi de Suède</note>
 
                 </item>
 
@@ -3122,9 +2757,7 @@
 
 
 
-                    <desc>L. a. s. a Bulos, 2 p. 1/2 in-18. 3</desc>
-
-                    <note>Relative à sa collaboration à la Revue des Deux-Mondes</note>
+                    <desc>L. a. s. a Bulos, <measure quantity="2.5" type="length">2 p. 1/2</measure> in-18. <measure quantity="3" type="price">3</measure></desc><note>Relative à sa collaboration à la Revue des Deux-Mondes</note>
 
                 </item>
 
@@ -3142,9 +2775,7 @@
 
 
 
-                    <desc>Quit. sig. sur vélin, 1604, 1 p. in-8 obl. Rare. 50</desc>
-
-                </item>
+                    <desc>Quit. sig. sur vélin, <date when="1604">1604</date>, <measure quantity="1" type="length">1 p.</measure> in-8 obl. Rare. <measure quantity="50" type="price">50</measure></desc></item>
 
                 <item n="153" xml:id="CAT_000075_e153">
                     <num>153</num>
@@ -3159,10 +2790,7 @@
 
 
 
-                    <desc>Let. aut. à Mme de Ponty; Bruxelles, 21 messidor, 2 p. 1/2 pl. in-4.
-            20</desc>
-
-                    <note>Belle et intéressante lettre sur ses représentations en Belgique. Elle
+                    <desc>Let. aut. à Mme de Ponty; Bruxelles, 21 messidor, <measure quantity="2.5" type="length">2 p. 1/2</measure> pl. in-4. <measure quantity="20" type="price">20</measure></desc><note>Belle et intéressante lettre sur ses représentations en Belgique. Elle
                         parle de la prochaine arrivée du premier Consul à Bruxelles, d'un dîner que
                         vient de donner Barras, puis de Talma, de Mlle Mars de Mme Dugazon,
                         etc</note>
@@ -3182,9 +2810,7 @@
 
 
 
-                    <desc>L. a. s., 1843, 2 p. in-8. 5</desc>
-
-                </item>
+                    <desc>L. a. s., <date when="1843">1843</date>, <measure quantity="2" type="length">2 p.</measure> in-8. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="155" xml:id="CAT_000075_e155">
                     <num>155</num>
@@ -3199,9 +2825,7 @@
 
 
 
-                    <desc>L. a. s., 1860, 1 p. in-18. 2.50</desc>
-
-                </item>
+                    <desc>L. a. s., <date when="1860">1860</date>, <measure quantity="1" type="length">1 p.</measure> in-18. <measure quantity="2.50" type="price">2.50</measure></desc></item>
                 <item n="156" xml:id="CAT_000075_e156">
                     <num>156</num>
 
@@ -3215,11 +2839,7 @@
 
 
 
-                    <desc>L. a. s. à Silvio Pellico; Nîmes, 15 mars 1844, 1 p. 1/2 in-8. 4 » 1/2 p.
-            in-4. 5</desc>
-
-
-                    <note>Curieuse recommandation en faveur d'Auguste Demians, le représentant du
+                    <desc>L. a. s. à Silvio Pellico; Nîmes, 15 mars 1844, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-8. 4 » 1/2 p. in-4. <measure quantity="5" type="price">5</measure></desc><note>Curieuse recommandation en faveur d'Auguste Demians, le représentant du
                         Gard : « Je sais, Monsieur, combien chez vous l'empressement dont l'écrivain
                         illustre est l'objet doit embarrasser la simplicité du chrétien, mais la
                         personne que je vous présente n'est pas un visiteur profane, ce n'est pas
@@ -3244,10 +2864,7 @@
 
 
 
-                    <desc>L. a. s. au maréchal de Brézé; Beaupréau, 2 mai 1649, 1 p. in-4. Cachets
-            et soies. Belle lettre. 5</desc>
-
-                </item>
+                    <desc>L. a. s. au maréchal de Brézé; Beaupréau, 2 mai 1649, <measure quantity="1" type="length">1 p.</measure> in-4. Cachets et soies. Belle lettre. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="158" xml:id="CAT_000075_e158">
                     <num>158</num>
@@ -3263,10 +2880,7 @@
 
 
 
-                    <desc>3 let. aut. à M. Pinel, procureursyndic, à Bordeaux; 1768-74, 4 p. 1/2
-            pet. in-4. 50</desc>
-
-                    <note>Importantes lettres pour l'histoire de la ville de Bordeaux : Paris, 3
+                    <desc>3 let. aut. à M. Pinel, procureursyndic, à Bordeaux; <date when="1768">1768</date>-74, <measure quantity="4.5" type="length">4 p. 1/2</measure> pet. in-4. <measure quantity="50" type="price">50</measure></desc><note>Importantes lettres pour l'histoire de la ville de Bordeaux : Paris, 3
                         avril 176N. Il va avoir une conférence avec le contrôleur général au sujet
                         des patrouilles du sieur Pechot. Il y a différence entre guet et garde, quoi
                         qu'en disent les jurats; mais les détails d'administration « sont absolument
@@ -3298,9 +2912,7 @@
 
 
 
-                    <desc>L. a. s. à son père; Paris, 29 mars 1757, 6 p. in-4. 15</desc>
-
-                    <note>Superbe lettre qui contient un récit des plus curieux du supplice de
+                    <desc>L. a. s. à son père; Paris, 29 mars 1757, <measure quantity="6" type="length">6 p.</measure> in-4. <measure quantity="15" type="price">15</measure></desc><note>Superbe lettre qui contient un récit des plus curieux du supplice de
                         Damiens ; il donne dès détails inédits qu'ils expose avec une précision
                         toute militaire</note>
 
@@ -3319,10 +2931,7 @@
 
 
 
-                    <desc>L. a. s. aux rédacteurs du journal Adelaide Ristori, à Gênes; Rome, 21
-            décembre 1857, 4 p. in-8. Cachet. 10</desc>
-
-                    <note>Elle les remercie d'avoir donné son nom à leur journal, et leur indique
+                    <desc>L. a. s. aux rédacteurs du journal Adelaide Ristori, à Gênes; Rome, 21 décembre 1857, <measure quantity="4" type="length">4 p.</measure> in-8. Cachet. <measure quantity="10" type="price">10</measure></desc><note>Elle les remercie d'avoir donné son nom à leur journal, et leur indique
                         son itinéraire dans la tournée qu'elle va entreprendre</note>
 
                 </item>
@@ -3341,12 +2950,7 @@
 
 
 
-                    <desc>1° L. a. s.; Cherbourg, 28 mars 1862, 3/4 de p. in-8. Il lui annonce
-            l'envoi d'une partie corrigée du manuscrit d'un de ses ouvrages (Fedirica
-            Hauffe). -2° Federica Hauffe, manuscrit aut., incomplet du commencement, 20
-            p. in-fol. 20</desc>
-
-                </item>
+                    <desc>1° L. a. s.; Cherbourg, 28 mars 1862, 3/4 de p. in-8. Il lui annonce l'envoi d'une partie corrigée du manuscrit d'un de ses ouvrages (Fedirica Hauffe). -2° Federica Hauffe, manuscrit aut., incomplet du commencement, <measure quantity="20" type="length">20 p.</measure> in-fol. <measure quantity="20" type="price">20</measure></desc></item>
 
                 <item n="162" xml:id="CAT_000075_e162">
                     <num>162</num>
@@ -3362,10 +2966,7 @@
 
 
 
-                    <desc>L. a. s.; Francfort-sur-Mein, 22 avril 1873, 2 p. pl. in-8. Curieuse.
-            3</desc>
-
-                </item>
+                    <desc>L. a. s.; Francfort-sur-Mein, 22 avril 1873, <measure quantity="2" type="length">2 p.</measure> pl. in-8. Curieuse. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="163" xml:id="CAT_000075_e163">
                     <num>163</num>
@@ -3380,9 +2981,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="164" xml:id="CAT_000075_e164">
                     <num>164</num>
@@ -3397,9 +2996,7 @@
 
 
 
-                    <desc>L. a. s., 1/2 p. in-8. 2</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="0.5" type="length">1/2 p.</measure> in-8. <measure quantity="2" type="price">2</measure></desc></item>
 
                 <item n="165" xml:id="CAT_000075_e165">
                     <num>165</num>
@@ -3416,9 +3013,7 @@
 
 
 
-                    <desc>Quittance aut. sig.; 1637, 1 p. in-4. 10</desc>
-
-                </item>
+                    <desc>Quittance aut. sig.; <date when="1637">1637</date>, <measure quantity="1" type="length">1 p.</measure> in-4. <measure quantity="10" type="price">10</measure></desc></item>
 
                 <item n="166" xml:id="CAT_000075_e166">
                     <num>166</num>
@@ -3434,9 +3029,7 @@
 
 
 
-                    <desc>Pièce de vers aut., 1 p. in-4. Ecornée. Très-rare. 40</desc>
-
-                    <note>Curieux sonnet dont voici le commencement : Iris quaultrefois à vous voir,
+                    <desc>Pièce de vers aut., <measure quantity="1" type="length">1 p.</measure> in-4. Ecornée. Très-rare. <measure quantity="40" type="price">40</measure></desc><note>Curieux sonnet dont voici le commencement : Iris quaultrefois à vous voir,
                         Je passois de douces journées ; Que dans ces heures fortunées Vos beaux yeux
                         flattaient mon espoir. Malheureux, pouvois-je prévoir Que mes cruelles
                         destinées De tant d'espérances données Quelque jour me feroient
@@ -3457,9 +3050,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 2</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="2" type="price">2</measure></desc></item>
 
                 <item n="168" xml:id="CAT_000075_e168">
                     <num>168</num>
@@ -3475,9 +3066,7 @@
 
 
 
-                    <desc>L. a. s.; 29 mai 1853, 1 p. 1/2 in-8. 5</desc>
-
-                    <note>Jolie lettre sur son ouvrage le Secret de l'Orient</note>
+                    <desc>L. a. s.; 29 mai 1853, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-8. <measure quantity="5" type="price">5</measure></desc><note>Jolie lettre sur son ouvrage le Secret de l'Orient</note>
 
                 </item>
 
@@ -3494,9 +3083,7 @@
 
 
 
-                    <desc>L. a. s., 1/2 p. in-8. 6</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="0.5" type="length">1/2 p.</measure> in-8. <measure quantity="6" type="price">6</measure></desc></item>
 
                 <item n="170" xml:id="CAT_000075_e170">
                     <num>170</num>
@@ -3511,9 +3098,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="171" xml:id="CAT_000075_e171">
                     <num>171</num>
@@ -3528,10 +3113,7 @@
 
 
 
-                    <desc>L. a. s. à M. d'Amontot, résident pour Louis XIV en Hollande, 2 p. in-4,
-            cachets. Très-rare. 75</desc>
-
-                    <note>Il est attendu à la Victoire par l'abbé à qui l'accommodement de son
+                    <desc>L. a. s. à M. d'Amontot, résident pour Louis XIV en Hollande, <measure quantity="2" type="length">2 p.</measure> in-4, cachets. Très-rare. <measure quantity="75" type="price">75</measure></desc><note>Il est attendu à la Victoire par l'abbé à qui l'accommodement de son
                         affaire a donné du loisir. Il s'y rendra avec M. de la Racinière. Un grand
                         fonds de bonne chère et de divertissement sur la basse-cour, le colombier,
                         la bibliothèque et les promenades, les attend</note>
@@ -3552,9 +3134,7 @@
 
 
 
-                    <desc>Pièce sig., 1762, 1/2 p. in-f. 2.50</desc>
-
-                </item>
+                    <desc>Pièce sig., <date when="1762">1762</date>, <measure quantity="0.5" type="length">1/2 p.</measure> in-f. <measure quantity="2.50" type="price">2.50</measure></desc></item>
                 <item n="173" xml:id="CAT_000075_e173">
                     <num>173</num>
 
@@ -3569,9 +3149,7 @@
 
 
 
-                    <desc>Let. sig.; Montdeieu, 21 juillet 1667, 2 p. 1/2 in-4. Rare. 20</desc>
-
-                    <note>Il réclame les papiers que garde par devers lui le généalogiste Claude Le
+                    <desc>Let. sig.; Montdeieu, 21 juillet 1667, <measure quantity="2.5" type="length">2 p. 1/2</measure> in-4. Rare. <measure quantity="20" type="price">20</measure></desc><note>Il réclame les papiers que garde par devers lui le généalogiste Claude Le
                         Laboureur; il parle de M. de Louvois et de M. de Caumartin</note>
 
                 </item>
@@ -3590,9 +3168,7 @@
 
 
 
-                    <desc>Quittance sig. sur vélin, 1662, in-8 obl. Jolie pièce. 20</desc>
-
-                </item>
+                    <desc>Quittance sig. sur vélin, 1662, in-8 obl. Jolie pièce. <measure quantity="20" type="price">20</measure></desc></item>
 
                 <item n="175" xml:id="CAT_000075_e175">
                     <num>175</num>
@@ -3608,10 +3184,7 @@
 
 
 
-                    <desc>Stances à Marie, par le comte de Ségur, pair de France, pièce de vers
-            aut., 1 p. 1/2 in-8. 10</desc>
-
-                    <note>Jolie pièce dont voici la première strophe : Tant qu'on est deux, on peut,
+                    <desc>Stances à Marie, par le comte de Ségur, pair de France, pièce de vers aut., <measure quantity="1.5" type="length">1 p. 1/2</measure> in-8. <measure quantity="10" type="price">10</measure></desc><note>Jolie pièce dont voici la première strophe : Tant qu'on est deux, on peut,
                         ma chère, Fuir la fortune légère Et vivre heureux. Nos jours s'écoulent sans
                         nuages Et le temps passe sans orages Tant qu'on est deux</note>
 
@@ -3631,9 +3204,7 @@
 
 
 
-                    <desc>L. a. s. à M. Vidal, 2 p. in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s. à M. Vidal, <measure quantity="2" type="length">2 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="177" xml:id="CAT_000075_e177">
                     <num>177</num>
@@ -3648,10 +3219,7 @@
 
 
 
-                    <desc>L. a. s., en français, à M. Cusani, à Milan ; Pescia, 1837, 3 p. in-8.
-            8</desc>
-
-                    <note>Très-curieuse lettre relative à l'Histoire universelle de César Cantu. Il
+                    <desc>L. a. s., en français, à M. Cusani, à Milan ; Pescia, <date when="1837">1837</date>, <measure quantity="3" type="length">3 p.</measure> in-8. <measure quantity="8" type="price">8</measure></desc><note>Très-curieuse lettre relative à l'Histoire universelle de César Cantu. Il
                         fait des voeux bien sincères pour le succès de leur entreprise. « Je sens
                         vivement l'avantage de populariser en Italie et les bonnes études
                         historiques et les bonnes doctrines. Je le sens plus vivement encore quand
@@ -3676,10 +3244,7 @@
 
 
 
-                    <desc>Let. sig. à Constantin Huyghens, seigneur de Zuilichem; Paris, 25 novembre
-            1667, 1 p. in-4, cachets. 10</desc>
-
-                    <note>Il a appris par Henri de Beringhen (premier écuyer du Roi) que M. de
+                    <desc>Let. sig. à Constantin Huyghens, seigneur de Zuilichem; Paris, 25 novembre 1667, <measure quantity="1" type="length">1 p.</measure> in-4, cachets. <measure quantity="10" type="price">10</measure></desc><note>Il a appris par Henri de Beringhen (premier écuyer du Roi) que M. de
                         Wuilhem était son neveu. Il le prie de bien conseiller ce neveu qui défend
                         ses intérêts à Amsterdam</note>
 
@@ -3698,9 +3263,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 2.50</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="2.50" type="price">2.50</measure></desc></item>
                 <item n="180" xml:id="CAT_000075_e180">
                     <num>180</num>
 
@@ -3715,9 +3278,7 @@
 
 
 
-                    <desc>L. a. s., en français, à Mme de Soldaen, 1 p. in-8. 8</desc>
-
-                </item>
+                    <desc>L. a. s., en français, à Mme de Soldaen, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="8" type="price">8</measure></desc></item>
 
                 <item n="181" xml:id="CAT_000075_e181">
                     <num>181</num>
@@ -3732,10 +3293,7 @@
 
 
 
-                    <desc>L. a. s. à Sigismond Neukomm, 5 septembre, 1 p. 1/2 in-8. Belle lettre.
-            15</desc>
-
-                </item>
+                    <desc>L. a. s. à Sigismond Neukomm, 5 septembre, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-8. Belle lettre. <measure quantity="15" type="price">15</measure></desc></item>
 
                 <item n="182" xml:id="CAT_000075_e182">
                     <num>182</num>
@@ -3750,10 +3308,7 @@
 
 
 
-                    <desc>1° 1. a. s. T. à Mme Kreut- zer, 1/2 p. in-8.-2° pièce de 3 lignes a. s.,
-            1824, in-18 obl. 5</desc>
-
-                </item>
+                    <desc>1° 1. a. s. T. à Mme Kreut- zer, <measure quantity="0.5" type="length">1/2 p.</measure> in-8.-2° pièce de 3 lignes a. s., <date when="1824">1824</date>, in-18 obl. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="183" xml:id="CAT_000075_e183">
                     <num>183</num>
@@ -3769,10 +3324,7 @@
 
 
 
-                    <desc>Let. sig., avec 5 lignes aut., en français; Paris, 14 août 1770, 2 p. 1/2
-            pet. in-4. Rare. 20</desc>
-
-                    <note>Elle réclame le paiement d'un quartier de sa pension, montant à 38,000
+                    <desc>Let. sig., avec 5 lignes aut., en français; Paris, 14 août 1770, <measure quantity="2.5" type="length">2 p. 1/2</measure> pet. in-4. Rare. <measure quantity="20" type="price">20</measure></desc><note>Elle réclame le paiement d'un quartier de sa pension, montant à 38,000
                         livres</note>
 
                 </item>
@@ -3791,10 +3343,7 @@
 
 
 
-                    <desc>L. a. s. à Schumacher, premier ministre de Frédéric III, roi de Danemark;
-            Paris, 21 mai 1670, 2 p. in-4. 10</desc>
-
-                    <note>Toute relative à la mort du roi Frédéric III; il espère que son
+                    <desc>L. a. s. à Schumacher, premier ministre de Frédéric III, roi de Danemark; Paris, 21 mai 1670, <measure quantity="2" type="length">2 p.</measure> in-4. <measure quantity="10" type="price">10</measure></desc><note>Toute relative à la mort du roi Frédéric III; il espère que son
                         successeur, Christian V, lui conservera la même confiance. (Christian V
                         venait de visiter la France; à son retour, il voulut être le Louis XIV du
                         Danemark; Griffenfeld l'y aida, mais ce grand homme condamné à mort en 1676
@@ -3814,10 +3363,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-18. 5</desc>
-
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-18. <measure quantity="5" type="price">5</measure></desc></item>
                 <item n="186" xml:id="CAT_000075_e186">
                     <num>186</num>
 
@@ -3832,9 +3378,7 @@
 
 
 
-                    <desc>Pièce sig., 1641, 1 p. pet. in-4. 3</desc>
-
-                </item>
+                    <desc>Pièce sig., <date when="1641">1641</date>, <measure quantity="1" type="length">1 p.</measure> pet. in-4. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="187" xml:id="CAT_000075_e187">
                     <num>187</num>
@@ -3850,9 +3394,7 @@
 
 
 
-                    <desc>L. a. s. à Mme Pacini Paton; Paris, 24 mars 1872, 2 p. 1/2 in-18. 5</desc>
-
-                    <note>Il a appris avec plaisir que Mignon avait réussi à la Pergola : « Rien ne
+                    <desc>L. a. s. à Mme Pacini Paton; Paris, 24 mars 1872, <measure quantity="2.5" type="length">2 p. 1/2</measure> in-18. <measure quantity="5" type="price">5</measure></desc><note>Il a appris avec plaisir que Mignon avait réussi à la Pergola : « Rien ne
                         pouvait m'être plus sensible que d'apprendre de vous avec quelles sympathies
                         mon ouvrage a été accueilli à Florence.</note>
 
@@ -3871,9 +3413,7 @@
 
 
 
-                    <desc>Pièce sig.; Brest, 21 oct. 1693, 1 p. in-4, cachet à ses armes. 5</desc>
-
-                </item>
+                    <desc>Pièce sig.; Brest, 21 oct. 1693, <measure quantity="1" type="length">1 p.</measure> in-4, cachet à ses armes. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="189" xml:id="CAT_000075_e189">
                     <num>189</num>
@@ -3890,10 +3430,7 @@
 
 
 
-                    <desc>L. a. s. à M. le baron du Har; 2 p. 1/2 in-8, cachet, raccommodée et
-            fatiguée. Très-rare. 20</desc>
-
-                </item>
+                    <desc>L. a. s. à M. le baron du Har; <measure quantity="2.5" type="length">2 p. 1/2</measure> in-8, cachet, raccommodée et fatiguée. Très-rare. <measure quantity="20" type="price">20</measure></desc></item>
 
                 <item n="190" xml:id="CAT_000075_e190">
                     <num>190</num>
@@ -3910,10 +3447,7 @@
 
 
 
-                    <desc>Pièce sig., signée aussi par Ch. Lebrun, le célèbre peintre ; 6 octobre
-            1673, 1 p. in-fol. Rare. 20</desc>
-
-                    <note>Acte par lequel Lebrun se reconnaît débiteur envers Tubi de la somme de
+                    <desc>Pièce sig., signée auss<measure quantity="1" type="length">i p</measure>ar Ch. Lebrun, le célèbre peintre ; 6 octobre 1673, 1 p. in-fol. Rare. <measure quantity="20" type="price">20</measure></desc><note>Acte par lequel Lebrun se reconnaît débiteur envers Tubi de la somme de
                         1,000 livres qu'il lui a prêtée</note>
 
                 </item>
@@ -3932,10 +3466,7 @@
 
 
 
-                    <desc>L. a. s., en français, Turin, o août 1862, 1 p. in-8. Légère déchirure.
-            5</desc>
-
-                </item>
+                    <desc>L. a. s., en français, Turin, o août 1862, <measure quantity="1" type="length">1 p.</measure> in-8. Légère déchirure. <measure quantity="5" type="price">5</measure></desc></item>
 
                 <item n="192" xml:id="CAT_000075_e192">
                     <num>192</num>
@@ -3950,9 +3481,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 2</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="2" type="price">2</measure></desc></item>
 
                 <item n="193" xml:id="CAT_000075_e193">
                     <num>193</num>
@@ -3967,9 +3496,7 @@
 
 
 
-                    <desc>L. a. s. à M. Ducessois, 1845, 1 p. 1/2 in-8. 3</desc>
-
-                    <note>Relative à un de ses ouvrages</note>
+                    <desc>L. a. s. à M. Ducessois, <date when="1845">1845</date>, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-8. <measure quantity="3" type="price">3</measure></desc><note>Relative à un de ses ouvrages</note>
 
                 </item>
 
@@ -3986,9 +3513,7 @@
 
 
 
-                    <desc>L. a. s., 28 mai 1844, 1 p. in-8. 5</desc>
-
-                    <note>Très-jolie lettre sur Shakespeare. « Tout ce que nous pouvons et devons
+                    <desc>L. a. s., 28 mai 1844, <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="5" type="price">5</measure></desc><note>Très-jolie lettre sur Shakespeare. « Tout ce que nous pouvons et devons
                         vous accorder sur ce point, c'est que les traducteurs ont fait tort à
                         l'oeuvre. Il suffit d'une méchante toilette pour gâter la plus belle femme
                         du monde, mais ce n'est pas à Shakespeare, c'est à nous qu'il faut s'en
@@ -4009,10 +3534,7 @@
 
 
 
-                    <desc>L. a. s. à M. Louis Touagni, à Milan; Busseto, 13 août 1844, 1 p. 1/2
-            in-8. 8</desc>
-
-                    <note>Il lui annonce pour le théâtre de la Scala, à Milan, un opéra sur une
+                    <desc>L. a. s. à M. Louis Touagni, à Milan; Busseto, 13 août 1844, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-8. <measure quantity="8" type="price">8</measure></desc><note>Il lui annonce pour le théâtre de la Scala, à Milan, un opéra sur une
                         oeuvre de Schiller (Jeanne d'Arc)</note>
 
                 </item>
@@ -4031,9 +3553,7 @@
 
 
 
-                    <desc>L. a. s., 1/2 p. in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="0.5" type="length">1/2 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="197" xml:id="CAT_000075_e197">
                     <num>197</num>
@@ -4049,9 +3569,7 @@
 
 
 
-                    <desc>L. a. s. à son éditeur; 10 mai 1829, 1 p. 1/2 in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s. à son éditeur; 10 mai 1829, <measure quantity="1.5" type="length">1 p. 1/2</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
                 <item n="198" xml:id="CAT_000075_e198">
                     <num>198</num>
@@ -4066,9 +3584,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 3</desc>
-
-                </item>
+                    <desc>L. a. s., <measure quantity="1" type="length">1 p.</measure> in-8. <measure quantity="3" type="price">3</measure></desc></item>
 
             </list>
         </body>
