@@ -401,18 +401,22 @@ def clean_text(input_text):
 def conversion_to_list(path):
     final_list = []
     for xml_file in glob.iglob(path):
-        for desc_element in desc_extractor(xml_file):  # we select only the 10 first entries to speed up
-            # processing (to be deleted)
+        for desc_element in desc_extractor(xml_file):
             final_list.append(desc_element)
     return final_list
 
 
-def xml_output_production(output_dict):
+def xml_output_production(dictionnary):
+    """
+    Replaces all tei:desc by the structure
+    :param dictionnary: the dictionnary created by the different extraction steps
+    :return: 
+    """
     print("Updating the xml files")
     tei_namespace = "http://www.tei-c.org/ns/1.0"
     NSMAP1 = {'tei': tei_namespace}  # pour la recherche d'éléments avec la méthode xpath
     ElementTree.register_namespace("", tei_namespace)
-    for key in output_dict:
+    for key in dictionnary:
         input_info = key.split("_")
         file = "%s_%s_clean.xml" % (input_info[0], input_info[1])
         item = input_info[2].split("e")[-1]
@@ -420,19 +424,19 @@ def xml_output_production(output_dict):
         input_file = "../output/xml/%s" % file
         with open(input_file, 'r+') as fichier:
             f = etree.parse(fichier)
-            root2 = f.getroot()
+            output_root = f.getroot()
             path = "//tei:item[@n=\'%s\']/tei:desc" % item
-            desc2 = root2.xpath(path, namespaces=NSMAP1)
-            for elem in desc2:
-                item_element = elem.getparent() # https://stackoverflow.com/questions/7474972/python-lxml-append
+            desc_list = output_root.xpath(path, namespaces=NSMAP1)
+            for desc in desc_list:
+                item_element = desc.getparent() # https://stackoverflow.com/questions/7474972/python-lxml-append
                 # -element-after-another-element
-                item_element.insert(item_element.index(elem)+1, etree.fromstring("<desc xmlns=\"http://www.tei-c.org/ns/1"
+                item_element.insert(item_element.index(desc)+1, etree.fromstring("<desc xmlns=\"http://www.tei-c.org/ns/1"
                                                                              ".0\">%s</desc>" % desc_string))
-                item_element.remove(elem) # we remove the non processed tei:desc
+                item_element.remove(desc) # we remove the non processed tei:desc
 
             output_file = "../output/xml/%s" % file
             with open(output_file, "w+") as sortie_xml:
-                output = etree.tostring(root2, pretty_print=True, encoding='utf-8', xml_declaration=True).decode('utf8')
+                output = etree.tostring(output_root, pretty_print=True, encoding='utf-8', xml_declaration=True).decode('utf8')
                 sortie_xml.write(str(output))
 
 
@@ -443,8 +447,8 @@ if __name__ == "__main__":
     input_dir = os.path.dirname(files)
     output_dir = "../output/xml"
     try:
-        shutil.copytree(input_dir, output_dir) # copytree contains a mkdir command, we have to delete the directory
-        # if it exists
+        shutil.copytree(input_dir, output_dir) # shutil.copytree contains a mkdir command, we have to delete the
+        # directory if it exists
     except:
         shutil.rmtree(output_dir)
         shutil.copytree(input_dir, output_dir)
@@ -454,7 +458,7 @@ if __name__ == "__main__":
     output_dict = pn_extractor(list_desc, output_dict)
     # output_dict = format_extractor(list_desc, output_dict)
 
-    print("Producing the json file")
+    print("Producing the json output")
     with open('../output/json/export.json', 'w') as outfile:
         outfile.truncate(0)
         json.dump(output_dict, outfile)
