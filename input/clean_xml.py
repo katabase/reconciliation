@@ -12,6 +12,7 @@
 
 import glob, re, sys, getopt, os.path, argparse
 from lxml import etree
+from pathlib import Path
 
 def get_new_name(input_filename,input_dirname):
       # :param input_name: name of the file
@@ -137,7 +138,6 @@ def desc_correction(input_desc):
     return input_desc
 
 if __name__ == "__main__":
-
     #Get value of parameter
     parser = argparse.ArgumentParser()
     parser.add_argument("-f", "--filename", help="add file name please")
@@ -150,16 +150,29 @@ if __name__ == "__main__":
 
     #if we process only a file
     if args.filename is not None:
+      #check if file exists
+      if not os.path.isfile(args.filename):
+        print("The File does not exit ")
+        sys.exit(1)
+      #create directory to put the new data
       new_dirname='Data_clean'
       new_name = get_new_name(args.filename,new_dirname)
       my_doc = process_file(args.filename)
+      #save result
       my_doc.write(new_name, encoding='utf-8')
 
     #if we process an entire folder
     if args.dirname is not None:
+      #check if directory exists
+      if not os.path.isdir(args.dirname):
+        print("The Directory does not exit ")
+        sys.exit(1)
+      #create directory to put the new data
       directory_name = args.dirname
       new_dirname=directory_name+"_clean"
+      #loop over files in directory
       for file in glob.iglob(directory_name+'/*.xml'):
         new_name = get_new_name(file,new_dirname)
         my_doc = process_file(file)
+        #save result
         my_doc.write(new_name, encoding='utf-8')
