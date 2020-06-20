@@ -32,7 +32,7 @@ Most of the reconciliation process uses data from the `<desc>` element of our xm
   * `in4` -> `in-4`
   * `1 /2` -> `1/2`
 
-The `clean-xml.py` script [available here](https://github.com/katabase/reconciliation/tree/master/input) tackles this problem:
+The `clean-xml.py` script [[available here](https://github.com/katabase/reconciliation/tree/master/input)] tackles this problem:
 
   * `python clean-xml.py -f FILENAME` processes one single file
   * `python clean-xml.py -d DIRECTORY` processes all the files contained in a directory
@@ -67,7 +67,7 @@ into
 </item>
 ```
 
-To carry this task we use the `extractor.py` [available here](https://github.com/katabase/reconciliation/tree/master/script).
+To carry this task we use the `extractor.py` [[available here](https://github.com/katabase/reconciliation/tree/master/script)].
 
 ### Cite this repository
 Matthias Gille Levenson and Simon Gabay (éd.), _Operation Reconciliation: Reconciliation of Manuscript Sale Catalogues Entries_, Genève: Université de Genève, Lyon: Ecole normale supérieure de Lyon, 2020, [https://github.com/katabase/reconciliation](https://github.com/katabase/reconciliation).
