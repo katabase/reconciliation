@@ -23,14 +23,15 @@ Entries of catalogues look like the following:
    <trait>
       <p>l'illustre compositeur</p>
    </trait>
-   <desc>L. a. s.; 1836, 1 p. in-8. 12</desc>
+   <desc>L. a s.; 1836, 1 p 1 /2 in8. 12</desc>
 </item>
 ```
 
 Most of the reconciliation process uses data from the `<desc>` element of our xml files. We therefore need to correct typos to ease further post-processing, _e.g._
   * `L. a s.` -> `L. a. s.`
-  * `in4` -> `in-4`
+  * `in8` -> `in-8`
   * `1 /2` -> `1/2`
+  * `1 p ` -> `1 p. `
 
 The `clean-xml.py` script [[available here](https://github.com/katabase/reconciliation/tree/master/input)] tackles this problem:
 
