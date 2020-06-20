@@ -13,13 +13,14 @@
 import glob, re, sys, getopt, os.path, argparse
 from lxml import etree
 
-def get_new_name(input_name):
+def get_new_name(input_filename,input_dirname):
       # :param input_name: name of the file
       # :return: new name to indicate it has been processed
-      file_name = input_name
-      basename = os.path.basename(file_name)
+      if not os.path.exists(input_dirname):
+        os.makedirs(input_dirname)
+      basename = os.path.basename(input_filename)
       basename_noExt = os.path.splitext(basename)[0]
-      new_name = "Data_clean/"+basename_noExt+"_clean.xml"
+      new_name = input_dirname+"/"+basename_noExt+"_clean.xml"
       return new_name
 
 def process_file(input_file):
@@ -136,9 +137,6 @@ def desc_correction(input_desc):
     return input_desc
 
 if __name__ == "__main__":
-    #Create folder to put new file(s) in it
-    if not os.path.exists('Data_clean'):
-      os.makedirs('Data_clean')
 
     #Get value of parameter
     parser = argparse.ArgumentParser()
@@ -152,14 +150,16 @@ if __name__ == "__main__":
 
     #if we process only a file
     if args.filename is not None:
-      new_name = get_new_name(args.filename)
+      new_dirname='Data_clean'
+      new_name = get_new_name(args.filename,new_dirname)
       my_doc = process_file(args.filename)
       my_doc.write(new_name, encoding='utf-8')
 
     #if we process an entire folder
     if args.dirname is not None:
       directory_name = args.dirname
+      new_dirname=directory_name+"_clean"
       for file in glob.iglob(directory_name+'/*.xml'):
-        new_name = get_new_name(file)
+        new_name = get_new_name(file,new_dirname)
         my_doc = process_file(file)
         my_doc.write(new_name, encoding='utf-8')
