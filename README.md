@@ -31,7 +31,9 @@ Most of the reconciliation process uses data from the `<desc>` element of our xm
   * `L. a s.` -> `L. a. s.`
   * `in4` -> `in-4`
   * `1 /2` -> `1/2`
+
 The `clean-xml.py` script [available here](https://github.com/katabase/reconciliation/tree/master/input) tackles this problem:
+
   * `python clean-xml.py -f FILENAME` processes one single file
   * `python clean-xml.py -d DIRECTORY` processes all the files contained in a directory
 
