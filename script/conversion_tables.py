@@ -58,6 +58,7 @@ abbreviations = {
     "mess": "messidor",
     "ventose": "ventôse",
     "brum": "brumaire",
+    "br": "brumaire",
     "germ": "germinal",
     "pluv": "pluviôse",
     "pluviose": "pluviôse",
