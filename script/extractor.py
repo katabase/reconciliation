@@ -23,7 +23,7 @@ def price_extractor(descList):
     :param descList: the list containing all of the tei:desc
     :return: a dict with the ids as keys, and value another dict with the prices
     """
-    print("Extracting the price of the documents")
+    print("Extracting price information")
     output_dict = {}
     for item in descList:
         id = item[1]
@@ -91,7 +91,7 @@ def date_extractor(descList, input_dict):
     :param input_dict: the dictionnary containing the data previously extracted (at this moment, only the price)
     :return: a dict which keys are the ids, and which values are another dict with prices and dates
     """
-    print("Extracting the date of the documents")
+    print("Extracting date information")
     for item in descList:
         id = item[1]
         desc = item[0]
@@ -191,7 +191,6 @@ def date_extractor(descList, input_dict):
                 # print("split date: %s; id: %s" % (split_date, id))
             ## IDÉE: on ne met pas de <desc/>, qu'on ajoute avec Etree. Ça peut régler certains problèmes.
             # print(desc_xml)
-            dict_values["date_path"] = date_path
             dict_values["date"] = date
 
         # If we do not match a gregorian year string (YYYY), but a republican year string ('an V', for instance),
@@ -246,10 +245,10 @@ def is_roman(value):
 
 
 def pn_extractor(descList, input_dict):
-    print("Extracting the length of the documents")
+    print("Extracting length information")
     page_number_pattern = re.compile(
-        "([IVXivx0-9\/]{1,6})\sp\.?\s?([0-5\/]{0,3})")  # this pattern matches the most frequent case.
-    pattern_fraction = re.compile("([0-9\/]{1,6})\s?de\s?p\.?")
+        "([IVXivx0-9\/]{1,6})\.?\s(pages|page|pag.|p.)\s([0-5\/]{0,3})")  # this pattern matches the most frequent case.
+    pattern_fraction = re.compile("([0-9\/]{1,6})\s?de\s?p[ages]{0,3}\.?")
     for item in descList:
         id = item[1]
         desc = item[0]
@@ -264,8 +263,10 @@ def pn_extractor(descList, input_dict):
             position_chaîne = re.search(page_number_pattern, desc).span()
             pn_search = re.search(page_number_pattern, desc)
             groups = pn_search.groups()
+            print(desc)
+            print(groups)
             first_group = pn_search.group(1)
-            second_group = pn_search.group(2)
+            second_group = pn_search.group(3)
             if second_group == "":  # if the second group is empty, there is no fraction
                 if first_group != "":
                     if isInt(is_roman(first_group.upper())):
@@ -312,9 +313,9 @@ def pn_extractor(descList, input_dict):
                 path = 12
         elif re.search(pattern_fraction, desc):
             path = 13
-            search = re.search("([0-9\/]{1,6})\s?de\s?p\.?", desc)
+            search = re.search("([0-9\/]{1,6})\s?de\s?p[age]{0,3}\.?", desc)
             position_chaîne = search.span()
-            try: # test to be removed after.
+            try:  # test to be removed after.
                 page_number = fractions_to_float[search.group(1)]
             except:
                 page_number = 0
@@ -332,7 +333,7 @@ def pn_extractor(descList, input_dict):
         else:
             desc_xml = input_dict[id].get("desc_xml")
         # dict_values["groups"] = groups # for debugging purposes only
-        dict_values["path"] = path  # idem
+        # dict_values["path"] = path  # idem
         dict_values["desc_xml"] = desc_xml
         dict_values["number_of_pages"] = page_number
         output_dict[id] = dict_values
@@ -349,30 +350,198 @@ def format_extractor(descList, input_dict):
         ms_format = None
         dict_values = input_dict[id]
         format_simple_pattern = re.compile("(in-[0-9]{1,2}°?\.?\s?[obl]{0,3}\.?)")
-        format_simple_pattern2 = re.compile("(in-fol\.?\s?[obl]{0,3}\.?)")
+        format_simple_pattern2 = re.compile("(in-folio\.?\s?[obl]{0,3}\.?)")
+        format_simple_pattern3 = re.compile("(in-f[ol]{0,2}\.?\s?[obl]{0,3}\.?)")
+
         if re.search(format_simple_pattern, desc):
             format_search = re.search(format_simple_pattern, desc)
-            ms_format = format_search.group(1)
+            ms_format = re.sub(r"\s$", "", format_search.group(1))
             position = format_search.span()
             start_position = position[0]
             end_position = position[1]
-            desc_xml = "%s<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022" \
-                       " type=\u0022format\u0022>%s</measure>%s" \
-                       % (desc[:start_position], desc[start_position:end_position],
-                          desc[end_position:])
+
         elif re.search(format_simple_pattern2, desc):
             format_search = re.search(format_simple_pattern2, desc)
-            ms_format = format_search.group(1)
+            ms_format = re.sub(r"\s$", "", format_search.group(1))
             position = format_search.span()
             start_position = position[0]
             end_position = position[1]
+
+        elif re.search(format_simple_pattern3, desc):
+            format_search = re.search(format_simple_pattern3, desc)
+            ms_format = re.sub(r"\s$", "", format_search.group(1))
+            position = format_search.span()
+            start_position = position[0]
+            end_position = position[1]
+        else:
+            desc_xml = desc
+            start_position = None
+            end_position = None
+
+        # Let's create the xml element
+        if start_position and end_position:
+            if desc[end_position - 1] == " ":  # if the last character of the identified format is a space
+                end_position = end_position - 1
             desc_xml = "%s<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022" \
                        " type=\u0022format\u0022>%s</measure>%s" \
                        % (desc[:start_position], desc[start_position:end_position],
                           desc[end_position:])
-
         dict_values["desc_xml"] = desc_xml
         dict_values["format"] = ms_format
+        output_dict[id] = dict_values
+        item[0] = desc_xml
+    return input_dict
+
+
+def term_extractor(descList, input_dict):
+    print("Extracting term information")
+    for item in descList:
+        id = item[1]
+        desc = item[0]
+        desc_xml = desc
+        term = None
+        dict_values = input_dict[id]
+
+        pas_pattern = re.compile("((Pièce|P\.)\s?[autographe]{1,10}\.?\s?[signée]{0,6}\.?)") # > Pas
+        ps_pattern = re.compile("((Pièce|P\.)\s?\s?[signée]{0,6}\.?)") # > Ps
+        bias_pattern = re.compile("((Billet|B\.)\s?[autographe]{0,10}\.?\s?[signé]{0,5}\.?)") # > bias
+        las_pattern = re.compile("((Lettre|Let\.|L\.)\s?a[utographe]{0,9}\.?\s?[signée]{0,6}\.?)") # > Las
+        la_pattern = re.compile("((Lettre|Let\.|L\.) a[utographe]{0,9}\.?)") # > La
+        ls_pattern = re.compile("((Lettre|Let\.|L\.) (signée|sig\.|s\.))") # > Ls
+        brs_pattern = re.compile("(Brevet\.?\s?[signé]{0,5}\.?)") # > Brs
+        qas_pattern = re.compile("(Quitt[ance]{0,4}?\.?\s?[autographe]{0,10}\.?\s?[signée]{0,6}\.?)") # > Qas
+        qs_pattern = re.compile("(Quitt[ance]{0,4}?\.?\s?[signée]{0,6}\.?)") # > Qs
+        ma_pattern = re.compile("([Mm]anuscrit aut[ographe]{0,7}\.?)") # > Ma
+        ca_pattern = re.compile("([Cc]hanson\saut[ographe]{0,7}\.?)") # > Ca
+        as_pattern = re.compile("((Autographe|autographe|[Aa]ut\.)\s?[signée]{0,6}\.?)") # > as # this one must be the last pattern.
+
+        if re.search(pas_pattern, desc):
+            term_search = re.search(pas_pattern, desc)
+            term = re.sub(r"\s$", "", term_search.group(1))
+            norm_term = "P.a.s."
+            position = term_search.span()
+            start_position = position[0]
+            end_position = position[1]
+
+        if re.search(ps_pattern, desc):
+            term_search = re.search(ps_pattern, desc)
+            term = re.sub(r"\s$", "", term_search.group(1))
+            norm_term = "P.s."
+            position = term_search.span()
+            start_position = position[0]
+            end_position = position[1]
+
+        elif re.search(bias_pattern, desc):
+            term_search = re.search(bias_pattern, desc)
+            term = re.sub(r"\s$", "", term_search.group(1))
+            norm_term = "Bi.a.s."
+            position = term_search.span()
+            start_position = position[0]
+            end_position = position[1]
+
+
+        elif re.search(las_pattern, desc):
+            term_search = re.search(las_pattern, desc)
+            term = re.sub(r"\s$", "", term_search.group(1))
+            norm_term = "L.a.s."
+            position = term_search.span()
+            start_position = position[0]
+            end_position = position[1]
+
+        elif re.search(la_pattern, desc):
+            term_search = re.search(la_pattern, desc)
+            term = re.sub(r"\s$", "", term_search.group(1))
+            norm_term = "L.a."
+            position = term_search.span()
+            start_position = position[0]
+            end_position = position[1]
+
+        elif re.search(brs_pattern, desc):
+            term_search = re.search(brs_pattern, desc)
+            term = re.sub(r"\s$", "", term_search.group(1))
+            norm_term = "Br.s."
+            position = term_search.span()
+            start_position = position[0]
+            end_position = position[1]
+
+        elif re.search(qs_pattern, desc):
+            term_search = re.search(qs_pattern, desc)
+            term = re.sub(r"\s$", "", term_search.group(1))
+            norm_term = "Q.s."
+            position = term_search.span()
+            start_position = position[0]
+            end_position = position[1]
+
+        elif re.search(ma_pattern, desc):
+            term_search = re.search(ma_pattern, desc)
+            term = re.sub(r"\s$", "", term_search.group(1))
+            norm_term = "M.a."
+            position = term_search.span()
+            start_position = position[0]
+            end_position = position[1]
+
+        elif re.search(ca_pattern, desc):
+            term_search = re.search(ca_pattern, desc)
+            term = re.sub(r"\s$", "", term_search.group(1))
+            norm_term = "C.a."
+            position = term_search.span()
+            start_position = position[0]
+            end_position = position[1]
+
+        elif re.search(qas_pattern, desc):
+            term_search = re.search(qas_pattern, desc)
+            term = re.sub(r"\s$", "", term_search.group(1))
+            norm_term = "Q.a.s."
+            position = term_search.span()
+            start_position = position[0]
+            end_position = position[1]
+
+        elif re.search(ls_pattern, desc):
+            term_search = re.search(ls_pattern, desc)
+            term = re.sub(r"\s$", "", term_search.group(1))
+            norm_term = "L.s."
+            position = term_search.span()
+            start_position = position[0]
+            end_position = position[1]
+
+        elif re.search(as_pattern, desc): # keep this search the last one
+            term_search = re.search(as_pattern, desc)
+            term = re.sub(r"\s$", "", term_search.group(1))
+            norm_term = "A.s."
+            position = term_search.span()
+            start_position = position[0]
+            end_position = position[1]
+
+
+            # Check this problem (not matched by as_pattern):
+            # "CAT_000096_e249": {
+            #     "desc": "Rome, 20 juillet 1691; aut. sig. – 7 pag. – A M. de Lamoignon, avocat-général. (Très-curieuse.)",
+            #     "price": null,
+            #     "desc_xml": "Rome, 20 juillet 1691; aut. sig. – <measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"7\" type=\"length\">7 pag.</measure> – A M. de <term xmlns=\"http://www.tei-c.org/ns/1.0\" type=\"format\">La</term>moignon, avocat-général. (Très-curieuse.)",
+            #     "date": "1691-07-20",
+            #     "number_of_pages": 7,
+            #     "format": null,
+            #     "term": "La"
+            # },
+
+
+
+        else:
+            desc_xml = desc
+            norm_term = None
+            start_position = None
+            end_position = None
+
+        # Let's create the xml element
+        if end_position or (start_position and end_position):
+            if desc[end_position - 1] == " ":  # if the last character of the identified format is a space
+                end_position = end_position - 1
+            desc_xml = "%s<term xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022" \
+                       ">%s</term>%s" \
+                       % (desc[:start_position], desc[start_position:end_position],
+                          desc[end_position:])
+        dict_values["desc_xml"] = desc_xml
+        dict_values["term"] = norm_term
         output_dict[id] = dict_values
     return input_dict
 
@@ -440,10 +609,11 @@ def xml_output_production(dictionnary):
     print("Updating the xml files")
     tei_namespace = "http://www.tei-c.org/ns/1.0"
     NSMAP1 = {'tei': tei_namespace}  # pour la recherche d'éléments avec la méthode xpath
-    ElementTree.register_namespace("", tei_namespace)
+    ElementTree.register_namespace("", tei_namespace)  # http://effbot.org/zone/element-namespaces.htm#preserving
+    # -existing-namespace-attributes
     for key in dictionnary:
         input_info = key.split("_")
-        file = "%s_%s_clean.xml" % (input_info[0], input_info[1])
+        file = "%s_%s_clean.xml" % (input_info[0], input_info[1])  # the filename follow the structure CAT_ID.xml
         item = input_info[2].split("e")[-1]
         desc_string = output_dict[key]["desc_xml"].replace("&", "&amp;")
         input_file = "../output/xml/%s" % file
@@ -452,26 +622,29 @@ def xml_output_production(dictionnary):
             output_root = f.getroot()
             path = "//tei:item[@n=\'%s\']/tei:desc" % item
             desc_list = output_root.xpath(path, namespaces=NSMAP1)
-            for desc in desc_list:
-                item_element = desc.getparent() # https://stackoverflow.com/questions/7474972/python-lxml-append
+
+            for desc in desc_list:  # now let's update the tei:desc elements in the output file
+                item_element = desc.getparent()  # https://stackoverflow.com/questions/7474972/python-lxml-append
                 # -element-after-another-element
-                item_element.insert(item_element.index(desc)+1, etree.fromstring("<desc xmlns=\"http://www.tei-c.org/ns/1\">%s</desc>" % desc_string))
-                item_element.remove(desc) # we remove the non processed tei:desc
+                item_element.insert(item_element.index(desc) + 1, etree.fromstring(
+                    "<desc xmlns=\"http://www.tei-c.org/ns/1\">%s</desc>" % desc_string))
+                item_element.remove(desc)  # we remove the non processed tei:desc
 
             output_file = "../output/xml/%s" % file
             with open(output_file, "w+") as sortie_xml:
-                output = etree.tostring(output_root, pretty_print=True, encoding='utf-8', xml_declaration=True).decode('utf8')
+                output = etree.tostring(output_root, pretty_print=True, encoding='utf-8', xml_declaration=True).decode(
+                    'utf8')
                 sortie_xml.write(str(output))
 
 
 if __name__ == "__main__":
     no_price = 0
     no_date = 0
-    files = "../input/Data/_clean/*.xml" # the path to the files to be processed
+    files = "../input/Data_clean/*.xml"  # the path to the files to be processed
     input_dir = os.path.dirname(files)
     output_dir = "../output/xml"
     try:
-        shutil.copytree(input_dir, output_dir) # shutil.copytree contains a mkdir command, we have to delete the
+        shutil.copytree(input_dir, output_dir)  # shutil.copytree contains a mkdir command, we have to delete the
         # directory if it exists
     except:
         shutil.rmtree(output_dir)
@@ -481,6 +654,7 @@ if __name__ == "__main__":
     output_dict = date_extractor(list_desc, output_dict)
     output_dict = pn_extractor(list_desc, output_dict)
     output_dict = format_extractor(list_desc, output_dict)
+    output_dict = term_extractor(list_desc, output_dict)
 
     print("Producing the json output")
     with open('../output/json/export.json', 'w') as outfile:
