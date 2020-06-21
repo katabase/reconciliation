@@ -263,8 +263,6 @@ def pn_extractor(descList, input_dict):
             position_chaîne = re.search(page_number_pattern, desc).span()
             pn_search = re.search(page_number_pattern, desc)
             groups = pn_search.groups()
-            print(desc)
-            print(groups)
             first_group = pn_search.group(1)
             second_group = pn_search.group(3)
             if second_group == "":  # if the second group is empty, there is no fraction
@@ -537,8 +535,8 @@ def term_extractor(descList, input_dict):
             if desc[end_position - 1] == " ":  # if the last character of the identified format is a space
                 end_position = end_position - 1
             desc_xml = "%s<term xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022" \
-                       ">%s</term>%s" \
-                       % (desc[:start_position], desc[start_position:end_position],
+                       " type=\"%s\">%s</term>%s" \
+                       % (desc[:start_position], norm_term, desc[start_position:end_position],
                           desc[end_position:])
         dict_values["desc_xml"] = desc_xml
         dict_values["term"] = norm_term
@@ -595,7 +593,7 @@ def clean_text(input_text):
 def conversion_to_list(path):
     final_list = []
     for xml_file in glob.iglob(path):
-        for desc_element in desc_extractor(xml_file)[:10]:
+        for desc_element in desc_extractor(xml_file):
             final_list.append(desc_element)
     return final_list
 
