@@ -400,18 +400,22 @@ def term_extractor(descList, input_dict):
         term = None
         dict_values = input_dict[id]
 
-        pas_pattern = re.compile("((Pièce|P\.)\s?[autographe]{1,10}\.?\s?[signée]{0,6}\.?)") # > Pas
-        ps_pattern = re.compile("((Pièce|P\.)\s?\s?[signée]{0,6}\.?)") # > Ps
-        bias_pattern = re.compile("((Billet|B\.)\s?[autographe]{0,10}\.?\s?[signé]{0,5}\.?)") # > bias
-        las_pattern = re.compile("((Lettre|Let\.|L\.)\s?a[utographe]{0,9}\.?\s?[signée]{0,6}\.?)") # > Las
-        la_pattern = re.compile("((Lettre|Let\.|L\.) a[utographe]{0,9}\.?)") # > La
-        ls_pattern = re.compile("((Lettre|Let\.|L\.) (signée|sig\.|s\.))") # > Ls
-        brs_pattern = re.compile("(Brevet\.?\s?[signé]{0,5}\.?)") # > Brs
-        qas_pattern = re.compile("(Quitt[ance]{0,4}?\.?\s?[autographe]{0,10}\.?\s?[signée]{0,6}\.?)") # > Qas
-        qs_pattern = re.compile("(Quitt[ance]{0,4}?\.?\s?[signée]{0,6}\.?)") # > Qs
-        ma_pattern = re.compile("([Mm]anuscrit aut[ographe]{0,7}\.?)") # > Ma
-        ca_pattern = re.compile("([Cc]hanson\saut[ographe]{0,7}\.?)") # > Ca
-        as_pattern = re.compile("((Autographe|autographe|[Aa]ut\.)\s?[signée]{0,6}\.?)") # > as # this one must be the last pattern.
+        apas_pattern = re.compile("((Apostille)\s?a[utographe]{0,9}\.?\s?[signée]{0,6}\.?)")  # > Apas
+        pas_pattern = re.compile("(([Pp]ièce|[Pp]\.)\s.*?au[tographe]{1,8}\.?\s?si[gnée]{0,4}\.?)")  # > Pas
+        pa_pattern = re.compile("(([Pp]ièce|[Pp]\.)\s?.*aut[ographe]{0,7}\.?)")  # > Pa
+        ps_pattern = re.compile("(([Pp]ièce|[Pp]\.)\s?(signée|sig\.|s\.))")  # > Ps
+        bias_pattern = re.compile("((Billet|B\.)\s?.*a[utographe]{0,9}\.?\s?s[igné]{0,4}\.?)")  # > bias
+        bis_pattern = re.compile("((Billet|B\.)\s?s[igné]{0,4}\.?)")  # > bis
+        las_pattern = re.compile("((Lettre|Let\.|L\.)\s?a[utographe]{0,9}\.?\s?s[ignée]{0,5}\.?)")  # > Las
+        la_pattern = re.compile("((Lettre|Let\.|L\.) a[utographe]{0,9}\.?)")  # > La
+        ls_pattern = re.compile("((Lettre|Let\.|L\.) (signée|sig\.|s\.))")  # > Ls
+        brs_pattern = re.compile("(Brevet\.?\s?[signé]{0,5}\.?)")  # > Brs
+        qas_pattern = re.compile("(Quitt[ance]{0,4}?\.?\s?[autographe]{0,10}\.?\s?[signée]{0,6}\.?)")  # > Qas
+        qs_pattern = re.compile("(Quitt[ance]{0,4}?\.?\s?[signée]{0,6}\.?)")  # > Qs
+        ma_pattern = re.compile("([Mm]anuscrit aut[ographe]{0,7}\.?)")  # > Ma
+        ca_pattern = re.compile("([Cc]hanson\saut[ographe]{0,7}\.?)")  # > Ca
+        as_pattern = re.compile(
+            "((Autographe|autographe|[Aa]ut\.)\s?s[ignée]{0,5}\.?)")  # > as # this one must be the last pattern tested.
 
         if re.search(pas_pattern, desc):
             term_search = re.search(pas_pattern, desc)
@@ -421,7 +425,16 @@ def term_extractor(descList, input_dict):
             start_position = position[0]
             end_position = position[1]
 
-        if re.search(ps_pattern, desc):
+        elif re.search(apas_pattern, desc):
+            term_search = re.search(apas_pattern, desc)
+            term = re.sub(r"\s$", "", term_search.group(1))
+            norm_term = "Ap.a.s."
+            position = term_search.span()
+            start_position = position[0]
+            end_position = position[1]
+
+
+        elif re.search(ps_pattern, desc):
             term_search = re.search(ps_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = "P.s."
@@ -429,10 +442,27 @@ def term_extractor(descList, input_dict):
             start_position = position[0]
             end_position = position[1]
 
+        elif re.search(pa_pattern, desc):
+            term_search = re.search(pa_pattern, desc)
+            term = re.sub(r"\s$", "", term_search.group(1))
+            norm_term = "P.a."
+            position = term_search.span()
+            start_position = position[0]
+            end_position = position[1]
+
+
         elif re.search(bias_pattern, desc):
             term_search = re.search(bias_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = "Bi.a.s."
+            position = term_search.span()
+            start_position = position[0]
+            end_position = position[1]
+
+        elif re.search(bis_pattern, desc):
+            term_search = re.search(bis_pattern, desc)
+            term = re.sub(r"\s$", "", term_search.group(1))
+            norm_term = "Bi.s."
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
@@ -502,14 +532,13 @@ def term_extractor(descList, input_dict):
             start_position = position[0]
             end_position = position[1]
 
-        elif re.search(as_pattern, desc): # keep this search the last one
+        elif re.search(as_pattern, desc):  # keep this search the last one
             term_search = re.search(as_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = "A.s."
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
-
 
             # Check this problem (not matched by as_pattern):
             # "CAT_000096_e249": {
@@ -654,12 +683,15 @@ if __name__ == "__main__":
     output_dict = format_extractor(list_desc, output_dict)
     output_dict = term_extractor(list_desc, output_dict)
 
+    # xml_output_production(output_dict)
+    for key in output_dict:
+        output_dict[key].pop("desc_xml")
+        # output_dict[key].pop("desc")
+
     print("Producing the json output")
     with open('../output/json/export.json', 'w') as outfile:
         outfile.truncate(0)
         json.dump(output_dict, outfile)
-
-    xml_output_production(output_dict)
     print("Done !")
     print("Number of entries without price: %s" % str(no_price))
     print("Number of entries without date: %s" % str(no_date))
