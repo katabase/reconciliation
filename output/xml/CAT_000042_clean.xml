@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000042">
+<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000042">
     <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
         <fileDesc>
             <titleStmt>
@@ -92,7 +91,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Quittance sur vélin, avec une ligne aut., 1698, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8</measure>, cachet. Rare. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc><note>Reçu de 225 livres, semestre d'une rente constituée à l'abbaye de
+                    <desc>Quittance sur vélin, avec une ligne aut., 1698, in-8, cachet. Rare.
+                        10</desc>
+
+                    <note>Reçu de 225 livres, semestre d'une rente constituée à l'abbaye de
                         Port-Royal</note>
 
                 </item>
@@ -110,7 +112,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce aut. sig., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="0.5" type="length">1/2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc><note>Quatrain sur Napoléon, commençant par ce vers: Haine et
+                    <desc>Pièce aut. sig., 1/2 p. in-4. 4</desc>
+
+                    <note>Quatrain sur Napoléon, commençant par ce vers: Haine et
                         malédictions</note>
 
                 </item>
@@ -128,7 +132,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à un auteur dramatique; <date xmlns="http://www.tei-c.org/ns/1.0" when="1865">1865</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc><note>Il témoigne à l'auteur son admiration pour sa création dramatique de
+                    <desc>L. a. s. à un auteur dramatique; 1865, 2 p. in-8. 3</desc>
+
+                    <note>Il témoigne à l'auteur son admiration pour sa création dramatique de
                         Satan</note>
 
                 </item>
@@ -146,7 +152,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., (1864);, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure>Relative à ses Sylves. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc></item>
+                    <desc>L. a. s., (1864), 1 p. in-8. Relative à ses Sylves. 4</desc>
+
+                </item>
 
                 <item n="5" xml:id="CAT_000042_e5">
                     <num>5</num>
@@ -161,7 +169,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., <date xmlns="http://www.tei-c.org/ns/1.0" when="1822">1822</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.5" type="length">1 p. 1/2</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc><note>Intéressante lettre relative à son Dictionnaire des anonymes</note>
+                    <desc>L. a. s., 1822, 1 p. 1/2 in-4. 3</desc>
+
+                    <note>Intéressante lettre relative à son Dictionnaire des anonymes</note>
 
                 </item>
 
@@ -178,7 +188,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. au président d'une exposition; <date xmlns="http://www.tei-c.org/ns/1.0" when="1864">1864</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure>Au sujet de ses portraits de MM. d'Asbonne et de Dalmas. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>L. a. s. au président d'une exposition; 1864, 1 p. in-8. Au sujet de ses
+                        portraits de MM. d'Asbonne et de Dalmas. 3</desc>
+
+                </item>
 
                 <item n="7" xml:id="CAT_000042_e7">
                     <num>7</num>
@@ -193,7 +206,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à une dame; <date xmlns="http://www.tei-c.org/ns/1.0" when="1787">1787</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.5" type="length">1 p. 1/2</measure> pet. <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Jolie pièce. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="6" type="price">6</measure></desc></item>
+                    <desc>L. a. s. à une dame; 1787, 1 p. 1/2 pet. in-4. Jolie pièce. 6</desc>
+
+                </item>
 
                 <item n="8" xml:id="CAT_000042_e8">
                     <num>8</num>
@@ -210,7 +225,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. s.ig.; <date xmlns="http://www.tei-c.org/ns/1.0" when="1703">1703</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>L. sig.; 1703, 1 p. in-4. 3</desc>
+
+                </item>
 
                 <item n="9" xml:id="CAT_000042_e9">
                     <num>9</num>
@@ -225,7 +242,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. au prince Thomas de Savoie; Bellegarde, <date xmlns="http://www.tei-c.org/ns/1.0" when="1621">1621</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="length">3 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-fol. </measure>Cachet et soie. Un peu fatiguée. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc></item>
+                    <desc>L. a. s. au prince Thomas de Savoie; Bellegarde, 1621, 3 p. in-fol. Cachet
+                        et soie. Un peu fatiguée. 15</desc>
+
+                </item>
 
                 <item n="10" xml:id="CAT_000042_e10">
                     <num>10</num>
@@ -237,7 +257,8 @@
                         <p>illustre compositeur de musique, auteur de la Norma.</p>
                     </trait>
 
-                    <desc xmlns="http://www.tei-c.org/ns/1"> Fragment de musique aut., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="length">4 p.</measure> pet. <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Jolie pièce. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc></item>
+                    <desc> Fragment de musique aut., 4 p. pet. in-4. Jolie pièce. 20 </desc>
+                </item>
 
 
                 <item n="11" xml:id="CAT_000042_e11">
@@ -246,7 +267,9 @@
                     <trait>
                         <p>le célèbre poète chansonnier</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., <date xmlns="http://www.tei-c.org/ns/1.0" when="1846">1846</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc></item>
+                    <desc>L. a. s., 1846, 1 p. in-8. 5</desc>
+
+                </item>
 
                 <item n="12" xml:id="CAT_000042_e12">
                     <num>12</num>
@@ -261,7 +284,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. au musicien Stephen de la Madeleine, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>L. a. s. au musicien Stephen de la Madeleine, 1 p. in-8. 3</desc>
+
+                </item>
 
                 <item n="13" xml:id="CAT_000042_e13">
                     <num>13</num>
@@ -276,7 +301,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1"><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p</measure>ièces a. s., <date xmlns="http://www.tei-c.org/ns/1.0" when="1839">1839</date>, 3 p. <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>2 pièces a. s., 1839, 3 p. in-4. 3</desc>
+
+                </item>
 
                 <item n="14" xml:id="CAT_000042_e14">
                     <num>14</num>
@@ -291,7 +318,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., <date xmlns="http://www.tei-c.org/ns/1.0" when="1875">1875</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.25" type="length">1 p. 1/4</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc><note>Très-curieuse lettre sur les opinions politiques de l'historien anglais
+                    <desc>L. a. s., 1875, 1 p. 1/4 in-8. 5</desc>
+
+                    <note>Très-curieuse lettre sur les opinions politiques de l'historien anglais
                         Carlyle, démocrate autoritaire, admirateur passionné de la force
                         contre</note>
                 </item>
@@ -309,7 +338,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. s.ig. à son compagnon le vicomte de Turenne; Amiens, 6 déc. (1523);, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.5" type="length">1 p. 1/2</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-fol. </measure>Rare. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc><note>Curieuse lettre sur l'élection d'un pape. Il désire fort que le cardinal
+                    <desc>L. sig. à son compagnon le vicomte de Turenne; Amiens, 6 déc. (1523), 1 p.
+                        1/2 in-fol. Rare. 20</desc>
+
+                    <note>Curieuse lettre sur l'élection d'un pape. Il désire fort que le cardinal
                         de Cousme, de la maison de Trevoultz (Trivulce, cardinal de Côme), soit élu,
                         parce qu'il est bon Français. Dans ce cas, il ne désespérerait pas d'obtenir
                         un des chapeaux rouges qui seront distribués, et il ajoute plaisamment : «
@@ -332,7 +364,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce sig. sur velin; La Fère, 6 juil. 1536, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Un peu fatiguée. Rare. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc><note>Déclaration par laquelle il met le monastère des Chartreux du
+                    <desc>Pièce sig. sur velin; L. a. Fère, 6 juil. 1536, in-4. Un peu fatiguée. Rare.
+                        20</desc>
+
+                    <note>Déclaration par laquelle il met le monastère des Chartreux du
                         ValSaint-Pierre, du comté de Marle, sous sa sauvegarde et celle du
                         roi</note>
 
@@ -352,7 +387,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. s.ig., avec la souscription aut.; Marmoutiers, <date xmlns="http://www.tei-c.org/ns/1.0" when="1608">1608</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-fol. </measure>Une déchirure. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc></item>
+                    <desc>L. sig., avec la souscription aut.; Marmoutiers, 1608, 1 p. in-fol. Une
+                        déchirure. 10</desc>
+
+                </item>
 
                 <item n="18" xml:id="CAT_000042_e18">
                     <num>18</num>
@@ -367,7 +405,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Quit. sig. sur vélin; 1570, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>Quit. sig. sur vélin; 1570, in-4. 3</desc>
+
+                </item>
 
                 <item n="19" xml:id="CAT_000042_e19">
                     <num>19</num>
@@ -382,7 +422,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à l'abbé Le Blanc, à Paris; Montbard, 23 juillet 1730, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="length">3 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Les 2 feuillets détachés. Légères piqures de rousseur. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="65" type="price">65</measure></desc><note>Très-intéressante lettre, écrite par Buffon à l'âge de vingt-trois ans et
+                    <desc>L. a. s. à l'abbé Le Blanc, à Paris; Montbard, 23 juillet 1730, 3 p. in-4.
+                        Les 2 feuillets détachés. Légères piqures de rousseur. 65</desc>
+
+                    <note>Très-intéressante lettre, écrite par Buffon à l'âge de vingt-trois ans et
                         une des plus anciennes que nous connaissions. Du Fay étant mort, il serait
                         très-heureux de lui succéder dans l'intendance du Jardin du roi. Il prie
                         l'abbé Le Blanc, son compatriote, de s'occuper de cette affaire. Il se croit
@@ -414,7 +457,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure>Rare. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="8" type="price">8</measure></desc></item>
+                    <desc>L. a. s., 1 p. in-8. Rare. 8</desc>
+
+                </item>
 
                 <item n="21" xml:id="CAT_000042_e21">
                     <num>21</num>
@@ -429,7 +474,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce sig., <date xmlns="http://www.tei-c.org/ns/1.0" when="1849">1849</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="price">2</measure></desc></item>
+                    <desc>Pièce sig., 1849, 1 p. in-f. 2</desc>
+
+                </item>
 
                 <item n="22" xml:id="CAT_000042_e22">
                     <num>22</num>
@@ -444,7 +491,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.; <date xmlns="http://www.tei-c.org/ns/1.0" when="1855">1855</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3.5" type="length">3 p. 1/2</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="8" type="price">8</measure></desc><note>Curieuse lettre sur son projet d'acheter une maison de campagne, qui n'ait
+                    <desc>L. a. s.; 1855, 3 p. 1/2 in-8. 8</desc>
+
+                    <note>Curieuse lettre sur son projet d'acheter une maison de campagne, qui n'ait
                         pas la prétention de s'appeler un château, à 40 lieues de aris, plutôt plus
                         loin que plus près, dans les prix de 150,000 francs</note>
 
@@ -464,7 +513,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">. a. s. à son ami le docteur Gervais; Londres, <date xmlns="http://www.tei-c.org/ns/1.0" when="1839">1839</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.5" type="length">1 p. 1/2</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4</measure>, cachet à l'effigie de la liberté. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="6" type="price">6</measure></desc><note>Epître humoristique, écrite pendant son exil, dans laquelle il parle d'un
+                    <desc>. a. s. à son ami le docteur Gervais; Londres, 1839, 1 p. 1/2 in-4, cachet
+                        à l'effigie de la liberté. 6</desc>
+
+                    <note>Epître humoristique, écrite pendant son exil, dans laquelle il parle d'un
                         livre qu'il termine (Une tuerie de Cosaques ?) et d'un article de Louis
                         Blanc. Il fait de la musique dans sa chambre au grand désespoir d'un
                         monsieur logé au-dessus de lui, etc.</note>
@@ -477,7 +529,9 @@
                         <p>femme du conventionnel, mère des précédents, appelée la mère des
                             Gracques.</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">,L. a. s., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.25" type="length">1 p. 1/4</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>,L. a. s., 1 p. 1/4 in-8. 3</desc>
+
+                </item>
 
                 <item n="25" xml:id="CAT_000042_e25">
                     <num>25</num>
@@ -492,7 +546,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., en français, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="12" type="price">12</measure></desc></item>
+                    <desc>L. a. s., en français, 1 p. in-8. 12</desc>
+
+                </item>
 
                 <item n="26" xml:id="CAT_000042_e26">
                     <num>26</num>
@@ -507,7 +563,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.; <date xmlns="http://www.tei-c.org/ns/1.0" when="1865">1865</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc></item>
+                    <desc>L. a. s.; 1865, 2 p. in-8. 4</desc>
+
+
+                </item>
                 <item n="27" xml:id="CAT_000042_e27">
                     <num>27</num>
 
@@ -521,7 +580,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. s.ig. au receveur de Béthune; Bruxelles, 13 nov. 1462, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4</measure>, trace de cachet. Un peu fatiguée. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="45" type="price">45</measure></desc></item>
+                    <desc>L. sig. au receveur de Béthune; Bruxelles, 13 nov. 1462, 1 p. in-4, trace
+                        de cachet. Un peu fatiguée. 45</desc>
+
+                </item>
 
                 <item n="28" xml:id="CAT_000042_e28">
                     <num>28</num>
@@ -536,7 +598,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. s.ig. avec la souscript. aut.; <date xmlns="http://www.tei-c.org/ns/1.0" when="1733">1733</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Rare. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc><note>Relative à la candidature de Moncrif, à l'Académie française</note>
+                    <desc>L. sig. avec la souscript. aut.; 1733, 2 p. in-4. Rare. 4</desc>
+
+                    <note>Relative à la candidature de Moncrif, à l'Académie française</note>
 
                 </item>
 
@@ -555,7 +619,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à dom Louvard, bénédictin; <date xmlns="http://www.tei-c.org/ns/1.0" when="1726">1726</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4.</measure>, cachet armorié. Un peu fripée. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc><note>Relative au collège de Beauvais et au Traité des Etudes par Rollin</note>
+                    <desc>L. a. s. à dom Louvard, bénédictin; 1726, 2 p. in-4., cachet armorié. Un
+                        peu fripée. 20</desc>
+
+                    <note>Relative au collège de Beauvais et au Traité des Etudes par Rollin</note>
 
                 </item>
 
@@ -572,7 +639,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.ig. C. à M. Dupont ; Prangin, 12 fév. 1755, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Un peu fatiguée. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc><note>Intéressante épitre relative à l'acquisition, par Voltaire, des domaines
+                    <desc>L. a. sig. C. à M. Dupont ; Prangin, 12 fév. 1755, 2 p. in-4. Un peu
+                        fatiguée. 5</desc>
+
+                    <note>Intéressante épitre relative à l'acquisition, par Voltaire, des domaines
                         de Saint-Jean et Monrion</note>
 
                 </item>
@@ -590,7 +660,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. au cardinal de Bouillon; Neufchâtel, 12 fév., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.5" type="length">1 p. 1/2</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-fol. </measure>Taches d'eau. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="30" type="price">30</measure></desc><note>Relative à des querelles qui divisent les membres de la maison de
+                    <desc>L. a. s. au cardinal de Bouillon; Neufchâtel, 12 fév., 1 p. 1/2 in-fol.
+                        Taches d'eau. 30</desc>
+
+                    <note>Relative à des querelles qui divisent les membres de la maison de
                         Bouillon</note>
 
                 </item>
@@ -608,7 +681,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.; 2 av. 1792, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="0.5" type="length">1/2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="12" type="price">12</measure></desc><note>Demande d'un emploi de sous-lieutenant pour le sieur Ogier, son
+                    <desc>L. a. s.; 2 av. 1792, 1/2 p. in-4. 12</desc>
+
+                    <note>Demande d'un emploi de sous-lieutenant pour le sieur Ogier, son
                         compatriote</note>
 
                 </item>
@@ -628,7 +703,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce sig. sur vélin, 17 juil. 1493. Traces de cachet. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc><note>Curieuse pièce historique relative au traité de Senlis, par lequel Charles
+                    <desc>Pièce sig. sur vélin, 17 juil. 1493. Traces de cachet. 10</desc>
+
+                    <note>Curieuse pièce historique relative au traité de Senlis, par lequel Charles
                         VIII cédait une partie de l'Artois, et renvoyait la princesse Marguerite
                         pour épouser Anne de Bretagne. Charles de Croy déclare avoir reçu 240 livres
                         pour un rubis qu'il a vendu à l'archiduc Philippe (père de Charles-Quint),
@@ -650,7 +727,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. au directeur Gohier; <date xmlns="http://www.tei-c.org/ns/1.0" date="1799-01-18" type="length">29 niv. an VII</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.5" type="length">1 p. 1/2</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Petite piqûre de vers dans la marge. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="22" type="price">22</measure></desc><note>Son ami Georges Ducis vient d'être destitué, par mégarde, de sa place de
+                    <desc>L. a. s. au directeur Gohier; 29 niv. an VII, 1 p. 1/2 in-4. Petite piqûre
+                        de vers dans la marge. 22</desc>
+
+                    <note>Son ami Georges Ducis vient d'être destitué, par mégarde, de sa place de
                         commissaire du Directoire auprès de la municipalité du 4e arrondissement de
                         Paris. Il se porte garant de ce brave et honnête homme et répond de son
                         patriotisme. Pour le faire connaître tout entier, il ajoute qu'il employait
@@ -671,7 +751,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., à M. Roubaud, <date xmlns="http://www.tei-c.org/ns/1.0" when="1865">1865</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>L. a. s., à M. Roubaud, 1865, 1 p. in-8. 3</desc>
+
+                </item>
 
                 <item n="36" xml:id="CAT_000042_e36">
                     <num>36</num>
@@ -686,7 +768,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.; <date xmlns="http://www.tei-c.org/ns/1.0" when="1863">1863</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc><note>Relative à un missel du diocèse de Melun</note>
+                    <desc>L. a. s.; 1863, 1 p. in-8. 3</desc>
+
+                    <note>Relative à un missel du diocèse de Melun</note>
 
                 </item>
 
@@ -703,7 +787,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce de vers aut. sig., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>Pièce de vers aut. sig., 1 p. in-8. 3</desc>
+
+                </item>
 
                 <item n="38" xml:id="CAT_000042_e38">
                     <num>38</num>
@@ -718,7 +804,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">P. s.ig.; <date xmlns="http://www.tei-c.org/ns/1.0" when="1850">1850</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="price">2</measure></desc></item>
+                    <desc>P. sig.; 1850, 1 p. in-f. 2</desc>
+
+                </item>
 
                 <item n="39" xml:id="CAT_000042_e39">
                     <num>39</num>
@@ -733,7 +821,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>L. a. s., 1 p. in-8. 3</desc>
+
+                </item>
 
                 <item n="40" xml:id="CAT_000042_e40">
                     <num>40</num>
@@ -748,7 +838,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.; <date xmlns="http://www.tei-c.org/ns/1.0" when="1732">1732</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="length">3 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Les 2 feuillets détachés, puis rejoints. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="45" type="price">45</measure></desc></item>
+                    <desc>L. a. s.; 1732, 3 p. in-4. Les 2 feuillets détachés, puis rejoints.
+                        45</desc>
+
+                </item>
 
                 <item n="41" xml:id="CAT_000042_e41">
                     <num>41</num>
@@ -763,7 +856,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="price">2</measure></desc></item>
+                    <desc>L. a. s., 1 p. in-8. 2</desc>
+
+                </item>
 
                 <item n="42" xml:id="CAT_000042_e42">
                     <num>42</num>
@@ -778,7 +873,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Quit. sig. sur vélin; 1450, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. obl</measure>ong. Tache d'humidité. Rare. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="50" type="price">50</measure></desc><note>Pièce historique relative au concile de Bâle, où Dunois fut envoyé comme
+                    <desc>Quit. sig. sur vélin; 1450, in-4. oblong. Tache d'humidité. Rare.
+                        50</desc>
+
+                    <note>Pièce historique relative au concile de Bâle, où Dunois fut envoyé comme
                         ambassadeur avec Jacques Coeur. Il confesse avoir reçu 1,000 livres tournois
                         pour un voyage par lui fait en Savoie avec d'autres ambassadeurs pour la
                         pacification de l'Eglise,</note>
@@ -797,7 +895,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Jolie pièce de vers aut. sig., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>Jolie pièce de vers aut. sig., 1 p. in-8. 3</desc>
+
+
+                </item>
                 <item n="44" xml:id="CAT_000042_e44">
                     <num>44</num>
 
@@ -812,7 +913,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à la Croce, son conseiller d'Etat; Turin; 26 janv. 1566, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-fol.</measure>, cachets. Belle pièce. Très-rare autographe signé. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="50" type="price">50</measure></desc><note>Relative à des négociations secrètes</note>
+                    <desc>L. a. s. à la Croce, son conseiller d'Etat; Turin; 26 janv. 1566, 1 p.
+                        in-fol., cachets. Belle pièce. Très-rare autographe signé. 50</desc>
+
+                    <note>Relative à des négociations secrètes</note>
 
                 </item>
 
@@ -829,7 +933,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à un journaliste; 6 janv. 1869, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure>Rare. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="6" type="price">6</measure></desc><note>Curieuse lettre écrite à son retour de l'expédition de Crète, et dans
+                    <desc>L. a. s. à un journaliste; 6 janv. 1869, 1 p. in-8. Rare. 6</desc>
+
+                    <note>Curieuse lettre écrite à son retour de l'expédition de Crète, et dans
                         laquelle il rend grâce au journal la Liberté de l'avoir défendu lorsqu'il
                         était abandonné de tous dans ce lâche Orient</note>
 
@@ -848,7 +954,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.25" type="length">1 p. 1/4</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc></item>
+                    <desc>L. a. s., 1 p. 1/4 in-8. 5</desc>
+
+                </item>
 
                 <item n="47" xml:id="CAT_000042_e47">
                     <num>47</num>
@@ -863,7 +971,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.; Passy, 13 juin 1779, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-fol. </measure>Un peu rognée dans les marges. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="65" type="price">65</measure></desc></item>
+                    <desc>L. a. s.; Passy, 13 juin 1779, 1 p. in-fol. Un peu rognée dans les marges.
+                        65</desc>
+
+                </item>
 
                 <item n="48" xml:id="CAT_000042_e48">
                     <num>48</num>
@@ -879,7 +990,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., en français, au baron de Mosenheim, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.5" type="length">1 p. 1/2</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure>Rare. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc></item>
+                    <desc>L. a. s., en français, au baron de Mosenheim, 1 p. 1/2 in-8. Rare.
+                        10</desc>
+
+                </item>
 
                 <item n="49" xml:id="CAT_000042_e49">
                     <num>49</num>
@@ -894,7 +1008,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.; <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="price">2</measure></desc></item>
+                    <desc>L. a. s.; 2 p. in-8. 2</desc>
+
+                </item>
 
                 <item n="50" xml:id="CAT_000042_e50">
                     <num>50</num>
@@ -909,7 +1025,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à son cousin Goupilleau de Villeneuve, à Montaigu ; Pierrefitte, <date xmlns="http://www.tei-c.org/ns/1.0" when="1810">1810</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Une écornure. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc><note>Relative au mariage de son neveu avec Mlle de Molière</note>
+                    <desc>L. a. s. à son cousin Goupilleau de Villeneuve, à Montaigu ; Pierrefitte,
+                        1810, 2 p. in-4. Une écornure. 3</desc>
+
+                    <note>Relative au mariage de son neveu avec Mlle de Molière</note>
 
                 </item>
 
@@ -927,7 +1046,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. au R. P. Boular; Grignan, 9 juil. 1659, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="length">3 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4</measure>, cachets et soies. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="30" type="price">30</measure></desc><note>Relative à la congrégation de Sainte-Geneviève, de Paris</note>
+                    <desc>L. a. s. au R. P. Boular; Grignan, 9 juil. 1659, 3 p. in-4, cachets et
+                        soies. 30</desc>
+
+                    <note>Relative à la congrégation de Sainte-Geneviève, de Paris</note>
 
                 </item>
 
@@ -945,7 +1067,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., <date xmlns="http://www.tei-c.org/ns/1.0" when="1687">1687</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc></item>
+                    <desc>L. a. s., 1687, 1 p. in-8. 20</desc>
+
+                </item>
 
                 <item n="53" xml:id="CAT_000042_e53">
                     <num>53</num>
@@ -960,7 +1084,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à Louis XIV ; Avignon, <date xmlns="http://www.tei-c.org/ns/1.0" when="1712">1712</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="length">3 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Rare aut. sig. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="50" type="price">50</measure></desc><note>Belle épître sur ses fonctions de lieutenant général de Provence, écrite à
+                    <desc>L. a. s. à Louis XIV ; Avignon, 1712, 3 p. in-4. Rare aut. sig. 50</desc>
+
+                    <note>Belle épître sur ses fonctions de lieutenant général de Provence, écrite à
                         l'âge de quatre-vingts ans</note>
 
                 </item>
@@ -979,7 +1105,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. au présid. de Lamoignon, 2 fév. 1705, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="length">4 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Rare. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="30" type="price">30</measure></desc><note>Très-curieuse épitre relative à sa Vie de Molière, et en particulier à la
+                    <desc>L. a. s. au présid. de Lamoignon, 2 fév. 1705, 4 p. in-4. Rare. 30</desc>
+
+                    <note>Très-curieuse épitre relative à sa Vie de Molière, et en particulier à la
                         fameuse anecdote du Tartuffe. L'enveloppe porte une note de la main de
                         Malesherbes</note>
 
@@ -998,7 +1126,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.; <date xmlns="http://www.tei-c.org/ns/1.0" when="1863">1863</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc><note>Au sujet d'une étude biographique sur Destouches</note>
+                    <desc>L. a. s.; 1863, 1 p. in-8. 3</desc>
+
+                    <note>Au sujet d'une étude biographique sur Destouches</note>
 
                 </item>
 
@@ -1015,7 +1145,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>L. a. s., 2 p. in-8. 3</desc>
+
+                </item>
 
                 <item n="57" xml:id="CAT_000042_e57">
                     <num>57</num>
@@ -1030,7 +1162,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce sig. sur vélin ; Lectoure, 1578, in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc><note>Lettres patentes, comme roi de Navarre, pour la charge de maître des
+                    <desc>Pièce sig. sur vélin ; Lectoure, 1578, in-f. 5</desc>
+
+                    <note>Lettres patentes, comme roi de Navarre, pour la charge de maître des
                         requêtes en faveur de Jean dé Gassion</note>
 
                 </item>
@@ -1046,7 +1180,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce sig. sur vélin; Saint-Germain-en-Laye, 1594, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc><note>Don accordé au sieur de Pougues, pour services rendus à la suite de la
+                    <desc>Pièce sig. sur vélin; Saint-Germain-en-Laye, 1594, in-4. 5</desc>
+
+                    <note>Don accordé au sieur de Pougues, pour services rendus à la suite de la
                         Cour</note>
 
                 </item>
@@ -1064,7 +1200,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Adresse des Membres du Salon des Arts, 22 déc. 1786, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc><note>Le baron d'Holbach ayant donné sa démission de commissaire de cette
+                    <desc>Adresse des Membres du Salon des Arts, 22 déc. 1786, 1 p. in-f. 15</desc>
+
+                    <note>Le baron d'Holbach ayant donné sa démission de commissaire de cette
                         société littéraire, elle députe vers lui plusieurs de ses membres pour lui
                         témoigner ses regrets, et le supplier de revenir sur sa détermination. La
                         pièce est couverte d'un très-grand nombre de signatures, parmi lesquelles on
@@ -1084,7 +1222,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce sig.; <date xmlns="http://www.tei-c.org/ns/1.0" when="1597">1597</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>Pièce sig.; 1597, 1 p. in-f. 3</desc>
+
+                </item>
 
                 <item n="61" xml:id="CAT_000042_e61">
                     <num>61</num>
@@ -1099,7 +1239,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce sig. sur vélin; 1699, in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc><note>Certificat de noblesse en faveur de L. de Rocbine, gentilhomme, servant de
+                    <desc>Pièce sig. sur vélin; 1699, in-f. 3</desc>
+
+                    <note>Certificat de noblesse en faveur de L. de Rocbine, gentilhomme, servant de
                         Monsieur, avec armoiries</note>
 
                 </item>
@@ -1117,7 +1259,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce de vers aut. sig., <date xmlns="http://www.tei-c.org/ns/1.0" when="1818">1818</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc><note>Elle a pour titre : Plaintes d'un ivrogne qui voit la fin de sa
+                    <desc>Pièce de vers aut. sig., 1818, 2 p. in-f. 5</desc>
+
+                    <note>Elle a pour titre : Plaintes d'un ivrogne qui voit la fin de sa
                         bouteille</note>
 
                 </item>
@@ -1135,7 +1279,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à M. Gisors, architecte ; Postdam, <date xmlns="http://www.tei-c.org/ns/1.0" when="1850">1850</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8</measure>, enveloppe et cachet. Belle pièce. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc></item>
+                    <desc>L. a. s. à M. Gisors, architecte ; Postdam, 1850, 1 p. in-8, enveloppe et
+                        cachet. Belle pièce. 5</desc>
+
+                </item>
 
                 <item n="64" xml:id="CAT_000042_e64">
                     <num>64</num>
@@ -1150,7 +1297,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. au peintre Cornu, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc><note>Relative à la collaboration de Cornu et de Raymond Balze à un tableau
+                    <desc>L. a. s. au peintre Cornu, 1 p. in-8. 5</desc>
+
+                    <note>Relative à la collaboration de Cornu et de Raymond Balze à un tableau
                         d'Ingres</note>
 
                 </item>
@@ -1168,7 +1317,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>L. a. s., 2 p. in-8. 3</desc>
+
+                </item>
 
                 <item n="66" xml:id="CAT_000042_e66">
                     <num>66</num>
@@ -1183,7 +1334,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.; Paris, 18 therm., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="0.5" type="length">1/2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-fol. </measure>Légères piqûres d'humidité dans la marge. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="25" type="price">25</measure></desc><note>Relative à la légion polonaise de l'armée du Danube</note>
+                    <desc>L. a. s.; Paris, 18 therm., 1/2 p. in-fol. Légères piqûres d'humidité dans
+                        la marge. 25</desc>
+
+                    <note>Relative à la légion polonaise de l'armée du Danube</note>
 
                 </item>
 
@@ -1200,7 +1354,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce de vers aut. sig., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure>Un peu fripée. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc><note>Gracieux morceau ayant pour titre : Tant que mon coeur battra</note>
+                    <desc>Pièce de vers aut. sig., 2 p. in-8. Un peu fripée. 4</desc>
+
+                    <note>Gracieux morceau ayant pour titre : Tant que mon coeur battra</note>
 
                 </item>
 
@@ -1218,7 +1374,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">P. s.ig. sur vélin; Blois, 1554, double in-f. Un peu fripée et tachée. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="8" type="price">8</measure></desc><note>Rôle de la compagnie des Cent-Suisses dont il était capitaine</note>
+                    <desc>P. sig. sur vélin; Blois, 1554, double in-f. Un peu fripée et tachée.
+                        8</desc>
+
+                    <note>Rôle de la compagnie des Cent-Suisses dont il était capitaine</note>
 
                 </item>
 
@@ -1235,7 +1394,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à Thalès Bernard, <date xmlns="http://www.tei-c.org/ns/1.0" when="1850">1850</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc></item>
+                    <desc>L. a. s. à Thalès Bernard, 1850, 1 p. in-8. 4</desc>
+
+                </item>
 
                 <item n="70" xml:id="CAT_000042_e70">
                     <num>70</num>
@@ -1250,7 +1411,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.; <date xmlns="http://www.tei-c.org/ns/1.0" when="1846">1846</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>L. a. s.; 1846, 1 p. in-8. 3</desc>
+
+                </item>
 
                 <item n="71" xml:id="CAT_000042_e71">
                     <num>71</num>
@@ -1266,7 +1429,8 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à M. de Torcy; Montpellier, <date xmlns="http://www.tei-c.org/ns/1.0" when="1700">1700</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> pet. <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc></item>
+                    <desc>L. a. s. à M. de Torcy; Montpellier, 1700, 1 p. pet. in-4. 15</desc>
+                </item>
 
                 <item n="72" xml:id="CAT_000042_e72">
                     <num>72</num>
@@ -1274,7 +1438,9 @@
                     <trait>
                         <p> célèbre général.</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. au préfet de police ; 11 nov. 1848, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>L. a. s. au préfet de police ; 11 nov. 1848, 1 p. in-8. 3</desc>
+
+                </item>
 
                 <item n="73" xml:id="CAT_000042_e73">
                     <num>73</num>
@@ -1289,7 +1455,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Acad. fr., auteur de Marie-Stuart. Super flumina, pièce de vers aut. sig.; <date xmlns="http://www.tei-c.org/ns/1.0" when="1814">1814</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2.5" type="length">2 p. 1/2</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc></item>
+                    <desc>Acad. fr., auteur de Marie-Stuart. Super flumina, pièce de vers aut. sig.;
+                        1814, 2 p. 1/2 in-4. 4</desc>
+
+                </item>
 
                 <item n="74" xml:id="CAT_000042_e74">
                     <num>74</num>
@@ -1304,7 +1473,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à Dumaine; <date xmlns="http://www.tei-c.org/ns/1.0" when="1865">1865</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc></item>
+                    <desc>L. a. s. à Dumaine; 1865, 1 p. in-8. 4</desc>
+
+                </item>
 
                 <item n="75" xml:id="CAT_000042_e75">
                     <num>75</num>
@@ -1319,7 +1490,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. s.ig. avec la souscript. aut. à M. d'Herbault ; Chaumont, <date xmlns="http://www.tei-c.org/ns/1.0" when="1628">1628</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="6" type="price">6</measure></desc></item>
+                    <desc>L. sig. avec la souscript. aut. à M. d'Herbault ; Chaumont, 1628, 1 p.
+                        in-f. 6</desc>
+
+                </item>
 
                 <item n="76" xml:id="CAT_000042_e76">
                     <num>76</num>
@@ -1334,7 +1508,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.: <date xmlns="http://www.tei-c.org/ns/1.0" when="1871">1871</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc><note>Maintenant que Paris est reconquis, il s'apprète à y revenir pour suivre
+                    <desc>L. a. s.: 1871, 2 p. in-8. 5</desc>
+
+                    <note>Maintenant que Paris est reconquis, il s'apprète à y revenir pour suivre
                         les affaires du canal de Suez</note>
 
                 </item>
@@ -1352,7 +1528,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. au célèbre savant Retzius, à Stockholm; Upsal, <date xmlns="http://www.tei-c.org/ns/1.0" when="1770">1770</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Cachet. Belle pièce. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="25" type="price">25</measure></desc></item>
+                    <desc>L. a. s. au célèbre savant Retzius, à Stockholm; Upsal, 1770, 1 p. in-4.
+                        Cachet. Belle pièce. 25</desc>
+
+                </item>
 
                 <item n="78" xml:id="CAT_000042_e78">
                     <num>78</num>
@@ -1367,7 +1546,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. s.ig., sur papier, avec la souscription aut. à sa fille (Claude de France); Madon, 16 sept. 1505, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure>Très-jolie pièce. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="25" type="price">25</measure></desc><note>Il donne son assentiment à la nomination de son neveu de Foix à l'évéché
+                    <desc>L. sig., sur papier, avec la souscription aut. à sa fille (Claude de
+                        France); Madon, 16 sept. 1505, 1 p. in-8. Très-jolie pièce. 25</desc>
+
+                    <note>Il donne son assentiment à la nomination de son neveu de Foix à l'évéché
                         de Cominges</note>
 
                 </item>
@@ -1385,7 +1567,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Minute de let. aut. à l'empereur Joseph II, 19 déc. 1780, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Ecriture un peu pâle. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="30" type="price">30</measure></desc><note>Lettre de condoléance sur la mort de l'impératrice Marie-Thérèse. Il à la
+                    <desc>Minute de let. aut. à l'empereur Joseph II, 19 déc. 1780, 1 p. in-4.
+                        Ecriture un peu pâle. 30</desc>
+
+                    <note>Lettre de condoléance sur la mort de l'impératrice Marie-Thérèse. Il à la
                         confiance que son successeur suivra les mêmes principes. « La franchise et
                         la sincérité, dit-il, dont vous mé parlez, sont des qualités bien
                         essentielles dans le poste que nous occupons, et avec lesquelles on peut
@@ -1407,7 +1592,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce aut.; 7 fév. 1792, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="0.5" type="length">1/2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc><note>Réponse du roi aux commissaires de l'Assemblée législative, sur le
+                    <desc>Pièce aut.; 7 fév. 1792, 1/2 p. in-8. 20</desc>
+
+                    <note>Réponse du roi aux commissaires de l'Assemblée législative, sur le
                         cérémonial des députations relatives à la sanction des décrets.</note>
 
                 </item>
@@ -1424,7 +1611,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., <date xmlns="http://www.tei-c.org/ns/1.0" date="1795-1796" type="length">an IV</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="0.75" type="length">3/4 de p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Rare autog. sig. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="25" type="price">25</measure></desc><note>Recommandation en faveur de Riouf, l'auteur des Mémoires d'un détenu,
+                    <desc>L. a. s., an IV, 3/4 de p. in-4. Rare autog. sig. 25</desc>
+
+                    <note>Recommandation en faveur de Riouf, l'auteur des Mémoires d'un détenu,
                         longtemps persécuté par Robespierre</note>
 
                 </item>
@@ -1443,7 +1632,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à Madame (sa mère, Anne de L. a. s.caris); 18 oct. 1566, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-fol.</measure>, cachet. Très-belle pièce. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc></item>
+                    <desc>L. a. s. à Madame (sa mère, Anne de Lascaris); 18 oct. 1566, 1 p. in-fol.,
+                        cachet. Très-belle pièce. 15</desc>
+
+                </item>
 
                 <item n="83" xml:id="CAT_000042_e83">
                     <num>83</num>
@@ -1458,7 +1650,8 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Les deux renards, fable aut. sig., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc></item>
+                    <desc>Les deux renards, fable aut. sig., 2 p. in-4. 4</desc>
+                </item>
 
                 <item n="84" xml:id="CAT_000042_e84">
                     <num>84</num>
@@ -1466,7 +1659,10 @@
                     <trait>
                         <p>femme illustre.</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1"> L. a. s. (au card. de Rohan, à Rome); 18 déc. (1701);, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="45" type="price">45</measure></desc><note>Belle et intéressante lettre sur le pape Innocent XIII. Elle charge le
+                    <desc> L. a. s. (au card. de Rohan, à Rome); 18 déc. (1701), 2 p. in-4.
+                        45</desc>
+
+                    <note>Belle et intéressante lettre sur le pape Innocent XIII. Elle charge le
                         prélat de faire connaître au pape toute la religion et la droiture des
                         intentions du roi à son égard. Le roi n'eut jamais plus de santé, etc</note>
 
@@ -1485,7 +1681,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. au roi Louis-Philippe; Londres, <date xmlns="http://www.tei-c.org/ns/1.0" when="1835">1835</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Rare. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc><note>Remerciments de l'envoi que lui a fait le roi, de porcelaines de la
+                    <desc>L. a. s. au roi Louis-Philippe; Londres, 1835, 1 p. in-4. Rare. 10</desc>
+
+                    <note>Remerciments de l'envoi que lui a fait le roi, de porcelaines de la
                         manufacture de Sèvres</note>
 
                 </item>
@@ -1503,7 +1701,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., <date xmlns="http://www.tei-c.org/ns/1.0" when="1835">1835</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc><note>Très-spirituelle épitre, prose et vers</note>
+                    <desc>L. a. s., 1835, 1 p. in-8. 4</desc>
+
+                    <note>Très-spirituelle épitre, prose et vers</note>
 
                 </item>
 
@@ -1520,7 +1720,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Quit. sig. sur vélin; 1471, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc><note>Relative à une rente de froment qui lui est due sur la ma ladrerie de
+                    <desc>Quit. sig. sur vélin; 1471, in-8. 5</desc>
+
+                    <note>Relative à une rente de froment qui lui est due sur la ma ladrerie de
                         Sens</note>
 
                 </item>
@@ -1538,7 +1740,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à la comtesse...; <date xmlns="http://www.tei-c.org/ns/1.0" when="1843">1843</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4 </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="8" type="price">8</measure></desc><note>Relative à son conservatoire de musique</note>
+                    <desc>L. a. s. à la comtesse…; 1843, 1 p. in-4 8</desc>
+
+                    <note>Relative à son conservatoire de musique</note>
 
                 </item>
 
@@ -1554,7 +1758,11 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Morceau de musique aut., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="length">4 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Belle pièce. Rare comme musique. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="12" type="price">12</measure></desc></item>
+                    <desc>Morceau de musique aut., 4 p. in-4. Belle pièce. Rare comme musique.
+                        12</desc>
+
+
+                </item>
                 <item n="90" xml:id="CAT_000042_e90">
                     <num>90</num>
 
@@ -1564,7 +1772,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">P. s.ig. relative à sa statue de G. Cuvier, 1849, in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>P. sig. relative à sa statue de G. Cuvier, 1849, in-f. 3</desc>
+
+                </item>
 
                 <item n="91" xml:id="CAT_000042_e91">
                     <num>91</num>
@@ -1579,7 +1789,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à une dame; <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>L. a. s. à une dame; 1 p. in-8. 3</desc>
+
+                </item>
 
                 <item n="92" xml:id="CAT_000042_e92">
                     <num>92</num>
@@ -1594,7 +1806,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.; <date xmlns="http://www.tei-c.org/ns/1.0" when="1865">1865</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure>Plaisante épître. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>L. a. s.; 1865, 2 p. in-8. Plaisante épître. 3</desc>
+
+                </item>
 
                 <item n="93" xml:id="CAT_000042_e93">
                     <num>93</num>
@@ -1609,7 +1823,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à M. Naudet, <date xmlns="http://www.tei-c.org/ns/1.0" when="1845">1845</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.25" type="length">1 p. 1/4</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc><note>Il offre à la Bibliothèque royale ses documents historiques, et dit que ce
+                    <desc>L. a. s. à M. Naudet, 1845, 1 p. 1/4 in-4. 3</desc>
+
+                    <note>Il offre à la Bibliothèque royale ses documents historiques, et dit que ce
                         ne sera pas sa faute s'ils vont à l'étranger</note>
 
                 </item>
@@ -1627,7 +1843,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. a son beau-frère Joseph Bonaparte, ministre plénipotentiaire à Lunéville; Paris, <date xmlns="http://www.tei-c.org/ns/1.0" date="1800-11-13" type="length">22 brum. an IX</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3.25" type="length">3 p. 1/4</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="45" type="price">45</measure></desc><note>Epître des plus curieuses sur la rivalité entre Murat et Bernadette. On ne
+                    <desc>L. a. s. a son beau-frère Joseph Bonaparte, ministre plénipotentiaire à
+                        Lunéville; Paris, 22 brum. an IX, 3 p. 1/4 in-4. 45</desc>
+
+                    <note>Epître des plus curieuses sur la rivalité entre Murat et Bernadette. On ne
                         croit pas à la paix, que Joseph était allé traiter à Lunéville ; la guerre
                         est à l'ordre du jour et mille bruits circulent plus absurdes les uns que
                         les autres. Lucien et Louis sont partis. On voudrait l'éloigner lui-même, et
@@ -1654,7 +1873,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Billet aut. au général Chambarlhac; <date xmlns="http://www.tei-c.org/ns/1.0" when="1799">1799</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="0.33" type="length">1/3 de p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="35" type="price">35</measure></desc><note>Relative à la pacification de la Vendée, confiée au général Chambarlhac,
+                    <desc>Billet aut. au général Chambarlhac; 1799, 1/3 de p. in-4. 35</desc>
+
+                    <note>Relative à la pacification de la Vendée, confiée au général Chambarlhac,
                         après le 18 brumaire. Il reste au général à rendre la tranquillité au
                         département de l'Orne. Il désarmera toutes les communes mal intentionnées.
                         On s'attend à recevoir la nouvelle qu'il a battu Frotté</note>
@@ -1673,7 +1894,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. s.ig. au roi de Saxe ; Compiègne, 22 av. 1810, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> pet. in-f., cachets et soies. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="45" type="price">45</measure></desc><note>Superbe lettre historique, par laquelle l'empereur fait part au roi de
+                    <desc>L. sig. au roi de Saxe ; Compiègne, 22 av. 1810, 1 p. pet. in-f., cachets
+                        et soies. 45</desc>
+
+                    <note>Superbe lettre historique, par laquelle l'empereur fait part au roi de
                         Saxe de son mariage avec l'archiduchesse Marie-Louise</note>
                 </item>
 
@@ -1683,7 +1907,10 @@
                     <trait>
                         <p>empereur des Français.</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce aut. sig. en toutes lettres, Napoléon, comme empereur, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4</measure>, papier à son chiffre. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="30" type="price">30</measure></desc><note>Curieuse note relative à sa Vie de César. Il demande qu'on lui fasse un
+                    <desc>Pièce aut. sig. en toutes lettres, Napoléon, comme empereur, 1 p. in-4,
+                        papier à son chiffre. 30</desc>
+
+                    <note>Curieuse note relative à sa Vie de César. Il demande qu'on lui fasse un
                         tableau des colonies romaines ou latines, établi par époques, avec les noms
                         modernes, et il indique tous les détails qu'il désire avoir</note>
 
@@ -1702,7 +1929,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Dessin au crayon, de sa main, représentant l'attaque d'un fort; fév. 1864, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc></item>
+                    <desc>Dessin au crayon, de sa main, représentant l'attaque d'un fort; fév. 1864,
+                        1 p. in-4. 15</desc>
+
+                </item>
 
                 <item n="99" xml:id="CAT_000042_e99">
                     <num>99</num>
@@ -1717,7 +1947,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à M. Emile Ollivier; Palais-Royal, samedi 27, 9 heures 1/2 du matin (mars 1870), <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.5" type="length">1 p. 1/2</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure>Papier à son chiffre. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="30" type="price">30</measure></desc><note>Belle et importante pièce historique. Il a réfléchi à leur conversation
+                    <desc>L. a. s. à M. Emile Ollivier; Palais-Royal, samedi 27, 9 heures 1/2 du
+                        matin (mars 1870), 1 p. 1/2 in-8. Papier à son chiffre. 30</desc>
+
+                    <note>Belle et importante pièce historique. Il a réfléchi à leur conversation
                         d'hier, et la situation lui semble suprême pour l'Empire. Il importe qu'il
                         s'explique très-nettement avec l'empereur, avec lequel il ne pourra
                         peut-être pas s'entendre. Cependant, il faut faire cesser toute équivoque. «
@@ -1744,7 +1977,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., <date xmlns="http://www.tei-c.org/ns/1.0" when="1876">1876</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc><note>Intéressante lettre sur l'amnistie et l'état des prisonniers de la
+                    <desc>L. a. s., 1876, 2 p. in-4. 5</desc>
+
+                    <note>Intéressante lettre sur l'amnistie et l'état des prisonniers de la
                         Nouvelle-Calédonie</note>
 
                 </item>
@@ -1763,7 +1998,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce sig., <date xmlns="http://www.tei-c.org/ns/1.0" when="1687">1687</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.5" type="length">1 p. 1/2</measure> in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="7" type="price">7</measure></desc></item>
+                    <desc>Pièce sig., 1687, 1 p. 1/2 in-f. 7</desc>
+
+                </item>
 
                 <item n="102" xml:id="CAT_000042_e102">
                     <num>102</num>
@@ -1779,7 +2016,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Piece sig. sur vélin; Château de Blois, 11 avril 1440, pet. <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4 obl</measure>ong, sceau. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc><note>Belle pièce, écrite peu après sa mise en liberté. Ordre à lierre
+                    <desc>Piece sig. sur vélin; Château de Blois, 11 avril 1440, pet. in-4 oblong,
+                        sceau. 20</desc>
+
+                    <note>Belle pièce, écrite peu après sa mise en liberté. Ordre à lierre
                         Taillebois de compter, des deniers reçus pour sa délivrance, 210 écus d'or à
                         Jean de Saveuzes, son chambellan, pour deux chevaux donnés à Robert Roos,
                         chevalier anglais, et à Wannelok, écuyer anglais</note>
@@ -1799,7 +2039,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. au général (Duroc); Paris, <date xmlns="http://www.tei-c.org/ns/1.0" date="1802-06-04" type="length"><measure quantity="15" type="length">15 p</measure>rair. an X</date>, 1 p. 1/2 <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="30" type="price">30</measure></desc><note>Curieuse lettre relative à son arrivée à Paris où il venait d'être appelé
+                    <desc>L. a. s. au général (Duroc); Paris, 15 prair. an X, 1 p. 1/2 in-8.
+                        30</desc>
+
+                    <note>Curieuse lettre relative à son arrivée à Paris où il venait d'être appelé
                         par le premier consul en qualité de maître de sa chapelle. Il apprend au
                         géneral qu'il a acquis pour 10,000 francs le mobilier de la maison qu'il a
                         louée, et il remercie le premier consul de la bonté qu'il a de payer cette
@@ -1820,7 +2063,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Morceau de musique aut., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Déchirure dans un angle enlevant une note. Rare. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc></item>
+                    <desc>Morceau de musique aut., 2 p. in-4. Déchirure dans un angle enlevant une
+                        note. Rare. 15</desc>
+
+                </item>
 
                 <item n="105" xml:id="CAT_000042_e105">
                     <num>105</num>
@@ -1835,7 +2081,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce aut., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc><note>Fragment de sa comédie de Boulmeville ou la double réputation.</note>
+                    <desc>Pièce aut., 2 p. in-f. 3</desc>
+
+                    <note>Fragment de sa comédie de Boulmeville ou la double réputation.</note>
 
                 </item>
                 <item n="106" xml:id="CAT_000042_e106">
@@ -1848,7 +2096,8 @@
                         <p>un des premiers aéronautes, célèbre par sa fin tragique, né à Metz. </p>
                     </trait>
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Fragment d'une lettre aut. au comte de Milly (juin 1784), <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc><note> Relative à l'expérience aérostatique qu'il lit à Versailles, le 24 juin
+                    <desc>Fragment d'une lettre aut. au comte de Milly (juin 1784), 1 p. in-4. 15 </desc>
+                    <note> Relative à l'expérience aérostatique qu'il lit à Versailles, le 24 juin
                         1784, par ordre de Louis XVI, en présence du comte Haga (Gustave III, roi de
                         Suède). Une note de M. Laroche-Lacarelle constate que ce feuillet a été
                         détaché d'une lettre de Pilatre de Rosier, qu'il possédait dans sa
@@ -1869,7 +2118,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s., <date xmlns="http://www.tei-c.org/ns/1.0" when="1791">1791</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Belle pièce. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc></item>
+                    <desc>L. a. s., 1791, 1 p. in-4. Belle pièce. 20</desc>
+
+                </item>
 
                 <item n="108" xml:id="CAT_000042_e108">
                     <num>108</num>
@@ -1884,7 +2135,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.; Vienne (1863);, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.5" type="length">1 p. 1/2</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc><note>Jolie lettre sur Destouches</note>
+                    <desc>L. a. s.; Vienne (1863), 1 p. 1/2 in-8. 4</desc>
+
+                    <note>Jolie lettre sur Destouches</note>
 
                 </item>
 
@@ -1902,7 +2155,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. au grand-maître, maréchal de France, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="0.5" type="length">1/2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-fol. </measure>Traces de cachet. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="35" type="price">35</measure></desc><note>Belle et intéressante lettre dans laquelle il demande des grâcés pour les
+                    <desc>L. a. s. au grand-maître, maréchal de France, 1/2 p. in-fol. Traces de
+                        cachet. 35</desc>
+
+                    <note>Belle et intéressante lettre dans laquelle il demande des grâcés pour les
                         prévôts des marchands et échevins de Paris, qui se sont employés avec zèle à
                         fournir des vivres aux troupes du camp du roi</note>
 
@@ -1921,7 +2177,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à Geoffroy Saint-Hilaire, <date xmlns="http://www.tei-c.org/ns/1.0" when="1842">1842</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2.25" type="length">2 p. 1/4</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc><note>Il recommande chaudement la candidature de M. Ravaisson pour la chaire de
+                    <desc>L. a. s. à Geoffroy Saint-Hilaire, 1842, 2 p. 1/4 in-8. 4</desc>
+
+                    <note>Il recommande chaudement la candidature de M. Ravaisson pour la chaire de
                         philosophie à la Sorbonne</note>
 
                 </item>
@@ -1939,7 +2197,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Billet aut. sig., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure>Un peu fripée. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc></item>
+                    <desc>Billet aut. sig., 1 p. in-8. Un peu fripée. 4</desc>
+
+                </item>
 
                 <item n="112" xml:id="CAT_000042_e112">
                     <num>112</num>
@@ -1954,7 +2214,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. au botaniste Sauvages de la Croix, à Montpellier ; Paris, <date xmlns="http://www.tei-c.org/ns/1.0" when="1749">1749</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4</measure>, cachet à ses armes. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc></item>
+                    <desc>L. a. s. au botaniste Sauvages de la Croix, à Montpellier ; Paris, 1749, 1
+                        p. in-4, cachet à ses armes. 20</desc>
+
+                </item>
 
                 <item n="113" xml:id="CAT_000042_e113">
                     <num>113</num>
@@ -1969,7 +2232,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.; <date xmlns="http://www.tei-c.org/ns/1.0" when="1865">1865</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.5" type="length">1 p. 1/2</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure>Sur des inscriptions nouvellement découvertes. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>L. a. s.; 1865, 1 p. 1/2 in-8. Sur des inscriptions nouvellement
+                        découvertes. 3</desc>
+
+                </item>
 
                 <item n="114" xml:id="CAT_000042_e114">
                     <num>114</num>
@@ -1984,7 +2250,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. s.ig. à M. de Lisle ; Marseille, <date xmlns="http://www.tei-c.org/ns/1.0" when="1756">1756</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.5" type="length">1 p. 1/2</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc></item>
+                    <desc>L. sig. à M. de Lisle ; Marseille, 1756, 1 p. 1/2 in-4. 4</desc>
+
+                </item>
 
                 <item n="115" xml:id="CAT_000042_e115">
                     <num>115</num>
@@ -1999,7 +2267,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. s.ig. comme membre du Comité de salut public ; <date xmlns="http://www.tei-c.org/ns/1.0" date="1794-06-24" type="length">6 mess, an II</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Rare. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="30" type="price">30</measure></desc></item>
+                    <desc>L. sig. comme membre du Comité de salut public ; 6 mess, an II, 1 p. in-4.
+                        Rare. 30</desc>
+
+                </item>
 
                 <item n="116" xml:id="CAT_000042_e116">
                     <num>116</num>
@@ -2015,7 +2286,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.; 9 juin 1741, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Rare. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="45" type="price">45</measure></desc><note>Relative à son Histoire romaine, pour laquelle il se propose de faire
+                    <desc>L. a. s.; 9 juin 1741, 2 p. in-4. Rare. 45</desc>
+
+                    <note>Relative à son Histoire romaine, pour laquelle il se propose de faire
                         grand usage des lettres de Cicéron, pour peindre d'après lui le caractère
                         des grands hommes de l'antiquité.</note>
 
@@ -2034,7 +2307,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à Richelieu ; Blaye, 3 août 1637, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="length">3 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="35" type="price">35</measure></desc><note>Belle lettre, écrite peu avant sa disgrâce et pleine de témoignages de
+                    <desc>L. a. s. à Richelieu ; Blaye, 3 août 1637, 3 p. in-4. 35</desc>
+
+                    <note>Belle lettre, écrite peu avant sa disgrâce et pleine de témoignages de
                         dévoûment au cardinal</note>
 
                 </item>
@@ -2052,7 +2327,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à M. Guyot, 22 déc. 1849, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc><note>Elle demande les formalités à remplir pour se faire recevoir membre de la
+                    <desc>L. a. s. à M. Guyot, 22 déc. 1849, 1 p. in-8. 15</desc>
+
+                    <note>Elle demande les formalités à remplir pour se faire recevoir membre de la
                         Société des Auteurs dramatiques</note>
 
                 </item>
@@ -2070,7 +2347,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à M. Dumaine, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>L. a. s. à M. Dumaine, 1 p. in-8. 3</desc>
+
+                </item>
 
                 <item n="120" xml:id="CAT_000042_e120">
                     <num>120</num>
@@ -2085,7 +2364,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à son libraire ; Edimbourg, 9 déc. 1828, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2.25" type="length">2 p. 1/4</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4</measure>, cachet. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="45" type="price">45</measure></desc><note>Très-belle lettre toute relative à ses ouvrages, et qui, par inadvertance,
+                    <desc>L. a. s. à son libraire ; Edimbourg, 9 déc. 1828, 2 p. 1/4 in-4, cachet.
+                        45</desc>
+
+                    <note>Très-belle lettre toute relative à ses ouvrages, et qui, par inadvertance,
                         avait été adressée à une autre personne que le destinataire</note>
 
                 </item>
@@ -2103,7 +2385,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à M. Villenaye; <date xmlns="http://www.tei-c.org/ns/1.0" date="1804-1805" type="length">an XIII</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2.5" type="length">2 p. 1/2</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="price">3</measure></desc></item>
+                    <desc>L. a. s. à M. Villenaye; an XIII, 2 p. 1/2 in-8. 3</desc>
+
+                </item>
 
                 <item n="122" xml:id="CAT_000042_e122">
                     <num>122</num>
@@ -2118,7 +2402,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. aut.; <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-18. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc></item>
+                    <desc>L. aut.; 2 p. in-18. 4</desc>
+
+                </item>
 
                 <item n="123" xml:id="CAT_000042_e123">
                     <num>123</num>
@@ -2135,7 +2421,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à Charles IX; Bordeaux, 25 juil. 1572, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> pl. <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-fol. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="50" type="price">50</measure></desc><note>Pièce historique très-importante, écrite un mois avant la Saint
+                    <desc>L. a. s. à Charles IX; Bordeaux, 25 juil. 1572, 1 p. pl. in-fol. 50</desc>
+
+                    <note>Pièce historique très-importante, écrite un mois avant la Saint
                         -Barthélemy, et qui semble se rattacher aux préparatifs de cette journée
                         néfaste. Strozzi, qui commandait une flotte sous le prétexte d'une
                         expédition aux Acores contre les Espagnols, inspirait des craintes aux
@@ -2168,7 +2456,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à MM. Périer, <date xmlns="http://www.tei-c.org/ns/1.0" when="1867">1867</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-18. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="42.6" type="price">42.6</measure></desc></item>
+                    <desc>L. a. s. à MM. Périer, 1867, 1 p. in-18. 42.6</desc>
+
+                </item>
 
                 <item n="125" xml:id="CAT_000042_e125">
                     <num>125</num>
@@ -2184,7 +2474,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.; Séméac, 15 juil. 1679, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="length">3 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc><note>Belle lettre, écrite deux mois avant sa mort, et dans laquelle il est
+                    <desc>L. a. s.; Séméac, 15 juil. 1679, 3 p. in-4. 20</desc>
+
+                    <note>Belle lettre, écrite deux mois avant sa mort, et dans laquelle il est
                         question de la jurande de Pau, de son neveu de Feuquières, du billonage et
                         de jets d'eau, dont il possède une centaine</note>
 
@@ -2203,7 +2495,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. au comte de Milly; Franconville (1775);, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="length">5 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4</measure>, cachet. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="6" type="price">6</measure></desc><note>Relative à ses romans de chevalerie, qu'il avoue être tous de son
+                    <desc>L. a. s. au comte de Milly; Franconville (1775), 5 p. in-4, cachet.
+                        6</desc>
+
+                    <note>Relative à ses romans de chevalerie, qu'il avoue être tous de son
                         invention. Un de ces romans a trompé MM. de Paulmy et de La Vallière, « qui
                         ont la fureur de la bibliomanie.</note>
 
@@ -2222,7 +2517,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à M. Butler, <date xmlns="http://www.tei-c.org/ns/1.0" when="1837">1837</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc></item>
+                    <desc>L. a. s. à M. Butler, 1837, 1 p. in-8. 10</desc>
+
+                </item>
 
                 <item n="128" xml:id="CAT_000042_e128">
                     <num>128</num>
@@ -2237,7 +2534,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à son cher Tito; 25 nov. (1865);, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="8" type="price">8</measure></desc><note>Il se rend à Paris et passera par Marseille, où il doit se rencontrei avec
+                    <desc>L. a. s. à son cher Tito; 25 nov. (1865), 1 p. in-8. 8</desc>
+
+                    <note>Il se rend à Paris et passera par Marseille, où il doit se rencontrei avec
                         le directeur de l'Opéra.</note>
 
                 </item>
@@ -2253,7 +2552,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">Fragment de musique aut., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2" type="length">2 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>Rare comm musique. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc></item>
+                    <desc>Fragment de musique aut., 2 p. in-4. Rare comm musique. 10</desc>
+
+                </item>
 
                 <item n="130" xml:id="CAT_000042_e130">
                     <num>130</num>
@@ -2268,7 +2569,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. <date xmlns="http://www.tei-c.org/ns/1.0" when="1863">1863</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure>Au sujet d'une notice sur Destouches. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc></item>
+                    <desc>L. a. s. 1863, 1 p. in-8. Au sujet d'une notice sur Destouches. 4</desc>
+
+                </item>
                 <item n="131" xml:id="CAT_000042_e131">
                     <num>131</num>
 
@@ -2282,7 +2585,9 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s.; <date xmlns="http://www.tei-c.org/ns/1.0" when="1863">1863</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc><note>Curieuse épître sur Destouches et contre les auteurs dramatiques de nos
+                    <desc>L. a. s.; 1863, 1 p. in-8. 4</desc>
+
+                    <note>Curieuse épître sur Destouches et contre les auteurs dramatiques de nos
                         jours. « C'est une honte, dit-il, que de voir les élogés que les critiques
                         prodiguent à leurs prétendues comédies...</note>
 
@@ -2302,7 +2607,11 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. à M. Poisson (père de Mme de Pompadour); 29 mars 1762, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> pet. <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4</measure>, cachet à ses armes. Très-jolie lettre. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="25" type="price">25</measure></desc></item>
+                    <desc>L. a. s. à M. Poisson (père de Mme de Pompadour); 29 mars 1762, 1 p. pet.
+                        in-4, cachet à ses armes. Très-jolie lettre. 25</desc>
+
+
+                </item>
                 <item n="133" xml:id="CAT_000042_e133">
                     <num>133</num>
 
@@ -2316,7 +2625,10 @@
 
 
 
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. aut. sig. V. au chevalier de Jaucourt, à Beaugency (Paris), 15 oct. (1749);, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="30" type="price">30</measure></desc></item>
+                    <desc>L. aut. sig. V. au chevalier de Jaucourt, à Beaugency (Paris), 15 oct.
+                        (1749), 1 p. in-8. 30</desc>
+
+                </item>
             </list>
         </body>
         <gap/>

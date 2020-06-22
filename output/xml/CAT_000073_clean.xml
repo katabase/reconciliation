@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000073">
+<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000073">
     <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
         <fileDesc>
             <titleStmt>
@@ -87,7 +86,8 @@
                         <p>directeur général des bâtiments du roi, membre de l'Académie des
                             sciences, mort en 1810</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Let. sig. avec 5 lig. aut.; Versailles, 25 juil. 1780, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="price">4</measure></desc><note>Curieuse lettre relative à trois tableaux de Téniers, qu'on proposait au
+                    <desc>Let. sig. avec 5 lig. aut.; Versailles, 25 juil. 1780, 1 p. in-f. 4</desc>
+                    <note>Curieuse lettre relative à trois tableaux de Téniers, qu'on proposait au
                         roi. « Je doute fort que ces tableaux puissent convenir à Sa Majesté; il est
                         difficile de trouver des Téniers qui aillent à côté des siens; de plus, ce
                         sont des intérieurs de chambre, et il sont bien au-dessous des fonds de
@@ -101,12 +101,18 @@
                         <p>reine de Navarre, fille de Philippe III de Navarre, femme de Philippe VI
                             de Valois, morte en 1398</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Charte datée de Paris, 25 mars 1376, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4 obl.</measure> Les généraux conseillers sur le fait des aides (impôts extraordinaires), reconnaissent avoir reçu cent francs d'or perçus sur les terres appartenant à la reine Blanche. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc></item>
+                    <desc>Charte datée de Paris, 25 mars 1376, 1 p. in-4 obl. Les généraux
+                        conseillers sur le fait des aides (impôts extraordinaires), reconnaissent
+                        avoir reçu cent francs d'or perçus sur les terres appartenant à la reine
+                        Blanche. 10</desc>
+                </item>
 
                 <item n="3" xml:id="CAT_000073_e3">
                     <num>3</num>
                     <name type="author">Bourgogne (la duchesse de)</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Comptes de la duchesse de Bourgogne, à Versailles, pour le 16 juin 1699, pièce originale, sur velin, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc><note>Le total des dépenses de la duchesse se monte, pour un seul jour, à 140
+                    <desc>Comptes de la duchesse de Bourgogne, à Versailles, pour le 16 juin 1699,
+                        pièce originale, sur velin, 1 p. in-f. 10</desc>
+                    <note>Le total des dépenses de la duchesse se monte, pour un seul jour, à 140
                         livres 15 sous 6 deniers</note>
                 </item>
 
@@ -116,14 +122,23 @@
                     <trait>
                         <p>illustre maréchal de France</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">1° Journal de ce qui s'est passé au siège de Sainte-Brigite, avec le détail de ce qui s'est fait au bombardement de Pignerolles (1690); ; copie du temps, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="8" type="length">8 p.</measure> in-f.; 2° Copie originale de sa lettre à Louis XIV, pour lui annoncer la victoire de la Marsaille, 15 p. in-f.; 3° Copie du temps de 2 lettres, dont une de lui, adressée à son frère, et relative à sa disgrâce à l'époque où il fut mis à la tète de l'armée d'Italie, 2 p. in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc></item>
+                    <desc>1° Journal de ce qui s'est passé au siège de Sainte-Brigite, avec le
+                        détail de ce qui s'est fait au bombardement de Pignerolles (1690) ; copie du
+                        temps, 8 p. in-f.; 2° Copie originale de sa lettre à Louis XIV, pour lui
+                        annoncer la victoire de la Marsaille, 15 p. in-f.; 3° Copie du temps de 2
+                        lettres, dont une de lui, adressée à son frère, et relative à sa disgrâce à
+                        l'époque où il fut mis à la tète de l'armée d'Italie, 2 p. in-f. 10</desc>
+                </item>
 
                 <item n="5" xml:id="CAT_000073_e5">
                     <num>5</num>
                     <name type="author">Charles IX, roi de France. sur les opérations de l'armée
                         catholique, placée sous le commandement du duc d'Anjou (le futur Henri
                         III</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1"><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4" type="length">4 p</measure>ièces originales (copies du temps),après la bataille de Saint-Denis (10 novembre 1567) et la mort du connétable de Montmorency; décembre 1567-février 1568 13 p. in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc><note> Pièces importantes pour l'histoire de la deuxième guerre de religion, qui
+                    <desc>4 pièces originales (copies du temps),après la bataille de Saint-Denis (10
+                        novembre 1567) et la mort du connétable de Montmorency; décembre
+                        1567-février 1568 13 p. in-f. 20</desc>
+                    <note> Pièces importantes pour l'histoire de la deuxième guerre de religion, qui
                         se termina à la paix de Longjumeau, et pour la biographie Henri III, qui
                         n'avait encore que 16 ans. On y remarque ce détail : le jour de Noël «
                         mondit seigneur estant couché audit Coute (Marne) fut contrainct de se lever
@@ -134,7 +149,9 @@
                 <item n="6" xml:id="CAT_000073_e6">
                     <num>6</num>
                     <name type="author">Charles IX</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1">L. a. s. de Mme de Sepois, à son neveu M. de Piennes; 17 mai (1573);, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc><note>Lettre historique. Elle lui apprend qu'au retour de l'expédition dans les
+                    <desc>L. a. s. de Mme de Sepois, à son neveu M. de Piennes; 17 mai (1573), 1 p.
+                        in-f. 15</desc>
+                    <note>Lettre historique. Elle lui apprend qu'au retour de l'expédition dans les
                         Pays-Bas (juillet 1572), où Genlis fut massacré et Lanoue fait prisonnier en
                         se portant au secours de Mons le Rhingrave pleurait à chaudes larmes et ne
                         savait comment s'excuser auprès de Charles IX et de Catherine de Médicis. Le
@@ -152,7 +169,8 @@
                     <trait>
                         <p>comte de Blois et sire de Guise, mort en 1342</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Charte sur vélin, 14 août 1338, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4 obl.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="12" type="price">12</measure></desc><note>Pièce historique. Reconnaissance de Gui de Chastillon envers Baudin de
+                    <desc>Charte sur vélin, 14 août 1338, 1 p. in-4 obl. 12</desc>
+                    <note>Pièce historique. Reconnaissance de Gui de Chastillon envers Baudin de
                         Guérin, de la somme de dix livres tournois, que celui-ci lui a prêtée « pour
                         cause de la présente guerre d'entre le roy mon seigneur et le roy
                         d'Engleterre (Edouard III), et les Alemanz.</note>
@@ -165,7 +183,9 @@
                         <p>duchesse de Savoie, fille de Henri IV, célèbre par la fermeté avec
                             laquelle elle gouverna après la mort de son mari</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Les amours de Chrestienue, duchesse de Savoye, traduction de l'itatien en français, copie du temps, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="19" type="length">19 p.</measure> in-f. Un peu tachée d'eau. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc></item>
+                    <desc>Les amours de Chrestienue, duchesse de Savoye, traduction de l'itatien en
+                        français, copie du temps, 19 p. in-f. Un peu tachée d'eau. 15</desc>
+                </item>
 
                 <item n="9" xml:id="CAT_000073_e9">
                     <num>9</num>
@@ -174,7 +194,8 @@
                         <p>fille de Louis III de Bourbon-Condé et de Mile de Nantes, femme de
                             Louis-Armand de Bourbon-Conti, qui en était très-jaloux, dit Barbier</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce sig.; 19 août 1773, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="7" type="length">7 p.</measure> in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc><note>Compte à elle présenté au sujet de la succession de la comtesse de
+                    <desc>Pièce sig.; 19 août 1773, 7 p. in-f. 10</desc>
+                    <note>Compte à elle présenté au sujet de la succession de la comtesse de
                         Montmorency Bours, dont elle était légataire universelle. Cette pièce, en
                         grande partie relative à l'enterrement de la comtesse, est curieuse par les
                         détails qu'elle contient</note>
@@ -187,7 +208,9 @@
                         <p>illustre poète tragique du XVIIIe siècle, de l'Académie française, né à
                             Dijon</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Approbation de 3 lig. aut. sig. au bas du manuscrit intitulé : L'Epreuve ridicule ou la dupe de soi-même; 29 septembre 1740, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="32" type="length">32 p.</measure> in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc></item>
+                    <desc>Approbation de 3 lig. aut. sig. au bas du manuscrit intitulé : L'Epreuve
+                        ridicule ou la dupe de soi-même; 29 septembre 1740, 32 p. in-f. 10</desc>
+                </item>
 
                 <item n="11" xml:id="CAT_000073_e11">
                     <num>11</num>
@@ -196,7 +219,9 @@
                         <p>célèbre poète élégiaque, à laquelle Béranger a consacré une de ses plus
                             jolies chansons</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Manuscrits non autographes provenant de ses papiers, représentant la valeur d'un fort volume <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc><note>Recueil de vers et pièces en prose, 5 cahiers de chansons : recueil de
+                    <desc>Manuscrits non autographes provenant de ses papiers, représentant la
+                        valeur d'un fort volume in-4. 10</desc>
+                    <note>Recueil de vers et pièces en prose, 5 cahiers de chansons : recueil de
                         morale; histoire et établissement du christianisme en Suède, etc. On y a
                         joint une lettre aut. sig., d'une page in-8</note>
                 </item>
@@ -208,7 +233,9 @@
                         <p>homme d'Etat et illustre orateur parlementaire, membre de l'Académie
                             française</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Son portrait (galerie des représentants du peuple de 1848), avec une dédicace de 4 lig. aut. sig., <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc><note>Voici le texte de cette dédicace : « Quel que soit le sort réservé à notre
+                    <desc>Son portrait (galerie des représentants du peuple de 1848), avec une
+                        dédicace de 4 lig. aut. sig., in-4. 10</desc>
+                    <note>Voici le texte de cette dédicace : « Quel que soit le sort réservé à notre
                         patrie, les républicains doivent conserver la dignité de leur foi politique,
                         et la fermeté de leur espérance.</note>
                 </item>
@@ -219,7 +246,10 @@
                     <trait>
                         <p>infant et duc de Parme, élève de Condillac</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Traité sur l'étude de l'histoire et sur le gouvernement des peuples, dédié au prince de Parme, par Lefort, 1 vol, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4 </measure>d'environ <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="250" type="length">250 p</measure>ages, relié en veau. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="35" type="price">35</measure></desc><note>Curieux manuscrit écrit en italien. On y trouve d'intéressants détails sur
+                    <desc>Traité sur l'étude de l'histoire et sur le gouvernement des peuples, dédié
+                        au prince de Parme, par Lefort, 1 vol, in-4 d'environ 250 pages, relié en
+                        veau. 35</desc>
+                    <note>Curieux manuscrit écrit en italien. On y trouve d'intéressants détails sur
                         le gouvernement de la Suède, sur la décadence de ce pays après la mort de
                         Charles XII, sur les réformes de Pierre-le-Grand et le rôle joué par le
                         Genevois Lefort auprès de ce prince, etc</note>
@@ -231,7 +261,8 @@
                     <trait>
                         <p>illustre connétable de France</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">mort en 1380. Extrait</desc><note>des registres du Parlement, relatif à un accord entre Jeanne de Laval,
+                    <desc>mort en 1380. Extrait</desc>
+                    <note>des registres du Parlement, relatif à un accord entre Jeanne de Laval,
                         comtesse de Longueville, dame de Tinteniac, veuve du connétable Bertrand du
                         Guesclin et Olivier du Guesclin, comte de Longueville, sire de la
                         Roche-Tesson, au sujet du douaire de la veuve du connétable; l'accord a été
@@ -248,7 +279,9 @@
                             Charles VI, né à Dijon en 1371, assassiné à Montereau le 10 septembre
                             1419</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Charte originale sur vélin; Troyes, 17 février 1417, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4 obl.</measure> Légères taches. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc><note>Curieuse pièce. Avis donné à Etienne de Sens, maître général des monnaies,
+                    <desc>Charte originale sur vélin; Troyes, 17 février 1417, 1 p. in-4 obl.
+                        Légères taches. 15</desc>
+                    <note>Curieuse pièce. Avis donné à Etienne de Sens, maître général des monnaies,
                         de l'autorisation qu'il a accordée à Jean de la Baume et à Huguenin de
                         Saubertier, ses écuyers, en considération de leurs bons et agréables
                         services, de faire « batre et forgier en celle de nos monnoys de Bourgoingne
@@ -264,7 +297,9 @@
                         <p>reine de Sicile, fille du comte de Laval, seconde femme de René d'Anjou,
                             morte en 1498</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce sig. par Nicolas de Laval, seigneur de la Roche; 7 mars 1498 (1499);, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. .</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc><note>Très-curieuse pièce. Accord relatif à la succession de Jeanne, reine de
+                    <desc>Pièce sig. par Nicolas de Laval, seigneur de la Roche; 7 mars 1498 (1499),
+                        1 p. in-4. . 10</desc>
+                    <note>Très-curieuse pièce. Accord relatif à la succession de Jeanne, reine de
                         Sicile, et de Françoise de Dinan, dame de Chateaubriant, deuxième femme du
                         comte de Laval, entre la comtesse et son neveu, le seigneur de La Roche. Il
                         y est parlé des bijoux de la reine de Sicile, des terres dépendant de la
@@ -278,7 +313,10 @@
                     <trait>
                         <p>impératrice des français.</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1"> Procès-verbal d'expertise d'uné parure complète en rubis d'Orient et brillants, fournie à Sa Majesté l'impératrice-reine Joséphine, d'une valeur de 100,000 fr. par MM. Etienne Nitot et fils, <date xmlns="http://www.tei-c.org/ns/1.0" when="1810">1810</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4.5" type="length">4 p. 1/2</measure> in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="6" type="price">6</measure></desc></item>
+                    <desc> Procès-verbal d'expertise d'uné parure complète en rubis d'Orient et
+                        brillants, fournie à Sa Majesté l'impératrice-reine Joséphine, d'une valeur
+                        de 100,000 fr. par MM. Etienne Nitot et fils, 1810, 4 p. 1/2 in-f. 6</desc>
+                </item>
 
                 <item n="18" xml:id="CAT_000073_e18">
                     <num>18</num>
@@ -286,7 +324,9 @@
                     <trait>
                         <p>littérateur et journaliste distingué, né à Amiens en 1812</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Sa photographie, avec une dédicace en vers de 4 lignes aut. sig.; 6 septembre 1873, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc><note>Voici le texte de cette dédicace : J'offre à mon ami Gay cette figure
+                    <desc>Sa photographie, avec une dédicace en vers de 4 lignes aut. sig.; 6
+                        septembre 1873, in-4. 10</desc>
+                    <note>Voici le texte de cette dédicace : J'offre à mon ami Gay cette figure
                         allègre ; Quand on fit ce portrait, nourri de bons repas, J'étais gras,
                         maintenant si mon corps est plus maigre, Principes, amitiés, du moins ne
                         changent pas</note>
@@ -295,7 +335,8 @@
                 <item n="19" xml:id="CAT_000073_e19">
                     <num>19</num>
                     <name type="author">Law (Banque de)</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1">. Billet de 120 livres de la Banque de Law, 1716, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc></item>
+                    <desc>. Billet de 120 livres de la Banque de Law, 1716, in-4. 5</desc>
+                </item>
 
                 <item n="20" xml:id="CAT_000073_e20">
                     <num>20</num>
@@ -304,7 +345,9 @@
                         <p>célèbre poète dramatique, auteur de l'Ami des lois, membre de l'Académie
                             française</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Athènes sauvée, tragédie en cinq actes, manuscrit aut., <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="92" type="length">92 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc><note>Important manuscrit d'une tragédie qui n'a pas été représentée</note>
+                    <desc>Athènes sauvée, tragédie en cinq actes, manuscrit aut., 92 p. in-4.
+                        20</desc>
+                    <note>Important manuscrit d'une tragédie qui n'a pas été représentée</note>
                 </item>
 
                 <item n="21" xml:id="CAT_000073_e21">
@@ -314,7 +357,10 @@
                         <p>écrivain et administrateur français, auteur d'ouvrages sur les colonies,
                             né à Lyon en 1743, mort en 1822</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Détails du voyage du sieur Lescallier en Angleterre, en Russie et en Suède, pendant l'année 1775, manuscrit du temps, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="145" type="length">145 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4</measure>, relié en maroquin, tranches dorées. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc></item>
+                    <desc>Détails du voyage du sieur Lescallier en Angleterre, en Russie et en
+                        Suède, pendant l'année 1775, manuscrit du temps, 145 p. in-4, relié en
+                        maroquin, tranches dorées. 15</desc>
+                </item>
 
                 <item n="22" xml:id="CAT_000073_e22">
                     <num>22</num>
@@ -322,7 +368,9 @@
                     <trait>
                         <p>roi de France</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce sig. sur vélin; Saint-Germain-en-Laye, 8 février 1638, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4 obl.</measure> Un peu tachée. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="8" type="price">8</measure></desc><note>Curieuse pièce par laquelle il ordonne à ses gens des comptes de Paris de
+                    <desc>Pièce sig. sur vélin; Saint-Germain-en-Laye, 8 février 1638, in-4 obl. Un
+                        peu tachée. 8</desc>
+                    <note>Curieuse pièce par laquelle il ordonne à ses gens des comptes de Paris de
                         payer aux trésoriers de France, garde-scel, intendants et procureurs, les
                         droits de buvette qu'on paie d'ordinaire à tous les trésoriers de
                         France</note>
@@ -331,7 +379,20 @@
                 <item n="23" xml:id="CAT_000073_e23">
                     <num>23</num>
                     <name type="author">Louis XIII</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1"><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="8" type="length">8 p</measure>ièces. 1° Let. sig. sur vélin; Paris, 31 décembre 1626, 1 p. in-f. Ordre de paiement d'une somme de 600 livres « au sieur Bertius, l'un de nos professeurs et cosmographes ». -2° Mémoire abrégé de l'état et disposition du pays et affaires de l'alliance du roy, en Suisse, 1624, manuscrit du temps, 12 p. 1/2 in-f. -3° Briefve et nécessaire instruction sur les articles de paix accordés à Monson, en Espagne, le 5e mars 1626, pour raison des Grisons, pièce du temps, 33 p. in-f. -4° Pièce sig. des trésoriers de l'extraordinaire des guerres, par laquelle ils nomment François Lesage, trésorier en Guyenne, leur procureur, pour emprunter la somme de 100,000 livres; Paris, 6 mai 1627, 4 p. in-f. -5° Curieuse pièce relative à la gazette de Renaudot, (1633);, 1 p. <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>-6° Traicté de considération et alliance entre Louis XIII, roy de France, et la principauté de Cathalongue, 15 août 1640, copie du temps, 17 p. in-4 ; etc. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="25" type="price">25</measure></desc></item>
+                    <desc>8 pièces. 1° Let. sig. sur vélin; Paris, 31 décembre 1626, 1 p. in-f.
+                        Ordre de paiement d'une somme de 600 livres « au sieur Bertius, l'un de nos
+                        professeurs et cosmographes ».-2° Mémoire abrégé de l'état et disposition
+                        du pays et affaires de l'alliance du roy, en Suisse, 1624, manuscrit du
+                        temps, 12 p. 1/2 in-f.-3° Briefve et nécessaire instruction sur les
+                        articles de paix accordés à Monson, en Espagne, le 5e mars 1626, pour raison
+                        des Grisons, pièce du temps, 33 p. in-f.-4° Pièce sig. des trésoriers de
+                        l'extraordinaire des guerres, par laquelle ils nomment François Lesage,
+                        trésorier en Guyenne, leur procureur, pour emprunter la somme de 100,000
+                        livres; Paris, 6 mai 1627, 4 p. in-f.-5° Curieuse pièce relative à la
+                        gazette de Renaudot, (1633), 1 p. in-4.-6° Traicté de considération et
+                        alliance entre Louis XIII, roy de France, et la principauté de Cathalongue,
+                        15 août 1640, copie du temps, 17 p. in-4 ; etc. 25</desc>
+                </item>
 
                 <item n="24" xml:id="CAT_000073_e24">
                     <num>24</num>
@@ -339,7 +400,11 @@
                     <trait>
                         <p>roi de France.</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Copie d'un pamphlet publié à Cologne, en 1692, dirigé contre la politique de Louis XIV, et intitulé : « L'ombre du marquis de Louvois consultée par Louis quatorze sur les affaires présentes , manuscrit du temps, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="132" type="length">132 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="25" type="price">25</measure></desc><note>L'auteur, protestant exilé, suppose que Louis XIV, fort en peine depuis la
+                    <desc>Copie d'un pamphlet publié à Cologne, en 1692, dirigé contre la politique
+                        de Louis XIV, et intitulé : « L'ombre du marquis de Louvois consultée par
+                        Louis quatorze sur les affaires présentes , manuscrit du temps, 132 p. in-4.
+                        25</desc>
+                    <note>L'auteur, protestant exilé, suppose que Louis XIV, fort en peine depuis la
                         mort de son premier ministre, va, sur le conseil de son valet de chambre
                         Petit, conférer avec une nécromancienne, émule de la Voisin. Louvois
                         apparaît et parle de sa mort, qu'il attribue à un empoisonnement; l'auteur
@@ -364,7 +429,23 @@
                         <p>19 pièces. 1° Relation du lit de justice tenu par le roi, en 1643,4 p.
                             in-f</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">2° Harangue de M. Talon, avocat général, en la séance du lit de justice du roy, tenue en parlement de Paris, le 15 janvier 1648, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="8" type="length">8 p.</measure> in-f.-3° Réflexions politiques sur le rétablissement du marquis de Châteaneuf, comme garde-des-sceaux, 1660, 17 p. 1/4 <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4.</measure>-4° Copie d'une lettre de Mme Fouquet, femme du surintendant, adressée au roi, 1662, 1 p. 1/4 in-4. -5° Copie de pièces intéressantes pour les débuts de la guerre de Hollande, 1671-72, 7 p. 1/2 in-f. -6° Deux pièces importantes sur l'affaire des maréchaux (Créqui, Bellefonds, d'Humières et Turenne), 1672- 73, 23 p. 1/2 in-f. -7° Carte manuscrite du combat de Turckheim, gagnée par Turenne en 1675, très-finement exécutée (XVIIIe siècle). -8° Relation de la Cour de France, composée par M. Erizza, ambassadeur de la République de Venise, 48 p. in-4. -9° Plan imprimé avec légendé explicative du combat de Wynendale, entre le comte de La Motte et le major Webb, 1708, in-f. -10° Complainte sur la duchesse de La Vallière, 2 p. in-4. -11° Règlement pour les filles et petites-filles de France, copie de lettres patentes du roi, du 12 mars 1710, 2 p. in-f., etc. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="40" type="price">40</measure></desc></item>
+                    <desc>2° Harangue de M. Talon, avocat général, en la séance du lit de justice du
+                        roy, tenue en parlement de Paris, le 15 janvier 1648, 8 p. in-f.-3°
+                        Réflexions politiques sur le rétablissement du marquis de Châteaneuf, comme
+                        garde-des-sceaux, 1660, 17 p. 1/4 in-4.-4° Copie d'une lettre de Mme
+                        Fouquet, femme du surintendant, adressée au roi, 1662, 1 p. 1/4 in-4.-5°
+                        Copie de pièces intéressantes pour les débuts de la guerre de Hollande,
+                        1671-72, 7 p. 1/2 in-f.-6° Deux pièces importantes sur l'affaire des
+                        maréchaux (Créqui, Bellefonds, d'Humières et Turenne), 1672-73, 23 p. 1/2
+                        in-f.-7° Carte manuscrite du combat de Turckheim, gagnée par Turenne en
+                        1675, très-finement exécutée (XVIIIe siècle).-8° Relation de la Cour de
+                        France, composée par M. Erizza, ambassadeur de la République de Venise, 48
+                        p. in-4.-9° Plan imprimé avec légendé explicative du combat de Wynendale,
+                        entre le comte de L. a. Motte et le major Webb, 1708, in-f.-10° Complainte sur
+                        la duchesse de L. a. Vallière, 2 p. in-4.-11° Règlement pour les filles et
+                        petites-filles de France, copie de lettres patentes du roi, du 12 mars 1710,
+                        2 p. in-f., etc. 40</desc>
+                </item>
 
                 <item n="26" xml:id="CAT_000073_e26">
                     <num>26</num>
@@ -372,7 +453,9 @@
                     <trait>
                         <p>roi de France</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce sig. sur vélin (par le secrétaire de la main); Versailles, 12 sept. 1767, double <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc><note>Curieuse pièce. Lettres patentes du roi accordant à David Crémot, François
+                    <desc>Pièce sig. sur vélin (par le secrétaire de la main); Versailles, 12 sept.
+                        1767, double in-8. 15</desc>
+                    <note>Curieuse pièce. Lettres patentes du roi accordant à David Crémot, François
                         Mesnard de Couishard, Claude Lambinet de La Saudray et Pierre Hennique le
                         privilège exclusif de publier pendant 30 ans : le Journal et gazette
                         d'Agriculture, du Commerce et des Finances, la feuille du marchand et du
@@ -385,7 +468,9 @@
                     <trait>
                         <p>créateur de la diplomatique, né dans les Ardennes en 1632</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce sig. par Robert Gravel, seigneur de Marly, ambassadeur de France en Suisse; Bade, 23 juillet 1683, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4 obl.</measure>, cachet à ses armes. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc><note>Curieuse pièce. Il recommande « à toutes les personnes auxquelles ils
+                    <desc>Pièce sig. par Robert Gravel, seigneur de Marly, ambassadeur de France en
+                        Suisse; Bade, 23 juillet 1683, 1 p. in-4 obl., cachet à ses armes. 10</desc>
+                    <note>Curieuse pièce. Il recommande « à toutes les personnes auxquelles ils
                         pourront s'adresser, dom Mabillon et dom Germain », qui se rendent en
                         Allemagne, pour y consulter des livres rares et des manuscrits
                         précieux</note>
@@ -399,7 +484,8 @@
                             Marguerite de Brabant, femme de Philippe de Rouves, puis de
                             Philippe-le-Hardi. née en 1350, morte à Arras en 1405</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Charte originale sur vélin; 20 mai 1392, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4 obl.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc><note>Intéressante pièce. Ordre de payer à Jean Bouchet, tailleur des robes de
+                    <desc>Charte originale sur vélin; 20 mai 1392, 1 p. in-4 obl. 20</desc>
+                    <note>Intéressante pièce. Ordre de payer à Jean Bouchet, tailleur des robes de
                         sa fille, la comtesse de Nevers, et à quatre couturiers, la somme de -7 -
                         huit francs pour « seze jours qu'ilz ont ouvrés à faire les robes et
                         garnemens qui s'ensuivent. » La liste détaillée contient des renseignements
@@ -411,7 +497,8 @@
                     <trait>
                         <p>duchesse de Bourgogne, femme de Jean-sans- Peur</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1"><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="length">3 p</measure>ièces sur vélin, <date xmlns="http://www.tei-c.org/ns/1.0" when="1419">1419</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8 obl.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc><note>Pièces curieuses relatives à des sommes payées par la duchesse à
+                    <desc>3 pièces sur vélin, 1419, in-8 obl. 15</desc>
+                    <note>Pièces curieuses relatives à des sommes payées par la duchesse à
                         Cohorsquin, chambellan du feu duc, le Moyne de Neuville, son écuyer
                         tranchant, Jean Philippot et Antoine de la Marche, qui se rendent en Savoie
                         comme ambassadeurs de Philippe-le-Bon. </note>
@@ -425,7 +512,9 @@
                             femme de Henri IV, dite la Reine Margot, princesse célèbre par ses
                             galanteries et son amour pour les arts, née en 1552, morte en 1615.</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce du temps, en italien, ayant pour titre : Instrucion de Madama Margarita, octobre 1588-août 1589, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="12" type="length">12 p.</measure> in-f. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc><note>Document historique important. Mémoire rédigé sous les yeux de Marguerite
+                    <desc>Pièce du temps, en italien, ayant pour titre : Instrucion de Madama
+                        Margarita, octobre 1588-août 1589, 12 p. in-f. 20</desc>
+                    <note>Document historique important. Mémoire rédigé sous les yeux de Marguerite
                         de Valois et devant servir d'instructions à son envoyé près Philippe II,
                         Urbain de Saint-Gelais, évêque de Comminges. Elle montre le duc d'Epernon
                         entièrement maître de l'esprit de Henri III, voulant la faire mourir par le
@@ -443,7 +532,9 @@
                     <trait>
                         <p>le grand théologien et moraliste de Port- Royal</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Lettre à lui adressée par un religieux de Port-Royal, le 14 mars 1688, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="2.5" type="length">2 p. 1/2</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8</measure>, cachet armorié. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc><note>Curieuse épitre où, après quelques mots d'éloges de ses Essais, on lui
+                    <desc>Lettre à lui adressée par un religieux de Port-Royal, le 14 mars 1688, 2
+                        p. 1/2 in-8, cachet armorié. 5</desc>
+                    <note>Curieuse épitre où, après quelques mots d'éloges de ses Essais, on lui
                         soumet un cas singulier de confession</note>
                 </item>
 
@@ -453,7 +544,8 @@
                     <trait>
                         <p>duc de Bourgogne.</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Charte originale sur vélin; Paris, 24 juillet 1388, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc><note>Pièce curieuse. Rôle des épices que le duc de Bourgogne a l'intention
+                    <desc>Charte originale sur vélin; Paris, 24 juillet 1388, in-4. 15</desc>
+                    <note>Pièce curieuse. Rôle des épices que le duc de Bourgogne a l'intention
                         d'emporter dans son voyage, et mandement ordonnant le paiement de 78 livres
                         16 sous à Guillemin de Mouchault, valet de chambre et épicier, pour la dite
                         fourniture. On y voit que l'anis confit coûtait 8 sous la livre; on y parle
@@ -463,7 +555,9 @@
                 <item n="33" xml:id="CAT_000073_e33">
                     <num>33</num>
                     <name type="author">Potier de Gesvres (famille</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce sur vélin, signée par le ministre Phélypeaux; 12 avril 1729, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="25" type="length">25 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-fol. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="25" type="price">25</measure></desc><note>Intéressante pièce. Arrêt du Conseil du Roi qui maintient Mlle Marie-
+                    <desc>Pièce sur vélin, signée par le ministre Phélypeaux; 12 avril 1729, 25 p.
+                        in-fol. 25</desc>
+                    <note>Intéressante pièce. Arrêt du Conseil du Roi qui maintient Mlle Marie-
                         Jeanne-Félix Potier de Gesvres dans les droits de péage de Lagny-sur- Marne,
                         à la condition de réparer à ses frais le pont du dit Lagny. Curieux
                         détails</note>
@@ -476,7 +570,13 @@
                         <p>chancelier de France sous François Ier, emprisonné pour malversations, né
                             à Angers.</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">1° Minutes des lettres du roi François Ier au Parlement de Paris, avril 1543, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="6.5" type="length">6 p. 1/2</measure> in-fol.; 2° Minute du brevet délivré en vertu des ordres du Roi, pour faire conduire « en la tour carrée du palais et par devers Messieurs de la Cour pour y être jugé, Messire Guillaume Poyet, naguère chancelier de France et actuellement prisonnier à la Bastille»; 10 avril 1543, 1 p. <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc><note>Pièces historiques relatives au procès du chancelier Poyet, accusé « de
+                    <desc>1° Minutes des lettres du roi François Ier au Parlement de Paris, avril
+                        1543, 6 p. 1/2 in-fol.; 2° Minute du brevet délivré en vertu des ordres du
+                        Roi, pour faire conduire « en la tour carrée du palais et par devers
+                        Messieurs de la Cour pour y être jugé, Messire Guillaume Poyet, naguère
+                        chancelier de France et actuellement prisonnier à la Bastille»; 10 avril
+                        1543, 1 p. in-4. 20</desc>
+                    <note>Pièces historiques relatives au procès du chancelier Poyet, accusé « de
                         plusieurs faultes, abbus, malversations et aultres crimes », ainsi que Louis
                         Martine, procureur au Châtelet, et Jean Le Royer, dit Cloches, conseiller au
                         Châtelet, « alliés et complices du dit Poyet »</note>
@@ -488,7 +588,9 @@
                     <trait>
                         <p>le grand poète tragique</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Let. aut. de Males- herbes à M. Nigau; Paris, 23 juin (1778);, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1.25" type="length">1 p. 1/4</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc><note>Curieuse lettre. Il le prie de rédiger pour M. de Foncemagne une anecdote
+                    <desc>Let. aut. de Males-herbes à M. Nigau; Paris, 23 juin (1778), 1 p. 1/4
+                        in-4. 15</desc>
+                    <note>Curieuse lettre. Il le prie de rédiger pour M. de Foncemagne une anecdote
                         sur la sépulture de Racine. Après la ruine de Port-Royal, un curé dévot et
                         moliniste aurait acheté sa pierre tombale et en aurait fait effacer son nom
                         pour le punir d'être mort janséniste</note>
@@ -505,7 +607,12 @@
                             Rabutin-Chantal, fille de sainte Chantal et veuve d'Antoine de
                             Toulongéon ; Jean de Berbisey, le président Baillet, etc</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">2° Let. sig. du duc du Maine à Mlle de Sévigné, 1701, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="1" type="length">1 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4</measure>, cachet. Piqûre d'humidité dans la marge. -3° Pièce sur vélin avec 5 lig. aut. sig. d'Anne de Sévigné; La Gailleule, <date xmlns="http://www.tei-c.org/ns/1.0" when="1644">1644</date>, 12 p. in-4. -4° 3 let. aut. sig. de Mme la comtesse de Sainte- Agathe, dernière descendante de Mme de Sévigné, etc. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="25" type="price">25</measure></desc></item>
+                    <desc>2° Let. sig. du duc du Maine à Mlle de Sévigné, 1701, 1 p. in-4, cachet.
+                        Piqûre d'humidité dans la marge.-3° Pièce sur vélin avec 5 lig. aut. sig.
+                        d'Anne de Sévigné; L. a. Gailleule, 1644, 12 p. in-4.-4° 3 let. aut. sig. de
+                        Mme la comtesse de Sainte-Agathe, dernière descendante de Mme de Sévigné,
+                        etc. 25</desc>
+                </item>
 
                 <item n="37" xml:id="CAT_000073_e37">
                     <num>37</num>
@@ -513,7 +620,10 @@
                     <trait>
                         <p>l'illustre architecte du Panthéon, né près d'Auxerre</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">1° Réponse de 11 lig. aut. sig. au bas d'une lettre adressée à M. le marquis de Marigny, 4 mars 1767, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="3" type="length">3 p.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4.</measure>- 2° 3 pièces le concernant. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc></item>
+                    <desc>1° Réponse de 11 lig. aut. sig. au bas d'une lettre adressée à M. le
+                        marquis de Marigny, 4 mars 1767, 3 p. in-4.-2° 3 pièces le concernant.
+                        10</desc>
+                </item>
 
                 <item n="38" xml:id="CAT_000073_e38">
                     <num>38</num>
@@ -522,7 +632,9 @@
                         <p>célèbre écrivain ultramontain, né à Boynes (Loiret) en 1813, mort
                             récemment</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Son portrait photographié en pied, avec dédicace aut. sig.; 1857, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure>La photographie est un peu passée. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc></item>
+                    <desc>Son portrait photographié en pied, avec dédicace aut. sig.; 1857, in-4. La
+                        photographie est un peu passée. 10</desc>
+                </item>
 
                 <item n="39" xml:id="CAT_000073_e39">
                     <num>39</num>
@@ -531,7 +643,8 @@
                         <p>poète aussi spirituel que fécond, le type des épicuriens du siècie de
                             Louis XV, membre de l'Académie française</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pièce aut., (1756);, <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="4.25" type="length">4 p. 1/4</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc><note>Très-curieuse pièce sur Frédéric II; elle a pour titre : Lettre du grand
+                    <desc>Pièce aut., (1756), 4 p. 1/4 in-4. 20</desc>
+                    <note>Très-curieuse pièce sur Frédéric II; elle a pour titre : Lettre du grand
                         Electeur au roy de Prusse. C'est une anecdote historique rédigée par
                         Voisenon au début de la guerre de Sept-Ans. Il suppose que des enfers le
                         grand-électeur Frédéric-Guillaume écrit à son arrièrepetit-fils Frédéric II.
@@ -555,7 +668,8 @@
                     <trait>
                         <p>peintre de genre et d'histoire contemporain</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Dessin à la plume sig., grand <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc></item>
+                    <desc>Dessin à la plume sig., grand in-8. 5</desc>
+                </item>
 
                 <item n="108" xml:id="CAT_000073_e108">
                     <num>108</num>
@@ -564,7 +678,9 @@
                         <p>célèbre peintre et graveur, élève de Monsiau, né en 1776 dans la
                             Dordogne, mort en 1831</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Atalante, très-beau dessin au crayon, provenant de la vente Mahérault, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc></item>
+                    <desc>Atalante, très-beau dessin au crayon, provenant de la vente Mahérault,
+                        in-8. 15</desc>
+                </item>
 
                 <item n="109" xml:id="CAT_000073_e109">
                     <num>109</num>
@@ -572,7 +688,8 @@
                     <trait>
                         <p>célèbre peintre de paysages, élève de David, né en 1767</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Château de Bergame, dessin a la mine de plomb, 1826, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4 obl.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc></item>
+                    <desc>Château de Bergame, dessin a la mine de plomb, 1826, in-4 obl. 10</desc>
+                </item>
 
                 <item n="110" xml:id="CAT_000073_e110">
                     <num>110</num>
@@ -580,19 +697,24 @@
                     <trait>
                         <p>célèbre dessinateur et caricaturiste</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Dessin au crayon (sujet militaire), sig., <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4 obl.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc></item>
+                    <desc>Dessin au crayon (sujet militaire), sig., in-4 obl. 15</desc>
+                </item>
                 <item n="111" xml:id="CAT_000073_e111">
                     <num>111</num>
                     <name type="author">Chevandier de Valdrome (Paul),</name>
                     <trait>
                         <p>peintre de paysages</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">La tombe du chevalier, au comte de Caen, dessin à la mine de plomb, signé, 1872, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure>Provenant de sa vente. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc></item>
+                    <desc>L. a. tombe du chevalier, au comte de Caen, dessin à la mine de plomb, signé,
+                        1872, in-8. Provenant de sa vente. 5</desc>
+                </item>
 
                 <item n="112" xml:id="CAT_000073_e112">
                     <num>112</num>
                     <name type="author">Chobar.</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Vue de Barèges-lés-Bains, beau dessin à l'encre de Chine, sig. (commencement du XIXe siècle), <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc></item>
+                    <desc>Vue de Barèges-lés-Bains, beau dessin à l'encre de Chine, sig.
+                        (commencement du XIXe siècle), in-4. 5</desc>
+                </item>
 
 
                 <item n="113" xml:id="CAT_000073_e113">
@@ -601,17 +723,23 @@
                     <trait>
                         <p>célèbre dessinateur et graveur du XVIIIe siècle</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Esquisse au crayon et à la plume, représentant un sujet allégorique pour l'illustration d'un livre, avec plusieurs mots de sa main, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="12" type="price">12</measure></desc></item>
+                    <desc>Esquisse au crayon et à la plume, représentant un sujet allégorique pour
+                        l'illustration d'un livre, avec plusieurs mots de sa main, in-4. 12</desc>
+                </item>
 
                 <item n="114" xml:id="CAT_000073_e114">
                     <num>114</num>
                     <name type="author">Coinchon (A.)</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1">2 croquis, plume et crayon, dont 1 sig., la médaille du revers, etc. (genre Henri Monnier), 1861, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="7" type="price">7</measure></desc></item>
+                    <desc>2 croquis, plume et crayon, dont 1 sig., la médaille du revers, etc.
+                        (genre Henri Monnier), 1861, in-8. 7</desc>
+                </item>
 
                 <item n="115" xml:id="CAT_000073_e115">
                     <num>115</num>
                     <name type="author">Couture (Thomas)</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Charge des plus piquantes d'un dessin de Chassériaux, dessin à la plume, 1846, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8</measure>, certifié par M. G.-G. Chardin. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc></item>
+                    <desc>Charge des plus piquantes d'un dessin de Chassériaux, dessin à la plume,
+                        1846, in-8, certifié par M. G.-G. Chardin. 15</desc>
+                </item>
 
                 <item n="116" xml:id="CAT_000073_e116">
                     <num>116</num>
@@ -620,12 +748,15 @@
                         <p>genre Boucher, devant servir de sujet pour un paysage, in-8 obl. Certifié
                             par M. G</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">G. Chardin. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc></item>
+                    <desc>G. Chardin. 15</desc>
+                </item>
 
                 <item n="117" xml:id="CAT_000073_e117">
                     <num>117</num>
                     <name type="author">Darjou (A.)</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Dessin au crayon, sig., représentant deu<measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="length">x p</measure>ersonnages, homme et femme, en costume du XVIIIe siècle; <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc></item>
+                    <desc>Dessin au crayon, sig., représentant deux personnages, homme et femme, en
+                        costume du XVIIIe siècle; in-8. 10</desc>
+                </item>
 
                 <item n="118" xml:id="CAT_000073_e118">
                     <num>118</num>
@@ -634,7 +765,9 @@
                         <p>célèbre sculpteur et graveur français, élève de Gros et de Bosio, né en
                             1795, mort en 1873</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1"><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="13" type="length">13 p</measure>etits croquis, représentant des scènes de bal, dont 12 sig. de ses initiales et 1 sig. en toutes lettres, <date xmlns="http://www.tei-c.org/ns/1.0" when="1849">1849</date>-50; <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-18. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc></item>
+                    <desc>13 petits croquis, représentant des scènes de bal, dont 12 sig. de ses
+                        initiales et 1 sig. en toutes lettres, 1849-50; in-18. 10</desc>
+                </item>
 
                 <item n="119" xml:id="CAT_000073_e119">
                     <num>119</num>
@@ -643,7 +776,9 @@
                         <p>célèbre peintre de genre et d'histoire, dessinateur, élève du baron Gros,
                             né en 1800, mort en 1870</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">8 dessins sig., dont 2 à la sanguine, très-finement exécutés ; 1830, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8 obl.</measure> Curieuse réunion. <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc></item>
+                    <desc>8 dessins sig., dont 2 à la sanguine, très-finement exécutés ; 1830, in-8
+                        obl. Curieuse réunion. 20</desc>
+                </item>
 
                 <item n="120" xml:id="CAT_000073_e120">
                     <num>120</num>
@@ -651,13 +786,17 @@
                     <trait>
                         <p>célèbre peintre et sculpteur, élève de Court, né à Bordeaux en 1818</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Etude de femme, superbe dessin à la sanguine, sig., <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="15" type="price">15</measure></desc></item>
+                    <desc>Etude de femme, superbe dessin à la sanguine, sig., in-8. 15</desc>
+                </item>
 
 
                 <item n="121" xml:id="CAT_000073_e121">
                     <num>121</num>
                     <name type="author">Fichel (B.-Eug.),</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1">célèbre peintre français, élève de Paul Delaroche, né en 1826. -2 jolis petits croquis, dont 1 au crayon, sig., et l'autre à la plume; <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-18. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc></item>
+                    <desc>célèbre peintre français, élève de Paul Delaroche, né en 1826.-2 jolis
+                        petits croquis, dont 1 au crayon, sig., et l'autre à la plume; in-18.
+                        5</desc>
+                </item>
 
 
 
@@ -667,7 +806,8 @@
                     <trait>
                         <p>célèbre peintre, fils de JeanFrançois, né en 1787</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Marine, joli dessin à l'encre de Chine, sig.; <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-18 obl.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc></item>
+                    <desc>Marine, joli dessin à l'encre de Chine, sig.; in-18 obl. 5</desc>
+                </item>
 
                 <item n="123" xml:id="CAT_000073_e123">
                     <num>123</num>
@@ -675,7 +815,8 @@
                     <trait>
                         <p>dessinateur et graveur français, né en 1796, mort en 1860</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Dessin à la plume, sig., <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc></item>
+                    <desc>Dessin à la plume, sig., in-8. 5</desc>
+                </item>
 
                 <item n="124" xml:id="CAT_000073_e124">
                     <num>124</num>
@@ -683,18 +824,23 @@
                     <trait>
                         <p>le célèbre caricaturiste, né en 1840</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Portrait- charge de M. de Villemessant, au crayon rouge, sig., <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-32. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc></item>
+                    <desc>Portrait-charge de M. de Villemessant, au crayon rouge, sig., in-32.
+                        10</desc>
+                </item>
 
                 <item n="125" xml:id="CAT_000073_e125">
                     <num>125</num>
                     <name type="author">Godde (Antonin). -Fontaine composée de fragments antiques
                         (Rome),</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1">dessin au lavis, sig., décembre 1808, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc></item>
+                    <desc>dessin au lavis, sig., décembre 1808, in-4. 5</desc>
+                </item>
 
                 <item n="126" xml:id="CAT_000073_e126">
                     <num>126</num>
                     <name type="author">Godefroy (F.)</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Joli dessin au crayon, très-finement exécuté, sig., 1833; <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-18 obl.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc></item>
+                    <desc>Joli dessin au crayon, très-finement exécuté, sig., 1833; in-18 obl.
+                        5</desc>
+                </item>
 
 
                 <item n="127" xml:id="CAT_000073_e127">
@@ -703,7 +849,8 @@
                     <trait>
                         <p>peintre distingué.</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Portrait de la soeur Rosalie, joli dessin au crayon, grand <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc></item>
+                    <desc>Portrait de la soeur Rosalie, joli dessin au crayon, grand in-8. 10</desc>
+                </item>
 
                 <item n="128" xml:id="CAT_000073_e128">
                     <num>128</num>
@@ -711,12 +858,15 @@
                     <trait>
                         <p>illustre peintre d'histoire</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Guerriers indiens, esquisse à l'encre de Chine, provenant de la vente Mahérault; <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8 obl.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="25" type="price">25</measure></desc></item>
+                    <desc>Guerriers indiens, esquisse à l'encre de Chine, provenant de la vente
+                        Mahérault; in-8 obl. 25</desc>
+                </item>
 
                 <item n="129" xml:id="CAT_000073_e129">
                     <num>129</num>
                     <name type="author">Houpillard.</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Joli dessin au fusain, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4 obl.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc></item>
+                    <desc>Joli dessin au fusain, in-4 obl. 5</desc>
+                </item>
 
 
                 <item n="130" xml:id="CAT_000073_e130">
@@ -726,7 +876,9 @@
                         <p>célèbre peintre de paysages, élève de Bidault et de Le Thière, né en
                             1803, mort en 1854</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Ruines de l'église de Roclancourt, prés Chaumont (Maute-Marne), dessin au crayon, signé, 1826, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8 obl.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc></item>
+                    <desc>Ruines de l'église de Roclancourt, prés Chaumont (Maute-Marne), dessin au
+                        crayon, signé, 1826, in-8 obl. 5</desc>
+                </item>
 
                 <item n="131" xml:id="CAT_000073_e131">
                     <num>131</num>
@@ -734,7 +886,9 @@
                     <trait>
                         <p>célèbre peintre flamand du XVIIIe siècle</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Porte de Saint-Sébastien, à Rome, superbe dessin à l'encre de Chine, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc></item>
+                    <desc>Porte de Saint-Sébastien, à Rome, superbe dessin à l'encre de Chine, in-8.
+                        20</desc>
+                </item>
 
                 <item n="132" xml:id="CAT_000073_e132">
                     <num>132</num>
@@ -742,7 +896,9 @@
                     <trait>
                         <p>peintre distingué, élève de David d'Angers, né à Narbonne en 1817</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Mendiante de Châteauneuf, près Saint-Malo, dessin au crayon, sig., 1856, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-18. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc></item>
+                    <desc>Mendiante de Châteauneuf, près Saint-Malo, dessin au crayon, sig., 1856,
+                        in-18. 5</desc>
+                </item>
 
                 <item n="133" xml:id="CAT_000073_e133">
                     <num>133</num>
@@ -751,7 +907,8 @@
                         <p>célèbre peintre de batailles de l'école hollandaise au XVIIe siècle, né
                             en Angleterre</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Beau dessin à l'encre de Chine, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="20" type="price">20</measure></desc></item>
+                    <desc>Beau dessin à l'encre de Chine, in-8. 20</desc>
+                </item>
 
                 <item n="134" xml:id="CAT_000073_e134">
                     <num>134</num>
@@ -759,12 +916,16 @@
                     <trait>
                         <p>peintre de paysages et de marine, né à Lyon en 1728, mort en 1808</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Dessin au crayon, sig.; 1803, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8 obl.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="5" type="price">5</measure></desc></item>
+                    <desc>Dessin au crayon, sig.; 1803, in-8 obl. 5</desc>
+                </item>
 
                 <item n="135" xml:id="CAT_000073_e135">
                     <num>135</num>
                     <name type="author">Pottin (H.)</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Joli dessin, sig., au crayon, représentant la soeur Rosalie se jetant (en 1848) au-devant des insurgés qui menaçaient sa maison et sauvant les gardes municipaux qui s'y étaient réfugiés; <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="10" type="price">10</measure></desc></item>
+                    <desc>Joli dessin, sig., au crayon, représentant la soeur Rosalie se jetant (en
+                        1848) au-devant des insurgés qui menaçaient sa maison et sauvant les gardes
+                        municipaux qui s'y étaient réfugiés; in-8. 10</desc>
+                </item>
 
                 <item n="136" xml:id="CAT_000073_e136">
                     <num>136</num>
@@ -772,7 +933,9 @@
                     <trait>
                         <p>peintre de paysages, élève de Bertin, né en 1787</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Vue de Cerdon (Ain), dessin à l'encre de Chine, sig.; 1837, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8 obl.</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" quantity="8" type="price">8</measure></desc></item>
+                    <desc>Vue de Cerdon (Ain), dessin à l'encre de Chine, sig.; 1837, in-8 obl.
+                        8</desc>
+                </item>
 
                 <item n="137" xml:id="CAT_000073_e137">
                     <num>137</num>
@@ -780,12 +943,16 @@
                     <trait>
                         <p>peintre distingué, élève du baron Gros, né en 1808, mort en 1878</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">2 dessins, dont une étude de têtes, au crayon, provenant de sa vente; <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="6" type="price">6</measure></desc></item>
+                    <desc>2 dessins, dont une étude de têtes, au crayon, provenant de sa vente;
+                        in-8. 6</desc>
+                </item>
 
                 <item n="138" xml:id="CAT_000073_e138">
                     <num>138</num>
                     <name type="author">Saulcy (S</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1">L.-J. Caignart de), célèbre antiquaire français, membre de l'Institut, sénateur, né à Lille en 1807. -Dessin à la plume, <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-8. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="8" type="price">8</measure></desc></item>
+                    <desc>L.-J. Caignart de), célèbre antiquaire français, membre de l'Institut,
+                        sénateur, né à Lille en 1807.-Dessin à la plume, in-8. 8</desc>
+                </item>
 
                 <item n="139" xml:id="CAT_000073_e139">
                     <num>139</num>
@@ -794,12 +961,15 @@
                         <p>peintre et littérateur, né dans le département du Nord en 1809, mort en
                             1867</p>
                     </trait>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Pastel sig., représentant une tête de jeune homme; <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-18. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="7" type="price">7</measure></desc></item>
+                    <desc>Pastel sig., représentant une tête de jeune homme; in-18. 7</desc>
+                </item>
 
                 <item n="140" xml:id="CAT_000073_e140">
                     <num>140</num>
                     <name type="author">Ziégler (F.)</name>
-                    <desc xmlns="http://www.tei-c.org/ns/1">Soldats de la ligne en campagne, très-belle aquarelle, sig., sur papier granulé; <measure xmlns="http://www.tei-c.org/ns/1.0" type="format">in-4. </measure><measure xmlns="http://www.tei-c.org/ns/1.0" quantity="12" type="price">12</measure></desc></item>
+                    <desc>Soldats de la ligne en campagne, très-belle aquarelle, sig., sur papier
+                        granulé; in-4. 12</desc>
+                </item>
             </list>
         </body>
         <gap/>
