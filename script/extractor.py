@@ -7,6 +7,7 @@ import re
 import json
 import dateparser
 import datetime
+from decimal import *
 import rep_greg_conversion
 from conversion_tables import *
 from dateparser.search import search_dates
@@ -15,7 +16,9 @@ import xml.etree.ElementTree as ET
 from xml.etree import ElementTree
 
 
-# First step: Extracting the price
+
+
+
 def price_extractor(descList):
     """
     Extracts the prices of the manuscripts sold and described in the tei:desc.
@@ -45,7 +48,7 @@ def price_extractor(descList):
             end_position = position[1]
         elif decimal_pattern.match(raw_price):
             position = re.search("\d{1,3}\.\d{1,3}$", desc).span()
-            price = raw_price
+            price = raw_price # there is an issue with decimals. float() rounds the number...
             start_position = position[0]
             end_position = position[1]
         elif pattern_1.match(raw_price):
@@ -394,6 +397,7 @@ def format_extractor(descList, input_dict):
 def term_extractor(descList, input_dict):
     print("Extracting term information")
     for item in descList:
+        author = item[2]
         id = item[1]
         desc = item[0]
         desc_xml = desc
@@ -569,6 +573,8 @@ def term_extractor(descList, input_dict):
                           desc[end_position:])
         dict_values["desc_xml"] = desc_xml
         dict_values["term"] = norm_term
+        print(author)
+        dict_values["author"] = author
         output_dict[id] = dict_values
     return input_dict
 
@@ -600,10 +606,22 @@ def desc_extractor(input):
         desc = root.xpath("//tei:desc", namespaces=tei)
         list_desc = []
         for i in desc:
+            author = i.xpath("parent::tei:item/tei:name[@type='author']", namespaces=tei)
             id = i.xpath("parent::tei:item/@xml:id", namespaces=tei)
             if len(id) > 0:  # some of the tei:item do not contain any identifier. We ignore them.
                 id = id[0]
-                list_desc.append([i.text, id])
+                if len(author) > 0:
+                    author = author[0].text
+                    print(author)
+                    try:
+                        author = author.split(" ")[0]# we keep only the surname of the author
+                        list_desc.append([i.text, id, author])
+                    except:
+                        author = None
+                        list_desc.append([i.text, id, author])
+                else:
+                    author = None
+                    list_desc.append([i.text, id, author])
         return list_desc
 
 
@@ -631,7 +649,7 @@ def xml_output_production(dictionnary):
     """
     Replaces all tei:desc by the structure
     :param dictionnary: the dictionnary created by the different extraction steps
-    :return: 
+    :return:
     """
     print("Updating the xml files")
     tei_namespace = "http://www.tei-c.org/ns/1.0"
@@ -677,6 +695,7 @@ if __name__ == "__main__":
         shutil.rmtree(output_dir)
         shutil.copytree(input_dir, output_dir)
     list_desc = conversion_to_list(files)
+    print(len(list_desc))
     output_dict = price_extractor(list_desc)
     output_dict = date_extractor(list_desc, output_dict)
     output_dict = pn_extractor(list_desc, output_dict)
