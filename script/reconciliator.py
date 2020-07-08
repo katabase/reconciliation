@@ -247,7 +247,7 @@ def first_method(dictionnary):
 def author_sorting(dictionnary, authorname):  # this function extracts the entries based on the similarity with the searched author name
     output_dict = {}
     for key in dictionnary:
-        if dictionnary[key]["author"] is not None and similar(dictionnary[key]["author"], authorname) > 0.6:
+        if dictionnary[key]["author"] is not None and similar(dictionnary[key]["author"].lower(), authorname) > 0.75:
                 output_dict[key] = dictionnary[key]
     with open('../output/json/filtered_dict.json', 'w') as outfile:
         outfile.truncate(0)

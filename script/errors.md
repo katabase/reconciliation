@@ -11,6 +11,16 @@ Certificat de noblesse de Th.-Ph. de Saint-Nicolas, trésorier de France au bure
 d'Alençon, avec ses armoiries)
 - Quittance (Pièce sur vélin; 15 mars 1392 (1393), in-8 obl.; fragment de sceau. 50 Quittance)
 
+        "CAT_000064_e38": {
+        "desc": "L. a. s., 1 p. in-8. -2",
+        "price": 2,
+        "desc_xml": "L. a. s., <measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"1\" type=\"length\">1 p.</measure> in-<measure xmlns=\"http://www.tei-c.org/ns/1.0\" quantity=\"2\" type=\"price\">8</measure>. -2",
+        "date": null,
+        "number_of_pages": 1,
+        "format": null
+        }, 
+     [to be fixed, important issue]
+
 ## Issues in date extraction
 - 1734-55 > 1734
 

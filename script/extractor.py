@@ -21,7 +21,7 @@ from xml.etree import ElementTree
 # - finish date extraction (xml output)
 # - double check if there is no entry left aside during the conversion from xml
 # - finish the creation of the types (term: done)
-# - improve format recognition and standardisati1on#
+# - improve format recognition and standardisation#
 
 
 def price_extractor(descList):
