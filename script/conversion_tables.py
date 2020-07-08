@@ -67,3 +67,22 @@ abbreviations = {
     "vend": "vendémiaire",
     "vent": "ventôse",
 }
+
+
+term_types = {
+"Ap.a.s.": 1,
+"P.a.s.": 2,
+"P.a.": 3,
+"P.s.": 4,
+"Bi.a.s.": 5,
+"Bi.s.": 6,
+"L.a.s.": 7,
+"L.a.": 8,
+"L.s.": 9,
+"Br.s.": 10,
+"Q.a.s.": 11,
+"Q.s.": 12,
+"M.a.": 13,
+"C.a.": 14,
+"A.s.": 15
+}

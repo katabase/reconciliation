@@ -9,14 +9,19 @@ import dateparser
 import datetime
 from decimal import *
 import rep_greg_conversion
-from conversion_tables import *
+import conversion_tables
 from dateparser.search import search_dates
 from lxml import etree
 import xml.etree.ElementTree as ET
 from xml.etree import ElementTree
 
 
-
+# TODO:
+# - improve author recognition
+# - finish date extraction (xml output)
+# - double check if there is no entry left aside during the conversion from xml
+# - finish the creation of the types (term: done)
+# - improve format recognition and standardisati1on#
 
 
 def price_extractor(descList):
@@ -240,8 +245,8 @@ def is_float(string):
 
 def is_roman(value):
     try:
-        value in roman_to_arabic.keys()
-        value = roman_to_arabic[value]
+        value in conversion_tables.roman_to_arabic.keys()
+        value = conversion_tables.roman_to_arabic[value]
         return value
     except:
         return value
@@ -275,7 +280,7 @@ def pn_extractor(descList, input_dict):
                         path = 1
                     else:
                         try:
-                            page_number = fractions_to_float[first_group]
+                            page_number = conversion_tables.fractions_to_float[first_group]
                             path = 2
                         except:
                             page_number = "key error, please check the transcription: %s" % first_group
@@ -293,7 +298,7 @@ def pn_extractor(descList, input_dict):
                         pass
                     else:
                         try:
-                            value_1 = fractions_to_float[value_1]
+                            value_1 = conversion_tables.fractions_to_float[value_1]
                             path = 7
                         except:
                             value_1 = 501
@@ -303,7 +308,7 @@ def pn_extractor(descList, input_dict):
                     path = 9
                 else:
                     try:
-                        value_2 = fractions_to_float[second_group]
+                        value_2 = conversion_tables.fractions_to_float[second_group]
                         path = 10
                     except:
                         value_2 = 404
@@ -317,7 +322,7 @@ def pn_extractor(descList, input_dict):
             search = re.search("([0-9\/]{1,6})\s?de\s?p[age]{0,3}\.?", desc)
             position_chaîne = search.span()
             try:  # test to be removed after.
-                page_number = fractions_to_float[search.group(1)]
+                page_number = conversion_tables.fractions_to_float[search.group(1)]
             except:
                 page_number = 0
 
@@ -398,6 +403,7 @@ def term_extractor(descList, input_dict):
     print("Extracting term information")
     for item in descList:
         author = item[2]
+        sell_date = item[3]
         id = item[1]
         desc = item[0]
         desc_xml = desc
@@ -424,7 +430,7 @@ def term_extractor(descList, input_dict):
         if re.search(pas_pattern, desc):
             term_search = re.search(pas_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = "P.a.s."
+            norm_term = conversion_tables.term_types["P.a.s."]
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
@@ -432,7 +438,7 @@ def term_extractor(descList, input_dict):
         elif re.search(apas_pattern, desc):
             term_search = re.search(apas_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = "Ap.a.s."
+            norm_term = conversion_tables.term_types["Ap.a.s."]
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
@@ -441,7 +447,7 @@ def term_extractor(descList, input_dict):
         elif re.search(ps_pattern, desc):
             term_search = re.search(ps_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = "P.s."
+            norm_term = conversion_tables.term_types["P.s."]
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
@@ -449,7 +455,7 @@ def term_extractor(descList, input_dict):
         elif re.search(pa_pattern, desc):
             term_search = re.search(pa_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = "P.a."
+            norm_term = conversion_tables.term_types["P.a."]
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
@@ -458,7 +464,7 @@ def term_extractor(descList, input_dict):
         elif re.search(bias_pattern, desc):
             term_search = re.search(bias_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = "Bi.a.s."
+            norm_term = conversion_tables.term_types["Bi.a.s."]
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
@@ -466,7 +472,7 @@ def term_extractor(descList, input_dict):
         elif re.search(bis_pattern, desc):
             term_search = re.search(bis_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = "Bi.s."
+            norm_term = conversion_tables.term_types["Bi.s."]
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
@@ -475,7 +481,7 @@ def term_extractor(descList, input_dict):
         elif re.search(las_pattern, desc):
             term_search = re.search(las_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = "L.a.s."
+            norm_term = conversion_tables.term_types["L.a.s."]
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
@@ -483,7 +489,7 @@ def term_extractor(descList, input_dict):
         elif re.search(la_pattern, desc):
             term_search = re.search(la_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = "L.a."
+            norm_term = conversion_tables.term_types["L.a."]
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
@@ -491,7 +497,7 @@ def term_extractor(descList, input_dict):
         elif re.search(brs_pattern, desc):
             term_search = re.search(brs_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = "Br.s."
+            norm_term = conversion_tables.term_types["Br.s."]
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
@@ -499,7 +505,7 @@ def term_extractor(descList, input_dict):
         elif re.search(qs_pattern, desc):
             term_search = re.search(qs_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = "Q.s."
+            norm_term = conversion_tables.term_types["Q.s."]
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
@@ -507,7 +513,7 @@ def term_extractor(descList, input_dict):
         elif re.search(ma_pattern, desc):
             term_search = re.search(ma_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = "M.a."
+            norm_term = conversion_tables.term_types["M.a."]
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
@@ -515,7 +521,7 @@ def term_extractor(descList, input_dict):
         elif re.search(ca_pattern, desc):
             term_search = re.search(ca_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = "C.a."
+            norm_term = conversion_tables.term_types["C.a."]
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
@@ -523,7 +529,7 @@ def term_extractor(descList, input_dict):
         elif re.search(qas_pattern, desc):
             term_search = re.search(qas_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = "Q.a.s."
+            norm_term = conversion_tables.term_types["Q.a.s."]
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
@@ -531,7 +537,7 @@ def term_extractor(descList, input_dict):
         elif re.search(ls_pattern, desc):
             term_search = re.search(ls_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = "L.s."
+            norm_term = conversion_tables.term_types["L.s."]
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
@@ -539,7 +545,7 @@ def term_extractor(descList, input_dict):
         elif re.search(as_pattern, desc):  # keep this search the last one
             term_search = re.search(as_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = "A.s."
+            norm_term = conversion_tables.term_types["A.s."]
             position = term_search.span()
             start_position = position[0]
             end_position = position[1]
@@ -573,8 +579,8 @@ def term_extractor(descList, input_dict):
                           desc[end_position:])
         dict_values["desc_xml"] = desc_xml
         dict_values["term"] = norm_term
-        print(author)
         dict_values["author"] = author
+        dict_values["sell_date"] = sell_date
         output_dict[id] = dict_values
     return input_dict
 
@@ -606,22 +612,22 @@ def desc_extractor(input):
         desc = root.xpath("//tei:desc", namespaces=tei)
         list_desc = []
         for i in desc:
+            date = i.xpath("ancestor::tei:TEI//tei:sourceDesc//tei:date", namespaces=tei)[0].text
             author = i.xpath("parent::tei:item/tei:name[@type='author']", namespaces=tei)
             id = i.xpath("parent::tei:item/@xml:id", namespaces=tei)
             if len(id) > 0:  # some of the tei:item do not contain any identifier. We ignore them.
                 id = id[0]
                 if len(author) > 0:
                     author = author[0].text
-                    print(author)
                     try:
                         author = author.split(" ")[0]# we keep only the surname of the author
-                        list_desc.append([i.text, id, author])
+                        list_desc.append([i.text, id, author, date])
                     except:
                         author = None
-                        list_desc.append([i.text, id, author])
+                        list_desc.append([i.text, id, author, date])
                 else:
                     author = None
-                    list_desc.append([i.text, id, author])
+                    list_desc.append([i.text, id, author, date])
         return list_desc
 
 
@@ -695,7 +701,6 @@ if __name__ == "__main__":
         shutil.rmtree(output_dir)
         shutil.copytree(input_dir, output_dir)
     list_desc = conversion_to_list(files)
-    print(len(list_desc))
     output_dict = price_extractor(list_desc)
     output_dict = date_extractor(list_desc, output_dict)
     output_dict = pn_extractor(list_desc, output_dict)
