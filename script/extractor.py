@@ -393,7 +393,26 @@ def format_extractor(descList, input_dict):
                        % (desc[:start_position], desc[start_position:end_position],
                           desc[end_position:])
         dict_values["desc_xml"] = desc_xml
-        dict_values["format"] = ms_format
+        # let's improve the format identification
+        obl_pattern = re.compile(".*ob[l]{0,1}.*")
+        format_pattern = re.compile("(in-[0-9]{1,2})")
+        fol_pattern = re.compile(".*in\-f[olio]?.*")
+        if ms_format is not None:
+            if re.search(fol_pattern, ms_format):
+                out_ms_format = 1
+            elif re.search(format_pattern, ms_format):
+                out_ms_format = re.search(format_pattern, ms_format).group(1)
+                print(out_ms_format)
+                out_ms_format = conversion_tables.format_types[out_ms_format]
+            else:
+                out_ms_format = None
+
+            if out_ms_format is not None:
+                print("ms format: %s" % ms_format)
+                if re.search(obl_pattern, ms_format):
+                    out_ms_format = out_ms_format + 100
+
+        dict_values["format"] = out_ms_format
         output_dict[id] = dict_values
         item[0] = desc_xml
     return input_dict

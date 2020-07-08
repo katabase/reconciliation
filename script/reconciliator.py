@@ -3,6 +3,9 @@ from time import process_time
 import tqdm
 from difflib import SequenceMatcher
 import sys
+import os
+import networkx
+from networkx.algorithms.components.connected import connected_components
 
 
 def similar(a, b):  # https://stackoverflow.com/a/17388505
@@ -164,12 +167,32 @@ def term_cluster(in_dict):
     out_dict.clear()
 
 
-def second_method(input_dict):
-    with open('../output/json/comparison.json', 'r+') as outfile:
-        data = {}
-        outfile.truncate(0)
-        json.dump(data, outfile)
+def to_graph(l):
+    graphed_list = networkx.Graph()
+    for part in l:
+        # each sublist is a bunch of nodes
+        graphed_list.add_nodes_from(part)
+        # it also imlies a number of edges:
+        graphed_list.add_edges_from(to_edges(part))
+    return graphed_list
 
+
+def to_edges(l):
+    """
+        treat `l` as a Graph and returns it's edges
+        to_edges(['a','b','c','d']) -> [(a,b), (b,c),(c,d)]
+    """
+    it = iter(l)
+    last = next(it)
+
+    for current in it:
+        yield last, current
+        last = current
+
+
+def second_method(input_dict):
+    print("Comparing the entries")
+    # First we compare each entry with each other one and give a score to each pair
     for i in tqdm.tqdm(input_dict):
         term = input_dict[i]["term"]
         date = input_dict[i]["date"]
@@ -211,20 +234,50 @@ def second_method(input_dict):
                 except:
                     dict2["author_distance"] = 0
                 dict2["score"] = score
+                # We clean the dictionnary, as A-B comparison equals B-A comparison
                 if "%s-%s" % (j, i) in output_dict1:
                     pass
                 else:
                     output_dict1["%s-%s" % (i, j)] = dict2
-    final_list = []
-    print("Écriture du dictionnaire de sortie")
-    for key in output_dict1:
-        final_list.append((output_dict1[key]["score"], key, output_dict1[key]["author_distance"]))
-    final_list.sort(reverse=True, key=lambda x: (x[2], x[0]))  # we sort by author distance first, and then by the score
-    final_final_list = [item for item in tqdm.tqdm(final_list) if item[0] >= 0.4 and item[2] >= 0.4]
-    print("Nombre d'entrées communes trouvées: %s" % len(final_final_list))
 
-    with open('../output/json/comparison.json', 'w') as outfile:
-        json.dump(final_final_list, outfile)
+    # The final list contains the result of the whole comparison process, without filtering, sorted by the score
+    final_list = []
+    for key in output_dict1:
+        first_entry = key.split("-")[0]
+        second_entry = key.split("-")[1]
+        final_list.append((
+                          output_dict1[key]["score"], [first_entry, second_entry], output_dict1[key]["author_distance"],
+                          {first_entry: mon_dict[first_entry]}, {second_entry: mon_dict[second_entry]}))
+    final_list.sort(reverse=True, key=lambda x: (x[2], x[0]))  # we sort by author distance first, and then by the score
+
+    # The filtered list removes all entries with a score lower than 0.4
+    sensibility = 0.6
+    filtered_list_with_score = [[item[1], item[0]] for item in final_list if item[0] > sensibility and item[2] >= 0.4]
+
+    # Now let's create the clusters (possible limit: we loose the scoring)
+    filtered_list = [item[0] for item in filtered_list_with_score]
+    graphed_list = to_graph(filtered_list)  # https://stackoverflow.com/a/4843408
+    cleaned_list = [list(item) for item in list(connected_components(graphed_list))]
+    cleaned_output_list = []
+    n = 0
+    for item in cleaned_list:
+        temp_list = []
+        for entry in item:
+            temp_list.append({entry: mon_dict[entry]})
+        cleaned_output_list.append(temp_list)
+        cleaned_output_list[n].append(item)
+        temp_list.reverse()
+        n += 1
+
+    print("Number of pairs found: %s" % (len(filtered_list)))
+    print("Number of reconciliated documents: %s" % (len(cleaned_output_list)))
+
+    with open('../output/json/%s/reconciliated_pairs.json' % norm_author, 'w') as outfile:
+        json.dump(filtered_list_with_score, outfile)
+
+    with open('../output/json/%s/reconciliated_documents.json' % norm_author, 'w') as outfile:
+        outfile.truncate(0)
+        json.dump(cleaned_output_list, outfile)
 
 
 def first_method(dictionnary):
@@ -244,13 +297,15 @@ def first_method(dictionnary):
     print("Elapsed time during the whole program in seconds:", t_stop - t1)
 
 
-def author_sorting(dictionnary, authorname):  # this function extracts the entries based on the similarity with the searched author name
+def author_filtering(dictionnary,
+                   authorname):  # this function extracts the entries based on the similarity with the searched author name
     output_dict = {}
     for key in dictionnary:
         if dictionnary[key]["author"] is not None and similar(dictionnary[key]["author"].lower(), authorname) > 0.75:
-                output_dict[key] = dictionnary[key]
-    with open('../output/json/filtered_dict.json', 'w') as outfile:
+            output_dict[key] = dictionnary[key]
+    with open('../output/json/%s/filtered_db.json' % norm_author, 'w') as outfile:
         outfile.truncate(0)
+        print("Number of documents of %s in the database: %s" % (authorname, len(output_dict)))
         json.dump(output_dict, outfile)
     return output_dict
 
@@ -258,11 +313,16 @@ def author_sorting(dictionnary, authorname):  # this function extracts the entri
 if __name__ == "__main__":
     t1 = process_time()
     author = sys.argv[1]
+    normalisation_table = str.maketrans("éèêàç", "eeeac") # We normalize author names to create the folders
+    norm_author = author.translate(normalisation_table)
+    try:
+        os.mkdir("../output/json/%s" % norm_author)
+    except:
+        pass
     with open('../output/json/export.json', 'r') as outfile:
         mon_dict = json.load(outfile)
-    mon_dict = author_sorting(mon_dict, author)
+    mon_dict = author_filtering(mon_dict, author)
     output_dict1 = {}
     second_method(mon_dict)
     t_stop = process_time()
-    print(t_stop - t1)
     print("Elapsed time during the whole program in seconds:", t_stop - t1)
