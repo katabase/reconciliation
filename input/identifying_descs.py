@@ -23,7 +23,7 @@ def adding_id(file):
             else:
                 print(existing_id)
 
-        output_file = "../input/Data_clean_with_id/%s" % file.split("/")[-1]
+        output_file = "Data_clean_with_id/%s" % file.split("/")[-1]
         with open(output_file, "w+") as sortie_xml:
             output = etree.tostring(output_root, pretty_print=True, encoding='utf-8', xml_declaration=True).decode(
                 'utf8')
@@ -33,6 +33,6 @@ def adding_id(file):
 
 if __name__ == "__main__":
     print("Adding xml:id to each tei:desc")
-    path = "../input/Data_clean/*.xml"
+    path = "Data_clean/*.xml"
     for xml_file in glob.iglob(path):
         adding_id(xml_file)
