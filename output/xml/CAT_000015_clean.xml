@@ -1,4 +1,5 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000015">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000015">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -97,7 +98,7 @@
                <trait>
                   <p>, (1626-1696).</p>
                </trait>
-               <desc>L. aut., au président de Moulceau, Grignan, 5 juin
+               <desc xml:id="CAT_000015_e94_1">L. aut., au président de Moulceau, Grignan, 5 juin
                1695. 4 pp. 1/4 in-8.</desc>
                <note>Charmante lettre de reproche pour un silence persévérant. Belle pièce
                très rare, surtout autog. signée.</note>

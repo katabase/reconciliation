@@ -1,4 +1,5 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000073">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000073">
     <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
         <fileDesc>
             <titleStmt>
@@ -86,7 +87,7 @@
                         <p>directeur général des bâtiments du roi, membre de l'Académie des
                             sciences, mort en 1810</p>
                     </trait>
-                    <desc>Let. sig. avec 5 lig. aut.; Versailles, 25 juil. 1780, 1 p. in-f. 4</desc>
+                    <desc xml:id="CAT_000073_e1_1">Let. sig. avec 5 lig. aut.; Versailles, 25 juil. 1780, 1 p. in-f. 4</desc>
                     <note>Curieuse lettre relative à trois tableaux de Téniers, qu'on proposait au
                         roi. « Je doute fort que ces tableaux puissent convenir à Sa Majesté; il est
                         difficile de trouver des Téniers qui aillent à côté des siens; de plus, ce
@@ -101,7 +102,7 @@
                         <p>reine de Navarre, fille de Philippe III de Navarre, femme de Philippe VI
                             de Valois, morte en 1398</p>
                     </trait>
-                    <desc>Charte datée de Paris, 25 mars 1376, 1 p. in-4 obl. Les généraux
+                    <desc xml:id="CAT_000073_e2_1">Charte datée de Paris, 25 mars 1376, 1 p. in-4 obl. Les généraux
                         conseillers sur le fait des aides (impôts extraordinaires), reconnaissent
                         avoir reçu cent francs d'or perçus sur les terres appartenant à la reine
                         Blanche. 10</desc>
@@ -110,7 +111,7 @@
                 <item n="3" xml:id="CAT_000073_e3">
                     <num>3</num>
                     <name type="author">Bourgogne (la duchesse de)</name>
-                    <desc>Comptes de la duchesse de Bourgogne, à Versailles, pour le 16 juin 1699,
+                    <desc xml:id="CAT_000073_e3_1">Comptes de la duchesse de Bourgogne, à Versailles, pour le 16 juin 1699,
                         pièce originale, sur velin, 1 p. in-f. 10</desc>
                     <note>Le total des dépenses de la duchesse se monte, pour un seul jour, à 140
                         livres 15 sous 6 deniers</note>
@@ -122,7 +123,7 @@
                     <trait>
                         <p>illustre maréchal de France</p>
                     </trait>
-                    <desc>1° Journal de ce qui s'est passé au siège de Sainte-Brigite, avec le
+                    <desc xml:id="CAT_000073_e4_1">1° Journal de ce qui s'est passé au siège de Sainte-Brigite, avec le
                         détail de ce qui s'est fait au bombardement de Pignerolles (1690) ; copie du
                         temps, 8 p. in-f.; 2° Copie originale de sa lettre à Louis XIV, pour lui
                         annoncer la victoire de la Marsaille, 15 p. in-f.; 3° Copie du temps de 2
@@ -135,7 +136,7 @@
                     <name type="author">Charles IX, roi de France. sur les opérations de l'armée
                         catholique, placée sous le commandement du duc d'Anjou (le futur Henri
                         III</name>
-                    <desc>4 pièces originales (copies du temps),après la bataille de Saint-Denis (10
+                    <desc xml:id="CAT_000073_e5_1">4 pièces originales (copies du temps),après la bataille de Saint-Denis (10
                         novembre 1567) et la mort du connétable de Montmorency; décembre
                         1567-février 1568 13 p. in-f. 20</desc>
                     <note> Pièces importantes pour l'histoire de la deuxième guerre de religion, qui
@@ -149,7 +150,7 @@
                 <item n="6" xml:id="CAT_000073_e6">
                     <num>6</num>
                     <name type="author">Charles IX</name>
-                    <desc>L. a. s. de Mme de Sepois, à son neveu M. de Piennes; 17 mai (1573), 1 p.
+                    <desc xml:id="CAT_000073_e6_1">L. a. s. de Mme de Sepois, à son neveu M. de Piennes; 17 mai (1573), 1 p.
                         in-f. 15</desc>
                     <note>Lettre historique. Elle lui apprend qu'au retour de l'expédition dans les
                         Pays-Bas (juillet 1572), où Genlis fut massacré et Lanoue fait prisonnier en
@@ -169,7 +170,7 @@
                     <trait>
                         <p>comte de Blois et sire de Guise, mort en 1342</p>
                     </trait>
-                    <desc>Charte sur vélin, 14 août 1338, 1 p. in-4 obl. 12</desc>
+                    <desc xml:id="CAT_000073_e7_1">Charte sur vélin, 14 août 1338, 1 p. in-4 obl. 12</desc>
                     <note>Pièce historique. Reconnaissance de Gui de Chastillon envers Baudin de
                         Guérin, de la somme de dix livres tournois, que celui-ci lui a prêtée « pour
                         cause de la présente guerre d'entre le roy mon seigneur et le roy
@@ -183,7 +184,7 @@
                         <p>duchesse de Savoie, fille de Henri IV, célèbre par la fermeté avec
                             laquelle elle gouverna après la mort de son mari</p>
                     </trait>
-                    <desc>Les amours de Chrestienue, duchesse de Savoye, traduction de l'itatien en
+                    <desc xml:id="CAT_000073_e8_1">Les amours de Chrestienue, duchesse de Savoye, traduction de l'itatien en
                         français, copie du temps, 19 p. in-f. Un peu tachée d'eau. 15</desc>
                 </item>
 
@@ -194,7 +195,7 @@
                         <p>fille de Louis III de Bourbon-Condé et de Mile de Nantes, femme de
                             Louis-Armand de Bourbon-Conti, qui en était très-jaloux, dit Barbier</p>
                     </trait>
-                    <desc>Pièce sig.; 19 août 1773, 7 p. in-f. 10</desc>
+                    <desc xml:id="CAT_000073_e9_1">Pièce sig.; 19 août 1773, 7 p. in-f. 10</desc>
                     <note>Compte à elle présenté au sujet de la succession de la comtesse de
                         Montmorency Bours, dont elle était légataire universelle. Cette pièce, en
                         grande partie relative à l'enterrement de la comtesse, est curieuse par les
@@ -208,7 +209,7 @@
                         <p>illustre poète tragique du XVIIIe siècle, de l'Académie française, né à
                             Dijon</p>
                     </trait>
-                    <desc>Approbation de 3 lig. aut. sig. au bas du manuscrit intitulé : L'Epreuve
+                    <desc xml:id="CAT_000073_e10_1">Approbation de 3 lig. aut. sig. au bas du manuscrit intitulé : L'Epreuve
                         ridicule ou la dupe de soi-même; 29 septembre 1740, 32 p. in-f. 10</desc>
                 </item>
 
@@ -219,7 +220,7 @@
                         <p>célèbre poète élégiaque, à laquelle Béranger a consacré une de ses plus
                             jolies chansons</p>
                     </trait>
-                    <desc>Manuscrits non autographes provenant de ses papiers, représentant la
+                    <desc xml:id="CAT_000073_e11_1">Manuscrits non autographes provenant de ses papiers, représentant la
                         valeur d'un fort volume in-4. 10</desc>
                     <note>Recueil de vers et pièces en prose, 5 cahiers de chansons : recueil de
                         morale; histoire et établissement du christianisme en Suède, etc. On y a
@@ -233,7 +234,7 @@
                         <p>homme d'Etat et illustre orateur parlementaire, membre de l'Académie
                             française</p>
                     </trait>
-                    <desc>Son portrait (galerie des représentants du peuple de 1848), avec une
+                    <desc xml:id="CAT_000073_e12_1">Son portrait (galerie des représentants du peuple de 1848), avec une
                         dédicace de 4 lig. aut. sig., in-4. 10</desc>
                     <note>Voici le texte de cette dédicace : « Quel que soit le sort réservé à notre
                         patrie, les républicains doivent conserver la dignité de leur foi politique,
@@ -246,7 +247,7 @@
                     <trait>
                         <p>infant et duc de Parme, élève de Condillac</p>
                     </trait>
-                    <desc>Traité sur l'étude de l'histoire et sur le gouvernement des peuples, dédié
+                    <desc xml:id="CAT_000073_e13_1">Traité sur l'étude de l'histoire et sur le gouvernement des peuples, dédié
                         au prince de Parme, par Lefort, 1 vol, in-4 d'environ 250 pages, relié en
                         veau. 35</desc>
                     <note>Curieux manuscrit écrit en italien. On y trouve d'intéressants détails sur
@@ -261,7 +262,7 @@
                     <trait>
                         <p>illustre connétable de France</p>
                     </trait>
-                    <desc>mort en 1380. Extrait</desc>
+                    <desc xml:id="CAT_000073_e14_1">mort en 1380. Extrait</desc>
                     <note>des registres du Parlement, relatif à un accord entre Jeanne de Laval,
                         comtesse de Longueville, dame de Tinteniac, veuve du connétable Bertrand du
                         Guesclin et Olivier du Guesclin, comte de Longueville, sire de la
@@ -279,7 +280,7 @@
                             Charles VI, né à Dijon en 1371, assassiné à Montereau le 10 septembre
                             1419</p>
                     </trait>
-                    <desc>Charte originale sur vélin; Troyes, 17 février 1417, 1 p. in-4 obl.
+                    <desc xml:id="CAT_000073_e15_1">Charte originale sur vélin; Troyes, 17 février 1417, 1 p. in-4 obl.
                         Légères taches. 15</desc>
                     <note>Curieuse pièce. Avis donné à Etienne de Sens, maître général des monnaies,
                         de l'autorisation qu'il a accordée à Jean de la Baume et à Huguenin de
@@ -297,7 +298,7 @@
                         <p>reine de Sicile, fille du comte de Laval, seconde femme de René d'Anjou,
                             morte en 1498</p>
                     </trait>
-                    <desc>Pièce sig. par Nicolas de Laval, seigneur de la Roche; 7 mars 1498 (1499),
+                    <desc xml:id="CAT_000073_e16_1">Pièce sig. par Nicolas de Laval, seigneur de la Roche; 7 mars 1498 (1499),
                         1 p. in-4. . 10</desc>
                     <note>Très-curieuse pièce. Accord relatif à la succession de Jeanne, reine de
                         Sicile, et de Françoise de Dinan, dame de Chateaubriant, deuxième femme du
@@ -313,7 +314,7 @@
                     <trait>
                         <p>impératrice des français.</p>
                     </trait>
-                    <desc> Procès-verbal d'expertise d'uné parure complète en rubis d'Orient et
+                    <desc xml:id="CAT_000073_e17_1"> Procès-verbal d'expertise d'uné parure complète en rubis d'Orient et
                         brillants, fournie à Sa Majesté l'impératrice-reine Joséphine, d'une valeur
                         de 100,000 fr. par MM. Etienne Nitot et fils, 1810, 4 p. 1/2 in-f. 6</desc>
                 </item>
@@ -324,7 +325,7 @@
                     <trait>
                         <p>littérateur et journaliste distingué, né à Amiens en 1812</p>
                     </trait>
-                    <desc>Sa photographie, avec une dédicace en vers de 4 lignes aut. sig.; 6
+                    <desc xml:id="CAT_000073_e18_1">Sa photographie, avec une dédicace en vers de 4 lignes aut. sig.; 6
                         septembre 1873, in-4. 10</desc>
                     <note>Voici le texte de cette dédicace : J'offre à mon ami Gay cette figure
                         allègre ; Quand on fit ce portrait, nourri de bons repas, J'étais gras,
@@ -335,7 +336,7 @@
                 <item n="19" xml:id="CAT_000073_e19">
                     <num>19</num>
                     <name type="author">Law (Banque de)</name>
-                    <desc>. Billet de 120 livres de la Banque de Law, 1716, in-4. 5</desc>
+                    <desc xml:id="CAT_000073_e19_1">. Billet de 120 livres de la Banque de Law, 1716, in-4. 5</desc>
                 </item>
 
                 <item n="20" xml:id="CAT_000073_e20">
@@ -345,7 +346,7 @@
                         <p>célèbre poète dramatique, auteur de l'Ami des lois, membre de l'Académie
                             française</p>
                     </trait>
-                    <desc>Athènes sauvée, tragédie en cinq actes, manuscrit aut., 92 p. in-4.
+                    <desc xml:id="CAT_000073_e20_1">Athènes sauvée, tragédie en cinq actes, manuscrit aut., 92 p. in-4.
                         20</desc>
                     <note>Important manuscrit d'une tragédie qui n'a pas été représentée</note>
                 </item>
@@ -357,7 +358,7 @@
                         <p>écrivain et administrateur français, auteur d'ouvrages sur les colonies,
                             né à Lyon en 1743, mort en 1822</p>
                     </trait>
-                    <desc>Détails du voyage du sieur Lescallier en Angleterre, en Russie et en
+                    <desc xml:id="CAT_000073_e21_1">Détails du voyage du sieur Lescallier en Angleterre, en Russie et en
                         Suède, pendant l'année 1775, manuscrit du temps, 145 p. in-4, relié en
                         maroquin, tranches dorées. 15</desc>
                 </item>
@@ -368,7 +369,7 @@
                     <trait>
                         <p>roi de France</p>
                     </trait>
-                    <desc>Pièce sig. sur vélin; Saint-Germain-en-Laye, 8 février 1638, in-4 obl. Un
+                    <desc xml:id="CAT_000073_e22_1">Pièce sig. sur vélin; Saint-Germain-en-Laye, 8 février 1638, in-4 obl. Un
                         peu tachée. 8</desc>
                     <note>Curieuse pièce par laquelle il ordonne à ses gens des comptes de Paris de
                         payer aux trésoriers de France, garde-scel, intendants et procureurs, les
@@ -379,7 +380,7 @@
                 <item n="23" xml:id="CAT_000073_e23">
                     <num>23</num>
                     <name type="author">Louis XIII</name>
-                    <desc>8 pièces. 1° Let. sig. sur vélin; Paris, 31 décembre 1626, 1 p. in-f.
+                    <desc xml:id="CAT_000073_e23_1">8 pièces. 1° Let. sig. sur vélin; Paris, 31 décembre 1626, 1 p. in-f.
                         Ordre de paiement d'une somme de 600 livres « au sieur Bertius, l'un de nos
                         professeurs et cosmographes ».-2° Mémoire abrégé de l'état et disposition
                         du pays et affaires de l'alliance du roy, en Suisse, 1624, manuscrit du
@@ -400,7 +401,7 @@
                     <trait>
                         <p>roi de France.</p>
                     </trait>
-                    <desc>Copie d'un pamphlet publié à Cologne, en 1692, dirigé contre la politique
+                    <desc xml:id="CAT_000073_e24_1">Copie d'un pamphlet publié à Cologne, en 1692, dirigé contre la politique
                         de Louis XIV, et intitulé : « L'ombre du marquis de Louvois consultée par
                         Louis quatorze sur les affaires présentes , manuscrit du temps, 132 p. in-4.
                         25</desc>
@@ -429,7 +430,7 @@
                         <p>19 pièces. 1° Relation du lit de justice tenu par le roi, en 1643,4 p.
                             in-f</p>
                     </trait>
-                    <desc>2° Harangue de M. Talon, avocat général, en la séance du lit de justice du
+                    <desc xml:id="CAT_000073_e25_1">2° Harangue de M. Talon, avocat général, en la séance du lit de justice du
                         roy, tenue en parlement de Paris, le 15 janvier 1648, 8 p. in-f.-3°
                         Réflexions politiques sur le rétablissement du marquis de Châteaneuf, comme
                         garde-des-sceaux, 1660, 17 p. 1/4 in-4.-4° Copie d'une lettre de Mme
@@ -453,7 +454,7 @@
                     <trait>
                         <p>roi de France</p>
                     </trait>
-                    <desc>Pièce sig. sur vélin (par le secrétaire de la main); Versailles, 12 sept.
+                    <desc xml:id="CAT_000073_e26_1">Pièce sig. sur vélin (par le secrétaire de la main); Versailles, 12 sept.
                         1767, double in-8. 15</desc>
                     <note>Curieuse pièce. Lettres patentes du roi accordant à David Crémot, François
                         Mesnard de Couishard, Claude Lambinet de La Saudray et Pierre Hennique le
@@ -468,7 +469,7 @@
                     <trait>
                         <p>créateur de la diplomatique, né dans les Ardennes en 1632</p>
                     </trait>
-                    <desc>Pièce sig. par Robert Gravel, seigneur de Marly, ambassadeur de France en
+                    <desc xml:id="CAT_000073_e27_1">Pièce sig. par Robert Gravel, seigneur de Marly, ambassadeur de France en
                         Suisse; Bade, 23 juillet 1683, 1 p. in-4 obl., cachet à ses armes. 10</desc>
                     <note>Curieuse pièce. Il recommande « à toutes les personnes auxquelles ils
                         pourront s'adresser, dom Mabillon et dom Germain », qui se rendent en
@@ -484,7 +485,7 @@
                             Marguerite de Brabant, femme de Philippe de Rouves, puis de
                             Philippe-le-Hardi. née en 1350, morte à Arras en 1405</p>
                     </trait>
-                    <desc>Charte originale sur vélin; 20 mai 1392, 1 p. in-4 obl. 20</desc>
+                    <desc xml:id="CAT_000073_e28_1">Charte originale sur vélin; 20 mai 1392, 1 p. in-4 obl. 20</desc>
                     <note>Intéressante pièce. Ordre de payer à Jean Bouchet, tailleur des robes de
                         sa fille, la comtesse de Nevers, et à quatre couturiers, la somme de -7 -
                         huit francs pour « seze jours qu'ilz ont ouvrés à faire les robes et
@@ -497,7 +498,7 @@
                     <trait>
                         <p>duchesse de Bourgogne, femme de Jean-sans- Peur</p>
                     </trait>
-                    <desc>3 pièces sur vélin, 1419, in-8 obl. 15</desc>
+                    <desc xml:id="CAT_000073_e29_1">3 pièces sur vélin, 1419, in-8 obl. 15</desc>
                     <note>Pièces curieuses relatives à des sommes payées par la duchesse à
                         Cohorsquin, chambellan du feu duc, le Moyne de Neuville, son écuyer
                         tranchant, Jean Philippot et Antoine de la Marche, qui se rendent en Savoie
@@ -512,7 +513,7 @@
                             femme de Henri IV, dite la Reine Margot, princesse célèbre par ses
                             galanteries et son amour pour les arts, née en 1552, morte en 1615.</p>
                     </trait>
-                    <desc>Pièce du temps, en italien, ayant pour titre : Instrucion de Madama
+                    <desc xml:id="CAT_000073_e30_1">Pièce du temps, en italien, ayant pour titre : Instrucion de Madama
                         Margarita, octobre 1588-août 1589, 12 p. in-f. 20</desc>
                     <note>Document historique important. Mémoire rédigé sous les yeux de Marguerite
                         de Valois et devant servir d'instructions à son envoyé près Philippe II,
@@ -532,7 +533,7 @@
                     <trait>
                         <p>le grand théologien et moraliste de Port- Royal</p>
                     </trait>
-                    <desc>Lettre à lui adressée par un religieux de Port-Royal, le 14 mars 1688, 2
+                    <desc xml:id="CAT_000073_e31_1">Lettre à lui adressée par un religieux de Port-Royal, le 14 mars 1688, 2
                         p. 1/2 in-8, cachet armorié. 5</desc>
                     <note>Curieuse épitre où, après quelques mots d'éloges de ses Essais, on lui
                         soumet un cas singulier de confession</note>
@@ -544,7 +545,7 @@
                     <trait>
                         <p>duc de Bourgogne.</p>
                     </trait>
-                    <desc>Charte originale sur vélin; Paris, 24 juillet 1388, in-4. 15</desc>
+                    <desc xml:id="CAT_000073_e32_1">Charte originale sur vélin; Paris, 24 juillet 1388, in-4. 15</desc>
                     <note>Pièce curieuse. Rôle des épices que le duc de Bourgogne a l'intention
                         d'emporter dans son voyage, et mandement ordonnant le paiement de 78 livres
                         16 sous à Guillemin de Mouchault, valet de chambre et épicier, pour la dite
@@ -555,7 +556,7 @@
                 <item n="33" xml:id="CAT_000073_e33">
                     <num>33</num>
                     <name type="author">Potier de Gesvres (famille</name>
-                    <desc>Pièce sur vélin, signée par le ministre Phélypeaux; 12 avril 1729, 25 p.
+                    <desc xml:id="CAT_000073_e33_1">Pièce sur vélin, signée par le ministre Phélypeaux; 12 avril 1729, 25 p.
                         in-fol. 25</desc>
                     <note>Intéressante pièce. Arrêt du Conseil du Roi qui maintient Mlle Marie-
                         Jeanne-Félix Potier de Gesvres dans les droits de péage de Lagny-sur- Marne,
@@ -570,7 +571,7 @@
                         <p>chancelier de France sous François Ier, emprisonné pour malversations, né
                             à Angers.</p>
                     </trait>
-                    <desc>1° Minutes des lettres du roi François Ier au Parlement de Paris, avril
+                    <desc xml:id="CAT_000073_e34_1">1° Minutes des lettres du roi François Ier au Parlement de Paris, avril
                         1543, 6 p. 1/2 in-fol.; 2° Minute du brevet délivré en vertu des ordres du
                         Roi, pour faire conduire « en la tour carrée du palais et par devers
                         Messieurs de la Cour pour y être jugé, Messire Guillaume Poyet, naguère
@@ -588,7 +589,7 @@
                     <trait>
                         <p>le grand poète tragique</p>
                     </trait>
-                    <desc>Let. aut. de Males-herbes à M. Nigau; Paris, 23 juin (1778), 1 p. 1/4
+                    <desc xml:id="CAT_000073_e35_1">Let. aut. de Males-herbes à M. Nigau; Paris, 23 juin (1778), 1 p. 1/4
                         in-4. 15</desc>
                     <note>Curieuse lettre. Il le prie de rédiger pour M. de Foncemagne une anecdote
                         sur la sépulture de Racine. Après la ruine de Port-Royal, un curé dévot et
@@ -607,7 +608,7 @@
                             Rabutin-Chantal, fille de sainte Chantal et veuve d'Antoine de
                             Toulongéon ; Jean de Berbisey, le président Baillet, etc</p>
                     </trait>
-                    <desc>2° Let. sig. du duc du Maine à Mlle de Sévigné, 1701, 1 p. in-4, cachet.
+                    <desc xml:id="CAT_000073_e36_1">2° Let. sig. du duc du Maine à Mlle de Sévigné, 1701, 1 p. in-4, cachet.
                         Piqûre d'humidité dans la marge.-3° Pièce sur vélin avec 5 lig. aut. sig.
                         d'Anne de Sévigné; L. a. Gailleule, 1644, 12 p. in-4.-4° 3 let. aut. sig. de
                         Mme la comtesse de Sainte-Agathe, dernière descendante de Mme de Sévigné,
@@ -620,7 +621,7 @@
                     <trait>
                         <p>l'illustre architecte du Panthéon, né près d'Auxerre</p>
                     </trait>
-                    <desc>1° Réponse de 11 lig. aut. sig. au bas d'une lettre adressée à M. le
+                    <desc xml:id="CAT_000073_e37_1">1° Réponse de 11 lig. aut. sig. au bas d'une lettre adressée à M. le
                         marquis de Marigny, 4 mars 1767, 3 p. in-4.-2° 3 pièces le concernant.
                         10</desc>
                 </item>
@@ -632,7 +633,7 @@
                         <p>célèbre écrivain ultramontain, né à Boynes (Loiret) en 1813, mort
                             récemment</p>
                     </trait>
-                    <desc>Son portrait photographié en pied, avec dédicace aut. sig.; 1857, in-4. La
+                    <desc xml:id="CAT_000073_e38_1">Son portrait photographié en pied, avec dédicace aut. sig.; 1857, in-4. La
                         photographie est un peu passée. 10</desc>
                 </item>
 
@@ -643,7 +644,7 @@
                         <p>poète aussi spirituel que fécond, le type des épicuriens du siècie de
                             Louis XV, membre de l'Académie française</p>
                     </trait>
-                    <desc>Pièce aut., (1756), 4 p. 1/4 in-4. 20</desc>
+                    <desc xml:id="CAT_000073_e39_1">Pièce aut., (1756), 4 p. 1/4 in-4. 20</desc>
                     <note>Très-curieuse pièce sur Frédéric II; elle a pour titre : Lettre du grand
                         Electeur au roy de Prusse. C'est une anecdote historique rédigée par
                         Voisenon au début de la guerre de Sept-Ans. Il suppose que des enfers le
@@ -668,7 +669,7 @@
                     <trait>
                         <p>peintre de genre et d'histoire contemporain</p>
                     </trait>
-                    <desc>Dessin à la plume sig., grand in-8. 5</desc>
+                    <desc xml:id="CAT_000073_e107_1">Dessin à la plume sig., grand in-8. 5</desc>
                 </item>
 
                 <item n="108" xml:id="CAT_000073_e108">
@@ -678,7 +679,7 @@
                         <p>célèbre peintre et graveur, élève de Monsiau, né en 1776 dans la
                             Dordogne, mort en 1831</p>
                     </trait>
-                    <desc>Atalante, très-beau dessin au crayon, provenant de la vente Mahérault,
+                    <desc xml:id="CAT_000073_e108_1">Atalante, très-beau dessin au crayon, provenant de la vente Mahérault,
                         in-8. 15</desc>
                 </item>
 
@@ -688,7 +689,7 @@
                     <trait>
                         <p>célèbre peintre de paysages, élève de David, né en 1767</p>
                     </trait>
-                    <desc>Château de Bergame, dessin a la mine de plomb, 1826, in-4 obl. 10</desc>
+                    <desc xml:id="CAT_000073_e109_1">Château de Bergame, dessin a la mine de plomb, 1826, in-4 obl. 10</desc>
                 </item>
 
                 <item n="110" xml:id="CAT_000073_e110">
@@ -697,7 +698,7 @@
                     <trait>
                         <p>célèbre dessinateur et caricaturiste</p>
                     </trait>
-                    <desc>Dessin au crayon (sujet militaire), sig., in-4 obl. 15</desc>
+                    <desc xml:id="CAT_000073_e110_1">Dessin au crayon (sujet militaire), sig., in-4 obl. 15</desc>
                 </item>
                 <item n="111" xml:id="CAT_000073_e111">
                     <num>111</num>
@@ -705,14 +706,14 @@
                     <trait>
                         <p>peintre de paysages</p>
                     </trait>
-                    <desc>L. a. tombe du chevalier, au comte de Caen, dessin à la mine de plomb, signé,
+                    <desc xml:id="CAT_000073_e111_1">L. a. tombe du chevalier, au comte de Caen, dessin à la mine de plomb, signé,
                         1872, in-8. Provenant de sa vente. 5</desc>
                 </item>
 
                 <item n="112" xml:id="CAT_000073_e112">
                     <num>112</num>
                     <name type="author">Chobar.</name>
-                    <desc>Vue de Barèges-lés-Bains, beau dessin à l'encre de Chine, sig.
+                    <desc xml:id="CAT_000073_e112_1">Vue de Barèges-lés-Bains, beau dessin à l'encre de Chine, sig.
                         (commencement du XIXe siècle), in-4. 5</desc>
                 </item>
 
@@ -723,21 +724,21 @@
                     <trait>
                         <p>célèbre dessinateur et graveur du XVIIIe siècle</p>
                     </trait>
-                    <desc>Esquisse au crayon et à la plume, représentant un sujet allégorique pour
+                    <desc xml:id="CAT_000073_e113_1">Esquisse au crayon et à la plume, représentant un sujet allégorique pour
                         l'illustration d'un livre, avec plusieurs mots de sa main, in-4. 12</desc>
                 </item>
 
                 <item n="114" xml:id="CAT_000073_e114">
                     <num>114</num>
                     <name type="author">Coinchon (A.)</name>
-                    <desc>2 croquis, plume et crayon, dont 1 sig., la médaille du revers, etc.
+                    <desc xml:id="CAT_000073_e114_1">2 croquis, plume et crayon, dont 1 sig., la médaille du revers, etc.
                         (genre Henri Monnier), 1861, in-8. 7</desc>
                 </item>
 
                 <item n="115" xml:id="CAT_000073_e115">
                     <num>115</num>
                     <name type="author">Couture (Thomas)</name>
-                    <desc>Charge des plus piquantes d'un dessin de Chassériaux, dessin à la plume,
+                    <desc xml:id="CAT_000073_e115_1">Charge des plus piquantes d'un dessin de Chassériaux, dessin à la plume,
                         1846, in-8, certifié par M. G.-G. Chardin. 15</desc>
                 </item>
 
@@ -748,13 +749,13 @@
                         <p>genre Boucher, devant servir de sujet pour un paysage, in-8 obl. Certifié
                             par M. G</p>
                     </trait>
-                    <desc>G. Chardin. 15</desc>
+                    <desc xml:id="CAT_000073_e116_1">G. Chardin. 15</desc>
                 </item>
 
                 <item n="117" xml:id="CAT_000073_e117">
                     <num>117</num>
                     <name type="author">Darjou (A.)</name>
-                    <desc>Dessin au crayon, sig., représentant deux personnages, homme et femme, en
+                    <desc xml:id="CAT_000073_e117_1">Dessin au crayon, sig., représentant deux personnages, homme et femme, en
                         costume du XVIIIe siècle; in-8. 10</desc>
                 </item>
 
@@ -765,7 +766,7 @@
                         <p>célèbre sculpteur et graveur français, élève de Gros et de Bosio, né en
                             1795, mort en 1873</p>
                     </trait>
-                    <desc>13 petits croquis, représentant des scènes de bal, dont 12 sig. de ses
+                    <desc xml:id="CAT_000073_e118_1">13 petits croquis, représentant des scènes de bal, dont 12 sig. de ses
                         initiales et 1 sig. en toutes lettres, 1849-50; in-18. 10</desc>
                 </item>
 
@@ -776,7 +777,7 @@
                         <p>célèbre peintre de genre et d'histoire, dessinateur, élève du baron Gros,
                             né en 1800, mort en 1870</p>
                     </trait>
-                    <desc>8 dessins sig., dont 2 à la sanguine, très-finement exécutés ; 1830, in-8
+                    <desc xml:id="CAT_000073_e119_1">8 dessins sig., dont 2 à la sanguine, très-finement exécutés ; 1830, in-8
                         obl. Curieuse réunion. 20</desc>
                 </item>
 
@@ -786,14 +787,14 @@
                     <trait>
                         <p>célèbre peintre et sculpteur, élève de Court, né à Bordeaux en 1818</p>
                     </trait>
-                    <desc>Etude de femme, superbe dessin à la sanguine, sig., in-8. 15</desc>
+                    <desc xml:id="CAT_000073_e120_1">Etude de femme, superbe dessin à la sanguine, sig., in-8. 15</desc>
                 </item>
 
 
                 <item n="121" xml:id="CAT_000073_e121">
                     <num>121</num>
                     <name type="author">Fichel (B.-Eug.),</name>
-                    <desc>célèbre peintre français, élève de Paul Delaroche, né en 1826.-2 jolis
+                    <desc xml:id="CAT_000073_e121_1">célèbre peintre français, élève de Paul Delaroche, né en 1826.-2 jolis
                         petits croquis, dont 1 au crayon, sig., et l'autre à la plume; in-18.
                         5</desc>
                 </item>
@@ -806,7 +807,7 @@
                     <trait>
                         <p>célèbre peintre, fils de JeanFrançois, né en 1787</p>
                     </trait>
-                    <desc>Marine, joli dessin à l'encre de Chine, sig.; in-18 obl. 5</desc>
+                    <desc xml:id="CAT_000073_e122_1">Marine, joli dessin à l'encre de Chine, sig.; in-18 obl. 5</desc>
                 </item>
 
                 <item n="123" xml:id="CAT_000073_e123">
@@ -815,7 +816,7 @@
                     <trait>
                         <p>dessinateur et graveur français, né en 1796, mort en 1860</p>
                     </trait>
-                    <desc>Dessin à la plume, sig., in-8. 5</desc>
+                    <desc xml:id="CAT_000073_e123_1">Dessin à la plume, sig., in-8. 5</desc>
                 </item>
 
                 <item n="124" xml:id="CAT_000073_e124">
@@ -824,7 +825,7 @@
                     <trait>
                         <p>le célèbre caricaturiste, né en 1840</p>
                     </trait>
-                    <desc>Portrait-charge de M. de Villemessant, au crayon rouge, sig., in-32.
+                    <desc xml:id="CAT_000073_e124_1">Portrait-charge de M. de Villemessant, au crayon rouge, sig., in-32.
                         10</desc>
                 </item>
 
@@ -832,13 +833,13 @@
                     <num>125</num>
                     <name type="author">Godde (Antonin). -Fontaine composée de fragments antiques
                         (Rome),</name>
-                    <desc>dessin au lavis, sig., décembre 1808, in-4. 5</desc>
+                    <desc xml:id="CAT_000073_e125_1">dessin au lavis, sig., décembre 1808, in-4. 5</desc>
                 </item>
 
                 <item n="126" xml:id="CAT_000073_e126">
                     <num>126</num>
                     <name type="author">Godefroy (F.)</name>
-                    <desc>Joli dessin au crayon, très-finement exécuté, sig., 1833; in-18 obl.
+                    <desc xml:id="CAT_000073_e126_1">Joli dessin au crayon, très-finement exécuté, sig., 1833; in-18 obl.
                         5</desc>
                 </item>
 
@@ -849,7 +850,7 @@
                     <trait>
                         <p>peintre distingué.</p>
                     </trait>
-                    <desc>Portrait de la soeur Rosalie, joli dessin au crayon, grand in-8. 10</desc>
+                    <desc xml:id="CAT_000073_e127_1">Portrait de la soeur Rosalie, joli dessin au crayon, grand in-8. 10</desc>
                 </item>
 
                 <item n="128" xml:id="CAT_000073_e128">
@@ -858,14 +859,14 @@
                     <trait>
                         <p>illustre peintre d'histoire</p>
                     </trait>
-                    <desc>Guerriers indiens, esquisse à l'encre de Chine, provenant de la vente
+                    <desc xml:id="CAT_000073_e128_1">Guerriers indiens, esquisse à l'encre de Chine, provenant de la vente
                         Mahérault; in-8 obl. 25</desc>
                 </item>
 
                 <item n="129" xml:id="CAT_000073_e129">
                     <num>129</num>
                     <name type="author">Houpillard.</name>
-                    <desc>Joli dessin au fusain, in-4 obl. 5</desc>
+                    <desc xml:id="CAT_000073_e129_1">Joli dessin au fusain, in-4 obl. 5</desc>
                 </item>
 
 
@@ -876,7 +877,7 @@
                         <p>célèbre peintre de paysages, élève de Bidault et de Le Thière, né en
                             1803, mort en 1854</p>
                     </trait>
-                    <desc>Ruines de l'église de Roclancourt, prés Chaumont (Maute-Marne), dessin au
+                    <desc xml:id="CAT_000073_e130_1">Ruines de l'église de Roclancourt, prés Chaumont (Maute-Marne), dessin au
                         crayon, signé, 1826, in-8 obl. 5</desc>
                 </item>
 
@@ -886,7 +887,7 @@
                     <trait>
                         <p>célèbre peintre flamand du XVIIIe siècle</p>
                     </trait>
-                    <desc>Porte de Saint-Sébastien, à Rome, superbe dessin à l'encre de Chine, in-8.
+                    <desc xml:id="CAT_000073_e131_1">Porte de Saint-Sébastien, à Rome, superbe dessin à l'encre de Chine, in-8.
                         20</desc>
                 </item>
 
@@ -896,7 +897,7 @@
                     <trait>
                         <p>peintre distingué, élève de David d'Angers, né à Narbonne en 1817</p>
                     </trait>
-                    <desc>Mendiante de Châteauneuf, près Saint-Malo, dessin au crayon, sig., 1856,
+                    <desc xml:id="CAT_000073_e132_1">Mendiante de Châteauneuf, près Saint-Malo, dessin au crayon, sig., 1856,
                         in-18. 5</desc>
                 </item>
 
@@ -907,7 +908,7 @@
                         <p>célèbre peintre de batailles de l'école hollandaise au XVIIe siècle, né
                             en Angleterre</p>
                     </trait>
-                    <desc>Beau dessin à l'encre de Chine, in-8. 20</desc>
+                    <desc xml:id="CAT_000073_e133_1">Beau dessin à l'encre de Chine, in-8. 20</desc>
                 </item>
 
                 <item n="134" xml:id="CAT_000073_e134">
@@ -916,13 +917,13 @@
                     <trait>
                         <p>peintre de paysages et de marine, né à Lyon en 1728, mort en 1808</p>
                     </trait>
-                    <desc>Dessin au crayon, sig.; 1803, in-8 obl. 5</desc>
+                    <desc xml:id="CAT_000073_e134_1">Dessin au crayon, sig.; 1803, in-8 obl. 5</desc>
                 </item>
 
                 <item n="135" xml:id="CAT_000073_e135">
                     <num>135</num>
                     <name type="author">Pottin (H.)</name>
-                    <desc>Joli dessin, sig., au crayon, représentant la soeur Rosalie se jetant (en
+                    <desc xml:id="CAT_000073_e135_1">Joli dessin, sig., au crayon, représentant la soeur Rosalie se jetant (en
                         1848) au-devant des insurgés qui menaçaient sa maison et sauvant les gardes
                         municipaux qui s'y étaient réfugiés; in-8. 10</desc>
                 </item>
@@ -933,7 +934,7 @@
                     <trait>
                         <p>peintre de paysages, élève de Bertin, né en 1787</p>
                     </trait>
-                    <desc>Vue de Cerdon (Ain), dessin à l'encre de Chine, sig.; 1837, in-8 obl.
+                    <desc xml:id="CAT_000073_e136_1">Vue de Cerdon (Ain), dessin à l'encre de Chine, sig.; 1837, in-8 obl.
                         8</desc>
                 </item>
 
@@ -943,14 +944,14 @@
                     <trait>
                         <p>peintre distingué, élève du baron Gros, né en 1808, mort en 1878</p>
                     </trait>
-                    <desc>2 dessins, dont une étude de têtes, au crayon, provenant de sa vente;
+                    <desc xml:id="CAT_000073_e137_1">2 dessins, dont une étude de têtes, au crayon, provenant de sa vente;
                         in-8. 6</desc>
                 </item>
 
                 <item n="138" xml:id="CAT_000073_e138">
                     <num>138</num>
                     <name type="author">Saulcy (S</name>
-                    <desc>L.-J. Caignart de), célèbre antiquaire français, membre de l'Institut,
+                    <desc xml:id="CAT_000073_e138_1">L.-J. Caignart de), célèbre antiquaire français, membre de l'Institut,
                         sénateur, né à Lille en 1807.-Dessin à la plume, in-8. 8</desc>
                 </item>
 
@@ -961,13 +962,13 @@
                         <p>peintre et littérateur, né dans le département du Nord en 1809, mort en
                             1867</p>
                     </trait>
-                    <desc>Pastel sig., représentant une tête de jeune homme; in-18. 7</desc>
+                    <desc xml:id="CAT_000073_e139_1">Pastel sig., représentant une tête de jeune homme; in-18. 7</desc>
                 </item>
 
                 <item n="140" xml:id="CAT_000073_e140">
                     <num>140</num>
                     <name type="author">Ziégler (F.)</name>
-                    <desc>Soldats de la ligne en campagne, très-belle aquarelle, sig., sur papier
+                    <desc xml:id="CAT_000073_e140_1">Soldats de la ligne en campagne, très-belle aquarelle, sig., sur papier
                         granulé; in-4. 12</desc>
                 </item>
             </list>

@@ -1,4 +1,5 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000030">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000030">
     <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
         <fileDesc>
             <titleStmt>
@@ -83,7 +84,7 @@
                     <trait>
                         <p>savant médecin, géologue et voyageur anglais</p>
                     </trait>
-                    <desc>L. a. s., 1846, 2 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e1_1">L. a. s., 1846, 2 p. in-8. 3</desc>
                 </item>
 
                 <item n="2" xml:id="CAT_000030_e2">
@@ -92,7 +93,7 @@
                     <trait>
                         <p>empereur de Russie</p>
                     </trait>
-                    <desc>Beau brevet sig. sur vélin avec encadrements gravés, 1 p. in-f., sceau.
+                    <desc xml:id="CAT_000030_e2_1">Beau brevet sig. sur vélin avec encadrements gravés, 1 p. in-f., sceau.
                         8</desc>
                 </item>
 
@@ -102,7 +103,7 @@
                     <trait>
                         <p>premier maire de Paris</p>
                     </trait>
-                    <desc>Pièce sig. de lui et de 2 memb. de la municipalité, 1791, 1 p. in-f.
+                    <desc xml:id="CAT_000030_e3_1">Pièce sig. de lui et de 2 memb. de la municipalité, 1791, 1 p. in-f.
                         2</desc>
                     <note>Relative à la réparation des armes des canonniers de la Bastille</note>
                 </item>
@@ -113,7 +114,7 @@
                     <trait>
                         <p>illustre naturaliste anglais</p>
                     </trait>
-                    <desc>L. a. s., 1797, 1 p. in-4. 4</desc>
+                    <desc xml:id="CAT_000030_e4_1">L. a. s., 1797, 1 p. in-4. 4</desc>
                 </item>
 
                 <item n="5" xml:id="CAT_000030_e5">
@@ -122,7 +123,7 @@
                     <trait>
                         <p>conventionnel, président du Directoire</p>
                     </trait>
-                    <desc>1° Apostille de 6 grandes lignes aut. sig., sur une lettre, 1 p. in-f.-                        2° Réquisition sig. pour un lit du garde-meuble, comme général en chef de
+                    <desc xml:id="CAT_000030_e5_1">1° Apostille de 6 grandes lignes aut. sig., sur une lettre, 1 p. in-f.-                        2° Réquisition sig. pour un lit du garde-meuble, comme général en chef de
                         l'armée de l'intérieur, 18 vend, an IV, 1/2 p. in-4. 4</desc>
                 </item>
 
@@ -133,7 +134,7 @@
                         <p>grand architecte anglais, constructeur du palais du parlement à
                             Londres</p>
                     </trait>
-                    <desc>L. a. s. à M. Shorland, à Manchester, 1825, 1 p. in-4. 6</desc>
+                    <desc xml:id="CAT_000030_e6_1">L. a. s. à M. Shorland, à Manchester, 1825, 1 p. in-4. 6</desc>
                 </item>
 
                 <item n="7" xml:id="CAT_000030_e7">
@@ -142,7 +143,7 @@
                     <trait>
                         <p>célèbre voyageur allemand en Afrique</p>
                     </trait>
-                    <desc>L. a. s., en anglais, 1860, 1 p. 1/2 in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e7_1">L. a. s., en anglais, 1860, 1 p. 1/2 in-8. 4</desc>
                 </item>
 
                 <item n="8" xml:id="CAT_000030_e8">
@@ -151,7 +152,7 @@
                     <trait>
                         <p>auteur du Voyage d'Anacharsis</p>
                     </trait>
-                    <desc>Billet de 4 lig. aut. sig., à la 3e pers., 1/4 de p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e8_1">Billet de 4 lig. aut. sig., à la 3e pers., 1/4 de p. in-8. 4</desc>
                 </item>
 
                 <item n="9" xml:id="CAT_000030_e9">
@@ -160,7 +161,7 @@
                     <trait>
                         <p>poète, l'auteur des Fleurs du mal</p>
                     </trait>
-                    <desc>L. a. s., 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e9_1">L. a. s., 1 p. in-8. 4</desc>
                 </item>
 
                 <item n="10" xml:id="CAT_000030_e10">
@@ -169,7 +170,7 @@
                     <trait>
                         <p>habile sculpteur anglais, de l'Académie royale</p>
                     </trait>
-                    <desc>L. a. s., 1825, 2 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000030_e10_1">L. a. s., 1825, 2 p. in-8. 5</desc>
                 </item>
 
                 <item n="11" xml:id="CAT_000030_e11">
@@ -178,7 +179,7 @@
                     <trait>
                         <p>fécond littérateur anglais, fondateur du Monthly Chronicle</p>
                     </trait>
-                    <desc>L. a. s. à M. Cunningham, 3 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e11_1">L. a. s. à M. Cunningham, 3 p. in-8. 3</desc>
                 </item>
 
                 <item n="12" xml:id="CAT_000030_e12">
@@ -187,7 +188,7 @@
                     <trait>
                         <p>célèbre sculpteur anglais</p>
                     </trait>
-                    <desc>L. a. s., 1851, 2 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e12_1">L. a. s., 1851, 2 p. in-8. 4</desc>
                 </item>
 
                 <item n="13" xml:id="CAT_000030_e13">
@@ -196,7 +197,7 @@
                     <trait>
                         <p>compagnon d'infortune de Napoléon à Sainte-Hélène</p>
                     </trait>
-                    <desc>L. a. s., 1 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000030_e13_1">L. a. s., 1 p. in-4. 3</desc>
                 </item>
 
                 <item n="14" xml:id="CAT_000030_e14">
@@ -205,7 +206,7 @@
                     <trait>
                         <p>roi d'Espagne</p>
                     </trait>
-                    <desc>L. a. s., 1815, 1/2 p. in-4.-L. sig. de sa femme, Julie, 1810, 1 p. in-4.
+                    <desc xml:id="CAT_000030_e14_1">L. a. s., 1815, 1/2 p. in-4.-L. sig. de sa femme, Julie, 1810, 1 p. in-4.
                         4</desc>
                 </item>
 
@@ -215,7 +216,7 @@
                     <trait>
                         <p>roi de Westphalie</p>
                     </trait>
-                    <desc>Beau diplôme sig. comme roi, sur papier-parchemin, 1809, double in-f.,
+                    <desc xml:id="CAT_000030_e15_1">Beau diplôme sig. comme roi, sur papier-parchemin, 1809, double in-f.,
                         sceau 3</desc>
                 </item>
 
@@ -225,7 +226,7 @@
                     <trait>
                         <p>célèbre romancière anglaise contemporaine</p>
                     </trait>
-                    <desc>L. a. s., 3 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e16_1">L. a. s., 3 p. in-8. 4</desc>
                 </item>
 
                 <item n="17" xml:id="CAT_000030_e17">
@@ -234,7 +235,7 @@
                     <trait>
                         <p>célèbre romancière et artiste anglaise</p>
                     </trait>
-                    <desc>L. a. s., 1854, 4 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000030_e17_1">L. a. s., 1854, 4 p. in-8. 5</desc>
                 </item>
 
                 <item n="18" xml:id="CAT_000030_e18">
@@ -244,7 +245,7 @@
                         <p>célèbre romancière suédoise, dont les ouvrages ont été traduits dans
                             toutes les langues</p>
                     </trait>
-                    <desc>L. a. s., en anglais ; Stockholm, 1861. 4 p. pl. in-8. 6</desc>
+                    <desc xml:id="CAT_000030_e18_1">L. a. s., en anglais ; Stockholm, 1861. 4 p. pl. in-8. 6</desc>
                 </item>
 
                 <item n="19" xml:id="CAT_000030_e19">
@@ -253,7 +254,7 @@
                     <trait>
                         <p>auteur dramat. et célèbre orateur parlementaire italien</p>
                     </trait>
-                    <desc>L. a. s. à F. de Boni ; Turin, 1851, 1 p. in-4. Curieuse. 3</desc>
+                    <desc xml:id="CAT_000030_e19_1">L. a. s. à F. de Boni ; Turin, 1851, 1 p. in-4. Curieuse. 3</desc>
                 </item>
 
                 <item n="20" xml:id="CAT_000030_e20">
@@ -263,7 +264,7 @@
                         <p>célèbre ingénieur anglais, le constructeur du vaisseau monstre le
                             Leviathan, fils de l'ingénieur français</p>
                     </trait>
-                    <desc>L. a. s. , 1852, 3 p. in-8. 2</desc>
+                    <desc xml:id="CAT_000030_e20_1">L. a. s. , 1852, 3 p. in-8. 2</desc>
                 </item>
 
                 <item n="21" xml:id="CAT_000030_e21">
@@ -272,7 +273,7 @@
                     <trait>
                         <p>auteur dramat. et célèbre acteur anglais</p>
                     </trait>
-                    <desc>L. a. s., 1 p. in-8 4</desc>
+                    <desc xml:id="CAT_000030_e21_1">L. a. s., 1 p. in-8 4</desc>
                 </item>
 
                 <item n="22" xml:id="CAT_000030_e22">
@@ -281,7 +282,7 @@
                     <trait>
                         <p>le célèbre romancier anglais</p>
                     </trait>
-                    <desc>L. a. s., 1866, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e22_1">L. a. s., 1866, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="23" xml:id="CAT_000030_e23">
@@ -290,7 +291,7 @@
                     <trait>
                         <p>Le même</p>
                     </trait>
-                    <desc>L. a. s. de ses initiales, 1860, 1 p. in-8. 2</desc>
+                    <desc xml:id="CAT_000030_e23_1">L. a. s. de ses initiales, 1860, 1 p. in-8. 2</desc>
                 </item>
 
                 <item n="24" xml:id="CAT_000030_e24">
@@ -299,7 +300,7 @@
                     <trait>
                         <p>Le même</p>
                     </trait>
-                    <desc>L. a. s. de ses initiales, 1865, 1 p. in-8. 2</desc>
+                    <desc xml:id="CAT_000030_e24_1">L. a. s. de ses initiales, 1865, 1 p. in-8. 2</desc>
                 </item>
 
                 <item n="25" xml:id="CAT_000030_e25">
@@ -308,7 +309,7 @@
                     <trait>
                         <p>diplomate, poète distingué, fils du précédent</p>
                     </trait>
-                    <desc>L. a. s. à M. Chapman, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e25_1">L. a. s. à M. Chapman, 1 p. in-8. 4</desc>
                 </item>
 
                 <item n="26" xml:id="CAT_000030_e26">
@@ -318,7 +319,7 @@
                         <p>célèbre romancière anglaise, auteur de Bianca Capello, femme du
                             romancier</p>
                     </trait>
-                    <desc>L. a. s., 1 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000030_e26_1">L. a. s., 1 p. in-8. 5</desc>
                 </item>
 
                 <item n="27" xml:id="CAT_000030_e27">
@@ -327,7 +328,7 @@
                     <trait>
                         <p>peintre et habile graveur anglais, ami de Wilkie.</p>
                     </trait>
-                    <desc>Billet aut. sig. , 3/4 de p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e27_1">Billet aut. sig. , 3/4 de p. in-8. 3</desc>
                 </item>
 
                 <item n="28" xml:id="CAT_000030_e28">
@@ -336,7 +337,7 @@
                     <trait>
                         <p>illustre homme d'état anglais</p>
                     </trait>
-                    <desc>L. sig. à sir Hipperlev, 1824, 1 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000030_e28_1">L. sig. à sir Hipperlev, 1824, 1 p. in-4. 3</desc>
                 </item>
 
                 <item n="29" xml:id="CAT_000030_e29">
@@ -345,7 +346,7 @@
                     <trait>
                         <p>duchesse de Bar, soeur de Henri IV</p>
                     </trait>
-                    <desc>Pièce sig. ; Pau, 1581, 1 p. in-4, cachet. 7</desc>
+                    <desc xml:id="CAT_000030_e29_1">Pièce sig. ; Pau, 1581, 1 p. in-4, cachet. 7</desc>
                 </item>
 
                 <item n="30" xml:id="CAT_000030_e30">
@@ -354,7 +355,7 @@
                     <trait>
                         <p>célèbre peintre anglais contemporain</p>
                     </trait>
-                    <desc>L. a. s. , 1860, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e30_1">L. a. s. , 1860, 1 p. in-8. 4</desc>
                 </item>
 
                 <item n="31" xml:id="CAT_000030_e31">
@@ -363,7 +364,7 @@
                     <trait>
                         <p>célèbre économiste et philanthrope anglais</p>
                     </trait>
-                    <desc>L. a. s. ; Glascow, 1826, 1 p. in-4, cachet. Belle pièce. 6</desc>
+                    <desc xml:id="CAT_000030_e31_1">L. a. s. ; Glascow, 1826, 1 p. in-4, cachet. Belle pièce. 6</desc>
                 </item>
 
                 <item n="32" xml:id="CAT_000030_e32">
@@ -372,7 +373,7 @@
                     <trait>
                         <p>poète et conventionnel, auteur du Chant du Départ</p>
                     </trait>
-                    <desc>Apostille de 6 grandes lig. aut. sig., an IV, 1/2 p. in-8, oblong. 4</desc>
+                    <desc xml:id="CAT_000030_e32_1">Apostille de 6 grandes lig. aut. sig., an IV, 1/2 p. in-8, oblong. 4</desc>
                     <note>Curieuse note sur son père, qui, après 30 ans de service, a laissé sa
                         femme et ses enfants sans fortune</note>
                 </item>
@@ -383,7 +384,7 @@
                     <trait>
                         <p>le célèbre compositeur italien.</p>
                     </trait>
-                    <desc>L. a. s. au secrétaire du théâtre Feydeau, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e33_1">L. a. s. au secrétaire du théâtre Feydeau, 1 p. in-8. 4</desc>
                 </item>
 
 
@@ -393,7 +394,7 @@
                     <trait>
                         <p>célèbre publiciste anglais</p>
                     </trait>
-                    <desc>Billet aut. sig. à John Cobbet ; Leeds, 1832, 1/2 p in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e34_1">Billet aut. sig. à John Cobbet ; Leeds, 1832, 1/2 p in-8. 4</desc>
                 </item>
 
                 <item n="35" xml:id="CAT_000030_e35">
@@ -402,7 +403,7 @@
                     <trait>
                         <p>le grand économiste</p>
                     </trait>
-                    <desc>Billet de 4 lignes aut. sig. 3</desc>
+                    <desc xml:id="CAT_000030_e35_1">Billet de 4 lignes aut. sig. 3</desc>
                 </item>
 
                 <item n="36" xml:id="CAT_000030_e36">
@@ -411,7 +412,7 @@
                     <trait>
                         <p>illustre philosophe et conventionnel</p>
                     </trait>
-                    <desc>Pièce sig. de lui. de Lavoisier et autres, comme commissaires de la
+                    <desc xml:id="CAT_000030_e36_1">Pièce sig. de lui. de Lavoisier et autres, comme commissaires de la
                         Tresorerie, 1791, 1 p. in-f. 3</desc>
                 </item>
 
@@ -421,7 +422,7 @@
                     <trait>
                         <p>célèbre femme poète anglaise</p>
                     </trait>
-                    <desc>L. a. s., 1848, 2 p. in-8 4</desc>
+                    <desc xml:id="CAT_000030_e37_1">L. a. s., 1848, 2 p. in-8 4</desc>
                 </item>
 
                 <item n="38" xml:id="CAT_000030_e38">
@@ -430,7 +431,7 @@
                     <trait>
                         <p>un des peintres contemporains les plus distingués de l'Angleterre</p>
                     </trait>
-                    <desc>L. a. s., 1853, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e38_1">L. a. s., 1853, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="39" xml:id="CAT_000030_e39">
@@ -439,7 +440,7 @@
                     <trait>
                         <p>dit Procter poète et auteur dram., auteur de The Sea</p>
                     </trait>
-                    <desc>L. a. s. au comédien Ch. Matthews, 1824, 1 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000030_e39_1">L. a. s. au comédien Ch. Matthews, 1824, 1 p. in-4. 3</desc>
                     <note>Envoi d'une lettre de Garrick</note>
                 </item>
 
@@ -449,7 +450,7 @@
                     <trait>
                         <p>peintre et dessinateur anglais, célèbre caricaturiste</p>
                     </trait>
-                    <desc>L. a. s. à M. Routledge, 18 mai 1856, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e40_1">L. a. s. à M. Routledge, 18 mai 1856, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="41" xml:id="CAT_000030_e41">
@@ -458,7 +459,7 @@
                     <trait>
                         <p>Le même</p>
                     </trait>
-                    <desc>L. a. s. au même, 5 juin 1865, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e41_1">L. a. s. au même, 5 juin 1865, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="42" xml:id="CAT_000030_e42">
@@ -467,7 +468,7 @@
                     <trait>
                         <p>célèbre graveur vignettiste anglais</p>
                     </trait>
-                    <desc>L. a. s. à Graves, 2 p. in-18. 3</desc>
+                    <desc xml:id="CAT_000030_e42_1">L. a. s. à Graves, 2 p. in-18. 3</desc>
                 </item>
 
                 <item n="43" xml:id="CAT_000030_e43">
@@ -476,7 +477,7 @@
                     <trait>
                         <p>célèbre peintre d'histoire</p>
                     </trait>
-                    <desc>L. a. s. 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e43_1">L. a. s. 1 p. in-8. 4</desc>
                     <note>Relative à ses tableaux l'Empereur de Maroc et Marc Aurêle</note>
                 </item>
 
@@ -487,7 +488,7 @@
                         <p>magistrat et homme d'état anglais, célèbre par sa défense de la reine
                             Caroline, surnommé le suprême gardien des libertés de l'Angleterre</p>
                     </trait>
-                    <desc>L. a. s., 1828, 3 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e44_1">L. a. s., 1828, 3 p. in-8. 3</desc>
                 </item>
 
                 <item n="45" xml:id="CAT_000030_e45">
@@ -496,7 +497,7 @@
                     <trait>
                         <p>illustre homme d'état anglais, le chef du parti tory</p>
                     </trait>
-                    <desc>L. a. s. Stanley, 1831. 1 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000030_e45_1">L. a. s. Stanley, 1831. 1 p. in-4. 5</desc>
                 </item>
 
                 <item n="46" xml:id="CAT_000030_e46">
@@ -505,7 +506,7 @@
                     <trait>
                         <p>Le même</p>
                     </trait>
-                    <desc>L. a. sig. Derby, 1859, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e46_1">L. a. sig. Derby, 1859, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="47" xml:id="CAT_000030_e47">
@@ -514,7 +515,7 @@
                     <trait>
                         <p>le célèbre romancier</p>
                     </trait>
-                    <desc>L. a. s., 1863, 1 p. in-12. 3</desc>
+                    <desc xml:id="CAT_000030_e47_1">L. a. s., 1863, 1 p. in-12. 3</desc>
                 </item>
 
                 <item n="48" xml:id="CAT_000030_e48">
@@ -523,7 +524,7 @@
                     <trait>
                         <p>Le même</p>
                     </trait>
-                    <desc>Pièce d'album de 6 lignes aut. sig. 2</desc>
+                    <desc xml:id="CAT_000030_e48_1">Pièce d'album de 6 lignes aut. sig. 2</desc>
                 </item>
 
                 <item n="49" xml:id="CAT_000030_e49">
@@ -533,7 +534,7 @@
                         <p>habile et savant architecte anglais, constructeur de la Bourse de
                             Londres, corresp. de l'Institut de France</p>
                     </trait>
-                    <desc>L. a. s. , 1854, 4 p. in-18. 3</desc>
+                    <desc xml:id="CAT_000030_e49_1">L. a. s. , 1854, 4 p. in-18. 3</desc>
                 </item>
 
                 <item n="50" xml:id="CAT_000030_e50">
@@ -542,7 +543,7 @@
                     <trait>
                         <p>l'historien de Paris</p>
                     </trait>
-                    <desc>L. a. s. au docteur Blancheton, 1826, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e50_1">L. a. s. au docteur Blancheton, 1826, 1 p. in-8. 4</desc>
                     <note>Relative à deux articles qui lui sont commandés sur les châteaux de la
                         Rochefoucauld et de La Roche-Guyon</note>
                 </item>
@@ -553,7 +554,7 @@
                     <trait>
                         <p>célèbre chansonnier populaire</p>
                     </trait>
-                    <desc>Chanson aut. sig., 1 p. in-f. fatiguée. 5</desc>
+                    <desc xml:id="CAT_000030_e51_1">Chanson aut. sig., 1 p. in-f. fatiguée. 5</desc>
                     <note>Cette chanson a pour titre: A la mémoire de de Pimodan et de de Flotte,
                         morts en Italie. L'air est noté à la fin</note>
                 </item>
@@ -564,7 +565,7 @@
                     <trait>
                         <p>célèbre danseuse actrice anglaise</p>
                     </trait>
-                    <desc>L. a. s. à M. Saville, 1865, 1 p.in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e52_1">L. a. s. à M. Saville, 1865, 1 p.in-8. 4</desc>
                 </item>
 
                 <item n="53" xml:id="CAT_000030_e53">
@@ -573,7 +574,7 @@
                     <trait>
                         <p>philosophe américain</p>
                     </trait>
-                    <desc>L. a. s.; Manchester, 1848, 2 p. in-8 Rare. 15</desc>
+                    <desc xml:id="CAT_000030_e53_1">L. a. s.; Manchester, 1848, 2 p. in-8 Rare. 15</desc>
                     <note>Relative à ses conférences, devant les Méchanics; Institutes</note>
                 </item>
 
@@ -583,7 +584,7 @@
                     <trait>
                         <p>illustre physicien anglais</p>
                     </trait>
-                    <desc>L. a. s., 1864, 1 p. 1/2, in-12. 3</desc>
+                    <desc xml:id="CAT_000030_e54_1">L. a. s., 1864, 1 p. 1/2, in-12. 3</desc>
                 </item>
 
                 <item n="55" xml:id="CAT_000030_e55">
@@ -592,7 +593,7 @@
                     <trait>
                         <p>célèbre graveur anglais</p>
                     </trait>
-                    <desc>Note aut. sig. de diverses gravures, 1825, 1 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000030_e55_1">Note aut. sig. de diverses gravures, 1825, 1 p. in-4. 5</desc>
                 </item>
 
                 <item n="56" xml:id="CAT_000030_e56">
@@ -602,7 +603,7 @@
                         <p>graveur anglais, célèbre par la finesse de son burin, frère aîné
                             d'Edouard</p>
                     </trait>
-                    <desc>L. a. s. à C. Warren, 1822, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e56_1">L. a. s. à C. Warren, 1822, 1 p. in-8. 4</desc>
                 </item>
 
                 <item n="57" xml:id="CAT_000030_e57">
@@ -611,7 +612,7 @@
                     <trait>
                         <p>sculpteur anglais distingué</p>
                     </trait>
-                    <desc>L. a. s., 1853, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e57_1">L. a. s., 1853, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="58" xml:id="CAT_000030_e58">
@@ -620,7 +621,7 @@
                     <trait>
                         <p>illustre homme d'état anglais</p>
                     </trait>
-                    <desc>L. sig. à F.-J. Jackson, 25 mars 1806, (6 mois avant sa mort). 1 p. in-f.
+                    <desc xml:id="CAT_000030_e58_1">L. sig. à F.-J. Jackson, 25 mars 1806, (6 mois avant sa mort). 1 p. in-f.
                         6</desc>
                     <note>Circulaire sur la victoire que l'escadre anglaise vient de remporter sur
                         l'escadre française, dans la baie de Saint-Domingue. </note>
@@ -631,7 +632,7 @@
                     <trait>
                         <p>roi de Prusse, dit le Grand</p>
                     </trait>
-                    <desc>.-L. sig., en français au capitaine John Drummond, 1748, 1/4 de p. in-4.
+                    <desc xml:id="CAT_000030_e59_1">.-L. sig., en français au capitaine John Drummond, 1748, 1/4 de p. in-4.
                         Cette lettre est renfermée dans un bel étui en maroquin bleu. 4</desc>
                 </item>
 
@@ -642,7 +643,7 @@
                     <trait>
                         <p>Le même</p>
                     </trait>
-                    <desc>L. sig., 1777, 1/2 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000030_e60_1">L. sig., 1777, 1/2 p. in-4. 3</desc>
                 </item>
 
                 <item n="61" xml:id="CAT_000030_e61">
@@ -651,7 +652,7 @@
                     <trait>
                         <p>célèbre peintreanglais contemporain, de l'Académie royale</p>
                     </trait>
-                    <desc>L. a. s., 1852, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e61_1">L. a. s., 1852, 1 p. in-8. 4</desc>
                 </item>
                 <item n="62" xml:id="CAT_000030_e62">
                     <num>62</num>
@@ -659,7 +660,7 @@
                     <trait>
                         <p>le spirituel dessinateur</p>
                     </trait>
-                    <desc>L. a. s. à M. Delaunay, 1834, 1/2 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e62_1">L. a. s. à M. Delaunay, 1834, 1/2 p. in-8. 3</desc>
                 </item>
 
                 <item n="63" xml:id="CAT_000030_e63">
@@ -668,7 +669,7 @@
                     <trait>
                         <p>Le même</p>
                     </trait>
-                    <desc>L. a. s. au même, 1840, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e63_1">L. a. s. au même, 1840, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="64" xml:id="CAT_000030_e64">
@@ -678,7 +679,7 @@
                         <p>le célèbre prédicateur patriote italien, qui suivit Garibaldi dans son
                             expédition de Sicile</p>
                     </trait>
-                    <desc>L. a. s., en anglais, 3 p. in-8. 6</desc>
+                    <desc xml:id="CAT_000030_e64_1">L. a. s., en anglais, 3 p. in-8. 6</desc>
                     <note>Intéressante lettre en réponse à une proposition qui lui est faite
                         d'introduire le Protestantisme en Italie. Il ne donnera jamais son
                         approbation à la division des Italiens en sectes théologiques</note>
@@ -690,7 +691,7 @@
                     <trait>
                         <p>illustre homme d'état anglais, premier ministre actuel</p>
                     </trait>
-                    <desc>L. a. s. à sir Shelley, 1860, 3 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e65_1">L. a. s. à sir Shelley, 1860, 3 p. in-8. 4</desc>
                 </item>
 
                 <item n="66" xml:id="CAT_000030_e66">
@@ -699,7 +700,7 @@
                     <trait>
                         <p>savant astronome et aéronaute anglais</p>
                     </trait>
-                    <desc>L. a. s., 1856, 2 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e66_1">L. a. s., 1856, 2 p. in-8. 3</desc>
                 </item>
 
                 <item n="67" xml:id="CAT_000030_e67">
@@ -708,7 +709,7 @@
                     <trait>
                         <p>célèbre peintre anglais contemporain, de l'Académie royale</p>
                     </trait>
-                    <desc>L. a. s., 1848, 2 p. 1/2 in-8, sur ses travaux de peinture. 4</desc>
+                    <desc xml:id="CAT_000030_e67_1">L. a. s., 1848, 2 p. 1/2 in-8, sur ses travaux de peinture. 4</desc>
                 </item>
 
                 <item n="68" xml:id="CAT_000030_e68">
@@ -717,7 +718,7 @@
                     <trait>
                         <p>savant naturaliste anglais, connu par ses recherches microscopiques</p>
                     </trait>
-                    <desc>L. a. s., 1855, 3 p. in-8. Belle épître scientifique. 4</desc>
+                    <desc xml:id="CAT_000030_e68_1">L. a. s., 1855, 3 p. in-8. Belle épître scientifique. 4</desc>
                 </item>
 
                 <item n="69" xml:id="CAT_000030_e69">
@@ -726,7 +727,7 @@
                     <trait>
                         <p>romancier populaire écossais</p>
                     </trait>
-                    <desc>Billet aut. sig., 1 p. in-18. 2</desc>
+                    <desc xml:id="CAT_000030_e69_1">Billet aut. sig., 1 p. in-18. 2</desc>
                 </item>
 
                 <item n="70" xml:id="CAT_000030_e70">
@@ -735,7 +736,7 @@
                     <trait>
                         <p>célèbre graveur anglais contemporain</p>
                     </trait>
-                    <desc>L. a. s., 1864, 1 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000030_e70_1">L. a. s., 1864, 1 p. in-4. 3</desc>
                 </item>
 
                 <item n="71" xml:id="CAT_000030_e71">
@@ -745,7 +746,7 @@
                         <p>grand prédicateur anglais, un des principaux chefs de la secte des
                             Baptistes</p>
                     </trait>
-                    <desc>L. a. s. à Hesly ; Portsmouth, 1828, 3 p. in-8. Belle lettre. Rare.
+                    <desc xml:id="CAT_000030_e71_1">L. a. s. à Hesly ; Portsmouth, 1828, 3 p. in-8. Belle lettre. Rare.
                         10</desc>
                 </item>
 
@@ -756,7 +757,7 @@
                         <p>navigateur anglais, qui a donné de très- intéressantes relations de ses
                             voyages</p>
                     </trait>
-                    <desc>L. a. s., 1 p. in-18. 3</desc>
+                    <desc xml:id="CAT_000030_e72_1">L. a. s., 1 p. in-18. 3</desc>
                 </item>
 
                 <item n="73" xml:id="CAT_000030_e73">
@@ -766,7 +767,7 @@
                         <p>une des femmes auteurs les plus distinguées de l'Angleterre, connue, par
                             ses ouvrages pour la défense de son sexe</p>
                     </trait>
-                    <desc>L. a. s., 1858, 4 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e73_1">L. a. s., 1858, 4 p. in-8. 4</desc>
                 </item>
 
                 <item n="74" xml:id="CAT_000030_e74">
@@ -775,7 +776,7 @@
                     <trait>
                         <p>fécond littérateur anglais contemporain, éditeur de Shakspeare</p>
                     </trait>
-                    <desc>L. a. s., 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e74_1">L. a. s., 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="75" xml:id="CAT_000030_e75">
@@ -784,7 +785,7 @@
                     <trait>
                         <p>général de la force armée de Paris, décapité avec Robespierre</p>
                     </trait>
-                    <desc>L. sig. , 22 frim. an 2, 1 p. in-f., cachet. 3</desc>
+                    <desc xml:id="CAT_000030_e75_1">L. sig. , 22 frim. an 2, 1 p. in-f., cachet. 3</desc>
                 </item>
 
                 <item n="76" xml:id="CAT_000030_e76">
@@ -794,7 +795,7 @@
                         <p>peintre et habile dessinateur anglais, un des premiers qui employa avec
                             succès la lithographie comme moyen d'enseignement</p>
                     </trait>
-                    <desc>L. a. s., 1861, 3 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e76_1">L. a. s., 1861, 3 p. in-8. 3</desc>
                 </item>
 
                 <item n="77" xml:id="CAT_000030_e77">
@@ -803,7 +804,7 @@
                     <trait>
                         <p>peintre d'histoire anglais, de l'Académie royale</p>
                     </trait>
-                    <desc>L. a. s., 1850, 3 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e77_1">L. a. s., 1850, 3 p. in-8. 4</desc>
                 </item>
 
                 <item n="78" xml:id="CAT_000030_e78">
@@ -812,7 +813,7 @@
                     <trait>
                         <p>célèbre peintre anglais de genre et de paysages</p>
                     </trait>
-                    <desc>L. a. s., 1845, 4 p. in-8. Relative à un de ses tableaux. 4</desc>
+                    <desc xml:id="CAT_000030_e78_1">L. a. s., 1845, 4 p. in-8. Relative à un de ses tableaux. 4</desc>
                 </item>
 
                 <item n="79" xml:id="CAT_000030_e79">
@@ -822,7 +823,7 @@
                         <p>célèbre peintre d'histoire anglais et miniaturiste, premier peintre de la
                             reine</p>
                     </trait>
-                    <desc>L. a. s., 1864, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e79_1">L. a. s., 1864, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="80" xml:id="CAT_000030_e80">
@@ -831,7 +832,7 @@
                     <trait>
                         <p>poète anglais distingué</p>
                     </trait>
-                    <desc>L. a. s., 1855, 5 p. in-18. 3</desc>
+                    <desc xml:id="CAT_000030_e80_1">L. a. s., 1855, 5 p. in-18. 3</desc>
                 </item>
 
                 <item n="81" xml:id="CAT_000030_e81">
@@ -841,7 +842,7 @@
                         <p>célèbre prédicateur méthodiste anglais, ami et successeur de
                             Whitfield</p>
                     </trait>
-                    <desc>L. a. s., à Ben Jones, 1p. 1/2 in-4. 5</desc>
+                    <desc xml:id="CAT_000030_e81_1">L. a. s., à Ben Jones, 1p. 1/2 in-4. 5</desc>
                 </item>
 
                 <item n="82" xml:id="CAT_000030_e82">
@@ -850,7 +851,7 @@
                     <trait>
                         <p>célèbre poète humoriste anglais, mort en 1845</p>
                     </trait>
-                    <desc>L. a. s., 1 p. in-8. 10</desc>
+                    <desc xml:id="CAT_000030_e82_1">L. a. s., 1 p. in-8. 10</desc>
                 </item>
 
                 <item n="83" xml:id="CAT_000030_e83">
@@ -859,7 +860,7 @@
                     <trait>
                         <p>savant botaniste anglais</p>
                     </trait>
-                    <desc>L. a. s.; Glasgow. 1824, 1 p. in-4. Relative à la botanique. 3</desc>
+                    <desc xml:id="CAT_000030_e83_1">L. a. s.; Glasgow. 1824, 1 p. in-4. Relative à la botanique. 3</desc>
                 </item>
 
                 <item n="84" xml:id="CAT_000030_e84">
@@ -868,7 +869,7 @@
                     <trait>
                         <p>artiste et célèbre poète anglais, auteur du Livre des Saisons</p>
                     </trait>
-                    <desc>L. a. s. , 1860, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e84_1">L. a. s. , 1860, 1 p. in-8. 4</desc>
                 </item>
 
                 <item n="85" xml:id="CAT_000030_e85">
@@ -877,7 +878,7 @@
                     <trait>
                         <p>poète et romancière anglaise célèbre, femme du précédent</p>
                     </trait>
-                    <desc>L. a. s. , 4 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e85_1">L. a. s. , 4 p. in-8. 4</desc>
                 </item>
 
                 <item n="86" xml:id="CAT_000030_e86">
@@ -886,7 +887,7 @@
                     <trait>
                         <p>célèbre littérateur anglais, auteur des Curiosités de la Littérature.</p>
                     </trait>
-                    <desc>Pièce de vers autog. sig. ; 13 mai 1835, 1 p. in-f. Belle pièce, provenant
+                    <desc xml:id="CAT_000030_e86_1">Pièce de vers autog. sig. ; 13 mai 1835, 1 p. in-f. Belle pièce, provenant
                         de la collection de miss Pardoe. 12</desc>
                 </item>
 
@@ -896,7 +897,7 @@
                     <trait>
                         <p>Le même</p>
                     </trait>
-                    <desc>Billet aut. sig. de ses initiales, 3/4 de p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e87_1">Billet aut. sig. de ses initiales, 3/4 de p. in-8. 3</desc>
                 </item>
 
                 <item n="88" xml:id="CAT_000030_e88">
@@ -905,7 +906,7 @@
                     <trait>
                         <p>un des romanciers les plus populaires de l'Angleterre</p>
                     </trait>
-                    <desc>L. a. s. à M. Jordan, 1848, 1 p. 1/4 in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e88_1">L. a. s. à M. Jordan, 1848, 1 p. 1/4 in-8. 4</desc>
                 </item>
 
                 <item n="89" xml:id="CAT_000030_e89">
@@ -915,7 +916,7 @@
                         <p>mariée à H. de Montpensier, puis à Ch. de Guise, fameuse par le rôle
                             actif qu'elle joua dans la Ligue</p>
                     </trait>
-                    <desc>L. sig., avec la sousc. de 5 lignes aut. à M. de Tillière, ambassadeur en
+                    <desc xml:id="CAT_000030_e89_1">L. sig., avec la sousc. de 5 lignes aut. à M. de Tillière, ambassadeur en
                         Angleterre; Mendes, 1619, 1 p. in-f., cachet. Belle pièce. 6</desc>
                 </item>
 
@@ -925,7 +926,7 @@
                     <trait>
                         <p>savant médecin, chimiste et naturaliste irlandais</p>
                     </trait>
-                    <desc>L. a. s., Dublin, 1854, 4 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e90_1">L. a. s., Dublin, 1854, 4 p. in-8. 4</desc>
                 </item>
 
                 <item n="91" xml:id="CAT_000030_e91">
@@ -934,7 +935,7 @@
                     <trait>
                         <p>grand tragédien anglais, le successeur de Garrick</p>
                     </trait>
-                    <desc>Billet aut. sig., 1825, 1/2 p. in-4. 8</desc>
+                    <desc xml:id="CAT_000030_e91_1">Billet aut. sig., 1825, 1/2 p. in-4. 8</desc>
                     <note>Reçu de 100 liv. sterling pour ses appointements</note>
                 </item>
 
@@ -944,7 +945,7 @@
                     <trait>
                         <p>célèbre tragédien anglais, fils du précédent</p>
                     </trait>
-                    <desc>L. a. s., 1852, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e92_1">L. a. s., 1852, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="93" xml:id="CAT_000030_e93">
@@ -953,7 +954,7 @@
                     <trait>
                         <p>Le même</p>
                     </trait>
-                    <desc>L. a. s. à une dame, 1856, 3 p. in-18. 6</desc>
+                    <desc xml:id="CAT_000030_e93_1">L. a. s. à une dame, 1856, 3 p. in-18. 6</desc>
                     <note>Intéressante épître relative à son rôle de Louis XI</note>
                 </item>
 
@@ -963,7 +964,7 @@
                     <trait>
                         <p>célèbre actrice anglaise, femme de Ch. Kean</p>
                     </trait>
-                    <desc>L. a. s. à la 3e pers., 1843, 2 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000030_e94_1">L. a. s. à la 3e pers., 1843, 2 p. in-8. 5</desc>
                 </item>
 
                 <item n="95" xml:id="CAT_000030_e95">
@@ -972,7 +973,7 @@
                     <trait>
                         <p>célèbre acteur anglais</p>
                     </trait>
-                    <desc>L. a. s. à Taylor, 2 p. 1/4 in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e95_1">L. a. s. à Taylor, 2 p. 1/4 in-8. 3</desc>
                 </item>
 
                 <item n="96" xml:id="CAT_000030_e96">
@@ -981,7 +982,7 @@
                     <trait>
                         <p>peintre anglais distingué, de l'Académie royale</p>
                     </trait>
-                    <desc>L. a. s., 1859, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e96_1">L. a. s., 1859, 1 p. in-8. 4</desc>
                 </item>
                 <item n="97" xml:id="CAT_000030_e97">
                     <num>97</num>
@@ -989,7 +990,7 @@
                     <trait>
                         <p>le célèbre général hongrois</p>
                     </trait>
-                    <desc>Billet aut. sig., en anglais, 1 p. in-12 4</desc>
+                    <desc xml:id="CAT_000030_e97_1">Billet aut. sig., en anglais, 1 p. in-12 4</desc>
                 </item>
 
                 <item n="98" xml:id="CAT_000030_e98">
@@ -998,7 +999,7 @@
                     <trait>
                         <p>Le même</p>
                     </trait>
-                    <desc>Billet aut. sig., 1852, 1/2 p. in-8 4</desc>
+                    <desc xml:id="CAT_000030_e98_1">Billet aut. sig., 1852, 1/2 p. in-8 4</desc>
                 </item>
 
                 <item n="99" xml:id="CAT_000030_e99">
@@ -1007,7 +1008,7 @@
                     <trait>
                         <p>célèbre prédicateur</p>
                     </trait>
-                    <desc>L. a. s. à l'abbé Menghi, 1849, 1 p. in-4. Quelques piqûres d'humidité.
+                    <desc xml:id="CAT_000030_e99_1">L. a. s. à l'abbé Menghi, 1849, 1 p. in-4. Quelques piqûres d'humidité.
                         3</desc>
                 </item>
 
@@ -1017,7 +1018,7 @@
                     <trait>
                         <p>habile peintre de fleurs anglais</p>
                     </trait>
-                    <desc>L. a. s., 1854, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e100_1">L. a. s., 1854, 1 p. in-8. 4</desc>
                 </item>
 
                 <item n="101" xml:id="CAT_000030_e101">
@@ -1026,7 +1027,7 @@
                     <trait>
                         <p>célèbre femme anglaise contemporaine</p>
                     </trait>
-                    <desc>L. a. s., 1 p. in-18. 6</desc>
+                    <desc xml:id="CAT_000030_e101_1">L. a. s., 1 p. in-18. 6</desc>
                 </item>
 
                 <item n="102" xml:id="CAT_000030_e102">
@@ -1036,7 +1037,7 @@
                         <p>illustre archéologue anglais, qui découvrit les ruines de Ninive,
                             correspondant de l'Institut de France</p>
                     </trait>
-                    <desc>L. a. s., 1860, 2 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e102_1">L. a. s., 1860, 2 p. in-8. 4</desc>
                 </item>
 
                 <item n="103" xml:id="CAT_000030_e103">
@@ -1045,7 +1046,7 @@
                     <trait>
                         <p>spirituel littérateur, fondateur du Punch</p>
                     </trait>
-                    <desc>L. a. s., 1 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000030_e103_1">L. a. s., 1 p. in-8. 5</desc>
                 </item>
 
                 <item n="104" xml:id="CAT_000030_e104">
@@ -1054,7 +1055,7 @@
                     <trait>
                         <p>romancier populaire anglais, le peintre des moeurs irlandaises</p>
                     </trait>
-                    <desc>L. a. s. à M. Alletson Burgh, 1825, 1 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000030_e104_1">L. a. s. à M. Alletson Burgh, 1825, 1 p. in-4. 5</desc>
                 </item>
 
                 <item n="105" xml:id="CAT_000030_e105">
@@ -1063,7 +1064,7 @@
                     <trait>
                         <p>célèbre peintre anglais</p>
                     </trait>
-                    <desc>L. a. s. , 1857, 4 p. in-8. Sur ses travaux de peinture. 4</desc>
+                    <desc xml:id="CAT_000030_e105_1">L. a. s. , 1857, 4 p. in-8. Sur ses travaux de peinture. 4</desc>
                 </item>
 
                 <item n="106" xml:id="CAT_000030_e106">
@@ -1072,7 +1073,7 @@
                     <trait>
                         <p>peintre paysagiste anglais distingué</p>
                     </trait>
-                    <desc>L. a. s. à M. Goulding, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e106_1">L. a. s. à M. Goulding, 1 p. in-8. 4</desc>
                 </item>
 
                 <item n="107" xml:id="CAT_000030_e107">
@@ -1081,7 +1082,7 @@
                     <trait>
                         <p>fécond littérateur et habile peintre en miniature irlandais</p>
                     </trait>
-                    <desc>L. a. s., 1856, 2 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e107_1">L. a. s., 1856, 2 p. in-8. 4</desc>
                 </item>
 
                 <item n="108" xml:id="CAT_000030_e108">
@@ -1090,7 +1091,7 @@
                     <trait>
                         <p>un des meilleurs poètes anglais contemporains</p>
                     </trait>
-                    <desc>L. a. s. , 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e108_1">L. a. s. , 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="109" xml:id="CAT_000030_e109">
@@ -1100,7 +1101,7 @@
                         <p>publiciste et orateur anglais, célèbre par ses sympathies pour la
                             Revolution française</p>
                     </trait>
-                    <desc>L. a. s., 1831, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e109_1">L. a. s., 1831, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="110" xml:id="CAT_000030_e110">
@@ -1109,7 +1110,7 @@
                     <trait>
                         <p>célèbre peintre anglais contemporain</p>
                     </trait>
-                    <desc>L. a. s., 1856, 2 p. in-18. 4</desc>
+                    <desc xml:id="CAT_000030_e110_1">L. a. s., 1856, 2 p. in-18. 4</desc>
                 </item>
 
                 <item n="111" xml:id="CAT_000030_e111">
@@ -1118,7 +1119,7 @@
                     <trait>
                         <p>impératrice des Français</p>
                     </trait>
-                    <desc>Beau brevet sig. sur vélin, 1813, double in-f. 6</desc>
+                    <desc xml:id="CAT_000030_e111_1">Beau brevet sig. sur vélin, 1813, double in-f. 6</desc>
                 </item>
 
                 <item n="112" xml:id="CAT_000030_e112">
@@ -1127,7 +1128,7 @@
                     <trait>
                         <p>célèbre romancier anglais</p>
                     </trait>
-                    <desc>L. a. s., 1829, 1 p. in-4. 4</desc>
+                    <desc xml:id="CAT_000030_e112_1">L. a. s., 1829, 1 p. in-4. 4</desc>
                 </item>
 
                 <item n="113" xml:id="CAT_000030_e113">
@@ -1136,7 +1137,7 @@
                     <trait>
                         <p>Le même</p>
                     </trait>
-                    <desc>L. a. s. 1820, 1/2 p. in-4. 4</desc>
+                    <desc xml:id="CAT_000030_e113_1">L. a. s. 1820, 1/2 p. in-4. 4</desc>
                     <note>Curieuse pièce au bas de laquelle est la signature de sa femme, qu'il
                         autorise à recevoir ses mandats et billets</note>
                 </item>
@@ -1147,7 +1148,7 @@
                     <trait>
                         <p>auteur dramatique anglais original</p>
                     </trait>
-                    <desc>L. a. s., 1861, 4 p. in-8. Relative à un de ses ouvrages. 3</desc>
+                    <desc xml:id="CAT_000030_e114_1">L. a. s., 1861, 4 p. in-8. Relative à un de ses ouvrages. 3</desc>
                 </item>
 
                 <item n="115" xml:id="CAT_000030_e115">
@@ -1157,7 +1158,7 @@
                         <p>célèbre femme auteur et socialiste anglaise, adepte fervente de la
                             doctrine d'Auguste Comte</p>
                     </trait>
-                    <desc>Art. aut., 24 p. in-8. On a joint à ce manuscrit une pièce d'album aut.
+                    <desc xml:id="CAT_000030_e115_1">Art. aut., 24 p. in-8. On a joint à ce manuscrit une pièce d'album aut.
                         sig., à la 3e personne, de 3 lignes, une signature découpée, et un beau
                         portrait gravé, in-4, portant sa signature autog. 15</desc>
                 </item>
@@ -1168,7 +1169,7 @@
                     <trait>
                         <p>célèbre comédien anglais</p>
                     </trait>
-                    <desc>L. a. s., 1823, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e116_1">L. a. s., 1823, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="117" xml:id="CAT_000030_e117">
@@ -1178,7 +1179,7 @@
                         <p>romancier anglais, le peintre des moeurs pittoresques des pionniers
                             américains</p>
                     </trait>
-                    <desc>L. a. s. à une dame, 1862, 4 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e117_1">L. a. s. à une dame, 1862, 4 p. in-8. 4</desc>
                     <note>Il autorise la traduction en allemand de sa nouvelle The Marvon</note>
                 </item>
 
@@ -1188,7 +1189,7 @@
                     <trait>
                         <p>célèbre dessinateur et caricaturiste anglais</p>
                     </trait>
-                    <desc>L. a. s., 1851, 2 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e118_1">L. a. s., 1851, 2 p. in-8. 3</desc>
                 </item>
 
                 <item n="119" xml:id="CAT_000030_e119">
@@ -1197,7 +1198,7 @@
                     <trait>
                         <p>célèbre ouvrier-poète anglais -</p>
                     </trait>
-                    <desc>L. a. s., 1863, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e119_1">L. a. s., 1863, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="120" xml:id="CAT_000030_e120">
@@ -1206,7 +1207,7 @@
                     <trait>
                         <p>célèbre romancière anglaise, auteur de Our village</p>
                     </trait>
-                    <desc>L. a. s. à Ch. Tilt, 1837, 3 p. 1/4 in-4. Belle pièce. 8</desc>
+                    <desc xml:id="CAT_000030_e120_1">L. a. s. à Ch. Tilt, 1837, 3 p. 1/4 in-4. Belle pièce. 8</desc>
                 </item>
 
                 <item n="121" xml:id="CAT_000030_e121">
@@ -1215,7 +1216,7 @@
                     <trait>
                         <p>missionnaire, beau-père et compagnon de voyage du docteur Livinsgton</p>
                     </trait>
-                    <desc>L. a. s., 1842, 1 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000030_e121_1">L. a. s., 1842, 1 p. in-4. 5</desc>
                 </item>
 
                 <item n="122" xml:id="CAT_000030_e122">
@@ -1225,7 +1226,7 @@
                         <p>garde-des-sceaux, magistrat illustre par sa fermeté pendant les troubles
                             de la Fronde</p>
                     </trait>
-                    <desc>L. sig., 1625, 3/4 de p. in-f. 4</desc>
+                    <desc xml:id="CAT_000030_e122_1">L. sig., 1625, 3/4 de p. in-f. 4</desc>
                 </item>
 
                 <item n="123" xml:id="CAT_000030_e123">
@@ -1234,7 +1235,7 @@
                     <trait>
                         <p>graveur italien, le restaurateur du bon goût dans son art</p>
                     </trait>
-                    <desc>L. sig. , 1821, 1 p. in-4. Envoi de plusieurs de ses estampes. 4</desc>
+                    <desc xml:id="CAT_000030_e123_1">L. sig. , 1821, 1 p. in-4. Envoi de plusieurs de ses estampes. 4</desc>
                 </item>
 
                 <item n="124" xml:id="CAT_000030_e124">
@@ -1243,7 +1244,7 @@
                     <trait>
                         <p>le célèbre compositeur et pianiste allemand</p>
                     </trait>
-                    <desc>Billet aut. sig. en anglais, 1837, 1 p. in-18. 2</desc>
+                    <desc xml:id="CAT_000030_e124_1">Billet aut. sig. en anglais, 1837, 1 p. in-18. 2</desc>
                 </item>
 
                 <item n="125" xml:id="CAT_000030_e125">
@@ -1252,7 +1253,7 @@
                     <trait>
                         <p>savant géologue anglais -</p>
                     </trait>
-                    <desc>L. a. s., 1832, 3 p. in-4. Belle lettre relative à la géologie. 6</desc>
+                    <desc xml:id="CAT_000030_e125_1">L. a. s., 1832, 3 p. in-4. Belle lettre relative à la géologie. 6</desc>
                 </item>
 
                 <item n="126" xml:id="CAT_000030_e126">
@@ -1262,7 +1263,7 @@
                         <p>acteur et auteur dramatique anglais, publiciste, fameux par sa haine
                             contre la Révolution française</p>
                     </trait>
-                    <desc>L. a. s.; Lincoln s lnn. 1776, 2 p. in-4. 7</desc>
+                    <desc xml:id="CAT_000030_e126_1">L. a. s.; Lincoln s lnn. 1776, 2 p. in-4. 7</desc>
                 </item>
 
                 <item n="127" xml:id="CAT_000030_e127">
@@ -1271,7 +1272,7 @@
                     <trait>
                         <p>brave amiral anglais, historien de ses glorieuses campagnes</p>
                     </trait>
-                    <desc>L. a. s., 1844, 1 p. in-8. 2</desc>
+                    <desc xml:id="CAT_000030_e127_1">L. a. s., 1844, 1 p. in-8. 2</desc>
                 </item>
 
                 <item n="128" xml:id="CAT_000030_e128">
@@ -1281,7 +1282,7 @@
                         <p>célèbre dessinateur et graveur sur bois anglais, du commencement de ce
                             siècle</p>
                     </trait>
-                    <desc>L. a. s., 1 p. in-12. On y a joint deux charmants petits dessins à la
+                    <desc xml:id="CAT_000030_e128_1">L. a. s., 1 p. in-12. On y a joint deux charmants petits dessins à la
                         plume, de cet artiste. 8</desc>
                 </item>
 
@@ -1291,7 +1292,7 @@
                     <trait>
                         <p>savant astronome écossais, professeur à Glasgow</p>
                     </trait>
-                    <desc>L. a. s., 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e129_1">L. a. s., 1 p. in-8. 3</desc>
                 </item>
                 <item n="130" xml:id="CAT_000030_e130">
                     <num>130</num>
@@ -1299,7 +1300,7 @@
                     <trait>
                         <p>le grand agitateur de l'Irlande</p>
                     </trait>
-                    <desc>Fin de lettre de 3 lignes aut. sig. 3</desc>
+                    <desc xml:id="CAT_000030_e130_1">Fin de lettre de 3 lignes aut. sig. 3</desc>
                 </item>
 
                 <item n="131" xml:id="CAT_000030_e131">
@@ -1308,7 +1309,7 @@
                     <trait>
                         <p>le grand naturaliste anglais</p>
                     </trait>
-                    <desc>L. a. s., 1861. 4 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e131_1">L. a. s., 1861. 4 p. in-8. 4</desc>
                 </item>
 
                 <item n="132" xml:id="CAT_000030_e132">
@@ -1317,7 +1318,7 @@
                     <trait>
                         <p>illustre homme d'état anglais</p>
                     </trait>
-                    <desc>L. a. s., 1852. 1 p. in-8, cachet. 3</desc>
+                    <desc xml:id="CAT_000030_e132_1">L. a. s., 1852. 1 p. in-8, cachet. 3</desc>
                 </item>
 
                 <item n="133" xml:id="CAT_000030_e133">
@@ -1326,7 +1327,7 @@
                     <trait>
                         <p>célèbre romancière et poète anglaise</p>
                     </trait>
-                    <desc>L. a. s., 1 p. 1/4 in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e133_1">L. a. s., 1 p. 1/4 in-8. 3</desc>
                 </item>
 
                 <item n="134" xml:id="CAT_000030_e134">
@@ -1335,7 +1336,7 @@
                     <trait>
                         <p>célèbre critique et bel esprit anglais, chanoine de Saint-Paul</p>
                     </trait>
-                    <desc>L. a. s. , 1784, 1 p. in-4 5</desc>
+                    <desc xml:id="CAT_000030_e134_1">L. a. s. , 1784, 1 p. in-4 5</desc>
                 </item>
 
                 <item n="135" xml:id="CAT_000030_e135">
@@ -1344,7 +1345,7 @@
                     <trait>
                         <p>peintre célèbre, un des chefs de l'école écossaise</p>
                     </trait>
-                    <desc>L. a. s., 4 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000030_e135_1">L. a. s., 4 p. in-8. 5</desc>
                 </item>
 
                 <item n="136" xml:id="CAT_000030_e136">
@@ -1353,7 +1354,7 @@
                     <trait>
                         <p>illustre homme d'état anglais</p>
                     </trait>
-                    <desc>L. a. s., 2 p. in-8, cachet. 4</desc>
+                    <desc xml:id="CAT_000030_e136_1">L. a. s., 2 p. in-8, cachet. 4</desc>
                 </item>
 
                 <item n="137" xml:id="CAT_000030_e137">
@@ -1362,7 +1363,7 @@
                     <trait>
                         <p>illustre architecte, le constructeur de la colonnade du Louvre</p>
                     </trait>
-                    <desc>Billet aut. sig., 1672, 1/4 de p. in-8 10</desc>
+                    <desc xml:id="CAT_000030_e137_1">Billet aut. sig., 1672, 1/4 de p. in-8 10</desc>
                     <note>Ordre de payer 500 livres à compte sur les fouilles pratiquées dans
                         l'étang du chemin de la Ménagerie</note>
                 </item>
@@ -1374,7 +1375,7 @@
                         <p>une des plus célèbres romancières de l'Angleterre, auteur de Thaddeus de
                             Warsaw</p>
                     </trait>
-                    <desc>L. a. s., Bristol, 1848, 4 p. in-4. Belle et intéressante épître. 8</desc>
+                    <desc xml:id="CAT_000030_e138_1">L. a. s., Bristol, 1848, 4 p. in-4. Belle et intéressante épître. 8</desc>
                 </item>
 
                 <item n="139" xml:id="CAT_000030_e139">
@@ -1383,7 +1384,7 @@
                     <trait>
                         <p>poète et publiciste anglais distingué, mort par accident en 1834</p>
                     </trait>
-                    <desc>L. a. s., 2 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e139_1">L. a. s., 2 p. in-8. 3</desc>
                 </item>
 
                 <item n="140" xml:id="CAT_000030_e140">
@@ -1392,7 +1393,7 @@
                     <trait>
                         <p>le célèbre écrivain socialiste</p>
                     </trait>
-                    <desc>L. a. s. à son ami Darimon, 1851, 1/2 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e140_1">L. a. s. à son ami Darimon, 1851, 1/2 p. in-8. 3</desc>
                 </item>
 
                 <item n="141" xml:id="CAT_000030_e141">
@@ -1401,7 +1402,7 @@
                     <trait>
                         <p>peintre anglais et écrivain sur les arts</p>
                     </trait>
-                    <desc>L. a. s., 1818, 1 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000030_e141_1">L. a. s., 1818, 1 p. in-4. 3</desc>
                 </item>
 
                 <item n="142" xml:id="CAT_000030_e142">
@@ -1411,7 +1412,7 @@
                         <p>célèbre littérateur, naturaliste et illuminé vendéen, né à
                             Noirmoutiers</p>
                     </trait>
-                    <desc>L. a. s. à M. Piet ; Nantes, 1817, 3 p. in-4, cachet. 5</desc>
+                    <desc xml:id="CAT_000030_e142_1">L. a. s. à M. Piet ; Nantes, 1817, 3 p. in-4, cachet. 5</desc>
                     <note>Curieuse lettre relative à ses études sur Homère, sur l'histoire de Noir-
                         moutiers, etc</note>
                 </item>
@@ -1422,7 +1423,7 @@
                     <trait>
                         <p>célèbre peintre paysagiste anglais</p>
                     </trait>
-                    <desc>L. a. s., 1862, 1 p. in-18. 3</desc>
+                    <desc xml:id="CAT_000030_e143_1">L. a. s., 1862, 1 p. in-18. 3</desc>
                 </item>
 
                 <item n="144" xml:id="CAT_000030_e144">
@@ -1431,7 +1432,7 @@
                     <trait>
                         <p>célèbre poète anglais, auteur des Plaisirs de la mémoire</p>
                     </trait>
-                    <desc>Billet aut. sig. , 1 p. in-32. 5</desc>
+                    <desc xml:id="CAT_000030_e144_1">Billet aut. sig. , 1 p. in-32. 5</desc>
                 </item>
 
                 <item n="145" xml:id="CAT_000030_e145">
@@ -1440,7 +1441,7 @@
                     <trait>
                         <p>Le même</p>
                     </trait>
-                    <desc>Billet aut. sig., 1824, 1 p. in-32. 5</desc>
+                    <desc xml:id="CAT_000030_e145_1">Billet aut. sig., 1824, 1 p. in-32. 5</desc>
                 </item>
 
                 <item n="146" xml:id="CAT_000030_e146">
@@ -1449,7 +1450,7 @@
                     <trait>
                         <p>littérateur anglais contemporain, fils de W. Roscoe</p>
                     </trait>
-                    <desc>L. a. s., 1862, 4 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e146_1">L. a. s., 1862, 4 p. in-8. 3</desc>
                 </item>
 
                 <item n="147" xml:id="CAT_000030_e147">
@@ -1458,7 +1459,7 @@
                     <trait>
                         <p>le célèbre chanteur italien</p>
                     </trait>
-                    <desc>Reçu sig. pour un mois d'appointements, 1835, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e147_1">Reçu sig. pour un mois d'appointements, 1835, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="148" xml:id="CAT_000030_e148">
@@ -1467,7 +1468,7 @@
                     <trait>
                         <p>auteur de Paul et Virginie</p>
                     </trait>
-                    <desc>Quit. aut. sig., 1784, 1/4 de p. in-4, écriture bâtonnée. 4</desc>
+                    <desc xml:id="CAT_000030_e148_1">Quit. aut. sig., 1784, 1/4 de p. in-4, écriture bâtonnée. 4</desc>
                     <note>Reçu de 165 livres du comte de Vergennes, pour 20 exemplaires des Etudes
                         de la nature</note>
                 </item>
@@ -1478,7 +1479,7 @@
                     <trait>
                         <p>la célèbre romancière</p>
                     </trait>
-                    <desc>L. a. s. à Menjaud, 3 p. in-8. Charmante épître. 4</desc>
+                    <desc xml:id="CAT_000030_e149_1">L. a. s. à Menjaud, 3 p. in-8. Charmante épître. 4</desc>
                 </item>
                 <item n="150" xml:id="CAT_000030_e150">
                     <num>150</num>
@@ -1486,7 +1487,7 @@
                     <trait>
                         <p>célèbre général de la garde nationale de Paris</p>
                     </trait>
-                    <desc>L. sig., 13 prair. an XII, 2 p. in-4. 4</desc>
+                    <desc xml:id="CAT_000030_e150_1">L. sig., 13 prair. an XII, 2 p. in-4. 4</desc>
                     <note>Lettre curieuse, écrite comme propriétaire de la Rotonde du Temple</note>
                 </item>
 
@@ -1496,7 +1497,7 @@
                     <trait>
                         <p>peintre célèbre</p>
                     </trait>
-                    <desc>L. a. s. à L. Viardot, 1/2 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e151_1">L. a. s. à L. Viardot, 1/2 p. in-8. 4</desc>
                 </item>
 
                 <item n="152" xml:id="CAT_000030_e152">
@@ -1506,7 +1507,7 @@
                         <p>célèbre architecte anglais, le restaurateur de l'architecture, gothique
                             en Angleterre</p>
                     </trait>
-                    <desc>L. a. s., 1865, 4 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e152_1">L. a. s., 1865, 4 p. in-8. 4</desc>
                 </item>
                 <item n="153" xml:id="CAT_000030_e153">
                     <num>153</num>
@@ -1514,7 +1515,7 @@
                     <trait>
                         <p>graveur, célèbre conventionnel, beau-frère de Marceau</p>
                     </trait>
-                    <desc>L. a. s., 1 p. pet. in-4. 3</desc>
+                    <desc xml:id="CAT_000030_e153_1">L. a. s., 1 p. pet. in-4. 3</desc>
                     <note>Au sujet de rectifications concernant sa vie politique</note>
                 </item>
 
@@ -1524,7 +1525,7 @@
                     <trait>
                         <p>célèbre tragédien anglais du XVIIIe siècle</p>
                     </trait>
-                    <desc>Billet aut. sig.; 1751, 1 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000030_e154_1">Billet aut. sig.; 1751, 1 p. in-8. 5</desc>
                     <note>Ordre de payer 57 liv. sterl. à N. Pasquali, artiste, dont le reçu signé
                         est joint à la pièce</note>
                 </item>
@@ -1536,7 +1537,7 @@
                         <p>conteur et romancier original angtais, fameux par son ascension du
                             Mont-Blanc</p>
                     </trait>
-                    <desc>L. a. s., 1848, 2 p. in-18. 3</desc>
+                    <desc xml:id="CAT_000030_e155_1">L. a. s., 1848, 2 p. in-18. 3</desc>
                 </item>
 
                 <item n="156" xml:id="CAT_000030_e156">
@@ -1545,7 +1546,7 @@
                     <trait>
                         <p>le fameux mime américain, dit lord Dundreary</p>
                     </trait>
-                    <desc>Billet de 3 lignes aut. sig. Rare. 3</desc>
+                    <desc xml:id="CAT_000030_e156_1">Billet de 3 lignes aut. sig. Rare. 3</desc>
                 </item>
 
                 <item n="157" xml:id="CAT_000030_e157">
@@ -1554,7 +1555,7 @@
                     <trait>
                         <p>célèbre prédicateur dissident anglais</p>
                     </trait>
-                    <desc>L. a. s., 1 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000030_e157_1">L. a. s., 1 p. in-8. 5</desc>
                 </item>
 
                 <item n="158" xml:id="CAT_000030_e158">
@@ -1563,7 +1564,7 @@
                     <trait>
                         <p>célèbre peintre de marine anglais</p>
                     </trait>
-                    <desc>L. a. s. 1845, 1 p. in-18. 3</desc>
+                    <desc xml:id="CAT_000030_e158_1">L. a. s. 1845, 1 p. in-18. 3</desc>
                 </item>
 
                 <item n="159" xml:id="CAT_000030_e159">
@@ -1573,7 +1574,7 @@
                         <p>habile sculpteur écossais, à qui l'on doit une belle statue de Walter
                             Scott</p>
                     </trait>
-                    <desc>L. a. s., 1865, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e159_1">L. a. s., 1865, 1 p. in-8. 4</desc>
                 </item>
 
                 <item n="160" xml:id="CAT_000030_e160">
@@ -1584,7 +1585,7 @@
                             par ordre de Cromwell, et l'un des principaux donateurs pour la
                             reconstruction de la cathédrale de Saint-Paul</p>
                     </trait>
-                    <desc>Belle pièce sig. Rich. Ebor (Richard d'York), avec une ligne aut., 1675, 1
+                    <desc xml:id="CAT_000030_e160_1">Belle pièce sig. Rich. Ebor (Richard d'York), avec une ligne aut., 1675, 1
                         p. in-f. Rare. 15</desc>
                 </item>
 
@@ -1595,7 +1596,7 @@
                         <p>célèbre femme poète anglaise, auteur de l'Histoire des Reines
                             d'Angleterre</p>
                     </trait>
-                    <desc>Notice autog. sur la maison de Fondé, 1 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000030_e161_1">Notice autog. sur la maison de Fondé, 1 p. in-4. 5</desc>
                 </item>
 
                 <item n="162" xml:id="CAT_000030_e162">
@@ -1605,7 +1606,7 @@
                         <p>un des poètes anglais contemporains les plus célèbres, auteur du poème de
                             l'Intelligence</p>
                     </trait>
-                    <desc>Dramatic Chapters, Chapter II, pièce de vers aut. sig., 8 p. in-4.
+                    <desc xml:id="CAT_000030_e162_1">Dramatic Chapters, Chapter II, pièce de vers aut. sig., 8 p. in-4.
                         7</desc>
                 </item>
 
@@ -1616,7 +1617,7 @@
                         <p>philosophe anglais, célèbre par l'indépendance de ses opinions, auteur de
                             l'Histoire naturelle de l'enthousiasme.</p>
                     </trait>
-                    <desc> Belle pièce de vers aut. sig., 1827, 2 p. in-4. 5 </desc>
+                    <desc xml:id="CAT_000030_e163_1"> Belle pièce de vers aut. sig., 1827, 2 p. in-4. 5 </desc>
                 </item>
 
                 <item n="164" xml:id="CAT_000030_e164">
@@ -1625,7 +1626,7 @@
                     <trait>
                         <p>célèbre auteur dramatique anglais contemporain</p>
                     </trait>
-                    <desc>L. a. s., 1863, 4 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e164_1">L. a. s., 1863, 4 p. in-8. 3</desc>
                 </item>
 
                 <item n="165" xml:id="CAT_000030_e165">
@@ -1635,7 +1636,7 @@
                         <p>célèbre femme poète anglaise, auteur des Essais sur l'esprit des enfants,
                             morte en 1823</p>
                     </trait>
-                    <desc>L. a. s., 1800, 3 p. 1/4 in-4. Belle et très-intéressante épître. Rare
+                    <desc xml:id="CAT_000030_e165_1">L. a. s., 1800, 3 p. 1/4 in-4. Belle et très-intéressante épître. Rare
                         15</desc>
                 </item>
 
@@ -1645,7 +1646,7 @@
                     <trait>
                         <p>illustre homme d'état</p>
                     </trait>
-                    <desc>L. sig., 1833, 2 p. 1/2 in-f. 4</desc>
+                    <desc xml:id="CAT_000030_e166_1">L. sig., 1833, 2 p. 1/2 in-f. 4</desc>
                     <note>Curieuse pièce relative au vieux bronze à prendre dans les arsenaux pour
                         l'exécution des portes monumentales de la Madeleine</note>
                 </item>
@@ -1656,7 +1657,7 @@
                     <trait>
                         <p>Le même</p>
                     </trait>
-                    <desc>L. a. s. à une dame, 1841, 1 p. in-8. 6</desc>
+                    <desc xml:id="CAT_000030_e167_1">L. a. s. à une dame, 1841, 1 p. in-8. 6</desc>
                 </item>
 
                 <item n="168" xml:id="CAT_000030_e168">
@@ -1665,7 +1666,7 @@
                     <trait>
                         <p>président du gouvernement de la défense nationale</p>
                     </trait>
-                    <desc>L. a. s. à M. Labrouste, 1864, 1 p. in-8. 6</desc>
+                    <desc xml:id="CAT_000030_e168_1">L. a. s. à M. Labrouste, 1864, 1 p. in-8. 6</desc>
                 </item>
 
                 <item n="169" xml:id="CAT_000030_e169">
@@ -1674,7 +1675,7 @@
                     <trait>
                         <p>littérateur populaire anglais, auteur de la Philosophie des proverbes</p>
                     </trait>
-                    <desc>L. a. s. , 1858, 3 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e169_1">L. a. s. , 1858, 3 p. in-8. 4</desc>
                 </item>
 
                 <item n="170" xml:id="CAT_000030_e170">
@@ -1683,7 +1684,7 @@
                     <trait>
                         <p>le grand peintre d'histoire</p>
                     </trait>
-                    <desc>L. a. s. à M. Ravenas, 1855, 1 p. in-8. 8</desc>
+                    <desc xml:id="CAT_000030_e170_1">L. a. s. à M. Ravenas, 1855, 1 p. in-8. 8</desc>
                     <note>Il consent à ce que son tableau le Retour de la chasse au lion soit
                         exposé. « Je tiens infiniment, dit-il, que l'un de mes derniers ouvrages
                         figure à côté de ses frères aînés : C'est peut-être une prétention de
@@ -1696,7 +1697,7 @@
                     <trait>
                         <p>l'auteur du Tannhauser</p>
                     </trait>
-                    <desc>L. a. s., en français, 1861. 1 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000030_e171_1">L. a. s., en français, 1861. 1 p. in-8. 5</desc>
                     <note>Demande d'une loge pour voir jouer Guillaume Tell</note>
                 </item>
 
@@ -1707,7 +1708,7 @@
                         <p>peintre d'histoire anglais, élève de Wilkie, membre de l'Académie
                             royale</p>
                     </trait>
-                    <desc>L. a. s., 2 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e172_1">L. a. s., 2 p. in-8. 4</desc>
                 </item>
 
                 <item n="173" xml:id="CAT_000030_e173">
@@ -1716,7 +1717,7 @@
                     <trait>
                         <p>célèbre poète et publiciste anglais</p>
                     </trait>
-                    <desc>L. a. s., 1851. 4 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e173_1">L. a. s., 1851. 4 p. in-8. 4</desc>
                 </item>
 
                 <item n="174" xml:id="CAT_000030_e174">
@@ -1726,7 +1727,7 @@
                         <p>illustre mathématicien et philosophe anglais, le réformateur des études
                             mathématiques dans sa patrie</p>
                     </trait>
-                    <desc>L. a. s. au professeur Henslow, 3 p. in-4. Belle et intéressante lettre
+                    <desc xml:id="CAT_000030_e174_1">L. a. s. au professeur Henslow, 3 p. in-4. Belle et intéressante lettre
                         scientifique. 8</desc>
                 </item>
 
@@ -1736,7 +1737,7 @@
                     <trait>
                         <p>illustre écrivain allemand</p>
                     </trait>
-                    <desc>L. sig. avec la date aut. 1800, 4 p. in-4. 4</desc>
+                    <desc xml:id="CAT_000030_e175_1">L. sig. avec la date aut. 1800, 4 p. in-4. 4</desc>
                 </item>
 
                 <item n="176" xml:id="CAT_000030_e176">
@@ -1745,7 +1746,7 @@
                     <trait>
                         <p>fécond romancier américain, l'Alexandre Dumas des Etats-Unis</p>
                     </trait>
-                    <desc>L. a. s. à M. Fields, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e176_1">L. a. s. à M. Fields, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="177" xml:id="CAT_000030_e177">
@@ -1755,7 +1756,7 @@
                         <p>célèbre poète quaker anglais, traducteur du Tasse dans le rithme de
                             Shakspeare, bibliophile distingué et amateur des arts</p>
                     </trait>
-                    <desc>L. a. s. à M. Cooke, 1826, 1 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000030_e177_1">L. a. s. à M. Cooke, 1826, 1 p. in-4. 3</desc>
                 </item>
 
                 <item n="178" xml:id="CAT_000030_e178">
@@ -1764,7 +1765,7 @@
                     <trait>
                         <p>cardinal-archevêque de Westminster, célèbre prélat anglais</p>
                     </trait>
-                    <desc>L. a. s., 1856, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e178_1">L. a. s., 1856, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="179" xml:id="CAT_000030_e179">
@@ -1773,7 +1774,7 @@
                     <trait>
                         <p>célèbre poète anglais</p>
                     </trait>
-                    <desc>Note signée, 1 p. in-18. 3</desc>
+                    <desc xml:id="CAT_000030_e179_1">Note signée, 1 p. in-18. 3</desc>
                 </item>
 
                 <item n="180" xml:id="CAT_000030_e180">
@@ -1782,7 +1783,7 @@
                     <trait>
                         <p>savant antiquaire anglais, corresp. de l'Institut de France</p>
                     </trait>
-                    <desc>L. a. s. , 1853, 1 p. 1/2 in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e180_1">L. a. s. , 1853, 1 p. 1/2 in-8. 3</desc>
                 </item>
 
                 <item n="181" xml:id="CAT_000030_e181">
@@ -1791,7 +1792,7 @@
                     <trait>
                         <p>médecin, poète romantique, auteur de sonnets célèbres</p>
                     </trait>
-                    <desc>L. a. s. ; Melun, 1850, 4 p. pl. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e181_1">L. a. s. ; Melun, 1850, 4 p. pl. in-8. 4</desc>
                 </item>
 
                 <item n="182" xml:id="CAT_000030_e182">
@@ -1800,7 +1801,7 @@
                     <trait>
                         <p>poète romantique</p>
                     </trait>
-                    <desc>L. a. s. ; 1 p. in-8. Relative à sa petite comedie du Beau Léandre.
+                    <desc xml:id="CAT_000030_e182_1">L. a. s. ; 1 p. in-8. Relative à sa petite comedie du Beau Léandre.
                         2</desc>
                 </item>
 
@@ -1810,7 +1811,7 @@
                     <trait>
                         <p>célèbre poète satvrique, auteur des Iambes, membre de l'Acad. fr</p>
                     </trait>
-                    <desc>L. a. s., 1868, 1 p. 1/2 in-8. 6</desc>
+                    <desc xml:id="CAT_000030_e183_1">L. a. s., 1868, 1 p. 1/2 in-8. 6</desc>
                     <note>Curieuse réponse à la demande de sa collaboration à un journal satirique
                         en vers. Il refuse, la poésie satirique étant essentiellement individuelle
                         et ne pouvant se faire en société. « Puis, ajoute-t-il, la situation de la
@@ -1826,7 +1827,7 @@
                     <trait>
                         <p>maréchal de France, commandant en chef de l'armée de Metz</p>
                     </trait>
-                    <desc>Belle lettre sig., 1862, 1 p. in-4 Rare. 15</desc>
+                    <desc xml:id="CAT_000030_e184_1">Belle lettre sig., 1862, 1 p. in-4 Rare. 15</desc>
                 </item>
 
                 <item n="185" xml:id="CAT_000030_e185">
@@ -1835,7 +1836,7 @@
                     <trait>
                         <p>le grand chansonnier</p>
                     </trait>
-                    <desc>L. a. s. à M. Labrouste; Passy, 1834, 2 p. in-8. Belle et curieuse lettre.
+                    <desc xml:id="CAT_000030_e185_1">L. a. s. à M. Labrouste; Passy, 1834, 2 p. in-8. Belle et curieuse lettre.
                         6</desc>
                 </item>
 
@@ -1845,7 +1846,7 @@
                     <trait>
                         <p>grand violoniste et compositeur belge</p>
                     </trait>
-                    <desc>Andante cantabile, morceau de musique, avec paroles et 2 lignes aut. sig.
+                    <desc xml:id="CAT_000030_e186_1">Andante cantabile, morceau de musique, avec paroles et 2 lignes aut. sig.
                         ; 1856, 1 p. in-f., oblong. 12</desc>
                 </item>
 
@@ -1855,7 +1856,7 @@
                     <trait>
                         <p>sénateur, né à Valence, fusillé avec Monseigneur</p>
                     </trait>
-                    <desc>Billet aut. sig., 1862, 1/2 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e187_1">Billet aut. sig., 1862, 1/2 p. in-8. 4</desc>
                     <note>Il demande un article sur le chanoine d'Ollinger et les mémoires du
                         cardinal Pacca</note>
                 </item>
@@ -1866,7 +1867,7 @@
                     <trait>
                         <p>célèbre écrivain romantique</p>
                     </trait>
-                    <desc>L. a. s. au libraire Lequien, 1836, 2 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e188_1">L. a. s. au libraire Lequien, 1836, 2 p. in-8. 3</desc>
                     <note>Curieuse lettre où on lit : « Je souffre parce que la librairie est pleine
                         de mouches qui mettent leur ver partout où elles se posent.</note>
                 </item>
@@ -1877,7 +1878,7 @@
                     <trait>
                         <p>dit Michel Raymond, célèbre écrivain romantique, auteur du Masson</p>
                     </trait>
-                    <desc>L. a. s., 1850, 2 p. pl. pet. in-4. 5</desc>
+                    <desc xml:id="CAT_000030_e189_1">L. a. s., 1850, 2 p. pl. pet. in-4. 5</desc>
                     <note>Très curieuse lettre dans laquelle il fait une fervente profession de foi
                         catholique et se défend d'avoir amené des personnages de l'Eglise à la
                         théorie de Ch. Fourier. « J'étais jeune d'âme, dit-il, j'étais souffrent, je
@@ -1892,7 +1893,7 @@
                     <trait>
                         <p>la grande cantatrice</p>
                     </trait>
-                    <desc>L. a. s., 4 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e190_1">L. a. s., 4 p. in-8. 4</desc>
                 </item>
 
                 <item n="191" xml:id="CAT_000030_e191">
@@ -1902,7 +1903,7 @@
                         <p>un des chefs les plus chevaleresques du parti républicain sous
                             Louis-Philippe, célèbre écrivain romantique</p>
                     </trait>
-                    <desc>L. a. s. à Flora Tristan, 1843, 1 p. 1/2 in-8. Cachet à son chiffre.
+                    <desc xml:id="CAT_000030_e191_1">L. a. s. à Flora Tristan, 1843, 1 p. 1/2 in-8. Cachet à son chiffre.
                         3</desc>
                 </item>
 
@@ -1912,7 +1913,7 @@
                     <trait>
                         <p>illustre écrivain et homme d'état, de l'Acad. fr</p>
                     </trait>
-                    <desc>L. a. s., 1er juin 1838, 2 p. in-8. 12</desc>
+                    <desc xml:id="CAT_000030_e192_1">L. a. s., 1er juin 1838, 2 p. in-8. 12</desc>
                     <note>Belle et intéressante lettre par laquelle il remercie le journal d'un
                         article sur son livre le Congrès de Vérone. Il ajoute « Indépendant par les
                         opinions et par les années, je suis heureux, au moment de quitter la vie,
@@ -1930,7 +1931,7 @@
                         <p>célèbre poète armurier belge, auteur du poème de Godefroid de Bouillon,
                             né à Mons</p>
                     </trait>
-                    <desc>Pièce de vers aut. sig., en français; fév. 1859, 1 p. in-4. 4</desc>
+                    <desc xml:id="CAT_000030_e193_1">Pièce de vers aut. sig., en français; fév. 1859, 1 p. in-4. 4</desc>
                     <note>Spirituelle pièce épigrammatique ayant pour titre : l'Oil de
                         Fourier</note>
                 </item>
@@ -1942,7 +1943,7 @@
                         <p>spirituel romancier anglais, peintre original des moeurs contemporaines,
                             auteur de Sans Nom, d'une poignée de romans, etc</p>
                     </trait>
-                    <desc>L. a. s. à un littérateur; Londres, 1860, 3 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000030_e194_1">L. a. s. à un littérateur; Londres, 1860, 3 p. in-8. 5</desc>
                     <note>Très-intéressante épître relative à la traduction en français de son roman
                         populaire la Femme en blanc</note>
                 </item>
@@ -1953,7 +1954,7 @@
                     <trait>
                         <p>illustre poète, de l'Acad. fr., né au Havre</p>
                     </trait>
-                    <desc>L. a. s., 1832, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e195_1">L. a. s., 1832, 1 p. in-8. 4</desc>
                     <note>Lettre adressée à une personne qui lui a envoyé un pâté en remerciment de
                         ses Vêpres siciliennes: Il adresse à cette même personne sa tragédie de
                         Louis XI</note>
@@ -1965,7 +1966,7 @@
                     <trait>
                         <p>célèbre musicien, chanteur et compositeur</p>
                     </trait>
-                    <desc>L. a. s., 1 p. in-8. 2</desc>
+                    <desc xml:id="CAT_000030_e196_1">L. a. s., 1 p. in-8. 2</desc>
                 </item>
 
                 <item n="197" xml:id="CAT_000030_e197">
@@ -1974,7 +1975,7 @@
                     <trait>
                         <p>l'héroïque défenseur de Belfort</p>
                     </trait>
-                    <desc>L. a. s., 1873, 1/2 p. in-8. 6</desc>
+                    <desc xml:id="CAT_000030_e197_1">L. a. s., 1873, 1/2 p. in-8. 6</desc>
                 </item>
 
                 <item n="198" xml:id="CAT_000030_e198">
@@ -1983,7 +1984,7 @@
                     <trait>
                         <p>célèbre poète romantique</p>
                     </trait>
-                    <desc>L. a. s., 1855, 1 p. in-8. 2</desc>
+                    <desc xml:id="CAT_000030_e198_1">L. a. s., 1855, 1 p. in-8. 2</desc>
                 </item>
 
                 <item n="199" xml:id="CAT_000030_e199">
@@ -1992,7 +1993,7 @@
                     <trait>
                         <p>père, le grand romancier</p>
                     </trait>
-                    <desc>L. a. s. à Ach. Comte, 1 p. in-8. Charmante épître. 3</desc>
+                    <desc xml:id="CAT_000030_e199_1">L. a. s. à Ach. Comte, 1 p. in-8. Charmante épître. 3</desc>
                 </item>
 
                 <item n="200" xml:id="CAT_000030_e200">
@@ -2001,7 +2002,7 @@
                     <trait>
                         <p>représentant du peuple, célèbre écrivain romantique</p>
                     </trait>
-                    <desc>L. a. s., Londres, 1869, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e200_1">L. a. s., Londres, 1869, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="201" xml:id="CAT_000030_e201">
@@ -2010,7 +2011,7 @@
                     <trait>
                         <p>célèbre prédicateur</p>
                     </trait>
-                    <desc>L. a. s. ; Vannes, 1856, 3 p. 1/2 in-8. 8</desc>
+                    <desc xml:id="CAT_000030_e201_1">L. a. s. ; Vannes, 1856, 3 p. 1/2 in-8. 8</desc>
                     <note>Très-curieuse lettre relative à Béranger et à George Sand. Il félicite un
                         redacteur du Correspondant d'avoir mis à leur place des renommées si pleines
                         de corruption et des misères de ce siècle. « J'aurais, dit-il, consenti
@@ -2027,7 +2028,7 @@
                     <trait>
                         <p>célèbre romancier, auteur de Fanny</p>
                     </trait>
-                    <desc>L. a. s., 24 nov. 1871, 4 p. pl. in-8. 8</desc>
+                    <desc xml:id="CAT_000030_e202_1">L. a. s., 24 nov. 1871, 4 p. pl. in-8. 8</desc>
                     <note>Très-curieuse lettre relative au refus fait par un journal d'insérer son
                         article : Philosophie d'un chroniqueur. On l'engage à parler des beaux-arts,
                         qui n'existent plus. Il consent à écrire sur les finances des articles sans
@@ -2042,7 +2043,7 @@
                     <trait>
                         <p>député, membre du Gouvernement de la Défense nationale</p>
                     </trait>
-                    <desc>L. a. s., 26 mai 1869, 2 p. in-18. 3</desc>
+                    <desc xml:id="CAT_000030_e203_1">L. a. s., 26 mai 1869, 2 p. in-18. 3</desc>
                     <note>Il demande que le journal La Tribune le soutienne énergiquement, ainsi que
                         Jules Favre, contre l'attaque acharnée des Raspail</note>
                 </item>
@@ -2053,7 +2054,7 @@
                     <trait>
                         <p>roi d'Angleterre</p>
                     </trait>
-                    <desc>L. a. s. à John O'Connell (1822), 1 p. in-8. 10</desc>
+                    <desc xml:id="CAT_000030_e204_1">L. a. s. à John O'Connell (1822), 1 p. in-8. 10</desc>
                 </item>
 
                 <item n="205" xml:id="CAT_000030_e205">
@@ -2062,7 +2063,7 @@
                     <trait>
                         <p>célèbre poète romantique</p>
                     </trait>
-                    <desc>L. a. s. ; Bernay, déc. 1862, 2 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000030_e205_1">L. a. s. ; Bernay, déc. 1862, 2 p. in-8. 5</desc>
                     <note>Il envoie de la copie et demande de l'argent. « Je travaille, dit-il,
                         comme jamais n'ont travaillé les nègres, et je fais de belles choses qui
                         feront peut- être gueuler, mais je m'en...</note>
@@ -2074,7 +2075,7 @@
                     <trait>
                         <p>un des plus spirituels chansonniérs du Caveau</p>
                     </trait>
-                    <desc>Bibi, ou ma carrière bachique, chanson aut. sig., 3 p. in-12. 5</desc>
+                    <desc xml:id="CAT_000030_e206_1">Bibi, ou ma carrière bachique, chanson aut. sig., 3 p. in-12. 5</desc>
                     <note>Curieuse chanson, où vient un mot latin à chaque vers. C'est son
                         autobiographie bachique</note>
                 </item>
@@ -2085,7 +2086,7 @@
                     <trait>
                         <p>célèbre compositeur, auteur de Faust</p>
                     </trait>
-                    <desc>L. a. s., 1856, 2 p. in-8 6</desc>
+                    <desc xml:id="CAT_000030_e207_1">L. a. s., 1856, 2 p. in-8 6</desc>
                     <note>Curieuse lettre relative à un concert organisé par lui à
                         Sainte-Geneviève</note>
                 </item>
@@ -2096,7 +2097,7 @@
                     <trait>
                         <p>illustre compositeur, auteur de la Juive</p>
                     </trait>
-                    <desc>L. a. Romance de Guido, tirée d'un de ses grands opéras, beau morceau de
+                    <desc xml:id="CAT_000030_e208_1">L. a. Romance de Guido, tirée d'un de ses grands opéras, beau morceau de
                         musique autog., avec 6 lig. d'envoi aut. sig. ; 1857, 1 p. in-4. 15</desc>
                 </item>
 
@@ -2106,7 +2107,7 @@
                     <trait>
                         <p>peintre français distingué</p>
                     </trait>
-                    <desc>Une marine, jolie et fine aquarelle sig. , format in-8. 12</desc>
+                    <desc xml:id="CAT_000030_e209_1">Une marine, jolie et fine aquarelle sig. , format in-8. 12</desc>
                 </item>
 
                 <item n="210" xml:id="CAT_000030_e210">
@@ -2116,7 +2117,7 @@
                         <p>célèbre amiral anglais, qui battit l'invincible Armada de Philippe II,
                             ennemi du comte d'Essex</p>
                     </trait>
-                    <desc>Let. sig. à à un lord; 4 janvier 1579, 1 p. in-8. Rare. 12</desc>
+                    <desc xml:id="CAT_000030_e210_1">Let. sig. à à un lord; 4 janvier 1579, 1 p. in-8. Rare. 12</desc>
                 </item>
 
                 <item n="211" xml:id="CAT_000030_e211">
@@ -2125,7 +2126,7 @@
                     <trait>
                         <p>célèbre prédicateur, le chef des vieux catholiques</p>
                     </trait>
-                    <desc>L. a. s. ; Genève, 1873, 1 p. 1/2 in-8. 15</desc>
+                    <desc xml:id="CAT_000030_e211_1">L. a. s. ; Genève, 1873, 1 p. 1/2 in-8. 15</desc>
                     <note>Il regrette de ne pouvoir contribuer, par sa parole, au soulagen ent des
                         malheureux et surtout des Français. Il ajoute : « Je me dois tout entier en
                         ce moment à la grande oeuvre religieuse que je poursuis ici, et qui, un
@@ -2138,7 +2139,7 @@
                     <trait>
                         <p>célèbre romancier populaire, fils et continuateur de P'aul de Kock</p>
                     </trait>
-                    <desc>L. a. s., 1/2 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e212_1">L. a. s., 1/2 p. in-8. 3</desc>
                 </item>
 
                 <item n="213" xml:id="CAT_000030_e213">
@@ -2148,7 +2149,7 @@
                         <p>ouvrier cordonnier, poète célèbre, ami de Béranger, de Victor Hugo et de
                             George Sand, né à Sens</p>
                     </trait>
-                    <desc>Madeleine, belle pièce de vers autog. sig., 1854, 1 p. in-f. oblong.
+                    <desc xml:id="CAT_000030_e213_1">Madeleine, belle pièce de vers autog. sig., 1854, 1 p. in-f. oblong.
                         8</desc>
                 </item>
 
@@ -2158,7 +2159,7 @@
                     <trait>
                         <p>célèbre poète lyonnais, de l'Académie française</p>
                     </trait>
-                    <desc>L. a. s., 1868, 3 p. pl. in-8. 5</desc>
+                    <desc xml:id="CAT_000030_e214_1">L. a. s., 1868, 3 p. pl. in-8. 5</desc>
                     <note>Sollicité de collaborer à un journal satirique en vers, il hésite d'y
                         consentir, la presse soi-disant littéraire prenant des allures telles qu'un
                         écrivain honnête est disposé à regretter d'y avoir écrit quelque chose. «
@@ -2173,13 +2174,13 @@
                     <trait>
                         <p>célèbre organiste et compositeur</p>
                     </trait>
-                    <desc>Fragment des veilleurs de nuit, marche, morceau de musique autog. sig.,
+                    <desc xml:id="CAT_000030_e215_1">Fragment des veilleurs de nuit, marche, morceau de musique autog. sig.,
                         avec 3 lig. d'envoi, 1 p. in-f. Belle pièce. 8</desc>
                 </item>
                 <item n="216" xml:id="CAT_000030_e216">
                     <num>216</num>
                     <name type="author">Lettre de cachet</name>
-                    <desc>Lettre signée du secrétaire de la maison de Louis XV, contre-signée
+                    <desc xml:id="CAT_000030_e216_1">Lettre signée du secrétaire de la maison de Louis XV, contre-signée
                         Phelypeaux, à M. Delaunay, commandant de la Bastille, 1735, 1/2 p in-f.
                         4</desc>
                 </item>
@@ -2191,7 +2192,7 @@
                         <p>le plus célèbre peintre qu'ait eu la Belgique depuis la brillante époque
                             des artistes flamands</p>
                     </trait>
-                    <desc>L. a. s. , en français, à M. Van Cuyck, 1 p. in-8. 6</desc>
+                    <desc xml:id="CAT_000030_e217_1">L. a. s. , en français, à M. Van Cuyck, 1 p. in-8. 6</desc>
                 </item>
 
                 <item n="218" xml:id="CAT_000030_e218">
@@ -2200,7 +2201,7 @@
                     <trait>
                         <p>roi de France</p>
                     </trait>
-                    <desc>Belle pièce sig. avec le mot Bon autog., 1770, 1/2 p. in-f. 2</desc>
+                    <desc xml:id="CAT_000030_e218_1">Belle pièce sig. avec le mot Bon autog., 1770, 1/2 p. in-f. 2</desc>
                 </item>
 
                 <item n="219" xml:id="CAT_000030_e219">
@@ -2209,7 +2210,7 @@
                     <trait>
                         <p>roi des Français</p>
                     </trait>
-                    <desc>L. sig., 1791, 1/2 p.in-f. 3</desc>
+                    <desc xml:id="CAT_000030_e219_1">L. sig., 1791, 1/2 p.in-f. 3</desc>
                     <note>Ordre de payer 150,000 fr. à sa tante Adélaïde</note>
                 </item>
 
@@ -2219,7 +2220,7 @@
                     <trait>
                         <p>publiciste, célèbre poète romantique, né à Château-Gontier</p>
                     </trait>
-                    <desc>L. a. s. à H. Villenave, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e220_1">L. a. s. à H. Villenave, 1 p. in-8. 3</desc>
                 </item>
 
                 <item n="221" xml:id="CAT_000030_e221">
@@ -2228,7 +2229,7 @@
                     <trait>
                         <p>président de la République française</p>
                     </trait>
-                    <desc>L. sig. ; Alger, 1855, 2 p. in-f. 15</desc>
+                    <desc xml:id="CAT_000030_e221_1">L. sig. ; Alger, 1855, 2 p. in-f. 15</desc>
                 </item>
 
                 <item n="222" xml:id="CAT_000030_e222">
@@ -2238,7 +2239,7 @@
                         <p>illustre patriote italien, dictateur de Venise, promoteur de l'unité
                             italienne</p>
                     </trait>
-                    <desc>Sentence politique autog. sig., en français, de trois longues lig. in-f.
+                    <desc xml:id="CAT_000030_e222_1">Sentence politique autog. sig., en français, de trois longues lig. in-f.
                         oblong. Très-rare. 20</desc>
                     <note>Cette sentence, qu'il serait difficile d'analyser, tant les termes en sont
                         condensés, se termine par cet axiôme : « En politique comme à la guerre, ce
@@ -2251,7 +2252,7 @@
                         <p>célèbre théologien protestant et historien suisse, auteur de l'Histoire
                             de la réformation au XVIe siècle</p>
                     </trait>
-                    <desc>L. a. s. à M. Perennet, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000030_e223_1">L. a. s. à M. Perennet, 1 p. in-8. 4</desc>
                 </item>
 
                 <item n="224" xml:id="CAT_000030_e224">
@@ -2260,7 +2261,7 @@
                     <trait>
                         <p>célèbre philanthrope, fondateur de la colonie agricole de Mettray</p>
                     </trait>
-                    <desc>L. a. s.; Mettray, 1842, 2 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e224_1">L. a. s.; Mettray, 1842, 2 p. in-8. 3</desc>
                 </item>
 
                 <item n="225" xml:id="CAT_000030_e225">
@@ -2269,7 +2270,7 @@
                     <trait>
                         <p>savant orientaliste allemand, correspondant de l'Institut de France</p>
                     </trait>
-                    <desc>L. a. s. , en anglais, 1868, 1 p. in-8. 2</desc>
+                    <desc xml:id="CAT_000030_e225_1">L. a. s. , en anglais, 1868, 1 p. in-8. 2</desc>
                 </item>
 
                 <item n="226" xml:id="CAT_000030_e226">
@@ -2278,7 +2279,7 @@
                     <trait>
                         <p>spirituel dessinateur, littérateur et aéronaute</p>
                     </trait>
-                    <desc>Joli et curieux croquis à l'encre de Chine, avec 6 lignes aut. sig.
+                    <desc xml:id="CAT_000030_e226_1">Joli et curieux croquis à l'encre de Chine, avec 6 lignes aut. sig.
                         d'envoi ; déc. 1860, 1 p. in-4. 8</desc>
                     <note>Ce croquis représente un ancien militaire et un jeune paysan; dans le
                         fuvant une bataille. Au bas sont ces mots, que prononce l'ancien milltaire :
@@ -2291,7 +2292,7 @@
                     <trait>
                         <p>empereur des Français</p>
                     </trait>
-                    <desc>Beau brevet sig. sur vélin, comme premier consul, accordant un sabre
+                    <desc xml:id="CAT_000030_e227_1">Beau brevet sig. sur vélin, comme premier consul, accordant un sabre
                         d'honneur, an XI, double in-f., sceau, vignette de Roger. 10</desc>
                 </item>
 
@@ -2301,7 +2302,7 @@
                     <trait>
                         <p>régent de France</p>
                     </trait>
-                    <desc>Pièce sig. sur vélin, 1721, in-4. 5</desc>
+                    <desc xml:id="CAT_000030_e228_1">Pièce sig. sur vélin, 1721, in-4. 5</desc>
                 </item>
 
                 <item n="229" xml:id="CAT_000030_e229">
@@ -2310,7 +2311,7 @@
                     <trait>
                         <p>célèbre compositeur de musique, de l'Institut</p>
                     </trait>
-                    <desc>Appelez-moi, je reviendrai, romance, paroles et musique aut. sig. ; 1857,
+                    <desc xml:id="CAT_000030_e229_1">Appelez-moi, je reviendrai, romance, paroles et musique aut. sig. ; 1857,
                         1 p. in-f. 15</desc>
                 </item>
 
@@ -2320,7 +2321,7 @@
                     <trait>
                         <p>fils du duc d'Orléans</p>
                     </trait>
-                    <desc>L. a. s.; Chantilly, 1872, 2p. in-8. 20</desc>
+                    <desc xml:id="CAT_000030_e230_1">L. a. s.; Chantilly, 1872, 2p. in-8. 20</desc>
                     <note>Il approuve le but humanitaire de l'Alliance universelle de l'ordre et de
                         la civilisation, mais l'extrême réserve que lui impose sa situation
                         personnelle ne lui permet pas de s'associer par un concours individuel à
@@ -2333,7 +2334,7 @@
                     <trait>
                         <p>premier roi constitutionnel du Portugal, empereur du Brésil</p>
                     </trait>
-                    <desc>L. sig. au duc de Parme; palais de Rio de Janeiro, 1849, 1/2 p. in-4.
+                    <desc xml:id="CAT_000030_e231_1">L. sig. au duc de Parme; palais de Rio de Janeiro, 1849, 1/2 p. in-4.
                         5</desc>
                 </item>
 
@@ -2343,7 +2344,7 @@
                     <trait>
                         <p>supérieur général des frères des écoles chrétiennes, mort récemment</p>
                     </trait>
-                    <desc>L. sig., 1853, 2 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000030_e232_1">L. sig., 1853, 2 p. in-4. 3</desc>
                 </item>
 
                 <item n="233" xml:id="CAT_000030_e233">
@@ -2352,7 +2353,7 @@
                     <trait>
                         <p>membre du gouvernement de la Défense nationale</p>
                     </trait>
-                    <desc>L. a. s., 1/2 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000030_e233_1">L. a. s., 1/2 p. in-8. 3</desc>
                 </item>
 
                 <item n="234" xml:id="CAT_000030_e234">
@@ -2361,7 +2362,7 @@
                     <trait>
                         <p>pair de France, fameux par le meurtre de sa femme</p>
                     </trait>
-                    <desc>L. a. s., 1836, 2 p. in-8. Jolie pièce. 5</desc>
+                    <desc xml:id="CAT_000030_e234_1">L. a. s., 1836, 2 p. in-8. Jolie pièce. 5</desc>
                 </item>
 
                 <item n="235" xml:id="CAT_000030_e235">
@@ -2371,7 +2372,7 @@
                         <p>feld-maréchal autrichien, fameux par ses cruautés dans la répression des
                             mouvements patriotiques en Italie</p>
                     </trait>
-                    <desc>L. sig.; Vérone, 26 mars 1852, 2 p. in-f. 5</desc>
+                    <desc xml:id="CAT_000030_e235_1">L. sig.; Vérone, 26 mars 1852, 2 p. in-f. 5</desc>
                 </item>
 
                 <item n="236" xml:id="CAT_000030_e236">
@@ -2380,7 +2381,7 @@
                     <trait>
                         <p>un des héros de la guerre de l'indépendance américaine</p>
                     </trait>
-                    <desc>L. sig. au maréchal de Ségur ; Rochambeau, 1784, 3 p. in-4. Rare. 6</desc>
+                    <desc xml:id="CAT_000030_e236_1">L. sig. au maréchal de Ségur ; Rochambeau, 1784, 3 p. in-4. Rare. 6</desc>
                 </item>
                 <item n="237" xml:id="CAT_000030_e237">
                     <num>237</num>
@@ -2388,7 +2389,7 @@
                     <trait>
                         <p>célèbre littérateur romantique</p>
                     </trait>
-                    <desc>Chanson aut. sig. , 1 p. in-f. 6</desc>
+                    <desc xml:id="CAT_000030_e237_1">Chanson aut. sig. , 1 p. in-f. 6</desc>
                     <note>Celte chanson a pour titre : Hier, à Rosine. Elle est précédée d'un
                         charmant paysage à la plume, aussi de la main de Roger de Beauvoir</note>
                 </item>
@@ -2400,7 +2401,7 @@
                         <p>femme célèbre par son dévoûment philanthropique, surnommée la Providence
                             des pauvres</p>
                     </trait>
-                    <desc>L. a. s., 1853, 1 p. 1/2 in-8. Relative à un acte de bienfaisance. 4</desc>
+                    <desc xml:id="CAT_000030_e238_1">L. a. s., 1853, 1 p. 1/2 in-8. Relative à un acte de bienfaisance. 4</desc>
                 </item>
 
                 <item n="239" xml:id="CAT_000030_e239">
@@ -2410,7 +2411,7 @@
                         <p>le peintre en miniature le plus célèbre de l'Angleterre, de l'Acad,
                             royale</p>
                     </trait>
-                    <desc>L. a. s. en anglais, à Henry Berthond ; 25 fév. 1843, 3 p. 1/2 in-4.
+                    <desc xml:id="CAT_000030_e239_1">L. a. s. en anglais, à Henry Berthond ; 25 fév. 1843, 3 p. 1/2 in-4.
                         cachet. 8</desc>
                     <note>Belle et très-intéressante lettre relative à ses travaux de
                         peinture</note>
@@ -2422,7 +2423,7 @@
                     <trait>
                         <p>célèbre peintre et tragédien, né à Nîmes, mort en 1865</p>
                     </trait>
-                    <desc>Croquis au crayon sig., avec 2 lignes autog., 1 p. pet. in-4 oblong.
+                    <desc xml:id="CAT_000030_e240_1">Croquis au crayon sig., avec 2 lignes autog., 1 p. pet. in-4 oblong.
                         12</desc>
                     <note>C'est son propre portrait, dans le rôle d'Hamlet, de Shakspeare, où il
                         excellait. Il a écrit au crayon ce vers de son rôle: « Etre prêt, tout est

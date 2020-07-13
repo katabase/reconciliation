@@ -1,4 +1,5 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000091">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000091">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -92,7 +93,7 @@
             <gap/>
             <item n="1180" xml:id="CAT_000091_e1180">
                <num>1180</num>
-               <desc>Recueil de Lettres originales, au nombre d’environ cent, de personnages
+               <desc xml:id="CAT_000091_e1180_1">Recueil de Lettres originales, au nombre d’environ cent, de personnages
                   célèbres du XVIe siècle. In-fol. demi-rel.
                   MANUSCRIT AUTOGRAPHE et très précieux, contenant 
                   <list>
@@ -166,7 +167,7 @@
             </item>
             <item n="1181" xml:id="CAT_000091_e1181">
                <num>1181.</num>
-               <desc>
+               <desc xml:id="CAT_000091_e1181_1">
                   Recueil de lettres autographes de LOUIS XIV et autres personnes de la maison royale
                   de France à madame de Maintenon, avec plusieurs autres lettres de différens personnages
                   célèbres du XVIIe siècle. In fol. dos de mar. r.
@@ -244,7 +245,7 @@
             <item n="1182" xml:id="CAT_000091_e1182">
                <num>1182.</num>
                <name/>
-               <desc>
+               <desc xml:id="CAT_000091_e1182_1">
                   Lettres autographes et originales de plusieurs personnes célèbres du XVIIe et du XVIIIe siècle,
                   notamment de <persName>madame de SÉVIGNÉ</persName>, de <persName>madame de MAINTENON</persName>,
                   de <persName>VOLTAIRE</persName>, de <persName>J.J. ROUSSEAU</persName>, de <persName>BUFFON</persName>,
@@ -323,7 +324,7 @@
             </item>
             <item n="1183" xml:id="CAT_000091_e1183">
                <num>1183.</num>
-               <desc>
+               <desc xml:id="CAT_000091_e1183_1">
                   Recueil de lettres autographes, XVIIIe siècle.In fol. dos de mar. r.
                   Ce volume renferme quarante et une lettres; savoir:
                   <list>
@@ -365,40 +366,40 @@
             </item>
             <item n="1184" xml:id="CAT_000091_e1184">
                <num>1184</num>
-               <desc>Lettres de SAINT VINCENT DE PAUL, datée du 20 novembre 1644, à M. Delville, supérieur
+               <desc xml:id="CAT_000091_e1184_1">Lettres de SAINT VINCENT DE PAUL, datée du 20 novembre 1644, à M. Delville, supérieur
                   des prêtres de la Mission, à Montmirail.</desc>
             </item>
             <item n="1185" xml:id="CAT_000091_e1185">
                <num>1185</num>
-               <desc>Lettre de FÉNÉLON à une dame, datée de Cambray, 8 février 1709.</desc>
+               <desc xml:id="CAT_000091_e1185_1">Lettre de FÉNÉLON à une dame, datée de Cambray, 8 février 1709.</desc>
             </item>
             <item n="1186" xml:id="CAT_000091_e1186">
                <num>1186</num>
-               <desc>Deux lettres du maréchal de BELLE-ISLE, de 1738 et 1739.</desc>
+               <desc xml:id="CAT_000091_e1186_1">Deux lettres du maréchal de BELLE-ISLE, de 1738 et 1739.</desc>
             </item>
             <item n="1187" xml:id="CAT_000091_e1187">
                <num>1187</num>
-               <desc>Lettre du maréchal de SAXE, du 7 mai 1749.</desc>
+               <desc xml:id="CAT_000091_e1187_1">Lettre du maréchal de SAXE, du 7 mai 1749.</desc>
             </item>
             <item n="1188" xml:id="CAT_000091_e1188">
                <num>1188</num>
-               <desc>Billet du Prince-royal de Suède, depuis GUSTAVE III, du 22 septembre 1770.</desc>
+               <desc xml:id="CAT_000091_e1188_1">Billet du Prince-royal de Suède, depuis GUSTAVE III, du 22 septembre 1770.</desc>
             </item>
             <item n="1189" xml:id="CAT_000091_e1189">
                <num>1189</num>
-               <desc>Lettre de CRÉBILLON, du 17 avril 1751.</desc>
+               <desc xml:id="CAT_000091_e1189_1">Lettre de CRÉBILLON, du 17 avril 1751.</desc>
             </item>
             <item n="1190" xml:id="CAT_000091_e1190">
                <num>1190</num>
-               <desc>Lettre DE PIRON, du 3 août 1750.</desc>
+               <desc xml:id="CAT_000091_e1190_1">Lettre DE PIRON, du 3 août 1750.</desc>
             </item>
             <item n="1191" xml:id="CAT_000091_e1191">
                <num>1191</num>
-               <desc>Douze lettres de M. de VAINES à Voltaire.</desc>
+               <desc xml:id="CAT_000091_e1191_1">Douze lettres de M. de VAINES à Voltaire.</desc>
             </item>
             <item n="1192" xml:id="CAT_000091_e1192">
                <num>1192</num>
-               <desc>
+               <desc xml:id="CAT_000091_e1192_1">
                   <list>
                      <item>
                         <desc>Lettre de M. de MONTMORIN, 1786;</desc>
@@ -417,18 +418,18 @@
             </item>
             <item n="1193" xml:id="CAT_000091_e1193">
                <num>1193</num>
-               <desc>Lettre du général Green, un des amis de Washington;
+               <desc xml:id="CAT_000091_e1193_1">Lettre du général Green, un des amis de Washington;
                   du fils de Lawrens, président du congrès des États-Unis;
                   billet d’Arnold, et trois autres lettres analogues au sujet;
                   le tout en anglais.</desc>
             </item>
             <item n="1194" xml:id="CAT_000091_e1194">
                <num>1194</num>
-               <desc>Cinq lettres de madame Cottin à M. le marquis Garnier.</desc>
+               <desc xml:id="CAT_000091_e1194_1">Cinq lettres de madame Cottin à M. le marquis Garnier.</desc>
             </item>
             <item n="1195" xml:id="CAT_000091_e1195">
                <num>1195</num>
-               <desc>
+               <desc xml:id="CAT_000091_e1195_1">
                   <list>
                      <item>
                         <desc>Fac-simile du Testament de LOUIS XVI.</desc>

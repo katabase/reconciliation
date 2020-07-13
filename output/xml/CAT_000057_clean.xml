@@ -1,4 +1,5 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000057">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000057">
     <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
         <fileDesc>
             <titleStmt>
@@ -91,7 +92,7 @@
 
 
 
-                    <desc>L. a. s. à M. Olive; Philadelphie, 22 avril 1794, I p. 1/2 in-4. 30</desc>
+                    <desc xml:id="CAT_000057_e1_1">L. a. s. à M. Olive; Philadelphie, 22 avril 1794, I p. 1/2 in-4. 30</desc>
 
 
                 </item>
@@ -102,7 +103,7 @@
                     <name type="author">Aérostats. -Institut national des sciences et des
                         arts.</name>
 
-                    <desc> Séance du 25 prairial an VII. Rapport fait par le citoyen J-.B. Le Roy,
+                    <desc xml:id="CAT_000057_e2_1"> Séance du 25 prairial an VII. Rapport fait par le citoyen J-.B. Le Roy,
                         sur le mérite de la découverte des aérostats et la part que le citoyen
                         Montgolfier a eue à cette découverte. Extrait certifié conforme à
                         l'original; Paris, 8 messidor an VII, 8 p. in-f. 17 </desc>
@@ -111,7 +112,7 @@
                 <item n="3" xml:id="CAT_000057_e3">
                     <num>3</num>
                     <name>Angleterre,</name>
-                    <desc>13 pièces.-1° Manifeste cle Guillaume III, roi d'Angleterre, copie du
+                    <desc xml:id="CAT_000057_e3_1">13 pièces.-1° Manifeste cle Guillaume III, roi d'Angleterre, copie du
                         temps, 9 p. in-4. Document politique se rapportant à l'époque qui a suivi
                         son élévation au trône et qui a précédé la conclusion du traité de Riswick
                         en 1697;-2° Copie d'une lettre signée Armand, ahhé de la Trappe, 1690, 4
@@ -139,7 +140,7 @@
 
 
 
-                    <desc>Manuscrits aut. provenant de ses papiers, environ 200 pages in-4 ou in-f.
+                    <desc xml:id="CAT_000057_e4_1">Manuscrits aut. provenant de ses papiers, environ 200 pages in-4 ou in-f.
                         18</desc>
 
                     <note>Mémoire sur un projet de géographie. Relation succincte du voyage du
@@ -163,7 +164,7 @@
 
 
 
-                    <desc>Pièce originale relative à une levée de troupes allemandes, 1590, 4 p. 1/2
+                    <desc xml:id="CAT_000057_e5_1">Pièce originale relative à une levée de troupes allemandes, 1590, 4 p. 1/2
                         in-f. Curieux détails; 2 l et. sig. du duc de Choiseul, relatives aux
                         maréchaussées, 1764; nomenclature des peines prononcées contre les
                         déserteurs par les diverses ordonnances depuis 1367 jusqu'en 1809, manuscrit
@@ -186,7 +187,7 @@
 
 
 
-                    <desc>Actes sur vélin, concernant les artistes suivants : Silvestre, peintre du
+                    <desc xml:id="CAT_000057_e6_1">Actes sur vélin, concernant les artistes suivants : Silvestre, peintre du
                         roi de Pologne, 1751 ; J.-M. Pelletier, sculpteur, 1752; F.-C. Fresson,
                         1772; L.-F. Marteau, peintre, 1751; L. a. Tour, le célèbre peintre, 1775;
                         Houasse, peintre du roi et professeur de L'Académie royale de peinture,
@@ -196,7 +197,7 @@
                 <item n="7" xml:id="CAT_000057_e7">
                     <num>7</num>
                     <name type="author">Assignats.</name>
-                    <desc>Documents originaux relatifs aux assignats et à leur fabrication, dossier
+                    <desc xml:id="CAT_000057_e7_1">Documents originaux relatifs aux assignats et à leur fabrication, dossier
                         important, formant la matière d'un fort volume in-f.-Ces documents
                         proviennent des papiers du baron de Servières, l'un des créateurs de La
                         fabrication des assignats et du Conservatoire des Arts-et-Métiers. Ils se
@@ -226,7 +227,7 @@
 
 
 
-                    <desc>L. a. s. au maréchal de Brézé, gouverneur d'Anjou; Mouzon, 11 août, 3 p.
+                    <desc xml:id="CAT_000057_e8_1">L. a. s. au maréchal de Brézé, gouverneur d'Anjou; Mouzon, 11 août, 3 p.
                         pl. in-f., cachets. 75</desc>
 
                     <note>Belle et intéressante lettre politique. Il y parle de la Cour qui doit
@@ -238,7 +239,7 @@
                 <item n="9" xml:id="CAT_000057_e9">
                     <num>9</num>
                     <name>Bénédictins.</name>
-                    <desc>23 lettres ou pièces signées, dossier intéressant.-Anroux, 4 let. a. s.
+                    <desc xml:id="CAT_000057_e9_1">23 lettres ou pièces signées, dossier intéressant.-Anroux, 4 let. a. s.
                         au cardinal de Bouillon, 1702, 9 p. in-4, cachets.-Bansière, prieur de
                         Paray.-Barrey, pièce aut. sig., 1817, 3 p. in-4.-Fesse, 1. a. s.; Èourges,
                         1765, 1 p. in-4.-Bèvy (Dom), né près d'Orléans, 1. a. s., 1779, 1 p. in-4.
@@ -262,7 +263,7 @@
 
 
 
-                    <desc>Let. sig. par les membres du comité chargé d'organiser un festival en
+                    <desc xml:id="CAT_000057_e10_1">Let. sig. par les membres du comité chargé d'organiser un festival en
                         l'honneur de Berlioz; Paris, 27 mars 1870, 2 p. in-4. 15</desc>
 
                     <note>Curieuse lettre adressée au président de la Société des auteurs,
@@ -280,7 +281,7 @@
                 <item n="11" xml:id="CAT_000057_e11">
                     <num>11</num>
                     <name>Blois.</name>
-                    <desc>Charte sur vélin, 1337, 1 p. in-8 obi. sceau. 12</desc>
+                    <desc xml:id="CAT_000057_e11_1">Charte sur vélin, 1337, 1 p. in-8 obi. sceau. 12</desc>
 
                     <note>Quittance donnée par le commandeur de la maison de Saint-Jean de
                         Jérusalem, d'une rente que la dite maison reçoit du comte de Blois, sur le
@@ -301,7 +302,7 @@
 
 
 
-                    <desc>L. a. s., 8 août 1724, 2 p. in-8. Belle lettre littéraire. 20</desc>
+                    <desc xml:id="CAT_000057_e12_1">L. a. s., 8 août 1724, 2 p. in-8. Belle lettre littéraire. 20</desc>
 
                 </item>
 
@@ -318,7 +319,7 @@
 
 
 
-                    <desc>Pièce aut., (mars 1699), 7 p. in-f. à mi-marges. 160</desc>
+                    <desc xml:id="CAT_000057_e13_1">Pièce aut., (mars 1699), 7 p. in-f. à mi-marges. 160</desc>
 
                     <note>Précieuse pièce. C'est la minute d'un mémoire envoyé à Rome par le roi et
                         rédigé par Bossuet, contre le projet des canons qu'on voulait substituer à
@@ -358,7 +359,7 @@
 
 
 
-                    <desc>Let. aut. à Bossuet; Rome, 26 août 1698, 32 p. in-4. 55</desc>
+                    <desc xml:id="CAT_000057_e14_1">Let. aut. à Bossuet; Rome, 26 août 1698, 32 p. in-4. 55</desc>
 
                     <note>Lettre des plus remarquables sur l'affaire du Quiétisme</note>
 
@@ -377,7 +378,7 @@
 
 
 
-                    <desc>L. a. s. au baron de Pirch; (Londres), 14 mai 1840, 3 p. in-8. 45 &gt;,
+                    <desc xml:id="CAT_000057_e15_1">L. a. s. au baron de Pirch; (Londres), 14 mai 1840, 3 p. in-8. 45 &gt;,
                         Très-intéressante</desc>
                     <note>lettre relative à l'état d'avancement des travaux du tunnel. « Le travail
                         est toujours pénible, malgré notre succès, car ce n'est que par une
@@ -403,7 +404,7 @@
 
 
 
-                    <desc>Manuscrits aut.: 1° L'abbé de plâtre, comédie en 1 acte, 39 p. in-f. à
+                    <desc xml:id="CAT_000057_e16_1">Manuscrits aut.: 1° L'abbé de plâtre, comédie en 1 acte, 39 p. in-f. à
                         mi-marges.-2° L'Entêté, comédie en 2 actes, 56 p. in-f.-3° Le Testament
                         singulier, comédie en 1 acte, 27 p. in-f., et Toujours tout de mêmeproverbe,
                         22 p. in-f.-4° Amusement de société ou proverbes dramatiques, formant la
@@ -428,7 +429,7 @@
 
 
 
-                    <desc>L. s. à Pierre de Laval, garde général des monnaies de Navarre; Pau, 3 mai
+                    <desc xml:id="CAT_000057_e17_1">L. s. à Pierre de Laval, garde général des monnaies de Navarre; Pau, 3 mai
                         1582, 1 p. in-fol. 20</desc>
 
                     <note>Instructions sur le fait des malversations qui se commettent dans les
@@ -455,7 +456,7 @@
 
 
 
-                    <desc>2° Copie originale de sa lettre à Louis XIV, pour lui annoncer la victoire
+                    <desc xml:id="CAT_000057_e18_1">2° Copie originale de sa lettre à Louis XIV, pour lui annoncer la victoire
                         de Marsaille, 15 p. in-f.-3° Copie du temps de 2 lettres, dont une de lui
                         adressée à son frère et relative à sa disgrâce à l'époque où il fut mis à la
                         tète de l'armée d'Italie, 2 p. in-f. 22</desc>
@@ -466,7 +467,7 @@
                 <item n="19" xml:id="CAT_000057_e19">
                     <num>19</num>
                     <name>Champagne.</name>
-                    <desc>Charte sur vélin, 19 juin 1336, 1 p. in-4 obl. 17</desc>
+                    <desc xml:id="CAT_000057_e19_1">Charte sur vélin, 19 juin 1336, 1 p. in-4 obl. 17</desc>
 
                     <note>Quittance de la somme de trente livres tournois, donnée par Pierre de
                         Tiereclive, conseiller du roi Philippe VI, gouverneur de Vitry et de
@@ -487,7 +488,7 @@
 
 
 
-                    <desc>Charte sur vélin, 14 août 1338, 1 p. in-4. obi. 22</desc>
+                    <desc xml:id="CAT_000057_e20_1">Charte sur vélin, 14 août 1338, 1 p. in-4. obi. 22</desc>
 
                     <note>Pièce historique. Reconnaissance de Gui de Ghastillon envers Baudin de
                         Guérin, de la somme de dix livres tournois que celui-ci lui a prêtée « pour
@@ -499,7 +500,7 @@
                 <item n="21" xml:id="CAT_000057_e21">
                     <num>21</num>
                     <name>Clergé.</name>
-                    <desc>Pièce relative au règlement des comptes de l'Assemblée du clergé, tenue à
+                    <desc xml:id="CAT_000057_e21_1">Pièce relative au règlement des comptes de l'Assemblée du clergé, tenue à
                         Paris, à l'abbaye Saint-Germain-des-Prés, le 16 août 1584, 1 p. in-f.
                         33</desc>
 
@@ -526,7 +527,7 @@
 
 
 
-                    <desc>L. a. s.; Paris, 23 avril 1661, 1 p. in-4. Belle pièce. 30</desc>
+                    <desc xml:id="CAT_000057_e22_1">L. a. s.; Paris, 23 avril 1661, 1 p. in-4. Belle pièce. 30</desc>
 
 
                 </item>
@@ -543,7 +544,7 @@
 
 
 
-                    <desc>Curieux dossier concernant les corporations suivantes, la plupart de Paris
+                    <desc xml:id="CAT_000057_e23_1">Curieux dossier concernant les corporations suivantes, la plupart de Paris
                         : marchands de vins, merciers, charbonniers, maîtres-perruquiers, bouchers,
                         épiciers, chirurgiens, banquiers, serruriers, batteurs d'or, fabricants de
                         cuirs, tanneurs, drapiers, crieurs d'enterrement, etc.-Contrats
@@ -568,7 +569,7 @@
 
 
 
-                    <desc>L. a. s. à Titon du Tillet; Bercy, 18 mai 1726, 2 p. in-4. Rare. 65</desc>
+                    <desc xml:id="CAT_000057_e24_1">L. a. s. à Titon du Tillet; Bercy, 18 mai 1726, 2 p. in-4. Rare. 65</desc>
 
                     <note>Charmante épitre relative au Parnasse de Titon du Tillet, dont il fait une
                         critique des plus spiriluelles. « Dieu vous fasse paix avec vos idées
@@ -587,7 +588,7 @@
 
 
 
-                    <desc>Approbation de deux lignes aut. sig. à la fin du manuscrit de la comédie :
+                    <desc xml:id="CAT_000057_e25_1">Approbation de deux lignes aut. sig. à la fin du manuscrit de la comédie :
                         les Almanacs, de Fagan, 1753, 40 p. in-f. 15</desc>
 
                 </item>
@@ -605,7 +606,7 @@
 
 
 
-                    <desc>L. a. s. à l'intendant général de la Maison de l'Empereur, 16 mars 1811, 1
+                    <desc xml:id="CAT_000057_e26_1">L. a. s. à l'intendant général de la Maison de l'Empereur, 16 mars 1811, 1
                         p. in-f. 22</desc>
 
                     <note>Curieuse lettre relative à son tableau de la Distribution des Aigles. Il
@@ -622,7 +623,7 @@
                 <item n="27" xml:id="CAT_000057_e27">
                     <num>27</num>
                     <name>Divers.</name>
-                    <desc>-1° Dictionnaire d'anecdotes sur les personnes et les choses, rangées par
+                    <desc xml:id="CAT_000057_e27_1">-1° Dictionnaire d'anecdotes sur les personnes et les choses, rangées par
                         ordre alphabétique, manuscrit du commencement de ce siècle, 192 p. in-4, un
                         peu fatigué.-2° Mélanges de philosophie, de morale, de politique,
                         d'histoire et de littérature, notes pour servir à un ouvrage commencé en
@@ -646,7 +647,7 @@
 
 
 
-                    <desc>L. a. s. à M°&gt;° Roujault; Poitiers, 22 oct. 1711, 3 p. in-4. 20</desc>
+                    <desc xml:id="CAT_000057_e28_1">L. a. s. à M°&gt;° Roujault; Poitiers, 22 oct. 1711, 3 p. in-4. 20</desc>
 
                     <note>Epitre curieuse relative à l'abbaye d'Airnaut, en Poitou</note>
 
@@ -662,7 +663,7 @@
 
 
 
-                    <desc>2 pièces sur vélin, sig. de Louis XV; Paris, 12 sept. 1716, 2 feuilles
+                    <desc xml:id="CAT_000057_e29_1">2 pièces sur vélin, sig. de Louis XV; Paris, 12 sept. 1716, 2 feuilles
                         double in-f. portant quelques ratures dans la première et la dernière ligne,
                         mais sous lesquelles on peut lire parfaitement.-Ces ratures ont été faites
                         par le ministre Phélypeaux, contresignataire des deux pièces, pour les
@@ -701,7 +702,7 @@
 
 
 
-                    <desc>Manuscrits non autographes provenant de ses papiers, représentant la
+                    <desc xml:id="CAT_000057_e30_1">Manuscrits non autographes provenant de ses papiers, représentant la
                         valeur d'un tort volume in-8. 13</desc>
 
                     <note>Recueil de vers et pièces en prose, 5 cahiers de chansons; recueil de
@@ -724,7 +725,7 @@
 
 
 
-                    <desc>3 pièces à lui relatives ; 1° Pièce sig. du général d'Espinoy, sur ta
+                    <desc xml:id="CAT_000057_e31_1">3 pièces à lui relatives ; 1° Pièce sig. du général d'Espinoy, sur ta
                         maladie de Dugommier.-2° Lettre sig. de Talleyrand au général Chérin, du 27
                         germinal an VIl, 1 p. in-f. Il lui annonce qu'il a écrit au général
                         Desfourneaux, à la Guadeloupe, et aux administrateurs du port de Toulon,
@@ -750,7 +751,7 @@
                         <p>célèbre botaniste et agronome, le créateur de la science de
                             l'arboriculture.</p>
                     </trait>
-                    <desc>-1° 4 lettres sig.dont une aut. (au physicien Ludot, de Troyes), 1749-52,
+                    <desc xml:id="CAT_000057_e32_1">-1° 4 lettres sig.dont une aut. (au physicien Ludot, de Troyes), 1749-52,
                         36 p. in-4. Très-curieuses lettres scientifiques.-2° Recherches sur la
                         formation des couches ligneuses dans les arbres ; manuscrit avec de
                         nombreuses corrections aut., 33 p. in-4. 17</desc>
@@ -770,7 +771,7 @@
 
 
 
-                    <desc>Des raisons pour lesquelles ne peult accorder la royne d'Angleterre,
+                    <desc xml:id="CAT_000057_e33_1">Des raisons pour lesquelles ne peult accorder la royne d'Angleterre,
                         d'envoyer de nouveelles forces en Normandie, copie originale du temps avec
                         une note aut. de Duplessis-Mornay ; (1592), 6 p. in-f. 22</desc>
 
@@ -801,7 +802,7 @@
 
 
 
-                    <desc>P. s.; 23 février 1599, 1 p. in-fol. 85</desc>
+                    <desc xml:id="CAT_000057_e34_1">P. s.; 23 février 1599, 1 p. in-fol. 85</desc>
 
                     <note>Curieuse pièce relative à la prise de possession du duché d'Etampes, en
                         vertu de la donation faite à Gabrielle d'Estrées, par la reine Marguerite de
@@ -822,7 +823,7 @@
 
 
 
-                    <desc>1° Copie d'une lettre de lui très-curieuse relative à son ouvrage :
+                    <desc xml:id="CAT_000057_e35_1">1° Copie d'une lettre de lui très-curieuse relative à son ouvrage :
                         Explications des Maximes des Saints, du 3 août 1697, 5 p. in-4.-2° Copie de
                         la lettre de Louis XIV au Pape sur le même ouvrage, 2 p. in-18.-3° Extrait
                         d'une lettre de M. de Cambray à M. l'évêque d'Arras (copie du temps), 1 p.
@@ -845,7 +846,7 @@
 
 
 
-                    <desc>Nomination des commsisaires-géné-raux, députés par le Roi pour la vente,
+                    <desc xml:id="CAT_000057_e36_1">Nomination des commsisaires-géné-raux, députés par le Roi pour la vente,
                         aliénation et délaissement à perpétuité des domaines de la Couronne, 1679, 3
                         p. in-f. Parmi les commissaires, au nombre de neuf, on remarque : Colbert,
                         d'Aligre, Dugué, Poncet, etc.-Observations sur la nouvelle déclaration du
@@ -869,7 +870,7 @@
 
 
 
-                    <desc>1° Etrennes aux phalanstériens, manuscrit aut. de M. PÎéry, 1840, environ
+                    <desc xml:id="CAT_000057_e37_1">1° Etrennes aux phalanstériens, manuscrit aut. de M. PÎéry, 1840, environ
                         50 p. pet. in-4.-2° Pièces relatives au projet cl'une fête phalanstérienne
                         qui devait avoir lieu à Pans, je 7 avril 1846, etc., etc. 6</desc>
 
@@ -889,7 +890,7 @@
 
 
 
-                    <desc>L. a. s., en allemand, avec 17 lignes en français; Zurich, 20 mai 1772, 1
+                    <desc xml:id="CAT_000057_e38_1">L. a. s., en allemand, avec 17 lignes en français; Zurich, 20 mai 1772, 1
                         p. 1/2 in-4. 20</desc>
 
                     <note>Lettre littéraire clés plus intéressantes. « Mes ouvrages sont dédiés, il
@@ -913,7 +914,7 @@
 
 
 
-                    <desc>L. a. s. à Casaubon, 1 p. pl. in-fol. Rare. 50</desc>
+                    <desc xml:id="CAT_000057_e39_1">L. a. s. à Casaubon, 1 p. pl. in-fol. Rare. 50</desc>
 
                 </item>
 
@@ -930,7 +931,7 @@
 
 
 
-                    <desc>Pièce a. s., 1814, î p. in-8 obi. 15</desc>
+                    <desc xml:id="CAT_000057_e40_1">Pièce a. s., 1814, î p. in-8 obi. 15</desc>
 
                 </item>
 
@@ -943,7 +944,7 @@
 
 
 
-                    <desc>L.), célèbre poète et écrivain, auteur de Vert-Vert, membre de l'Acacl.
+                    <desc xml:id="CAT_000057_e41_1">L.), célèbre poète et écrivain, auteur de Vert-Vert, membre de l'Acacl.
                         fr., né à Amiens en 1709.-L. a. s., 28 mai 1747, 1 p. pet. in-4. Légère
                         tache d'huile. 25</desc>
 
@@ -969,7 +970,7 @@
 
 
 
-                    <desc>1° Quittance sig. donnée à ses fermiers; 1 Lambesc, 21 nov. 1691, 1/2 p.
+                    <desc xml:id="CAT_000057_e42_1">1° Quittance sig. donnée à ses fermiers; 1 Lambesc, 21 nov. 1691, 1/2 p.
                         in-4, tachée.-2° P. a., 1er août 1692, 4 p. in-4, jaunie. 22</desc>
 
                     <note>Etat de ses dettes. Curieux document</note>
@@ -989,7 +990,7 @@
 
 
 
-                    <desc>L. a. s. à M. de Lamoignon, 1 p. in-8, cachet. 12</desc>
+                    <desc xml:id="CAT_000057_e43_1">L. a. s. à M. de Lamoignon, 1 p. in-8, cachet. 12</desc>
 
                 </item>
 
@@ -1006,7 +1007,7 @@
 
 
 
-                    <desc>L. a. s.; Paris, 12 octobre 1784, 1 p. in-4. 11</desc>
+                    <desc xml:id="CAT_000057_e44_1">L. a. s.; Paris, 12 octobre 1784, 1 p. in-4. 11</desc>
 
                 </item>
 
@@ -1024,7 +1025,7 @@
 
 
 
-                    <desc>Let. sig.; Paris, 17 mars 1705, 3 p. 1/4 in-4. 20</desc>
+                    <desc xml:id="CAT_000057_e45_1">Let. sig.; Paris, 17 mars 1705, 3 p. 1/4 in-4. 20</desc>
 
                     <note>Il annonce que l'Académie vient de nommer deux sujets pour remplir la
                         place d'associé, vacante par la démission de M. Rollin; ce sont : M.
@@ -1046,7 +1047,7 @@
 
 
 
-                    <desc>L. a. s. à Villeroy, 1 p. in-fol. Déchirure atteignant légèrement le
+                    <desc xml:id="CAT_000057_e46_1">L. a. s. à Villeroy, 1 p. in-fol. Déchirure atteignant légèrement le
                         texte. 28</desc>
 
                 </item>
@@ -1066,7 +1067,7 @@
 
 
 
-                    <desc>Charte originale sur vélin; Troyes, 17 fév. 1417, 1 p. in-4 obi. Légères
+                    <desc xml:id="CAT_000057_e47_1">Charte originale sur vélin; Troyes, 17 fév. 1417, 1 p. in-4 obi. Légères
                         taches. 33</desc>
 
                     <note>Curieuse pièce. Avis donné à Etienne de Sens, maître général des monnaies,
@@ -1093,7 +1094,7 @@
 
 
 
-                    <desc>L. a. s. à MM. De Bure; Monticello, 31 oct. 1823, 1 p. pi. in-4. Belle
+                    <desc xml:id="CAT_000057_e48_1">L. a. s. à MM. De Bure; Monticello, 31 oct. 1823, 1 p. pi. in-4. Belle
                         pièce. 25</desc>
 
                 </item>
@@ -1111,7 +1112,7 @@
 
 
 
-                    <desc>L. a. s. de ses initiales, au cardinal de Bouillon; Paris, 2 juin 1698, 2
+                    <desc xml:id="CAT_000057_e49_1">L. a. s. de ses initiales, au cardinal de Bouillon; Paris, 2 juin 1698, 2
                         p. pl. in-4, cachets, iïare. 30</desc>
 
                     <note>Importante lettre sur la poursuite de la condamnation de Fénelon à Home.
@@ -1129,7 +1130,7 @@
                     <trait>
                         <p>impératrice des Français.</p>
                     </trait>
-                    <desc>-1° Pièce sig. par elle et par Bonaparte; Paris, 27 vend, an IX, 1 p. 1/2
+                    <desc xml:id="CAT_000057_e50_1">-1° Pièce sig. par elle et par Bonaparte; Paris, 27 vend, an IX, 1 p. 1/2
                         in-f. Curieuse pièce par laquelle elle donne l'autorisation de faire en son
                         nom « tous échanges et acquisitions de portions de terre, prés, bois et
                         autres immeubles tendant à l'agrandissement et arrondissement de la terre de
@@ -1154,7 +1155,7 @@
 
 
 
-                    <desc>Dossier de pièces relatives au Voyage en Espagne, provenant de ses
+                    <desc xml:id="CAT_000057_e51_1">Dossier de pièces relatives au Voyage en Espagne, provenant de ses
                         éditeurs, MM. Treuttel et Wurtz. Etat des sommes payées aux artistes qui ont
                         illustré l'ouvrage et où l'on remarque les noms de Duvivier, Dequevauviller,
                         Lerouge, Gossard, Fayn, Mme Queverdo, etc.; 3 reçus du graveur Fayn, pour
@@ -1177,7 +1178,7 @@
 
 
 
-                    <desc>L. a. s. de ses initiales, 2 p. in-18. Spirituelle èpitre. 7</desc>
+                    <desc xml:id="CAT_000057_e52_1">L. a. s. de ses initiales, 2 p. in-18. Spirituelle èpitre. 7</desc>
 
                 </item>
 
@@ -1194,7 +1195,7 @@
 
 
 
-                    <desc>Pièce signee; 3 juillet 1058, 2 p. in-fol. 62</desc>
+                    <desc xml:id="CAT_000057_e53_1">Pièce signee; 3 juillet 1058, 2 p. in-fol. 62</desc>
 
                     <note>Procuration donnée au château de Verteuil, par le duc et la duchesse de la
                         Rochefoucauld, à Paul Besnard, Leur intendant, à l'effet d'emprunter une
@@ -1215,7 +1216,7 @@
 
 
 
-                    <desc>L. a. s. au citoyen Paris!s fils, à Villers-Cotterets; 28 nov. 1792, 1 p.
+                    <desc xml:id="CAT_000057_e54_1">L. a. s. au citoyen Paris!s fils, à Villers-Cotterets; 28 nov. 1792, 1 p.
                         in-4, cachet. 20</desc>
 
                 </item>
@@ -1233,7 +1234,7 @@
 
 
 
-                    <desc>Manuscrit aut. provenant de ses papiers; pièces de vers, fragments, notes
+                    <desc xml:id="CAT_000057_e55_1">Manuscrit aut. provenant de ses papiers; pièces de vers, fragments, notes
                         et brouillons, dont il s'est servi pour ses nombreux ouvrages, formant la
                         matière d'un fort vol. in-4. 22</desc>
 
@@ -1252,7 +1253,7 @@
 
 
 
-                    <desc>L. a. s.; Montauban, 2 août 1750, 1 p. 1/2 in-4. Belle pièce. 20</desc>
+                    <desc xml:id="CAT_000057_e56_1">L. a. s.; Montauban, 2 août 1750, 1 p. 1/2 in-4. Belle pièce. 20</desc>
 
                 </item>
 
@@ -1269,7 +1270,7 @@
 
 
 
-                    <desc>L. s. avec 3 lignes aut. et un post-scriptum de 2 lignes également aut.,
+                    <desc xml:id="CAT_000057_e57_1">L. s. avec 3 lignes aut. et un post-scriptum de 2 lignes également aut.,
                         au maréchal de Catinat; Fontainebleau, 13 octobre 1693, 7 p. in-fol.
                         160</desc>
 
@@ -1296,7 +1297,7 @@
 
 
 
-                    <desc>Ode sur les malheurs arrivés aux fêtes du mariage de Louis XVI.-Etat de
+                    <desc xml:id="CAT_000057_e58_1">Ode sur les malheurs arrivés aux fêtes du mariage de Louis XVI.-Etat de
                         ce qui fut enlevé à la famille royale prisonnière au Temple.-Mémoires écrits
                         par Marie-Thérèse-Charlotte de France, sur la captivité des princes, ses
                         parents, depuis le 10 août 1792 jusqu'à la mort de son frère, arrivée le 9
@@ -1317,7 +1318,7 @@
 
 
 
-                    <desc>Procès-verbal de la déclaration de Pelletan par devant M. Pasquier,
+                    <desc xml:id="CAT_000057_e59_1">Procès-verbal de la déclaration de Pelletan par devant M. Pasquier,
                         garde-des-Sceaux, concernant les circonstances de la mort de Louis XVII,
                         l'ouverture de son corps, et de l'enlèvement de son coeur par Pelletan
                         lui-mème, qui l'a conservé dans un bocal et l'offre au roi Louis
@@ -1343,7 +1344,7 @@
 
 
 
-                    <desc>L. a. s. à M. Hersant, Vice-Consul de France à Washington; Montpellier, 10
+                    <desc xml:id="CAT_000057_e60_1">L. a. s. à M. Hersant, Vice-Consul de France à Washington; Montpellier, 10
                         mai 1826, 1/2 p. in-4. 15</desc>
 
                 </item>
@@ -1362,7 +1363,7 @@
 
 
 
-                    <desc>Let. si g. à M. Picard, directeur de l'Opéra; Paris, 21 novembre 1814, 3
+                    <desc xml:id="CAT_000057_e61_1">Let. si g. à M. Picard, directeur de l'Opéra; Paris, 21 novembre 1814, 3
                         p. pl. in-f. 32</desc>
 
                     <note>Au sujet de la pension et de la représentation à bénéfice auxquelles elle
@@ -1383,7 +1384,7 @@
 
 
 
-                    <desc>Let. aut. à la marquise de Villette; Saint-Cyr, 24 juillet, 2 p. pl.
+                    <desc xml:id="CAT_000057_e62_1">Let. aut. à la marquise de Villette; Saint-Cyr, 24 juillet, 2 p. pl.
                         in-4., cachet. 40</desc>
 
                     <note>Curieuse épitre dans laquelle il est question de MM. Chamillart, Des
@@ -1407,7 +1408,7 @@
 
 
 
-                    <desc>Charte originale sur vélin, 20 mai 1392, 1 p. in-4 obl. 42</desc>
+                    <desc xml:id="CAT_000057_e63_1">Charte originale sur vélin, 20 mai 1392, 1 p. in-4 obl. 42</desc>
 
                     <note>Intéressante pièce. Ordre de payer à Jean Bouchet, tailleur des robes de
                         sa fille la comtesse de Nevers, et à quatre couturiers, la somme de huit
@@ -1430,7 +1431,7 @@
 
 
 
-                    <desc>L. a. s.; Versailles, 30 mai 1/60, 4 p. pl. in-4. 15</desc>
+                    <desc xml:id="CAT_000057_e64_1">L. a. s.; Versailles, 30 mai 1/60, 4 p. pl. in-4. 15</desc>
 
                     <note>Au sujet de la vente d'une propriété. Description intéressante des
                         appartements, d'un théâtre, du mobilier, des tentures, etc</note>
@@ -1450,7 +1451,7 @@
 
 
 
-                    <desc>1° Napoléon, pièce de vers aut., 1 p. in-4; 2° Le Tasse, romance inédite,
+                    <desc xml:id="CAT_000057_e65_1">1° Napoléon, pièce de vers aut., 1 p. in-4; 2° Le Tasse, romance inédite,
                         pièce aut., 1828, 1 p. in-4; 3° Childe Harold, imitation de lord Byron,
                         pièce de vers aut., 1 p. in-f.; 4° Fragment aut. de sa tragédie Boabdil, roi
                         de Grenade, 30 p. in-f., etc. 12</desc>
@@ -1470,7 +1471,7 @@
 
 
 
-                    <desc>L. a. s. à un poète, 1 p. in-8. Belle et intéressante lettre, 8</desc>
+                    <desc xml:id="CAT_000057_e66_1">L. a. s. à un poète, 1 p. in-8. Belle et intéressante lettre, 8</desc>
 
                 </item>
 
@@ -1487,7 +1488,7 @@
 
 
 
-                    <desc>L. a. s. à l'abbé Leblanc; Dijon, 20 janv. 1763, 3 p. in-4. Cachet.
+                    <desc xml:id="CAT_000057_e67_1">L. a. s. à l'abbé Leblanc; Dijon, 20 janv. 1763, 3 p. in-4. Cachet.
                         6</desc>
 
                     <note>Belle et intéressante lettre littéraire, dans laquelle il parle de ses
@@ -1508,7 +1509,7 @@
 
 
 
-                    <desc>1° Copie aut. d'une épitre à Uranie, attribuée à Voltaire, 5 p. in-8.-2°
+                    <desc xml:id="CAT_000057_e68_1">1° Copie aut. d'une épitre à Uranie, attribuée à Voltaire, 5 p. in-8.-2°
                         Choix de pensées sur divers sujets, pièce aut., 1 p. in-4.-3° Fragment
                         d'un ouvrage sur le sacerdoce, pièce aut., en latin, 2 p. in-4. 15</desc>
 
@@ -1520,7 +1521,7 @@
 
                     <name type="author">Missionnaires</name>
 
-                    <desc>25 lettres de missionnaires français aux Indes et en Orient, du xvii° et
+                    <desc xml:id="CAT_000057_e69_1">25 lettres de missionnaires français aux Indes et en Orient, du xvii° et
                         du xviii° siècle. Réunion des plus curieuses. 25</desc>
 
                 </item>
@@ -1533,7 +1534,7 @@
                     </trait>
 
 
-                    <desc>Pièce sig., 1868, 2 p. in-fol. 15</desc>
+                    <desc xml:id="CAT_000057_e70_1">Pièce sig., 1868, 2 p. in-fol. 15</desc>
                 </item>
 
                 <item n="71" xml:id="CAT_000057_e71">
@@ -1549,7 +1550,7 @@
 
 
 
-                    <desc>1° Dispositions des troupes du 6e corps de la grande armée, pour les 4 et
+                    <desc xml:id="CAT_000057_e71_1">1° Dispositions des troupes du 6e corps de la grande armée, pour les 4 et
                         5 mars 1807, pièce aut., 1 p. 1/2 în-f. 2° Let. aut. (minute) à Marmont;
                         Wartenburg, 25 septembre 1813, 1 page 1/2 in-fol. 55</desc>
 
@@ -1570,7 +1571,7 @@
                 <item n="72" xml:id="CAT_000057_e72">
                     <num>72</num>
                     <name>Normandie.</name>
-                    <desc>Charte orignale sur vélin, 1337, 1 p. in-8 obi. Cachet. 12</desc>
+                    <desc xml:id="CAT_000057_e72_1">Charte orignale sur vélin, 1337, 1 p. in-8 obi. Cachet. 12</desc>
 
                     <note>Donation de Jehan, sire de Rodemacre, à son cousin Philippe, seigneur de
                         Elohenges et autres, de mil livres de bons tournois en garantie desquels il
@@ -1591,7 +1592,7 @@
 
 
 
-                    <desc>Pièces de vers aut. de Fuzelier, adressées au régent, à sa mère et à sa
+                    <desc xml:id="CAT_000057_e73_1">Pièces de vers aut. de Fuzelier, adressées au régent, à sa mère et à sa
                         fille, la duchesse de Berri, 9 p. in-f.-Mémoires imprimés, relatifs à la
                         succession de Philippe-Egalité et du roi Louis-Philippe.-Fragments de
                         livres de comptes relatifs aux propriétés et domaines de la famille
@@ -1613,7 +1614,7 @@
 
 
 
-                    <desc>Charte originale sur vélin; Bapeaume, 7 janvier 1384, 1 p. in-4 obl.
+                    <desc xml:id="CAT_000057_e74_1">Charte originale sur vélin; Bapeaume, 7 janvier 1384, 1 p. in-4 obl.
                         32</desc>
 
                     <note>Curieuse pièce. Ordre de payer à Henry Orlant la somme de 150 francs d'or,
@@ -1637,7 +1638,7 @@
                     </trait>
 
 
-                    <desc>Charte originale sur vélin; Dijon, 28 oct. 1423, 1 p. in-4 obl. 23</desc>
+                    <desc xml:id="CAT_000057_e75_1">Charte originale sur vélin; Dijon, 28 oct. 1423, 1 p. in-4 obl. 23</desc>
 
                     <note>Pièce historique. Nomination du seigneur de Traves, son conseiller et
                         chambellan, comme commandant en pays de Charrollois, en remplacement du
@@ -1651,7 +1652,7 @@
                 <item n="76" xml:id="CAT_000057_e76">
                     <num>76</num>
                     <name>Poitou.</name>
-                    <desc>Pièce sig. sur vélin par J.-J. Barbarin, maire de la ville de Poitiers;
+                    <desc xml:id="CAT_000057_e76_1">Pièce sig. sur vélin par J.-J. Barbarin, maire de la ville de Poitiers;
                         1608, 1 p. double in-fol. obl. 17</desc>
 
                     <note>Nomination de Jean Constant, écuyer, conseiller et avocat du roi, comme
@@ -1662,7 +1663,7 @@
                 <item n="77" xml:id="CAT_000057_e77">
                     <num>77</num>
                     <name>Révolution de 1830.</name>
-                    <desc>65 lettres ou pièces originales écrites en 1830, environ 100 pages in-4 ou
+                    <desc xml:id="CAT_000057_e77_1">65 lettres ou pièces originales écrites en 1830, environ 100 pages in-4 ou
                         in-f. 33</desc>
 
                     <note>Intéressant dossier renfermant des renseignements historiques sur les
@@ -1687,7 +1688,7 @@
 
 
 
-                    <desc>3 let. sig. du ministre Le Pelletier des Forts, au maréchal de Bezons,
+                    <desc xml:id="CAT_000057_e78_1">3 let. sig. du ministre Le Pelletier des Forts, au maréchal de Bezons,
                         commandant en chef de l'armée du Rhin; Paris, 16 mai 1710-15 août 1713, 7
                         p. in-f. 15</desc>
 
@@ -1711,7 +1712,7 @@
 
 
 
-                    <desc>Pièce sig. sur vélin; 29 janv. 1642, 1 p. in-4. obl., fragment de sceau.
+                    <desc xml:id="CAT_000057_e79_1">Pièce sig. sur vélin; 29 janv. 1642, 1 p. in-4. obl., fragment de sceau.
                         40</desc>
 
                     <note>Nomination du sieur Forget au commandement d'un vaisseau de l'armée
@@ -1732,7 +1733,7 @@
 
 
 
-                    <desc>1" 16 lettres à lui adressées par les personnages suivants : L. a. Luzerne,
+                    <desc xml:id="CAT_000057_e80_1">1" 16 lettres à lui adressées par les personnages suivants : L. a. Luzerne,
                         curieuse lettre de 1788 où il lui annonce qu'il souscrit à 100 exemplaires
                         du 4e volume des Etudes de la nature; Lambert, ministre de Louis XVI,
                         intéressante lettre de 1788 sur la continuation des secours dont lui et sa
@@ -1767,7 +1768,7 @@
 
 
 
-                    <desc>1° Acte sur vélin relatif à la succession du président Frémyot, 1679, 14
+                    <desc xml:id="CAT_000057_e81_1">1° Acte sur vélin relatif à la succession du président Frémyot, 1679, 14
                         p. in-4. Le nom de Mmo de Sévigné se trouve mentionné deux fois comme
                         héritière pour une part du président Frémyot. On remarque aussi les noms de
                         Françoise de Rabutin-Chantal, fille de Sainte-Chantal et veuve d'Ântoine de
@@ -1792,7 +1793,7 @@
 
 
 
-                    <desc>L. a. s. au peintre Belle, 1833. 1 p. in-8. Curieuse. 5</desc>
+                    <desc xml:id="CAT_000057_e82_1">L. a. s. au peintre Belle, 1833. 1 p. in-8. Curieuse. 5</desc>
 
                 </item>
 
@@ -1809,7 +1810,7 @@
 
 
 
-                    <desc>L. a. s. (à Mlle de Scudéry); 24 juil. 1694, 1 p. in-8. 23</desc>
+                    <desc xml:id="CAT_000057_e83_1">L. a. s. (à Mlle de Scudéry); 24 juil. 1694, 1 p. in-8. 23</desc>
 
                     <note>Charmante épitre où il lui annonce l'envoi d'un sonnet du père
                         Commire</note>
@@ -1830,7 +1831,7 @@
 
 
 
-                    <desc>Portrait-carte signé, in-18. 4</desc>
+                    <desc xml:id="CAT_000057_e84_1">Portrait-carte signé, in-18. 4</desc>
 
                 </item>
 
@@ -1848,7 +1849,7 @@
 
 
 
-                    <desc>L. a. s.; Grolée, 13 sept. 1729, 3 p. 1/4 in-4. Très-légère déchirure.
+                    <desc xml:id="CAT_000057_e85_1">L. a. s.; Grolée, 13 sept. 1729, 3 p. 1/4 in-4. Très-légère déchirure.
                         20</desc>
 
                     <note>Curieuse épitre où il se plaint des calomnies que le cardinal de Polignac
@@ -1870,7 +1871,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. 1/2 in-4. Belle pièce. 10</desc>
+                    <desc xml:id="CAT_000057_e86_1">L. a. s., 1 p. 1/2 in-4. Belle pièce. 10</desc>
 
                 </item>
 
@@ -1887,7 +1888,7 @@
 
 
 
-                    <desc>1° Pièce sig. de Roederer, an X, 1 p. 1/2 in-f. Tableau de répartition de
+                    <desc xml:id="CAT_000057_e87_1">1° Pièce sig. de Roederer, an X, 1 p. 1/2 in-f. Tableau de répartition de
                         la somme de 8,000 francs accordée à titre d'encouragement auxacteurs
                         suivants de l'Opéra-Comique: MM. Elleviou, Ghénard, Gavaudan, Dazinville,
                         Camerani ; Mmes I)ugazon, Philis et Aubert-Lesage.-2° Let. sig. des
@@ -1913,7 +1914,7 @@
 
 
 
-                    <desc>L. a. s., 1788, 1/2 p. in.4, cachet. 5</desc>
+                    <desc xml:id="CAT_000057_e88_1">L. a. s., 1788, 1/2 p. in.4, cachet. 5</desc>
 
 
                 </item>
@@ -1931,7 +1932,7 @@
 
 
 
-                    <desc>Portrait-carte, in-18. 3</desc>
+                    <desc xml:id="CAT_000057_e89_1">Portrait-carte, in-18. 3</desc>
 
                 </item>
 
@@ -1949,7 +1950,7 @@
 
 
 
-                    <desc>L. a. s., signée aussi par les officiers municipaux de la ville d'Essay,
+                    <desc xml:id="CAT_000057_e90_1">L. a. s., signée aussi par les officiers municipaux de la ville d'Essay,
                         aux membres de l'Assemblée constituante ; Essay, 19 juin 1790, 2 p. 1/2
                         in-f. 20</desc>
 
@@ -1971,7 +1972,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000057_e91_1">L. a. s., 1 p. in-8. 5</desc>
 
                 </item>
 
@@ -1984,7 +1985,7 @@
 
 
 
-                    <desc>L. a. s. au comte de Vautheleret, capitaine d'infanterie, 1780, 1 p. in-4.
+                    <desc xml:id="CAT_000057_e92_1">L. a. s. au comte de Vautheleret, capitaine d'infanterie, 1780, 1 p. in-4.
                         5</desc>
 
                     <note>Belle lettre de félicitations sur sa belle conduite devant l'ennemi</note>
@@ -2004,7 +2005,7 @@
 
 
 
-                    <desc>Pièce aut. sig., 30 janv. 1720, 2 p. in-f. 25</desc>
+                    <desc xml:id="CAT_000057_e93_1">Pièce aut. sig., 30 janv. 1720, 2 p. in-f. 25</desc>
 
                     <note>Cession au libraire Barrois de son privilège pour ses ouvrages</note>
 
@@ -2023,7 +2024,7 @@
 
 
 
-                    <desc>L. a. s. à M. de Cailleux, 1838, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000057_e94_1">L. a. s. à M. de Cailleux, 1838, 1 p. in-8. 3</desc>
 
                 </item>
 
@@ -2041,7 +2042,7 @@
 
 
 
-                    <desc>Samson, motet français, manuscrit aut., 3 p. in-4. 17</desc>
+                    <desc xml:id="CAT_000057_e95_1">Samson, motet français, manuscrit aut., 3 p. in-4. 17</desc>
 
                     <note>Ce poème, d'après une note de Favart, est inédit</note>
 
@@ -2060,7 +2061,7 @@
 
 
 
-                    <desc>L. a. s. à M. Chaillou Potrelle; Rome, 1er mars 1822, 1 p. 1/2 in-4.
+                    <desc xml:id="CAT_000057_e96_1">L. a. s. à M. Chaillou Potrelle; Rome, 1er mars 1822, 1 p. 1/2 in-4.
                         5</desc>
 
                 </item>
@@ -2078,7 +2079,7 @@
 
 
 
-                    <desc>L. a. s. à M. G. Steicner, àLeipzig; Bayreuth, 20 mars 1875, 1 p. in-8.
+                    <desc xml:id="CAT_000057_e97_1">L. a. s. à M. G. Steicner, àLeipzig; Bayreuth, 20 mars 1875, 1 p. in-8.
                         18</desc>
 
                 </item>
@@ -2095,7 +2096,7 @@
 
 
 
-                    <desc>L. a. s., en français, au cardinal de Richelieu; 3 sept. 1637, 1 p. 1/4
+                    <desc xml:id="CAT_000057_e98_1">L. a. s., en français, au cardinal de Richelieu; 3 sept. 1637, 1 p. 1/4
                         in-fol., cachets. 22</desc>
 
                     <note>Belle et intéressante lettre</note>
@@ -2113,7 +2114,7 @@
                     </trait>
 
 
-                    <desc>L. a. s., en français, à M. Ciampi ; Pise, 1825, 1 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000057_e99_1">L. a. s., en français, à M. Ciampi ; Pise, 1825, 1 p. in-4. 3</desc>
 
                 </item>
             </list>

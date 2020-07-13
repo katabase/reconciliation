@@ -1,4 +1,5 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000036">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000036">
     <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
         <fileDesc>
             <titleStmt>
@@ -85,7 +86,7 @@
                             Médicis, brûlée comme sorcière, en 1617, après l'assassinat de son
                             mari</p>
                     </trait>
-                    <desc>L. a. s., en italien, au duc de Savoie ; Tours, 24 fév. 1616, 1 p. in-f.
+                    <desc xml:id="CAT_000036_e1_1">L. a. s., en italien, au duc de Savoie ; Tours, 24 fév. 1616, 1 p. in-f.
                         Fort rare comme lettre autog. sig. 175</desc>
                     <note>Magnifique et précieuse lettre écrite un an avant sa calastrophe</note>
                 </item>
@@ -96,7 +97,7 @@
                     <trait>
                         <p>reine de Prusse et impératrice d'Allemagne</p>
                     </trait>
-                    <desc>L. s., au professeur Hertz; Berlin, 1872, 3/4 de p. in-4. 15</desc>
+                    <desc xml:id="CAT_000036_e2_1">L. s., au professeur Hertz; Berlin, 1872, 3/4 de p. in-4. 15</desc>
                 </item>
 
                 <item n="3" xml:id="CAT_000036_e3">
@@ -107,7 +108,7 @@
                             exploits guerriers, renfermé douze ans à la Bastille, pour ses
                             railleries contre lo cardinal de Richelieu</p>
                     </trait>
-                    <desc>L. a. s. à M. de Toulouse, 1 p. in-4, cachet. Belle pièce. Rare. 50</desc>
+                    <desc xml:id="CAT_000036_e3_1">L. a. s. à M. de Toulouse, 1 p. in-4, cachet. Belle pièce. Rare. 50</desc>
                 </item>
 
                 <item n="4" xml:id="CAT_000036_e4">
@@ -116,7 +117,7 @@
                     <trait>
                         <p>général, chef de la conspiration de Saumur, décapité en 1822</p>
                     </trait>
-                    <desc>L. a. s. à M. de Violaine, 1818, 1 p. in-4. 8</desc>
+                    <desc xml:id="CAT_000036_e4_1">L. a. s. à M. de Violaine, 1818, 1 p. in-4. 8</desc>
                     <note>Relative à un travail dont il s'occupe sur la bataille de Waterloo, où il
                         a assisté. Il demande des détails sur le moment où ils ont évacué le
                         terrain, le nombre de pièces de canons prises par l'ennemi, comment on
@@ -129,7 +130,7 @@
                     <trait>
                         <p>illustre réformateur</p>
                     </trait>
-                    <desc>L. a. s., en latin: Genève, 1er jour des calendes de décembre 1574, 1 p.
+                    <desc xml:id="CAT_000036_e5_1">L. a. s., en latin: Genève, 1er jour des calendes de décembre 1574, 1 p.
                         in-f. Légère cassure très-bien réparée. 125</desc>
                     <note>Belle et intéressante lettre, au bas de laquelle est un post-scriptum aut.
                         sig. de deux lignes de Jacques Monau.</note>
@@ -140,7 +141,7 @@
                     <trait>
                         <p>général en chef de l'armée d'Italie</p>
                     </trait>
-                    <desc>L. s. à l'agent des vivres de l'armée d'Italie ; Albenga, 17 germ. an IV,
+                    <desc xml:id="CAT_000036_e6_1">L. s. à l'agent des vivres de l'armée d'Italie ; Albenga, 17 germ. an IV,
                         1 p. in-f. Relative aux débuts de la célèbre campagne d'Italie. 10</desc>
                 </item>
 
@@ -150,7 +151,7 @@
                     <trait>
                         <p>illustre empereur d'Allemagne</p>
                     </trait>
-                    <desc>Pièce en latin, sig. Carolus, sur vélin, 1520, double in-f. 12</desc>
+                    <desc xml:id="CAT_000036_e7_1">Pièce en latin, sig. Carolus, sur vélin, 1520, double in-f. 12</desc>
                 </item>
 
                 <item n="8" xml:id="CAT_000036_e8">
@@ -160,7 +161,7 @@
                         <p>procureur de la Commune de Paris, l'un des chefs du parti hébertiste,
                             décapité en 1791</p>
                     </trait>
-                    <desc>L. a. s., au Conseil exécutif ; I8 du premier mois de l'an II, 1 p. in-4,
+                    <desc xml:id="CAT_000036_e8_1">L. a. s., au Conseil exécutif ; I8 du premier mois de l'an II, 1 p. in-4,
                         vignette de la Commune. 20</desc>
                     <note>Belle lettre, signée aussi de Pache, maire de Paris. Ils demandent des
                         secours pour une infortunée qui est sur le point d'accoucher et dont le mari
@@ -173,7 +174,7 @@
                     <trait>
                         <p>la grande tragédienne du XVIIIe siècle</p>
                     </trait>
-                    <desc>Billet de 4 lig. aut. sig. a M. Berthet, 1/2 p. in-8. Rare. 20</desc>
+                    <desc xml:id="CAT_000036_e9_1">Billet de 4 lig. aut. sig. a M. Berthet, 1/2 p. in-8. Rare. 20</desc>
                 </item>
 
                 <item n="10" xml:id="CAT_000036_e10">
@@ -183,7 +184,7 @@
                         <p>le véritable créateur du vaudeville en France, le La Fontaine de la
                             chanson</p>
                     </trait>
-                    <desc>L. aut. au contrôleur dos Fermes, à Roanne, qu'il appelle son cher fils ;
+                    <desc xml:id="CAT_000036_e10_1">L. aut. au contrôleur dos Fermes, à Roanne, qu'il appelle son cher fils ;
                         1780, 3 p. pl. in-4, cachet. 20</desc>
                     <note>Très-curieuse épître pleine de naturel et de bonhomie, où il se réclame de
                         Boileau et La Fontaine. Il engage fort son cher fils, ayant de la mémoire, à
@@ -200,7 +201,7 @@
                 <item n="11" xml:id="CAT_000036_e11">
                     <num>11</num>
                     <name type="author">Eugénie (l'impératrice</name>
-                    <desc>L. s., 1854, 1/2 p. in-f., enveloppe et cachet. Belle pièce. 15</desc>
+                    <desc xml:id="CAT_000036_e11_1">L. s., 1854, 1/2 p. in-f., enveloppe et cachet. Belle pièce. 15</desc>
                 </item>
                 <item n="12" xml:id="CAT_000036_e12">
                     <num>12</num>
@@ -208,7 +209,7 @@
                     <trait>
                         <p>roi de France</p>
                     </trait>
-                    <desc>Piecc sig. sur vélin; Saint-Prix, 11 oct. 1540, 1/2 p. in-f. 15</desc>
+                    <desc xml:id="CAT_000036_e12_1">Piecc sig. sur vélin; Saint-Prix, 11 oct. 1540, 1/2 p. in-f. 15</desc>
                     <note>Ordre de faire payer 560 livres tournois pour les gages et soldes des
                         douze morte-payes par lui établies pour la garde, sûreté et défense du
                         château et place forte de la Bastille de Paris</note>
@@ -220,7 +221,7 @@
                     <trait>
                         <p>pape, qui excommunia Henri IV</p>
                     </trait>
-                    <desc>L. s., comme pape, 1591, 1/2 p. in-f. 15</desc>
+                    <desc xml:id="CAT_000036_e13_1">L. s., comme pape, 1591, 1/2 p. in-f. 15</desc>
                 </item>
 
                 <item n="14" xml:id="CAT_000036_e14">
@@ -229,7 +230,7 @@
                     <trait>
                         <p>femme célèbre du XVIIIe siècle, l'amie de J.-J. Rousseau</p>
                     </trait>
-                    <desc>L. a. s. à Suard, secrét. perpétuel de l'Institut (1805), 3 p. in-1.
+                    <desc xml:id="CAT_000036_e14_1">L. a. s. à Suard, secrét. perpétuel de l'Institut (1805), 3 p. in-1.
                         30</desc>
                     <note>Curieuse épître relative aux Essais publiés par M. Molé, son neveu, et
                         dont Gaillard a fait une critique peu bienveillante. (On sait que ce livre
@@ -242,7 +243,7 @@
                     <trait>
                         <p>grand peintre d'histoire, le dernier chef de l'école classique</p>
                     </trait>
-                    <desc>L. a. s. au préfet de la Seine ; 30 janv. 1829, 2 p. pl. in-f. 20</desc>
+                    <desc xml:id="CAT_000036_e15_1">L. a. s. au préfet de la Seine ; 30 janv. 1829, 2 p. pl. in-f. 20</desc>
                     <note>Très-belle lettre, par laquelle il recommande chaudement le jeune Villet,
                         son élève, qui a des dispositions brillantes pour le dessin et la gravure.
                         Il pense que M. Pradier pourrait s'en charger, et il ne doute pas qu'en
@@ -255,7 +256,7 @@
                     <trait>
                         <p>éminent naturaliste et voyageur, mort à Bombay en 1832, à 31 ans</p>
                     </trait>
-                    <desc>L. a. s. au général Allard, généralissime des troupes du roi de Lahorc;
+                    <desc xml:id="CAT_000036_e16_1">L. a. s. au général Allard, généralissime des troupes du roi de Lahorc;
                         Sattigueur, 9 octobre, 1/2 p. in-f. 25</desc>
                     <note>Belle lettre écrite sur papier indien. Il annonce au général qu'il va le
                         trouver demain dans son palais royal avec l'éléphant qu'il lui a envoyé. Il
@@ -270,7 +271,7 @@
                         <p>empereur d'Allemagne, précurseur de la Révolution française par ses
                             réformes, frère de la reine Marie-Antoinette</p>
                     </trait>
-                    <desc>L. a. s., en français (au roi d'Espagne); 18 mai 1789, 1 p. 1/2 in-4.
+                    <desc xml:id="CAT_000036_e17_1">L. a. s., en français (au roi d'Espagne); 18 mai 1789, 1 p. 1/2 in-4.
                         Rare. 45</desc>
                     <note>Très-belle lettre écrite peu de temps avant sa mort. Sa santé est très-
                         mauvaise depuis 10 mois, et ce n'est qu'avec un régime suivi qu'il peut
@@ -285,7 +286,7 @@
                     <trait>
                         <p>le fameux conventionnel, assassiné par Charlotte Corday</p>
                     </trait>
-                    <desc>L. a. s. à Labbée, rédacteur du Réclamateur; 14 janv. 1790, 2 p. 1/2 in-4.
+                    <desc xml:id="CAT_000036_e18_1">L. a. s. à Labbée, rédacteur du Réclamateur; 14 janv. 1790, 2 p. 1/2 in-4.
                         Très-rare. 200</desc>
                     <note>Très-curieuse lettre, qu'il signe Marat, l'ami du peupte. Alors sous le
                         coup d'un décret de prise de corps et caché dans Paris, il se plaint que les
@@ -305,7 +306,7 @@
                         <p>évêque de Tulles, illustre prédicateur du siècle de Louis XIV, ne à
                             Aix</p>
                     </trait>
-                    <desc>L. a. s. à Mlle de Scudéry; Agen, 6 janv. 1681, 2 p. in-8, cachet à ses
+                    <desc xml:id="CAT_000036_e19_1">L. a. s. à Mlle de Scudéry; Agen, 6 janv. 1681, 2 p. in-8, cachet à ses
                         armes. Rarc. 50</desc>
                     <note>Très-aimable épître sur les Conversations de Mlle Scudéry, ouvrage d'une
                         belle morale d'où elle a eu l'heureuse idée d'exclure les aventures
@@ -319,7 +320,7 @@
                     <trait>
                         <p>le grand compositeur</p>
                     </trait>
-                    <desc>L. a. s., en français, à M. Hamel, 1 p. in-8. 7</desc>
+                    <desc xml:id="CAT_000036_e20_1">L. a. s., en français, à M. Hamel, 1 p. in-8. 7</desc>
                     <note>Indications relatives à l'instrumentation de la musique d'un de ses
                         opéras</note>
                 </item>
@@ -332,7 +333,7 @@
                             savante du XVIIe siècle, auteur de la vie de son frère, publiée en tète
                             des Pensées</p>
                     </trait>
-                    <desc>Quit. sig. avec 2 lignes aut., 1673, 3/4 de p. in-4. Légère déchirure dans
+                    <desc xml:id="CAT_000036_e21_1">Quit. sig. avec 2 lignes aut., 1673, 3/4 de p. in-4. Légère déchirure dans
                         un coin enlevant 2 fins de mots. 30</desc>
                     <note>Reçu, comie veuve et héritière de Florin Périer, la somme de 164 liv. Lour
                         les intérêts de la somme qui lui reste due par les héritiers de M. Gras,
@@ -345,7 +346,7 @@
                     <trait>
                         <p>archiduc d'Autriche, roi de Castille, père de Charles-Quint</p>
                     </trait>
-                    <desc>L. s., en latin, sur vélin, au pape; ex opido nostro Ganden, dernier nov.
+                    <desc xml:id="CAT_000036_e22_1">L. s., en latin, sur vélin, au pape; ex opido nostro Ganden, dernier nov.
                         1505, 1/2 p. in-f. obl., fragment de sceau. Magnifique pièce. Très-rare.
                         35</desc>
                 </item>
@@ -356,7 +357,7 @@
                     <trait>
                         <p>roi d'Espagne</p>
                     </trait>
-                    <desc>Diplôme sig., sur vélin, contresigné Vergas, 1562, 1/2 p. double in-f.
+                    <desc xml:id="CAT_000036_e23_1">Diplôme sig., sur vélin, contresigné Vergas, 1562, 1/2 p. double in-f.
                         6</desc>
                 </item>
 
@@ -366,7 +367,7 @@
                     <trait>
                         <p>diplomate et poète, auteur de l'Anti-Lucrèce, memb. de l'Acad. fr</p>
                     </trait>
-                    <desc>L. a. s. (au cardinal de Fleury), 1741, 2 p. in-4. Peu commun. 15</desc>
+                    <desc xml:id="CAT_000036_e24_1">L. a. s. (au cardinal de Fleury), 1741, 2 p. in-4. Peu commun. 15</desc>
                 </item>
 
                 <item n="25" xml:id="CAT_000036_e25">
@@ -376,7 +377,7 @@
                         <p>un des écrivains français les plus fins et les plus mordants du XVIIe
                             siècle, exilé pour ses railleries contre Mazarin</p>
                     </trait>
-                    <desc>L. a. s. à l'abbé de Hautefeuille, 10 décembre, 2 p. in-4. 30</desc>
+                    <desc xml:id="CAT_000036_e25_1">L. a. s. à l'abbé de Hautefeuille, 10 décembre, 2 p. in-4. 30</desc>
                     <note>Très-jolie lettre au sujet de la pension que lui sert la maréchale de
                         Créquy</note>
                 </item>
@@ -389,7 +390,7 @@
                             protecteur d'Erasme, redoute de François Ier, qu'il combattit à la tète
                             des bandes suisses</p>
                     </trait>
-                    <desc>L. s., avec une ligne aut., à l'archidiacre de Châlons, à Rome; Sion, 8
+                    <desc xml:id="CAT_000036_e26_1">L. s., avec une ligne aut., à l'archidiacre de Châlons, à Rome; Sion, 8
                         juin, 1 p. in-8, cachet. Belle et très-rare pièce. 25</desc>
                 </item>
 
@@ -399,7 +400,7 @@
                     <trait>
                         <p>savant médecin allemand, collaborateur de Gall</p>
                     </trait>
-                    <desc>L. a. s., en anglais, à M. Teach, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000036_e27_1">L. a. s., en anglais, à M. Teach, 1 p. in-8. 4</desc>
                 </item>
 
                 <item n="28" xml:id="CAT_000036_e28">
@@ -408,7 +409,7 @@
                     <trait>
                         <p>roi de Pologne, beau-père de Louis XV</p>
                     </trait>
-                    <desc>L. a. s., en français, à S. Alt. Sér…; Strasbourg, 17 sept. 1725, 1 p.
+                    <desc xml:id="CAT_000036_e28_1">L. a. s., en français, à S. Alt. Sér…; Strasbourg, 17 sept. 1725, 1 p.
                         1/2 in-f. 30</desc>
                     <note>Belle et touchante lettre au sujet du voyage qu'il est invité à faire à
                         Fontainebleau, pour y voir la reine sa fille, nouvellement mariée. Il
@@ -422,7 +423,7 @@
                     <trait>
                         <p>ami et ministre de Henri IV</p>
                     </trait>
-                    <desc>Pièce sig.; château de Villebon, 12 juin 1641 (6 mois avant sa mort), 2 p.
+                    <desc xml:id="CAT_000036_e29_1">Pièce sig.; château de Villebon, 12 juin 1641 (6 mois avant sa mort), 2 p.
                         1/2 in-f. 10</desc>
                     <note>Devis des ouvrages à faire pour l'agrandissement des fossés de la ville de
                         Villebon</note>
@@ -435,7 +436,7 @@
                         <p>fameux contrôleur-général des finances sous Louis XV, créature de la Du
                             Barry</p>
                     </trait>
-                    <desc>L. a. s., 18 janv. 1770, 1 p. in-4. 8</desc>
+                    <desc xml:id="CAT_000036_e30_1">L. a. s., 18 janv. 1770, 1 p. in-4. 8</desc>
                     <note>Belle lettre sur son avénement au ministère, « poste périlleux, dit-il,
                         pour l'honneur de ceux qui s'y attachent.</note>
                 </item>
@@ -446,7 +447,7 @@
                     <trait>
                         <p>savant botaniste suédois, voyageur au Japon</p>
                     </trait>
-                    <desc>L. a. s., en français, à Bosc, 1 p. in-8. Envoi de plantes du cap de
+                    <desc xml:id="CAT_000036_e31_1">L. a. s., en français, à Bosc, 1 p. in-8. Envoi de plantes du cap de
                         Bonne-Espérance. 4</desc>
                 </item>
 
@@ -456,7 +457,7 @@
                     <trait>
                         <p>littérateur, historien, de l'Acad. fr</p>
                     </trait>
-                    <desc>L. a. s. à Jullien de Paris, 1830, 1 p. 1/2 in-8. 2</desc>
+                    <desc xml:id="CAT_000036_e32_1">L. a. s. à Jullien de Paris, 1830, 1 p. 1/2 in-8. 2</desc>
                 </item>
 
                 <item n="33" xml:id="CAT_000036_e33">
@@ -466,7 +467,7 @@
                         <p>peintre et littérateur suisse, le spirituel auteur du Voyage en
                             zig-zag</p>
                     </trait>
-                    <desc>L. a. s. de ses initiales, à Paulin, 1 p. pl. in-8. Rare. 20</desc>
+                    <desc xml:id="CAT_000036_e33_1">L. a. s. de ses initiales, à Paulin, 1 p. pl. in-8. Rare. 20</desc>
                     <note>Indications relatives aux dispositions typographiques de son Voyage en
                         ziq-zag</note>
                 </item>
@@ -477,7 +478,7 @@
                     <trait>
                         <p>un des plus grands capitaines du XVIIIe siècle</p>
                     </trait>
-                    <desc>L. sig., en espagnol, avec la sousc. aut., au marquis Bentivoglio;
+                    <desc xml:id="CAT_000036_e34_1">L. sig., en espagnol, avec la sousc. aut., au marquis Bentivoglio;
                         Mantoue, 1706, 1 p. in-f. 3</desc>
                 </item>
 
@@ -488,7 +489,7 @@
                         <p>gouverneur de Châtelle- rault, grand-père de Henri IV, mort a Amiens en
                             1537</p>
                     </trait>
-                    <desc>L. s., avec la sousc. aut., à M. de Torcy, son lieutenant ; Châtellerault,
+                    <desc xml:id="CAT_000036_e35_1">L. s., avec la sousc. aut., à M. de Torcy, son lieutenant ; Châtellerault,
                         21 juil. 1526, 1 p. in-f. 20</desc>
                     <note>Pièce historique relative à l'exécution de l'article du traité de Madrid,
                         concernant la restitution respective des bénéfices, fiefs et seigneuries à
@@ -504,7 +505,7 @@
                             ses chansons bachiques et ses contes galants, né à Lyon, assassiné à
                             Paris en 1720 par la bande de Cartouche.</p>
                     </trait>
-                    <desc>L. a. s. aux commissaires de la marine de Zélande; Dunkerque, 1702, 1 p.
+                    <desc xml:id="CAT_000036_e36_1">L. a. s. aux commissaires de la marine de Zélande; Dunkerque, 1702, 1 p.
                         in-f. Brûlure et piqûre d'humidité dans deux marges. Rare. 15</desc>
                 </item>
                 <item n="37" xml:id="CAT_000036_e37">
@@ -513,7 +514,7 @@
                     <trait>
                         <p>célèbre graveur italien</p>
                     </trait>
-                    <desc>L. a. s. à Raph. Morghen ; Rome, 1802, 1 p. in-8. Relative à plusieurs de
+                    <desc xml:id="CAT_000036_e37_1">L. a. s. à Raph. Morghen ; Rome, 1802, 1 p. in-8. Relative à plusieurs de
                         ses estampes. 3</desc>
                 </item>
 
@@ -523,7 +524,7 @@
                     <trait>
                         <p>le grand écrivain</p>
                     </trait>
-                    <desc>L. a. sig. V. à Cramer, 1 p. in-18. 12</desc>
+                    <desc xml:id="CAT_000036_e38_1">L. a. sig. V. à Cramer, 1 p. in-18. 12</desc>
                     <note>Curieuse petite épître. Il lui envoie le manuscrit de son Histoire
                         générale. « Cela est bien curieux, dit-il; en voilà pour employer longtemps
                         les presses.</note>
@@ -535,7 +536,7 @@
                     <trait>
                         <p>érudit, historien de La Fontaine et de Mme de Sévigné</p>
                     </trait>
-                    <desc>L. a. s. à Labouisse-Rochefort, 1824, 2 p. in-f., fatiguée. 6</desc>
+                    <desc xml:id="CAT_000036_e39_1">L. a. s. à Labouisse-Rochefort, 1824, 2 p. in-f., fatiguée. 6</desc>
                     <note>Curieuse lettre sur l'abbé Vergier, contenant les états de service de ce
                         poète</note>
                 </item>
@@ -546,7 +547,7 @@
                     <trait>
                         <p>célèbre peintre, dessinateur et poète du XVIIIe siècle, de l'Acad. fr</p>
                     </trait>
-                    <desc>L. a. s. à Voltaire, 1760, 1 p. in-4. 10</desc>
+                    <desc xml:id="CAT_000036_e40_1">L. a. s. à Voltaire, 1760, 1 p. in-4. 10</desc>
                     <note>Intéressante épître, par laquelle il annonce à Voltaire qu'il lui dédie le
                         poème de l'Art de peindre, son principal ouvrage.</note>
                 </item>

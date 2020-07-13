@@ -1,4 +1,5 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000076">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000076">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -84,7 +85,7 @@
                <trait>
                   <p>illustre grammairien et philologue allemand</p>
                </trait>
-               <desc>L. a. s.; Leipzig, 1782, 3 p. in-4. Belle pièce. 2</desc>
+               <desc xml:id="CAT_000076_e1_1">L. a. s.; Leipzig, 1782, 3 p. in-4. Belle pièce. 2</desc>
             </item>
 
             <item n="2" xml:id="CAT_000076_e2">
@@ -95,7 +96,7 @@
                   <p>dame de Combalet, nièce et, dit-on, maîtresse de Richelieu, fort maltraitée par
                      Tallemant des Réaux, et dont Fléchier prononça l'oraison funèbre</p>
                </trait>
-               <desc>L. a. s. à Chavigny; 28 mai 1639, 1 p. 1/2 in-fol., cachets et soies. 50</desc>
+               <desc xml:id="CAT_000076_e2_1">L. a. s. à Chavigny; 28 mai 1639, 1 p. 1/2 in-fol., cachets et soies. 50</desc>
                <note>Superbe et importante lettre historique. Elle le remercie de s'intéresser à
                   elle et regrette que Monsieur (&gt;Gaston d'Orléans) ne soit pas raccommodé avec
                   le Roi; elle espère que la charge de Mme de Liancourt (Jeanne de Schomberg) ne
@@ -109,7 +110,7 @@
                <trait>
                   <p>vice-amiral, né à Port-Louis (Morbihan)</p>
                </trait>
-               <desc>L. a. s.; Paris, 1er février 1817, 3 p. 1/2 in-4. 10</desc>
+               <desc xml:id="CAT_000076_e3_1">L. a. s.; Paris, 1er février 1817, 3 p. 1/2 in-4. 10</desc>
                <note>Curieuse lettre relative à un incident qui s'est produit à l'audience du roi à
                   l'occasion des réceptions du jour de l'an. (Il présenta au roi, le 3 janvier, la
                   députation de l'Académie des sciences. Le roi donna l'ordre de retourner son
@@ -131,7 +132,7 @@
                <trait>
                   <p>amiral de France, fils de Charles X</p>
                </trait>
-               <desc>L. a. s. à l'évêque de L. a. Rochelle; Madrid, 17 mai 1815, 1 p. in-4. Belle
+               <desc xml:id="CAT_000076_e4_1">L. a. s. à l'évêque de L. a. Rochelle; Madrid, 17 mai 1815, 1 p. in-4. Belle
                   lettre. 15</desc>
             </item>
 
@@ -143,7 +144,7 @@
                      de Bussy-Rabutin, auteur de plusieurs oraisons funèbres de persoinages célèbres
                      du XVIIe siècle</p>
                </trait>
-               <desc>17 let. aut., dont 10 sig., à Mllé de Scudéry ; 1681-84, 63 p. in-8 ou in-4.
+               <desc xml:id="CAT_000076_e5_1">17 let. aut., dont 10 sig., à Mllé de Scudéry ; 1681-84, 63 p. in-8 ou in-4.
                   Cachets. 50</desc>
                <note>Correspondance des plus curieuses, plus galante que chrétienne, plus littéraire
                   que religi use. Il y parle de Pellisson, de l'abbé Ferrier son parent, de Bussy
@@ -163,7 +164,7 @@
                <trait>
                   <p>un des plus célèbres solitaires et écrivains de Port-Royal</p>
                </trait>
-               <desc>Let. aut. (à Mme de Bouthillier); 18 février 1663, 1 p. in-8. 10</desc>
+               <desc xml:id="CAT_000076_e6_1">Let. aut. (à Mme de Bouthillier); 18 février 1663, 1 p. in-8. 10</desc>
                <note>Jolie lettre dans laquelle il parle de l'évêque d'Angers (Henri Arnauld)</note>
             </item>
 
@@ -174,7 +175,7 @@
                   <p>théologien protestant, célèbre par ses thèses sur le denier de Saint-Pierre,
                      professeur à Nuremberg, sa patrie</p>
                </trait>
-               <desc>Belle épître latine aut. sig., à Constantin Huyghens; Londres, 28 sept. 1682, 1
+               <desc xml:id="CAT_000076_e7_1">Belle épître latine aut. sig., à Constantin Huyghens; Londres, 28 sept. 1682, 1
                   p. in-f., joli cachet à son chiffre. 4</desc>
             </item>
 
@@ -185,7 +186,7 @@
                   <p>célèbre diplomate français du XVIIe siècle, ministre plénipotentiaire au
                      congrès de Nimégue, ambassadeur en Hollande et en Angleterre</p>
                </trait>
-               <desc>L. a. s.; a Haye, 17 mai 1680, 1 p. 1/2 in-4. 15</desc>
+               <desc xml:id="CAT_000076_e8_1">L. a. s.; a Haye, 17 mai 1680, 1 p. 1/2 in-4. 15</desc>
                <note>Intéressante lettre relative aux plaintes formulées par l'ambassadeur d'Espagne
                   en France aux Etals de Hollande, relativement à quelques châteaux que nous
                   demandions aux Pays-Bas comme des dépendances des places qui nous ont été cédées,
@@ -199,7 +200,7 @@
                   <p>le célèbre archevêque de Paris, né au château de la Roque (Périgord) en 1703,
                      mort en 1781</p>
                </trait>
-               <desc>6 let., dont 4 aut. sig. et 2 sig. à l'archevêque de Tours; la Trappe, 1764, 13
+               <desc xml:id="CAT_000076_e9_1">6 let., dont 4 aut. sig. et 2 sig. à l'archevêque de Tours; la Trappe, 1764, 13
                   p. 1/2 in-4. 40</desc>
                <note>Importantes lettres, écrites pendant son exil à la Trappe, où il avait été
                   obligé de se retirer à cause de la lutte acharnée qu'il soutenait contre les
@@ -225,7 +226,7 @@
                <trait>
                   <p>célèbre écrivain romantique</p>
                </trait>
-               <desc>8 1. a. s. à Nogent-Saint-Laurent; 1859, 11 p. in-8. Curieuses. 10</desc>
+               <desc xml:id="CAT_000076_e10_1">8 1. a. s. à Nogent-Saint-Laurent; 1859, 11 p. in-8. Curieuses. 10</desc>
             </item>
             <item n="11" xml:id="CAT_000076_e11">
                <num>11</num>
@@ -234,7 +235,7 @@
                   <p>amiral, commandant de la flotte de la Baltique pendant la guerre avec la
                      Prusse</p>
                </trait>
-               <desc>5 1. a. s., dont une de ses initiales, à un journaliste; Toulon, Messine, etc.,
+               <desc xml:id="CAT_000076_e11_1">5 1. a. s., dont une de ses initiales, à un journaliste; Toulon, Messine, etc.,
                   1858-59, 13 p. 1/2 in-8. 30</desc>
                <note>Curieuses lettres relatives aux opérations de la flotte française pendant la
                   guerre d'Italie : 5 mars 1858. Son opinion sur la guerre de Crimée; les services
@@ -261,7 +262,7 @@
                   <p>célèbre maréchal de France, vainqueur d'Alger en 1830, né en 1773, mort en
                      1846</p>
                </trait>
-               <desc>7 let., dont 3 aut. sig. et 4 sig., à divers; Blois, Nantes, Bourmont, an
+               <desc xml:id="CAT_000076_e12_1">7 let., dont 3 aut. sig. et 4 sig., à divers; Blois, Nantes, Bourmont, an
                   VIII-1829, 10 p. in-4 et in-fol. 20</desc>
                <note>Intéressante réunion. Une de ces lettres, adressée au maréchal Macdonald, est
                   toute relative à l'organisation de la garde royale</note>
@@ -274,7 +275,7 @@
                   <p>abbé de Cinq-Mars, évêque d'Auxerre, attaché à Richelieu qui l'employa dans ses
                      négociations avec Mme de Chevreuse, mort en 1671</p>
                </trait>
-               <desc>Pièce sig. sur vélin, comme évêque d'Auxerre; 25 janvier 1649, 1 p. in-4. Tache
+               <desc xml:id="CAT_000076_e13_1">Pièce sig. sur vélin, comme évêque d'Auxerre; 25 janvier 1649, 1 p. in-4. Tache
                   de rous-seur. 20</desc>
                <note>Nomination de Henri Minard, du diocèse d'Autun, à la cure de Saint-
                   Laurent-de-Charentenaye.</note>
@@ -286,7 +287,7 @@
                   <p>seigneur d'Epiry, lieutenant du roi en Nivernais, père du célèbre
                      Bussy-Rabutin, né en 1587, mort en 1645</p>
                </trait>
-               <desc>Let. sig. au maréchal de Caumont L. a. Force ; Trêves, 3 juin 1634, 2 p. in-fol.
+               <desc xml:id="CAT_000076_e14_1">Let. sig. au maréchal de Caumont L. a. Force ; Trêves, 3 juin 1634, 2 p. in-fol.
                   Cachets et soies. 15</desc>
                <note>Intéressante lettre sur la défense des électorats de Trêves et de Cologne ; il
                   combine ses mouvements avec ceux du duc de Neubourg pour couvrir Ehrenbreinstein.
@@ -300,7 +301,7 @@
                   <p>lectrice de Marie-Antoinette, auteur d'intéressants mémoires sur cette
                      princesse, directrice de la maison d'Ecouen</p>
                </trait>
-               <desc>7 lettres dont 3 aut. sig., 3 aut. et 1 sig.; Mantes, Ecouen,
+               <desc xml:id="CAT_000076_e15_1">7 lettres dont 3 aut. sig., 3 aut. et 1 sig.; Mantes, Ecouen,
                   Saint-Germain-en-Laye, 1803-21, 13 p. in-8, in-4 et in-f. Une d'elles est piquée
                   d'humidité. 40</desc>
                <note>Lettres intéressantes pour sa biographie et pour l'administration de la maison
@@ -313,7 +314,7 @@
                <trait>
                   <p>poète dramatique, membre de l'Académie française</p>
                </trait>
-               <desc>10 1. a. s. à Ducis, 1811-15, 21 p. 1/2 in-4., cachets. 40</desc>
+               <desc xml:id="CAT_000076_e16_1">10 1. a. s. à Ducis, 1811-15, 21 p. 1/2 in-4., cachets. 40</desc>
                <note>Très-curieuse correspondance inédite adressée à son « cher Sophocle. » En voici
                   une analyse sommaire : 11 mars 1811. L'Enfant prodigue de Campenon ; réponse à des
                   remerciments à propos de cet ouvrage. Le Roi Lear et Abufar de Ducis. -30 décembre
@@ -340,7 +341,7 @@
                <trait>
                   <p>roi de France</p>
                </trait>
-               <desc>L. a. s. à l'évêque de L. a. Rochelle; Edimbourg, 1er mars 1803, 1 p. 1/2 in-4,
+               <desc xml:id="CAT_000076_e17_1">L. a. s. à l'évêque de L. a. Rochelle; Edimbourg, 1er mars 1803, 1 p. 1/2 in-4,
                   cachet. Légers raccommodages. 20</desc>
                <note>Il le remercie de ses protestations de dévoûment</note>
             </item>
@@ -351,7 +352,7 @@
                <trait>
                   <p>un des plus célèbres poètes de l'Angleterre, né en 1772, mort en 1834</p>
                </trait>
-               <desc>L. a. s. à M. de Prati, 1 p. 3/4 in-8. 50</desc>
+               <desc xml:id="CAT_000076_e18_1">L. a. s. à M. de Prati, 1 p. 3/4 in-8. 50</desc>
                <note>Belle et spirituelle épître dans laquelle il parle du poète Green</note>
             </item>
 
@@ -362,7 +363,7 @@
                   <p>sire d'Argenton, l'illustre ministre et historien de Louis XI, né près de Lille
                      en 1445, mort en 1509</p>
                </trait>
-               <desc>Let. sig. au duc de Milan (Ludovic le Maure) ; Milan, 26 octobre (1495), 1 p.
+               <desc xml:id="CAT_000076_e19_1">Let. sig. au duc de Milan (Ludovic le Maure) ; Milan, 26 octobre (1495), 1 p.
                   in-4. Fragments de cachets. Très-rare. 250</desc>
                <note>Précieuse lettre historique. Il se plaint de la violation du traité de Verceil.
                   Des navires sont partis de Gènes pour renforcer la flotte du roi Ferrand
@@ -378,7 +379,7 @@
                   <p>ami et premier ministre de Pie VII, signataire du Concordat avec Napoléon, né
                      en 1757, mort en 1824</p>
                </trait>
-               <desc>2 let. aut., dont une sig., en français, à la duchesse de Devonshire; 1816-23,
+               <desc xml:id="CAT_000076_e20_1">2 let. aut., dont une sig., en français, à la duchesse de Devonshire; 1816-23,
                   2 p. in-4. 15</desc>
                <note>Charmantes lettres. Il lui annonce (1816) l'envoi de lettres de dispense à Mme
                   de Staël pour le mariage de sa fille, Albertine-Ida-Gustavine, avec le duc de
@@ -391,7 +392,7 @@
                <trait>
                   <p>spirituel vaudevilliste</p>
                </trait>
-               <desc>15 1. a. s. à Sauvage, directeur de l'Odéon; 1822-42,16 p. in-8 et in-4.
+               <desc xml:id="CAT_000076_e21_1">15 1. a. s. à Sauvage, directeur de l'Odéon; 1822-42,16 p. in-8 et in-4.
                   10</desc>
                <note>Intéressante correspondance sur ses ouvrages</note>
             </item>
@@ -403,7 +404,7 @@
                   <p>célèbre diplomate du XVIIIe siècle, ambassadeur à Berlin en 1697, puis a
                      Constantinople, envoyé secrètement près de Ragoczi en 1704, né en Normandie</p>
                </trait>
-               <desc>5 let., dont 4 aut. sig. et 1 seulement sig. avec un post-scriptum de 6 lignes
+               <desc xml:id="CAT_000076_e22_1">5 let., dont 4 aut. sig. et 1 seulement sig. avec un post-scriptum de 6 lignes
                   aut., à M. de Fontenu, consul à Smyrne; Constantinople et Paris, 1716-20, 15 p.
                   in-4. Une de ces lettres est piquée d'humidité. 20</desc>
                <note>Lettres politiques très-intéressantes sur les affaires d'Orient à cette époque.
@@ -421,7 +422,7 @@
                   <p>célèbre naturaliste suédois, conservateur de la riche collection scientifique
                      de Joseph Banks à Londres, né en 1748, mort en 1811</p>
                </trait>
-               <desc>6 lettres, dont 5 aut. sig. et 1 aut., au savant L'Héritier; Londres, 1788-89,
+               <desc xml:id="CAT_000076_e23_1">6 lettres, dont 5 aut. sig. et 1 aut., au savant L'Héritier; Londres, 1788-89,
                   18 p. 1/2 in-4. 20</desc>
                <note>Importante correspondance scientifique</note>
             </item>
@@ -432,7 +433,7 @@
                <trait>
                   <p>le célèbre poète tragique, de l'Acad. fr</p>
                </trait>
-               <desc>11 1. a. s. à lui adressées par Anson, de Belloy, Auger, Sauvo, Mosneron.
+               <desc xml:id="CAT_000076_e24_1">11 1. a. s. à lui adressées par Anson, de Belloy, Auger, Sauvo, Mosneron.
                   Taunay, etc.; 1806-14, 19 p. in-4. 20</desc>
                <note>Dossier des plus curieux sur les ouvrages de Ducis et pouvant servir à sa
                   biographie</note>
@@ -445,7 +446,7 @@
                   <p>célèbre peintre d'histoire, neveu du grand poète tragique et beau-frère de
                      Talma</p>
                </trait>
-               <desc>1° L. a. s. à M. Delcroix, 1828, 1 p. in-18; 2° 55 lettres à lui adressées,
+               <desc xml:id="CAT_000076_e25_1">1° L. a. s. à M. Delcroix, 1828, 1 p. in-18; 2° 55 lettres à lui adressées,
                   1813-28, environ 75 pages in-8 et in-4. 30</desc>
                <note>Dossier important pour la biographie de cet artiste et pour l'histoire des
                   Beaux-Arts à cette époque. On y remarque des lettres des personnages suivants :
@@ -461,7 +462,7 @@
                <trait>
                   <p>père, le grand romancier</p>
                </trait>
-               <desc>L. a. s.; 5 mars, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000076_e26_1">L. a. s.; 5 mars, 1 p. in-8. 3</desc>
                <note>Il lui annonce l'envoi de son journal (Le Mousquetaire)</note>
             </item>
 
@@ -471,7 +472,7 @@
                <trait>
                   <p>célèbre orateur et homme d'Etat, de l'Académie française</p>
                </trait>
-               <desc>L. a. s. (au duc d'Angoulême); 19 déc. 1826, 2 p. 1/2 in-8. 10</desc>
+               <desc xml:id="CAT_000076_e27_1">L. a. s. (au duc d'Angoulême); 19 déc. 1826, 2 p. 1/2 in-8. 10</desc>
                <note>Très-curieuse lettre toute relative à l'affaire de son collègue Isambert,
                   condamné pour un article publié dans la Gazette des Tribunaux, contre les
                   arrestations faites par des agents de police sans uniforme. Chargé de le défendre,
@@ -491,7 +492,7 @@
                <trait>
                   <p>célèbre maréchal de France et habile négociateur</p>
                </trait>
-               <desc>2 1. a. s. au principal ministre du duc de Modène (le cardinal d'Este), 4 p.
+               <desc xml:id="CAT_000076_e28_1">2 1. a. s. au principal ministre du duc de Modène (le cardinal d'Este), 4 p.
                   in-fol. 35</desc>
                <note>1° Piombino, 29 août 1647. Au moment de partir pour l'expédition contre l'un
                   des présides de Toscane, Porto-Longone (dont il devait être gouverneur en 1648),
@@ -507,7 +508,7 @@
                <trait>
                   <p>célèbre diplomate du XVIIe siècle, ambassadeur à Copenhague</p>
                </trait>
-               <desc>2 let. sig. avec la souscript. et post-script. aut. à M. de Feuquières,
+               <desc xml:id="CAT_000076_e29_1">2 let. sig. avec la souscript. et post-script. aut. à M. de Feuquières,
                   ambassadeur de France en Suède, 5 p. in-4. 15 » 1° Copenhague. 30 mars 1680. Il
                   espère revoir Feuquières, s'il vient à Malmac; de Guldenstein (ministre de Charles
                   XI) va repartir pour la Suède; de L. a. Piquetière est arrivé, il entretiendra
@@ -526,7 +527,7 @@
                <trait>
                   <p>prince des Pays-Bas, oncle du roi actuel, mort récemment</p>
                </trait>
-               <desc>L. a. s., en allemand; 1824, 1/2 p. in-4. 10</desc>
+               <desc xml:id="CAT_000076_e30_1">L. a. s., en allemand; 1824, 1/2 p. in-4. 10</desc>
             </item>
 
             <item n="31" xml:id="CAT_000076_e31">
@@ -535,7 +536,7 @@
                <trait>
                   <p>célèbre cantatrice italienne, femme de Manuel</p>
                </trait>
-               <desc>19 1. a. s.; 40 p. in-8. 10</desc>
+               <desc xml:id="CAT_000076_e31_1">19 1. a. s.; 40 p. in-8. 10</desc>
                <note>Intéressante correspondance pleine de détails pour sa biographie</note>
             </item>
 
@@ -546,7 +547,7 @@
                   <p>roi de Suède, fils et successeur de Gustave III, détrôné en 1809, connu ensuite
                      sous le nom de colonel Gustafson, né en 1778, mort en 1853</p>
                </trait>
-               <desc>L. a. s., en français, au directeur du journal l'Etoile; Worms, 25 septembre
+               <desc xml:id="CAT_000076_e32_1">L. a. s., en français, au directeur du journal l'Etoile; Worms, 25 septembre
                   1826, 1 p. in-4. Cachet. Léger raccommodage. 15</desc>
                <note>Curieuse lettre relative à un manuscrit qu'il lui a envoyé; elle est signée le
                   colonel Gustafson. « Fatigué de tout genre par les caprices et la méchanceté, je
@@ -561,7 +562,7 @@
                <trait>
                   <p>maréchal de France, aussi célèbre par son faste que par ses exploits</p>
                </trait>
-               <desc>L. a. s.; Compiègne, 1649, 2 p. in-4. Cachets. 20</desc>
+               <desc xml:id="CAT_000076_e33_1">L. a. s.; Compiègne, 1649, 2 p. in-4. Cachets. 20</desc>
                <note>Importante lettre toule relative à la ville de Compiègne dont il était
                   gouverneur. Les habitants ne veulent pas faire cause commune avec le Parlement;
                   ils n'ouvrent pas les lettres que celui-ci leur adresse; les murailles, à
@@ -575,7 +576,7 @@
                <trait>
                   <p>le prince des critiques</p>
                </trait>
-               <desc>9 let. à lui adressées par Mlle Georges, Eug. de Monglave, Henri Vermot, Mme
+               <desc xml:id="CAT_000076_e34_1">9 let. à lui adressées par Mlle Georges, Eug. de Monglave, Henri Vermot, Mme
                   Laya, etc., 19 p. in-8. Curieux dossier. 15</desc>
             </item>
             <item n="35" xml:id="CAT_000076_e35">
@@ -585,7 +586,7 @@
                   <p>duc de Bavière et de Deux-Ponts, comte et gouverneur du Palatinat pendant la
                      minorité de Frédéric V, roi de Bohême, né en 1584, mort en 1635</p>
                </trait>
-               <desc>L. a. s., en français, au duc de Rohan (dont il avait épousé la soeur
+               <desc xml:id="CAT_000076_e35_1">L. a. s., en français, au duc de Rohan (dont il avait épousé la soeur
                   Catherine) ; Deux-Ponts, 23 février 1610, 1 p. in-fol., cachets et soies. Rare.
                   20</desc>
                <note>Superbe lettre historique, où il lui annonce que l'Union évangélique de Halle
@@ -599,7 +600,7 @@
                <trait>
                   <p>l'illustre écrivain et homme d'Etat</p>
                </trait>
-               <desc>L. a. s. à l'ambassadeur d'Angleterre à Paris, 6 mai 1830, 2 p. 1/2 in-4.
+               <desc xml:id="CAT_000076_e36_1">L. a. s. à l'ambassadeur d'Angleterre à Paris, 6 mai 1830, 2 p. 1/2 in-4.
                   10</desc>
                <note>Superbe lettre relative à la mort de Mme Henri de Churchill, tante de Mme de
                   Lamartine</note>
@@ -613,7 +614,7 @@
                   <p>célèbre diplomate, mort à Stockholm en 1729 ; il était l'ami de la duchesse du
                      Maine</p>
                </trait>
-               <desc>Let. sig. à M. d'Alion ; Stockholm, 25 décembre 1746, 5 p. in-fol. 40</desc>
+               <desc xml:id="CAT_000076_e37_1">Let. sig. à M. d'Alion ; Stockholm, 25 décembre 1746, 5 p. in-fol. 40</desc>
                <note>Importante dépêche sur l'état de la Suède et de la Russie. Il est arrivé à
                   rendre l'avantage au parti français des chapeaux; il a dû dépenser beaucoup
                   d'argent, et on ne lui en sait pas beaucoup de gré à la cour de France. Le chargé
@@ -630,7 +631,7 @@
                <trait>
                   <p>contrôleur général des finances sous Louis XV, de l'Académie des sciences.</p>
                </trait>
-               <desc>3 let. sig. au maréchal de Besons, commandant en chef de l'armée du Rhin;
+               <desc xml:id="CAT_000076_e38_1">3 let. sig. au maréchal de Besons, commandant en chef de l'armée du Rhin;
                   Paris, 16 mai 1710-15 août 1713, 7 p. in-fol. 20</desc>
                <note>Lettres historiques. Envoi de l'état des ingénieurs choisis pour servir à la
                   suite de l'armée d'Allemagne, à Strasbourg, Marsal, Lauterbourg, Belfort et
@@ -646,7 +647,7 @@
                   <p>littérateur distingué, journaliste qui publia;les Mémoires de Sanson et de
                      Vidocq, né en 1789, mort en 1852.</p>
                </trait>
-               <desc>21 lettres à lui adressées par D'lphine Gay, Jules Bastide, Capefigue, Dornès,
+               <desc xml:id="CAT_000076_e39_1">21 lettres à lui adressées par D'lphine Gay, Jules Bastide, Capefigue, Dornès,
                   Flocon, Altaroche, H. de L. a. Touche, Hetz-l, etc. 12</desc>
                <note>Intéressant dossier au point de vue littéraire</note>
             </item>
@@ -657,7 +658,7 @@
                <trait>
                   <p>roi de France</p>
                </trait>
-               <desc>Pièce aut., 24 p. in-4. 200</desc>
+               <desc xml:id="CAT_000076_e40_1">Pièce aut., 24 p. in-4. 200</desc>
                <note>Précieuse pièce de la jeunesse de Louis XV. C'est une chronologie de la maison
                   de France sons les C'apétiens, les Valois, les Bourbons et les branches
                   collatérales, rédigée par le roi alors qu'il n'était qu'éco ier. On remarque dans
@@ -671,7 +672,7 @@
                <trait>
                   <p>roi de France</p>
                </trait>
-               <desc>L. a. s. à un évêque ; Varsovie, 11 juin 1801, 3/4 de p. in-4. 20</desc>
+               <desc xml:id="CAT_000076_e41_1">L. a. s. à un évêque ; Varsovie, 11 juin 1801, 3/4 de p. in-4. 20</desc>
                <note>Superbe lettre où il le remercie de ses témoignages de dévoûment</note>
             </item>
 
@@ -681,7 +682,7 @@
                <trait>
                   <p>marquis d'Aytonne, gouverneur des Pays-Bas</p>
                </trait>
-               <desc>3 let. dont 2 aut. et 1 sig. ; 4 p. in-fol. 20</desc>
+               <desc xml:id="CAT_000076_e42_1">3 let. dont 2 aut. et 1 sig. ; 4 p. in-fol. 20</desc>
                <note>1° L. a s . à Huyghens; Bruxelles, 15 juin 1626. Il apprend avec plaisir la
                   naissance de Guillaume II d'Orange (fils de Frédéric-IIenri d'Orange et d'Emilie
                   de Solms). Il demande un passe-port en blanc pour un de ses domestiques qu'il
@@ -701,7 +702,7 @@
                   <p>célèbre romancier et auteur dramatique, collaborateur d'Alexandre Dumas, né en
                      1813</p>
                </trait>
-               <desc>15 1. a. s. à Nogent-Saint-Laurent, 17 p. 1/2 in-8. 12</desc>
+               <desc xml:id="CAT_000076_e43_1">15 1. a. s. à Nogent-Saint-Laurent, 17 p. 1/2 in-8. 12</desc>
                <note>Intéressante correspondance littéraire</note>
             </item>
 
@@ -712,7 +713,7 @@
                   <p>spirituel auteur dramatique, le collaborateur de Scribe et d'Empis, né en 1796,
                      mort en 1866</p>
                </trait>
-               <desc>7 1. a. s. à Sauvage, directeur de l'Odéon, 7 p. in-8. 10</desc>
+               <desc xml:id="CAT_000076_e44_1">7 1. a. s. à Sauvage, directeur de l'Odéon, 7 p. in-8. 10</desc>
                <note>Intéressantes lettres relatives à la représentation de ses ouvrages à
                   l'Oléon</note>
             </item>
@@ -723,7 +724,7 @@
                <trait>
                   <p>le grand diplomate autrichien</p>
                </trait>
-               <desc>L. a. s., en français, à un général; Wolkendorff, 4 juillet 1809, 1 p. 1/2
+               <desc xml:id="CAT_000076_e45_1">L. a. s., en français, à un général; Wolkendorff, 4 juillet 1809, 1 p. 1/2
                   in-4. 15</desc>
                <note>Intéressante lettre écrite pendant la guerre contre l'Autriche. On lui a
                   confié, au quartier général de Napoléon, trois lettres qu'il s'empresse de lui
@@ -741,7 +742,7 @@
                   <p>célèbre antiquaire et archéologue anglais de ce siècle, né en 1774, mort en
                      1845</p>
                </trait>
-               <desc>16 1. a. s., en français et en anglais, au libraire Molini, à Florence, et à M.
+               <desc xml:id="CAT_000076_e46_1">16 1. a. s., en français et en anglais, au libraire Molini, à Florence, et à M.
                   Zardetti, à Milan ; Rome, Florence, 1817-43, 18 p. in-4. 20</desc>
                <note>Intéressantes lettres relatives à ses travaux sur l'archéologie et la
                   numismatique</note>
@@ -754,7 +755,7 @@
                   <p>célèbre homme d'Etat, habile ministre du Trésor public sous Napoléon 1er, né à
                      Rouen</p>
                </trait>
-               <desc>2 l. a. s., dont 1 de ses initiales, à Talleyrand ; Paris et Jeurs, 16
+               <desc xml:id="CAT_000076_e47_1">2 l. a. s., dont 1 de ses initiales, à Talleyrand ; Paris et Jeurs, 16
                   janvier-6 août 1831, 7 p. in-4. 15</desc>
                <note>Très-curieuses lettres écrites pendant la célèbre ambassade de Talleyrand à
                   Londres. Il lui donne des détails sur la politique intérieure de la France, le
@@ -772,7 +773,7 @@
                <trait>
                   <p>littérateur et auteur dramatique contemporain</p>
                </trait>
-               <desc>7 1. a. s. à Nogent-Saint-Laurent; 1857, 12 p. in-8. 10</desc>
+               <desc xml:id="CAT_000076_e48_1">7 1. a. s. à Nogent-Saint-Laurent; 1857, 12 p. in-8. 10</desc>
                <note>Curieuses lettres relatives à son procès à propos des Filles de Plâtre, dans
                   lequel il eut Nogent Saint-Laurent pour défenseur</note>
             </item>
@@ -784,7 +785,7 @@
                   <p>célèbre homme d'Etat, ministre de Louis XVIII, membre de l'Académie française,
                      ami de Mme de Staël, né en 1766, mort en 1826</p>
                </trait>
-               <desc>3 1. a. s. à la duchesse de Devonshire, 1803-14, 7 p. in-8. Une d'elles est
+               <desc xml:id="CAT_000076_e49_1">3 1. a. s. à la duchesse de Devonshire, 1803-14, 7 p. in-8. Une d'elles est
                   déchirée en deux. 25</desc>
                <note>Jolies lettres dans lesquelles il parle des habitués du salon de Mme de Staël :
                   « Un excellent métaphysicien (Royer-Collard) dont vous avés si bien su démêler les
@@ -801,7 +802,7 @@
                      l'armée de Condé, essaya de faire évader Férdinand VI du château de
                      Valençay</p>
                </trait>
-               <desc>3 let. aut. à la duchesse de Devonshire; 1811-13, 5 p. 1/4 in-4 et in-8. Légère
+               <desc xml:id="CAT_000076_e50_1">3 let. aut. à la duchesse de Devonshire; 1811-13, 5 p. 1/4 in-4 et in-8. Légère
                   brûlure. 15</desc>
                <note>Spirituelles lettres intimes</note>
             </item>
@@ -812,7 +813,7 @@
                <trait>
                   <p>jeune, dessinateur, fécond et gracieux vignet- tiste</p>
                </trait>
-               <desc>L. a. s. à Renouard; 1814, 1/2 p. in-8. 10</desc>
+               <desc xml:id="CAT_000076_e51_1">L. a. s. à Renouard; 1814, 1/2 p. in-8. 10</desc>
                <note>Demande d'argent des plus pressantes.</note>
             </item>
             <item n="52" xml:id="CAT_000076_e52">
@@ -821,7 +822,7 @@
                <trait>
                   <p>duc de Reichstadt, fils unique de Napoléon Ier</p>
                </trait>
-               <desc>Manuscrit aut.; janvier 1826,24 p. in-4. A mi-marges. 200</desc>
+               <desc xml:id="CAT_000076_e52_1">Manuscrit aut.; janvier 1826,24 p. in-4. A mi-marges. 200</desc>
                <note>Précieuse pièce. Cahier de devoirs écrits par le duc de Reichstadt à l'âge de
                   15 ans et certifié par son instituteur, le chevalier de Foresti</note>
             </item>
@@ -833,7 +834,7 @@
                   <p>gouverneur de Nimègue, brave et hardi capitaine qui servit le duc de Bouillon,
                      son neveu, mort le 1er septembre 1595 des suites de ses blessures</p>
                </trait>
-               <desc>L. a. s., en français; 13 mars (1595), 1 p. 1/2 in-f. Rare. 20</desc>
+               <desc xml:id="CAT_000076_e53_1">L. a. s., en français; 13 mars (1595), 1 p. 1/2 in-f. Rare. 20</desc>
                <note>Importante lettre historique sur les opérations militaires de son armée depuis
                   le passage du Rhin jusqu'à son arrivée à Meisenheim (Bavière). Il dit avoir vu le
                   duc de Bouillon; il est opposé à Martin von Rossen, fait crier sur son passage :
@@ -849,7 +850,7 @@
                      insuccès aménèrent le traité de Belgrade (1739) il fut battu par Frédéric II à
                      Malwitz en 1741; né en 1684, mort en 1774</p>
                </trait>
-               <desc>et. sig. au maréchal de Belle-Isle; Luxembourg, 16 septembre 1730, 3 p. in-fol.
+               <desc xml:id="CAT_000076_e54_1">et. sig. au maréchal de Belle-Isle; Luxembourg, 16 septembre 1730, 3 p. in-fol.
                   Rare. 10</desc>
                <note>Il remercie le maréchal d'avoir fait rechercher les déserteurs; mais il le
                   prévient que les officiers français qui se aisent partisans (officiers sans
@@ -866,7 +867,7 @@
                      gouvernement, gendre du roi d'Angleterre Georges II par son mariage avec la
                      reine Anne</p>
                </trait>
-               <desc>L. a. s., en français, au comte William Bentinck; L. a. Haye, 29 août 1747, 1 p.
+               <desc xml:id="CAT_000076_e55_1">L. a. s., en français, au comte William Bentinck; L. a. Haye, 29 août 1747, 1 p.
                   in-4. 15</desc>
                <note>Belle lettre historique écrite pendant la guerre avec la France et relative à
                   la négociation d'un emprunt avec Lord Sandhwich. Il annonce en terminant que leurs
@@ -880,7 +881,7 @@
                   <p>dit l'abbé de Pomponne, célèbre diplomate, ambassadeur à Venise, membre de
                      l'Académie des Inscriptions, né en 1669, mort en 1756</p>
                </trait>
-               <desc>L. a. s. à M. Chibert, conseiller à la cour des Aides, (1716), 1 p. 1/2 in-4.
+               <desc xml:id="CAT_000076_e56_1">L. a. s. à M. Chibert, conseiller à la cour des Aides, (1716), 1 p. 1/2 in-4.
                   6</desc>
                <note>Belle et intéressante lettre relative aux essais de réforme financière qui
                   précédèrent le système de Law. Dans son rapport sur la perception des emprunts
@@ -895,7 +896,7 @@
                <trait>
                   <p>célèbre vaudevilliste, né à Dijon en 1752, mort en 1830</p>
                </trait>
-               <desc>1° L. a. s. à l'éditeur Fage, 1 p. in-8. Il lui annonce l'envoi de son
+               <desc xml:id="CAT_000076_e57_1">1° L. a. s. à l'éditeur Fage, 1 p. in-8. Il lui annonce l'envoi de son
                   manuscrit l'Etourderie.-2° L. a. Barbe ou les Deux Barbes, pièce de vers aut. sig.,
                   2 p. 3/4 pet. in-4. 10</desc>
                <note>Curieuse pièce contenant la relation d'une piquante aventure entre un moine
@@ -910,7 +911,7 @@
                      cousine et belle-soeur du coadjuteur, amie de Saint Vincent- de-Paul,
                      fondatrice du calvaire de Machecoul</p>
                </trait>
-               <desc>L. a. s.; Princay, 24 mai 1669, 2 p. 1/2 in-4. 10</desc>
+               <desc xml:id="CAT_000076_e58_1">L. a. s.; Princay, 24 mai 1669, 2 p. 1/2 in-4. 10</desc>
                <note>Curieuse lettre dans laquelle elle demande la grâce d'un capucin</note>
             </item>
 
@@ -920,7 +921,7 @@
                <trait>
                   <p>publiciste et critique, membre de l'Académie française</p>
                </trait>
-               <desc>17 1. a. s. à M. Cocheris, 1866-71, 38 p. in-8. 25</desc>
+               <desc xml:id="CAT_000076_e59_1">17 1. a. s. à M. Cocheris, 1866-71, 38 p. in-8. 25</desc>
                <note>Très-curieuse correspondance, toute relative à l'administration de la
                   Bibliothèque Mazarine, qui paraît beaucoup le préoccuper, surtout quand il est en
                   voyage. Il s'en rapporte à M. Cocheris, qu'il considère comme son successeur
@@ -937,7 +938,7 @@
                   <p>le célèbre feldmaréchal autrichien, ami de Napoléon Ier, né en 1771, mort en
                      1820</p>
                </trait>
-               <desc>L. sig., en français, au chevalier de Moriès; Paris, 7 sept. 1815, 1 p. in-f.
+               <desc xml:id="CAT_000076_e60_1">L. sig., en français, au chevalier de Moriès; Paris, 7 sept. 1815, 1 p. in-f.
                   Très-belle lettre. 6</desc>
             </item>
 
@@ -947,7 +948,7 @@
                <trait>
                   <p>un des plus célèbres peintres de l'école française moderne</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000076_e61_1">L. a. s., 1 p. in-8. 3</desc>
             </item>
 
             <item n="62" xml:id="CAT_000076_e62">
@@ -956,7 +957,7 @@
                <trait>
                   <p>célèbre peintre d'histoire, de l'Institut, né à Versailles</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000076_e62_1">L. a. s., 1 p. in-8. 2</desc>
             </item>
 
             <item n="63" xml:id="CAT_000076_e63">
@@ -966,7 +967,7 @@
                   <p>fameux capitaine huguenot, qui fut chargé par Henri IV de préparer les bases de
                      l'édit de Nantes, né en Saxe en 1540, mort en 1599</p>
                </trait>
-               <desc>Quit. sig. sur vélin, 1594, in-8 obl. 5</desc>
+               <desc xml:id="CAT_000076_e63_1">Quit. sig. sur vélin, 1594, in-8 obl. 5</desc>
             </item>
 
             <item n="64" xml:id="CAT_000076_e64">
@@ -976,7 +977,7 @@
                   <p>célèbre romancière du XVIIe siècle, créatrice du genre précieux, surnommée la
                      S'pho moderne, née au Havre</p>
                </trait>
-               <desc>11 lettres à elle adressées par Daulède-Lestenac, datées de Bordeaux, 1670, 22
+               <desc xml:id="CAT_000076_e64_1">11 lettres à elle adressées par Daulède-Lestenac, datées de Bordeaux, 1670, 22
                   p. in-4. Cachets. 20</desc>
                <note>Lettres galantes et littéraires où Daulède loue Mlle de Scudéry sur ses
                   oeuvres, donne une étymologie de son nom aussi fantaisiste que plaisante. Il se
@@ -995,7 +996,7 @@
                <trait>
                   <p>célèbre femme de lettres, née à Paris en 1814</p>
                </trait>
-               <desc>L. a. s., 2 p. 1/2 in-8. Jolie lettre sur ses ouvrages. 3</desc>
+               <desc xml:id="CAT_000076_e65_1">L. a. s., 2 p. 1/2 in-8. Jolie lettre sur ses ouvrages. 3</desc>
             </item>
 
             <item n="66" xml:id="CAT_000076_e66">
@@ -1005,7 +1006,7 @@
                   <p>diplomate, ami de Mira- beau, membre du Comité autrichien, grand référendaire
                      de la Chambre des Pairs</p>
                </trait>
-               <desc>L. a. s., 2 p. in-8. 3</desc>
+               <desc xml:id="CAT_000076_e66_1">L. a. s., 2 p. in-8. 3</desc>
             </item>
 
             <item n="67" xml:id="CAT_000076_e67">
@@ -1015,7 +1016,7 @@
                   <p>intendant de Provence et de Hainaut, bel esprit du XVIIIe siècle et écrivain
                      ingénieux, auteur des Mémoires de la princesse Palatine</p>
                </trait>
-               <desc>L. a. s. à M. du Castelet, 21 juin 1780, 1 p. pet. in-4. 4</desc>
+               <desc xml:id="CAT_000076_e67_1">L. a. s. à M. du Castelet, 21 juin 1780, 1 p. pet. in-4. 4</desc>
             </item>
 
             <item n="68" xml:id="CAT_000076_e68">
@@ -1024,7 +1025,7 @@
                <trait>
                   <p>éloquent prosateur, auteur d'Obermann</p>
                </trait>
-               <desc>L. a. s., 3/4 de p. in-8. Un peu fatiguée. 5</desc>
+               <desc xml:id="CAT_000076_e68_1">L. a. s., 3/4 de p. in-8. Un peu fatiguée. 5</desc>
             </item>
 
             <item n="69" xml:id="CAT_000076_e69">
@@ -1033,7 +1034,7 @@
                <trait>
                   <p>habile négociateur, ministre de Louis XIII, né à Grenoble</p>
                </trait>
-               <desc>Quit. sig. sur vélin, 1636, in-8 obl. 3</desc>
+               <desc xml:id="CAT_000076_e69_1">Quit. sig. sur vélin, 1636, in-8 obl. 3</desc>
             </item>
 
             <item n="70" xml:id="CAT_000076_e70">
@@ -1042,7 +1043,7 @@
                <trait>
                   <p>l'instituteur des sourds-muets, de l'Acad. fr</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 2.50</desc>
+               <desc xml:id="CAT_000076_e70_1">L. a. s., 1 p. in-8. 2.50</desc>
             </item>
 
             <item n="71" xml:id="CAT_000076_e71">
@@ -1051,7 +1052,7 @@
                <trait>
                   <p>intrépide marin anglais et célèbre philanthrope.</p>
                </trait>
-               <desc>L. a. s., en français, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000076_e71_1">L. a. s., en français, 1 p. in-8. 3</desc>
             </item>
             <item n="72" xml:id="CAT_000076_e72">
                <num>72</num>
@@ -1059,7 +1060,7 @@
                <trait>
                   <p>homme politique, de l'Acad. fr</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000076_e72_1">L. a. s., 1 p. in-8. 2</desc>
             </item>
 
             <item n="73" xml:id="CAT_000076_e73">
@@ -1069,7 +1070,7 @@
                   <p>mère du comte de Soissons, tué à La Marfée, femme remuante, connue par ses
                      intrigues contre Richelieu</p>
                </trait>
-               <desc>L. a. s. à Louis XIII; février 1637, 2 p. in-4. 35</desc>
+               <desc xml:id="CAT_000076_e73_1">L. a. s. à Louis XIII; février 1637, 2 p. in-4. 35</desc>
                <note>Curieuse lettre. Elle supplie le roi de ne pas l'éloigner de Paris; elle
                   s'étonne aussi de l'éloignement de son fils. (A la suite de la campagne de
                   Picardie et de la prise de Corbie, le comte de Soissons s'était retiré à Sedan
@@ -1088,7 +1089,7 @@
                   <p>fille de Jean-Albert, comte de Solms Bruns- felds, femme d'Henri-Frédéric de
                      Nassau, belle-fille de Guillaume-le-Taciturne</p>
                </trait>
-               <desc>L. a. s. de son monogramme, en français, à la comtesse de Berlaymont; Bréda, 23
+               <desc xml:id="CAT_000076_e74_1">L. a. s. de son monogramme, en français, à la comtesse de Berlaymont; Bréda, 23
                   septembre 16177 2 p. in-4, cachets et soies. 10</desc>
             </item>
 
@@ -1099,7 +1100,7 @@
                   <p>lieutenant-général, gouverneur des Invalides, célèbre par le dévoûment de sa
                      fille</p>
                </trait>
-               <desc>P. s., 1788, 1 p. in-f. 3</desc>
+               <desc xml:id="CAT_000076_e75_1">P. s., 1788, 1 p. in-f. 3</desc>
             </item>
 
             <item n="76" xml:id="CAT_000076_e76">
@@ -1109,7 +1110,7 @@
                   <p>maréchal de France, créature de Mme de Pompadour, fameux par la défaite de
                      Rosbach</p>
                </trait>
-               <desc>P. s., 1/2 p. in-f. 2</desc>
+               <desc xml:id="CAT_000076_e76_1">P. s., 1/2 p. in-f. 2</desc>
             </item>
 
             <item n="77" xml:id="CAT_000076_e77">
@@ -1118,7 +1119,7 @@
                <trait>
                   <p>évêque de Strasbourg, membre de l'Acad. fr</p>
                </trait>
-               <desc>L. s. au chancelier; Paris, 3 juil. 1752, 1 p. in-4. 5</desc>
+               <desc xml:id="CAT_000076_e77_1">L. s. au chancelier; Paris, 3 juil. 1752, 1 p. in-4. 5</desc>
                <note>Curieuse lettre. Il lui adresse tous les éclaircissements qu'il a pu avoir sur
                   la conduite « qui s'est tenue jusqu'à présent à Strasbourg pour l'Administration
                   spirituelle, tant à l'égard des Luthériens ou Calvinistes condamnés à mort qui
@@ -1132,7 +1133,7 @@
                   <p>naturaliste et littérateur, inspirateur secret de Robespierre, né à Largentière
                      (Ardèche)</p>
                </trait>
-               <desc>L. a. s. à l'imprimeur Ruault, 4,fév. 1789, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000076_e78_1">L. a. s. à l'imprimeur Ruault, 4,fév. 1789, 1 p. in-8. 3</desc>
             </item>
 
             <item n="79" xml:id="CAT_000076_e79">
@@ -1141,7 +1142,7 @@
                <trait>
                   <p>maréchal de France, ministre de Louis- Philippe</p>
                </trait>
-               <desc>L. a. s.; Paris, 13 déc. 1841, 3/4 de p. in-8. Jolie lettre. 4</desc>
+               <desc xml:id="CAT_000076_e79_1">L. a. s.; Paris, 13 déc. 1841, 3/4 de p. in-8. Jolie lettre. 4</desc>
             </item>
 
             <item n="80" xml:id="CAT_000076_e80">
@@ -1150,7 +1151,7 @@
                <trait>
                   <p>célèbre compositeur et musicographe polonais, né en 1803</p>
                </trait>
-               <desc>L. a. s., en français, (1852), 2 p. in-8. 3</desc>
+               <desc xml:id="CAT_000076_e80_1">L. a. s., en français, (1852), 2 p. in-8. 3</desc>
             </item>
 
             <item n="81" xml:id="CAT_000076_e81">
@@ -1159,7 +1160,7 @@
                <trait>
                   <p>illustre femme auteur française</p>
                </trait>
-               <desc>L. a. s. à M. Ternaux; Blois, 1810, 4 p. pl. in-4. 30</desc>
+               <desc xml:id="CAT_000076_e81_1">L. a. s. à M. Ternaux; Blois, 1810, 4 p. pl. in-4. 30</desc>
                <note>Superbe et curieuse lettre où elle lui réclame 10,000 livres qu'il lui doit sur
                   l'achat de sa terre de St-Ouen. « Vous me deviez 80,000 livres et je n'en ai reçu
                   que 70, il n'est pas possible que 70 acquitte 80. » Elle n'a pas agi en femme
@@ -1172,7 +1173,7 @@
                <trait>
                   <p>roi de Pologne, beau-père de Louis XV</p>
                </trait>
-               <desc>L. a. s., en français; Commercy, 23 mai 1750, 1/2 p. in-4. Belle lettre.
+               <desc xml:id="CAT_000076_e82_1">L. a. s., en français; Commercy, 23 mai 1750, 1/2 p. in-4. Belle lettre.
                   10</desc>
             </item>
             <item n="83" xml:id="CAT_000076_e83">
@@ -1181,7 +1182,7 @@
                <trait>
                   <p>le célèbre explorateur et voyageur</p>
                </trait>
-               <desc>Sa signature aut. au crayon, avec date, 28 sept. 1882, 1/4 de p. in-18.
+               <desc xml:id="CAT_000076_e83_1">Sa signature aut. au crayon, avec date, 28 sept. 1882, 1/4 de p. in-18.
                   5</desc>
             </item>
 
@@ -1192,7 +1193,7 @@
                   <p>le célèbre romancier, auteur du Juif-Errant, représentant de la Seine en
                      1851</p>
                </trait>
-               <desc>16 lettres, dont 2 aut. sig. et 14 aut., à Louis Desnoyers; 1850-55, 25 p.
+               <desc xml:id="CAT_000076_e84_1">16 lettres, dont 2 aut. sig. et 14 aut., à Louis Desnoyers; 1850-55, 25 p.
                   in-8. 25</desc>
                <note>Correspondance littéraire très-intéressante sur ses ouvrages et sur sa
                   collaboration au journal le Siècle</note>
@@ -1205,7 +1206,7 @@
                   <p>intrépide corsaire, célèbre par les prises qu'il fit sur les Anglais, sous la
                      République et l'Empire, né à Saint-Malo</p>
                </trait>
-               <desc>L. s.; Saint-Malo, 24 déc. 1821, 1 p. in-f. 5</desc>
+               <desc xml:id="CAT_000076_e85_1">L. s.; Saint-Malo, 24 déc. 1821, 1 p. in-f. 5</desc>
             </item>
 
             <item n="86" xml:id="CAT_000076_e86">
@@ -1214,7 +1215,7 @@
                <trait>
                   <p>le grand acteur contemporain, né à Paris en 1826</p>
                </trait>
-               <desc>L. a. s., 3/4 de p. in-8. 2</desc>
+               <desc xml:id="CAT_000076_e86_1">L. a. s., 3/4 de p. in-8. 2</desc>
             </item>
 
             <item n="87" xml:id="CAT_000076_e87">
@@ -1223,7 +1224,7 @@
                <trait>
                   <p>philosophe et littérateur, de l'Acad. fr</p>
                </trait>
-               <desc>L. a. s. à Philarète Chasles; (Orsay), 2 septembre 1860, 1 p. in-8. 8</desc>
+               <desc xml:id="CAT_000076_e87_1">L. a. s. à Philarète Chasles; (Orsay), 2 septembre 1860, 1 p. in-8. 8</desc>
                <note>Curieuse lettre. Il vient de lire Carlyle et s'occupe de l'Angleterre qu'il est
                   en train d'étudier. « J'en viens et j'y ai appris bien des choses. Par malheur, ce
                   ne sont pas des choses gaies. Vous avez été prophète pour la France, et vous savez
@@ -1236,7 +1237,7 @@
                <trait>
                   <p>l'illustre homme d'Etat</p>
                </trait>
-               <desc>L. a. s., 3 nov. 1824, 1 p. in-4. Belle lettre. 15</desc>
+               <desc xml:id="CAT_000076_e88_1">L. a. s., 3 nov. 1824, 1 p. in-4. Belle lettre. 15</desc>
             </item>
 
             <item n="89" xml:id="CAT_000076_e89">
@@ -1245,7 +1246,7 @@
                <trait>
                   <p>le célèbre chanteur</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 4</desc>
+               <desc xml:id="CAT_000076_e89_1">L. a. s., 1 p. in-8. 4</desc>
             </item>
 
             <item n="90" xml:id="CAT_000076_e90">
@@ -1255,7 +1256,7 @@
                   <p>célèbre peintre français, élève de Lethière, né en 1800, mort par suicide en
                      1874</p>
                </trait>
-               <desc>L. a. s. à M. Poirat, 1859, 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000076_e90_1">L. a. s. à M. Poirat, 1859, 1 p. in-8. 5</desc>
             </item>
 
             <item n="91" xml:id="CAT_000076_e91">
@@ -1264,7 +1265,7 @@
                <trait>
                   <p>célèbre femme auteur, née à Metz</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000076_e91_1">L. a. s., 1 p. in-8. 2</desc>
             </item>
 
             <item n="92" xml:id="CAT_000076_e92">
@@ -1273,7 +1274,7 @@
                <trait>
                   <p>célèbre révolutionnaire hongrois</p>
                </trait>
-               <desc>Pièce sig., en français, 1er mars 1855, 1 p. in-f. 5</desc>
+               <desc xml:id="CAT_000076_e92_1">Pièce sig., en français, 1er mars 1855, 1 p. in-f. 5</desc>
                <note>Convention à propos du journal l'Homme ; curieuse pièce qui porte aussi les
                   signatures de Zéno Swietoslawski, Duverdier, Ch. Bibeyrolles, etc</note>
             </item>
@@ -1284,7 +1285,7 @@
                <trait>
                   <p>fameux contrôleur général des finances sous Louis XV</p>
                </trait>
-               <desc>L. a. s. à M. Joly; L. a. Motte-Pilly, 14 sept. 1764, 1 p. in-4. Belle pièce.
+               <desc xml:id="CAT_000076_e93_1">L. a. s. à M. Joly; L. a. Motte-Pilly, 14 sept. 1764, 1 p. in-4. Belle pièce.
                   10</desc>
             </item>
 
@@ -1294,7 +1295,7 @@
                <trait>
                   <p>célèbre maréchal de France du règne de Louis XIV</p>
                </trait>
-               <desc>Quit. aut. sig. sur vélin, 1695, in-8 obl. 3</desc>
+               <desc xml:id="CAT_000076_e94_1">Quit. aut. sig. sur vélin, 1695, in-8 obl. 3</desc>
             </item>
 
             <item n="95" xml:id="CAT_000076_e95">
@@ -1303,7 +1304,7 @@
                <trait>
                   <p>pianiste et compositeur</p>
                </trait>
-               <desc>L. a. s. à M. Benacci; Paris, 20 nov. 1849, 1 p. 1/2 in-8. 5</desc>
+               <desc xml:id="CAT_000076_e95_1">L. a. s. à M. Benacci; Paris, 20 nov. 1849, 1 p. 1/2 in-8. 5</desc>
             </item>
 
             <item n="96" xml:id="CAT_000076_e96">
@@ -1313,7 +1314,7 @@
                   <p>maréchal de France qui défendit Henri III contre les Ligueurs, arrêta le prince
                      de Condé en 1616, et mourut gouverneur de Bretagne</p>
                </trait>
-               <desc>Quit. sig. sur vélin, 1605, in-8 obl. 10</desc>
+               <desc xml:id="CAT_000076_e96_1">Quit. sig. sur vélin, 1605, in-8 obl. 10</desc>
             </item>
             <item n="97" xml:id="CAT_000076_e97">
                <num>97</num>
@@ -1322,7 +1323,7 @@
                   <p>cantatrice et actrice célèbre par l'originalité de son jeu et de ses
                      créations</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. Jolie lettre. 10</desc>
+               <desc xml:id="CAT_000076_e97_1">L. a. s., 1 p. in-8. Jolie lettre. 10</desc>
             </item>
 
             <item n="98" xml:id="CAT_000076_e98">
@@ -1331,7 +1332,7 @@
                <trait>
                   <p>romancier et auteur dramatique, ami de Voltaire</p>
                </trait>
-               <desc>P. a. s., 10 fév. 1755, 1 p. in-18 obl. 3</desc>
+               <desc xml:id="CAT_000076_e98_1">P. a. s., 10 fév. 1755, 1 p. in-18 obl. 3</desc>
                <note>Il reconnaît devoir 2,400 livres au maréchal de Belle-Isle</note>
             </item>
 
@@ -1341,7 +1342,7 @@
                <trait>
                   <p>illustre historien</p>
                </trait>
-               <desc>Quit. sig. sur vélin, 1638, in-4 obl. 5</desc>
+               <desc xml:id="CAT_000076_e99_1">Quit. sig. sur vélin, 1638, in-4 obl. 5</desc>
             </item>
 
             <item n="100" xml:id="CAT_000076_e100">
@@ -1350,7 +1351,7 @@
                <trait>
                   <p>ministre actuel des finances</p>
                </trait>
-               <desc>L. a. s., 10 juil. 1871, 1 p. in-8. Curieuse. 4</desc>
+               <desc xml:id="CAT_000076_e100_1">L. a. s., 10 juil. 1871, 1 p. in-8. Curieuse. 4</desc>
             </item>
 
             <item n="101" xml:id="CAT_000076_e101">
@@ -1360,7 +1361,7 @@
                   <p>célèbre médecin suisse du XVIIIe siècle, auteur de l'Onanisme, né en 1728, mort
                      en 1797</p>
                </trait>
-               <desc>L. a. s. aux éditeurs Barde, Menget et Cie, à Genève ; Lausanne, 7 mai 1786, 2
+               <desc xml:id="CAT_000076_e101_1">L. a. s. aux éditeurs Barde, Menget et Cie, à Genève ; Lausanne, 7 mai 1786, 2
                   p. 1/2 in-4. Cachet. 5</desc>
             </item>
 
@@ -1370,7 +1371,7 @@
                <trait>
                   <p>littérateur et romancier contemporain</p>
                </trait>
-               <desc>L. a. s., 3 p. in-8. 2</desc>
+               <desc xml:id="CAT_000076_e102_1">L. a. s., 3 p. in-8. 2</desc>
             </item>
 
             <item n="103" xml:id="CAT_000076_e103">
@@ -1379,7 +1380,7 @@
                <trait>
                   <p>habile diplomate et ministre de Louis XIV, neveu du grand Colbert</p>
                </trait>
-               <desc>P. s., 1720, 1 p. in-f. 2</desc>
+               <desc xml:id="CAT_000076_e103_1">P. s., 1720, 1 p. in-f. 2</desc>
             </item>
 
             <item n="104" xml:id="CAT_000076_e104">
@@ -1388,7 +1389,7 @@
                <trait>
                   <p>président du gouvernement de la Défense nationale</p>
                </trait>
-               <desc>L. a. s., 16 avril 1870, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000076_e104_1">L. a. s., 16 avril 1870, 1 p. in-8. 3</desc>
             </item>
 
             <item n="105" xml:id="CAT_000076_e105">
@@ -1399,7 +1400,7 @@
                      d'Henriette d'Angleterre, lié avec Boileau et tous les écrivains de son époque,
                      né en 1641, mort en 1708</p>
                </trait>
-               <desc>Quittance sig. sur vélin; 1696, in-8 obl. 5</desc>
+               <desc xml:id="CAT_000076_e105_1">Quittance sig. sur vélin; 1696, in-8 obl. 5</desc>
             </item>
 
             <item n="106" xml:id="CAT_000076_e106">
@@ -1408,7 +1409,7 @@
                <trait>
                   <p>illustre jurisconsulte, défenseur de Louis XVI, de l'Acad. fr</p>
                </trait>
-               <desc>L. a. s. à Berthier; 28 prairial an XI, 1 p. 1/2 in-4. 5</desc>
+               <desc xml:id="CAT_000076_e106_1">L. a. s. à Berthier; 28 prairial an XI, 1 p. 1/2 in-4. 5</desc>
             </item>
 
             <item n="107" xml:id="CAT_000076_e107">
@@ -1417,7 +1418,7 @@
                <trait>
                   <p>célèbre médecin, ami de Voltaire</p>
                </trait>
-               <desc>Pièce aut., 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000076_e107_1">Pièce aut., 1 p. in-8. 5</desc>
             </item>
 
             <item n="108" xml:id="CAT_000076_e108">
@@ -1426,7 +1427,7 @@
                <trait>
                   <p>éminent juriconsulte, président du Sénat, né à Saint-Gaudens</p>
                </trait>
-               <desc>L. a. s. à Dupin, 1861, 1 p. 1/2 in-4. 3</desc>
+               <desc xml:id="CAT_000076_e108_1">L. a. s. à Dupin, 1861, 1 p. 1/2 in-4. 3</desc>
             </item>
 
             <item n="109" xml:id="CAT_000076_e109">
@@ -1435,7 +1436,7 @@
                <trait>
                   <p>le fameux assassin</p>
                </trait>
-               <desc>L. a. s., 2 janvier 1870, 1/2 p. in-8. 5</desc>
+               <desc xml:id="CAT_000076_e109_1">L. a. s., 2 janvier 1870, 1/2 p. in-8. 5</desc>
             </item>
 
             <item n="110" xml:id="CAT_000076_e110">
@@ -1444,7 +1445,7 @@
                <trait>
                   <p>l'illustre maréchal de France</p>
                </trait>
-               <desc>Pièce sig., 1669, 1 p. in-4. Très-fatiguée. Beau cachet à ses armes. 5</desc>
+               <desc xml:id="CAT_000076_e110_1">Pièce sig., 1669, 1 p. in-4. Très-fatiguée. Beau cachet à ses armes. 5</desc>
             </item>
 
             <item n="111" xml:id="CAT_000076_e111">
@@ -1453,7 +1454,7 @@
                <trait>
                   <p>défenseur de Strasbourg, député à l'As- semblée nationale</p>
                </trait>
-               <desc>Pièce sig., 1849, 1 p. in-4. 2</desc>
+               <desc xml:id="CAT_000076_e111_1">Pièce sig., 1849, 1 p. in-4. 2</desc>
             </item>
 
             <item n="112" xml:id="CAT_000076_e112">
@@ -1462,7 +1463,7 @@
                <trait>
                   <p>maréchal de France, de l'Institut, né à Dijon en 1790, mort en 1872</p>
                </trait>
-               <desc>L. a. s. à M. Gosselin ; Alger, 17 août, 1 p. 3/4 in-8. 3</desc>
+               <desc xml:id="CAT_000076_e112_1">L. a. s. à M. Gosselin ; Alger, 17 août, 1 p. 3/4 in-8. 3</desc>
                <note>Sa blessure l'obligeant à garder le lit, il réclame un plan de la ville de Gand
                   qu'il étudiera pendant son repos forcé</note>
             </item>
@@ -1474,7 +1475,7 @@
                   <p>littérateur et bel esprit, à qui Boileau adressa sa onzième satire, successeur
                      de Racine à l'Académie française</p>
                </trait>
-               <desc>L. a. s. à M. Le Bret, 21 mai, 1 p. in-4. 10</desc>
+               <desc xml:id="CAT_000076_e113_1">L. a. s. à M. Le Bret, 21 mai, 1 p. in-4. 10</desc>
                <note>Sur une affaire concernant les officiers de l'Amirauté de Provence</note>
             </item>
 
@@ -1486,7 +1487,7 @@
                      calviniste de religion, mais libertin de moeurs, suivant Tallemant des
                      Réaux</p>
                </trait>
-               <desc>Quit. sig. sur vélin, 31 déc. 1617, in-8 obl. 5</desc>
+               <desc xml:id="CAT_000076_e114_1">Quit. sig. sur vélin, 31 déc. 1617, in-8 obl. 5</desc>
             </item>
 
             <item n="115" xml:id="CAT_000076_e115">
@@ -1496,7 +1497,7 @@
                   <p>célèbre médecin du XVIIe siècle, qui guérit Louis XIV, né en 1594, mort en
                      1671</p>
                </trait>
-               <desc>Quit. sig. sur vélin, 1649, in-8 obl., écornée. 5</desc>
+               <desc xml:id="CAT_000076_e115_1">Quit. sig. sur vélin, 1649, in-8 obl., écornée. 5</desc>
             </item>
 
             <item n="116" xml:id="CAT_000076_e116">
@@ -1505,7 +1506,7 @@
                <trait>
                   <p>auteur dramatique contemporain</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000076_e116_1">L. a. s., 1 p. in-8. 3</desc>
             </item>
 
             <item n="117" xml:id="CAT_000076_e117">
@@ -1516,7 +1517,7 @@
                      nommé gouverneur du Louvre à la Restauration, né a Saint-Domingue en 1740, mort
                      en 1817</p>
                </trait>
-               <desc>L. a. s. à M. de Sainte-James; Paris, 25 mars 1784, 1 p. in-4. 10</desc>
+               <desc xml:id="CAT_000076_e117_1">L. a. s. à M. de Sainte-James; Paris, 25 mars 1784, 1 p. in-4. 10</desc>
                <note>Relative à la nomination de M. de Montplaisir comme trésorier de
                   l'Ile-de-France</note>
             </item>
@@ -1527,7 +1528,7 @@
                <trait>
                   <p>illustre guerrier du siècle de Louis XIV</p>
                </trait>
-               <desc>Quit. sig. sur vélin, 1696, in-8 obl. 5</desc>
+               <desc xml:id="CAT_000076_e118_1">Quit. sig. sur vélin, 1696, in-8 obl. 5</desc>
             </item>
 
             <item n="119" xml:id="CAT_000076_e119">
@@ -1536,7 +1537,7 @@
                <trait>
                   <p>célèbre peintre d'animaux, le Rosa Bonheur de la Belgique</p>
                </trait>
-               <desc>L. a. s. a M. Bossuet; Schaerbeck, 9 déc. 1847, 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000076_e119_1">L. a. s. a M. Bossuet; Schaerbeck, 9 déc. 1847, 1 p. in-8. 5</desc>
             </item>
 
             <item n="120" xml:id="CAT_000076_e120">
@@ -1545,7 +1546,7 @@
                <trait>
                   <p>célèbre amiral hollandais</p>
                </trait>
-               <desc>L. a. s. au duc Pasquier, 1836, 1 p. in-4. Cachet. 5</desc>
+               <desc xml:id="CAT_000076_e120_1">L. a. s. au duc Pasquier, 1836, 1 p. in-4. Cachet. 5</desc>
                <note>Il regrette que l'état de sa santé ne lui permette pas d'assister aux débats de
                   la Chambre des Pairs, « qui auront, je l'espère, le résultat satisfaisant de
                   fortifier le gouvernement d'un roi qui mérite à un si haut degré tout notre
@@ -1559,7 +1560,7 @@
                   <p>fils naturel de Louis XIV et de la duchesse de la Vallière, amiral de
                      France</p>
                </trait>
-               <desc>Pièce sig. sur vélin, 1673, in-f. obl. 6</desc>
+               <desc xml:id="CAT_000076_e121_1">Pièce sig. sur vélin, 1673, in-f. obl. 6</desc>
             </item>
 
             <item n="122" xml:id="CAT_000076_e122">
@@ -1569,7 +1570,7 @@
                   <p>journaliste et littérateur, rédacteur du Père Duchène sous la Commune, né à
                      Lille en 1845, mort à l'hôpital à Londres</p>
                </trait>
-               <desc>L. a. s. à M. Vossen, 1869,3/4 de p. in-8. 5</desc>
+               <desc xml:id="CAT_000076_e122_1">L. a. s. à M. Vossen, 1869,3/4 de p. in-8. 5</desc>
             </item>
 
             <item n="123" xml:id="CAT_000076_e123">
@@ -1579,7 +1580,7 @@
                   <p>journaliste républicain, membre de la Commune de Paris, né à Denise (Rhône)
                      mort en 1871 des suites de ses blessures reçues aux barricades</p>
                </trait>
-               <desc>L. a. s., 1868, 1 p. in-18. Jolie lettre. 3</desc>
+               <desc xml:id="CAT_000076_e123_1">L. a. s., 1868, 1 p. in-18. Jolie lettre. 3</desc>
             </item>
 
             <item n="124" xml:id="CAT_000076_e124">
@@ -1588,7 +1589,7 @@
                <trait>
                   <p>le vulgarisateur de la science géographique, né à Nantes en 1828</p>
                </trait>
-               <desc>L. a. s., 1 p. in-18. 3</desc>
+               <desc xml:id="CAT_000076_e124_1">L. a. s., 1 p. in-18. 3</desc>
             </item>
 
             <item n="125" xml:id="CAT_000076_e125">
@@ -1597,7 +1598,7 @@
                <trait>
                   <p>le célèbre peintre</p>
                </trait>
-               <desc>L. a. s. à M. de la Mésangère, 1811, 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000076_e125_1">L. a. s. à M. de la Mésangère, 1811, 1 p. in-8. 5</desc>
             </item>
 
             <item n="126" xml:id="CAT_000076_e126">
@@ -1606,7 +1607,7 @@
                <trait>
                   <p>le célèbre écrivain ultramontain, mort récemment</p>
                </trait>
-               <desc>L. a. s.; 23 septembre 1858, 1 p. 1/2 in-8. Jolie lettre. 5</desc>
+               <desc xml:id="CAT_000076_e126_1">L. a. s.; 23 septembre 1858, 1 p. 1/2 in-8. Jolie lettre. 5</desc>
             </item>
             <item n="127" xml:id="CAT_000076_e127">
                <num>127</num>
@@ -1615,7 +1616,7 @@
                   <p>fille de Louis XV et de Marie Leczinska, née à Versailles en 1733, morte à
                      Trieste en 1799</p>
                </trait>
-               <desc>L. a. s. au cardinal de Bernis, 1775, 1/2 p. in-4. Cachet à. ses armes.
+               <desc xml:id="CAT_000076_e127_1">L. a. s. au cardinal de Bernis, 1775, 1/2 p. in-4. Cachet à. ses armes.
                   15</desc>
                <note>Jolie lettre où elle exprime le désir de prendre comme dame, auprès d'elle,
                   Mlle Du Puy Montbrun, petite-nièce du cardinal, quand elle aura épousé M. de
@@ -1628,7 +1629,7 @@
                <trait>
                   <p>roi d'Italie</p>
                </trait>
-               <desc>Let. sig., contresignée par Aziglio, au cardinal Ferretti; Turin, 28 fév. 1851,
+               <desc xml:id="CAT_000076_e128_1">Let. sig., contresignée par Aziglio, au cardinal Ferretti; Turin, 28 fév. 1851,
                   1/2 p. in-f. Sceau. 15</desc>
             </item>
 
@@ -1639,7 +1640,7 @@
                   <p>peintre célèbre, le restaurateur de la peinture en France, maître de David, né
                      à Montpellier en 1716, mort en 1809</p>
                </trait>
-               <desc>Pièce sig.; Rome, 1779, 1/2 p. in-4 obl. 5</desc>
+               <desc xml:id="CAT_000076_e129_1">Pièce sig.; Rome, 1779, 1/2 p. in-4 obl. 5</desc>
             </item>
 
             <item n="130" xml:id="CAT_000076_e130">
@@ -1648,7 +1649,7 @@
                <trait>
                   <p>poète dramatique, de l'Acad. fr., né à Béziers en 1777, mort en 1868</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000076_e130_1">L. a. s., 1 p. in-8. 2</desc>
             </item>
 
             <item n="131" xml:id="CAT_000076_e131">
@@ -1657,7 +1658,7 @@
                <trait>
                   <p>célèbre violoniste belge</p>
                </trait>
-               <desc>L. s., 1 p.in-8. 2</desc>
+               <desc xml:id="CAT_000076_e131_1">L. s., 1 p.in-8. 2</desc>
             </item>
 
             <item n="132" xml:id="CAT_000076_e132">
@@ -1667,7 +1668,7 @@
                   <p>célèbre poète dramatique, auteur de CinqMurs, membre de l'Académie française,
                      né à Loches</p>
                </trait>
-               <desc>1° L. a. s. à M. Merle, 1 p. in-8; 2° 14 lettres à lui adressées par divers,
+               <desc xml:id="CAT_000076_e132_1">1° L. a. s. à M. Merle, 1 p. in-8; 2° 14 lettres à lui adressées par divers,
                   1834-60, 29 p. in-8. 15</desc>
                <note>Dossier intéressant au point de vue littéraire et pouvant servir à sa
                   biographie</note>
@@ -1679,7 +1680,7 @@
                <trait>
                   <p>illustre maréchal de France, né à Moulins en 1653, mort en 1734</p>
                </trait>
-               <desc>L. s. au comte de Salians; 16 octobre 1715, 1 p. 1/2 in-f. 3</desc>
+               <desc xml:id="CAT_000076_e133_1">L. s. au comte de Salians; 16 octobre 1715, 1 p. 1/2 in-f. 3</desc>
             </item>
 
             <item n="134" xml:id="CAT_000076_e134">
@@ -1688,7 +1689,7 @@
                <trait>
                   <p>le célèbre premier ministre de Charles X, né à Toulouse</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000076_e134_1">L. a. s., 1 p. in-8. 2</desc>
             </item>
 
             <item n="135" xml:id="CAT_000076_e135">
@@ -1697,7 +1698,7 @@
                <trait>
                   <p>littérateur célèbre et homme d'Etat, de l'Acad. fr</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000076_e135_1">L. a. s., 1 p. in-8. 2</desc>
             </item>
 
             <item n="136" xml:id="CAT_000076_e136">
@@ -1706,7 +1707,7 @@
                <trait>
                   <p>célèbre chroniqueur, directeur du Figaro, né à Rouen</p>
                </trait>
-               <desc>L. a. s.; (1855), 2 p. 1/2 in-18. 3</desc>
+               <desc xml:id="CAT_000076_e136_1">L. a. s.; (1855), 2 p. 1/2 in-18. 3</desc>
                <note>Curieuse lettre. Il demande « aide et protection » et le prie de venir le voir
                   au sujet d'une affaire désagréable</note>
             </item>
@@ -1717,7 +1718,7 @@
                <trait>
                   <p>célèbre architecte de la ville de Paris</p>
                </trait>
-               <desc>1° L. a. s., 1 p. in-8.-2° Dessin aut. à la plume, 1/2 p. in-4 obl. 10</desc>
+               <desc xml:id="CAT_000076_e137_1">1° L. a. s., 1 p. in-8.-2° Dessin aut. à la plume, 1/2 p. in-4 obl. 10</desc>
             </item>
 
             <item n="138" xml:id="CAT_000076_e138">
@@ -1728,7 +1729,7 @@
                      retour de Napoléon de l'île d'Elbe, il s'honora en restant le dernier à son
                      poste, né à Rupp (Vosges) en 1734, mort en 1827</p>
                </trait>
-               <desc>L. a. s. au vicomte de Tabarrier, 1816, 1 p. in-4. 5</desc>
+               <desc xml:id="CAT_000076_e138_1">L. a. s. au vicomte de Tabarrier, 1816, 1 p. in-4. 5</desc>
                <note>Curieuse lettre sur sa nomination comme maréchal de France</note>
             </item>
 
@@ -1738,7 +1739,7 @@
                <trait>
                   <p>le grand violoniste</p>
                </trait>
-               <desc>L. a. s., 1821, 2 p. in-4. 6</desc>
+               <desc xml:id="CAT_000076_e139_1">L. a. s., 1821, 2 p. in-4. 6</desc>
             </item>
 
             <item n="140" xml:id="CAT_000076_e140">
@@ -1747,7 +1748,7 @@
                <trait>
                   <p>littérateur, homme d'Etat, de l'Acad. fr</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000076_e140_1">L. a. s., 1 p. in-8. 2</desc>
             </item>
 
             <item n="141" xml:id="CAT_000076_e141">
@@ -1756,7 +1757,7 @@
                <trait>
                   <p>homme politique et littérateur</p>
                </trait>
-               <desc>L. a. s., 1/2 p. in-4. 2</desc>
+               <desc xml:id="CAT_000076_e141_1">L. a. s., 1/2 p. in-4. 2</desc>
             </item>
             <item n="142" xml:id="CAT_000076_e142">
                <num>142</num>
@@ -1765,7 +1766,7 @@
                   <p>roi de Pologne, fils et successeur de Sigismond III, époux de Marie de
                      Gonzague</p>
                </trait>
-               <desc>Let. sig. avec la souscript. aut., en italien, à l'Electrice de Bavière; Vilna,
+               <desc xml:id="CAT_000076_e142_1">Let. sig. avec la souscript. aut., en italien, à l'Electrice de Bavière; Vilna,
                   20 janvier 1644, 1 p. in-8. Très-beau sceau. 15</desc>
             </item>
 
@@ -1776,7 +1777,7 @@
                   <p>poète aussi spirituel que fécond, le type des épicuriens du siècle de Louis XV,
                      de l'Acad. fr</p>
                </trait>
-               <desc>L. a. s. ; Voisenon, 1727, 1 p. in-8. 15</desc>
+               <desc xml:id="CAT_000076_e143_1">L. a. s. ; Voisenon, 1727, 1 p. in-8. 15</desc>
                <note>Jole lettre où il parle du plan de la seigneurie de Montereau</note>
             </item>
 
@@ -1787,7 +1788,7 @@
                   <p>chancelier de France, protégé par Mme de Maintenon, rédacteur du testament de
                      Louis XIV, né en 1655, mort en 1717</p>
                </trait>
-               <desc>Let. sig. au duc de Bourbon; Marly, 4 août 1709, 3 p. in-fol. 10</desc>
+               <desc xml:id="CAT_000076_e144_1">Let. sig. au duc de Bourbon; Marly, 4 août 1709, 3 p. in-fol. 10</desc>
                <note>Superbe lettre où il annonce au duc que le roi l'autorise à prendre le
                   commandement des milices si la région du Haut-Rhône est envahie par la Savoie et
                   la Bresse. Le roi approuve également les ordres donnés à M. de Chouin; il peut
@@ -1800,7 +1801,7 @@
                <trait>
                   <p>littérateur et poète, traducteur d'Horace, né en 1770, mort en 1821</p>
                </trait>
-               <desc>L. a. s. à M. de L. a. Garde ; an XII, 1 p. in-4. 3</desc>
+               <desc xml:id="CAT_000076_e145_1">L. a. s. à M. de L. a. Garde ; an XII, 1 p. in-4. 3</desc>
             </item>
 
             <item n="146" xml:id="CAT_000076_e146">
@@ -1809,7 +1810,7 @@
                <trait>
                   <p>célèbre poète et romancière, née à Nantes</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000076_e146_1">L. a. s., 1 p. in-8. 2</desc>
             </item>
 
             <item n="147" xml:id="CAT_000076_e147">
@@ -1820,7 +1821,7 @@
                      au traité de Paris et au congrès de Vienne, ami de Metternich, né en 1773, mort
                      en 1858</p>
                </trait>
-               <desc>L. a. s., en français, à la duchesse de Devonshire; Harwich, 10 mars 1814, 2 p.
+               <desc xml:id="CAT_000076_e147_1">L. a. s., en français, à la duchesse de Devonshire; Harwich, 10 mars 1814, 2 p.
                   in-4. 10</desc>
                <note>Belle lettre par laquelle il lui annonce son départ d'Angleterre, où il
                   séjournait depuis 1813</note>
@@ -1832,7 +1833,7 @@
                <trait>
                   <p>savant philologue et critique, né à Besançon</p>
                </trait>
-               <desc>L. a. s., 3/4 de p. in-8. 2</desc>
+               <desc xml:id="CAT_000076_e148_1">L. a. s., 3/4 de p. in-8. 2</desc>
             </item>
 
             <item n="149" xml:id="CAT_000076_e149">
@@ -1843,7 +1844,7 @@
                      avoir servi Bernard de Saxe-Weimar, il fut résident du landgrave de
                      Hesse-Cassel en Hollande</p>
                </trait>
-               <desc>L. a. s., en français, au cardinal de Richelieu, 3 septembre 1637, 1 p. 1/4
+               <desc xml:id="CAT_000076_e149_1">L. a. s., en français, au cardinal de Richelieu, 3 septembre 1637, 1 p. 1/4
                   in-fol., cachets. 25</desc>
                <note>Importante lettre. Lui et son frère Abraham ont avancé 10,000 écus au maréchal
                   de Brézé, en Hollande, et 2,000 ecus au colonel Wardembourg; il a ramené à ses
@@ -1861,7 +1862,7 @@
                <trait>
                   <p>illustre littérateur, le Voltaire allemand</p>
                </trait>
-               <desc>L. a. s. à M. Wilmans, à Francfort; 1802, 1 p. in-4, cachet. Belle lettre.
+               <desc xml:id="CAT_000076_e150_1">L. a. s. à M. Wilmans, à Francfort; 1802, 1 p. in-4, cachet. Belle lettre.
                   8</desc>
             </item>
 
@@ -1871,7 +1872,7 @@
                <trait>
                   <p>célèbre philosophe allemand, disciple de Leibnitz, né en 1679, mort en 1754</p>
                </trait>
-               <desc>L. a. s. en latin; Halle, 20 mars 1751, 1 p. in-4. 6</desc>
+               <desc xml:id="CAT_000076_e151_1">L. a. s. en latin; Halle, 20 mars 1751, 1 p. in-4. 6</desc>
                <note>Sur un ouvrage qu'on vient de lui adresser; quoiqu'il s'adonne surtout à la
                   philosophie, il a aussi du goût pour les travaux littéraires</note>
             </item>
@@ -1883,7 +1884,7 @@
                   <p>comte de Hardwicke, diplomate et homme politique, ambassadeur de la Grande
                      Bretagne en Hollande, fils de l'auteur des Athenian letters</p>
                </trait>
-               <desc>L. a. s., en français (au secrétaire de l'Amirauté d'Amsterdam); L. a. Haye, 20
+               <desc xml:id="CAT_000076_e152_1">L. a. s., en français (au secrétaire de l'Amirauté d'Amsterdam); L. a. Haye, 20
                   octobre 1774, 2 p. in-4. curieuse. 6</desc>
             </item>
 
@@ -1893,7 +1894,7 @@
                <trait>
                   <p>un des plus élégants littérateurs de notre époque, né à Pans en 1833</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000076_e153_1">L. a. s., 1 p. in-8. 2</desc>
             </item>
 
             <item n="154" xml:id="CAT_000076_e154">
@@ -1902,7 +1903,7 @@
                <trait>
                   <p>célèbre peintre d'histoire</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000076_e154_1">L. a. s., 1 p. in-8. 3</desc>
             </item>
 
             <item n="155" xml:id="CAT_000076_e155">
@@ -1911,7 +1912,7 @@
                <trait>
                   <p>célèbre général polonais</p>
                </trait>
-               <desc>Pièce sig. en français avec 1 lig. aut.; an VI, 1 p. 1/2 in-f. Curieuse. Rare.
+               <desc xml:id="CAT_000076_e155_1">Pièce sig. en français avec 1 lig. aut.; an VI, 1 p. 1/2 in-f. Curieuse. Rare.
                   5</desc>
             </item>
 
@@ -1921,7 +1922,7 @@
                <trait>
                   <p>le célèbre romancier réaliste</p>
                </trait>
-               <desc>L. a. s. à M. de Calonne, 11 décembre 1865, 1 p. 1/2 in-8. 6</desc>
+               <desc xml:id="CAT_000076_e156_1">L. a. s. à M. de Calonne, 11 décembre 1865, 1 p. 1/2 in-8. 6</desc>
                <note>Relative à son article sur Taine qui doit passer dans la Revue
                   contemporaine</note>
             </item>
@@ -1929,7 +1930,7 @@
             <item n="157" xml:id="CAT_000076_e157">
                <num>157</num>
                <name type="author">Zola (Emile)</name>
-               <desc>L. a. s. (à M. de Calonne, directeur de la Revue contemporaine); Paris, 12 déc.
+               <desc xml:id="CAT_000076_e157_1">L. a. s. (à M. de Calonne, directeur de la Revue contemporaine); Paris, 12 déc.
                   1865, 1 p. 1/2 in-8. 8</desc>
                <note>Curieuse lettre. Il lui recommande son roman la Confession de Claude. « Vous me
                   ferez le plus grand plaisir en lui consacrant quelques lignes dans votre

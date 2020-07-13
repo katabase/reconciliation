@@ -1,4 +1,5 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000038">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000038">
     <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
         <fileDesc>
             <titleStmt>
@@ -82,7 +83,7 @@
                     <trait>
                         <p>le célèbre émir de l'Algérie.</p>
                     </trait>
-                    <desc>L. a. s. au général Larchey; (Constantinople), 8 nov. 1855, 1/2 p. in-4,
+                    <desc xml:id="CAT_000038_e1_1">L. a. s. au général Larchey; (Constantinople), 8 nov. 1855, 1/2 p. in-4,
                         avec traduction française en regard. 15</desc>
 
                     <note>Il demande au général Larchey, alors commandant militaire de
@@ -104,7 +105,7 @@
 
 
 
-                    <desc>L. a. s. à Mme Dhombres, 1 p. 1/4 in-8. 4</desc>
+                    <desc xml:id="CAT_000038_e2_1">L. a. s. à Mme Dhombres, 1 p. 1/4 in-8. 4</desc>
 
                     <note>Elle refuse de donner des autographes de son mari, qui sont pour elle un
                         trésor</note>
@@ -124,7 +125,7 @@
 
 
 
-                    <desc>L. a. s. à Ferd. Langlé, 1 p. 1/2 in-12. 3</desc>
+                    <desc xml:id="CAT_000038_e3_1">L. a. s. à Ferd. Langlé, 1 p. 1/2 in-12. 3</desc>
 
                 </item>
 
@@ -141,7 +142,7 @@
 
 
 
-                    <desc>L. a. s. au comte de Milly ; Maison Blanche, 1776, 3 p. in-4, cachet.
+                    <desc xml:id="CAT_000038_e4_1">L. a. s. au comte de Milly ; Maison Blanche, 1776, 3 p. in-4, cachet.
                         10</desc>
 
                     <note>Concernant les mémoires de l'Acad. des Sc. sur les Arts et Métiers</note>
@@ -161,7 +162,7 @@
 
 
 
-                    <desc>L. sig., 1710, 1 p. in-f. 2.50</desc>
+                    <desc xml:id="CAT_000038_e5_1">L. sig., 1710, 1 p. in-f. 2.50</desc>
 
                 </item>
                 <item n="6" xml:id="CAT_000038_e6">
@@ -177,7 +178,7 @@
 
 
 
-                    <desc>L. a. s. à M. Luce, 1782, 1 p. in-4. cachet. 10</desc>
+                    <desc xml:id="CAT_000038_e6_1">L. a. s. à M. Luce, 1782, 1 p. in-4. cachet. 10</desc>
 
                 </item>
 
@@ -194,7 +195,7 @@
 
 
 
-                    <desc>Pièce aut. sig.; Montpellier, 1784, 1 p. in-4, cachet. 4</desc>
+                    <desc xml:id="CAT_000038_e7_1">Pièce aut. sig.; Montpellier, 1784, 1 p. in-4, cachet. 4</desc>
 
                     <note>Reçu de la médaille d'or pour son Mémoire sur les Haies, avec l'enveloppe
                         de ce mémoire signée du naturaliste Latourette</note>
@@ -214,7 +215,7 @@
 
 
 
-                    <desc>L. a. s., 1779, 3 p. in-4. Relative à l'Abyssinie. 4</desc>
+                    <desc xml:id="CAT_000038_e8_1">L. a. s., 1779, 3 p. in-4. Relative à l'Abyssinie. 4</desc>
 
                 </item>
 
@@ -231,7 +232,7 @@
 
 
 
-                    <desc>L. a. s. Victor, 1831, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e9_1">L. a. s. Victor, 1831, 1 p. in-8. 3</desc>
 
                     <note>Il se défend d'appartenir à l'école romantique.</note>
 
@@ -249,7 +250,7 @@
 
 
 
-                    <desc>L. a. s., 1823, 1/2 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000038_e10_1">L. a. s., 1823, 1/2 p. in-8. 5</desc>
 
                     <note>Il demande un ordre de copie pour sa partition de la Neige</note>
 
@@ -269,7 +270,7 @@
 
 
 
-                    <desc>L. a. s. à sa femme, 15 vend, an V, 1/2 p. in-8. 12</desc>
+                    <desc xml:id="CAT_000038_e11_1">L. a. s. à sa femme, 15 vend, an V, 1/2 p. in-8. 12</desc>
 
                     <note>Epître touchante écrite de sa prison</note>
 
@@ -288,7 +289,7 @@
 
 
 
-                    <desc>L. a. s. à Philipon, 1 p. in-18. 8</desc>
+                    <desc xml:id="CAT_000038_e12_1">L. a. s. à Philipon, 1 p. in-18. 8</desc>
 
                     <note>Spirituel envoi d'un de ses ouvrages pour en rendre compte dans le
                         Charivari</note>
@@ -304,7 +305,7 @@
 
 
 
-                    <desc>L. aut. sig. de ses initiales à l'imprimeur Barbier, son ancien associé, 2
+                    <desc xml:id="CAT_000038_e13_1">L. aut. sig. de ses initiales à l'imprimeur Barbier, son ancien associé, 2
                         p. 1/2 in-8. 5</desc>
 
                     <note>Relative à l'impression de la Physiologie du Mariage</note>
@@ -324,7 +325,7 @@
 
 
 
-                    <desc>L. a. s., 1857, 4 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e14_1">L. a. s., 1857, 4 p. in-8. 3</desc>
 
                     <note>Relative à ses Archives de la sérénissime République de Venise</note>
 
@@ -343,7 +344,7 @@
 
 
 
-                    <desc>L. a. s., 1813, 1 p. 1/4 in-4. 3</desc>
+                    <desc xml:id="CAT_000038_e15_1">L. a. s., 1813, 1 p. 1/4 in-4. 3</desc>
 
                 </item>
 
@@ -360,7 +361,7 @@
 
 
 
-                    <desc>L. a. s. 1754, 2 p. in-4. Relative à des cartes marines. 4</desc>
+                    <desc xml:id="CAT_000038_e16_1">L. a. s. 1754, 2 p. in-4. Relative à des cartes marines. 4</desc>
                 </item>
 
                 <item n="17" xml:id="CAT_000038_e17">
@@ -369,7 +370,7 @@
                     <trait>
                         <p>le grand chansonnier.</p>
                     </trait>
-                    <desc>L. a. s. à Prosper Merimée, 1833, 1 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000038_e17_1">L. a. s. à Prosper Merimée, 1833, 1 p. in-8. 5</desc>
                 </item>
 
 
@@ -383,7 +384,7 @@
 
 
 
-                    <desc>L. a. s. à M. Virlet, Fontainebleau, 1836, 3 p. in-8. 10</desc>
+                    <desc xml:id="CAT_000038_e18_1">L. a. s. à M. Virlet, Fontainebleau, 1836, 3 p. in-8. 10</desc>
 
                     <note>Curieuse appréciation sur Arago, auquel il reconnaît le rare mérite
                         d'avoir popularisé l'astronomie en la mettant à la portée de tous; mais il
@@ -408,7 +409,7 @@
 
 
 
-                    <desc>L. a. s., 1835, 1 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000038_e19_1">L. a. s., 1835, 1 p. in-4. 3</desc>
 
                 </item>
 
@@ -425,7 +426,7 @@
 
 
 
-                    <desc>Let. sig., Brest, an VIII, 1 p. in-4. 4</desc>
+                    <desc xml:id="CAT_000038_e20_1">Let. sig., Brest, an VIII, 1 p. in-4. 4</desc>
 
                 </item>
 
@@ -442,7 +443,7 @@
 
 
 
-                    <desc>L. a. s. à un critique dramatique, 2 p. in-18. 5</desc>
+                    <desc xml:id="CAT_000038_e21_1">L. a. s. à un critique dramatique, 2 p. in-18. 5</desc>
 
                     <note>Epître mélancolique dans laquelle elle dit qu'elle cherche dans son
                         travail en dehors du théâtre, des consolations contre les coups de
@@ -463,7 +464,7 @@
 
 
 
-                    <desc>L. a. sig. Ma. C. (Marie-Caroline), à son cher Maigret (le comte de
+                    <desc xml:id="CAT_000038_e22_1">L. a. sig. Ma. C. (Marie-Caroline), à son cher Maigret (le comte de
                         Chazelles); 26 sept. 1832, 3 p. pl. in-8. Pièce endommagée par les acides
                         employés pour faire paraître l'écriture à l'encre sympathique, mais pouvant
                         se lire entièrement. 35</desc>
@@ -497,7 +498,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 2</desc>
+                    <desc xml:id="CAT_000038_e23_1">L. a. s., 1 p. in-8. 2</desc>
 
                 </item>
 
@@ -514,7 +515,7 @@
 
 
 
-                    <desc>L. sig., 1705, 2 p. in-4. 2</desc>
+                    <desc xml:id="CAT_000038_e24_1">L. sig., 1705, 2 p. in-4. 2</desc>
 
                 </item>
 
@@ -531,7 +532,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e25_1">L. a. s., 1 p. in-8. 3</desc>
 
                 </item>
 
@@ -544,7 +545,7 @@
 
 
 
-                    <desc>Salon de 1869, peinture, article aut. sig., 20 p. in-12. 5</desc>
+                    <desc xml:id="CAT_000038_e26_1">Salon de 1869, peinture, article aut. sig., 20 p. in-12. 5</desc>
 
                 </item>
 
@@ -561,7 +562,7 @@
 
 
 
-                    <desc>L. a. s. à l'arch. d'Avignon, Aix, 1774, 1 p. 1/4 in-4. 6</desc>
+                    <desc xml:id="CAT_000038_e27_1">L. a. s. à l'arch. d'Avignon, Aix, 1774, 1 p. 1/4 in-4. 6</desc>
 
                 </item>
 
@@ -579,7 +580,7 @@
 
 
 
-                    <desc>Quit. sig., 1582, in-4 obl. Rare. 6</desc>
+                    <desc xml:id="CAT_000038_e28_1">Quit. sig., 1582, in-4 obl. Rare. 6</desc>
 
                 </item>
 
@@ -596,7 +597,7 @@
 
 
 
-                    <desc>L. a. s.; Nantes, 1836, 1 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000038_e29_1">L. a. s.; Nantes, 1836, 1 p. in-4. 3</desc>
 
                 </item>
 
@@ -613,7 +614,7 @@
 
 
 
-                    <desc>L. sig., avec la sousc. aut., à sa soeur la princesse de Molfetta ; Milan,
+                    <desc xml:id="CAT_000038_e30_1">L. sig., avec la sousc. aut., à sa soeur la princesse de Molfetta ; Milan,
                         1576, 1 p. in-f., trace de cachet. Pièce fatiguée et raccommodée, mais
                         très-rare avec la souscription autographe. 45</desc>
 
@@ -635,7 +636,7 @@
 
 
 
-                    <desc>Let. sig.; 1825, 4 p. in-4. 4</desc>
+                    <desc xml:id="CAT_000038_e31_1">Let. sig.; 1825, 4 p. in-4. 4</desc>
 
                     <note>Toute relative à son Musée des Antiques</note>
 
@@ -654,7 +655,7 @@
 
 
 
-                    <desc>L. a. s.; Lyon, an XII, 2 p. 1/2 in-4. 4</desc>
+                    <desc xml:id="CAT_000038_e32_1">L. a. s.; Lyon, an XII, 2 p. 1/2 in-4. 4</desc>
 
                     <note>Toute relative à la propagation de la vaccine à Lyon</note>
                 </item>
@@ -664,7 +665,7 @@
                     <trait>
                         <p>le grand naturaliste.</p>
                     </trait>
-                    <desc>L. sig., 1785, 1 p. in-4, cachet. 5</desc>
+                    <desc xml:id="CAT_000038_e33_1">L. sig., 1785, 1 p. in-4, cachet. 5</desc>
                 </item>
 
 
@@ -681,7 +682,7 @@
 
 
 
-                    <desc>L. a. s. 1835, 1 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000038_e34_1">L. a. s. 1835, 1 p. in-4. 5</desc>
 
                 </item>
 
@@ -698,7 +699,7 @@
 
 
 
-                    <desc>L. a. s.; Nantes, 1835, 1 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000038_e35_1">L. a. s.; Nantes, 1835, 1 p. in-4. 5</desc>
 
                 </item>
 
@@ -715,7 +716,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. Au sujet de l'anniversaire de la naissance de
+                    <desc xml:id="CAT_000038_e36_1">L. a. s., 1 p. in-8. Au sujet de l'anniversaire de la naissance de
                         Fourier. 3</desc>
 
                 </item>
@@ -734,7 +735,7 @@
 
 
 
-                    <desc>L. a. s. à l'abbé Crozat; Laon, 1722, 3 p. in-8, cachet. 6</desc>
+                    <desc xml:id="CAT_000038_e37_1">L. a. s. à l'abbé Crozat; Laon, 1722, 3 p. in-8, cachet. 6</desc>
 
                     <note>Curieuse lettre sur sa nomination au canonicat de Moy, en remplacement de
                         l'abbé Crozat</note>
@@ -754,7 +755,7 @@
 
 
 
-                    <desc>Pièce sig. avec 3 lignes aut.; Nantes, an II, 2 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000038_e38_1">Pièce sig. avec 3 lignes aut.; Nantes, an II, 2 p. in-4. 5</desc>
 
 
                 </item>
@@ -771,7 +772,7 @@
 
 
 
-                    <desc>L. a. s. au comte de Milly, 1772, 1 p. in-4. 4</desc>
+                    <desc xml:id="CAT_000038_e39_1">L. a. s. au comte de Milly, 1772, 1 p. in-4. 4</desc>
 
 
                 </item>
@@ -788,7 +789,7 @@
 
 
 
-                    <desc>L. sig. à M. de Beauvoir; Fontainebleau, 1573, 1/2 p. in-f. Trace de
+                    <desc xml:id="CAT_000038_e40_1">L. sig. à M. de Beauvoir; Fontainebleau, 1573, 1/2 p. in-f. Trace de
                         cachet. 10</desc>
 
                     <note>Relative au mariage de Mlle Du Chaussin avec le petit Rivoire, page du duc
@@ -808,7 +809,7 @@
 
 
 
-                    <desc>L. sig. en latin à Louis XVI; Moscou, 16 août 1775, 2 p. in-f. 12</desc>
+                    <desc xml:id="CAT_000038_e41_1">L. sig. en latin à Louis XVI; Moscou, 16 août 1775, 2 p. in-f. 12</desc>
 
                     <note>Relative au rappel de M. Durand, envoyé de France à la cour de
                         Russie</note>
@@ -828,7 +829,7 @@
 
 
 
-                    <desc>L. a. s., 1771, 2 p. in-4. Rare. 10</desc>
+                    <desc xml:id="CAT_000038_e42_1">L. a. s., 1771, 2 p. in-4. Rare. 10</desc>
 
                     <note>Relative à des expériences sur le cuivre jaune et sur les variations de la
                         boussole</note>
@@ -848,7 +849,7 @@
 
 
 
-                    <desc>L. sig. à M. de Beaumont; Fontainebleau, 1573, 1/2 p. in-f. Traces de
+                    <desc xml:id="CAT_000038_e43_1">L. sig. à M. de Beaumont; Fontainebleau, 1573, 1/2 p. in-f. Traces de
                         cachet. 10</desc>
 
                     <note>Il le prie de s'employer au mariage du petit Rivoire, page du duc d'Anjou
@@ -868,7 +869,7 @@
 
 
 
-                    <desc>L. sig. à l'archevêque de Paris, 1825, 1/2 p. in-f. Belle pièce. 5</desc>
+                    <desc xml:id="CAT_000038_e44_1">L. sig. à l'archevêque de Paris, 1825, 1/2 p. in-f. Belle pièce. 5</desc>
 
                 </item>
 
@@ -885,7 +886,7 @@
 
 
 
-                    <desc>L. a. s. au peintre Gué, 3/4 de p. in-4. 5</desc>
+                    <desc xml:id="CAT_000038_e45_1">L. a. s. au peintre Gué, 3/4 de p. in-4. 5</desc>
 
                     <note>Spirituelle épitre par laquelle il demande des billets pour une
                         représentation de Guillaume Tell</note>
@@ -905,7 +906,7 @@
 
 
 
-                    <desc>L. a. s. à M. Michelot, 1 p. 1/2 in-8. 6</desc>
+                    <desc xml:id="CAT_000038_e46_1">L. a. s. à M. Michelot, 1 p. 1/2 in-8. 6</desc>
 
                 </item>
 
@@ -922,7 +923,7 @@
 
 
 
-                    <desc>L. a. s., 1810, 1 p. in-4. 4</desc>
+                    <desc xml:id="CAT_000038_e47_1">L. a. s., 1810, 1 p. in-4. 4</desc>
 
 
                 </item>
@@ -940,7 +941,7 @@
 
 
 
-                    <desc>Pièce sig.; Brest, 1778, in-8. 2</desc>
+                    <desc xml:id="CAT_000038_e48_1">Pièce sig.; Brest, 1778, in-8. 2</desc>
 
                 </item>
 
@@ -957,7 +958,7 @@
 
 
 
-                    <desc>L. sig. comme cardinal, 1717, 1 p. in-f. Légère déchirure. 2</desc>
+                    <desc xml:id="CAT_000038_e49_1">L. sig. comme cardinal, 1717, 1 p. in-f. Légère déchirure. 2</desc>
 
                 </item>
 
@@ -974,7 +975,7 @@
 
 
 
-                    <desc>L. a. s. au Garde-des-Sceaux, Chateauneuf; Dijon, 1635, 1 p. in-4.
+                    <desc xml:id="CAT_000038_e50_1">L. a. s. au Garde-des-Sceaux, Chateauneuf; Dijon, 1635, 1 p. in-4.
                         Cachet. 15</desc>
 
                 </item>
@@ -992,7 +993,7 @@
 
 
 
-                    <desc>L. a. s. à M. de Chavigny; camp d'Aire, 26 juil. 1641, 1 p. in-4. Cachets
+                    <desc xml:id="CAT_000038_e51_1">L. a. s. à M. de Chavigny; camp d'Aire, 26 juil. 1641, 1 p. in-4. Cachets
                         enlevés. 30</desc>
 
                     <note>Annonce de la prise d'Aire. Il envoie le sieur de Beauregard s'en réjouir
@@ -1013,7 +1014,7 @@
 
 
 
-                    <desc>L. a. s.; Rome, 1820, 2 p. in-4. 6</desc>
+                    <desc xml:id="CAT_000038_e52_1">L. a. s.; Rome, 1820, 2 p. in-4. 6</desc>
 
                     <note>Intéressante lettre relative à Placido Doria, chanteur de la chapelle
                         pontificale</note>
@@ -1033,7 +1034,7 @@
 
 
 
-                    <desc>L. sig., 1649, 3/4 de p. in-f.3</desc>
+                    <desc xml:id="CAT_000038_e53_1">L. sig., 1649, 3/4 de p. in-f.3</desc>
 
                 </item>
 
@@ -1050,7 +1051,7 @@
 
 
 
-                    <desc>L. a. s., en français, à l'éditeur Gosselin; Paris, 1826, 1 p. in-4.
+                    <desc xml:id="CAT_000038_e54_1">L. a. s., en français, à l'éditeur Gosselin; Paris, 1826, 1 p. in-4.
                         Légère cassure. 10</desc>
 
                     <note>Il lui propose de lui céder ses droits de traduction de son roman La
@@ -1071,7 +1072,7 @@
 
 
 
-                    <desc>L. a. s. à un littérateur. 1 p. 1/2 in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e55_1">L. a. s. à un littérateur. 1 p. 1/2 in-8. 3</desc>
 
                 </item>
 
@@ -1089,7 +1090,7 @@
 
 
 
-                    <desc>L. a. s. à Renouard; Plaisance, an XII, 1 p. in-4. 18</desc>
+                    <desc xml:id="CAT_000038_e56_1">L. a. s. à Renouard; Plaisance, an XII, 1 p. in-4. 18</desc>
 
                     <note>Demande de plusieurs ouvrages grecs</note>
 
@@ -1108,7 +1109,7 @@
 
 
 
-                    <desc>L. a. s. à M. Feuillet, 1838, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e57_1">L. a. s. à M. Feuillet, 1838, 1 p. in-8. 3</desc>
 
                 </item>
 
@@ -1125,7 +1126,7 @@
 
 
 
-                    <desc>Pièce aut. sig., 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000038_e58_1">Pièce aut. sig., 1 p. in-8. 4</desc>
 
                     <note>Certificat en faveur de Casimir Ethis, son élève, dont il vante les
                         brillantes dispositions</note>
@@ -1137,7 +1138,7 @@
                     <trait>
                         <p>le grand statuaire.</p>
                     </trait>
-                    <desc>L. a. s. à l'éditeur Renduel, 1841, 2 p. in-8. 10</desc>
+                    <desc xml:id="CAT_000038_e59_1">L. a. s. à l'éditeur Renduel, 1841, 2 p. in-8. 10</desc>
 
                     <note>Très-curieuse lettre sur le littérateur romantique Bertrand, qui vient de
                         mourir à l'hôpital, laissant sa mère dans la plus affreuse misère. On
@@ -1160,7 +1161,7 @@
 
 
 
-                    <desc>L. a. s., 1867, 2 p. 1/4 in-8. 5</desc>
+                    <desc xml:id="CAT_000038_e60_1">L. a. s., 1867, 2 p. 1/4 in-8. 5</desc>
 
                 </item>
 
@@ -1177,7 +1178,7 @@
 
 
 
-                    <desc>L. a. s., 3 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000038_e61_1">L. a. s., 3 p. in-8. 5</desc>
 
                     <note>Curieuse lettre écrite à son propriétaire, auquel elle doit 200 fr. et
                         dont le concierge a empêché son tapissier d'enlever quelques meubles
@@ -1198,7 +1199,7 @@
 
 
 
-                    <desc>L. a. s. à M. Feuillet, 1837, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000038_e62_1">L. a. s. à M. Feuillet, 1837, 1 p. in-8. 4</desc>
 
                 </item>
 
@@ -1215,7 +1216,7 @@
 
 
 
-                    <desc>L. a. s. à M. Térengy, 1 p. in-8. Envoi de son Louis XI. 4</desc>
+                    <desc xml:id="CAT_000038_e63_1">L. a. s. à M. Térengy, 1 p. in-8. Envoi de son Louis XI. 4</desc>
 
                 </item>
 
@@ -1232,7 +1233,7 @@
 
 
 
-                    <desc>L. a. s. au libraire Urbin Canel, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e64_1">L. a. s. au libraire Urbin Canel, 1 p. in-8. 3</desc>
 
                     <note>Relative à une comédie qu'il a faite en 1818 et dont il ne reste pas un
                         seul exemplaire</note>
@@ -1252,7 +1253,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e65_1">L. a. s., 1 p. in-8. 3</desc>
 
                 </item>
 
@@ -1269,7 +1270,7 @@
 
 
 
-                    <desc>L. a. s. au baron de Joursanvault; Abbaye de Saint-Germain-des-Près, 1 p.
+                    <desc xml:id="CAT_000038_e66_1">L. a. s. au baron de Joursanvault; Abbaye de Saint-Germain-des-Près, 1 p.
                         in-4, cachet enlevé. 6</desc>
 
                     <note>L'Archiviste français n'est pas de lui, mais il connaît beaucoup l'ouvrage
@@ -1283,7 +1284,7 @@
                     <trait>
                         <p>médec., savant écrivain sur son art, né à Chartres.</p>
                     </trait>
-                    <desc>Reçu aut. sig. comme rédacteur de la partie médicale de l'Encyclopédie
+                    <desc xml:id="CAT_000038_e67_1">Reçu aut. sig. comme rédacteur de la partie médicale de l'Encyclopédie
                         méthodique, 1793, 1/2 p. in-4. 3</desc>
 
                 </item>
@@ -1301,7 +1302,7 @@
 
 
 
-                    <desc>L. a. s. à Renouard, au sujet d'une Notice sur Gresset, 1 p. in-8.
+                    <desc xml:id="CAT_000038_e68_1">L. a. s. à Renouard, au sujet d'une Notice sur Gresset, 1 p. in-8.
                         3</desc>
 
                 </item>
@@ -1320,7 +1321,7 @@
 
 
 
-                    <desc>L. a. à M. Feuillet, 1836, 1 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000038_e69_1">L. a. à M. Feuillet, 1836, 1 p. in-4. 3</desc>
 
                 </item>
 
@@ -1337,7 +1338,7 @@
 
 
 
-                    <desc>L. a. s. à M. Mater, 3 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000038_e70_1">L. a. s. à M. Mater, 3 p. in-8. 4</desc>
 
                     <note>Curieuse lettre sur son procès en séparation avec son mari</note>
 
@@ -1356,7 +1357,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000038_e71_1">L. a. s., 1 p. in-8. 5</desc>
 
                     <note>Invitation à un dîner où l'on sera treize à table</note>
 
@@ -1375,7 +1376,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 2</desc>
+                    <desc xml:id="CAT_000038_e72_1">L. a. s., 1 p. in-8. 2</desc>
 
 
                 </item>
@@ -1392,7 +1393,7 @@
 
 
 
-                    <desc>L. a. s., 3 juin 1833, 2 p. in-4. 10</desc>
+                    <desc xml:id="CAT_000038_e73_1">L. a. s., 3 juin 1833, 2 p. in-4. 10</desc>
 
                     <note>Très curieuse lettre politique, écrite au bureau de la présidence de la
                         Chambre, entre deux amendements. « On ne marche, dans ce pays-ci, dit-il,
@@ -1417,7 +1418,7 @@
 
 
 
-                    <desc>L. a. s. à M. Feuillet, 1837, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e74_1">L. a. s. à M. Feuillet, 1837, 1 p. in-8. 3</desc>
 
                 </item>
 
@@ -1434,7 +1435,7 @@
 
 
 
-                    <desc>L. a. s. à Denon, 1 p. in-4. 6</desc>
+                    <desc xml:id="CAT_000038_e75_1">L. a. s. à Denon, 1 p. in-4. 6</desc>
 
                     <note>Au sujet d'un tableau que Napoléon aurait donné l'ordre d'exclure du
                         Louvre sans doute. Il se plaint que depuis qu'Isabey n'est plus chargé des
@@ -1455,7 +1456,7 @@
 
 
 
-                    <desc>L. a. s., 1869, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e76_1">L. a. s., 1869, 1 p. in-8. 3</desc>
 
                 </item>
 
@@ -1469,7 +1470,7 @@
 
 
 
-                    <desc>Carte-diplome, sig. de membre de la Société du prince impérial, in-8.
+                    <desc xml:id="CAT_000038_e77_1">Carte-diplome, sig. de membre de la Société du prince impérial, in-8.
                         5</desc>
 
                 </item>
@@ -1488,7 +1489,7 @@
 
 
 
-                    <desc>L. a. s. au duc d'Angoulême, 16 mars 1830, 2 p. 1/2 in-4. 4</desc>
+                    <desc xml:id="CAT_000038_e78_1">L. a. s. au duc d'Angoulême, 16 mars 1830, 2 p. 1/2 in-4. 4</desc>
 
                     <note>Intéressante lettre relative à un emprunt pour l'établissement d'écoles en
                         Grèce</note>
@@ -1508,7 +1509,7 @@
 
 
 
-                    <desc>L. a. s. (au comte de Milly); Montélimar, 1777, 4 p. in-4. 6</desc>
+                    <desc xml:id="CAT_000038_e79_1">L. a. s. (au comte de Milly); Montélimar, 1777, 4 p. in-4. 6</desc>
 
                     <note>Très-intéressante lettre relative à son édition de Bernard Palissy. Il a
                         écrit à d'Alembert, Diderot, Turgot, Condorcet, etc., et il vient de
@@ -1529,7 +1530,7 @@
 
 
 
-                    <desc>L. a. s., 1875, 9 p. in-8. 6</desc>
+                    <desc xml:id="CAT_000038_e80_1">L. a. s., 1875, 9 p. in-8. 6</desc>
 
                     <note>Belle et curieuse lettre dans laquelle elle donne toute sa
                         biographie</note>
@@ -1549,7 +1550,7 @@
 
 
 
-                    <desc>L. sig., 1807, 1 p. in-f. 2</desc>
+                    <desc xml:id="CAT_000038_e81_1">L. sig., 1807, 1 p. in-f. 2</desc>
 
                 </item>
 
@@ -1567,7 +1568,7 @@
 
 
 
-                    <desc>L. a. s. 1577, 1 p. 1/4 in-4. 4</desc>
+                    <desc xml:id="CAT_000038_e82_1">L. a. s. 1577, 1 p. 1/4 in-4. 4</desc>
 
                 </item>
 
@@ -1584,7 +1585,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. 1/2 in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e83_1">L. a. s., 1 p. 1/2 in-8. 3</desc>
 
                 </item>
 
@@ -1601,7 +1602,7 @@
 
 
 
-                    <desc>L. a. s. à M. Bauer, 1868, 1 p. in-8. 20</desc>
+                    <desc xml:id="CAT_000038_e84_1">L. a. s. à M. Bauer, 1868, 1 p. in-8. 20</desc>
 
                     <note>Détenteur d'un roman-feuilleton d'un brave garçon de talent, Léon Cladel,
                         il désire le faire insérer au plus tôt, car l'auteur paraît avoir besoin
@@ -1622,7 +1623,7 @@
 
 
 
-                    <desc>L. a. s.; (1784), 1 p. pl. in-4. 6</desc>
+                    <desc xml:id="CAT_000038_e85_1">L. a. s.; (1784), 1 p. pl. in-4. 6</desc>
 
                     <note>Relative à Adèle et Théodore ou Lettres sur l'Education, ouvrage qu'elle
                         se défend d'avoir composé pour le concours de l'Académie française</note>
@@ -1642,7 +1643,7 @@
 
 
 
-                    <desc>L. a. s. à Arnaud, de l'Institut, 1811, 2 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e86_1">L. a. s. à Arnaud, de l'Institut, 1811, 2 p. in-8. 3</desc>
 
                     <note>Spirituelle épitre sur son Histoire littéraire de l'Italie</note>
                 </item>
@@ -1653,7 +1654,7 @@
                     <trait>
                         <p>célèbre compositeur.</p>
                     </trait>
-                    <desc>Pièce sig. comme président de l'Administration du Conservatoire, an VII, 1
+                    <desc xml:id="CAT_000038_e87_1">Pièce sig. comme président de l'Administration du Conservatoire, an VII, 1
                         p. in-f. 4</desc>
                 </item>
 
@@ -1671,7 +1672,7 @@
 
 
 
-                    <desc>L. a. s. à J. Pautet; Beaune, 1841, 1 p. in-4. Charades à deviner.
+                    <desc xml:id="CAT_000038_e88_1">L. a. s. à J. Pautet; Beaune, 1841, 1 p. in-4. Charades à deviner.
                         3</desc>
 
                 </item>
@@ -1685,7 +1686,7 @@
 
 
 
-                    <desc>L'Enfant serpent, historiette, pièce sig. avec 1 p. aut. ; Beaune, 1836, 4
+                    <desc xml:id="CAT_000038_e89_1">L'Enfant serpent, historiette, pièce sig. avec 1 p. aut. ; Beaune, 1836, 4
                         p. in-4. 5</desc>
 
                 </item>
@@ -1703,7 +1704,7 @@
 
 
 
-                    <desc>L. a. s. au chevalier de Parade, 1839, 3 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000038_e90_1">L. a. s. au chevalier de Parade, 1839, 3 p. in-4. 5</desc>
 
                     <note>Très-intéressante sur ses travaux et en particulier sur son Godefroy de
                         Bouillon, de la galerie de Versailles</note>
@@ -1724,7 +1725,7 @@
 
 
 
-                    <desc>L. a. s. à M. de Joursanvault; Besançon, 23 av. 1814, 1 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000038_e91_1">L. a. s. à M. de Joursanvault; Besançon, 23 av. 1814, 1 p. in-4. 5</desc>
 
                     <note>Relative à l'occupation de Besançon par les Autrichiens</note>
 
@@ -1739,7 +1740,7 @@
 
 
 
-                    <desc>Notes aut. sur Fénelon, 2 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000038_e92_1">Notes aut. sur Fénelon, 2 p. in-8. 4</desc>
 
                 </item>
 
@@ -1756,7 +1757,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000038_e93_1">L. a. s., 1 p. in-8. 5</desc>
 
                     <note>Demande de billets de théâtre pour des amies. Théo (Th. Gautier) est si
                         paresseux qu'il préfère lui laisser faire des fautes que de prendre la
@@ -1777,7 +1778,7 @@
 
 
 
-                    <desc>L. a. s., Observatoire de Brest, 1817, 1 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000038_e94_1">L. a. s., Observatoire de Brest, 1817, 1 p. in-4. 3</desc>
 
                 </item>
 
@@ -1794,7 +1795,7 @@
 
 
 
-                    <desc>L. a. s.; Bourg, 1655; 2. p. in-4. 25</desc>
+                    <desc xml:id="CAT_000038_e95_1">L. a. s.; Bourg, 1655; 2. p. in-4. 25</desc>
 
                     <note>Belle et intéressante lettre relative à son Histoire de Savoie</note>
 
@@ -1814,7 +1815,7 @@
 
 
 
-                    <desc>Quit. sig. sur vélin, 1575, 1 p. in-4, cachet. 3</desc>
+                    <desc xml:id="CAT_000038_e96_1">Quit. sig. sur vélin, 1575, 1 p. in-4, cachet. 3</desc>
 
                 </item>
 
@@ -1831,7 +1832,7 @@
 
 
 
-                    <desc>L. a. s. à M. de Jussieu, 1838, 1 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000038_e97_1">L. a. s. à M. de Jussieu, 1838, 1 p. in-4. 3</desc>
 
                 </item>
 
@@ -1848,7 +1849,7 @@
 
 
 
-                    <desc>L. a. s., 2 p. 1/2 in-8. Relative à un de ses ouvrages. 3</desc>
+                    <desc xml:id="CAT_000038_e98_1">L. a. s., 2 p. 1/2 in-8. Relative à un de ses ouvrages. 3</desc>
 
                 </item>
 
@@ -1865,7 +1866,7 @@
 
 
 
-                    <desc>L. sig. à M. de Beaumont; camp près L. a. Rochelle; 1er juil. 1573, 3/4 de p.
+                    <desc xml:id="CAT_000038_e99_1">L. sig. à M. de Beaumont; camp près L. a. Rochelle; 1er juil. 1573, 3/4 de p.
                         in-f. cachet. 10</desc>
 
                     <note>Relative au mariage de Mlle Du Chaussin avec le petit Rivoire, page de sa
@@ -1887,7 +1888,7 @@
 
 
 
-                    <desc>L. a. s., 1871, 1 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000038_e100_1">L. a. s., 1871, 1 p. in-8. 5</desc>
 
                     <note>Il dément l'assertion qu'Auber ait été sénateur sous l'empire. « La
                         peinture a eu des sénateurs : la musique a échappé à ce genre de
@@ -1908,7 +1909,7 @@
 
 
 
-                    <desc>L. a. sig. Victor à M. A. Soulié, 1827, 1 p. in-8, cachet à ses armes.
+                    <desc xml:id="CAT_000038_e101_1">L. a. sig. Victor à M. A. Soulié, 1827, 1 p. in-8, cachet à ses armes.
                         5</desc>
 
                 </item>
@@ -1922,7 +1923,7 @@
 
 
 
-                    <desc>Reçu aut. sig. de 1000 fr. à lui comptés par Renduel, son éditeur, 1835, 1
+                    <desc xml:id="CAT_000038_e102_1">Reçu aut. sig. de 1000 fr. à lui comptés par Renduel, son éditeur, 1835, 1
                         p. in-8. 2</desc>
 
                 </item>
@@ -1940,7 +1941,7 @@
 
 
 
-                    <desc>L. a. s. à Prosper Mérimée, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e103_1">L. a. s. à Prosper Mérimée, 1 p. in-8. 3</desc>
 
                     <note>Epître enthousiaste sur Clara Gazul</note>
 
@@ -1959,7 +1960,7 @@
 
 
 
-                    <desc>L. a. s.; Genève, 1873,1p. in-8. 6</desc>
+                    <desc xml:id="CAT_000038_e104_1">L. a. s.; Genève, 1873,1p. in-8. 6</desc>
 
                     <note>Il est haï et calomnié par un si grand nombre de compatriotes et de
                         coréligionnaires, qu'il est profondément ému quand quelques-uns comprennent
@@ -1980,7 +1981,7 @@
 
 
 
-                    <desc>L. sig. ; Malmaison, an IX, 1 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000038_e105_1">L. sig. ; Malmaison, an IX, 1 p. in-4. 5</desc>
 
                 </item>
 
@@ -1997,7 +1998,7 @@
 
 
 
-                    <desc>L. a. s. (dont la première moitié est d'un secrétaire) à Marceau;
+                    <desc xml:id="CAT_000038_e106_1">L. a. s. (dont la première moitié est d'un secrétaire) à Marceau;
                         Creutznach, 9 frim. an III, 2 p. in-4. 15</desc>
 
                     <note>Curieuse lettre dans laquelle il mande à Marceau qu'il a écrit à la belle
@@ -2015,7 +2016,7 @@
                     <trait>
                         <p>l'illustre général.</p>
                     </trait>
-                    <desc>L. a. sig. de ses initiales, en anglais, à son ami le citoyen Masclet,
+                    <desc xml:id="CAT_000038_e107_1">L. a. sig. de ses initiales, en anglais, à son ami le citoyen Masclet,
                         sous-préfet à Boulognesur-Mer, Lagrange, an X, 1 p. in-4. 4</desc>
                 </item>
 
@@ -2034,7 +2035,7 @@
 
 
 
-                    <desc>L. a. s. à M. Trembly ; 1836, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e108_1">L. a. s. à M. Trembly ; 1836, 1 p. in-8. 3</desc>
 
                 </item>
 
@@ -2051,7 +2052,7 @@
 
 
 
-                    <desc>L. a. s., 1823, 1/2 p. in-8. 3.</desc>
+                    <desc xml:id="CAT_000038_e109_1">L. a. s., 1823, 1/2 p. in-8. 3.</desc>
 
                 </item>
 
@@ -2068,7 +2069,7 @@
 
 
 
-                    <desc>L. a. s. à M. Feuillet, 1 p. in-8. 2</desc>
+                    <desc xml:id="CAT_000038_e110_1">L. a. s. à M. Feuillet, 1 p. in-8. 2</desc>
 
                 </item>
 
@@ -2085,7 +2086,7 @@
 
 
 
-                    <desc>L. a. s., 1872, 2 p. in-8. 2</desc>
+                    <desc xml:id="CAT_000038_e111_1">L. a. s., 1872, 2 p. in-8. 2</desc>
 
                 </item>
 
@@ -2102,7 +2103,7 @@
 
 
 
-                    <desc>L. sig. à M. de Biré, 1790, 1 p. in-f. 5</desc>
+                    <desc xml:id="CAT_000038_e112_1">L. sig. à M. de Biré, 1790, 1 p. in-f. 5</desc>
 
                     <note>Relative à l'inventaire des papiers de la Trésorerie. Cette lettre est
                         signée aussi de Condorcet et autres</note>
@@ -2122,7 +2123,7 @@
 
 
 
-                    <desc>L. a. s. à Ed. Allets, 1829, 2 p. in-8. Sur un prix de l'Académie.
+                    <desc xml:id="CAT_000038_e113_1">L. a. s. à Ed. Allets, 1829, 2 p. in-8. Sur un prix de l'Académie.
                         3</desc>
 
                 </item>
@@ -2140,7 +2141,7 @@
 
 
 
-                    <desc>L. a. s. à Janvier, 1 p. in-4. Scientifique. 5</desc>
+                    <desc xml:id="CAT_000038_e114_1">L. a. s. à Janvier, 1 p. in-4. Scientifique. 5</desc>
 
                 </item>
 
@@ -2158,7 +2159,7 @@
 
 
 
-                    <desc>L. a. s. au comte de Milly, 2 p. 1/4 in-4, cachet. Intéressante. 4</desc>
+                    <desc xml:id="CAT_000038_e115_1">L. a. s. au comte de Milly, 2 p. 1/4 in-4, cachet. Intéressante. 4</desc>
 
                 </item>
 
@@ -2175,7 +2176,7 @@
 
 
 
-                    <desc>L. sig. avec la souscrip. aut. aux trésoriers généraux à Lyon, 1638, 1 p.
+                    <desc xml:id="CAT_000038_e116_1">L. sig. avec la souscrip. aut. aux trésoriers généraux à Lyon, 1638, 1 p.
                         in-f. cachets. 4</desc>
 
                 </item>
@@ -2193,7 +2194,7 @@
 
 
 
-                    <desc>L. a. s., 1856, 2 p. 1/2 in-8. Sur ses cours au collège de France.
+                    <desc xml:id="CAT_000038_e117_1">L. a. s., 1856, 2 p. 1/2 in-8. Sur ses cours au collège de France.
                         4</desc>
 
                 </item>
@@ -2211,7 +2212,7 @@
 
 
 
-                    <desc>L. a. s. au duc de Valentinois, 1 p. in-8, cachet. 10</desc>
+                    <desc xml:id="CAT_000038_e118_1">L. a. s. au duc de Valentinois, 1 p. in-8, cachet. 10</desc>
 
                 </item>
 
@@ -2221,7 +2222,7 @@
                     <trait>
                         <p>Le même</p>
                     </trait>
-                    <desc>Pièce sig., 1688, 1 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000038_e119_1">Pièce sig., 1688, 1 p. in-4. 5</desc>
 
                     <note>Reconnaissance donnée à d'Hozier de 1831 livres 10 sols pour les droits de
                         4 sols par armoirie que lui doit celui-ci pour sa charge de juge
@@ -2243,7 +2244,7 @@
 
 
 
-                    <desc>Pièce sig. sur vélin ; Nancy, 1602, 1 p. in-f., cachet. 5</desc>
+                    <desc xml:id="CAT_000038_e120_1">Pièce sig. sur vélin ; Nancy, 1602, 1 p. in-f., cachet. 5</desc>
 
                     <note>Pouvoirs relatifs à la tutelle de sa cousine Françoise de Mercoeur</note>
 
@@ -2262,7 +2263,7 @@
 
 
 
-                    <desc>L. sig. au prince de Salm, gouverneur de Nancy; Lunéville, 1630, 1 p.
+                    <desc xml:id="CAT_000038_e121_1">L. sig. au prince de Salm, gouverneur de Nancy; Lunéville, 1630, 1 p.
                         in-f. Un peu fatiguée. 5</desc>
 
                     <note>Il exempte, à cause de l'accident de contagion, les habitants de Nancy des
@@ -2284,7 +2285,7 @@
 
 
 
-                    <desc>Pièce sig., 1688, 3/4 de p. in-f. 2.50</desc>
+                    <desc xml:id="CAT_000038_e122_1">Pièce sig., 1688, 3/4 de p. in-f. 2.50</desc>
 
                 </item>
                 <item n="123" xml:id="CAT_000038_e123">
@@ -2300,7 +2301,7 @@
 
 
 
-                    <desc>L. sig. au général Rosetti, 1669, 1 p. in-4, cachets et soies. 3</desc>
+                    <desc xml:id="CAT_000038_e123_1">L. sig. au général Rosetti, 1669, 1 p. in-4, cachets et soies. 3</desc>
 
                 </item>
 
@@ -2317,7 +2318,7 @@
 
 
 
-                    <desc>Pièce sig., comme régente, 3 mois après la mort de son mari ; Lunéville,
+                    <desc xml:id="CAT_000038_e124_1">Pièce sig., comme régente, 3 mois après la mort de son mari ; Lunéville,
                         1729, 3 p. in-f. 3</desc>
 
                 </item>
@@ -2335,7 +2336,7 @@
 
 
 
-                    <desc>Pièce sig., 1751, 1 p. in-4 3</desc>
+                    <desc xml:id="CAT_000038_e125_1">Pièce sig., 1751, 1 p. in-4 3</desc>
 
                 </item>
 
@@ -2353,7 +2354,7 @@
 
 
 
-                    <desc>L. a. s. à la célèbre marquise du Chatellet, à Nancy, 1 p. in-4., cachet.
+                    <desc xml:id="CAT_000038_e126_1">L. a. s. à la célèbre marquise du Chatellet, à Nancy, 1 p. in-4., cachet.
                         5</desc>
 
                 </item>
@@ -2371,7 +2372,7 @@
 
 
 
-                    <desc>L. sig. a Jacq. Lefèvre ; Blois, 25 fév. (1512), 1 p. in-f. Légère
+                    <desc xml:id="CAT_000038_e127_1">L. sig. a Jacq. Lefèvre ; Blois, 25 fév. (1512), 1 p. in-f. Légère
                         écornure dans un angle. 20</desc>
 
                     <note>Importante pièce historique. Ayant à supporter de lourdes charges pour la
@@ -2397,7 +2398,7 @@
 
 
 
-                    <desc>L. sig. au duc d'Orléans (plus tard régent); 21 nov. 1717, 1 p. in-f.
+                    <desc xml:id="CAT_000038_e128_1">L. sig. au duc d'Orléans (plus tard régent); 21 nov. 1717, 1 p. in-f.
                         6</desc>
 
                     <note>Il charge le duc d'Orléans, alors commandant les troupes françaises en
@@ -2420,7 +2421,7 @@
 
 
 
-                    <desc>Pièce sig., avec le mot payés autog., 1760, 1/2 p. in-f. 5</desc>
+                    <desc xml:id="CAT_000038_e129_1">Pièce sig., avec le mot payés autog., 1760, 1/2 p. in-f. 5</desc>
 
                 </item>
 
@@ -2437,7 +2438,7 @@
 
 
 
-                    <desc>Pièce sig., avec 1 ligne aut., 1788, 1 p. in-f. 10</desc>
+                    <desc xml:id="CAT_000038_e130_1">Pièce sig., avec 1 ligne aut., 1788, 1 p. in-f. 10</desc>
 
                     <note>Ordre de payer 500 livres à l'argentier de l'écurie de la reine, pour 5
                         valets de pied</note>
@@ -2457,7 +2458,7 @@
 
 
 
-                    <desc>L. s., contres. Richelieu, 1817, 1/4 de p. in-f. Belle pièce. 5</desc>
+                    <desc xml:id="CAT_000038_e131_1">L. s., contres. Richelieu, 1817, 1/4 de p. in-f. Belle pièce. 5</desc>
 
                 </item>
 
@@ -2474,7 +2475,7 @@
 
 
 
-                    <desc>L. s., 1832, 1/2 p. in-4.1 2</desc>
+                    <desc xml:id="CAT_000038_e132_1">L. s., 1832, 1/2 p. in-4.1 2</desc>
 
                 </item>
 
@@ -2491,7 +2492,7 @@
 
 
 
-                    <desc>L. sig.; Hambourg, 1765, 2 p. in-f. 4</desc>
+                    <desc xml:id="CAT_000038_e133_1">L. sig.; Hambourg, 1765, 2 p. in-f. 4</desc>
 
                 </item>
 
@@ -2508,7 +2509,7 @@
 
 
 
-                    <desc>L. sig.; 1868, 1 p. in-f. 10</desc>
+                    <desc xml:id="CAT_000038_e134_1">L. sig.; 1868, 1 p. in-f. 10</desc>
 
                 </item>
 
@@ -2521,7 +2522,7 @@
 
 
 
-                    <desc>Signature aut. découpée. 1</desc>
+                    <desc xml:id="CAT_000038_e135_1">Signature aut. découpée. 1</desc>
 
 
                 </item>
@@ -2534,7 +2535,7 @@
 
 
 
-                    <desc>L. a. s., 3 p. in-18. 3</desc>
+                    <desc xml:id="CAT_000038_e136_1">L. a. s., 3 p. in-18. 3</desc>
 
                     <note>Relative à une souscription en faveur des pauvres irlandais</note>
 
@@ -2553,7 +2554,7 @@
 
 
 
-                    <desc>L. sig., 1 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000038_e137_1">L. sig., 1 p. in-4. 3</desc>
 
                 </item>
 
@@ -2570,7 +2571,7 @@
 
 
 
-                    <desc>L. sig. au garde des sceaux Villeroy; Fontainebleau, 1606, 1/2 p. in-f.,
+                    <desc xml:id="CAT_000038_e138_1">L. sig. au garde des sceaux Villeroy; Fontainebleau, 1606, 1/2 p. in-f.,
                         traces de cachet. 10</desc>
 
                     <note>Belle lettre relative au don que le roi (Henri IV) lui fait des deniers
@@ -2591,7 +2592,7 @@
 
 
 
-                    <desc>L. sig., 30 nov. 1751, 3/4 de p. in-4, sur la naissance de son fils le duc
+                    <desc xml:id="CAT_000038_e139_1">L. sig., 30 nov. 1751, 3/4 de p. in-4, sur la naissance de son fils le duc
                         de Bourgogne. 4</desc>
 
                 </item>
@@ -2610,7 +2611,7 @@
 
 
 
-                    <desc>L. a. s. (à la marquise d'Usson, dame de compagnie de Mme Elisabeth) ; la
+                    <desc xml:id="CAT_000038_e140_1">L. a. s. (à la marquise d'Usson, dame de compagnie de Mme Elisabeth) ; la
                         Vennerie (château royal près de Turin), 1780, 2 p. pl. in-8. 10</desc>
 
                     <note>Belle et touchante lettre sur son fils le prince de Piémont</note>
@@ -2630,7 +2631,7 @@
 
 
 
-                    <desc>L. a. s. à M. de Chalut (1778), 1 p. 1/2 in-4. 4</desc>
+                    <desc xml:id="CAT_000038_e141_1">L. a. s. à M. de Chalut (1778), 1 p. 1/2 in-4. 4</desc>
 
                     <note>Pressante demande de 350 louis, dont elle a absolument besoin pour le jeu
                         du roi</note>
@@ -2651,7 +2652,7 @@
 
 
 
-                    <desc>L. a. s. (au baron de Joursanvault); Ménars, 1776, 1 p. in-4. 12</desc>
+                    <desc xml:id="CAT_000038_e142_1">L. a. s. (au baron de Joursanvault); Ménars, 1776, 1 p. in-4. 12</desc>
 
                     <note>Jolie et curieuse lettre relative à l'oeuvre de gravure de Mme de
                         Pompadour</note>
@@ -2671,7 +2672,7 @@
 
 
 
-                    <desc>L. a. s. à M. Ardouin, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000038_e143_1">L. a. s. à M. Ardouin, 1 p. in-8. 4</desc>
 
                 </item>
 
@@ -2688,7 +2689,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000038_e144_1">L. a. s., 1 p. in-8. 4</desc>
 
                 </item>
 
@@ -2705,7 +2706,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. 1/2 in-8. 4</desc>
+                    <desc xml:id="CAT_000038_e145_1">L. a. s., 1 p. 1/2 in-8. 4</desc>
 
                     <note>Il part pour Angers, où il va acheter une église carlovingienne</note>
                 </item>
@@ -2716,7 +2717,7 @@
                     <trait>
                         <p>célèbre jurisconsulte, conventionnel et directeur, de l'Acad. fr.</p>
                     </trait>
-                    <desc>L. a. s., an VII, 1 p. in-4. Jolie vignette. 5</desc>
+                    <desc xml:id="CAT_000038_e146_1">L. a. s., an VII, 1 p. in-4. Jolie vignette. 5</desc>
 
                     <note>Curieuse lettre confidentielle sur les conscrits de la Belgique, qui sont
                         sans bas, sans souliers, presque nus, et auxquels on distribue de la viande
@@ -2739,7 +2740,7 @@
 
 
 
-                    <desc>L. a. s., 1793, 1 p. in-4. 4 </desc>
+                    <desc xml:id="CAT_000038_e147_1">L. a. s., 1793, 1 p. in-4. 4 </desc>
                 </item>
 
                 <item n="148" xml:id="CAT_000038_e148">
@@ -2748,7 +2749,7 @@
                     <trait>
                         <p>le grand compositeur.</p>
                     </trait>
-                    <desc>L. a. s., 1 p. in-8. 6</desc>
+                    <desc xml:id="CAT_000038_e148_1">L. a. s., 1 p. in-8. 6</desc>
 
                     <note>Invitation à un dîner chez sa mère, où se trouveront Heine et quelques
                         autres Allemands</note>
@@ -2768,7 +2769,7 @@
 
 
 
-                    <desc>L. a. s., 4 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000038_e149_1">L. a. s., 4 p. in-4. 5</desc>
 
                     <note>Curieuse lettre prose et vers écrite sous le premier empire</note>
 
@@ -2787,7 +2788,7 @@
 
 
 
-                    <desc>L. a. s. au baron d'Eckstein, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e150_1">L. a. s. au baron d'Eckstein, 1 p. in-8. 3</desc>
 
                     <note>Relative à sa nomination à la place de chef des documents historiques aux
                         Archives</note>
@@ -2803,7 +2804,7 @@
 
 
 
-                    <desc>L. sig., avec corrections aut., à ses collègues du Collège de France, 9
+                    <desc xml:id="CAT_000038_e151_1">L. sig., avec corrections aut., à ses collègues du Collège de France, 9
                         mars 1851, 4 p. pl. in-4. 6</desc>
 
                     <note>Très-curieuse pièce relative à la suppression de son cours au Collège de
@@ -2818,7 +2819,7 @@
                     <trait>
                         <p>historien de la Révolution, de l'Acad. fr.</p>
                     </trait>
-                    <desc>L. a. s. (à M. Choulan, poète), 1845, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e152_1">L. a. s. (à M. Choulan, poète), 1845, 1 p. in-8. 3</desc>
                 </item>
 
 
@@ -2836,7 +2837,7 @@
 
 
 
-                    <desc>L. a. s.; Mâcon, 1835, 1 p. in-4. 4</desc>
+                    <desc xml:id="CAT_000038_e153_1">L. a. s.; Mâcon, 1835, 1 p. in-4. 4</desc>
 
                 </item>
 
@@ -2853,7 +2854,7 @@
 
 
 
-                    <desc>L. a. s.; Gorcum, an IV, 1 p. in-f., vignette. 5</desc>
+                    <desc xml:id="CAT_000038_e154_1">L. a. s.; Gorcum, an IV, 1 p. in-f., vignette. 5</desc>
 
                 </item>
 
@@ -2871,7 +2872,7 @@
 
 
 
-                    <desc>L. a. s., 1771, 3 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000038_e155_1">L. a. s., 1771, 3 p. in-4. 5</desc>
 
                     <note>Intéressante lettre relative à ses recherches sur la boussole</note>
 
@@ -2890,7 +2891,7 @@
 
 
 
-                    <desc>L. a. s. en français au colonel Mabru; Londres, 1840. 1 p. in-f. 6</desc>
+                    <desc xml:id="CAT_000038_e156_1">L. a. s. en français au colonel Mabru; Londres, 1840. 1 p. in-f. 6</desc>
 
                 </item>
 
@@ -2907,7 +2908,7 @@
 
 
 
-                    <desc>L. sig. à M. Léger, an XIII, 1/2 p. in-4, sur une statue équestre de
+                    <desc xml:id="CAT_000038_e157_1">L. sig. à M. Léger, an XIII, 1/2 p. in-4, sur une statue équestre de
                         Napoléon. 3</desc>
 
                 </item>
@@ -2925,7 +2926,7 @@
 
 
 
-                    <desc>L. a. s. au comte de Tolstoy, 1 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000038_e158_1">L. a. s. au comte de Tolstoy, 1 p. in-4. 5</desc>
 
                     <note>Envoi d'autographes de littérateurs modernés, V. Hugo, Château- briand,
                         Alf. de Vigny, etc</note>
@@ -2946,7 +2947,7 @@
 
 
 
-                    <desc>L. a. s. à Chifflet, 1646, 1 p. pl. in-f., cachet. 27</desc>
+                    <desc xml:id="CAT_000038_e159_1">L. a. s. à Chifflet, 1646, 1 p. pl. in-f., cachet. 27</desc>
 
                     <note>Intéressante lettre sur le véritable auteur de l'Imitation de J.-C.,
                         question dont Naudé s'est beaucoup occupé</note>
@@ -2966,7 +2967,7 @@
 
 
 
-                    <desc>L. a. s. au général Lecourbe, an VII, 1/2 p. in-f., cachet. 8</desc>
+                    <desc xml:id="CAT_000038_e160_1">L. a. s. au général Lecourbe, an VII, 1/2 p. in-f., cachet. 8</desc>
 
                 </item>
 
@@ -2983,7 +2984,7 @@
 
 
 
-                    <desc>L. a. s. au roi son frère ; Blois, 7 janv. 1637, 1 p. in-4, cachets.
+                    <desc xml:id="CAT_000038_e161_1">L. a. s. au roi son frère ; Blois, 7 janv. 1637, 1 p. in-4, cachets.
                         15</desc>
 
                     <note>Pièce historique. Retiré à Blois à la suite de la découverte de la
@@ -3006,7 +3007,7 @@
 
 
 
-                    <desc>L. a. s. au prince de Vaudemont; 1706, 2 p. in-4, cachet à ses armes.
+                    <desc xml:id="CAT_000038_e162_1">L. a. s. au prince de Vaudemont; 1706, 2 p. in-4, cachet à ses armes.
                         17</desc>
 
                     <note>Lettre intéressante, commencée par un secrétaire, continuée et signée par
@@ -3031,7 +3032,7 @@
 
 
 
-                    <desc>L. a. s. à M. Godefroy; 23 janv. 1764, 1 p. 1/2 in-4. 4</desc>
+                    <desc xml:id="CAT_000038_e163_1">L. a. s. à M. Godefroy; 23 janv. 1764, 1 p. 1/2 in-4. 4</desc>
 
                     <note>Très curieuse lettre sur la conduite de J.-J. Rousseau à Motiers, sur la
                         singularité de sa vie, et sur les troubles dont sa proscription est
@@ -3052,7 +3053,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-18. 3</desc>
+                    <desc xml:id="CAT_000038_e164_1">L. a. s., 1 p. in-18. 3</desc>
 
                 </item>
 
@@ -3066,7 +3067,7 @@
                         <p>dit le patriote Palloy, qui démolit la Bastille</p>
                     </trait>
 
-                    <desc>Pièce sig., an II, 1 p. in-f. 6</desc>
+                    <desc xml:id="CAT_000038_e165_1">Pièce sig., an II, 1 p. in-f. 6</desc>
 
                     <note>Serment républicain (imprimé), d'exterminer tous les tyrans, etc., délivré
                         à Deforgues, ministre des affaires étrangères, et sig. de celui-ci en
@@ -3087,7 +3088,7 @@
 
 
 
-                    <desc>L. a. s., 1816, 1 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000038_e166_1">L. a. s., 1816, 1 p. in-4. 3</desc>
 
                 </item>
 
@@ -3104,7 +3105,7 @@
 
 
 
-                    <desc>L. a. s. à Peuchet, 1820, 1 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000038_e167_1">L. a. s. à Peuchet, 1820, 1 p. in-4. 3</desc>
 
                 </item>
 
@@ -3121,7 +3122,7 @@
 
 
 
-                    <desc>L. a. s. à Miss Richardson, 1835, 1 p. 1/2 in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e168_1">L. a. s. à Miss Richardson, 1835, 1 p. 1/2 in-8. 3</desc>
 
                 </item>
 
@@ -3139,7 +3140,7 @@
 
 
 
-                    <desc>L. a. s. à H. Spelman, à Londres; Paris, 1621, 1 p. in-f., cachet à ses
+                    <desc xml:id="CAT_000038_e169_1">L. a. s. à H. Spelman, à Londres; Paris, 1621, 1 p. in-f., cachet à ses
                         armes. Légère tache d'eau. 35</desc>
 
                     <note>Il lui recommande M. de Vallée, qui s'occupe des questions d'armoiries et
@@ -3162,7 +3163,7 @@
 
 
 
-                    <desc>L, a. sig. Victor; Chamarande, 1865, 1 p. 1/2 in-8, enveloppe, cachet à
+                    <desc xml:id="CAT_000038_e170_1">L, a. sig. Victor; Chamarande, 1865, 1 p. 1/2 in-8, enveloppe, cachet à
                         ses armes. 4</desc>
 
                 </item>
@@ -3180,7 +3181,7 @@
 
 
 
-                    <desc>L. a. s. à son frère, 1833, 3 p. in-4. 6</desc>
+                    <desc xml:id="CAT_000038_e171_1">L. a. s. à son frère, 1833, 3 p. in-4. 6</desc>
 
                     <note>Lettre des plus curieuses, écrite à 80 ans. Il est résigné. A son âge, «
                         on doit être prêt à trousser ses chausses et à passer l'eau.» Il encourage
@@ -3202,7 +3203,7 @@
 
 
 
-                    <desc>Pièce sig. ; Lyon, 1758, 1 p. in-4. 6</desc>
+                    <desc xml:id="CAT_000038_e172_1">Pièce sig. ; Lyon, 1758, 1 p. in-4. 6</desc>
 
                     <note>Relative à un procès concernant le terrier de Villette de Laye, plaidé
                         pour Piron par M. de Langeron, avocat au parlement de Dijon</note>
@@ -3222,7 +3223,7 @@
 
 
 
-                    <desc>L. a. s.; Marseille, 1827, 1 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000038_e173_1">L. a. s.; Marseille, 1827, 1 p. in-4. 5</desc>
 
                     <note>Il ne peut jouer à Aix avec Mme Dorval, étant engagé pour Avignon</note>
 
@@ -3242,7 +3243,7 @@
 
 
 
-                    <desc>Pièce sig. d'elle et de son mari, 1609, 2 p. 1/2 in-f. 6</desc>
+                    <desc xml:id="CAT_000038_e174_1">Pièce sig. d'elle et de son mari, 1609, 2 p. 1/2 in-f. 6</desc>
 
                     <note>Elle fait élection de domicile dans son célèbre hôtel de la rue
                         Saint-Thomas du Louvre</note>
@@ -3263,7 +3264,7 @@
 
 
 
-                    <desc>L. a. s., 1835, 2 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000038_e175_1">L. a. s., 1835, 2 p. in-8. 4</desc>
 
                     <note>Belle lettre dans laquelle il parle de son Glossaire de la langue des
                         Troubadours</note>
@@ -3283,7 +3284,7 @@
 
 
 
-                    <desc>L. a. s. à M. Danzin, 1869, 1 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000038_e176_1">L. a. s. à M. Danzin, 1869, 1 p. in-8. 4</desc>
 
                     <note>Relative au tableau du nombre des employés en France</note>
 
@@ -3302,7 +3303,7 @@
 
 
 
-                    <desc>Pensée musicale, paroles et musique aut. sig.; Boulogne, 1837, 3 p. in-4.
+                    <desc xml:id="CAT_000038_e177_1">Pensée musicale, paroles et musique aut. sig.; Boulogne, 1837, 3 p. in-4.
                         6</desc>
 
                 </item>
@@ -3321,7 +3322,7 @@
 
 
 
-                    <desc>L. a. sig. de ses initiales, à M. de Theis, à Chauny; 25 janv. (1791), 1
+                    <desc xml:id="CAT_000038_e178_1">L. a. sig. de ses initiales, à M. de Theis, à Chauny; 25 janv. (1791), 1
                         p. in-4, cachet. Rare. 15</desc>
 
                     <note>Belle et charmante épitre. « Vous savez, dit-il, que Paris, s'il n'a plus
@@ -3343,7 +3344,7 @@
 
 
 
-                    <desc>L. a. s.; Morlaix, 2 déc. 1777, 4 p. in-4. 6</desc>
+                    <desc xml:id="CAT_000038_e179_1">L. a. s.; Morlaix, 2 déc. 1777, 4 p. in-4. 6</desc>
 
                     <note>Très-intéressante lettre relative à la guerre d'Amérique, et dans laquelle
                         il manifeste son enthousiasme pour Turgot, qu'il compare à Sully.</note>
@@ -3362,7 +3363,7 @@
 
 
 
-                    <desc>L. aut.; Cauterets, 4 p. pl. in-4. 3</desc>
+                    <desc xml:id="CAT_000038_e180_1">L. aut.; Cauterets, 4 p. pl. in-4. 3</desc>
 
                 </item>
 
@@ -3379,7 +3380,7 @@
 
 
 
-                    <desc>L. sig. à M. de L. a. Marque, 1736, 1 p. 1/2 in-4, cachet. Belle pièce.
+                    <desc xml:id="CAT_000038_e181_1">L. sig. à M. de L. a. Marque, 1736, 1 p. 1/2 in-4, cachet. Belle pièce.
                         3</desc>
 
                 </item>
@@ -3397,7 +3398,7 @@
 
 
 
-                    <desc>L. a. s. à Raphaël Morghen, 1795, 1 p. in-4, cachet. 4</desc>
+                    <desc xml:id="CAT_000038_e182_1">L. a. s. à Raphaël Morghen, 1795, 1 p. in-4, cachet. 4</desc>
 
                 </item>
 
@@ -3414,7 +3415,7 @@
 
 
 
-                    <desc>L. a. s., en français ; Turin, 1865, 2 p. in-8. 4</desc>
+                    <desc xml:id="CAT_000038_e183_1">L. a. s., en français ; Turin, 1865, 2 p. in-8. 4</desc>
 
                     <note>Il a entamé des négociations pour jouer au Théâtre-Italien de Paris</note>
 
@@ -3433,7 +3434,7 @@
 
 
 
-                    <desc>L. a. s. à M. Sènes, 1/3 de p. in-4. 6</desc>
+                    <desc xml:id="CAT_000038_e184_1">L. a. s. à M. Sènes, 1/3 de p. in-4. 6</desc>
 
 
                 </item>
@@ -3450,7 +3451,7 @@
 
 
 
-                    <desc>L. a. s.; Choisy-le-Roi, 2 p. in-4. 12</desc>
+                    <desc xml:id="CAT_000038_e185_1">L. a. s.; Choisy-le-Roi, 2 p. in-4. 12</desc>
 
                     <note>Belle et très-intéressante lettre toute relative à la Marseillaise</note>
 
@@ -3469,7 +3470,7 @@
 
 
 
-                    <desc>L. a. s. à Roger, de l'Académie, 1/2 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e186_1">L. a. s. à Roger, de l'Académie, 1/2 p. in-8. 3</desc>
 
                 </item>
 
@@ -3486,7 +3487,7 @@
 
 
 
-                    <desc>L. a. s. à Capecelatro, Romano, 1853, 1 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000038_e187_1">L. a. s. à Capecelatro, Romano, 1853, 1 p. in-8. 5</desc>
 
                     <note>Belle et intéressante lettre où il est question de Rossini, Tamburini,
                         Mario et de Mmes Frezzolini et Alboni</note>
@@ -3507,7 +3508,7 @@
 
 
 
-                    <desc>L. a. s.; Brescia, 1748, 1 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000038_e188_1">L. a. s.; Brescia, 1748, 1 p. in-4. 5</desc>
 
                 </item>
 
@@ -3524,7 +3525,7 @@
 
 
 
-                    <desc>L. a. s., 1 p. in-8. 6</desc>
+                    <desc xml:id="CAT_000038_e189_1">L. a. s., 1 p. in-8. 6</desc>
 
 
                 </item>
@@ -3541,7 +3542,7 @@
 
 
 
-                    <desc>L. a. s. à M. Daussy, 1806, 1 p. in-8. 10</desc>
+                    <desc xml:id="CAT_000038_e190_1">L. a. s. à M. Daussy, 1806, 1 p. in-8. 10</desc>
 
                     <note>Relative à la belle édition in-4 de Paul et Virginie, publiée en 1806, par
                         Didot</note>
@@ -3557,7 +3558,7 @@
 
 
 
-                    <desc>Fragment aut. de Paul et Virginie, 1 p. in-8. 10</desc>
+                    <desc xml:id="CAT_000038_e191_1">Fragment aut. de Paul et Virginie, 1 p. in-8. 10</desc>
 
                 </item>
 
@@ -3574,7 +3575,7 @@
 
 
 
-                    <desc>L. a. s. à Renduel, 1841, 2 p. in-8. 6</desc>
+                    <desc xml:id="CAT_000038_e192_1">L. a. s. à Renduel, 1841, 2 p. in-8. 6</desc>
 
                     <note>Curieuse lettre relative à un manuscrit de ballades de Bertrand (écrivain
                         romantique), que Renduel a payé, mais non publié. Ce pauvre jeune homme est
@@ -3595,7 +3596,7 @@
 
 
 
-                    <desc>L. a. s. à M. de Canbis, 1837 , 2 p. in-8. 2</desc>
+                    <desc xml:id="CAT_000038_e193_1">L. a. s. à M. de Canbis, 1837 , 2 p. in-8. 2</desc>
 
                 </item>
 
@@ -3612,7 +3613,7 @@
 
 
 
-                    <desc>L. a. sig. George à Mme Buloz, 1 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000038_e194_1">L. a. sig. George à Mme Buloz, 1 p. in-8. 5</desc>
 
                     <note>Lettre écrite à 4 heures du matin, par laquelle elle demande une loge pour
                         la première représentation de la Esméralda</note>
@@ -3632,7 +3633,7 @@
 
 
 
-                    <desc>L. a. s., an V, 1 p. in-4. 6</desc>
+                    <desc xml:id="CAT_000038_e195_1">L. a. s., an V, 1 p. in-4. 6</desc>
 
                 </item>
 
@@ -3649,7 +3650,7 @@
 
 
 
-                    <desc>L. a. s. à M. de Merville, 1786, 1 p. in-4. 5</desc>
+                    <desc xml:id="CAT_000038_e196_1">L. a. s. à M. de Merville, 1786, 1 p. in-4. 5</desc>
 
                 </item>
 
@@ -3666,7 +3667,7 @@
 
 
 
-                    <desc>L. sig., avec la souscript. aut., aux trésoriers de France à Lyon, 1636, 1
+                    <desc xml:id="CAT_000038_e197_1">L. sig., avec la souscript. aut., aux trésoriers de France à Lyon, 1636, 1
                         p. in-f. 6</desc>
 
                 </item>
@@ -3684,7 +3685,7 @@
 
 
 
-                    <desc>L. a. s. à Maradan, an 4, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e198_1">L. a. s. à Maradan, an 4, 1 p. in-8. 3</desc>
 
                 </item>
 
@@ -3701,7 +3702,7 @@
 
 
 
-                    <desc>L. a. s., 1825, 1 p. in-4. 4</desc>
+                    <desc xml:id="CAT_000038_e199_1">L. a. s., 1825, 1 p. in-4. 4</desc>
 
                     <note>Relative à ses fonctions d'organiste de la chapelle du roi</note>
 
@@ -3720,7 +3721,7 @@
 
 
 
-                    <desc>Pensées philosophiques aut. sig., 1 p. in-8. 5</desc>
+                    <desc xml:id="CAT_000038_e200_1">Pensées philosophiques aut. sig., 1 p. in-8. 5</desc>
 
                 </item>
 
@@ -3737,7 +3738,7 @@
 
 
 
-                    <desc>Laissez-passer donné au docteur Récamier pour les conférences de
+                    <desc xml:id="CAT_000038_e201_1">Laissez-passer donné au docteur Récamier pour les conférences de
                         Notre-Dame, pièce aut. sig., 1850, cachet, 1/4 de p. in-4. 2</desc>
 
                 </item>
@@ -3755,7 +3756,7 @@
 
 
 
-                    <desc>L. a. s. à Ferd. Langlé; Annecy, 1853, 3 p. pl. in-8. 6</desc>
+                    <desc xml:id="CAT_000038_e202_1">L. a. s. à Ferd. Langlé; Annecy, 1853, 3 p. pl. in-8. 6</desc>
 
                     <note>Très-curieuse lettre écrite de l'exil. Il ne conserve aucune espérance de
                         retour. « Il est des gouvernements qui sont fatalement poussés à la
@@ -3777,7 +3778,7 @@
 
 
 
-                    <desc>L. sig. aux trésoriers de France a Lyon, 1609, 1 p. in-f. 6</desc>
+                    <desc xml:id="CAT_000038_e203_1">L. sig. aux trésoriers de France a Lyon, 1609, 1 p. in-f. 6</desc>
 
                 </item>
 
@@ -3794,7 +3795,7 @@
 
 
 
-                    <desc>L. a. s. à Treuttel et Wurtz, 1820, 1 p. pet. in-4. 4</desc>
+                    <desc xml:id="CAT_000038_e204_1">L. a. s. à Treuttel et Wurtz, 1820, 1 p. pet. in-4. 4</desc>
 
                 </item>
 
@@ -3811,7 +3812,7 @@
 
 
 
-                    <desc>L. a. s., 2 p. in-12. 3</desc>
+                    <desc xml:id="CAT_000038_e205_1">L. a. s., 2 p. in-12. 3</desc>
 
                 </item>
 
@@ -3828,7 +3829,7 @@
 
 
 
-                    <desc>L. a. s. 1 p. 1/2 in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e206_1">L. a. s. 1 p. 1/2 in-8. 3</desc>
 
                 </item>
 
@@ -3845,7 +3846,7 @@
 
 
 
-                    <desc>L. a. s. au chancelier de France, 1 p. in-8. 6</desc>
+                    <desc xml:id="CAT_000038_e207_1">L. a. s. au chancelier de France, 1 p. in-8. 6</desc>
 
                 </item>
 
@@ -3862,7 +3863,7 @@
 
 
 
-                    <desc>L. a. s., 1679, 1 p. 1/2 in-4. Léger raccommodage dans un angle. 20</desc>
+                    <desc xml:id="CAT_000038_e208_1">L. a. s., 1679, 1 p. 1/2 in-4. Léger raccommodage dans un angle. 20</desc>
 
                 </item>
 
@@ -3880,7 +3881,7 @@
 
 
 
-                    <desc>Pièce sig. avec plusieurs mots aut., 1656, 1 p. in-4. 3</desc>
+                    <desc xml:id="CAT_000038_e209_1">Pièce sig. avec plusieurs mots aut., 1656, 1 p. in-4. 3</desc>
 
                 </item>
 
@@ -3897,7 +3898,7 @@
 
 
 
-                    <desc>Pièce sig., 1680, 1 p. in-4. 2</desc>
+                    <desc xml:id="CAT_000038_e210_1">Pièce sig., 1680, 1 p. in-4. 2</desc>
 
                 </item>
 
@@ -3914,7 +3915,7 @@
 
 
 
-                    <desc>L. a. s., 1762, 1 p. in-4. 15</desc>
+                    <desc xml:id="CAT_000038_e211_1">L. a. s., 1762, 1 p. in-4. 15</desc>
 
 
                 </item>
@@ -3931,7 +3932,7 @@
 
 
 
-                    <desc>L. a. s. à Réal, 1 p. in-4. 4</desc>
+                    <desc xml:id="CAT_000038_e212_1">L. a. s. à Réal, 1 p. in-4. 4</desc>
 
 
                 </item>
@@ -3948,7 +3949,7 @@
 
 
 
-                    <desc>L. a. s. au poète Bordes, directeur de l'Académie de Lyon; Château de
+                    <desc xml:id="CAT_000038_e213_1">L. a. s. au poète Bordes, directeur de l'Académie de Lyon; Château de
                         Prangin, 18 janv., 2 p. in-4, cachet. Rare signée en toutes lettres.
                         65</desc>
 
@@ -3971,7 +3972,7 @@
                             (Eure-et-Loir) en 1826</p>
                     </trait>
 
-                    <desc>L. a. s., 1874, 1 p. in-8. Sur sa biographie. 5</desc>
+                    <desc xml:id="CAT_000038_e214_1">L. a. s., 1874, 1 p. in-8. Sur sa biographie. 5</desc>
 
                 </item>
 
@@ -3989,7 +3990,7 @@
 
 
 
-                    <desc>L. a. s. à Letronne, 1845, 1 p. in-8. 3</desc>
+                    <desc xml:id="CAT_000038_e215_1">L. a. s. à Letronne, 1845, 1 p. in-8. 3</desc>
 
                 </item>
 

@@ -1,4 +1,5 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000023">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000023">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -83,7 +84,7 @@
                <trait>
                   <p>illustre chancelier de France</p>
                </trait>
-               <desc>L. s., 1740, 1 p. in-f. 1</desc>
+               <desc xml:id="CAT_000023_e1_1">L. s., 1740, 1 p. in-f. 1</desc>
             </item>
 
             <item n="2" xml:id="CAT_000023_e2">
@@ -93,7 +94,7 @@
                   <p>philanthrope, de l'Acad. fr., petit-fils du chancelier, né à Fresnes
                      (Seine-et-Marne</p>
                </trait>
-               <desc>L. a. s.; Fresnes, 1822, 1 p. in-4. 3</desc>
+               <desc xml:id="CAT_000023_e2_1">L. a. s.; Fresnes, 1822, 1 p. in-4. 3</desc>
             </item>
 
             <item n="3" xml:id="CAT_000023_e3">
@@ -103,7 +104,7 @@
                   <p>fameux gastronome, auquel Grimod de la Reynière dédia son Almanach des
                      Gourmands, né à Montpellier</p>
                </trait>
-               <desc>L. a. s. au baron de Gerando; Paris, 1806, 1/2 p. in-4. 3</desc>
+               <desc xml:id="CAT_000023_e3_1">L. a. s. au baron de Gerando; Paris, 1806, 1/2 p. in-4. 3</desc>
             </item>
 
             <item n="4" xml:id="CAT_000023_e4">
@@ -112,7 +113,7 @@
                <trait>
                   <p>fameux ministre de Louis XV, créature de la Du Barry</p>
                </trait>
-               <desc>L. s., 1763, 1 p. in-f. 1.50</desc>
+               <desc xml:id="CAT_000023_e4_1">L. s., 1763, 1 p. in-f. 1.50</desc>
             </item>
             <item n="5" xml:id="CAT_000023_e5">
                <num>5</num>
@@ -121,7 +122,7 @@
                   <p>savant naturaliste et physicien suisse qui expliqua le premier le phénomène de
                      la bouteille de Leyde</p>
                </trait>
-               <desc>L. a. s. a M. Grand; Leyde, 1777, 2 p. in-4. 4</desc>
+               <desc xml:id="CAT_000023_e5_1">L. a. s. a M. Grand; Leyde, 1777, 2 p. in-4. 4</desc>
             </item>
 
             <item n="6" xml:id="CAT_000023_e6">
@@ -130,7 +131,7 @@
                <trait>
                   <p>grand botaniste piémontais, ami de Linné et de Haller</p>
                </trait>
-               <desc>L. a. s., en français, à Mme Tilliard, libraire: Turin, 1788, 1 p. in-4. Rare.
+               <desc xml:id="CAT_000023_e6_1">L. a. s., en français, à Mme Tilliard, libraire: Turin, 1788, 1 p. in-4. Rare.
                   5</desc>
                <note>Relative à la Flora pedemontaua, son principal ouvrage</note>
             </item>
@@ -141,7 +142,7 @@
                <trait>
                   <p>ancien pair de France, orateur socialiste</p>
                </trait>
-               <desc>L. a. s. au libraire Lobaire, 1 p. in-18. 1.50</desc>
+               <desc xml:id="CAT_000023_e7_1">L. a. s. au libraire Lobaire, 1 p. in-18. 1.50</desc>
             </item>
             <item n="8" xml:id="CAT_000023_e8">
                <num>8</num>
@@ -149,7 +150,7 @@
                <trait>
                   <p>érudit liégeois du XVIIIe siècle</p>
                </trait>
-               <desc>L. a. s. à l'abbé Mercier-Saint-Léger; Liège, 1781, 3 p. in-4. 3</desc>
+               <desc xml:id="CAT_000023_e8_1">L. a. s. à l'abbé Mercier-Saint-Léger; Liège, 1781, 3 p. in-4. 3</desc>
                <note>Belle et intéressante épitre relative à sa Notice sur le roman des Oiseaux, par
                   Gaces, roman dont vient de s'occuper Lacurne de Sainte-Palaye dans ses Mémoires
                   hist. sur la Chasse</note>
@@ -161,7 +162,7 @@
                <trait>
                   <p>commissaire du gouvernement provisoire à Lyon, député de la Seine</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 1.50</desc>
+               <desc xml:id="CAT_000023_e9_1">L. a. s., 1 p. in-8. 1.50</desc>
             </item>
             <item n="10" xml:id="CAT_000023_e10">
                <num>10</num>
@@ -169,7 +170,7 @@
                <trait>
                   <p>savant physiologiste et mathématicien italien</p>
                </trait>
-               <desc>L. a. s. ; Milan, 1812, 3 p. in-1. 2.50</desc>
+               <desc xml:id="CAT_000023_e10_1">L. a. s. ; Milan, 1812, 3 p. in-1. 2.50</desc>
                <note>Belle et curieuse pièce relative à ses fonctions de secrétaire de l'Institut
                   italien, qu'il veut résilier</note>
             </item>
@@ -181,7 +182,7 @@
                   <p>célèbre critique et historien allemand, auteur de l'Histoire de la Guerre de
                      sept ans, créateur du journal La Minerve</p>
                </trait>
-               <desc>L. a. s., en français, à M. Baudus, 1801, 1 p. in-4. 2.50</desc>
+               <desc xml:id="CAT_000023_e11_1">L. a. s., en français, à M. Baudus, 1801, 1 p. in-4. 2.50</desc>
                <note>Relative aux ouvrages du philosophe écossais Beattie, « inconnu en France,
                   comme bien d'autres écrivains.</note>
             </item>
@@ -192,7 +193,7 @@
                <trait>
                   <p>un des plus savants géologues contemporains, né à Reims</p>
                </trait>
-               <desc>L. a. s., 2 p. in-8. 3</desc>
+               <desc xml:id="CAT_000023_e12_1">L. a. s., 2 p. in-8. 3</desc>
                <note>Très-curieuse épitre dans laquelle il se défend d'émettre des opinions
                   irréligieuses dans ses cours de géologie</note>
             </item>
@@ -203,7 +204,7 @@
                <trait>
                   <p>unes des plus célèbres poètes écossaises de ce siècle</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 1.50</desc>
+               <desc xml:id="CAT_000023_e13_1">L. a. s., 1 p. in-8. 1.50</desc>
             </item>
             <item n="14" xml:id="CAT_000023_e14">
                <num>14</num>
@@ -211,7 +212,7 @@
                <trait>
                   <p>astronome, premier maire de Paris</p>
                </trait>
-               <desc>L. s., 1791, 1/2 p. tn-f. 1</desc>
+               <desc xml:id="CAT_000023_e14_1">L. s., 1791, 1/2 p. tn-f. 1</desc>
             </item>
 
             <item n="15" xml:id="CAT_000023_e15">
@@ -220,7 +221,7 @@
                <trait>
                   <p>ministre de Napoléon III</p>
                </trait>
-               <desc>L. a. s., 1852, 1 p. in-4. 2</desc>
+               <desc xml:id="CAT_000023_e15_1">L. a. s., 1852, 1 p. in-4. 2</desc>
             </item>
 
             <item n="16" xml:id="CAT_000023_e16">
@@ -229,7 +230,7 @@
                <trait>
                   <p>savant chimiste et physicien, né à Metz</p>
                </trait>
-               <desc>L. a. s. au comte de Saint-Priest, 1847, 3 p. in-8. Intéressante. 2.50</desc>
+               <desc xml:id="CAT_000023_e16_1">L. a. s. au comte de Saint-Priest, 1847, 3 p. in-8. Intéressante. 2.50</desc>
             </item>
 
             <item n="17" xml:id="CAT_000023_e17">
@@ -239,7 +240,7 @@
                   <p>ingénieur, célèbre publiciste Saint-Simonien, l'un des collaborateurs de M. de
                      Lesseps pour les études du canal de Suez.</p>
                </trait>
-               <desc>L. a. s. ; Lyon, 1833, 1 p. in-4. 2</desc>
+               <desc xml:id="CAT_000023_e17_1">L. a. s. ; Lyon, 1833, 1 p. in-4. 2</desc>
             </item>
             <item n="18" xml:id="CAT_000023_e18">
                <num>18</num>
@@ -248,7 +249,7 @@
                   <p>représentant de l'Aisne à la Constituante de 1848, célèbre par son Rapport sur
                      le 15 mai</p>
                </trait>
-               <desc>L. a. s., 1850, 1 p. in-4. 2.50</desc>
+               <desc xml:id="CAT_000023_e18_1">L. a. s., 1850, 1 p. in-4. 2.50</desc>
             </item>
             <item n="19" xml:id="CAT_000023_e19">
                <num>19</num>
@@ -257,7 +258,7 @@
                   <p>peintre distingué, auquel on doit un beau portrait de Charlotte Corday, né à
                      Napoléon-Vendée</p>
                </trait>
-               <desc>L. a. s., 1862, 1 p. 1/4 in-12. 2</desc>
+               <desc xml:id="CAT_000023_e19_1">L. a. s., 1862, 1 p. 1/4 in-12. 2</desc>
             </item>
 
             <item n="20" xml:id="CAT_000023_e20">
@@ -267,7 +268,7 @@
                   <p>célèbre poète comique allemand, qui a mis sur la scène les types grotesques de
                      Vienne</p>
                </trait>
-               <desc>L. a. s. à la Gazette des Néades; Vienne, 1823, 1 p. in-4, cachet portant son
+               <desc xml:id="CAT_000023_e20_1">L. a. s. à la Gazette des Néades; Vienne, 1823, 1 p. in-4, cachet portant son
                   nom. 2</desc>
             </item>
 
@@ -278,7 +279,7 @@
                   <p>brave général de l'armée d'Afrique, représentant de la Loire-Inférieure, détenu
                      à Ham apres le 2 décembre</p>
                </trait>
-               <desc>L. a. s., 2 p. in-8. 3</desc>
+               <desc xml:id="CAT_000023_e21_1">L. a. s., 2 p. in-8. 3</desc>
             </item>
 
             <item n="22" xml:id="CAT_000023_e22">
@@ -287,7 +288,7 @@
                <trait>
                   <p>ministre de Napoléon III, né à Bayonne</p>
                </trait>
-               <desc>L. a. s., 1863, 2 p. in-8. 2</desc>
+               <desc xml:id="CAT_000023_e22_1">L. a. s., 1863, 2 p. in-8. 2</desc>
             </item>
             <item n="23" xml:id="CAT_000023_e23">
                <num>23</num>
@@ -295,7 +296,7 @@
                <trait>
                   <p>savant helléniste, traducteur de Lucien</p>
                </trait>
-               <desc>Quit. aut. sig., comme conseiller à la Cour des Monnaies, 1788, in-8. 2</desc>
+               <desc xml:id="CAT_000023_e23_1">Quit. aut. sig., comme conseiller à la Cour des Monnaies, 1788, in-8. 2</desc>
             </item>
 
             <item n="24" xml:id="CAT_000023_e24">
@@ -305,7 +306,7 @@
                   <p>célèbre femme de lettres, traductrice du Vicaire de Wakefield, née à La
                      Rochelle</p>
                </trait>
-               <desc>L. a. s., 19 mai 1818, 2 p. in-8, cachet. 2</desc>
+               <desc xml:id="CAT_000023_e24_1">L. a. s., 19 mai 1818, 2 p. in-8, cachet. 2</desc>
             </item>
             <item n="25" xml:id="CAT_000023_e25">
                <num>25</num>
@@ -313,7 +314,7 @@
                <trait>
                   <p>l'illustre orateur</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 1.50</desc>
+               <desc xml:id="CAT_000023_e25_1">L. a. s., 1 p. in-8. 1.50</desc>
             </item>
             <item n="26" xml:id="CAT_000023_e26">
                <num>26</num>
@@ -321,7 +322,7 @@
                <trait>
                   <p>fidèle compagnon de Napoléon Ier à Sainte-Hélène, né à Châteauroux</p>
                </trait>
-               <desc>L. a. s., comme chef de brigade du génie, au général Dugua; le Kaire, 14 vent,
+               <desc xml:id="CAT_000023_e26_1">L. a. s., comme chef de brigade du génie, au général Dugua; le Kaire, 14 vent,
                   an VII, 1 p. in-4. 2.50</desc>
             </item>
             <item n="27" xml:id="CAT_000023_e27">
@@ -330,7 +331,7 @@
                <trait>
                   <p>célèbre avocat, ministre du gouvernement- provisoire de 1848</p>
                </trait>
-               <desc>L. a. s. , 1857, 1 p. in-4. 2.50</desc>
+               <desc xml:id="CAT_000023_e27_1">L. a. s. , 1857, 1 p. in-4. 2.50</desc>
             </item>
             <item n="28" xml:id="CAT_000023_e28">
                <num>28</num>
@@ -339,7 +340,7 @@
                   <p>ingénieur, ministre de Napoléon III, dont le nom a été donné à un boulevard de
                      Paris, né dans Maine-et- Loire</p>
                </trait>
-               <desc>L. a. s., 1850, 1 p. in-4. 2.50</desc>
+               <desc xml:id="CAT_000023_e28_1">L. a. s., 1850, 1 p. in-4. 2.50</desc>
             </item>
             <item n="29" xml:id="CAT_000023_e29">
                <num>29</num>
@@ -348,7 +349,7 @@
                   <p>dernier recteur de l'ancienne Université de Paris, traducteur estimé de Virgile
                      et d'Horace, né près de Beauvais</p>
                </trait>
-               <desc>L. a. s.; Paris, an XII, 2 p. in-4. 3</desc>
+               <desc xml:id="CAT_000023_e29_1">L. a. s.; Paris, an XII, 2 p. in-4. 3</desc>
                <note>Intéressante épître relative à sa traduction de Virgile, qu'il regarde comme
                   son ouvrage le plus considérable et à une pension de 500 fr. que vient de lui
                   accorder le gouvernement</note>
@@ -361,7 +362,7 @@
                   <p>architecte, aussi célèbre par ses écrits sur son art que par ses constructions,
                      né à Rouen</p>
                </trait>
-               <desc>L. a. s.; Paris, 6 février 1770, 3 p. in-4. 4</desc>
+               <desc xml:id="CAT_000023_e30_1">L. a. s.; Paris, 6 février 1770, 3 p. in-4. 4</desc>
                <note>Curieuse épître relative à ses dettes, à son logement an Couvre et à sa place
                   de professeur à l'Académie</note>
             </item>
@@ -372,7 +373,7 @@
                <trait>
                   <p>le célèbre publiciste ultramontain, de l'Acad. franc., né dans l'Aveyron</p>
                </trait>
-               <desc>L. a. s. (au baron de Trémont, 1812), 2 p. in-4. 6</desc>
+               <desc xml:id="CAT_000023_e31_1">L. a. s. (au baron de Trémont, 1812), 2 p. in-4. 6</desc>
                <note>Epître très-curieuse relative à l'incendie de Moscou, qui lui inspire de
                   profondes réflexions. Voilà une population sans pain, sans habits, et à l'entrée
                   d'un hiver de Russie ! Si Napoléon va à Pétersbourg, il y fera sur les
@@ -391,7 +392,7 @@
                <trait>
                   <p>cardinal-archevêque de Lyon, fils du précédent, né à Milnau</p>
                </trait>
-               <desc>L. a. s.; Lyon, 1849, 1 p. in-8. Papier à ses armes. 2.50</desc>
+               <desc xml:id="CAT_000023_e32_1">L. a. s.; Lyon, 1849, 1 p. in-8. Papier à ses armes. 2.50</desc>
             </item>
 
             <item n="33" xml:id="CAT_000023_e33">
@@ -400,7 +401,7 @@
                <trait>
                   <p>général en chef de l'armée d'Egypte.</p>
                </trait>
-               <desc>Belle pièce écrite par Bourrienne et sig. par Bonaparte; le Caire, 12 therm. an
+               <desc xml:id="CAT_000023_e33_1">Belle pièce écrite par Bourrienne et sig. par Bonaparte; le Caire, 12 therm. an
                   VI, 1 p. in-f. 6</desc>
                <note>Contribution de 150,000 fr. levée sur les négociants de Damiette, pour subvenir
                   aux dépenses de l'armée.</note>
@@ -412,7 +413,7 @@
                <trait>
                   <p>premier consul</p>
                </trait>
-               <desc>Pièce sig., relative à un fusil d'honneur accordé à un fQiimer.de l'armée
+               <desc xml:id="CAT_000023_e34_1">Pièce sig., relative à un fusil d'honneur accordé à un fQiimer.de l'armée
                   d'Egypte, an X, 1 p. in-f. 4</desc>
             </item>
 
@@ -422,7 +423,7 @@
                <trait>
                   <p>frère de Napoléon 1er</p>
                </trait>
-               <desc>L. s. à Cartaux, an X, 1 p. in-4. 25</desc>
+               <desc xml:id="CAT_000023_e35_1">L. s. à Cartaux, an X, 1 p. in-4. 25</desc>
             </item>
 
             <item n="36" xml:id="CAT_000023_e36">
@@ -431,7 +432,7 @@
                <trait>
                   <p>fils-du roi Jérôme, cousin de Napoléon III.</p>
                </trait>
-               <desc>L. a. s. à M. Bixio; Palais-Royal, 1 p. in-8, enveloppe avec beau cachet à ses
+               <desc xml:id="CAT_000023_e36_1">L. a. s. à M. Bixio; Palais-Royal, 1 p. in-8, enveloppe avec beau cachet à ses
                   armes. Charmante invitation à dîner. 4</desc>
             </item>
             <item n="37" xml:id="CAT_000023_e37">
@@ -441,7 +442,7 @@
                   <p>savant bénédictin, prieur de l'abbaye de Saint-Denis, historien du diocèse de
                      Bayeux, né à Valognes</p>
                </trait>
-               <desc>L. a. s. à l'abbé Mercier-Saint-Léger, 1775, 1 p. in-4. 3</desc>
+               <desc xml:id="CAT_000023_e37_1">L. a. s. à l'abbé Mercier-Saint-Léger, 1775, 1 p. in-4. 3</desc>
                <note>Curieuse épitre sur les prières récitées au sacre des rois</note>
             </item>
 
@@ -451,7 +452,7 @@
                <trait>
                   <p>charmant conteur et auteur dramatique, né dans Indre-et-Loire</p>
                </trait>
-               <desc>L. a. s. à Alex. Soumet, 1827, 1 p. in-8. Sur sa pièce de Louis XIV. 1.25</desc>
+               <desc xml:id="CAT_000023_e38_1">L. a. s. à Alex. Soumet, 1827, 1 p. in-8. Sur sa pièce de Louis XIV. 1.25</desc>
             </item>
 
             <item n="39" xml:id="CAT_000023_e39">
@@ -460,7 +461,7 @@
                <trait>
                   <p>Le même.</p>
                </trait>
-               <desc>L. a. s., 1821, 1 p. in-4. Sur sa pièce Une Folie. 1.25</desc>
+               <desc xml:id="CAT_000023_e39_1">L. a. s., 1821, 1 p. in-4. Sur sa pièce Une Folie. 1.25</desc>
             </item>
 
             <item n="40" xml:id="CAT_000023_e40">
@@ -470,7 +471,7 @@
                   <p>général anglais, gouverneur de la Nouvelle- Hollande, savant astronome,
                      corresp. de l'Acad. des Sc. de France</p>
                </trait>
-               <desc>L. a. s., en français, à M. Bouvard, astronome ; Nouvelle-Galle méridionale, 18
+               <desc xml:id="CAT_000023_e40_1">L. a. s., en français, à M. Bouvard, astronome ; Nouvelle-Galle méridionale, 18
                   av. 1823, 4 p. in-4. 5</desc>
                <note>Intéressante lettre relative à ses observations, avec M. Rumker, relative au
                   catalogue des étoiles de l'hémisphère austral, par Lacaille. Regrets sur la mort
@@ -484,7 +485,7 @@
                <trait>
                   <p>illustre savant et homme d'Etat anglais, corresp. de l'Institut de France</p>
                </trait>
-               <desc>L. a. s., en français, à M. Pirat; Londres, 1840, 4 p. in-8. Jolie pièce.
+               <desc xml:id="CAT_000023_e41_1">L. a. s., en français, à M. Pirat; Londres, 1840, 4 p. in-8. Jolie pièce.
                   3</desc>
             </item>
 
@@ -494,7 +495,7 @@
                <trait>
                   <p>peintre contemporaine très-distinguée</p>
                </trait>
-               <desc>L. a. sig. Sophie de Saux, à M. Guérin; 1865, 1 p. in-8. Plus 2 lig. autog.,
+               <desc xml:id="CAT_000023_e42_1">L. a. sig. Sophie de Saux, à M. Guérin; 1865, 1 p. in-8. Plus 2 lig. autog.,
                   sig. de son pseudonyme Henriette de Browne. 4</desc>
             </item>
 
@@ -504,7 +505,7 @@
                <trait>
                   <p>duc d'Isly</p>
                </trait>
-               <desc>L. a. s.; Blaye, 3 juin 1833, 1 p. in-f. 3</desc>
+               <desc xml:id="CAT_000023_e43_1">L. a. s.; Blaye, 3 juin 1833, 1 p. in-f. 3</desc>
             </item>
 
             <item n="44" xml:id="CAT_000023_e44">
@@ -513,7 +514,7 @@
                <trait>
                   <p>célèbre chimiste et agronome, collaborateur de Parmentier</p>
                </trait>
-               <desc>L. a. s. au cit. Germain, an IV, 1 p. in-4. 2.50</desc>
+               <desc xml:id="CAT_000023_e44_1">L. a. s. au cit. Germain, an IV, 1 p. in-4. 2.50</desc>
                <note>Il demande deux prisonniers allemands pour planter ses pommes de terre, et
                   pense que l'on ne refusera pas cette faveur à l'apôtre zélé de cette
                   culture</note>
@@ -526,7 +527,7 @@
                   <p>célèbre diplomate allemand pendant la guerre de trente ans, ambassadeur de
                      Gustave-Adolphe en Hollande</p>
                </trait>
-               <desc>L. a. s. ; Heydelberg, 1625, 2 p. in-f., cachet. 3</desc>
+               <desc xml:id="CAT_000023_e45_1">L. a. s. ; Heydelberg, 1625, 2 p. in-f., cachet. 3</desc>
             </item>
 
             <item n="46" xml:id="CAT_000023_e46">
@@ -535,7 +536,7 @@
                <trait>
                   <p>lectrice de Marie-Antoinette, auteur de Mémoires sur cette princesse</p>
                </trait>
-               <desc>L. a. s.; Mantes, 1819, 2 p. in-4. 2</desc>
+               <desc xml:id="CAT_000023_e46_1">L. a. s.; Mantes, 1819, 2 p. in-4. 2</desc>
             </item>
 
             <item n="47" xml:id="CAT_000023_e47">
@@ -544,7 +545,7 @@
                <trait>
                   <p>le Vatel du XIXe siècle</p>
                </trait>
-               <desc>Reçu aut. sig. de 2 exemplaires de son Pâtissier royal, 1815, in-8. Rare.
+               <desc xml:id="CAT_000023_e47_1">Reçu aut. sig. de 2 exemplaires de son Pâtissier royal, 1815, in-8. Rare.
                   2</desc>
             </item>
 
@@ -554,7 +555,7 @@
                <trait>
                   <p>ministre de l'instruction publique en 1848</p>
                </trait>
-               <desc>L. a. s., 1845, 1 p. in-4. 1.50</desc>
+               <desc xml:id="CAT_000023_e48_1">L. a. s., 1845, 1 p. in-4. 1.50</desc>
             </item>
             <item n="49" xml:id="CAT_000023_e49">
                <num>49</num>
@@ -562,7 +563,7 @@
                <trait>
                   <p>célèbre publiciste et député</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. I 50</desc>
+               <desc xml:id="CAT_000023_e49_1">L. a. s., 1 p. in-8. I 50</desc>
             </item>
             <item n="50" xml:id="CAT_000023_e50">
                <num>50</num>
@@ -570,7 +571,7 @@
                <trait>
                   <p>publiciste, rédacteur du Pays</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000023_e50_1">L. a. s., 1 p. in-8. 2</desc>
             </item>
 
             <item n="51" xml:id="CAT_000023_e51">
@@ -579,7 +580,7 @@
                <trait>
                   <p>général et célèbre homme d'Etat américain, ministre des Etats-Unis à Paris</p>
                </trait>
-               <desc>L. s., à Alex. Vattemare ; Paris, 1842, 1 p. 1/2 in-4. 1.50</desc>
+               <desc xml:id="CAT_000023_e51_1">L. s., à Alex. Vattemare ; Paris, 1842, 1 p. 1/2 in-4. 1.50</desc>
             </item>
 
             <item n="52" xml:id="CAT_000023_e52">
@@ -588,7 +589,7 @@
                <trait>
                   <p>célèbre avocat et homme politique, né à Reims.</p>
                </trait>
-               <desc>L. a. s. à Mme Cauchois-Lemaire, décembre 1829, 3 p. in-8. 3</desc>
+               <desc xml:id="CAT_000023_e52_1">L. a. s. à Mme Cauchois-Lemaire, décembre 1829, 3 p. in-8. 3</desc>
                <note>Très-curieuse épitre relative à sa défense do Cauchois-Lemaire dans le procès
                   intenté à celui-ci pour sa fameuse Lettre au duc d'Orléans. Dupin s'étant prononcé
                   contre cet écrit, il qualifie très-sévèrement sa conduite. « C'est, dit-il, le
@@ -603,7 +604,7 @@
                <trait>
                   <p>célèbre jurisconsulte, historien de la Lorraine, auteur du Traité des Fiefs</p>
                </trait>
-               <desc>Belle pièce sig. de lui et de Blondeau, 1636, 1/2 p. in-f. 2</desc>
+               <desc xml:id="CAT_000023_e53_1">Belle pièce sig. de lui et de Blondeau, 1636, 1/2 p. in-f. 2</desc>
             </item>
 
             <item n="54" xml:id="CAT_000023_e54">
@@ -614,7 +615,7 @@
                      maîtresses, tua le mari d'une femme qu'il voulait avoir, et s'amusait à
                      canarder les ouvriers couvreurs pour montrer son adresse</p>
                </trait>
-               <desc>L. a. s. à Mme de Saint-Sulpice (nom de la maîtresse qu'il a brûlée); Anet, 28
+               <desc xml:id="CAT_000023_e54_1">L. a. s. à Mme de Saint-Sulpice (nom de la maîtresse qu'il a brûlée); Anet, 28
                   mars 1731, 2 p. in-4, cachet-camée, Un peu rongée dans une partie de la marge
                   extérieure. 5</desc>
                <note>Il est impatient de revenir à Paris pour lui demander à dîner</note>
@@ -626,7 +627,7 @@
                <trait>
                   <p>député de la Charente- Inférieure, ministre de Napoléon III</p>
                </trait>
-               <desc>L. a. s., 1845, 2 p. in-8. Relative au chemin de fer de Dieppe à Rouen. 2
+               <desc xml:id="CAT_000023_e55_1">L. a. s., 1845, 2 p. in-8. Relative au chemin de fer de Dieppe à Rouen. 2
                   50</desc>
             </item>
 
@@ -636,7 +637,7 @@
                <trait>
                   <p>inventeur du fusil à aiguille qui porte son nom.</p>
                </trait>
-               <desc>Billet a. s., 1866, 1 p. in-12. 2</desc>
+               <desc xml:id="CAT_000023_e56_1">Billet a. s., 1866, 1 p. in-12. 2</desc>
             </item>
             <item n="57" xml:id="CAT_000023_e57">
                <num>57</num>
@@ -644,7 +645,7 @@
                <trait>
                   <p>illustre écrivain et homme d'Etat</p>
                </trait>
-               <desc>L. a. s. à la comtesse de Chastellux, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000023_e57_1">L. a. s. à la comtesse de Chastellux, 1 p. in-8. 3</desc>
             </item>
 
             <item n="58" xml:id="CAT_000023_e58">
@@ -653,7 +654,7 @@
                <trait>
                   <p>Le même</p>
                </trait>
-               <desc>L. sig., 1832, 1/2 p. in-4. 1.25</desc>
+               <desc xml:id="CAT_000023_e58_1">L. sig., 1832, 1/2 p. in-4. 1.25</desc>
             </item>
             <item n="59" xml:id="CAT_000023_e59">
                <num>59</num>
@@ -661,7 +662,7 @@
                <trait>
                   <p>célèbre romancier national, collaborateur d'Erkmann</p>
                </trait>
-               <desc>L. a. s., 1863, 1 p. in-8. 1.50</desc>
+               <desc xml:id="CAT_000023_e59_1">L. a. s., 1863, 1 p. in-8. 1.50</desc>
             </item>
             <item n="60" xml:id="CAT_000023_e60">
                <num>60</num>
@@ -669,7 +670,7 @@
                <trait>
                   <p>savant chimiste, né à Langres</p>
                </trait>
-               <desc>L. a. s., 1851, 2 p. in-8. Relative à la culture du pavot pour en extraire
+               <desc xml:id="CAT_000023_e60_1">L. a. s., 1851, 2 p. in-8. Relative à la culture du pavot pour en extraire
                   l'opium. 1.50</desc>
             </item>
             <item n="61" xml:id="CAT_000023_e61">
@@ -678,7 +679,7 @@
                <trait>
                   <p>sénateur, préfet du Rhône</p>
                </trait>
-               <desc>L. a. s.; Nantes, 1854, 2 p. in-8. 1.50</desc>
+               <desc xml:id="CAT_000023_e61_1">L. a. s.; Nantes, 1854, 2 p. in-8. 1.50</desc>
             </item>
             <item n="62" xml:id="CAT_000023_e62">
                <num>62</num>
@@ -686,7 +687,7 @@
                <trait>
                   <p>brave général américain de la guerre de l'Indépendance</p>
                </trait>
-               <desc>Billet aut. sig. au colonel Ranssalaer; Albany, 4 juin 1779, 1 p. in-'.
+               <desc xml:id="CAT_000023_e62_1">Billet aut. sig. au colonel Ranssalaer; Albany, 4 juin 1779, 1 p. in-'.
                   3</desc>
             </item>
 
@@ -696,7 +697,7 @@
                <trait>
                   <p>célèbre dessinateur et graveur.</p>
                </trait>
-               <desc> Belle pièce sig., relative à son estampe le Port de Dieppe, 1778, 1 p. in-4. 2
+               <desc xml:id="CAT_000023_e63_1"> Belle pièce sig., relative à son estampe le Port de Dieppe, 1778, 1 p. in-4. 2
                </desc>
             </item>
 
@@ -706,7 +707,7 @@
                <trait>
                   <p>illustre, publiciste et orateur parlementaire</p>
                </trait>
-               <desc>L. a. s. a Jacq. Ladite, 3 fév. 1829, 1 p. in-4. 2</desc>
+               <desc xml:id="CAT_000023_e64_1">L. a. s. a Jacq. Ladite, 3 fév. 1829, 1 p. in-4. 2</desc>
             </item>
 
             <item n="65" xml:id="CAT_000023_e65">
@@ -715,7 +716,7 @@
                <trait>
                   <p>célèbre pamphlétaire, auteur du livre des Orateurs</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000023_e65_1">L. a. s., 1 p. in-8. 2</desc>
             </item>
 
             <item n="66" xml:id="CAT_000023_e66">
@@ -724,7 +725,7 @@
                <trait>
                   <p>époux de la petite-fille du grand Corneille, mariée par Voltaire</p>
                </trait>
-               <desc>Pièce sig., 30 prair. an Y, 1 p. in-4. 2</desc>
+               <desc xml:id="CAT_000023_e66_1">Pièce sig., 30 prair. an Y, 1 p. in-4. 2</desc>
                <note>Reçu de 11 liv., pour une représentation du Menteur au Théâtre-Feydeau</note>
             </item>
 
@@ -734,7 +735,7 @@
                <trait>
                   <p>le peintre le plus célèbre de l'Allemagne moderne</p>
                </trait>
-               <desc>L. a. s.; Rome, 26 mai 1813, 1 p. in-12. Très-rare. 8</desc>
+               <desc xml:id="CAT_000023_e67_1">L. a. s.; Rome, 26 mai 1813, 1 p. in-12. Très-rare. 8</desc>
             </item>
             <item n="68" xml:id="CAT_000023_e68">
                <num>68</num>
@@ -742,7 +743,7 @@
                <trait>
                   <p>savant astronome</p>
                </trait>
-               <desc>L. a. s., 1858, 1 p. in-4. 2</desc>
+               <desc xml:id="CAT_000023_e68_1">L. a. s., 1858, 1 p. in-4. 2</desc>
             </item>
 
             <item n="69" xml:id="CAT_000023_e69">
@@ -751,7 +752,7 @@
                <trait>
                   <p>auteur de Thomas Morus et du Siège d'Orléans</p>
                </trait>
-               <desc>L. a. S., 1859, 1 p. in-8. 1.25</desc>
+               <desc xml:id="CAT_000023_e69_1">L. a. S., 1859, 1 p. in-8. 1.25</desc>
             </item>
             <item n="70" xml:id="CAT_000023_e70">
                <num>70</num>
@@ -759,7 +760,7 @@
                <trait>
                   <p>grand poète tragique, de l'Acad. fr</p>
                </trait>
-               <desc>Approbation de 4 lignes aut. sig. à la fin du manuscrit d'Acajou, par Favart,
+               <desc xml:id="CAT_000023_e70_1">Approbation de 4 lignes aut. sig. à la fin du manuscrit d'Acajou, par Favart,
                   1744, in-4. 3</desc>
             </item>
 
@@ -769,7 +770,7 @@
                <trait>
                   <p>membre du gouvernement provisoire de 1848, député de la Seine</p>
                </trait>
-               <desc>L. a. s. à Flora Tristan, 1840, 2 p. in-8. 1.50</desc>
+               <desc xml:id="CAT_000023_e71_1">L. a. s. à Flora Tristan, 1840, 2 p. in-8. 1.50</desc>
             </item>
             <item n="72" xml:id="CAT_000023_e72">
                <num>72</num>
@@ -777,7 +778,7 @@
                <trait>
                   <p>célébré ministre protestant danois, panégyriste de Duplessis-Mornay</p>
                </trait>
-               <desc>L. a. s., en français, au jurisconsulte Milsonneau, à Par;s; Bramstedt, 1732, 3
+               <desc xml:id="CAT_000023_e72_1">L. a. s., en français, au jurisconsulte Milsonneau, à Par;s; Bramstedt, 1732, 3
                   p. in-4, cachet à ses armes. Belle pièce. 3</desc>
             </item>
 
@@ -787,7 +788,7 @@
                <trait>
                   <p>érudit et helléniste célèbre, de l'Acad. fr., né à Valognes</p>
                </trait>
-               <desc>L. a. s. à Bréquigny; Paris, 2 juin 1786, 2 p. in-4. Belle pièce. 6</desc>
+               <desc xml:id="CAT_000023_e73_1">L. a. s. à Bréquigny; Paris, 2 juin 1786, 2 p. in-4. Belle pièce. 6</desc>
                <note>Il lui envoie, en le priant de les corriger, deux inscriptions (qui sont
                   jointes à la lettre), l'une en l'honneur de L.-Jos. de Bourbon, prince de Condé,
                   que la municipalité de Dijon veut mettre sur la nouvelle porte de celte ville
@@ -808,7 +809,7 @@
                <trait>
                   <p>célèbre philosophe, de l'Institut, né à Belle- ville (Rhône)</p>
                </trait>
-               <desc>L. a. s. au National ; 26 déc. 1842, 2 p. in-8. 3</desc>
+               <desc xml:id="CAT_000023_e74_1">L. a. s. au National ; 26 déc. 1842, 2 p. in-8. 3</desc>
                <note>Très-curieuse épitre relative aux suppressions qu'il est accusé d'avoir faites,
                   par les conseils de M. Cousin, dans la publication des manuscrits de Jouffroy, et
                   dans les pensées de Pascal</note>
@@ -820,7 +821,7 @@
                <trait>
                   <p>brave général de la République, tué devant Valenciennes</p>
                </trait>
-               <desc>Pièce sig. ; quart, général de Bouchain, 13 avril 1793, 1 p. in-f. Un peu
+               <desc xml:id="CAT_000023_e75_1">Pièce sig. ; quart, général de Bouchain, 13 avril 1793, 1 p. in-f. Un peu
                   fatiguée. Rare. 3</desc>
             </item>
 
@@ -830,7 +831,7 @@
                <trait>
                   <p>le célèbre conventionnel</p>
                </trait>
-               <desc>Belle pièce sig. de lui, Ch. Delacroix, Camus et Gossuin, comme commissaires de
+               <desc xml:id="CAT_000023_e76_1">Belle pièce sig. de lui, Ch. Delacroix, Camus et Gossuin, comme commissaires de
                   la Convention à l'armée de Belgique; Liège, 11 janv. 1793, 1/2 p. in-4. 25</desc>
                <note>Les pièces signées de Danton sont très-rares, surtout comme commissaire, en
                   Belgique</note>
@@ -842,7 +843,7 @@
                <trait>
                   <p>le grand peintre d'histoire</p>
                </trait>
-               <desc>L. s., avec un post-script, de 2 lig. autog.; 20 nov. 1792, 1 p. in-f. Coupure
+               <desc xml:id="CAT_000023_e77_1">L. s., avec un post-script, de 2 lig. autog.; 20 nov. 1792, 1 p. in-f. Coupure
                   dans la marge entamment quelques mots, faciles à rétablir. 8</desc>
                <note>Epître très-curieuse, le peignant tout entier. Chargé par un ministre
                   d'exécuter un tableau sur des dessins qu'on lui a fournis, il critique avec toute
@@ -859,7 +860,7 @@
                <trait>
                   <p>savant physicien et astronome de l'Observatoire de Paris</p>
                </trait>
-               <desc>L. a. s.', 1859, 3 p. 1/2 in-8. 2 50 Lettre très-intéressante relative à
+               <desc xml:id="CAT_000023_e78_1">L. a. s.', 1859, 3 p. 1/2 in-8. 2 50 Lettre très-intéressante relative à
                   l'électricité.</desc>
             </item>
             <item n="79" xml:id="CAT_000023_e79">
@@ -868,7 +869,7 @@
                <trait>
                   <p>célèbre statuaire, né à Nantes</p>
                </trait>
-               <desc>L. a. s. au sculpteur Dumont, 1846, 1 p. in-8. 2 50 Relative à sa statue de
+               <desc xml:id="CAT_000023_e79_1">L. a. s. au sculpteur Dumont, 1846, 1 p. in-8. 2 50 Relative à sa statue de
                   Cambronne, destinée à la ville de Nantes</desc>
             </item>
 
@@ -878,7 +879,7 @@
                <trait>
                   <p>la célèbre actrice</p>
                </trait>
-               <desc>L. a. s., 1 p. 1/2 in-8, papier à son chiffre. Jolie pièce. 2</desc>
+               <desc xml:id="CAT_000023_e80_1">L. a. s., 1 p. 1/2 in-8, papier à son chiffre. Jolie pièce. 2</desc>
             </item>
 
             <item n="81" xml:id="CAT_000023_e81">
@@ -887,7 +888,7 @@
                <trait>
                   <p>célèbre peintre d'histoire, chef de l'école romantique</p>
                </trait>
-               <desc>L. a. s.; Paris, 7 janv. 1857, 2 p. in-8. 3</desc>
+               <desc xml:id="CAT_000023_e81_1">L. a. s.; Paris, 7 janv. 1857, 2 p. in-8. 3</desc>
                <note>Curieuse épitre dans laquelle il sollicite les suffrages d'un membre de
                   l'Académie des Beaux-Arts pour sa candidature à l'Institut</note>
             </item>
@@ -899,7 +900,7 @@
                   <p>publiciste républicain, commissaire du gouvernement provisoire dans le
                      département du Nord, rédacteur du Réveil</p>
                </trait>
-               <desc>L. a. s., 1849, 1 p. pet. in-4. Ecrite comme rédacteur de la Révolution
+               <desc xml:id="CAT_000023_e82_1">L. a. s., 1849, 1 p. pet. in-4. Ecrite comme rédacteur de la Révolution
                   démocratique et sociale. 2.50</desc>
             </item>
             <item n="83" xml:id="CAT_000023_e83">
@@ -908,7 +909,7 @@
                <trait>
                   <p>auteur du Poète, ouvrage licencieux, le pendant de Faublas</p>
                </trait>
-               <desc>Quitt. aut. sig., 10 vend, an V, in-18. Rare. 3</desc>
+               <desc xml:id="CAT_000023_e83_1">Quitt. aut. sig., 10 vend, an V, in-18. Rare. 3</desc>
                <note>Reçu du libraire Duchesne le reste de l'édition de Richard et d'Erlet, comédie
                   qu'il fit représenter à Bordeaux en 1778, et qui fut suspendue à cause des
                   allusions satiriques qu'elle renfermait contre des personnages de la Cour</note>
@@ -920,7 +921,7 @@
                <trait>
                   <p>peintre et charmant dessinateur</p>
                </trait>
-               <desc>L. a. s. à Ach. Comte, 1831, 1 p. in-4. 3</desc>
+               <desc xml:id="CAT_000023_e84_1">L. a. s. à Ach. Comte, 1831, 1 p. in-4. 3</desc>
                <note>Relative à un tableau que vient de lui commander le gouvernement. « Je mettrai,
                   dit-il, toute diligence possible à vous faire voir que je suis un peu peintre
                   aussi.</note>
@@ -933,7 +934,7 @@
                   <p>procureur-général à Lyon, premier président de la Cour impériale de Paris,
                      député du Rhône, sénateur, rapporteur du sénatus-consulte de 1869</p>
                </trait>
-               <desc>L. a. s.; Lyon, 1862, 1 p. in-8. 2.50</desc>
+               <desc xml:id="CAT_000023_e85_1">L. a. s.; Lyon, 1862, 1 p. in-8. 2.50</desc>
             </item>
             <item n="86" xml:id="CAT_000023_e86">
                <num>86</num>
@@ -941,7 +942,7 @@
                <trait>
                   <p>célèbre tragédienne romantique, née à Lorient</p>
                </trait>
-               <desc>L. a. s. à Anténor Joly, 1838, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000023_e86_1">L. a. s. à Anténor Joly, 1838, 1 p. in-8. 3</desc>
                <note>Curieuse épître relative a la représentation des ouvrages de Victor Hugo au
                   théâtre de la Renaissance</note>
             </item>
@@ -953,7 +954,7 @@
                   <p>célèbre naturaliste et voyageur en Afrique, accusé d'avoir mystifié le monde
                      savant par la relation de son Voyage au Congo, né dans la Manche</p>
                </trait>
-               <desc>L. a. s. au comte de Montalivet; le Havre, 6 avril 1833, 1 p. in-4. 4</desc>
+               <desc xml:id="CAT_000023_e87_1">L. a. s. au comte de Montalivet; le Havre, 6 avril 1833, 1 p. in-4. 4</desc>
                <note>Relative au nouveau voyage qu'il va entreprendre en Afrique. (Il fut tué peu de
                   temps après, au Brésil, par les noirs qui raccompagnaient.)</note>
             </item>
@@ -963,7 +964,7 @@
                <trait>
                   <p>député de Seine-et-Marne, ministre de Napoléon III</p>
                </trait>
-               <desc>L. a. s., 1859, 1 p. in-8. 1.50</desc>
+               <desc xml:id="CAT_000023_e88_1">L. a. s., 1859, 1 p. in-8. 1.50</desc>
             </item>
             <item n="89" xml:id="CAT_000023_e89">
                <num>89</num>
@@ -971,7 +972,7 @@
                <trait>
                   <p>célèbre peintre d'histoire, neveu du grand tragique et beau-frère de Talma</p>
                </trait>
-               <desc>L. a. s. au graveur Leroux, 1827, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000023_e89_1">L. a. s. au graveur Leroux, 1827, 1 p. in-8. 3</desc>
             </item>
 
             <item n="90" xml:id="CAT_000023_e90">
@@ -981,7 +982,7 @@
                   <p>représentant de Loire-et-Cher et préfet de police en 1848, né dans la
                      Haute-Vienne</p>
                </trait>
-               <desc>L. a. s., 1860, 3 p. in-8. 1.50</desc>
+               <desc xml:id="CAT_000023_e90_1">L. a. s., 1860, 3 p. in-8. 1.50</desc>
             </item>
             <item n="91" xml:id="CAT_000023_e91">
                <num>91</num>
@@ -990,7 +991,7 @@
                   <p>célèbre général suisse, commandant de l'armée dirigée contre le Sunderbund en
                      1847</p>
                </trait>
-               <desc>L. a. s.; Genève, 1852, 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000023_e91_1">L. a. s.; Genève, 1852, 1 p. in-8. 2</desc>
             </item>
             <item n="92" xml:id="CAT_000023_e92">
                <num>92</num>
@@ -998,7 +999,7 @@
                <trait>
                   <p>illustre naturaliste et agronome</p>
                </trait>
-               <desc>L. s. au botaniste Duchesne; Pithiviers, 1771, 1 p. in-4. Relative à des plants
+               <desc xml:id="CAT_000023_e92_1">L. s. au botaniste Duchesne; Pithiviers, 1771, 1 p. in-4. Relative à des plants
                   de garenne. 4</desc>
             </item>
 
@@ -1008,7 +1009,7 @@
                <trait>
                   <p>conventionnel, célèbre historien de Paris, né à Clermont-Ferrand</p>
                </trait>
-               <desc>L. a. s., 1823, 1 p. in-8. Relative à ses Esquisses historiques sur la
+               <desc xml:id="CAT_000023_e93_1">L. a. s., 1823, 1 p. in-8. Relative à ses Esquisses historiques sur la
                   Révolution. 2.50</desc>
             </item>
             <item n="94" xml:id="CAT_000023_e94">
@@ -1018,7 +1019,7 @@
                   <p>savant chimiste et physicien, célèbre par ses nombreuses découvertes, né à
                      Rouen</p>
                </trait>
-               <desc>L. a. s. à M. Guido, 1836, 1 p. 1/2 in-8. 2.50</desc>
+               <desc xml:id="CAT_000023_e94_1">L. a. s. à M. Guido, 1836, 1 p. 1/2 in-8. 2.50</desc>
             </item>
             <item n="95" xml:id="CAT_000023_e95">
                <num>95</num>
@@ -1026,7 +1027,7 @@
                <trait>
                   <p>célèbre romancier</p>
                </trait>
-               <desc>L. a. s.; Châlons-sur-Saône, 1842, 1 p. 1/4 in-8. 2</desc>
+               <desc xml:id="CAT_000023_e95_1">L. a. s.; Châlons-sur-Saône, 1842, 1 p. 1/4 in-8. 2</desc>
                <note>Relative à ses ouvrages les Stuarts et le Capitaine Pamphile</note>
             </item>
 
@@ -1036,7 +1037,7 @@
                <trait>
                   <p>célèbre littérateur, l'auteur de la Dame aux Camélias</p>
                </trait>
-               <desc>L. a. s., 1/2 p. in-8. 1.25</desc>
+               <desc xml:id="CAT_000023_e96_1">L. a. s., 1/2 p. in-8. 1.25</desc>
             </item>
             <item n="97" xml:id="CAT_000023_e97">
                <num>97</num>
@@ -1044,7 +1045,7 @@
                <trait>
                   <p>capitaine de vaisseau, célèbre navigateur, de l'Acad. des Sciences</p>
                </trait>
-               <desc>L. a. s. au libraire Arthus Bertrand, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000023_e97_1">L. a. s. au libraire Arthus Bertrand, 1 p. in-8. 3</desc>
             </item>
 
             <item n="98" xml:id="CAT_000023_e98">
@@ -1053,7 +1054,7 @@
                <trait>
                   <p>savant physicien et physiologiste</p>
                </trait>
-               <desc>L. a. s., 1748, 2 p. 1/2 in-4. 4</desc>
+               <desc xml:id="CAT_000023_e98_1">L. a. s., 1748, 2 p. 1/2 in-4. 4</desc>
                <note>Très-curieuse épître relative à ses Lettres sur la génération des êtres, et sur
                   son opnscule Réception du docteur Hecquet aux enfers. « qui contient les éléments
                   de la vraie philosophie » Il n'ose pas se déclarer l'auteur de ce dernier ouvrage,
@@ -1067,7 +1068,7 @@
                <trait>
                   <p>maréchal de France, commandant de Guyenne, gouverneur de Franche-Comté</p>
                </trait>
-               <desc>L. a. s., à M. de Chauvelin, garde-des-sceaux; Montauban, 1731,1/2 p. in-4.
+               <desc xml:id="CAT_000023_e99_1">L. a. s., à M. de Chauvelin, garde-des-sceaux; Montauban, 1731,1/2 p. in-4.
                   3</desc>
             </item>
 
@@ -1077,7 +1078,7 @@
                <trait>
                   <p>excellent fabuliste, allié aux descendants de La Fontaine</p>
                </trait>
-               <desc>L. a. s., 1814, 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000023_e100_1">L. a. s., 1814, 1 p. in-8. 2</desc>
             </item>
 
             <item n="101" xml:id="CAT_000023_e101">
@@ -1087,7 +1088,7 @@
                   <p>savant naturaliste, voyageur dans l'Inde, où il est mort à 32 ans, petit-fils
                      et élève de Cuvier</p>
                </trait>
-               <desc>L. a. s. à M. Dubois; Calcutta, 6 déc. 1821, 3 p. in-4, cachet. Rare. 6</desc>
+               <desc xml:id="CAT_000023_e101_1">L. a. s. à M. Dubois; Calcutta, 6 déc. 1821, 3 p. in-4, cachet. Rare. 6</desc>
                <note>Précieuse lettre relative à sa mission dans l'Inde. Il raconte les efforts
                   qu'il fait pour tirer les établissements français de l'Inde de l'avilissement où
                   ils sont tombés, par le fait de cette dégoûtante marine anglaise. Ses propres
@@ -1105,7 +1106,7 @@
                <trait>
                   <p>savant géologue, né dans le Calvados</p>
                </trait>
-               <desc>L. a. s., 1833, 1 p. in-8. " 1.25</desc>
+               <desc xml:id="CAT_000023_e102_1">L. a. s., 1833, 1 p. in-8. " 1.25</desc>
             </item>
 
             <item n="103" xml:id="CAT_000023_e103">
@@ -1114,7 +1115,7 @@
                <trait>
                   <p>illustre antiquaire et botaniste anglais du XVIIe siècle. </p>
                </trait>
-               <desc> Ex-dono de 3 lig. aut. sig. (à la 3me personne) plus un portrait. (De la
+               <desc xml:id="CAT_000023_e103_1"> Ex-dono de 3 lig. aut. sig. (à la 3me personne) plus un portrait. (De la
                   collection du révérend Cotton). 2 </desc>
             </item>
 
@@ -1124,7 +1125,7 @@
                <trait>
                   <p>économiste et publiciste, célèbre ministre de Napoléon III, né à Limoges</p>
                </trait>
-               <desc>L. a. s.; 25 juil. 1848, 1 p. in-8. 1.50</desc>
+               <desc xml:id="CAT_000023_e104_1">L. a. s.; 25 juil. 1848, 1 p. in-8. 1.50</desc>
             </item>
             <item n="105" xml:id="CAT_000023_e105">
                <num>105</num>
@@ -1132,7 +1133,7 @@
                <trait>
                   <p>illustre avocat et orateur parlementaire, de l'Acad. franc., né à Lyon</p>
                </trait>
-               <desc>L. a. s., 1857, 1 p. in-4. Très-belle pièce. 6</desc>
+               <desc xml:id="CAT_000023_e105_1">L. a. s., 1857, 1 p. in-4. Très-belle pièce. 6</desc>
             </item>
             <item n="106" xml:id="CAT_000023_e106">
                <num>106</num>
@@ -1141,7 +1142,7 @@
                   <p>roi de Naples, prince fameux par ses cruautés, abhorré de ses sujets, qui
                      proposèrent la couronne à Jean d'Anjou</p>
                </trait>
-               <desc>L. a. s. à sa fille la duchesse de Milan; Naples, 14 oct. 14.., 1/2 p. petit
+               <desc xml:id="CAT_000023_e106_1">L. a. s. à sa fille la duchesse de Milan; Naples, 14 oct. 14.., 1/2 p. petit
                   in-4, cachet. Rare. 5</desc>
                <note>Curieuse lettre, relative à un armement des Turcs, qui le menace d'un grand
                   péril, lui et toute l'Italie. Il croit qu'il est de la plus grande importance de
@@ -1155,7 +1156,7 @@
                <trait>
                   <p>avocat et publiciste, député de la Seine au Corps législatif</p>
                </trait>
-               <desc>Article aut. sig., 23 juil. 1869, 2 p. in-4, découpées en cinq pour la
+               <desc xml:id="CAT_000023_e107_1">Article aut. sig., 23 juil. 1869, 2 p. in-4, découpées en cinq pour la
                   composition typographique. 2</desc>
                <note>Curieuse lettre à ses commettants sur la prorogation de la Chambre</note>
             </item>
@@ -1166,7 +1167,7 @@
                <trait>
                   <p>célèbre romancier contemporain, l'auteur de Fanny</p>
                </trait>
-               <desc>L. a. s. à M. Gide, 1859, 1/2 p. in-4. 2</desc>
+               <desc xml:id="CAT_000023_e108_1">L. a. s. à M. Gide, 1859, 1/2 p. in-4. 2</desc>
             </item>
 
             <item n="109" xml:id="CAT_000023_e109">
@@ -1175,7 +1176,7 @@
                <trait>
                   <p>savant chimiste, vulgarisateur des sciences, né à Montpellier</p>
                </trait>
-               <desc>L. a. s. à l'abbé Moigno, 1864. 1 p. in-8. 1.50</desc>
+               <desc xml:id="CAT_000023_e109_1">L. a. s. à l'abbé Moigno, 1864. 1 p. in-8. 1.50</desc>
             </item>
             <item n="110" xml:id="CAT_000023_e110">
                <num>110</num>
@@ -1183,7 +1184,7 @@
                <trait>
                   <p>habile graveur, auteur de la Galerie du Musée</p>
                </trait>
-               <desc>L. a. s. à M. Villenave, 1806, 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000023_e110_1">L. a. s. à M. Villenave, 1806, 1 p. in-8. 2</desc>
             </item>
 
             <item n="111" xml:id="CAT_000023_e111">
@@ -1192,7 +1193,7 @@
                <trait>
                   <p>célèbre compositeur italien, auteur de l'opéra de Sophocle</p>
                </trait>
-               <desc>L. a. s., en français, au baron de Trémont, 1847, 1 p. in-8. 3.2</desc>
+               <desc xml:id="CAT_000023_e111_1">L. a. s., en français, au baron de Trémont, 1847, 1 p. in-8. 3.2</desc>
             </item>
 
             <item n="112" xml:id="CAT_000023_e112">
@@ -1201,7 +1202,7 @@
                <trait>
                   <p>savant mathématicien et astronome</p>
                </trait>
-               <desc>L. a. s. à l'abbé Moigno, 1862, 3 p. in-8. Très-curieuse épître sur le
+               <desc xml:id="CAT_000023_e112_1">L. a. s. à l'abbé Moigno, 1862, 3 p. in-8. Très-curieuse épître sur le
                   spiritisme. 3</desc>
             </item>
 
@@ -1211,7 +1212,7 @@
                <trait>
                   <p>général, premier écuyer de Napoléon III, ambassadeur à Pétersbourg</p>
                </trait>
-               <desc>L. s., 1859, 2 p. in-4. 1.25</desc>
+               <desc xml:id="CAT_000023_e113_1">L. s., 1859, 2 p. in-4. 1.25</desc>
             </item>
             <item n="114" xml:id="CAT_000023_e114">
                <num>114</num>
@@ -1219,7 +1220,7 @@
                <trait>
                   <p>célèbre financier, ministre de Napoléon III</p>
                </trait>
-               <desc>L. a. s., 1851, 1 p. in-4. 1.50</desc>
+               <desc xml:id="CAT_000023_e114_1">L. a. s., 1851, 1 p. in-4. 1.50</desc>
             </item>
             <item n="115" xml:id="CAT_000023_e115">
                <num>115</num>
@@ -1227,7 +1228,7 @@
                <trait>
                   <p>le trop fameux accusateur public du Tribunal révolutionnaire</p>
                </trait>
-               <desc>Pièce sig., 9 germ. an II, 1 p. 1/2 in-4, tête imp. et cachet du tribunal.
+               <desc xml:id="CAT_000023_e115_1">Pièce sig., 9 germ. an II, 1 p. 1/2 in-4, tête imp. et cachet du tribunal.
                   6</desc>
                <note>Ordre au gardien de la prison Du Plessis de recevoir 41 prisonniers, tous
                   nommés dans la pièce, « s'obligeant le dit gardien les représenter à toute
@@ -1240,7 +1241,7 @@
                <trait>
                   <p>célèbre comédien, le créateur du type de Robert Macaire, né au Havre</p>
                </trait>
-               <desc>L. a. s. à Anténor Joly; (24 juin 1844), 1 p. pet. in-4. Très-rare. 5</desc>
+               <desc xml:id="CAT_000023_e116_1">L. a. s. à Anténor Joly; (24 juin 1844), 1 p. pet. in-4. Très-rare. 5</desc>
             </item>
 
             <item n="117" xml:id="CAT_000023_e117">
@@ -1249,7 +1250,7 @@
                <trait>
                   <p>savant naturaliste et vovageur</p>
                </trait>
-               <desc>L. a. s. à M. Valenciennes, au Muséum: à bord de l'Astrolabe, en rade de
+               <desc xml:id="CAT_000023_e117_1">L. a. s. à M. Valenciennes, au Muséum: à bord de l'Astrolabe, en rade de
                   Sidney, Port Jackson, 16 déc. 1826, 2 p. in-4. 5</desc>
                <note>Intéressante lettre, signée aussi de Quoi/, son collaborateur, relative à leurs
                   recherches de poissons pour le travail que font Olivier et Valenciennes. Ils ont
@@ -1264,7 +1265,7 @@
                   <p>célèbre astronome, qui découvrit un grand nombre de comètes, directeur de
                      l'Observatoire de Marseille, né à Cette</p>
                </trait>
-               <desc>L. a. s. à Berthevin; Observatoire de Paris, 1824, l/2p. in-4. 3</desc>
+               <desc xml:id="CAT_000023_e118_1">L. a. s. à Berthevin; Observatoire de Paris, 1824, l/2p. in-4. 3</desc>
             </item>
 
             <item n="119" xml:id="CAT_000023_e119">
@@ -1274,7 +1275,7 @@
                   <p>chimiste célèbre par sa méthode d'embaumement et ses travaux sur la gélatine,
                      né à Sarrelouis</p>
                </trait>
-               <desc>L. a. s. à un journal, 23 oct. 1846, 3 p. in-4. 5</desc>
+               <desc xml:id="CAT_000023_e119_1">L. a. s. à un journal, 23 oct. 1846, 3 p. in-4. 5</desc>
                <note>Très-intéressante lettre relative à ses travaux sur la panification. Il a
                   trouvé le moyen de fournir au peuple le pain à 20 centimes le kilogramme. Celle
                   découverte a produit une grande sensation dans Paris, mais l'incrédulité est venue
@@ -1290,7 +1291,7 @@
                <trait>
                   <p>l'illustre tragédien anglais</p>
                </trait>
-               <desc>Billet aut. sig. (à la 3e pers.), à M. Colman, 21 nov., 4 lignes sur une carte
+               <desc xml:id="CAT_000023_e120_1">Billet aut. sig. (à la 3e pers.), à M. Colman, 21 nov., 4 lignes sur une carte
                   in-8. Rare. 4</desc>
                <note>Remerciments très-aimables d'un présent que Colmar lui a fait</note>
             </item>
@@ -1301,7 +1302,7 @@
                <trait>
                   <p>illustre mathématicien et astronome allemand</p>
                </trait>
-               <desc>L. a. s.; Goettingue, 1847, 1/2 p. in-8. 2.50</desc>
+               <desc xml:id="CAT_000023_e121_1">L. a. s.; Goettingue, 1847, 1/2 p. in-8. 2.50</desc>
             </item>
             <item n="122" xml:id="CAT_000023_e122">
                <num>122</num>
@@ -1309,7 +1310,7 @@
                <trait>
                   <p>le spirituel dessinateur et caricaturiste</p>
                </trait>
-               <desc>L. a. s. au graveur Porret, 1834, 1/2 p. in-8. 2.50</desc>
+               <desc xml:id="CAT_000023_e122_1">L. a. s. au graveur Porret, 1834, 1/2 p. in-8. 2.50</desc>
             </item>
             <item n="123" xml:id="CAT_000023_e123">
                <num>123</num>
@@ -1318,7 +1319,7 @@
                   <p>littérateur, célèbre par ses recherches sur l'Imitation de Jésus-Christ, né à
                      Amiens</p>
                </trait>
-               <desc>L. a. s. au libraire Leleux, 1838, 1 p. in-12. 2</desc>
+               <desc xml:id="CAT_000023_e123_1">L. a. s. au libraire Leleux, 1838, 1 p. in-12. 2</desc>
             </item>
 
             <item n="124" xml:id="CAT_000023_e124">
@@ -1327,7 +1328,7 @@
                <trait>
                   <p>un des plus célèbres peintres français contemporains, né à Vesoul</p>
                </trait>
-               <desc>Billet aut. sig., 1/2 p. in-8. 2</desc>
+               <desc xml:id="CAT_000023_e124_1">Billet aut. sig., 1/2 p. in-8. 2</desc>
             </item>
 
             <item n="125" xml:id="CAT_000023_e125">
@@ -1336,7 +1337,7 @@
                <trait>
                   <p>le célèbre publiciste</p>
                </trait>
-               <desc>L. a. s., 1840, 1 p. in-8. 1</desc>
+               <desc xml:id="CAT_000023_e125_1">L. a. s., 1840, 1 p. in-8. 1</desc>
             </item>
 
             <item n="126" xml:id="CAT_000023_e126">
@@ -1345,7 +1346,7 @@
                <trait>
                   <p>célèbre peintre d'histoire, né à Mon- targis</p>
                </trait>
-               <desc>L. a. s. à M. Tercy (de Lons-le-Saulnier); 22 fév. 1817, 1 p. in-4. Belle
+               <desc xml:id="CAT_000023_e126_1">L. a. s. à M. Tercy (de Lons-le-Saulnier); 22 fév. 1817, 1 p. in-4. Belle
                   pièce. 5</desc>
                <note>Curieuse épitre relative an poème de M. de Tercy [la Mort et l'apothéose de la
                   reine Marie-Antoinette.) On ne pouvait, lui dit-il, traiter plus noblement un plus
@@ -1358,7 +1359,7 @@
                   <p>célébré député de l'opposition, un des derniers élus de la Seine, né dans les
                      Côtes-du-Nord</p>
                </trait>
-               <desc>L. a. s.; 17 août 1847, 1/2 p. in-8. Quelques coups de doigt. 2</desc>
+               <desc xml:id="CAT_000023_e127_1">L. a. s.; 17 août 1847, 1/2 p. in-8. Quelques coups de doigt. 2</desc>
                <note>Relative a la réunion au Palais national, dont il était président</note>
             </item>
 
@@ -1368,7 +1369,7 @@
                <trait>
                   <p>l'illustre écrivain allemand</p>
                </trait>
-               <desc>Pièce sig. de lui et de Voigt; Weimar, 1786, 1 p. in-4. 4</desc>
+               <desc xml:id="CAT_000023_e128_1">Pièce sig. de lui et de Voigt; Weimar, 1786, 1 p. in-4. 4</desc>
             </item>
 
             <item n="129" xml:id="CAT_000023_e129">
@@ -1378,7 +1379,7 @@
                   <p>célèbre amateur des arts, le Mécène des artistes, inspirateur de Creuse et de
                      Pigale</p>
                </trait>
-               <desc>L. a. s. à l'Acad. de peinture de Marseille (dont il était membre honoraire);
+               <desc xml:id="CAT_000023_e129_1">L. a. s. à l'Acad. de peinture de Marseille (dont il était membre honoraire);
                   Pans, 1764, 2 p. in-4. 3</desc>
             </item>
 
@@ -1389,7 +1390,7 @@
                   <p>général en chef du corps d'occupation de Rome, aide-de-camp de Napoléon III,
                      sénateur</p>
                </trait>
-               <desc>L. a. s., 1862, 2 p. 1/4 in-4. 3</desc>
+               <desc xml:id="CAT_000023_e130_1">L. a. s., 1862, 2 p. 1/4 in-4. 3</desc>
             </item>
 
             <item n="131" xml:id="CAT_000023_e131">
@@ -1398,7 +1399,7 @@
                <trait>
                   <p>célèbre théologien contemporain, de l'Acad. fr., né a Lille</p>
                </trait>
-               <desc>L. a. s. à l'abbé Moigno, 1864, 1 p. in-8. 2.50</desc>
+               <desc xml:id="CAT_000023_e131_1">L. a. s. à l'abbé Moigno, 1864, 1 p. in-8. 2.50</desc>
             </item>
             <item n="132" xml:id="CAT_000023_e132">
                <num>132</num>
@@ -1407,7 +1408,7 @@
                   <p>brave amiral espagnol, blessé mortellement au combat dé Trafalgar, où il s'est
                      conduit en héros</p>
                </trait>
-               <desc>L. a. s. en franc.; Brest, 24 août 1800, 1 p. in-4. Belle pièce. 6</desc>
+               <desc xml:id="CAT_000023_e132_1">L. a. s. en franc.; Brest, 24 août 1800, 1 p. in-4. Belle pièce. 6</desc>
             </item>
 
             <item n="133" xml:id="CAT_000023_e133">
@@ -1417,7 +1418,7 @@
                   <p>célèbre jurisconsulte, un des principaux auteurs du Code civil, né à
                      Brioude</p>
                </trait>
-               <desc>L. a. s. comme 1er Présid. de la Cour roy. de Riom et Présid. du Collège
+               <desc xml:id="CAT_000023_e133_1">L. a. s. comme 1er Présid. de la Cour roy. de Riom et Présid. du Collège
                   électoral de Brioude; Riom, 1819, 1 p. in-4. 2.50</desc>
             </item>
             <item n="134" xml:id="CAT_000023_e134">
@@ -1426,7 +1427,7 @@
                <trait>
                   <p>célèbre avocat et député du Jura</p>
                </trait>
-               <desc>L. a. s. (à Mme (d'Agoult, Daniel Stern), 1850, 3 p. in-8. 2</desc>
+               <desc xml:id="CAT_000023_e134_1">L. a. s. (à Mme (d'Agoult, Daniel Stern), 1850, 3 p. in-8. 2</desc>
                <note>Curieuse épître, relative à l'Histoire de la Révolution de 1848 par Mme
                   d'Agoult</note>
             </item>
@@ -1438,7 +1439,7 @@
                   <p>célèbre prédicateur sous la Restauration, aumônier de la Chambre des Pairs, né
                      à Ambert</p>
                </trait>
-               <desc>L. a. s. à l'abbé Moigno, 1865, 1 p. in-8. 1.50</desc>
+               <desc xml:id="CAT_000023_e135_1">L. a. s. à l'abbé Moigno, 1865, 1 p. in-8. 1.50</desc>
             </item>
             <item n="136" xml:id="CAT_000023_e136">
                <num>136</num>
@@ -1446,7 +1447,7 @@
                <trait>
                   <p>abbé de Solesmes, savant litur- giste, né au Mans</p>
                </trait>
-               <desc>L. a. s.; Abbaye de Solesmes, 1847, 2 p. in-8. 2.50</desc>
+               <desc xml:id="CAT_000023_e136_1">L. a. s.; Abbaye de Solesmes, 1847, 2 p. in-8. 2.50</desc>
                <note>Intéressante épitre relative à son édition du Pontificale de Catalano</note>
             </item>
 
@@ -1456,7 +1457,7 @@
                <trait>
                   <p>illustre médecin allemand, créateur de l'homoeopathie</p>
                </trait>
-               <desc>L. a. s.; Koethen, 1834, 1 p. in-18. Jolie pièce. 3</desc>
+               <desc xml:id="CAT_000023_e137_1">L. a. s.; Koethen, 1834, 1 p. in-18. Jolie pièce. 3</desc>
             </item>
 
             <item n="138" xml:id="CAT_000023_e138">
@@ -1465,7 +1466,7 @@
                <trait>
                   <p>illustre savant suisse du XVIIIe siècle</p>
                </trait>
-               <desc>L. a. s., en latin, 1751, 1 p. in-4. 4</desc>
+               <desc xml:id="CAT_000023_e138_1">L. a. s., en latin, 1751, 1 p. in-4. 4</desc>
             </item>
 
             <item n="139" xml:id="CAT_000023_e139">
@@ -1475,7 +1476,7 @@
                   <p>fille de la grande duchesse Stéphanie de Beauharnais, parente de Napoléon
                      III</p>
                </trait>
-               <desc>L. a. sig. Marie, à Mme Ducrest; Londres. 4 p. in-18. 2</desc>
+               <desc xml:id="CAT_000023_e139_1">L. a. sig. Marie, à Mme Ducrest; Londres. 4 p. in-18. 2</desc>
             </item>
 
             <item n="140" xml:id="CAT_000023_e140">
@@ -1484,7 +1485,7 @@
                <trait>
                   <p>brave maréchal de France, né dans les Basses-Pyrénées</p>
                </trait>
-               <desc>L. a. s. ; Saint-Etienne-de-Baigorrv (lieu de sa naissance), 1825, 1 p. in-4.
+               <desc xml:id="CAT_000023_e140_1">L. a. s. ; Saint-Etienne-de-Baigorrv (lieu de sa naissance), 1825, 1 p. in-4.
                   2</desc>
             </item>
 
@@ -1494,7 +1495,7 @@
                <trait>
                   <p>un des plus savants hellénistes français de ce siècle, de l'Institut</p>
                </trait>
-               <desc>L. a. s., 1850, 1 p. in-4. J 2</desc>
+               <desc xml:id="CAT_000023_e141_1">L. a. s., 1850, 1 p. in-4. J 2</desc>
             </item>
 
             <item n="142" xml:id="CAT_000023_e142">
@@ -1503,7 +1504,7 @@
                <trait>
                   <p>érudit, continuateur du Recueil des Histoires de France, de l'Institut</p>
                </trait>
-               <desc>L. a. s., 1852, 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000023_e142_1">L. a. s., 1852, 1 p. in-8. 2</desc>
             </item>
 
             <item n="143" xml:id="CAT_000023_e143">
@@ -1512,7 +1513,7 @@
                <trait>
                   <p>préfet de la Seine</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 2.50</desc>
+               <desc xml:id="CAT_000023_e143_1">L. a. s., 1 p. in-8. 2.50</desc>
             </item>
             <item n="144" xml:id="CAT_000023_e144">
                <num>144</num>
@@ -1520,7 +1521,7 @@
                <trait>
                   <p>Le même</p>
                </trait>
-               <desc>L. s., 1855, 1 p. in-f. * 1</desc>
+               <desc xml:id="CAT_000023_e144_1">L. s., 1855, 1 p. in-f. * 1</desc>
             </item>
 
             <item n="145" xml:id="CAT_000023_e145">
@@ -1530,7 +1531,7 @@
                   <p>savant historien allemand, célèbre par ses travaux sur le commerce de
                      l'antiquité et la littérature du moyen-âge</p>
                </trait>
-               <desc>L. a. s. ; Goettingue, 1824, 3 p. in-8. 2</desc>
+               <desc xml:id="CAT_000023_e145_1">L. a. s. ; Goettingue, 1824, 3 p. in-8. 2</desc>
             </item>
 
             <item n="146" xml:id="CAT_000023_e146">
@@ -1539,7 +1540,7 @@
                <trait>
                   <p>illustre poète allemand</p>
                </trait>
-               <desc>Reçu de 3 lignes aut. sig., en français, relatif à ses Reisebilder, 1843 in-18.
+               <desc xml:id="CAT_000023_e146_1">Reçu de 3 lignes aut. sig., en français, relatif à ses Reisebilder, 1843 in-18.
                   2.50</desc>
             </item>
             <item n="147" xml:id="CAT_000023_e147">
@@ -1548,7 +1549,7 @@
                <trait>
                   <p>savant jurisconsulte contemporain, de l'Institut, né à Nantes</p>
                </trait>
-               <desc>L. a. s., 1850, 1 p. in-8. Relative à la 3e édition de sa Théorie du Code
+               <desc xml:id="CAT_000023_e147_1">L. a. s., 1850, 1 p. in-8. Relative à la 3e édition de sa Théorie du Code
                   pénal. 2</desc>
             </item>
 
@@ -1558,7 +1559,7 @@
                <trait>
                   <p>roi de France</p>
                </trait>
-               <desc>Pièce sig. sur vélin, 1578, in-4. 1.50</desc>
+               <desc xml:id="CAT_000023_e148_1">Pièce sig. sur vélin, 1578, in-4. 1.50</desc>
             </item>
             <item n="149" xml:id="CAT_000023_e149">
                <num>149</num>
@@ -1566,7 +1567,7 @@
                <trait>
                   <p>roi de France</p>
                </trait>
-               <desc>L. s. aux maires et échevins de Foui; Rouen, 2 sept. 1603, 1/2 p. in-f., trace
+               <desc xml:id="CAT_000023_e149_1">L. s. aux maires et échevins de Foui; Rouen, 2 sept. 1603, 1/2 p. in-f., trace
                   de cachet. 2.50</desc>
                <note>Envoi de la compagnie du marquis de Vioménil, pour tenir garnison à Toul</note>
             </item>
@@ -1577,7 +1578,7 @@
                <trait>
                   <p>célèbre compositeur de romances, auteur du Muletier</p>
                </trait>
-               <desc>Fragment aut. sig., paroles et musique, de sa mélodie l'Oiseau sur la branche,
+               <desc xml:id="CAT_000023_e150_1">Fragment aut. sig., paroles et musique, de sa mélodie l'Oiseau sur la branche,
                   1861, pet. in-4 oblong. Jolie pièce d'album. 2.50</desc>
             </item>
 
@@ -1587,7 +1588,7 @@
                <trait>
                   <p>savant géologue et voyageur, né à Altkirch, mort en Perse, a 36 ans.</p>
                </trait>
-               <desc>L. a. s., 1844, 3 p. in-8. 4</desc>
+               <desc xml:id="CAT_000023_e151_1">L. a. s., 1844, 3 p. in-8. 4</desc>
                <note>Relative à la publication de son voyage à la mer Caspienne, pour laquelle il
                   demande une subvention de l'Etat. «J'ai, dit-il, envoyé mes premières livraisons à
                   M. Thiers. Il m'a écrit dernièrement une lettre charmante peut-être pourra-t-il
@@ -1600,7 +1601,7 @@
                   <p>savant botaniste et physicien danois, professeur à l'Université de
                      Copenhague</p>
                </trait>
-               <desc>L. a. s., en français, au baron de Férussac; Copenhague, 1823, 1 p. in-4.
+               <desc xml:id="CAT_000023_e152_1">L. a. s., en français, au baron de Férussac; Copenhague, 1823, 1 p. in-4.
                   3</desc>
             </item>
 
@@ -1610,7 +1611,7 @@
                <trait>
                   <p>savant généalogiste, auteur de l'Armorial de France</p>
                </trait>
-               <desc>Belle pièce sig. sur vélin, 1699, in-f. 2 50 Certificat de noblesse de Th.-Ph.
+               <desc xml:id="CAT_000023_e153_1">Belle pièce sig. sur vélin, 1699, in-f. 2 50 Certificat de noblesse de Th.-Ph.
                   de Saint-Nicolas, trésorier de France au bureau d'Alençon, avec ses
                   armoiries</desc>
             </item>
@@ -1621,7 +1622,7 @@
                <trait>
                   <p>illustre écrivain, de l'Acad. franc</p>
                </trait>
-               <desc>L. a. s. à M. Guérin, 1845, 1 p. in-8, enveloppe. 4</desc>
+               <desc xml:id="CAT_000023_e154_1">L. a. s. à M. Guérin, 1845, 1 p. in-8, enveloppe. 4</desc>
                <note>Relative a une nouvelle édition de son ouvrage le Rhin, auquel il ajoute un
                   volume inédit</note>
             </item>
@@ -1632,7 +1633,7 @@
                <trait>
                   <p>épouse du précédent</p>
                </trait>
-               <desc>L. a. s. au comte de Tascher, 1847, 2 p. in-8. 1.50</desc>
+               <desc xml:id="CAT_000023_e155_1">L. a. s. au comte de Tascher, 1847, 2 p. in-8. 1.50</desc>
             </item>
             <item n="156" xml:id="CAT_000023_e156">
                <num>156</num>
@@ -1640,7 +1641,7 @@
                <trait>
                   <p>illustre savant</p>
                </trait>
-               <desc>L. a. s., 1 p.in-8. 1.50</desc>
+               <desc xml:id="CAT_000023_e156_1">L. a. s., 1 p.in-8. 1.50</desc>
             </item>
             <item n="157" xml:id="CAT_000023_e157">
                <num>157</num>
@@ -1648,7 +1649,7 @@
                <trait>
                   <p>célèbre prédicateur, né à Orléans</p>
                </trait>
-               <desc>L. a. s. à Mgr Dupanloup, évêque d'Orléans; Paris, 26 sept. 1869, 1 p. in-8.
+               <desc xml:id="CAT_000023_e157_1">L. a. s. à Mgr Dupanloup, évêque d'Orléans; Paris, 26 sept. 1869, 1 p. in-8.
                   12</desc>
                <note>Original de la lettre publiée par tous les journaux, en réponse à celle que lui
                   avait adressée Mgr Dupanloup à l'occasion de sa retraite de l'ordre des Carmes.
@@ -1663,7 +1664,7 @@
                <trait>
                   <p>le célèbre critique</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 1.25</desc>
+               <desc xml:id="CAT_000023_e158_1">L. a. s., 1 p. in-8. 1.25</desc>
             </item>
             <item n="159" xml:id="CAT_000023_e159">
                <num>159</num>
@@ -1673,7 +1674,7 @@
                      Winckelmann, auteur de l'Essai sur l'Origine de la Gravure en bois et en
                      taille-douce</p>
                </trait>
-               <desc>L. a. s. au bibliographe Barbier; Paris, 1812, 2 p. in-4. 4</desc>
+               <desc xml:id="CAT_000023_e159_1">L. a. s. au bibliographe Barbier; Paris, 1812, 2 p. in-4. 4</desc>
                <note>Au sujet du véritable auteur des Aventures de Friso</note>
             </item>
 
@@ -1683,7 +1684,7 @@
                <trait>
                   <p>illustre prédicateur, de l'Acad. franc., né dans la Côte-d'Or</p>
                </trait>
-               <desc>L. a. s. au libraire Méquignon, 1849, l p. in-4. 3</desc>
+               <desc xml:id="CAT_000023_e160_1">L. a. s. au libraire Méquignon, 1849, l p. in-4. 3</desc>
             </item>
 
             <item n="161" xml:id="CAT_000023_e161">
@@ -1692,7 +1693,7 @@
                <trait>
                   <p>célèbre astronome, directeur de l'Observatoire, né à Saint-Lô</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 1.50</desc>
+               <desc xml:id="CAT_000023_e161_1">L. a. s., 1 p. in-8. 1.50</desc>
             </item>
             <item n="162" xml:id="CAT_000023_e162">
                <num>162</num>
@@ -1700,7 +1701,7 @@
                <trait>
                   <p>savant mathématicien, trop célèbre amateur</p>
                </trait>
-               <desc>L. a. s., 1843, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000023_e162_1">L. a. s., 1843, 1 p. in-8. 3</desc>
             </item>
 
             <item n="163" xml:id="CAT_000023_e163">
@@ -1709,7 +1710,7 @@
                <trait>
                   <p>notre célèbre historien national, né à Saint- Quentin</p>
                </trait>
-               <desc>L. a. s. à M. Guérin, 1859, 1 p. in-8. Relative aux autographes de Manin, son
+               <desc xml:id="CAT_000023_e163_1">L. a. s. à M. Guérin, 1859, 1 p. in-8. Relative aux autographes de Manin, son
                   ami. 3</desc>
             </item>
 
@@ -1719,7 +1720,7 @@
                <trait>
                   <p>célèbre littérateur et historien, de l'Institut</p>
                </trait>
-               <desc>L. a. s., 1851, 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000023_e164_1">L. a. s., 1851, 1 p. in-8. 2</desc>
             </item>
 
             <item n="165" xml:id="CAT_000023_e165">
@@ -1728,7 +1729,7 @@
                <trait>
                   <p>grand chirurgien, médecin de Napoléon III</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 1.50</desc>
+               <desc xml:id="CAT_000023_e165_1">L. a. s., 1 p. in-8. 1.50</desc>
             </item>
             <item n="166" xml:id="CAT_000023_e166">
                <num>166</num>
@@ -1736,7 +1737,7 @@
                <trait>
                   <p>savant chimiste, physicien et géologue, de l'Institut, né à Dole</p>
                </trait>
-               <desc>L. a. s., 1849, 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000023_e166_1">L. a. s., 1849, 1 p. in-8. 2</desc>
             </item>
          </list>
       </body>

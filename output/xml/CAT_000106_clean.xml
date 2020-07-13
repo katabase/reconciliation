@@ -1,4 +1,5 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000106">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000106">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -83,7 +84,7 @@
                <trait>
                   <p>célèbre ténor de l'Opéra-Comique, né à Lyon en 1831</p>
                </trait>
-               <desc>L. a. s., 1875, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e1_1">L. a. s., 1875, 1 p. in-8. 3</desc>
             </item>
             <item n="2" xml:id="CAT_000106_e2">
                <num>2</num>
@@ -92,7 +93,7 @@
                   <p>épouse du prétendant Edouard Stuart, aimée d'Alfieri qui l'a chantée en beaux
                      vers</p>
                </trait>
-               <desc>L. a. s., en français, à Césare Trenta, à Lucca; 1815, 1 p. in-4. 25</desc>
+               <desc xml:id="CAT_000106_e2_1">L. a. s., en français, à Césare Trenta, à Lucca; 1815, 1 p. in-4. 25</desc>
             </item>
             <item n="3" xml:id="CAT_000106_e3">
                <num>3</num>
@@ -101,7 +102,7 @@
                   <p>maréchal de France, qui se distingua dans la campagne de Flandre, né en 1633,
                      mort en 1733</p>
                </trait>
-               <desc>Pièce aut. sig., 1690, 1 p. in-4 obl., cachet à ses armes très-bien conservé.
+               <desc xml:id="CAT_000106_e3_1">Pièce aut. sig., 1690, 1 p. in-4 obl., cachet à ses armes très-bien conservé.
                   15</desc>
             </item>
             <item n="4" xml:id="CAT_000106_e4">
@@ -110,7 +111,7 @@
                <trait>
                   <p>avocat et jurisconsulte contemporain, né à Limôges en 1820</p>
                </trait>
-               <desc>L. a. s., 1868, 1/2 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e4_1">L. a. s., 1868, 1/2 p. in-8. 3</desc>
             </item>
             <item n="5" xml:id="CAT_000106_e5">
                <num>5</num>
@@ -119,7 +120,7 @@
                   <p>ancien pair de France, célèbre orateur et écrivain socialiste, auteur de
                      Mémoires, né en 1810, mort e 1874</p>
                </trait>
-               <desc>L. a. s., 1 p. in-18. 3</desc>
+               <desc xml:id="CAT_000106_e5_1">L. a. s., 1 p. in-18. 3</desc>
             </item>
             <item n="6" xml:id="CAT_000106_e6">
                <num>6</num>
@@ -128,7 +129,7 @@
                   <p>un des pul icistes les plus distingués du parti i« rialiste, né à Perpignan en
                      182.</p>
                </trait>
-               <desc>L. a. s., 1869, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e6_1">L. a. s., 1869, 1 p. in-8. 3</desc>
                <note>Curieuse réponse à la demand. son autographe</note>
             </item>
             <item n="7" xml:id="CAT_000106_e7">
@@ -137,7 +138,7 @@
                <trait>
                   <p>célèbre poète et auteur dramatique, née à Dijon en 1792, morte en 1875</p>
                </trait>
-               <desc>L. a. s., 1870, 1 p. in-8. Curieuse. 3</desc>
+               <desc xml:id="CAT_000106_e7_1">L. a. s., 1870, 1 p. in-8. Curieuse. 3</desc>
             </item>
             <item n="8" xml:id="CAT_000106_e8">
                <num>8</num>
@@ -146,7 +147,7 @@
                   <p>général distingué de la République et de l'Empire, savant écrivain, né à
                      Castelnaudary en 1761, mort en 1828</p>
                </trait>
-               <desc>Let. sig., 1/2 p. in-fol. 2</desc>
+               <desc xml:id="CAT_000106_e8_1">Let. sig., 1/2 p. in-fol. 2</desc>
             </item>
             <item n="9" xml:id="CAT_000106_e9">
                <num>9</num>
@@ -155,7 +156,7 @@
                   <p>célèbre érudit et écrivain espagnol du XVIIe siècle, bibliographe, auteur de la
                      Bibliotheca hispana, né à Séville en 1617, mort en 1684</p>
                </trait>
-               <desc>L. a. s. à don Diego Lores Dormer ; Saragosse, 9 janvier 1682, 1 p. 1/3 in-fol.
+               <desc xml:id="CAT_000106_e9_1">L. a. s. à don Diego Lores Dormer ; Saragosse, 9 janvier 1682, 1 p. 1/3 in-fol.
                   Rare. 25</desc>
                <note>Il lui annonce que les attaques (impugnaciones) de Rua contre Fr.-Ant. de
                   Guevara viennent d'être imprimées; elles sont des plus doctes et serviront autant
@@ -168,7 +169,7 @@
                   <p>littérateur et journaliste contemporain, auteur d'un ouvrage sur Diderot, né à
                      Versailles en 1829, mort en 1878</p>
                </trait>
-               <desc>P. a. s., 1872, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e10_1">P. a. s., 1872, 1 p. in-8. 3</desc>
                <note>Extrait de son feuilleton sur les Doctrines et les méthodes historiques.</note>
             </item>
             <item n="11" xml:id="CAT_000106_e11">
@@ -177,7 +178,7 @@
                <trait>
                   <p>, célèbre écrivain romantique, né en 1820, mort en 1874</p>
                </trait>
-               <desc>L. a. s., 1/2 p. in-8. 4</desc>
+               <desc xml:id="CAT_000106_e11_1">L. a. s., 1/2 p. in-8. 4</desc>
             </item>
             <item n="12" xml:id="CAT_000106_e12">
                <num>12</num>
@@ -187,7 +188,7 @@
                      son indolence, augmenta considérablement l'influence qui devait amener le
                      partage de la Pologne</p>
                </trait>
-               <desc>L. a. s., en français, à Louis XV; Kenigstein, 17 oct. 1756, 1 p. 1/2 in-4,
+               <desc xml:id="CAT_000106_e12_1">L. a. s., en français, à Louis XV; Kenigstein, 17 oct. 1756, 1 p. 1/2 in-4,
                   cachets à ses armes. Légère tache. 75</desc>
                <note>Importante lettre. Il lui annonce la prise de ses soldats au camp de Pirna et
                   leur incorporation dans l'armée prussienne ; Frédéric II lui refuse toute
@@ -202,7 +203,7 @@
                   <p>célèbre penseur mystique et un de nos plus éloquents prosateurs, de l'Acad.
                      fr.. né à Lyon en 1776, mort en 1847</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e13_1">L. a. s., 1 p. in-8. 5</desc>
             </item>
             <item n="14" xml:id="CAT_000106_e14">
                <num>14</num>
@@ -210,7 +211,7 @@
                <trait>
                   <p>célèbre sculpteur contemporain, élève de Léon Cogniet, né en 1841</p>
                </trait>
-               <desc>L. a. s., 1878, 1 p. in-18. 5</desc>
+               <desc xml:id="CAT_000106_e14_1">L. a. s., 1878, 1 p. in-18. 5</desc>
                <note>Curieuse réponse à la demande de son autographe</note>
             </item>
             <item n="15" xml:id="CAT_000106_e15">
@@ -220,7 +221,7 @@
                   <p>petit-fils naturel de Henri IV, fameux frondeur, surnommé le Roi des halles,
                      amiral de France, né en 1616, tué au siège de Candie en 1669</p>
                </trait>
-               <desc>Let. sig.; Châteauneuf-sur-Loire, 1662, 1/2 p. in-fol. Belle lettre. 20</desc>
+               <desc xml:id="CAT_000106_e15_1">Let. sig.; Châteauneuf-sur-Loire, 1662, 1/2 p. in-fol. Belle lettre. 20</desc>
             </item>
             <item n="16" xml:id="CAT_000106_e16">
                <num>16</num>
@@ -229,7 +230,7 @@
                   <p>époux de la tille de Louis XI, Anne de France, et régent avec elle pendant la
                      minorité de Charles VIII, mort en 1502</p>
                </trait>
-               <desc>Let. . sig. avec la souscrip. aut. ; Troyes, 11 mai (1486), 1 p. in-4. Légère
+               <desc xml:id="CAT_000106_e16_1">Let. . sig. avec la souscrip. aut. ; Troyes, 11 mai (1486), 1 p. in-4. Légère
                   tache. 45</desc>
                <note>Curieuse lettre qu'il signe : « Vre Beaujolois Pierre.</note>
             </item>
@@ -241,7 +242,7 @@
                      il prit part au siège de La Rochelle et à l'attaque de l'ile de Ré, né à Rouen
                      en 1589, mort à Toulon en 1637</p>
                </trait>
-               <desc>L. a. s. au marquis de Brézé, à Brouage; Sables d'Olonne, 10 août 1627, 1 p.
+               <desc xml:id="CAT_000106_e17_1">L. a. s. au marquis de Brézé, à Brouage; Sables d'Olonne, 10 août 1627, 1 p.
                   in-fol. Un peu fatiguée. Très rare. 35</desc>
                <note>Lettre historique. Le sieur de Coursolles a promis à Richelieu de ravitailler
                   Toiras, assiégé dans Saint-Martin de Ré, en hommes, munitions, victuailles, avec
@@ -260,7 +261,7 @@
                   <p>grand écuyer de France, amant de Gabrielle d'Estrées avant Henri IV, né vers
                      1563, mort en 1646</p>
                </trait>
-               <desc>L. a. s. à Louis XIII; Andelot (Haute-Marne), 1er déc. 1632, 1 p. 1/2 in-fol.,
+               <desc xml:id="CAT_000106_e18_1">L. a. s. à Louis XIII; Andelot (Haute-Marne), 1er déc. 1632, 1 p. 1/2 in-fol.,
                   cachets et soies. 33</desc>
                <note>Superbe lettre écrite à l'époque de sa disgrâce. Il remercie le roi de lui
                   avoir accordé « le pardon que je lui ay demandé »</note>
@@ -271,7 +272,7 @@
                <trait>
                   <p>célèbre cantatrice contemporaine</p>
                </trait>
-               <desc>L. a. s., en français; Londres, 1877, 1 p. in-8. 10</desc>
+               <desc xml:id="CAT_000106_e19_1">L. a. s., en français; Londres, 1877, 1 p. in-8. 10</desc>
             </item>
             <item n="20" xml:id="CAT_000106_e20">
                <num>20</num>
@@ -279,7 +280,7 @@
                <trait>
                   <p>le grand chansonnier</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e20_1">L. a. s., 1 p. in-8. 6</desc>
             </item>
             <item n="21" xml:id="CAT_000106_e21">
                <num>21</num>
@@ -288,7 +289,7 @@
                   <p>illustre chimiste, de l'Institut, né à Talloire (Savoie) en 1748, mort en
                      1822</p>
                </trait>
-               <desc>L. a. s.; Arcueil, 7 vend, (an XIV), 2 p. in-fol. 10</desc>
+               <desc xml:id="CAT_000106_e21_1">L. a. s.; Arcueil, 7 vend, (an XIV), 2 p. in-fol. 10</desc>
                <note>Lettre très-curieuse où il apprécie la situation politique dans les
                   Pyrénées-Orientales : « Ce département presque isolé de l'Empire n'a pas profité
                   des changemens heureux qui se sont faits dans les opinions depuis le 18 Brumaire;
@@ -302,7 +303,7 @@
                <trait>
                   <p>spirituel romancier, né à Cambrai en 1804</p>
                </trait>
-               <desc>L. a. s., 1 p. in-18. 2</desc>
+               <desc xml:id="CAT_000106_e22_1">L. a. s., 1 p. in-18. 2</desc>
             </item>
             <item n="23" xml:id="CAT_000106_e23">
                <num>23</num>
@@ -310,7 +311,7 @@
                <trait>
                   <p>savant mathématicien et physicien, de l'Acad. fr., né en 1822</p>
                </trait>
-               <desc>L. a. s., 2 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e23_1">L. a. s., 2 p. in-8. 6</desc>
             </item>
             <item n="24" xml:id="CAT_000106_e24">
                <num>24</num>
@@ -319,7 +320,7 @@
                   <p>célèbre ministre de Napoléon. Ier, et de Louis XVIII, auteur de curieux
                      Mémoires, né à Bar-sur-Aube en 1761. mort en 1835</p>
                </trait>
-               <desc>P. s., in-fol. 1.50</desc>
+               <desc xml:id="CAT_000106_e24_1">P. s., in-fol. 1.50</desc>
             </item>
             <item n="25" xml:id="CAT_000106_e25">
                <num>25</num>
@@ -328,7 +329,7 @@
                   <p>ministre des Cultes sous Napoléon Ier, de l'Acad. fr., né à Rennes en 1747,
                      mort en 1825</p>
                </trait>
-               <desc>L. s., 1 p. in-4. 2</desc>
+               <desc xml:id="CAT_000106_e25_1">L. s., 1 p. in-4. 2</desc>
             </item>
             <item n="26" xml:id="CAT_000106_e26">
                <num>26</num>
@@ -337,7 +338,7 @@
                   <p>célèbre homme d'Etat et diplomate, ami et confident de Louis XVIII, de
                      l'Institut, né en 1770, mort. en 1839</p>
                </trait>
-               <desc>L. a. s. au vicomte de L. a. Boulaye, 1 p. in-8. 8</desc>
+               <desc xml:id="CAT_000106_e26_1">L. a. s. au vicomte de L. a. Boulaye, 1 p. in-8. 8</desc>
             </item>
             <item n="27" xml:id="CAT_000106_e27">
                <num>27</num>
@@ -345,7 +346,7 @@
                <trait>
                   <p>célèbre historien et homme d'Etat, né en 1811, mort en 1882</p>
                </trait>
-               <desc>P. a. s. ; 20 août 1869, 9 p. 1/4 in-8 obl. Légère déchirure. 20</desc>
+               <desc xml:id="CAT_000106_e27_1">P. a. s. ; 20 août 1869, 9 p. 1/4 in-8 obl. Légère déchirure. 20</desc>
                <note>Article sous forme de lettre pour le journal le Temps. C'est une suite à ses
                   lettres sur l'Angleterre. Il y apprécie le sénatus-consulte du 2 août 1869 et la
                   politique dite de l'Empire libéral. « Le gouvernement personnel... s'il voulait
@@ -364,7 +365,7 @@
                   <p>acteur français dont le nom fut associé à toutes les oeuvres du romantisme, né
                      en 1801, mort en 1863</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e28_1">L. a. s., 1 p. in-8. 3</desc>
             </item>
             <item n="29" xml:id="CAT_000106_e29">
                <num>29</num>
@@ -373,7 +374,7 @@
                   <p>de Puimorin, intendant et contrôleur général de l'argenterie des menus plaisirs
                      du roi, frère du célèbre poète, né en 1625, mort en 1683</p>
                </trait>
-               <desc>Quittance aut. sig. sur vélin, 1683, 2 p. in-8 obl. 11</desc>
+               <desc xml:id="CAT_000106_e29_1">Quittance aut. sig. sur vélin, 1683, 2 p. in-8 obl. 11</desc>
             </item>
             <item n="30" xml:id="CAT_000106_e30">
                <num>30</num>
@@ -383,7 +384,7 @@
                      Elisabeth de France et Louise de Vaudemont, auteur d'une Relation des Campagnes
                      de Brissac en Italie, mort en 1618</p>
                </trait>
-               <desc>Quittance sig. sur vélin, 1582, in-8 obl. 15</desc>
+               <desc xml:id="CAT_000106_e30_1">Quittance sig. sur vélin, 1582, in-8 obl. 15</desc>
             </item>
             <item n="31" xml:id="CAT_000106_e31">
                <num>31</num>
@@ -391,7 +392,7 @@
                <trait>
                   <p>roi de Hollande, père de Napoléon III, né à Ajaccio en 1778, mort en 1846</p>
                </trait>
-               <desc>L. a. s. (au baron Bignon) ; Florence, 24 juin, 1830, 3 p. pl. in-4. 42</desc>
+               <desc xml:id="CAT_000106_e31_1">L. a. s. (au baron Bignon) ; Florence, 24 juin, 1830, 3 p. pl. in-4. 42</desc>
                <note>Très-curieuse lettre où il le complimente sur son Histoire de Napoléon Ier; il
                   la préfère à celles de Norvins et de Buonacorsi, et lui sait gré d'avoir été
                   respectueux du génie et fidèle au malheur. Au début, en lisant son ouvrage, il
@@ -405,7 +406,7 @@
                <trait>
                   <p>littérateur et historien distingué, né en 1801, mort en 1875</p>
                </trait>
-               <desc>L. a. s. à M. Carlier; Meudon, 1818, 1 p. 1/2 in-8. Légère déchirure. 5</desc>
+               <desc xml:id="CAT_000106_e32_1">L. a. s. à M. Carlier; Meudon, 1818, 1 p. 1/2 in-8. Légère déchirure. 5</desc>
             </item>
             <item n="33" xml:id="CAT_000106_e33">
                <num>33</num>
@@ -413,7 +414,7 @@
                <trait>
                   <p>philosophe et naturaliste suisse, ami de J.-J. Rousseau</p>
                </trait>
-               <desc>L. a. s., en français, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e33_1">L. a. s., en français, 1 p. in-8. 3</desc>
             </item>
             <item n="34" xml:id="CAT_000106_e34">
                <num>34</num>
@@ -422,7 +423,7 @@
                   <p>nièce de Mazarin, compromise en 1680 dans l'affaire des Poisons, amie et
                      protectrice de La Fontaine</p>
                </trait>
-               <desc>Pièce aut., 2 p. in-4. Rare. 18</desc>
+               <desc xml:id="CAT_000106_e34_1">Pièce aut., 2 p. in-4. Rare. 18</desc>
                <note>Fragment d'un manuscrit</note>
             </item>
             <item n="35" xml:id="CAT_000106_e35">
@@ -436,7 +437,7 @@
                      jusqu'en 1814; le Congrès de Vienne lui enleva les biens des Bouillon pour les
                      donner au prince de Rohan Montbazon</p>
                </trait>
-               <desc>L. a. s. au libraire Dulau, à Londres; Jersey, 6 octobre 1806, 2 p. 1/2 in-4.
+               <desc xml:id="CAT_000106_e35_1">L. a. s. au libraire Dulau, à Londres; Jersey, 6 octobre 1806, 2 p. 1/2 in-4.
                   15</desc>
                <note>Il lui demande d'extraire de la collection du Moniteur des documents sur les
                   Bouillon (pour servir à ses revendications) et d'y joindre les mémoires de
@@ -448,7 +449,7 @@
                <trait>
                   <p>célèbre réformateur suisse, né à Zurich en 1575, mort en 1645</p>
                </trait>
-               <desc>L. a. s. à Henri Dussen, à Heungart; Zûrich, 19 janvier 1637, 1 p. in-fol.,
+               <desc xml:id="CAT_000106_e36_1">L. a. s. à Henri Dussen, à Heungart; Zûrich, 19 janvier 1637, 1 p. in-fol.,
                   cachet. Superbe et rare lettre. 75</desc>
             </item>
             <item n="37" xml:id="CAT_000106_e37">
@@ -458,7 +459,7 @@
                   <p>célèbre comédien du Théâtre-Français, né à Châlon-sur-Saône en 1815, mort
                      récemment</p>
                </trait>
-               <desc>L. a. s., 1869, 1 p. in-8. 4</desc>
+               <desc xml:id="CAT_000106_e37_1">L. a. s., 1869, 1 p. in-8. 4</desc>
             </item>
             <item n="38" xml:id="CAT_000106_e38">
                <num>38</num>
@@ -466,7 +467,7 @@
                <trait>
                   <p>comédien distingué du Théâtre-Français, né en 1814</p>
                </trait>
-               <desc>L. a. s., 1879, 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e38_1">L. a. s., 1879, 1 p. in-8. 5</desc>
                <note>Cette lettre porte aussi la signature avec 2 mots aut. de Mlle Jeanne
                   Brindeau</note>
             </item>
@@ -476,7 +477,7 @@
                <trait>
                   <p>savant minéralogiste et géologue, de l'Institut, né en 1770, mort en 1847</p>
                </trait>
-               <desc>L. a. s. à M. de Chamrobert, 1847, 1 p. 1/2 in-4. Lettre scientifique. 8</desc>
+               <desc xml:id="CAT_000106_e39_1">L. a. s. à M. de Chamrobert, 1847, 1 p. 1/2 in-4. Lettre scientifique. 8</desc>
             </item>
             <item n="40" xml:id="CAT_000106_e40">
                <num>40</num>
@@ -484,7 +485,7 @@
                <trait>
                   <p>le célèbre amiral, né à Colmar en 1796, mort en 1835</p>
                </trait>
-               <desc>L. a. s. à l'éditeur Gide ; Toulon, 1843, 1 p. 1/2 in-8. Déchirure. 8</desc>
+               <desc xml:id="CAT_000106_e40_1">L. a. s. à l'éditeur Gide ; Toulon, 1843, 1 p. 1/2 in-8. Déchirure. 8</desc>
             </item>
             <item n="41" xml:id="CAT_000106_e41">
                <num>41</num>
@@ -493,7 +494,7 @@
                   <p>illustre réformateur allemand, ami de Calvin, fondateur de l'Eglise de
                      Strasbourg, né en 1491, mort en Angleterre en 1551</p>
                </trait>
-               <desc>L. a. s. de ses initiales, au docteur Théodore Weit, à Nuremberg ; Strasbourg,
+               <desc xml:id="CAT_000106_e41_1">L. a. s. de ses initiales, au docteur Théodore Weit, à Nuremberg ; Strasbourg,
                   22 novembre 1546, 2 p. in-fol. Très-rare. 150</desc>
                <note>Magnifique lettre. Il déplore les souffrances de l'Eglise luthérienne et les
                   succès de Charles-Quint; cependant il espère que Maurice de Saxe viendra au
@@ -506,7 +507,7 @@
                <trait>
                   <p>spirituel chansonnier et auteur d'opérettes</p>
                </trait>
-               <desc>L. a. s., 1 p. in-18. 5</desc>
+               <desc xml:id="CAT_000106_e42_1">L. a. s., 1 p. in-18. 5</desc>
                <note>Curieuse lettre qui contient un fragment de sa chanson dès Pompiers de
                   Nanterre: « C'est avec cette poesie là que j'ai gagné 32,000 fr. 111</note>
             </item>
@@ -516,7 +517,7 @@
                <trait>
                   <p>l'illustre réformateur, né à Noyon en 1509, mort en 1564</p>
                </trait>
-               <desc>Let. sig. , en latin, avec la souscript. et 3 lignes aut., à Ebrard d'Erpach,
+               <desc xml:id="CAT_000106_e43_1">Let. sig. , en latin, avec la souscript. et 3 lignes aut., à Ebrard d'Erpach,
                   grand dépensier de l'Electeur palatin; Genève, juillet 1559, 2 p. 3/4 in-fol.,
                   cachet. Légers raccommodages. 400</desc>
                <note>Précieuse lettre d'une grande importance au point de vue de l'histoire du
@@ -536,7 +537,7 @@
                   <p>célèbre général, le héros du dernier épisode de Waterloo, né à Nantes en 1770,
                      mort en 1842</p>
                </trait>
-               <desc>L. a. s. à M. Dalidet, à Bordeaux; 18 avril 1824, 1 p. in-4. Belle lettre.
+               <desc xml:id="CAT_000106_e44_1">L. a. s. à M. Dalidet, à Bordeaux; 18 avril 1824, 1 p. in-4. Belle lettre.
                   10</desc>
             </item>
             <item n="45" xml:id="CAT_000106_e45">
@@ -546,7 +547,7 @@
                   <p>poète dramatique, de l'Acad. fr., né à la Guade- loupe en 1772, mort en
                      1843</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e45_1">L. a. s., 1 p. in-8. 5</desc>
             </item>
             <item n="46" xml:id="CAT_000106_e46">
                <num>46</num>
@@ -554,7 +555,7 @@
                <trait>
                   <p>illustre homme d'Etat anglais, né en 1770, mort en 1827</p>
                </trait>
-               <desc>L. a. s. au prince de Starhemberg ; Londres, 11 juillet 1809, 2 p. in-4. Légère
+               <desc xml:id="CAT_000106_e46_1">L. a. s. au prince de Starhemberg ; Londres, 11 juillet 1809, 2 p. in-4. Légère
                   déchirure. 23</desc>
                <note>Il le remercie de l'envoi d'une relation en anglais et en allemand sur les
                   batailles d'As- pern et de Wagram; la copie allemande est pour le roi Georges; la
@@ -566,7 +567,7 @@
                <trait>
                   <p>l'un des princes de l'art culinaire, né en 1784, mort en 1833</p>
                </trait>
-               <desc>L. a. s. à M. Fayot, 1832, 1/2 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e47_1">L. a. s. à M. Fayot, 1832, 1/2 p. in-8. 3</desc>
             </item>
             <item n="48" xml:id="CAT_000106_e48">
                <num>48</num>
@@ -574,7 +575,7 @@
                <trait>
                   <p>prétendant au trône d'Espagne, ne en 1848</p>
                </trait>
-               <desc>Pièce aut. sig.; Paris, 20 mars 1877, 1 p. in-8 obl. Papier armorié. 5</desc>
+               <desc xml:id="CAT_000106_e48_1">Pièce aut. sig.; Paris, 20 mars 1877, 1 p. in-8 obl. Papier armorié. 5</desc>
                <note>Jolie pièce d'amateur dont voici le texte : « La firmeza y la perseverancia son
                   el camino de la victoria.</note>
             </item>
@@ -585,7 +586,7 @@
                   <p>peintre illustre, chef de l'école bolonaise, maître d'An- nibal Carrache, son
                      cousin, né en 1555, mort en 1619</p>
                </trait>
-               <desc>L. a. s. au peintre Ferante Carlo, à Crémone ; Bologne, 14 juin 1616, 1 p.
+               <desc xml:id="CAT_000106_e49_1">L. a. s. au peintre Ferante Carlo, à Crémone ; Bologne, 14 juin 1616, 1 p.
                   in-fol. Légers raccommodages par suite de piqûres de vers. 175</desc>
                <note>Curieuse lettre sur ses travaux. Sa Sainte- Marguerite est achevée et va être
                   envoyée à Mantoue; il a presque fini une chaste Suzanne pour les Caprara, il va se
@@ -597,7 +598,7 @@
                <trait>
                   <p>publiciste et homme politique, député du Gers, né en 1843</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. Curieuse. 5</desc>
+               <desc xml:id="CAT_000106_e50_1">L. a. s., 1 p. in-8. Curieuse. 5</desc>
             </item>
             <item n="51" xml:id="CAT_000106_e51">
                <num>51</num>
@@ -605,7 +606,7 @@
                <trait>
                   <p>le célèbre caricaturiste, né en 1819, mort en 1884</p>
                </trait>
-               <desc>Dessin-charge à la plume avec 4 lignes aut., 1 p. in-18 obl. 10</desc>
+               <desc xml:id="CAT_000106_e51_1">Dessin-charge à la plume avec 4 lignes aut., 1 p. in-18 obl. 10</desc>
                <note>Scène du Salon. Voici le texte de la légende: « La baronne de Pres furieuse de
                   ce que les plantes grasses se sont groupées de préférence autour de son
                   buste.</note>
@@ -616,7 +617,7 @@
                <trait>
                   <p>dit)</p>
                </trait>
-               <desc>Dessin-charge à la plume avec quatre lignes aut. sig. , 1 p. in-18 obl.
+               <desc xml:id="CAT_000106_e52_1">Dessin-charge à la plume avec quatre lignes aut. sig. , 1 p. in-18 obl.
                   10</desc>
                <note>Scène du Salon. Charge de Berryer : « L'illustre Berryer prêtant son concours à
                   l'Exposition d'Horticulture.</note>
@@ -628,7 +629,7 @@
                   <p>duc de Cadore, homme d'Etat, ministre de Napoléon Ier, né à Roanne en 1756,
                      mort en 1834</p>
                </trait>
-               <desc>L. s., 1 p. 1/2 in-fol. 2</desc>
+               <desc xml:id="CAT_000106_e53_1">L. s., 1 p. 1/2 in-fol. 2</desc>
             </item>
             <item n="54" xml:id="CAT_000106_e54">
                <num>54</num>
@@ -636,7 +637,7 @@
                <trait>
                   <p>dit). célèbre littérateur réaliste, né à Laon en 1821</p>
                </trait>
-               <desc>Les Chats, pièce aut. sig., 2 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e54_1">Les Chats, pièce aut. sig., 2 p. in-8. 5</desc>
                <note>Extrait d'un de ses ouvrages fait pour un amateur</note>
             </item>
             <item n="55" xml:id="CAT_000106_e55">
@@ -645,7 +646,7 @@
                <trait>
                   <p>le célèbre médecin, né en 1825</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e55_1">L. a. s., 1 p. in-8. 3</desc>
             </item>
             <item n="56" xml:id="CAT_000106_e56">
                <num>56</num>
@@ -654,7 +655,7 @@
                   <p>peintre contemporain, qui a illustré l'Histoire du Consulat et de l'Empire, né
                      en 1811</p>
                </trait>
-               <desc>L. a. s., 1 p. in-18 obl. 3</desc>
+               <desc xml:id="CAT_000106_e56_1">L. a. s., 1 p. in-18 obl. 3</desc>
             </item>
             <item n="57" xml:id="CAT_000106_e57">
                <num>57</num>
@@ -663,13 +664,13 @@
                   <p>célèbre critique et littérateur, né à Mainvilliers (Eureet-Loir) en 1798, mort
                      en 1873</p>
                </trait>
-               <desc>L. a. s., 1868, 1/2 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e57_1">L. a. s., 1868, 1/2 p. in-8. 3</desc>
                <note>Curieuse réponse à la demande de son autographe.</note>
             </item>
             <item n="58" xml:id="CAT_000106_e58">
                <num>58</num>
                <name type="author">Choderlos de Laclos (P.-A.-</name>
-               <desc>F.), général et littérateur, l'un des hommes les plus spirituels de son temps,
+               <desc xml:id="CAT_000106_e58_1">F.), général et littérateur, l'un des hommes les plus spirituels de son temps,
                   qui prit une part active aux débuts de la Révolution, auteur des Liaisons
                   dangereuses, né à Amiens en 1741, mort en 1803.-Quittance sig. sur vélin ; 1781,
                   1 p. in-18 obl. 15</desc>
@@ -681,7 +682,7 @@
                   <p>roi de Danemark, père de la princesse de Galles et de l'impératrice de
                      Russie</p>
                </trait>
-               <desc>L. a. s., en allemand, à son fils Frédérick ; Bernstorff, 15 octobre 1878, 4 p.
+               <desc xml:id="CAT_000106_e59_1">L. a. s., en allemand, à son fils Frédérick ; Bernstorff, 15 octobre 1878, 4 p.
                   in-8. On a découpé, dans la marge supérieure de la première page, le chiffre du
                   roi. 25</desc>
             </item>
@@ -692,7 +693,7 @@
                   <p>célèbre peintre de paysages, fils et élève du fameux décorateur Pierre
                      Cicéri</p>
                </trait>
-               <desc>L. a. s., 1841, 1 p. in-8. 4</desc>
+               <desc xml:id="CAT_000106_e60_1">L. a. s., 1841, 1 p. in-8. 4</desc>
             </item>
             <item n="61" xml:id="CAT_000106_e61">
                <num>61</num>
@@ -700,7 +701,7 @@
                <trait>
                   <p>maréchal de France et homme d'Etat, né à Landre- cies en 1765, mort en 1818</p>
                </trait>
-               <desc>L. s., 1 p. in-fol. 2</desc>
+               <desc xml:id="CAT_000106_e61_1">L. s., 1 p. in-fol. 2</desc>
             </item>
             <item n="62" xml:id="CAT_000106_e62">
                <num>62</num>
@@ -709,7 +710,7 @@
                   <p>célèbre philosophe du XVIIe siècle, ami et éditeur de Descartes, né en 1614,
                      mort en 1684</p>
                </trait>
-               <desc>Quittance sig. sur vélin ; 1680, 1 p. in-18 obl. 10</desc>
+               <desc xml:id="CAT_000106_e62_1">Quittance sig. sur vélin ; 1680, 1 p. in-18 obl. 10</desc>
             </item>
             <item n="63" xml:id="CAT_000106_e63">
                <num>63</num>
@@ -717,7 +718,7 @@
                <trait>
                   <p>vice-amiral, ancien ministre de la Marine, né en 1817</p>
                </trait>
-               <desc>L. a. s., 1881, 2 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e63_1">L. a. s., 1881, 2 p. in-8. 6</desc>
                <note>Jolie lettre : « Je ne suis qu'un serviteur dévoué du pays, et dont la devise
                   est : Fais ce que tu dois.</note>
             </item>
@@ -729,7 +730,7 @@
                      d'une Vie de Lacenaire, né à Saint-Pierre (Martinique) en 1823, mort en
                      1886</p>
                </trait>
-               <desc>Trinité, A Madame M., pièce de vers aut. sig., 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e64_1">Trinité, A Madame M., pièce de vers aut. sig., 1 p. in-8. 5</desc>
             </item>
             <item n="65" xml:id="CAT_000106_e65">
                <num>65</num>
@@ -737,7 +738,7 @@
                <trait>
                   <p>le spirituel et fécond auteur dramatique, né en 1807</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000106_e65_1">L. a. s., 1 p. in-8. 2</desc>
             </item>
             <item n="66" xml:id="CAT_000106_e66">
                <num>66</num>
@@ -746,7 +747,7 @@
                   <p>marechal de France, vainqueur des Impériaux à Guastalla, né en 1670. mort en
                      1759</p>
                </trait>
-               <desc>L. a. s. au comte de Horn ; camp de Souten, ce 31 mai, 1 p. in-8. 20</desc>
+               <desc xml:id="CAT_000106_e66_1">L. a. s. au comte de Horn ; camp de Souten, ce 31 mai, 1 p. in-8. 20</desc>
             </item>
             <item n="67" xml:id="CAT_000106_e67">
                <num>67</num>
@@ -755,7 +756,7 @@
                   <p>maréchal de France, premier écuyer de Louis XVI, brillant courtisan de la
                      société intime de la reine Marie-Antoinette, né en 1737, mort en 1821</p>
                </trait>
-               <desc>L. a. s. au prince de Montbarey; 1778, 1 p. in-4. 20</desc>
+               <desc xml:id="CAT_000106_e67_1">L. a. s. au prince de Montbarey; 1778, 1 p. in-4. 20</desc>
             </item>
             <item n="68" xml:id="CAT_000106_e68">
                <num>68</num>
@@ -764,7 +765,7 @@
                   <p>frère du grand Colbert, ministre de Louis XIV, négociateur de la paix de
                      Nimègue, né en 1625, mort en 1696</p>
                </trait>
-               <desc>L. a. s. à M. de Ravillon, gouverneur de Charleville; Nimègue, 19 juin 1676, 1
+               <desc xml:id="CAT_000106_e68_1">L. a. s. à M. de Ravillon, gouverneur de Charleville; Nimègue, 19 juin 1676, 1
                   p. in-4. Cachet. 20</desc>
                <note>Lettre historique. Il lui annonce son arrivée au Congrès de Nimègue; l'approche
                   de Luxembourg renforcé des troupes de la Moselle a obligé les ennemis à la
@@ -778,7 +779,7 @@
                   <p>célèbre général du XVIIe siècle, qui se distingua avec La Feuillade dans
                      l'expédition contre les Turcs, auteur de Mémoires, né en 1617, mort en 1686</p>
                </trait>
-               <desc>Quittance sig. sur vélin, 1 p. in-18 obl. 15</desc>
+               <desc xml:id="CAT_000106_e69_1">Quittance sig. sur vélin, 1 p. in-18 obl. 15</desc>
             </item>
             <item n="70" xml:id="CAT_000106_e70">
                <num>70</num>
@@ -787,7 +788,7 @@
                   <p>poète du XVIe siècle, protégé par Henri IV, et dont parle Sully dans ses
                      Mémoires, secrétaire de Marie de Médicis</p>
                </trait>
-               <desc>Quittance aut. sig. sur vélin, 1626, 1 p. in-8 obl. 10</desc>
+               <desc xml:id="CAT_000106_e70_1">Quittance aut. sig. sur vélin, 1626, 1 p. in-8 obl. 10</desc>
                <note>Reçu de la somme de 925 livres pour les lods et ventes sur la terre du Tertre
                   Allo (seigneurie de Dinan, Côtes-du-Nord), acquis de Julien du Breil par Jean de
                   Pontual, seignenr de la Ville-Renault, et sa femme Françoise du Breil</note>
@@ -798,7 +799,7 @@
                <trait>
                   <p>dit le Grand</p>
                </trait>
-               <desc>Pièce sig. sur vélin; Chantilly, 1668, 1 p. double in-4. 15</desc>
+               <desc xml:id="CAT_000106_e71_1">Pièce sig. sur vélin; Chantilly, 1668, 1 p. double in-4. 15</desc>
             </item>
             <item n="72" xml:id="CAT_000106_e72">
                <num>72</num>
@@ -806,7 +807,7 @@
                <trait>
                   <p>général en chef de l'armée des Emigrés, né en 1736, mort en 1818</p>
                </trait>
-               <desc>Pièce sig., 1801, 1 p. in-fol., cachet. 5</desc>
+               <desc xml:id="CAT_000106_e72_1">Pièce sig., 1801, 1 p. in-fol., cachet. 5</desc>
             </item>
             <item n="73" xml:id="CAT_000106_e73">
                <num>73</num>
@@ -817,7 +818,7 @@
                      sous le titre dont il s'était faussement paré, auteur des Souvenirs de la
                      marquise de Créquy</p>
                </trait>
-               <desc>L. a. s. au duc de Luynes, « p. 1/2 in-8. 15</desc>
+               <desc xml:id="CAT_000106_e73_1">L. a. s. au duc de Luynes, « p. 1/2 in-8. 15</desc>
                <note>Il lui demande des détails sur la généalogie des familles de Chevreuse et de
                   Luynes qu'il désire faire figurer dans son Véridique et Véritable Nobiliaire de
                   France</note>
@@ -828,7 +829,7 @@
                <trait>
                   <p>statuaire belge contemporain</p>
                </trait>
-               <desc>L. a. s.; Louvain, 1882, 1/2 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e74_1">L. a. s.; Louvain, 1882, 1/2 p. in-8. 3</desc>
             </item>
             <item n="75" xml:id="CAT_000106_e75">
                <num>75</num>
@@ -837,7 +838,7 @@
                   <p>historien, ministre de Napoléon Ier, de l'Acad. fr., né à Montpellier en 1767,
                      mort en 1829</p>
                </trait>
-               <desc>L. s., 1 p. 1/2 in-fol. 2</desc>
+               <desc xml:id="CAT_000106_e75_1">L. s., 1 p. 1/2 in-fol. 2</desc>
             </item>
             <item n="76" xml:id="CAT_000106_e76">
                <num>76</num>
@@ -846,7 +847,7 @@
                   <p>célèbre mime, qui personnifia le pierrot populaire, fils de Gaspard, né en
                      1829</p>
                </trait>
-               <desc>Son portrait en pied gravé par Retard, 1849, in-4 avec dédicace aut. sig. Très
+               <desc xml:id="CAT_000106_e76_1">Son portrait en pied gravé par Retard, 1849, in-4 avec dédicace aut. sig. Très
                   belle épreuve avant la lettre. Rare. 20</desc>
                <note>Représenté dans un de ses rôles de pierrot. On remarque encore,
                   tout autour du portrait en pied, des scènes de ses différentes créations.</note>
@@ -858,7 +859,7 @@
                   <p>général du génie, ministre de Napoléon Ier, né à Castelnaudary en 1749, mort en
                      1824</p>
                </trait>
-               <desc>L. s.. 1 p. in-fol. 2</desc>
+               <desc xml:id="CAT_000106_e77_1">L. s.. 1 p. in-fol. 2</desc>
             </item>
             <item n="78" xml:id="CAT_000106_e78">
                <num>78</num>
@@ -866,7 +867,7 @@
                <trait>
                   <p>spirituel écrivain, né à Avignon en 1815, mort en 1877</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e78_1">L. a. s., 1 p. in-8. 3</desc>
             </item>
             <item n="79" xml:id="CAT_000106_e79">
                <num>79</num>
@@ -878,7 +879,7 @@
                      voulions à cette place (Courtrai), et y jetèrent Dei Ponti, un de leurs meilleurs
                      capitaines, avec quinze ou seize cents hommes. »</p>
                </trait>
-               <desc>Let. sig. Menin, 1er novembre
+               <desc xml:id="CAT_000106_e79_1">Let. sig. Menin, 1er novembre
                   1646, 2 p. 1/2 in-4. Rare. 20</desc>
                <note>Lettre historique. Il parle des prisonniers français qu'il a faits dans la
                   marche du duc d'Enghien et de Gassion, de Courtrai à Berghes. Les Français
@@ -892,7 +893,7 @@
                   <p>peintre et littérateur, célèbre par ses cours de chiromancie, né en 1801, mort
                      récemment</p>
                </trait>
-               <desc>L. a. s., 1872, 1 p. in-8. Curieuse. 5</desc>
+               <desc xml:id="CAT_000106_e80_1">L. a. s., 1872, 1 p. in-8. Curieuse. 5</desc>
             </item>
             <item n="81" xml:id="CAT_000106_e81">
                <num>81</num>
@@ -900,7 +901,7 @@
                <trait>
                   <p>auteur des Mémoires de la Duchesse de Tourzel</p>
                </trait>
-               <desc>L. a. s., 1883, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e81_1">L. a. s., 1883, 1 p. in-8. 3</desc>
                <note>Relative aux Mémoires de la duchesse de Tourzel</note>
             </item>
             <item n="82" xml:id="CAT_000106_e82">
@@ -910,7 +911,7 @@
                   <p>poète et littérateur distingué, auteur des Poèmes de la Révolution, né en
                      1839</p>
                </trait>
-               <desc>L. a. s., 1 p. in-18. 2</desc>
+               <desc xml:id="CAT_000106_e82_1">L. a. s., 1 p. in-18. 2</desc>
             </item>
             <item n="83" xml:id="CAT_000106_e83">
                <num>83</num>
@@ -918,7 +919,7 @@
                <trait>
                   <p>auteur dramatique, né à Yvetot en 1825</p>
                </trait>
-               <desc>L. a. s., 1873, 1 p. 1/2 in-8. 5</desc>
+               <desc xml:id="CAT_000106_e83_1">L. a. s., 1873, 1 p. 1/2 in-8. 5</desc>
                <note>Piquante lettre d'envoi de son autographe</note>
             </item>
             <item n="84" xml:id="CAT_000106_e84">
@@ -928,7 +929,7 @@
                   <p>écrivain distingué, auteur du Vandalisme révolutionnaire, né en 1818, mort en
                      1876</p>
                </trait>
-               <desc>L. a. s., 1872, 2 p. in-8. Curieuse. 5</desc>
+               <desc xml:id="CAT_000106_e84_1">L. a. s., 1872, 2 p. in-8. Curieuse. 5</desc>
             </item>
             <item n="85" xml:id="CAT_000106_e85">
                <num>85</num>
@@ -936,7 +937,7 @@
                <trait>
                   <p>peintre original et brillant coloriste, né à Bordeaux en 1807, mort en 1876</p>
                </trait>
-               <desc>L. a. s., 1874, 1 p. in-8. 10</desc>
+               <desc xml:id="CAT_000106_e85_1">L. a. s., 1874, 1 p. in-8. 10</desc>
             </item>
             <item n="86" xml:id="CAT_000106_e86">
                <num>86</num>
@@ -944,7 +945,7 @@
                <trait>
                   <p>le magnétiseur</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e86_1">L. a. s., 1 p. in-8. 3</desc>
             </item>
             <item n="87" xml:id="CAT_000106_e87">
                <num>87</num>
@@ -954,7 +955,7 @@
                      publia » un curieux ouvrage, né dans la Manche en 1794, mort au Brésil vers
                      1837</p>
                </trait>
-               <desc>L. a. s. à Ferdinand Denis; Paris, 1832, 1 p. 3/4 in-8. Rare. 15</desc>
+               <desc xml:id="CAT_000106_e87_1">L. a. s. à Ferdinand Denis; Paris, 1832, 1 p. 3/4 in-8. Rare. 15</desc>
                <note>Sur son voyage au Congo</note>
             </item>
             <item n="88" xml:id="CAT_000106_e88">
@@ -965,7 +966,7 @@
                      Néo-christianisme, et qui prit une part active à la révolution de 1830, né à La
                      Rochelle en 1800, mort en 1835</p>
                </trait>
-               <desc>L. a. s. à M. Millot, 2 p. in-8. 20</desc>
+               <desc xml:id="CAT_000106_e88_1">L. a. s. à M. Millot, 2 p. in-8. 20</desc>
                <note>Curieuse lettre. Il lui adresse quelques lignes confidentielles qui sont
                   l'expression d'une idée profondément gravée en lui. Il convient qu'il a entrepris
                   une oeuvre difficile et qu'il a ouvert une large porte à la calomnie, car, chose
@@ -981,7 +982,7 @@
                   <p>célèbre sculpteur contemporain, membre de l'Institut, né à Nogent-sur-Seine en
                      1829</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 8</desc>
+               <desc xml:id="CAT_000106_e89_1">L. a. s., 1 p. in-8. 8</desc>
             </item>
             <item n="90" xml:id="CAT_000106_e90">
                <num>90</num>
@@ -989,7 +990,7 @@
                <trait>
                   <p>célèbre peintre d'histoire, né sans bras à Lille en 1806, mort en 1856</p>
                </trait>
-               <desc>L. a. s., 1840, 1 p. 1/2 in-8. 3</desc>
+               <desc xml:id="CAT_000106_e90_1">L. a. s., 1840, 1 p. 1/2 in-8. 3</desc>
             </item>
             <item n="91" xml:id="CAT_000106_e91">
                <num>91</num>
@@ -997,7 +998,7 @@
                <trait>
                   <p>général et historien distingué, né à Montpellier en 1753, mort en 1837</p>
                </trait>
-               <desc>L. s., 1 p. in-fol. 3</desc>
+               <desc xml:id="CAT_000106_e91_1">L. s., 1 p. in-fol. 3</desc>
             </item>
             <item n="92" xml:id="CAT_000106_e92">
                <num>92</num>
@@ -1005,7 +1006,7 @@
                <trait>
                   <p>poète et auteur dramatique, né en 1798, mort en 1866</p>
                </trait>
-               <desc>Lady Rowena (Ivanhoe), article aut. sig., 4 p. in-4. 14</desc>
+               <desc xml:id="CAT_000106_e92_1">Lady Rowena (Ivanhoe), article aut. sig., 4 p. in-4. 14</desc>
             </item>
             <item n="93" xml:id="CAT_000106_e93">
                <num>93</num>
@@ -1014,7 +1015,7 @@
                   <p>célèbre général du siècle de Louis XIV, qui se distingua à Rethel où il
                      commanda la cavalerie de Turenne, son beau-frère, né en 1605, mort en 1665</p>
                </trait>
-               <desc>L. a. s. à la duchesse de Bouillon (Elisabeth de Nassau, sa belle-mère) ;
+               <desc xml:id="CAT_000106_e93_1">L. a. s. à la duchesse de Bouillon (Elisabeth de Nassau, sa belle-mère) ;
                   Paris, 23 août 1642, 3 p. in-4, cachets et soies. 35</desc>
                <note>Lettre historique écrite au moment où la duchesse de Bouillon, renfermée dans
                   Sedan, menaçait de livrer cette ville aux Espagnols, pour sauver la vie à son
@@ -1030,7 +1031,7 @@
                   <p>célèbre théologien protestant ecossais du XVIIe siècle, qui s'employa avec
                      chaleur à rendre durable l'alliance des luthériens et des calvinistes</p>
                </trait>
-               <desc>L. a. s., en français, à Huyghens; Emden, 1er juin 1643, 1 p. in-fol. Rare.
+               <desc xml:id="CAT_000106_e94_1">L. a. s., en français, à Huyghens; Emden, 1er juin 1643, 1 p. in-fol. Rare.
                   30</desc>
                <note>Intéressante lettre. « En mon chemin, allant et venant, je confirmeray la
                   correspondance que j'ay avec les théologiens de tous quartiers, pour l'oeuvre de
@@ -1043,7 +1044,7 @@
                   <p>célèbre publiciste et homme politique, auteur de l'Histoire du gouvernement
                      parlementaire, de l'Acad. fr., né à Rouen en 1798, mort en 1881</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. Curieuse. 8</desc>
+               <desc xml:id="CAT_000106_e95_1">L. a. s., 1 p. in-8. Curieuse. 8</desc>
             </item>
             <item n="96" xml:id="CAT_000106_e96">
                <num>96</num>
@@ -1053,7 +1054,7 @@
                      le Répertoire parce que celui-ci le consultait en toutes choses, né en 1511,
                      mort en 1569</p>
                </trait>
-               <desc>Pièce aut. sig. en latin, 1 p. in-8 obl. 40</desc>
+               <desc xml:id="CAT_000106_e96_1">Pièce aut. sig. en latin, 1 p. in-8 obl. 40</desc>
             </item>
             <item n="97" xml:id="CAT_000106_e97">
                <num>97</num>
@@ -1061,7 +1062,7 @@
                <trait>
                   <p>soeur de Louis XVI, née à Versailles en 1764, guillotinée le 10 mai 1794</p>
                </trait>
-               <desc>Pièce sig., avec une ligne aut., au bas d'un mémoire à elle adressé; 1788, 2 p.
+               <desc xml:id="CAT_000106_e97_1">Pièce sig., avec une ligne aut., au bas d'un mémoire à elle adressé; 1788, 2 p.
                   in-fol. Très-rare. Pièce légèrement rognée dans la marge. 75</desc>
             </item>
             <item n="98" xml:id="CAT_000106_e98">
@@ -1071,7 +1072,7 @@
                   <p>général français, gouverneur de la Guadeloupe qu'il rendit aux Anglais en 1810,
                      né à Alençon en 1753, mort en 1827</p>
                </trait>
-               <desc>L. a. s. au Grand-Orient de France, Bischops-Waltham (Angleterre), 2mai 1810, 2
+               <desc xml:id="CAT_000106_e98_1">L. a. s. au Grand-Orient de France, Bischops-Waltham (Angleterre), 2mai 1810, 2
                   p. 3/4 in-4. 15</desc>
                <note>Curieuse lettre écrite comme prisonnier des Anglais. Il les prie d'intercéder
                   auprès de la Loge de Londres pour qu'on le trans- porte en un cantonnement moins
@@ -1089,7 +1090,7 @@
                      lieutenant-général du roi de France Henri II en Italie, marié avec la seconde
                      fille de Louis XII, né en 1508, mort en 1559</p>
                </trait>
-               <desc>Let. sig., avec la souscript, et un post-scriptum de 10 lignes aut., au duc de
+               <desc xml:id="CAT_000106_e99_1">Let. sig., avec la souscript, et un post-scriptum de 10 lignes aut., au duc de
                   Mantoue ; Ferrare, 22 février 1557, 1 p. in-fol., sceau. 30</desc>
                <note>Superbe lettre historique. Il espère qu'il ne voudra pas lui causer de
                   difficultés en se prononçant contre le duc de Guise (qui allait faire campagne
@@ -1103,7 +1104,7 @@
                      protecteur des lettres et des arts, né en 1509, mort en 1572. François Ier et
                      Henri II avaient pour lui la plus grande considération</p>
                </trait>
-               <desc>L. a. s. à la reine des Romains (l'impératrice Marie, fille de Charles-Quint,
+               <desc xml:id="CAT_000106_e100_1">L. a. s. à la reine des Romains (l'impératrice Marie, fille de Charles-Quint,
                   femme de Maximilien II) ; Ferrare, 9 oct. 1566, 2 p. in-fol., cachet à ses armes.
                   Avec traduction française. Très-rare comme lettre aut. sig. 200</desc>
                <note>Importante lettre où il donne des nouvelles de la guerre contre les Turcs et
@@ -1123,7 +1124,7 @@
                      sous Louis XIV, fils du comte de Soissons et d'Olympe Mancini, nièce de
                      Mazarin, né à Paris en 1663, mort en 1736</p>
                </trait>
-               <desc>L. a. s., en français, au général de Freisheim; Tournai, 27 août (1709), 2 p. in-4. 50</desc>
+               <desc xml:id="CAT_000106_e101_1">L. a. s., en français, au général de Freisheim; Tournai, 27 août (1709), 2 p. in-4. 50</desc>
                <note>Lettre historique écrite peu de temps avant la bataille de Malplaquet. Il
                   l'invite à ne pas quitter ses positions et à envoyer des troupes pour couvrir les
                   bagages du duc de Marlborough.</note>
@@ -1135,7 +1136,7 @@
                   <p>roi de Naples, fils d'Alphonse II et petit-fils de Ferdinand Ier; chassé par
                      Charles VIII, il recouvra bientôt son royaume, mort en 1496</p>
                </trait>
-               <desc>Let. sig. au comte de Trivento et d'Avellino, capitaine général de la flotte de
+               <desc xml:id="CAT_000106_e102_1">Let. sig. au comte de Trivento et d'Avellino, capitaine général de la flotte de
                   Ferdinand le Catholique; Procida, 3 mai 1495, 3/4 de p. in-fol., beau sceau à ses
                   armes. Légère tache d'humidité. 23</desc>
                <note>Il le nomme, à cause de sa situation crititique, son lieutenant général en
@@ -1147,7 +1148,7 @@
                <trait>
                   <p>roi d'Espagne, fils et successeur de Charles IV, né en 1784, mort en 1833</p>
                </trait>
-               <desc>L. a. s. (à la duchesse d'Angoulême) ; Madrid, 3 avril 1815, 1 p. in-4.
+               <desc xml:id="CAT_000106_e103_1">L. a. s. (à la duchesse d'Angoulême) ; Madrid, 3 avril 1815, 1 p. in-4.
                   35</desc>
                <note>Importante lettre adressée à la duchesse pour lui offrir un asile dans son
                   royaume</note>
@@ -1159,7 +1160,7 @@
                   <p>célèbre diplomate suédois, connu par son dévouement à la reine
                      Marie-Antoinette, né en 1750, massacré à Stockholm, le 20 juin 1810</p>
                </trait>
-               <desc>Let. sig. , en français (au duc de Sudermanie); camp de Sborzy, 28 juillet 1794,
+               <desc xml:id="CAT_000106_e104_1">Let. sig. , en français (au duc de Sudermanie); camp de Sborzy, 28 juillet 1794,
                   2 p. in-4. 33</desc>
                <note>Intéressante lettre relative aux hostilités contre les Polonais. D'accord avec
                   le roi (Gustave IV), il va ramener ses troupes en arrière dans la crainte
@@ -1173,7 +1174,7 @@
                   <p>fils du maréchal de Feuquières, qui se distingua en Hollande en 1672 et servit
                      en 1674 en Franche-Comté, né en 1648, mort en 1711</p>
                </trait>
-               <desc>Let. aut. à l'abbé de Feuquières; Fort de Schenck (Hollande), 31 mai 1673, 2 p.
+               <desc xml:id="CAT_000106_e105_1">Let. aut. à l'abbé de Feuquières; Fort de Schenck (Hollande), 31 mai 1673, 2 p.
                   in-4. 10</desc>
                <note>Intéressante lettre. Il le félicite d'être près de Schenck. Il peut venir par
                   eau et suivre la même voie jusqu'à Arnheim; de là, jusqu'à Utrecht, il prendra un
@@ -1188,7 +1189,7 @@
                   <p>le fameux régicide, né à Murato (Corse) en 1790, guillotiné le 16 février
                      1836</p>
                </trait>
-               <desc>L. a. s. à M. Patorni, avocat; Paris, 16 fév. 1836, 2 p. in-4. Fatiguée.
+               <desc xml:id="CAT_000106_e106_1">L. a. s. à M. Patorni, avocat; Paris, 16 fév. 1836, 2 p. in-4. Fatiguée.
                   25</desc>
                <note>Très-curieuse lettre écrite le jour même de sa mort, c'est probablement la
                   dernière qu'il écrivit. Il le remercie de sa défense ainsi que les deux avocats
@@ -1204,7 +1205,7 @@
                <trait>
                   <p>célèbre acteur de la Comédie- Française, né en 1787, mort en 1859</p>
                </trait>
-               <desc>L. a. s., 1833, 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e107_1">L. a. s., 1833, 1 p. in-8. 5</desc>
                <note>Curieuse lettre où il donne la liste de tous les ouvrages qu'il peut
                   jouer</note>
             </item>
@@ -1214,7 +1215,7 @@
                <trait>
                   <p>célèbre poète et patriote italien, auteur des Lettres de Jacopo Orti</p>
                </trait>
-               <desc>L. a. s. à Michel Arnaldi ; Florence, 3 septembre 1812, 2 p. in-4. 20</desc>
+               <desc xml:id="CAT_000106_e108_1">L. a. s. à Michel Arnaldi ; Florence, 3 septembre 1812, 2 p. in-4. 20</desc>
                <note>Belle et curieuse lettre. S'il a tardé à lui écrire, c'est parce qu'il donne
                   trop de temps aux Muses avec lesquelles il converse. Il est heureux de considérer
                   « de la terre la mer en furie » et de ne point prendre part à la guerre de Russie;
@@ -1227,7 +1228,7 @@
                   <p>roi de Bohème et Electeur palatin, mari d'Elisabeth, soeur de Jacques Ier, père
                      du prince Ruppert et de l'Electrice Sophie, né en 1596, mort en 1632</p>
                </trait>
-               <desc>Let. sig., avec la souscript. aut., en français, à Louis XIII; Prague, 15 mai
+               <desc xml:id="CAT_000106_e109_1">Let. sig., avec la souscript. aut., en français, à Louis XIII; Prague, 15 mai
                   1620. 3/4 de p. in-fol. Sceau. 42</desc>
                <note>Lettre de créance pour M. de Borstel</note>
             </item>
@@ -1238,7 +1239,7 @@
                   <p>auteur dramatique contemporain, écrivain sur l'Amérique, né à Auxerre en
                      1808</p>
                </trait>
-               <desc>L. a. s. à M. Achille Vogue, 1870, 2 p. 1/2 in-8. 10</desc>
+               <desc xml:id="CAT_000106_e110_1">L. a. s. à M. Achille Vogue, 1870, 2 p. 1/2 in-8. 10</desc>
                <note>Spirituelle épître en réponse à la demande de son autographe</note>
             </item>
             <item n="111" xml:id="CAT_000106_e111">
@@ -1249,7 +1250,7 @@
                      après l'assassinat du maréchal, il résigna ses bénéfices et alla mourir en
                      Italie</p>
                </trait>
-               <desc>L. a. s.; Paris, 25 déc. 1616, 1 p. in-fol. Rare. 22</desc>
+               <desc xml:id="CAT_000106_e111_1">L. a. s.; Paris, 25 déc. 1616, 1 p. in-fol. Rare. 22</desc>
             </item>
             <item n="112" xml:id="CAT_000106_e112">
                <num>112</num>
@@ -1257,7 +1258,7 @@
                <trait>
                   <p>écrivain distingué, née en 1813</p>
                </trait>
-               <desc>Réponse aut. sur sa carte de visite, 1876, in-18. Curieuse. 3</desc>
+               <desc xml:id="CAT_000106_e112_1">Réponse aut. sur sa carte de visite, 1876, in-18. Curieuse. 3</desc>
             </item>
             <item n="113" xml:id="CAT_000106_e113">
                <num>113</num>
@@ -1265,7 +1266,7 @@
                <trait>
                   <p>littérateur distingué, né à Montreuil-Bellay en 1823</p>
                </trait>
-               <desc>L. a. s., 1870, 1 p. in-8. Curieuse. 3</desc>
+               <desc xml:id="CAT_000106_e113_1">L. a. s., 1870, 1 p. in-8. Curieuse. 3</desc>
             </item>
             <item n="114" xml:id="CAT_000106_e114">
                <num>114</num>
@@ -1273,7 +1274,7 @@
                <trait>
                   <p>sculpteur et graveur en médailles, membre de l'Ins» titut, né en 1788</p>
                </trait>
-               <desc>Pièce aut. sig., 1 p. 1/2 in-8. 10</desc>
+               <desc xml:id="CAT_000106_e114_1">Pièce aut. sig., 1 p. 1/2 in-8. 10</desc>
                <note>Etude sur les armoiries au point de vue du travail de la gravure</note>
             </item>
             <item n="115" xml:id="CAT_000106_e115">
@@ -1284,7 +1285,7 @@
                      l'Autriche contre Napoléon, secrétaire du Congrès de Vienne, né en 1764, mort
                      en 1832</p>
                </trait>
-               <desc>L. a. s.; Ofen, 22 oct. 1809, 1 p. 1/2 in-4. 25</desc>
+               <desc xml:id="CAT_000106_e115_1">L. a. s.; Ofen, 22 oct. 1809, 1 p. 1/2 in-4. 25</desc>
                <note>Lettre historique. Il vient d'apprendre les conditions de la paix de Vienne; à
                   son avis, elle affaiblit l'Autriche, surtout du côté de la Westphalie; le voilà
                   réduit au silence, il va se retirer dans la Hongrie</note>
@@ -1295,7 +1296,7 @@
                <trait>
                   <p>acteur contemporain très- distingué</p>
                </trait>
-               <desc>L. a. s.; Bruxelles, 1881, 1 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e116_1">L. a. s.; Bruxelles, 1881, 1 p. in-8. 6</desc>
                <note>Piquante réponse à la demande de son autographe</note>
             </item>
             <item n="117" xml:id="CAT_000106_e117">
@@ -1304,7 +1305,7 @@
                <trait>
                   <p>graveur contemporain distingué, né à Neufchâtel en 1821</p>
                </trait>
-               <desc>L. a. s., 1882, 1 p. in-8. Curieuse. 3</desc>
+               <desc xml:id="CAT_000106_e117_1">L. a. s., 1882, 1 p. in-8. Curieuse. 3</desc>
             </item>
             <item n="118" xml:id="CAT_000106_e118">
                <num>118</num>
@@ -1313,7 +1314,7 @@
                   <p>secrétaire de Ménage, dont il mit en ordre Les Micellanea, bibliothécaire du
                      cardinal de Retz et sur lequel on trouve de curieux détails dans Tallemant</p>
                </trait>
-               <desc>L. a. s. (à l'abbé d'Aubignac) ; Paris, 20 sept. 1652, 2 p. in-4. 12</desc>
+               <desc xml:id="CAT_000106_e118_1">L. a. s. (à l'abbé d'Aubignac) ; Paris, 20 sept. 1652, 2 p. in-4. 12</desc>
             </item>
             <item n="119" xml:id="CAT_000106_e119">
                <num>119</num>
@@ -1321,7 +1322,7 @@
                <trait>
                   <p>le célèbre aéronaute</p>
                </trait>
-               <desc>L. a. s., 1876, 1/2 p. in-4. 5</desc>
+               <desc xml:id="CAT_000106_e119_1">L. a. s., 1876, 1/2 p. in-4. 5</desc>
             </item>
             <item n="120" xml:id="CAT_000106_e120">
                <num>120</num>
@@ -1329,7 +1330,7 @@
                <trait>
                   <p>l'illustre écrivain allemand, né en 1749, mort en 1832</p>
                </trait>
-               <desc>L. a. s.; Weimar, 30 décembre 1804, 1 p. pleine in-4, avec traduction
+               <desc xml:id="CAT_000106_e120_1">L. a. s.; Weimar, 30 décembre 1804, 1 p. pleine in-4, avec traduction
                   française. 150</desc>
                <note>Superbe et intéressante lettre. Elle est adressée à un de ses amis intimes au
                   sujet d'une affaire « dont vous même êtes innocemment la cause » et qu'il le prie
@@ -1343,7 +1344,7 @@
                   <p>célèbre général anglais, le héros de Khartoum, né en 1833, mort le 26 janvier
                      1885</p>
                </trait>
-               <desc>L. a. s., 1882, 3/4 de p. in-8. Rare. 18</desc>
+               <desc xml:id="CAT_000106_e121_1">L. a. s., 1882, 3/4 de p. in-8. Rare. 18</desc>
             </item>
             <item n="122" xml:id="CAT_000106_e122">
                <num>122</num>
@@ -1352,7 +1353,7 @@
                   <p>beau-frère d'Antoine Hamilton, qui a écrit ses Mémoires, ami de Mme de Sévigné,
                      de Bussy-Rabutin et de Saint-Evremont, né en 1621, mort en 1707</p>
                </trait>
-               <desc>L. a. s. à M. de Lamoignon, 1/2 p. in-4. 40</desc>
+               <desc xml:id="CAT_000106_e122_1">L. a. s. à M. de Lamoignon, 1/2 p. in-4. 40</desc>
             </item>
             <item n="123" xml:id="CAT_000106_e123">
                <num>123</num>
@@ -1362,7 +1363,7 @@
                      1639 d'une négociation auprès du duc de Lorraine devant aboutir à la
                      réconciliation avec Louis XIII</p>
                </trait>
-               <desc>L. a. s. au maréchal de Brézé; Erfurth, 23 mars 1633, 1 p. in-fol. Cachets et
+               <desc xml:id="CAT_000106_e123_1">L. a. s. au maréchal de Brézé; Erfurth, 23 mars 1633, 1 p. in-fol. Cachets et
                   soies. Légère tache. 34</desc>
                <note>Lettre historique. Le gentilhomme qui va rendre compte au roi de son voyage
                   près des électeurs de Saxe et de Brandebourg, lui présentera ses respects. Les
@@ -1376,7 +1377,7 @@
                <trait>
                   <p>publiciste et historien, ne dans le Gers en 1808, mort en 1880</p>
                </trait>
-               <desc>L. a. s., 1868, 2 p. in-18. Curieuse. 5</desc>
+               <desc xml:id="CAT_000106_e124_1">L. a. s., 1868, 2 p. in-18. Curieuse. 5</desc>
             </item>
             <item n="125" xml:id="CAT_000106_e125">
                <num>125</num>
@@ -1385,7 +1386,7 @@
                   <p>premier ministre de Charles-Quint et de Philippe II, évêque d'Arras, né à
                      Besançon en 1517, mort en 1586</p>
                </trait>
-               <desc>Let. sig. avec la sous-cription et un post-scriptum de 8 lignes aut. à Don
+               <desc xml:id="CAT_000106_e125_1">Let. sig. avec la sous-cription et un post-scriptum de 8 lignes aut. à Don
                   Juan de Zuniga, ambassadeur de Philippe II à Rome; Naples, 3 novembre 1572, 3 p.
                   in-fol. Cachet. 75</desc>
                <note>Superbe et importante lettre historique, écrite comme vice-roi des
@@ -1403,7 +1404,7 @@
                   <p>maréchal de France, dont parle souvent Saint Simon dans ses Mémoires, né en
                      1672, mort en 1725</p>
                </trait>
-               <desc>Pièce sig., 1694, 1 p. in-8 obl. Un peu rognée. Cachet à ses armes. 5</desc>
+               <desc xml:id="CAT_000106_e126_1">Pièce sig., 1694, 1 p. in-8 obl. Un peu rognée. Cachet à ses armes. 5</desc>
             </item>
             <item n="127" xml:id="CAT_000106_e127">
                <num>127</num>
@@ -1413,7 +1414,7 @@
                      1694, &gt;gouvernante des princes de Condé (le comte de Clermont et le prince de Conti),
                      petits-fils du grand Fondé</p>
                </trait>
-               <desc>Quitt. sig. sur vélin; Paris, 10 novembre 1699, 1 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e127_1">Quitt. sig. sur vélin; Paris, 10 novembre 1699, 1 p. in-8. 6</desc>
             </item>
             <item n="128" xml:id="CAT_000106_e128">
                <num>128</num>
@@ -1423,7 +1424,7 @@
                      Ferdinand IV, roi d'Aragon, gendre d'Alphonse Ier de Portugal, lieutenant du
                      roi Ferdinand le Catholique, né en 1445</p>
                </trait>
-               <desc>Let. sig. en latin, au duc de Milan; Barcelone, 21 mars 1482, 1/2 p. in-4.
+               <desc xml:id="CAT_000106_e128_1">Let. sig. en latin, au duc de Milan; Barcelone, 21 mars 1482, 1/2 p. in-4.
                   Quelques déchirures. Très-rare. 30</desc>
                <note>Importante lettre contenant le récit de la prise d'Alhamar, près de Murcie, sur
                   les Maures de Grenade, et d'un combat livré devant la place pour la
@@ -1436,7 +1437,7 @@
                   <p>seigneur de Kessel, fils de Jean de Hornes II, comte de Beaussignies,
                      gouverneur de Bois-le-Duc</p>
                </trait>
-               <desc>L. a. s. en français, à Turenne; Grave, 2 mai 1659, 2 p. in-4. Cachets. 20</desc>
+               <desc xml:id="CAT_000106_e129_1">L. a. s. en français, à Turenne; Grave, 2 mai 1659, 2 p. in-4. Cachets. 20</desc>
                <note>Il le prie d'intervenir en faveur de la com, tesse de Hautekerque (Dorothée de
                   Ligne- femme de Philippe II de Hornes, comte de Hautekerque, vicomte de Furnes,
                   baron de Hondschoote), dont les terres ont été confisquées. Dans deux jours il
@@ -1449,7 +1450,7 @@
                <trait>
                   <p>l'illustre poète</p>
                </trait>
-               <desc>Aux Allemands.-Aux Français.-Aux Parisiens, brochure avec envoi aut. sig.
+               <desc xml:id="CAT_000106_e130_1">Aux Allemands.-Aux Français.-Aux Parisiens, brochure avec envoi aut. sig.
                   (le nom du destinataire a été biffé), publiée en 1870, au profit des blessés,
                   in-8. 10</desc>
             </item>
@@ -1459,7 +1460,7 @@
                <trait>
                   <p>célèbre peintre de paysages et de marines, né en 1804</p>
                </trait>
-               <desc>L. a. s., 1869, 1 p. in-8. Curieuse. 4</desc>
+               <desc xml:id="CAT_000106_e131_1">L. a. s., 1869, 1 p. in-8. Curieuse. 4</desc>
             </item>
             <item n="132" xml:id="CAT_000106_e132">
                <num>132</num>
@@ -1468,7 +1469,7 @@
                   <p>infant d'Espagne, fils aîné de Ferdinand le Catholique, époux de Marguerite
                      d'Autriche, né en 1478, mort en 1497</p>
                </trait>
-               <desc>Let. sig. avec la souscript. aut., au duc de Milan (Ludovic le More); Gênes, 12
+               <desc xml:id="CAT_000106_e132_1">Let. sig. avec la souscript. aut., au duc de Milan (Ludovic le More); Gênes, 12
                   juin 1496, 3/4 de p. in-4. Déchirure atteignant le texte. Très-rare. 32</desc>
                <note>Lettre historique où il lui annonce son arrivée et celle du comte de Requezens
                   avec de l'argent, des troupes et de l'artillerie; il s'apprète à mener un corps
@@ -1481,7 +1482,7 @@
                   <p>reine de Naples, fille de Ferdinand Ier, roi des
                      Deux- Siciles, femme de Ferdinand II, morte en 1518.</p>
                </trait>
-               <desc>Let. sig. au comte de
+               <desc xml:id="CAT_000106_e133_1">Let. sig. au comte de
                   Palamos, commandant la flotte espagnole; Naples, 1er novembre 1498, 3/4 de p.
                   in-4. 22</desc>
                <note>Superbe lettre où elle le prie de lui envoyer au plus vite le navire du
@@ -1495,7 +1496,7 @@
                   <p>fille naturelle de Don Juan, femme de François
                      Branciforti, prince de Butero en Sicile, morte en 1630.</p>
                </trait>
-               <desc>L. a. s. à l'infante
+               <desc xml:id="CAT_000106_e134_1">L. a. s. à l'infante
                   Isabelle-Claire Eugénie; couvent de Sainte-Claire de Naples, 6 fév. 1598, 1 p.
                   in-4. Cachet. 32</desc>
                <note>Belle lettre intime où elle lui annonce qu'elle a appris avec plaisir que le
@@ -1508,7 +1509,7 @@
                   <p>célèbre métaphysicien, de l'Institut, député du Doubs, né aux Pontets (Doubs)
                      en 1796, mort en 1842</p>
                </trait>
-               <desc>L. a. s., 2 p. 1/2 in-8. 6</desc>
+               <desc xml:id="CAT_000106_e135_1">L. a. s., 2 p. 1/2 in-8. 6</desc>
             </item>
             <item n="136" xml:id="CAT_000106_e136">
                <num>136</num>
@@ -1516,7 +1517,7 @@
                <trait>
                   <p>la célèbre et spirituelle comédienne, née à Semur (Côted'Or) en 1850</p>
                </trait>
-               <desc>L. a. s., 1 p. 1/2 in-18. 16</desc>
+               <desc xml:id="CAT_000106_e136_1">L. a. s., 1 p. 1/2 in-18. 16</desc>
             </item>
             <item n="137" xml:id="CAT_000106_e137">
                <num>137</num>
@@ -1525,7 +1526,7 @@
                   <p>poète populaire allemand, qui s'est fait remarquer par son patriotisme, né en
                      1791, tué à vingt-deux ans au combat de Rosenberg, le 26 août 1813</p>
                </trait>
-               <desc>L. a. Belle-Mère, vaudeville en vers, pièce aut.; (1812), 9 p. in-fol. Superbe
+               <desc xml:id="CAT_000106_e137_1">L. a. Belle-Mère, vaudeville en vers, pièce aut.; (1812), 9 p. in-fol. Superbe
                   pièce. 55</desc>
             </item>
             <item n="138" xml:id="CAT_000106_e138">
@@ -1534,7 +1535,7 @@
                <trait>
                   <p>célèbre littérateur et homme politique, de l'Institut, né en 1811</p>
                </trait>
-               <desc>L. a. s. en vers; 1874, 1 p. 1/2 in-8. 8</desc>
+               <desc xml:id="CAT_000106_e138_1">L. a. s. en vers; 1874, 1 p. 1/2 in-8. 8</desc>
                <note>Piquante réponse à la demande de son autographe</note>
             </item>
             <item n="139" xml:id="CAT_000106_e139">
@@ -1544,7 +1545,7 @@
                   <p>comte de Cessac, l'infatigable ministre de Napoléon Ier, né près d'Agen, en
                      1752, mort en 1841</p>
                </trait>
-               <desc>L. s., 1 p. in-fol. 2</desc>
+               <desc xml:id="CAT_000106_e139_1">L. s., 1 p. in-fol. 2</desc>
             </item>
             <item n="140" xml:id="CAT_000106_e140">
                <num>140</num>
@@ -1552,7 +1553,7 @@
                <trait>
                   <p>le célèbre écrivain, né à Saint-Malo en 1782, mort en 1854</p>
                </trait>
-               <desc>L. a. s., 5 nov. 1851, 1 p. in-8. Jolie lettre. 6</desc>
+               <desc xml:id="CAT_000106_e140_1">L. a. s., 5 nov. 1851, 1 p. in-8. Jolie lettre. 6</desc>
             </item>
             <item n="141" xml:id="CAT_000106_e141">
                <num>141</num>
@@ -1560,7 +1561,7 @@
                <trait>
                   <p>le célèbre aquarelliste, né en 1800</p>
                </trait>
-               <desc>L. a. s., 1869, 1 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e141_1">L. a. s., 1869, 1 p. in-8. 6</desc>
                <note>Curieuse lettre par laquelle il refuse de donner son autographe, « bien
                   convaincu et sans fausse modestie, que mon mérite est beaucoup trop mince pour que
                   je me trouve rangé parmi des noms illustres.</note>
@@ -1572,7 +1573,7 @@
                   <p>ouvrier cordonnier, poète célèbre, ami de Béranger, de Victor Hugo et de George
                      Sand, né à Sens en 1812</p>
                </trait>
-               <desc>L. a. s. à un éditeur, 1877, 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e142_1">L. a. s. à un éditeur, 1877, 1 p. in-8. 5</desc>
                <note>Sur un de ses ouvrages</note>
             </item>
             <item n="143" xml:id="CAT_000106_e143">
@@ -1582,7 +1583,7 @@
                   <p>littérateur et auteur dramatique distingué, directeur de l'Odéon, né en 1819,
                      mort récemment</p>
                </trait>
-               <desc>P. a. s., 1872, 3/4 de p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e143_1">P. a. s., 1872, 3/4 de p. in-8. 6</desc>
                <note>Curieuse pièce faite pour un amateur et dont voici le début : « J'ai passé ma
                   vie à attendre quelque chose : sans but défini et avec les aptitudes les plus
                   diverses, je n'ai jamais été qu'une aspiration vague, ondoyante et confuse.</note>
@@ -1593,7 +1594,7 @@
                <trait>
                   <p>le célèbre chanteur de l'Opéra</p>
                </trait>
-               <desc>L. a. s., 1878, 1 p. in-8. Curieux papier à son chiffre. 20</desc>
+               <desc xml:id="CAT_000106_e144_1">L. a. s., 1878, 1 p. in-8. Curieux papier à son chiffre. 20</desc>
                <note>Sprirituelle lettre en vers : Vous me demandez un autographe? De ma voix? Ah.
                   si c'était cela : Je connais un très-beau phonographe Qui vous la donnerait
                   jusqu'au la</note>
@@ -1605,7 +1606,7 @@
                   <p>savant français très-distingué, astronome et aéronaute, né à Moulins en
                      1818</p>
                </trait>
-               <desc>L. a. s., 1875, 1 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e145_1">L. a. s., 1875, 1 p. in-8. 6</desc>
                <note>Jolie lettre. « J'ai sans doute cherché à être un homme utilé à mon pays, et
                   c'est encore mon voeu le plus cher, mais j'imagine que ce doit être là une vertu
                   assez commune...</note>
@@ -1617,7 +1618,7 @@
                   <p>duc de Dantzick, maréchal de France, né à Ruffach (Alsace) en 1755, mort en
                      1820</p>
                </trait>
-               <desc>L. s., 1 p. in-fol. 3</desc>
+               <desc xml:id="CAT_000106_e146_1">L. s., 1 p. in-fol. 3</desc>
             </item>
             <item n="147" xml:id="CAT_000106_e147">
                <num>147</num>
@@ -1625,7 +1626,7 @@
                <trait>
                   <p>peintre distingué, élève de Léon Cogniet, né à Tournan (Seine-et-Marne), en 1836</p>
                </trait>
-               <desc>L. a. s., 1876, 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e147_1">L. a. s., 1876, 1 p. in-8. 5</desc>
             </item>
             <item n="148" xml:id="CAT_000106_e148">
                <num>148</num>
@@ -1635,7 +1636,7 @@
                      guerre pendant l'invasion de 1870, ambassadeur à Saint-Pétersbourg, né à
                      Lesneven (Finistère) en 1804, mort récemment</p>
                </trait>
-               <desc>L. a. s., Saint-Pétersbourg, 1878, 1 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e148_1">L. a. s., Saint-Pétersbourg, 1878, 1 p. in-8. 6</desc>
                <note>Touchante lettre sur la mort de son dernier fils, « ses dernières paroles ont
                   été : Dites à mon père que je meurs en catholique et en zouave, consolez-le! »</note>
             </item>
@@ -1646,7 +1647,7 @@
                   <p>homme politique, ancien député du Nord, préfet pendant la guerre, il contribua beaucoup à
                      l'organisation de l'armée commandée par le général Faidherbe, né à Lille en 1834.</p>
                </trait>
-               <desc>L. a. s., 1879, 1 p. in-18. 3</desc>
+               <desc xml:id="CAT_000106_e149_1">L. a. s., 1879, 1 p. in-18. 3</desc>
             </item>
             <item n="150" xml:id="CAT_000106_e150">
                <num>150</num>
@@ -1655,7 +1656,7 @@
                   <p>peintre français contemporain très-distingué, aujourd'hui fixé en Angleterre,
                      né à Dijon en 1837</p>
                </trait>
-               <desc>L. a. s., 1868, 1 p. in-18. 5</desc>
+               <desc xml:id="CAT_000106_e150_1">L. a. s., 1868, 1 p. in-18. 5</desc>
             </item>
             <item n="151" xml:id="CAT_000106_e151">
                <num>151</num>
@@ -1663,7 +1664,7 @@
                <trait>
                   <p>poète distingué, né à Saint-Jean-d'Angély en 1822</p>
                </trait>
-               <desc>Pièce de vers aut. sig., 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e151_1">Pièce de vers aut. sig., 1 p. in-8. 5</desc>
                <note>Jolie pièce, dont voici le commencement : Le présent, le passé, l'avenir d'une
                   femme, Des gens fort sérieux préteudent tout avoir. Ils prendraient volontiers son
                   image au miroir, Au papillen son aîle, au diamant sa flamme</note>
@@ -1675,7 +1676,7 @@
                   <p>savant écrivain, auteur de dissertations curieuses, né à Beauvais en 1674, mort
                      en 1735</p>
                </trait>
-               <desc>L. a. s. au Régent; Paris, 7 sept. 1718, 1 p. 1/2 in-fol. Déchirure
+               <desc xml:id="CAT_000106_e152_1">L. a. s. au Régent; Paris, 7 sept. 1718, 1 p. 1/2 in-fol. Déchirure
                   n'atteignant par le texte. 15</desc>
                <note>Curieuse lettre. Il lui demande une audience, afin « de luy decouvrir des
                   choses d'une extrême importance pour la seurté et la gloire de votre personne. »
@@ -1687,7 +1688,7 @@
                <trait>
                   <p>célèbre peintre d'histoire et de portraits, né à Versailles en 1804</p>
                </trait>
-               <desc>L. a. s. à l'architecte Baltard, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e153_1">L. a. s. à l'architecte Baltard, 1 p. in-8. 3</desc>
             </item>
             <item n="154" xml:id="CAT_000106_e154">
                <num>154</num>
@@ -1695,7 +1696,7 @@
                <trait>
                   <p>célèbre littérateur belge, né à Liège en 1822</p>
                </trait>
-               <desc>Sonnet aut. sig., Liège, 1872, 3/4 de p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e154_1">Sonnet aut. sig., Liège, 1872, 3/4 de p. in-8. 3</desc>
                <note>Curieuse réponse à la demande de son autographe; en voici un fragment : Mais
                   voyez un peu l'aventure : Si je dis oui, si je dis nou, Vous recevrez ma signature
                   : Je suis pris de toute façon</note>
@@ -1707,7 +1708,7 @@
                   <p>auteur dramatique à qui l'on doit un grand nombre d'opéras-comiques et de
                      vaudevilles à succès, né en 1800</p>
                </trait>
-               <desc>L. a. s., 1877, 3 p. in-8, cachet à ses armes. Curieuse. 5</desc>
+               <desc xml:id="CAT_000106_e155_1">L. a. s., 1877, 3 p. in-8, cachet à ses armes. Curieuse. 5</desc>
             </item>
             <item n="156" xml:id="CAT_000106_e156">
                <num>156</num>
@@ -1716,7 +1717,7 @@
                   <p>homme politique et publiciste distingué, né à Saint-Julien (Jura) en 1770, mort
                      en 1814</p>
                </trait>
-               <desc>L. s.; Coblentz, 1807, 1 p. 1/2 in-4. 2</desc>
+               <desc xml:id="CAT_000106_e156_1">L. s.; Coblentz, 1807, 1 p. 1/2 in-4. 2</desc>
             </item>
             <item n="157" xml:id="CAT_000106_e157">
                <num>157</num>
@@ -1725,7 +1726,7 @@
                   <p>romancier et poète, auteur d'un grand nombre de romances populaires, né à
                      Argentan (Orne) en 1815</p>
                </trait>
-               <desc>L'Amour, pièce de vers aut. sig., 1873, 1 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e157_1">L'Amour, pièce de vers aut. sig., 1873, 1 p. in-8. 6</desc>
             </item>
             <item n="158" xml:id="CAT_000106_e158">
                <num>158</num>
@@ -1734,7 +1735,7 @@
                   <p>célèbre romancier et voyageur, inventeur d'une méthode de moulage appelée
                      Lottinoplastie, né à Orbec (Calvados) en 1810</p>
                </trait>
-               <desc>L. a. s., 1875, 3 p. in-8, cachet. 6</desc>
+               <desc xml:id="CAT_000106_e158_1">L. a. s., 1875, 3 p. in-8, cachet. 6</desc>
                <note>Charmante lettre dans laquelle il parle de ses voyages et de ses
                   collections</note>
             </item>
@@ -1744,7 +1745,7 @@
                <trait>
                   <p>la grande cantatrice, née à Vienne (Autriche) de parents italiens, en 1841</p>
                </trait>
-               <desc>Sa signature aut. sig. ; Londres, 1883, 1/2 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e159_1">Sa signature aut. sig. ; Londres, 1883, 1/2 p. in-8. 5</desc>
             </item>
             <item n="160" xml:id="CAT_000106_e160">
                <num>160</num>
@@ -1752,7 +1753,7 @@
                <trait>
                   <p>célèbre archéologue, de l'Acad. des Inscriptions, né en 1802, mort en 1867</p>
                </trait>
-               <desc>L. a. s. à un critique, 1854, 1 p. in-8. 8</desc>
+               <desc xml:id="CAT_000106_e160_1">L. a. s. à un critique, 1854, 1 p. in-8. 8</desc>
                <note>Il lui annonce l'envoi de son travail sur la Numismatique et les Inscriptions
                   cypriotes</note>
             </item>
@@ -1763,7 +1764,7 @@
                   <p>célèbre maréchal de France, qui refusa de juger le maréchal Ney, né en 1771,
                      mort en 1840</p>
                </trait>
-               <desc>L. s., 1 p. in-4. 2</desc>
+               <desc xml:id="CAT_000106_e161_1">L. s., 1 p. in-4. 2</desc>
             </item>
             <item n="162" xml:id="CAT_000106_e162">
                <num>162</num>
@@ -1771,7 +1772,7 @@
                <trait>
                   <p>célèbre auteur dramatique, auteur des Sceptiques, né en 1813, mort en 1868</p>
                </trait>
-               <desc>L. a. s. à un éditeur, 1/2 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e162_1">L. a. s. à un éditeur, 1/2 p. in-8. 3</desc>
                <note>Il lui propose quelques pages qu'il vient d'écrire sur la Ballade polonaise de
                   Chopin</note>
             </item>
@@ -1782,7 +1783,7 @@
                   <p>écrivain et poète distingué, auteur d'un grand nombre de chansons et de poésies
                      légères, né en 1790, mort en 1871</p>
                </trait>
-               <desc>L. a. s., 8 avril 1870, 1 p. 1/2 in-8. 5</desc>
+               <desc xml:id="CAT_000106_e163_1">L. a. s., 8 avril 1870, 1 p. 1/2 in-8. 5</desc>
                <note>Lettre prose et vers. La pièce de vers qui est inédite a pour titre : Amertumes
                   du poète</note>
             </item>
@@ -1792,7 +1793,7 @@
                <trait>
                   <p>auteur dramatique contemporain, né dans la Seine-Inférieure en 1830</p>
                </trait>
-               <desc>L. a. s., 1/2 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e164_1">L. a. s., 1/2 p. in-8. 5</desc>
             </item>
             <item n="165" xml:id="CAT_000106_e165">
                <num>163</num>
@@ -1801,7 +1802,7 @@
                   <p>célèbre romancier et auteur dramatique, collaborateur d'Alexandre Dumas père,
                      né en 1813</p>
                </trait>
-               <desc>L. a. s., 1870, 2 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e165_1">L. a. s., 1870, 2 p. in-8. 3</desc>
             </item>
             <item n="166" xml:id="CAT_000106_e166">
                <num>166</num>
@@ -1810,7 +1811,7 @@
                   <p>diplomate, écrivain distingué et savant helléniste, né à Marcellus
                      (Lot-et-Garonne) en 1795, mort en 1865</p>
                </trait>
-               <desc>L. a. s., 1826, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e166_1">L. a. s., 1826, 1 p. in-8. 3</desc>
             </item>
             <item n="167" xml:id="CAT_000106_e167">
                <num>167</num>
@@ -1818,7 +1819,7 @@
                <trait>
                   <p>homme politique, ancien ministre, né à Domfront (Orne) en 1828</p>
                </trait>
-               <desc>L. a. s. , 1872, 1 p. in-8. 4</desc>
+               <desc xml:id="CAT_000106_e167_1">L. a. s. , 1872, 1 p. in-8. 4</desc>
                <note>Piquante réponse à la demande de son autographe</note>
             </item>
             <item n="168" xml:id="CAT_000106_e168">
@@ -1827,7 +1828,7 @@
                <trait>
                   <p>publiciste et homme politique, député du Cher, né à Sancerre en 1838</p>
                </trait>
-               <desc>Les Théâtres.-Le mouvement dramatique en 1870, article aut. sig., 8 p.
+               <desc xml:id="CAT_000106_e168_1">Les Théâtres.-Le mouvement dramatique en 1870, article aut. sig., 8 p.
                   in-fol. 15</desc>
                <note>Pièce des plus curieuses pour l'histoire du théâtre pendant la guerre. On y
                   remarque l'appréciation suivante sur Patrie, de V. Sardou : « On avait soif alors
@@ -1844,7 +1845,7 @@
                <trait>
                   <p>avocat célèbre, membre du gouvernement provisoire de 1818</p>
                </trait>
-               <desc>né à a. s., 1869, 1 p. in-18. 4</desc>
+               <desc xml:id="CAT_000106_e169_1">né à a. s., 1869, 1 p. in-18. 4</desc>
                <note>Jolie lettre. « Ce petit spécimen n'enrichira pas beaucoup votre collection,
                   cependant il y placera un nom qui devra, j'en ai la conscience, être toujours cher
                   à ceux qui aiment et veulent la liberté et avec elle la dignité et la grandeur de
@@ -1856,7 +1857,7 @@
                <trait>
                   <p>dit Mariette-Bey, l'égyptologue, né à Boulogue-surMer en 1821, mort en 1881</p>
                </trait>
-               <desc>L. a. s.; Boulaq, (1868), 1 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e170_1">L. a. s.; Boulaq, (1868), 1 p. in-8. 6</desc>
                <note>Au sujet d'un papyrus</note>
             </item>
             <item n="171" xml:id="CAT_000106_e171">
@@ -1865,7 +1866,7 @@
                <trait>
                   <p>célèbre publiciste rovaliste et auteur dramatique, né en 1776, mort en 1830</p>
                </trait>
-               <desc>L. a. s. à Mme de Friou, 1827, 2 p. 1/2 in-8. 4</desc>
+               <desc xml:id="CAT_000106_e171_1">L. a. s. à Mme de Friou, 1827, 2 p. 1/2 in-8. 4</desc>
                <note>Au sujet d'un drame dont Mme de Friou était l'auteur</note>
             </item>
             <item n="172" xml:id="CAT_000106_e172">
@@ -1875,7 +1876,7 @@
                   <p>le célèbre historien et homme politique, né à Saint-Quentin en 1810, mort
                      récemment</p>
                </trait>
-               <desc>L. a. s., 2 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e172_1">L. a. s., 2 p. in-8. 5</desc>
             </item>
             <item n="173" xml:id="CAT_000106_e173">
                <num>173</num>
@@ -1884,7 +1885,7 @@
                   <p>célèbre graveur contemporain, élève de MM. Heim et Forster, membre de
                      l'Institut, né en 1806, mort en 1877</p>
                </trait>
-               <desc>L. a. s., 7 mai 1870, 1 p. in-8. 10</desc>
+               <desc xml:id="CAT_000106_e173_1">L. a. s., 7 mai 1870, 1 p. in-8. 10</desc>
                <note>Spirituelle lettre en réponse à la demande de son autographe. Elle contient
                   cette phrase : « Je m'engage, si je suis de ce monde, à vous payer le 7 mai 1970,
                   la somme de cent mille francs, que je tiendrai à votre disposition.</note>
@@ -1896,7 +1897,7 @@
                   <p>célèbre socialiste allemand, un des fondateurs de l'Association internationale
                      des travailleurs, né en 1818, mort récemment</p>
                </trait>
-               <desc>L. a. s., en français; Londres, 1872, 1 p. in-18. 5</desc>
+               <desc xml:id="CAT_000106_e174_1">L. a. s., en français; Londres, 1872, 1 p. in-18. 5</desc>
             </item>
             <item n="175" xml:id="CAT_000106_e175">
                <num>175</num>
@@ -1905,7 +1906,7 @@
                   <p>écrivain, érudit, auteur d'ouvrages sur le midi de la France, né à La Française
                      (Tarn-et-Garonne) en 1812</p>
                </trait>
-               <desc>P. a. s., 1 p. in-8. 4</desc>
+               <desc xml:id="CAT_000106_e175_1">P. a. s., 1 p. in-8. 4</desc>
                <note>Pièce littéraire, faite pour un amateur</note>
             </item>
             <item n="176" xml:id="CAT_000106_e176">
@@ -1914,7 +1915,7 @@
                <trait>
                   <p>célèbre romancier populaire, né en 1800</p>
                </trait>
-               <desc>L. a. s., 1870, 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e176_1">L. a. s., 1870, 1 p. in-8. 5</desc>
                <note>Lettre prose et vers La pièce de vers a pour titre : Epigraphe de l'historiette
                   intitulée : Une lumière au bord d'un fossé</note>
             </item>
@@ -1925,7 +1926,7 @@
                <trait>
                   <p>fille du roi Jérôme</p>
                </trait>
-               <desc>L. a. s., 1 p. in-18. 2</desc>
+               <desc xml:id="CAT_000106_e177_1">L. a. s., 1 p. in-18. 2</desc>
             </item>
             <item n="178" xml:id="CAT_000106_e178">
                <num>178</num>
@@ -1933,7 +1934,7 @@
                <trait>
                   <p>célèbre acteur de la Comédie-Française, né à Chantilly en 1821</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e178_1">L. a. s., 1 p. in-8. 6</desc>
             </item>
             <item n="179" xml:id="CAT_000106_e179">
                <num>179</num>
@@ -1941,7 +1942,7 @@
                <trait>
                   <p>le célèbre patriote italien, né en 1808, mort en 1872</p>
                </trait>
-               <desc>Pièce de 3 lignes aut. sig., 1864,1/2 p. in-18. 3</desc>
+               <desc xml:id="CAT_000106_e179_1">Pièce de 3 lignes aut. sig., 1864,1/2 p. in-18. 3</desc>
             </item>
             <item n="180" xml:id="CAT_000106_e180">
                <num>180</num>
@@ -1950,7 +1951,7 @@
                   <p>homme politique et magistrat, ministre de Louis-Philippe, né à Montignac
                      (Dordogne) en 1788, mort en 1856</p>
                </trait>
-               <desc>L. a. s., 1/2 p. in-8. 2</desc>
+               <desc xml:id="CAT_000106_e180_1">L. a. s., 1/2 p. in-8. 2</desc>
             </item>
             <item n="181" xml:id="CAT_000106_e181">
                <num>181</num>
@@ -1958,7 +1959,7 @@
                <trait>
                   <p>célèbre écrivain romantique, de l'Acad. fr., né en 1803, mort en 1870</p>
                </trait>
-               <desc>L. a. s., 1/2 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e181_1">L. a. s., 1/2 p. in-8. 6</desc>
             </item>
             <item n="182" xml:id="CAT_000106_e182">
                <num>182</num>
@@ -1966,7 +1967,7 @@
                <trait>
                   <p>célèbre prélat suisse contemporain, né près de Genève en 1824</p>
                </trait>
-               <desc>Pièce aut. sig., Genève, 1869, 1 p. in-8. 8</desc>
+               <desc xml:id="CAT_000106_e182_1">Pièce aut. sig., Genève, 1869, 1 p. in-8. 8</desc>
                <note>Jolie pièce dont voici le texte : « Notre époque manque de principes et notre
                   société n a plus les grands secrets du dévouement : sachons être des hommes aux
                   convictions qui se montrent et des coeurs qui se donnent.</note>
@@ -1974,7 +1975,7 @@
             <item n="183" xml:id="CAT_000106_e183">
                <num>183</num>
                <name type="author">Metternich (R.-C.-J.-</name>
-               <desc>L.-H., prince de), diplomate, fils du célèbre ministre autrichien, dont il a
+               <desc xml:id="CAT_000106_e183_1">L.-H., prince de), diplomate, fils du célèbre ministre autrichien, dont il a
                   publié les Mémoires, né en 1829.-L. a. s., en français, (1880), 2 p. 1/2 in-8.
                   5</desc>
             </item>
@@ -1984,7 +1985,7 @@
                <trait>
                   <p>romancier et auteur dramatique distingué, né en 1820</p>
                </trait>
-               <desc>L. a. s. , 1869, 1 p. 1/2 in-8. 6</desc>
+               <desc xml:id="CAT_000106_e184_1">L. a. s. , 1869, 1 p. 1/2 in-8. 6</desc>
                <note>Jolie lettre qui contient sur le second feuillet « un poème épique, en deux
                   vers de six syllabes, que j'at intitulé l'Epopée humaine. En voici le texte :
                   L'homme respire,
@@ -1997,7 +1998,7 @@
                   <p>écrivain distingué, épouse et collaboratrice du célèbre historien, née à
                      Montauban en 1828</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e185_1">L. a. s., 1 p. in-8. 5</desc>
                <note>Spirituelle lettre. « On ne demande d'autographes qu'aux immortels et j'ai vécu
                   dans l'ombre, fort modestement. Mais pour me défendre de vous obéir, je dois
                   donner ce que je refuse.</note>
@@ -2008,7 +2009,7 @@
                <trait>
                   <p>célèbre peintre et statuaire, né en 1816</p>
                </trait>
-               <desc>L. a. s., 1875, 2 p. in-18. 10</desc>
+               <desc xml:id="CAT_000106_e186_1">L. a. s., 1875, 2 p. in-18. 10</desc>
                <note>Lettre des plus spirituelles en réponse à la demande de son autographe</note>
             </item>
             <item n="187" xml:id="CAT_000106_e187">
@@ -2017,7 +2018,7 @@
                <trait>
                   <p>écrivain et conférencière socialiste</p>
                </trait>
-               <desc>L. a. s., 1869, 1 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e187_1">L. a. s., 1869, 1 p. in-8. 6</desc>
                <note>Jolie lettre. « Je comprends qu'on tienne à avoir des autographes de toutes
                   brillantes célébrites, mais de ceux ou de celles qui ne sont encore qu'étoiles
                   nébuleuses s'élevant à peine à l'horizon !...</note>
@@ -2029,7 +2030,7 @@
                   <p>célèbre orientaliste, membre de l'Académie des Inscriptions, d'origine
                      allemande mais naturalisé français, né en 1800, mort en 1876</p>
                </trait>
-               <desc>L. a. s., en français, 1870, 1/2 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e188_1">L. a. s., en français, 1870, 1/2 p. in-8. 6</desc>
                <note>Piquante réponse à la demande de son autographe</note>
             </item>
             <item n="189" xml:id="CAT_000106_e189">
@@ -2038,7 +2039,7 @@
                <trait>
                   <p>littérateur distingué, commentateur de Molière, né à Saint- Omer en 1824</p>
                </trait>
-               <desc>L. a. s. et pièce aut., 1872, 1 p. in-4. 6</desc>
+               <desc xml:id="CAT_000106_e189_1">L. a. s. et pièce aut., 1872, 1 p. in-4. 6</desc>
                <note>La pièce autographe est un fragment d'un de ses articles de critique
                   littéraire, qui contient entre autres cette phrase . « De nos jours la poésie est
                   avant tout une effusion de l'âme du poète; le cri de sa joie ou de sa souffrance,
@@ -2053,7 +2054,7 @@
                   <p>célèbre homme d'Etat, ministre de Louis-Philippe, de l'Acad. fr., né en 1780,
                      mort en 1855</p>
                </trait>
-               <desc>L. a. s., 3/4 de p. in-8. Cachet. 5</desc>
+               <desc xml:id="CAT_000106_e190_1">L. a. s., 3/4 de p. in-8. Cachet. 5</desc>
             </item>
             <item n="191" xml:id="CAT_000106_e191">
                <num>191</num>
@@ -2061,7 +2062,7 @@
                <trait>
                   <p>l'illustre géomètre, né à Beaune en 1746, mort en 1818</p>
                </trait>
-               <desc>L. a. s., 1808, 1 p. in-4. 6</desc>
+               <desc xml:id="CAT_000106_e191_1">L. a. s., 1808, 1 p. in-4. 6</desc>
             </item>
             <item n="192" xml:id="CAT_000106_e192">
                <num>192</num>
@@ -2069,7 +2070,7 @@
                <trait>
                   <p>littérateur et critique musical distingué, né en 1798, mort en 1868</p>
                </trait>
-               <desc>L. a. s. au libraire Charlieux, 1839, 1/2 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e192_1">L. a. s. au libraire Charlieux, 1839, 1/2 p. in-8. 3</desc>
                <note>Il lui demande le compte de son ouvrage : Les Femmes de Walter Scott</note>
             </item>
             <item n="193" xml:id="CAT_000106_e193">
@@ -2078,7 +2079,7 @@
                <trait>
                   <p>célèbre acteur de la Comédie-Française, né en 1809</p>
                </trait>
-               <desc>L. a. s., 1870, 1/2 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e193_1">L. a. s., 1870, 1/2 p. in-8. 3</desc>
             </item>
             <item n="194" xml:id="CAT_000106_e194">
                <num>194</num>
@@ -2086,7 +2087,7 @@
                <trait>
                   <p>célèbre prédicateur, de l'ordre des frères prêcheurs</p>
                </trait>
-               <desc>L. a. s., 1870, 1 p. in-8. Curieuse. 8</desc>
+               <desc xml:id="CAT_000106_e194_1">L. a. s., 1870, 1 p. in-8. Curieuse. 8</desc>
             </item>
             <item n="195" xml:id="CAT_000106_e195">
                <num>195</num>
@@ -2095,7 +2096,7 @@
                   <p>comte de) célèbre écrivain et orateur parlementaire, de l'Acad. fr., né en
                      1810, mort en 1870</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e195_1">L. a. s., 1 p. in-8. 6</desc>
             </item>
             <item n="196" xml:id="CAT_000106_e196">
                <num>196</num>
@@ -2104,7 +2105,7 @@
                   <p>homme d'Etat, ministre de Napoléon Ier, né à Neukirch (Lorraine) en 1766, mort
                      en 1823</p>
                </trait>
-               <desc>L. s., 1811, 1 p. in-fol. 2</desc>
+               <desc xml:id="CAT_000106_e196_1">L. s., 1811, 1 p. in-fol. 2</desc>
             </item>
             <item n="197" xml:id="CAT_000106_e197">
                <num>197</num>
@@ -2112,7 +2113,7 @@
                <trait>
                   <p>littérateur et auteur dramatique contemporain, né à Apremont (Haute-Saône) en 1824</p>
                </trait>
-               <desc>L. a. s., 1 p. in-18. 3</desc>
+               <desc xml:id="CAT_000106_e197_1">L. a. s., 1 p. in-18. 3</desc>
             </item>
             <item n="198" xml:id="CAT_000106_e198">
                <num>198</num>
@@ -2121,7 +2122,7 @@
                   <p>maréchal de France, gouverneur du Languedoc, célèbre par ses actions d'éclat,
                      né en 1636, mort en 1716</p>
                </trait>
-               <desc>Let. sig. à la marquise de Poyanne, 1705, 2 p. 1/2 in-4. 8</desc>
+               <desc xml:id="CAT_000106_e198_1">Let. sig. à la marquise de Poyanne, 1705, 2 p. 1/2 in-4. 8</desc>
             </item>
             <item n="199" xml:id="CAT_000106_e199">
                <num>199</num>
@@ -2130,7 +2131,7 @@
                   <p>savant orientaliste du XVIIe siècle, théologien protestant, auteur d'un grand
                      nombre d'ouvrages, né à Caen en 1625, mort en 1700</p>
                </trait>
-               <desc>L. a. s. à Huet; Caen, 1679, 4 p. pl. in-4. 30</desc>
+               <desc xml:id="CAT_000106_e199_1">L. a. s. à Huet; Caen, 1679, 4 p. pl. in-4. 30</desc>
                <note>Magnifique et intéressante lettre où il critique et analyse l'ouvrage de Huet :
                   Demonstratio évangelica. « Je sçais ce que le respect que vous avés pour nostre
                   Eglise exige, et je vois bien aussi que vous ne les (écrits des apôtres) mettés
@@ -2148,7 +2149,7 @@
                   <p>littérateur et homme politique, préfet de Saône-et-Loire pendant la guerre de
                      1870, né à Lyon en 1823, mort en 1874</p>
                </trait>
-               <desc>L. a. s., 1 p. 1/2 in-8. 4</desc>
+               <desc xml:id="CAT_000106_e200_1">L. a. s., 1 p. 1/2 in-8. 4</desc>
                <note>Lettre politique. « Je ne suis pas un homme célèbre, et probablement, je ne le
                   deviendrai jamais : j'appartiens à cette génération sacrifiée qui est arrivée
                   après la nuit du 2 Décembre, -cette nuit qui dure encore, bien que l'on aperçoive
@@ -2160,7 +2161,7 @@
                <trait>
                   <p>le célèbre acteur de la Comédie-française, né à Bergerac (Dordogne) en 1841</p>
                </trait>
-               <desc>L. a. s., 1874, 1 p. in-8. 8</desc>
+               <desc xml:id="CAT_000106_e201_1">L. a. s., 1874, 1 p. in-8. 8</desc>
                <note>Piquante réponse à la demande de son autographe</note>
             </item>
             <item n="202" xml:id="CAT_000106_e202">
@@ -2170,7 +2171,7 @@
                   <p>célèbre littérateur, le roi et l'historien de la Bohème, né en 1822, mort en
                      1861</p>
                </trait>
-               <desc>L. a. s. à Mlle Louise Gardy, 1 p. 1/2 in-8. 6</desc>
+               <desc xml:id="CAT_000106_e202_1">L. a. s. à Mlle Louise Gardy, 1 p. 1/2 in-8. 6</desc>
                <note>Jolie lettre de sa jeunesse</note>
             </item>
             <item n="203" xml:id="CAT_000106_e203">
@@ -2179,7 +2180,7 @@
                <trait>
                   <p>frère d'Alfred, romancier et critique distingué, né en 1804, mort en 1880</p>
                </trait>
-               <desc>L. a. s., 1868, 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e203_1">L. a. s., 1868, 1 p. in-8. 5</desc>
                <note>Relative aux autographes d'Alfred de Musset</note>
             </item>
             <item n="204" xml:id="CAT_000106_e204">
@@ -2189,7 +2190,7 @@
                   <p>gouverneur de Nimègue, brave et hardi capitaine qui servit le duc de Bouillon,
                      son neveu, mort le 1er sept. 1595 des suites de ses blessures</p>
                </trait>
-               <desc>L. a. s., en français; 13 mars (1595), 1 p. 1/2 in-f. Rare 20</desc>
+               <desc xml:id="CAT_000106_e204_1">L. a. s., en français; 13 mars (1595), 1 p. 1/2 in-f. Rare 20</desc>
                <note>Importante lettre historique sur les opérations militaires de son armée depuis
                   le passage du Rhin jusqu'à son arrivée à Meisenheim (Bavière). Il dit avoir vu le
                   duc de Bouillon; il est opposé à Martin von Rossen, fait crier sur son passage :
@@ -2202,7 +2203,7 @@
                   <p>illustre maréchal de France, né à Sarrelouis en 1769, fusillé le 7 déc.
                      1815</p>
                </trait>
-               <desc>L. s., 1 p. in-fol. 5</desc>
+               <desc xml:id="CAT_000106_e205_1">L. s., 1 p. in-fol. 5</desc>
             </item>
             <item n="206" xml:id="CAT_000106_e206">
                <num>206</num>
@@ -2210,7 +2211,7 @@
                <trait>
                   <p>littérateur et critique, de l'Acad. fr., né à Châtillonsur-Seine en 1806</p>
                </trait>
-               <desc>L. a. s. , 1837, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e206_1">L. a. s. , 1837, 1 p. in-8. 3</desc>
             </item>
             <item n="207" xml:id="CAT_000106_e207">
                <num>207</num>
@@ -2219,7 +2220,7 @@
                   <p>littérateur et musicographe distingué, né à Cavaillon (Vaucluse) en 1802, mort
                      en 1866</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e207_1">L. a. s., 1 p. in-8. 3</desc>
             </item>
             <item n="208" xml:id="CAT_000106_e208">
                <num>208</num>
@@ -2227,7 +2228,7 @@
                <trait>
                   <p>savant vulgarisateur des siences, né à Evreux en 1838</p>
                </trait>
-               <desc>L. a. s., 2 p. in-18. 5</desc>
+               <desc xml:id="CAT_000106_e208_1">L. a. s., 2 p. in-18. 5</desc>
                <note>Jolie lettre. « La sympathie des autres est notre seule récompense à nous, et
                   elle est assez rare pour que nous y soyons très- sensible.</note>
             </item>
@@ -2237,7 +2238,7 @@
                <trait>
                   <p>célèbre cantatrice, soeur d'Adelina, née à Florence en 1840</p>
                </trait>
-               <desc>Sa carte-photographie avec sa signature aut., in-18. 5</desc>
+               <desc xml:id="CAT_000106_e209_1">Sa carte-photographie avec sa signature aut., in-18. 5</desc>
             </item>
             <item n="210" xml:id="CAT_000106_e210">
                <num>210</num>
@@ -2246,7 +2247,7 @@
                   <p>frère de l'évêque d'Autun, prêtre de l'Oratoire, célèbre prédicateur, né à
                      Bayonne en 1831</p>
                </trait>
-               <desc>L. a. s., 1881, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e210_1">L. a. s., 1881, 1 p. in-8. 3</desc>
             </item>
             <item n="211" xml:id="CAT_000106_e211">
                <num>211</num>
@@ -2255,13 +2256,13 @@
                   <p>publiciste et romancier très-distingué, né à Paimboeuf (Loire- Inférieure) en
                      1830</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e211_1">L. a. s., 1 p. in-8. 3</desc>
                <note>Au sujet du Roman de la Morte</note>
             </item>
             <item n="212" xml:id="CAT_000106_e212">
                <num>212</num>
                <name type="author">Peyronny (la vicomtesse de),</name>
-               <desc>collaboratrice du Figaro, auteur des articles signés scus le preudonyme in-8.
+               <desc xml:id="CAT_000106_e212_1">collaboratrice du Figaro, auteur des articles signés scus le preudonyme in-8.
                   3</desc>
                <note>Jolie lettre suivie de la pensée suivante : « La religion fait des saintes,
                   l'amour ne fait que des martyres.</note>
@@ -2272,7 +2273,7 @@
                <trait>
                   <p>littérateur distingué, né à Cherbourg en 1831</p>
                </trait>
-               <desc>Le Grillon du Foyer, sonnet de décembre, pièce de vers aut. sig., 1 p. in-8.
+               <desc xml:id="CAT_000106_e213_1">Le Grillon du Foyer, sonnet de décembre, pièce de vers aut. sig., 1 p. in-8.
                   Jolie pièce. 6</desc>
             </item>
             <item n="214" xml:id="CAT_000106_e214">
@@ -2282,7 +2283,7 @@
                   <p>célèbre poète tragique, de l'Acad. fr., né à Vienne (Isère) en 1814, mort en
                      1867</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e214_1">L. a. s., 1 p. in-8. 6</desc>
             </item>
             <item n="215" xml:id="CAT_000106_e215">
                <num>215</num>
@@ -2290,7 +2291,7 @@
                <trait>
                   <p>célèbre critique et romancier, né à Avignon en 1811</p>
                </trait>
-               <desc>L. a. s., 1867, 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e215_1">L. a. s., 1867, 1 p. in-8. 5</desc>
             </item>
             <item n="216" xml:id="CAT_000106_e216">
                <num>216</num>
@@ -2298,7 +2299,7 @@
                <trait>
                   <p>préfet de la Seine</p>
                </trait>
-               <desc>L. a. s., 1884, 3 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e216_1">L. a. s., 1884, 3 p. in-8. 5</desc>
                <note>Curieuse réponse à la demande de son autographe</note>
             </item>
             <item n="217" xml:id="CAT_000106_e217">
@@ -2308,7 +2309,7 @@
                   <p>écrivain et diplomate français, gendre du prince Constantin Ghika, né en
                      1815</p>
                </trait>
-               <desc>L. a. s., 1872, 3 p. in-18. 5</desc>
+               <desc xml:id="CAT_000106_e217_1">L. a. s., 1872, 3 p. in-18. 5</desc>
                <note>Belle lettre. « J'ai servi mon pays avec zèle, avec passion, et je lui suis
                   dévoué de toutes les forces de mon âme.</note>
             </item>
@@ -2319,7 +2320,7 @@
                   <p>poète distingué et célèbre improvisateur, né à Toulouse en 1784, mort en
                      1857</p>
                </trait>
-               <desc>L. a. s., 1837, 1 p. in-8 obl. 5</desc>
+               <desc xml:id="CAT_000106_e218_1">L. a. s., 1837, 1 p. in-8 obl. 5</desc>
             </item>
             <item n="219" xml:id="CAT_000106_e219">
                <num>219</num>
@@ -2328,7 +2329,7 @@
                   <p>célèbre prélat et diplomate, aumônier de Napoléon Ier, fameux par ses intrigues
                      politiques, né à Allanche (Cantal) en 1759, mort en 1837</p>
                </trait>
-               <desc>L. a. s., 1/2 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e219_1">L. a. s., 1/2 p. in-8. 3</desc>
             </item>
             <item n="220" xml:id="CAT_000106_e220">
                <num>220</num>
@@ -2336,7 +2337,7 @@
                <trait>
                   <p>publiciste et auteur dramatique distingué, collaborateur du Figaro</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e220_1">L. a. s., 1 p. in-8. 3</desc>
                <note>Au sujet de son manuscrit : Jeanne Daumesnil.</note>
             </item>
             <item n="221" xml:id="CAT_000106_e221">
@@ -2345,7 +2346,7 @@
                <trait>
                   <p>le célèbre peintre, né à Lyon en 1824</p>
                </trait>
-               <desc>L''a. s., 1874, 1 p. in-8. Curieuse. 5</desc>
+               <desc xml:id="CAT_000106_e221_1">L''a. s., 1874, 1 p. in-8. Curieuse. 5</desc>
             </item>
             <item n="222" xml:id="CAT_000106_e222">
                <num>222</num>
@@ -2354,7 +2355,7 @@
                   <p>écrivain distingué, auteur d'ouvrages estimés sur la littérature espagnole, né
                      à Metz en 1816</p>
                </trait>
-               <desc>L. a. s. en vers; Metz, 1872, 3/4 de p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e222_1">L. a. s. en vers; Metz, 1872, 3/4 de p. in-8. 5</desc>
                <note>En voici le commencement : Vous voulez voir ma vilaine écriture ! Elle fera
                   certes triste figure Dans votre album riche en noms glorieux : Votre désir a lieu
                   de me confondre, Je ne voulais d'abord pas y répondre, Mais être ingrat me paraît
@@ -2366,7 +2367,7 @@
                <trait>
                   <p>littérateur et publiciste, membre de la Commune de Paris, né à Vierzon (Cher) en 1810.</p>
                </trait>
-               <desc>L. a. s., 1872, 1 p. in-8. 4</desc>
+               <desc xml:id="CAT_000106_e223_1">L. a. s., 1872, 1 p. in-8. 4</desc>
             </item>
             <item n="224" xml:id="CAT_000106_e224">
                <num>224</num>
@@ -2374,7 +2375,7 @@
                <trait>
                   <p>le célèbre prédicateur, né à Strasbourg en 1802</p>
                </trait>
-               <desc>L. a. s., 1874, 1 p. in-8. 10</desc>
+               <desc xml:id="CAT_000106_e224_1">L. a. s., 1874, 1 p. in-8. 10</desc>
                <note>Curieuse lettre. « Je vous remercie des choses bienveillantes que vous me
                   dites; mais si vous aviez l'occasion de voir de près le pauvre prêtre que vous
                   louez, votre bonne opinion se modifierait considérablement. En général, les hommes
@@ -2388,7 +2389,7 @@
                   <p>homme politique et administrateur, directeur de la police sous Napoléon Ier, né
                      en 1757, mort en 1834</p>
                </trait>
-               <desc>L. s., 1 p. in-4. 2</desc>
+               <desc xml:id="CAT_000106_e225_1">L. s., 1 p. in-4. 2</desc>
             </item>
             <item n="226" xml:id="CAT_000106_e226">
                <num>226</num>
@@ -2397,7 +2398,7 @@
                   <p>savant écrivain et philosophe français, de l'Institut, précepteur du comte de
                      Paris, né à Mayence en 1804</p>
                </trait>
-               <desc>L. a. s., 1869, 1 p. in-8. Curieuse. 5</desc>
+               <desc xml:id="CAT_000106_e226_1">L. a. s., 1869, 1 p. in-8. Curieuse. 5</desc>
             </item>
             <item n="227" xml:id="CAT_000106_e227">
                <num>227</num>
@@ -2405,7 +2406,7 @@
                <trait>
                   <p>savant archéologue, de l'Acad. des Inscriptions, né à Charleville en 1809</p>
                </trait>
-               <desc>Pièce aut. sig., 1839, 7 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e227_1">Pièce aut. sig., 1839, 7 p. in-8. 6</desc>
                <note>Article sur une inscription de l'époque romaine aujourd'hui au Musée de
                   Bordeaux</note>
             </item>
@@ -2416,7 +2417,7 @@
                   <p>littérateur, enfermé à la Bastille pendant onze années (1702-13), auteur d'une
                      curieuse Histoire de la Bastille, né à Caen vers 1658, mort en 1723</p>
                </trait>
-               <desc>L. a. sig. de Constantin au marquis de Torcy; la Bastille, 28 avril 1710, 1 p.
+               <desc xml:id="CAT_000106_e228_1">L. a. sig. de Constantin au marquis de Torcy; la Bastille, 28 avril 1710, 1 p.
                   in-4. Rare. 30</desc>
                <note>Très-curieuse lettre. C'est par ordre de Chamillart qu'il a essayé de passer
                   aux Hollandais; il n'est donc pas transfuge et l'on ne doit pas le retenir en
@@ -2434,7 +2435,7 @@
                <trait>
                   <p>peintre distingué, élève de Drolling, né en 1818</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e229_1">L. a. s., 1 p. in-8. 3</desc>
             </item>
             <item n="230" xml:id="CAT_000106_e230">
                <num>230</num>
@@ -2442,7 +2443,7 @@
                <trait>
                   <p>romancière populaire, née à Mâcon en 1797, morte en 1872</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e230_1">L. a. s., 1 p. in-8. 5</desc>
                <note>Jolie lettre. « Le plus grand avantage pour moi, de la carrière littéraire, est
                   de se faire des amis inconnus qui, à de grandes distances, sympathisent avec nos
                   pensées.</note>
@@ -2454,7 +2455,7 @@
                   <p>célèbre peintre contemporain, élève de Paul Delaroche et de Léon Cogniet, né en
                      1837</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e231_1">L. a. s., 1 p. in-8. 5</desc>
             </item>
             <item n="232" xml:id="CAT_000106_e232">
                <num>232</num>
@@ -2462,7 +2463,7 @@
                <trait>
                   <p>le célèbre, ténor de l'Opéra, né en 1815, mort en 1879</p>
                </trait>
-               <desc>L. a. s., 1 p. 1/2 in-18. 5</desc>
+               <desc xml:id="CAT_000106_e232_1">L. a. s., 1 p. 1/2 in-18. 5</desc>
             </item>
             <item n="233" xml:id="CAT_000106_e233">
                <num>233</num>
@@ -2476,7 +2477,7 @@
                      Médicis; il dirigea la drôlerie des Ponts-de-Cé et se réconcilia avec le prince
                      de Condé, après le traité d'Angers</p>
                </trait>
-               <desc>Quittance sig. sur vélin; Paris, 29 mai 1621, 1 p. in-4. Rare. 15</desc>
+               <desc xml:id="CAT_000106_e233_1">Quittance sig. sur vélin; Paris, 29 mai 1621, 1 p. in-4. Rare. 15</desc>
                <note>Il confesse avoir reçu 600 livres pour être allé en poste de Fontainebleau à
                   Paris, Tours et Amboise, près du roi, du comte et de la comtesse de Soissons «
                   pour affaires importantes »</note>
@@ -2488,7 +2489,7 @@
                   <p>spirituel littérateur et dramaturge, auteur du SpectreRouge, né en 1800, mort
                      en 1855</p>
                </trait>
-               <desc>L. a. s.; Périgueux, 1840, 2 p. 1/2 in-8. 3</desc>
+               <desc xml:id="CAT_000106_e234_1">L. a. s.; Périgueux, 1840, 2 p. 1/2 in-8. 3</desc>
             </item>
             <item n="235" xml:id="CAT_000106_e235">
                <num>235</num>
@@ -2497,7 +2498,7 @@
                   <p>maréchal de France, gouverneur du Languedoc, pacificateur des Cévennes, né en
                      1656, mort en 1738</p>
                </trait>
-               <desc>Pièce aut. sig., 1704, 1 p. in-4 obl., cachet à ses armes. 10</desc>
+               <desc xml:id="CAT_000106_e235_1">Pièce aut. sig., 1704, 1 p. in-4 obl., cachet à ses armes. 10</desc>
             </item>
             <item n="236" xml:id="CAT_000106_e236">
                <num>236</num>
@@ -2505,7 +2506,7 @@
                <trait>
                   <p>le grand tragédien italien, né en 1829</p>
                </trait>
-               <desc>L. a. s. , en français; Paris, 1876, 4 p. in-18. 15</desc>
+               <desc xml:id="CAT_000106_e236_1">L. a. s. , en français; Paris, 1876, 4 p. in-18. 15</desc>
                <note>Spirituelle épitre où il définit l'art du comédien. Quand il entre en scène, il
                   doit répondre à deux questions : Qui suis-je et que vais-je faire? De plus, il
                   doit « savoir bien écouter, avoir la mélodie dans le coeur, l'harmonie dans la
@@ -2517,7 +2518,7 @@
                <trait>
                   <p>célèbre poète provençal, né à Saint-Remy (Bouchesdu-Rhône) en 1818</p>
                </trait>
-               <desc>L. a. Glaneuse, texte provençal et français, pièce de vers aut. sig., 1869, 2 p.
+               <desc xml:id="CAT_000106_e237_1">L. a. Glaneuse, texte provençal et français, pièce de vers aut. sig., 1869, 2 p.
                   1/2 in-18. Jolie pièce. 8</desc>
             </item>
             <item n="238" xml:id="CAT_000106_e238">
@@ -2527,7 +2528,7 @@
                   <p>femme auteur et économiste française, qui traduisit la première l'Origine des
                      espèces de Ch. Darwin, née à Nantes vers 1830</p>
                </trait>
-               <desc>L. a. s., 1869, 1 p. in-18. Papier à son chiffre, avec la devise : Je prends
+               <desc xml:id="CAT_000106_e238_1">L. a. s., 1869, 1 p. in-18. Papier à son chiffre, avec la devise : Je prends
                   mon droit. 6</desc>
                <note>Jolie lettre adressée à un amateur. « Ne craignez-vous pas que mon écriture,
                   sachant qu'elle doit paraître en noble et nombreuse compagnie, ne fasse un peu
@@ -2540,7 +2541,7 @@
                   <p>le célèbre critique, de l'Acad. fr., né à Boulogne-sur-Mer en 1804, mort en
                      1869</p>
                </trait>
-               <desc>L. a. s. à Ch. Yriarte, 1865, 1/2 p. in-8. 8</desc>
+               <desc xml:id="CAT_000106_e239_1">L. a. s. à Ch. Yriarte, 1865, 1/2 p. in-8. 8</desc>
                <note>Curieux billet dont voici le texte : « Je remercie sous son masque de Junior,
                   l'écrivain bienveillant qui veut bien caresser si gentiment le confrère sous le
                   sénateur.</note>
@@ -2551,7 +2552,7 @@
                <trait>
                   <p>littérateur et homme politique, de l'Acad. fr., né en 1801, mort en 1873</p>
                </trait>
-               <desc>L. a. s., 1 p. 1/2 in-8. Curieuse. 8</desc>
+               <desc xml:id="CAT_000106_e240_1">L. a. s., 1 p. 1/2 in-8. Curieuse. 8</desc>
             </item>
             <item n="241" xml:id="CAT_000106_e241">
                <num>241</num>
@@ -2561,7 +2562,7 @@
                   <p>diplomate, ministre plénipotentiaire lors des dernières négociations avec la
                      Prusse, né à Coucy-les-Eppes (Aisne) en 1833, mort en 1886</p>
                </trait>
-               <desc>L. a. s., 1877, 1 p. in-8. Curieuse. 5</desc>
+               <desc xml:id="CAT_000106_e241_1">L. a. s., 1877, 1 p. in-8. Curieuse. 5</desc>
             </item>
             <item n="242" xml:id="CAT_000106_e242">
                <num>242</num>
@@ -2569,7 +2570,7 @@
                <trait>
                   <p>littérateur et critique contemporain, né en 1827, mort en 1881</p>
                </trait>
-               <desc>Pièce a. s., 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e242_1">Pièce a. s., 1 p. in-8. 5</desc>
                <note>Jolie pièce faite pour un amateur, elle commence ainsi : « Honorons et aimons
                   la Grèce. Elle est notre mère et notre nourrice, le meilleur de notre sang nous
                   vient du lait qu'elle nous a versé.</note>
@@ -2581,7 +2582,7 @@
                   <p>écrivain distingué, auteur de nombreux ouvrages sur l'Orient, né à Montpellier
                      en 1796, mort en 1873</p>
                </trait>
-               <desc>L. a. s., 1872, 1 p. in-8. 8</desc>
+               <desc xml:id="CAT_000106_e243_1">L. a. s., 1872, 1 p. in-8. 8</desc>
                <note>Très-curieuse lettre contenant un résumé de sa vie</note>
             </item>
             <item n="244" xml:id="CAT_000106_e244">
@@ -2590,7 +2591,7 @@
                <trait>
                   <p>spirituel critique et publiciste, né à Dourdan en 1828</p>
                </trait>
-               <desc>L. a. s., 1 p. in-18. 5</desc>
+               <desc xml:id="CAT_000106_e244_1">L. a. s., 1 p. in-18. 5</desc>
                <note>Charmante lettre. « La collectiomanie est une passion très-inoffensive et ceux
                   qui en sont possédés sont d'ordinaire de braves gens qui ne pensent point à
                   mal.</note>
@@ -2602,7 +2603,7 @@
                   <p>duc de Rovigo, général, aide-de-camp de Napoléon Ier, ministre de la police,
                      auteur de Mémoires, né à Marcq (Ardennes) en 1774, mort en 1833</p>
                </trait>
-               <desc>Pièce sig., in-fol. 2</desc>
+               <desc xml:id="CAT_000106_e245_1">Pièce sig., in-fol. 2</desc>
             </item>
             <item n="246" xml:id="CAT_000106_e246">
                <num>246</num>
@@ -2610,7 +2611,7 @@
                <trait>
                   <p>homme politique et économiste, sénateur, de l'Acad. fr., né en 1826</p>
                </trait>
-               <desc>L. a. s.; Londres, 1868, 1 p. in-4. 6</desc>
+               <desc xml:id="CAT_000106_e246_1">L. a. s.; Londres, 1868, 1 p. in-4. 6</desc>
                <note>Curieuse lettre sur les autographes</note>
             </item>
             <item n="247" xml:id="CAT_000106_e247">
@@ -2620,7 +2621,7 @@
                   <p>célèbre peintre d'histoire, de l'Institut, né à Versailles en 1787, mort en
                      1870</p>
                </trait>
-               <desc>L. a. s., 1868, 2 p. 1/2 in-8. 8</desc>
+               <desc xml:id="CAT_000106_e247_1">L. a. s., 1868, 2 p. 1/2 in-8. 8</desc>
             </item>
             <item n="248" xml:id="CAT_000106_e248">
                <num>248</num>
@@ -2629,7 +2630,7 @@
                   <p>célèbre historien de l'Alsace, membre associé de l'Acad. des Inscriptions, né à
                      Salzbourg en 1694, mort en 1771</p>
                </trait>
-               <desc>L. a. s. à M. Hérissant; Strasbourg, 1768, 3 p. in-8. 15</desc>
+               <desc xml:id="CAT_000106_e248_1">L. a. s. à M. Hérissant; Strasbourg, 1768, 3 p. in-8. 15</desc>
                <note>Belle et intéressante lettre littéraire</note>
             </item>
             <item n="249" xml:id="CAT_000106_e249">
@@ -2638,7 +2639,7 @@
                <trait>
                   <p>célèbre femme de lettres, née en 1814</p>
                </trait>
-               <desc>L'Air, pièce de vers aut. sig., 1 p. in-8. Jolie pièce. 5</desc>
+               <desc xml:id="CAT_000106_e249_1">L'Air, pièce de vers aut. sig., 1 p. in-8. Jolie pièce. 5</desc>
             </item>
             <item n="250" xml:id="CAT_000106_e250">
                <num>250</num>
@@ -2646,7 +2647,7 @@
                <trait>
                   <p>littérateur et fabuliste contemporain, né en 1821</p>
                </trait>
-               <desc>Pièce de vers aut. sig., 1 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e250_1">Pièce de vers aut. sig., 1 p. in-8. 6</desc>
                <note>Extrait de son poème de Sainte-Cécile</note>
             </item>
             <item n="251" xml:id="CAT_000106_e251">
@@ -2655,7 +2656,7 @@
                <trait>
                   <p>célèbre auteur dramatique, né en 1816, mort en 1874</p>
                </trait>
-               <desc>L. a. s., 1869, 1/2 p. in-18. 3</desc>
+               <desc xml:id="CAT_000106_e251_1">L. a. s., 1869, 1/2 p. in-18. 3</desc>
             </item>
             <item n="252" xml:id="CAT_000106_e252">
                <num>252</num>
@@ -2664,7 +2665,7 @@
                   <p>jurisconsulte et homme politique, président de l'Assemblée constituante en
                      1848, né à Rouen en 1800, mort récemment</p>
                </trait>
-               <desc>L. a. s., 1 p. 1/2 in-18. 3</desc>
+               <desc xml:id="CAT_000106_e252_1">L. a. s., 1 p. 1/2 in-18. 3</desc>
             </item>
             <item n="253" xml:id="CAT_000106_e253">
                <num>253</num>
@@ -2673,7 +2674,7 @@
                   <p>romancier et auteur dramatique distingué, né à Boulognesur-Mer en 1821, mort en
                      1874</p>
                </trait>
-               <desc>Pièce de vers aut. sig., 1/2 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e253_1">Pièce de vers aut. sig., 1/2 p. in-8. 6</desc>
                <note>Jolie pièce dont voici le commencement : Le Dieu, qui dans sa main, pèse un
                   grain de pous- Au juste poids aussi pèse une vie entière, Isière, El nos actes par
                   lui ne sont jugés aux cieux Que selon ce qu'il mit de clarté dans nos yeux,</note>
@@ -2684,7 +2685,7 @@
                <trait>
                   <p>célèbre peintre contemporain, de l'Institut, né en 1804</p>
                </trait>
-               <desc>L. a. s., 1868, 1 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e254_1">L. a. s., 1868, 1 p. in-8. 6</desc>
             </item>
             <item n="255" xml:id="CAT_000106_e255">
                <num>255</num>
@@ -2692,7 +2693,7 @@
                <trait>
                   <p>acteur de la Comédie-Française</p>
                </trait>
-               <desc>L. a. s., 1884, 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e255_1">L. a. s., 1884, 1 p. in-8. 5</desc>
                <note>Curieuse lettre en vers en réponse à la demande de son autographe</note>
             </item>
             <item n="256" xml:id="CAT_000106_e256">
@@ -2702,7 +2703,7 @@
                   <p>célèbre littérateur et critique d'art, né au Fossat (Ariège) en 1823, mort en
                      1876</p>
                </trait>
-               <desc>L. a. s., 1870, 2 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e256_1">L. a. s., 1870, 2 p. in-8. 5</desc>
                <note>Jolie lettre. « Vos compliments sont trop forts pour moi; mais, comme l'ours,
                   cherchant du miel dans le creux d'un arbre, et comme le peintre anglais Northcote,
                   avalant « tout ce qui est doux », j'avale votre lettre.</note>
@@ -2713,7 +2714,7 @@
                <trait>
                   <p>homme d'Etat, de l'Acad. fr., né à Lorient en 1814</p>
                </trait>
-               <desc>L. a. s., 2 p. in-18. 8</desc>
+               <desc xml:id="CAT_000106_e257_1">L. a. s., 2 p. in-18. 8</desc>
                <note>Curieuse lettre. Sur le second feuillet, il a copié pour un amateur la dernière
                   page de son livre intitulé : L'Ouvrier de huit ans</note>
             </item>
@@ -2723,7 +2724,7 @@
                <trait>
                   <p>un de nos plus féconds vaudevillistes, né en 1813, mort en 1883</p>
                </trait>
-               <desc>Pièce de vers aut. sig., 1/2 p. in-8. 7</desc>
+               <desc xml:id="CAT_000106_e258_1">Pièce de vers aut. sig., 1/2 p. in-8. 7</desc>
                <note>Jolie pièce d'amateur; en voici le texte : Le sort des hommes est ainsi :
                   Beaucoup d'appelés, peu d'élus. Le sort des livres la voici : Beaucoup d'épelés,
                   peu de lus</note>
@@ -2734,7 +2735,7 @@
                <trait>
                   <p>commandant de la place de Paris sous l'Empire</p>
                </trait>
-               <desc>L. a. s., 8'avril 1870, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e259_1">L. a. s., 8'avril 1870, 1 p. in-8. 3</desc>
                <note>Curieuse lettre qui contient un résumé de sa vie</note>
             </item>
             <item n="260" xml:id="CAT_000106_e260">
@@ -2743,7 +2744,7 @@
                <trait>
                   <p>célèbre poète tragique, né à Castelnaudary en 1788, mort en 1845</p>
                </trait>
-               <desc>Let. aut. à Mme Victor Hugo, 1 p. in-8. Curieuse. 5</desc>
+               <desc xml:id="CAT_000106_e260_1">Let. aut. à Mme Victor Hugo, 1 p. in-8. Curieuse. 5</desc>
             </item>
             <item n="261" xml:id="CAT_000106_e261">
                <num>261</num>
@@ -2751,7 +2752,7 @@
                <trait>
                   <p>littérateur contemporain distingué</p>
                </trait>
-               <desc>Pièce aut. sig., 1875, 1/2 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e261_1">Pièce aut. sig., 1875, 1/2 p. in-8. 5</desc>
                <note>Jolie pièce faite pour un amateur et dont voici le texte : « Epouser sa
                   maîtresse, ce n'est pas lui ouvrir le monde, mais c'est lui fermer le demi.</note>
             </item>
@@ -2761,7 +2762,7 @@
                <trait>
                   <p>le célèbre romancier, né en 1804, mort en 1839</p>
                </trait>
-               <desc>L. a. s. à Alph. Marchais, 2 p. in-8. Cachet. 6</desc>
+               <desc xml:id="CAT_000106_e262_1">L. a. s. à Alph. Marchais, 2 p. in-8. Cachet. 6</desc>
                <note>Lettre de sa jeunesse où il recommande une dame de ses amies</note>
             </item>
             <item n="263" xml:id="CAT_000106_e263">
@@ -2770,7 +2771,7 @@
                <trait>
                   <p>célèbre peintre hollandais naturalisé anglais, né en 1836</p>
                </trait>
-               <desc>P. a. s., en français, 1873, 1/2 p. in-18 obl. 8</desc>
+               <desc xml:id="CAT_000106_e263_1">P. a. s., en français, 1873, 1/2 p. in-18 obl. 8</desc>
             </item>
             <item n="264" xml:id="CAT_000106_e264">
                <num>264</num>
@@ -2778,7 +2779,7 @@
                <trait>
                   <p>célèbre littérateur, de l'Acad. fr., né en 1817</p>
                </trait>
-               <desc>L. a. s., 1869, 1 p. in-8. 10</desc>
+               <desc xml:id="CAT_000106_e264_1">L. a. s., 1869, 1 p. in-8. 10</desc>
                <note>Curieuse réponse à la demande de son autographe. Sa signature n'est pas celle
                   d'un homme illustre, mais d'un écrivain qui a toujours pris sa tâche au
                   sérieux</note>
@@ -2789,7 +2790,7 @@
                <trait>
                   <p>l'excellent chanteur de l'Opéra-Comique</p>
                </trait>
-               <desc>L. a. s., 1879, 1 p. in-8. 8</desc>
+               <desc xml:id="CAT_000106_e265_1">L. a. s., 1879, 1 p. in-8. 8</desc>
                <note>Jolie lettre : « Jamais je n'oublierai pareils encouragements au début de ma
                   carrière.</note>
             </item>
@@ -2799,7 +2800,7 @@
                <trait>
                   <p>le célèbre chanteur, né en 1820</p>
                </trait>
-               <desc>L. a. s., en français; Londres, 1869, 3 p. in-18. Jolie lettre. 7</desc>
+               <desc xml:id="CAT_000106_e266_1">L. a. s., en français; Londres, 1869, 3 p. in-18. Jolie lettre. 7</desc>
             </item>
             <item n="267" xml:id="CAT_000106_e267">
                <num>267</num>
@@ -2807,7 +2808,7 @@
                <trait>
                   <p>chanteur distingué de l'Opéra-Comique</p>
                </trait>
-               <desc>L. a. s., 1880, 1 p. in-8. Curieuse. 6</desc>
+               <desc xml:id="CAT_000106_e267_1">L. a. s., 1880, 1 p. in-8. Curieuse. 6</desc>
             </item>
             <item n="268" xml:id="CAT_000106_e268">
                <num>268</num>
@@ -2816,7 +2817,7 @@
                   <p>voyageur et littérateur, philanthrope, membre de l'Institut, ne en 1789, mort
                      en 1879</p>
                </trait>
-               <desc>L. a. s. à Achille Comte, 1832, 1 p. in-8. 6</desc>
+               <desc xml:id="CAT_000106_e268_1">L. a. s. à Achille Comte, 1832, 1 p. in-8. 6</desc>
                <note>Jolie lettre. « Vos tableaux sont parfaits, vous popularisez la science. Vous
                   venez de rendre un service immense à l'instruction élémentaire.</note>
             </item>
@@ -2826,7 +2827,7 @@
                <trait>
                   <p>spirituel et fécond vaudevilliste, né à Aigues-Mortes en 1787, mort en 1841</p>
                </trait>
-               <desc>L. a. s., 1 p. in-8. 2</desc>
+               <desc xml:id="CAT_000106_e269_1">L. a. s., 1 p. in-8. 2</desc>
             </item>
             <item n="270" xml:id="CAT_000106_e270">
                <num>270</num>
@@ -2834,7 +2835,7 @@
                <trait>
                   <p>romancier distingué, né à Marly-le-Roy en 1833</p>
                </trait>
-               <desc>Pièce aut. sig., 1872, 1 p. in-18. 8</desc>
+               <desc xml:id="CAT_000106_e270_1">Pièce aut. sig., 1872, 1 p. in-18. 8</desc>
                <note>Autorisation donnée à une actrice de jouer sa pièce de Jean-Marie</note>
             </item>
             <item n="271" xml:id="CAT_000106_e271">
@@ -2843,7 +2844,7 @@
                <trait>
                   <p>général de division, ancien ministre de la guerre, gouverneur de Paris</p>
                </trait>
-               <desc>L. a. s. ; Montfermeil, 1883, 2 p. 1/2 in-8. 8</desc>
+               <desc xml:id="CAT_000106_e271_1">L. a. s. ; Montfermeil, 1883, 2 p. 1/2 in-8. 8</desc>
                <note>Curieuse lettre politique</note>
             </item>
             <item n="272" xml:id="CAT_000106_e272">
@@ -2853,7 +2854,7 @@
                   <p>célèbre comédienne qui mérita le surnom de duègne exhilarante, née vers 1812,
                      morte en 1873</p>
                </trait>
-               <desc>L. a. s., 1/2 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e272_1">L. a. s., 1/2 p. in-8. 5</desc>
                <note>Curieuse réponse à la demande de son autographe</note>
             </item>
             <item n="273" xml:id="CAT_000106_e273">
@@ -2862,7 +2863,7 @@
                <trait>
                   <p>premier président de la République française</p>
                </trait>
-               <desc>L. a. s., 1869, 1 p. in-8. 8</desc>
+               <desc xml:id="CAT_000106_e273_1">L. a. s., 1869, 1 p. in-8. 8</desc>
             </item>
             <item n="274" xml:id="CAT_000106_e274">
                <num>274</num>
@@ -2870,7 +2871,7 @@
                <trait>
                   <p>célèbre diplomate et homme d'Etat, né à Verdun en 1818, mort en 1866</p>
                </trait>
-               <desc>L. a. s., 1845, 1/2 p. in-8. 4</desc>
+               <desc xml:id="CAT_000106_e274_1">L. a. s., 1845, 1/2 p. in-8. 4</desc>
             </item>
             <item n="275" xml:id="CAT_000106_e275">
                <num>275</num>
@@ -2878,7 +2879,7 @@
                <trait>
                   <p>homme d'Etat, ancien ministre des finances, né en 1827</p>
                </trait>
-               <desc>L. a. s., 1872, 1 p. in-8. 8</desc>
+               <desc xml:id="CAT_000106_e275_1">L. a. s., 1872, 1 p. in-8. 8</desc>
                <note>Sur son rôle pendant la Commuue. « Ne perdons pas courage néanmoins; à force de
                   persévérance, d'énergie et de modération, nous parviendrons à relever notre belle
                   France, et à fonder la République des honnêtes gens!</note>
@@ -2889,7 +2890,7 @@
                <trait>
                   <p>administrateur distingué, gouverneur général de l’Algérie.</p>
                </trait>
-               <desc>L. a. s., 1883, 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e276_1">L. a. s., 1883, 1 p. in-8. 3</desc>
             </item>
             <item n="277" xml:id="CAT_000106_e277">
                <num>277</num>
@@ -2897,7 +2898,7 @@
                <trait>
                   <p>célèbre aéronaute et chimiste français, né en 1843</p>
                </trait>
-               <desc>L. a. s., 1869, 1 p. in-4. 3</desc>
+               <desc xml:id="CAT_000106_e277_1">L. a. s., 1869, 1 p. in-4. 3</desc>
                <note>Curieuse réponse à la demande de son autographe</note>
             </item>
             <item n="278" xml:id="CAT_000106_e278">
@@ -2906,7 +2907,7 @@
                <trait>
                   <p>écrivain contemporain très-distingué</p>
                </trait>
-               <desc>L. a. s., 1879, 1 p. 1/2 in-8. Cachet. 5</desc>
+               <desc xml:id="CAT_000106_e278_1">L. a. s., 1879, 1 p. 1/2 in-8. Cachet. 5</desc>
                <note>Jolie lettre. « Vous vous servez pour parler de moi d'expressions trop
                   flatteuses encore pour ma mince notoriété, je ne désespère pas cependant de les
                   mériter un jour, si le travail n'est pas un vain mot.</note>
@@ -2917,7 +2918,7 @@
                <trait>
                   <p>roi d'Araucanie</p>
                </trait>
-               <desc>L. a. s.; Bordeaux, 4877, 1 p. 3/4 in-8. 3</desc>
+               <desc xml:id="CAT_000106_e279_1">L. a. s.; Bordeaux, 4877, 1 p. 3/4 in-8. 3</desc>
                <note>Curieuse lettre écrite de l'hôpital sur l'indifférence du public à propos de
                   ses projets en Araucanie</note>
             </item>
@@ -2927,7 +2928,7 @@
                <trait>
                   <p>amiral français, né à Vieuville en 1798, mort en 1873</p>
                </trait>
-               <desc>L. a. s., 1869, 1 p. in-8. 4</desc>
+               <desc xml:id="CAT_000106_e280_1">L. a. s., 1869, 1 p. in-8. 4</desc>
             </item>
             <item n="281" xml:id="CAT_000106_e281">
                <num>281</num>
@@ -2936,7 +2937,7 @@
                   <p>célèbre littérateur et auteur dramatique, mari de Mme Madeleine Brohan, né en
                      1824</p>
                </trait>
-               <desc>L. a. s., 1879, 1 p. in-8. Curieuse. 5</desc>
+               <desc xml:id="CAT_000106_e281_1">L. a. s., 1879, 1 p. in-8. Curieuse. 5</desc>
             </item>
             <item n="282" xml:id="CAT_000106_e282">
                <num>282</num>
@@ -2944,7 +2945,7 @@
                <trait>
                   <p>une des plus célèbres cantatrices de notre époque, née en 1829</p>
                </trait>
-               <desc>Pièce de vers aut. sig., 1869, 1 p. in-8 obl. 5</desc>
+               <desc xml:id="CAT_000106_e282_1">Pièce de vers aut. sig., 1869, 1 p. in-8 obl. 5</desc>
                <note>Jolie pièce dont voici le texte : Ahl verse encore, vidons l'amphore, Qu'un
                   flot divin de ce vieux vin Calme la soif qui me dévore. Le vin, le vin est un
                   trésor divin</note>
@@ -2956,7 +2957,7 @@
                   <p>général français, défenseur de Strasbourg, né à Phalsbourg en 1802, mort en
                      1886</p>
                </trait>
-               <desc>L. a. s., 1872, 2 p. in-8. 10</desc>
+               <desc xml:id="CAT_000106_e283_1">L. a. s., 1872, 2 p. in-8. 10</desc>
                <note>Curieuse lettre où il dit n'avoir fait que son devoir en défendant Strasbourg.
                   Aujourd'hui, il ne forme plus qu'un voeu : « Celui de pouvoir prendre part à la
                   guerre qui tôt ou tard, mais fatalement, nous rendra l'Alsace et la
@@ -2968,7 +2969,7 @@
                <trait>
                   <p>célèbre architecte, membre de l'Institut, né en 1803, mort en 1872</p>
                </trait>
-               <desc>L. a. s. à M. Durand, à Saint-Germain-en-Laye, 1826, 1 p. in-8. Curieuse.
+               <desc xml:id="CAT_000106_e284_1">L. a. s. à M. Durand, à Saint-Germain-en-Laye, 1826, 1 p. in-8. Curieuse.
                   8</desc>
             </item>
             <item n="285" xml:id="CAT_000106_e285">
@@ -2978,7 +2979,7 @@
                   <p>maréchal de France, qui défendit Goettingue en 1760 contre le prince Ferdinand,
                      qu'il obligea à la retraite, né près du Puy-en-Velay en 1705, mort en 1788</p>
                </trait>
-               <desc>Let. sig.; Goettingue, 1762, 1 p. in-4. 8</desc>
+               <desc xml:id="CAT_000106_e285_1">Let. sig.; Goettingue, 1762, 1 p. in-4. 8</desc>
             </item>
             <item n="286" xml:id="CAT_000106_e286">
                <num>286</num>
@@ -2986,7 +2987,7 @@
                <trait>
                   <p>célèbre peintre de batailles, né à Bordeaux en 1758, mort en 1836</p>
                </trait>
-               <desc>L. a. s., 1 p. in-4. Raccommodée. 10</desc>
+               <desc xml:id="CAT_000106_e286_1">L. a. s., 1 p. in-4. Raccommodée. 10</desc>
             </item>
             <item n="287" xml:id="CAT_000106_e287">
                <num>287</num>
@@ -2994,7 +2995,7 @@
                <trait>
                   <p>écrivain contemporain, plus connu sous le preudonyme de Pierre Loti</p>
                </trait>
-               <desc>L. a. s., 1 p. 1/2 in-8. 5</desc>
+               <desc xml:id="CAT_000106_e287_1">L. a. s., 1 p. 1/2 in-8. 5</desc>
             </item>
             <item n="288" xml:id="CAT_000106_e288">
                <num>288</num>
@@ -3002,7 +3003,7 @@
                <trait>
                   <p>célèbre économiste français, né en 1782, mort en 1863</p>
                </trait>
-               <desc>L. a. s. au baron Bignon, 1 p. in-8. 5</desc>
+               <desc xml:id="CAT_000106_e288_1">L. a. s. au baron Bignon, 1 p. in-8. 5</desc>
             </item>
             <item n="289" xml:id="CAT_000106_e289">
                <num>289</num>
@@ -3010,7 +3011,7 @@
                <trait>
                   <p>célèbre actrice de la Comédie-Française, née en 1811, morte en 1876</p>
                </trait>
-               <desc>L. a. s., 1832, 3 p. in-8. 3</desc>
+               <desc xml:id="CAT_000106_e289_1">L. a. s., 1832, 3 p. in-8. 3</desc>
             </item>
             <item n="290" xml:id="CAT_000106_e290">
                <num>290</num>
@@ -3018,7 +3019,7 @@
                <trait>
                   <p>l'illustre écrivain</p>
                </trait>
-               <desc>L. a. s., 2 p. in-4. 125</desc>
+               <desc xml:id="CAT_000106_e290_1">L. a. s., 2 p. in-4. 125</desc>
                <note>Superbe lettre remarquablement conservée et autographe signée en toutes
                   lettres, ce qui est rare</note>
             </item>
@@ -3029,7 +3030,7 @@
                   <p>célèbre érudit, membre de l'Acad. des Inscriptions, né à Mézières en 1805, mort
                      en 1886</p>
                </trait>
-               <desc>L. a. s., 1873, 4 p. in-8. Jolie lettre. 8</desc>
+               <desc xml:id="CAT_000106_e291_1">L. a. s., 1873, 4 p. in-8. Jolie lettre. 8</desc>
             </item>
             <item n="292" xml:id="CAT_000106_e292">
                <num>292</num>
@@ -3037,7 +3038,7 @@
                <trait>
                   <p>littérateur distingué, né en Alsace en 1813</p>
                </trait>
-               <desc>L. a. s., 1 p. in-18. 3</desc>
+               <desc xml:id="CAT_000106_e292_1">L. a. s., 1 p. in-18. 3</desc>
                <note>Piquante réponse à la demande de son autographe</note>
             </item>
             <item n="293" xml:id="CAT_000106_e293">
@@ -3046,7 +3047,7 @@
                <trait>
                   <p>illustre écrivain, le Voltaire allemand, né en 1733, mort en 1813</p>
                </trait>
-               <desc>L. a. s. à sa fille; Weimar, 10 mars 1809, 1 p. in-8. 20</desc>
+               <desc xml:id="CAT_000106_e293_1">L. a. s. à sa fille; Weimar, 10 mars 1809, 1 p. in-8. 20</desc>
                <note>Curieuse lettre écrite au moment où la guerre entre Napoléon et l'Autriche
                   allait recommencer. « Annibal, dit-il, est à nos portes de nouveau. Notre
                   existence est précaire, nous ne subsistons qu'avec peine.</note>
@@ -3058,7 +3059,7 @@
                   <p>illustre archéologue allemand, auteur de l'Histoire de l'art dans l'antiquité,
                      né en 1717, mort en 1768</p>
                </trait>
-               <desc>Pièce aut. en italien, 2 p. 1/2 in-4. 20</desc>
+               <desc xml:id="CAT_000106_e294_1">Pièce aut. en italien, 2 p. 1/2 in-4. 20</desc>
                <note>Curieux document. Observations pour classer, par ordre chronologique, les
                   monuments de l'ancienne Rome, depuis la Cloaca maxima jusqu'au Capitole</note>
             </item>
@@ -3068,7 +3069,7 @@
                <trait>
                   <p>un des plus élégants littérateurs de notre époque. né à Paris en 1833</p>
                </trait>
-               <desc>L. a. s., 1869, 1 p. in-8. Curieuse. 3</desc>
+               <desc xml:id="CAT_000106_e295_1">L. a. s., 1869, 1 p. in-8. Curieuse. 3</desc>
             </item>
          </list>
       </body>

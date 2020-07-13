@@ -1,4 +1,5 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000092">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000092">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -80,14 +81,14 @@
                <trait>
                   <p>physician to Nepoleon;</p>
                </trait>
-               <desc>he visited Joanna Southcott, and believed her pregnant;
+               <desc xml:id="CAT_000092_e303_1">he visited Joanna Southcott, and believed her pregnant;
                   Arago, the astronomer, &amp;c.
                   <num>4</num>
                </desc>
             </item>
             <item n="304" xml:id="CAT_000092_e304">
                <num>304</num>
-               <desc>
+               <desc xml:id="CAT_000092_e304_1">
                   <list>
                      <item>
                         <name>BAYLE,</name>
@@ -104,7 +105,7 @@
             </item>
             <item n="305" xml:id="CAT_000092_e305">
                <num>305</num>
-               <desc>
+               <desc xml:id="CAT_000092_e305_1">
                   <list>
                      <item>
                         <name>Beranger,</name>
@@ -153,7 +154,7 @@
             <item n="306" xml:id="CAT_000092_e306">
                <num>306</num>
                <name>D’EON (LA CHEVALIERE);</name>
-               <desc>a letter of six pages,  addressed to the minister, Count of Maurepas,
+               <desc xml:id="CAT_000092_e306_1">a letter of six pages,  addressed to the minister, Count of Maurepas,
                   stating her reasons for her having alternatively worn breeches and petticoats.
                   She was at one time ambassador from France resident in London, and had been
                   captain in the dragoons, as well as “Avocat au Parlement,” and Censeur Royal.
@@ -167,7 +168,7 @@
             <item n="307" xml:id="CAT_000092_e307">
                <num>307</num>
                <name>Du Val (Abbe);</name>
-               <desc>
+               <desc xml:id="CAT_000092_e307_1">
                   <list>
                      <item>
                         <name>Daunou;</name>
@@ -188,7 +189,7 @@
             </item>
             <item n="308" xml:id="CAT_000092_e308">
                <num>308</num>
-               <desc>
+               <desc xml:id="CAT_000092_e308_1">
                   <list>
                      <item>
                         <name>DE LA LANDE,</name>
@@ -211,7 +212,7 @@
             
             <item n="309" xml:id="CAT_000092_e309">
                <num>309</num>
-               <desc>
+               <desc xml:id="CAT_000092_e309_1">
               <list>
                  <item>
                     <name>De la Lande</name>
@@ -249,7 +250,7 @@
             </item>
             <item n="310" xml:id="CAT_000092_e310">
                <num>310</num>
-               <desc>
+               <desc xml:id="CAT_000092_e310_1">
                   <list>
                      <item>
                         <name>FLORIAN,</name>
@@ -272,7 +273,7 @@
             </item>
             <item n="311" xml:id="CAT_000092_e311">
                <num>311</num>
-               <desc>
+               <desc xml:id="CAT_000092_e311_1">
                   <list>
                      <item>
                         <name>Genlis (Madame de);</name>
@@ -287,7 +288,7 @@
             </item>
             <item n="312" xml:id="CAT_000092_e312">
                <num>312</num>
-               <desc>
+               <desc xml:id="CAT_000092_e312_1">
                   <list>
                      <item>
                         <name>Humboldt,</name>
@@ -320,7 +321,7 @@
             </item>
             <item n="313" xml:id="CAT_000092_e313">
                <num>313</num>
-               <desc>
+               <desc xml:id="CAT_000092_e313_1">
                   <list>
                      <item>
                         <name>Le Bailly,</name>
@@ -346,7 +347,7 @@
             </item>
             <item n="314" xml:id="CAT_000092_e314">
                <num>314</num>
-               <desc>
+               <desc xml:id="CAT_000092_e314_1">
                   <list>
                      <item>
                         <name>Lambrechts;</name>
@@ -373,7 +374,7 @@
             </item>
             <item n="315" xml:id="CAT_000092_e315">
                <num>315</num>
-               <desc>
+               <desc xml:id="CAT_000092_e315_1">
                   <list>
                      <item>
                         <name>PEYRESC,</name>
@@ -392,7 +393,7 @@
             <item n="316" xml:id="CAT_000092_e316">
                <num>316</num>
              
-               <desc>
+               <desc xml:id="CAT_000092_e316_1">
                   <list>
                      <item>
                         <name>SEVIGNE (MADAME DE)</name>
@@ -408,7 +409,7 @@
             </item>
             <item n="317" xml:id="CAT_000092_e317">
                <num>317</num>
-               <desc>
+               <desc xml:id="CAT_000092_e317_1">
                   <list>
                      <item>
                         <name>ST PIERRE (BERNARDIN DE)</name>
@@ -431,7 +432,7 @@
             </item>
             <item n="318" xml:id="CAT_000092_e318">
                <num>318</num>
-               <desc>
+               <desc xml:id="CAT_000092_e318_1">
                   <list>
                      <item>
                         <name>Dr. Tissot,</name>
@@ -462,7 +463,7 @@
 
             <item n="319" xml:id="CAT_000092_e319">
                <num>319</num>
-               <desc>
+               <desc xml:id="CAT_000092_e319_1">
                   <list>
                      <item>
                         <name>Valli,</name>
@@ -488,7 +489,7 @@
 
             <item n="320" xml:id="CAT_000092_e320">
                <num/>
-               <desc>
+               <desc xml:id="CAT_000092_e320_1">
                   <list>
                      <item>
                         <name>VOLTAIRE,</name>
@@ -506,14 +507,14 @@
             <item n="321" xml:id="CAT_000092_e321">
                <num>321</num>
                <name>VOLTAIRE,</name>
-               <desc>A MANUSCRIPT COPY OF THE "PUCELLE D'ORLEANS,"
+               <desc xml:id="CAT_000092_e321_1">A MANUSCRIPT COPY OF THE "PUCELLE D'ORLEANS,"
                   WITH VOLTAIRE'S MARGINAL NOTES, CORRECTIONS, AND INTERLINEATIONS:</desc>
                <note>to the collectors of autographs this MS. is of inestimable value</note>
             </item>
  
             <item n="322" xml:id="CAT_000092_e322">
                <num>322</num>
-               <desc>
+               <desc xml:id="CAT_000092_e322_1">
                   <list>
                      <item>
                         <name>VOLNEY,</name>
@@ -532,7 +533,7 @@
 
             <item n="323" xml:id="CAT_000092_e323">
                <num>323</num>
-               <desc>
+               <desc xml:id="CAT_000092_e323_1">
                   <list>
                      <item>
                         <name>Gerard;</name>

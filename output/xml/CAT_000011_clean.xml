@@ -1,4 +1,5 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000011">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000011">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -82,7 +83,7 @@
             <item n="108" xml:id="CAT_000007_e108" corresp="#MS_000008">
                <num>108</num>
                <name type="author">SEVIGNE (MARIE DE RABUTIN-CHANTAL, MARQUISE DE)</name>
-               <desc>Full A. L., unsigned as usual, 4 pp., 4zo. Au Rochers dimanche 20 aout [about 1691].
+               <desc xml:id="CAT_000007_e108_1">Full A. L., unsigned as usual, 4 pp., 4zo. Au Rochers dimanche 20 aout [about 1691].
                   Autograph cover addressed to Monsieur du Plessis.</desc>
                <note>
                   <p>A charming characteristic composition, in which she sympathizes with his
