@@ -86,7 +86,7 @@ def price_extractor(descList):
                 dict_values["price"] = int(dict_values["price"])
         else:
             desc_xml = desc  # to avoid using the variable corresponding to the previous entry
-        dict_values["desc_xml"] = desc_xml
+        #dict_values["desc_xml"] = desc_xml
         output_dict[id] = dict_values
         item[0] = desc_xml
     print("Out dict length: %s" % len(output_dict))
@@ -213,7 +213,7 @@ def date_extractor(descList, input_dict):
                            "type=\u0022length\u0022>%s</date>%s" \
                            % (desc[:start_position], date, desc[start_position:end_position],
                               desc[end_position:])
-                dict_values["desc_xml"] = desc_xml
+                #dict_values["desc_xml"] = desc_xml
             else:
                 desc_xml = input_dict[id].get("desc_xml")
             dict_values["date"] = date
@@ -338,13 +338,14 @@ def pn_extractor(descList, input_dict):
                        "type=\u0022length\u0022>%s</measure>%s" \
                        % (desc[:starting_position], page_number, desc[starting_position:ending_position],
                           desc[ending_position:])
+            desc_xml = desc
         else:
             desc_xml = input_dict[id].get("desc_xml")
         # dict_values["groups"] = groups # for debugging purposes only
         # dict_values["path"] = path  # idem
-        dict_values["desc_xml"] = desc_xml
+        #dict_values["desc_xml"] = desc_xml
         dict_values["number_of_pages"] = page_number
-        output_dict[id] = dict_values
+        input_dict[id] = dict_values
         item[0] = desc_xml
     return input_dict
 
@@ -394,7 +395,7 @@ def format_extractor(descList, input_dict):
                        " type=\u0022format\u0022>%s</measure>%s" \
                        % (desc[:start_position], desc[start_position:end_position],
                           desc[end_position:])
-        dict_values["desc_xml"] = desc_xml
+        #dict_values["desc_xml"] = desc_xml
         # let's improve the format identification
         obl_pattern = re.compile(".*ob[l]{0,1}.*")
         format_pattern = re.compile("(in-[0-9]{1,2})")
@@ -594,7 +595,7 @@ def term_extractor(descList, input_dict):
                        " type=\"%s\">%s</term>%s" \
                        % (desc[:start_position], norm_term, desc[start_position:end_position],
                           desc[end_position:])
-        dict_values["desc_xml"] = desc_xml
+        #dict_values["desc_xml"] = desc_xml
         dict_values["term"] = norm_term
         dict_values["author"] = author
         dict_values["sell_date"] = sell_date
