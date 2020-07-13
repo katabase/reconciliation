@@ -167,7 +167,7 @@ def term_cluster(in_dict):
     out_dict.clear()
 
 
-def to_graph(l):
+def to_graph(l):   # https://stackoverflow.com/a/4843408
     graphed_list = networkx.Graph()
     for part in l:
         # each sublist is a bunch of nodes
@@ -177,7 +177,7 @@ def to_graph(l):
     return graphed_list
 
 
-def to_edges(l):
+def to_edges(l):  # https://stackoverflow.com/a/4843408
     """
         treat `l` as a Graph and returns it's edges
         to_edges(['a','b','c','d']) -> [(a,b), (b,c),(c,d)]
@@ -250,13 +250,13 @@ def second_method(input_dict):
                           {first_entry: mon_dict[first_entry]}, {second_entry: mon_dict[second_entry]}))
     final_list.sort(reverse=True, key=lambda x: (x[2], x[0]))  # we sort by author distance first, and then by the score
 
-    # The filtered list removes all entries with a score lower than 0.4
+    # The filtered list removes all entries with a score lower or equal to 0.4
     sensibility = 0.6
     filtered_list_with_score = [[item[1], item[0]] for item in final_list if item[0] > sensibility and item[2] >= 0.4]
 
-    # Now let's create the clusters (possible limit: we loose the scoring)
+    # Now let's create the clusters (limit: the scores are lost)
     filtered_list = [item[0] for item in filtered_list_with_score]
-    graphed_list = to_graph(filtered_list)  # https://stackoverflow.com/a/4843408
+    graphed_list = to_graph(filtered_list)
     cleaned_list = [list(item) for item in list(connected_components(graphed_list))]
     cleaned_output_list = []
     n = 0

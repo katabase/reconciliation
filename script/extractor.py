@@ -33,6 +33,7 @@ def price_extractor(descList):
     """
     print("Extracting price information")
     output_dict = {}
+    print("In descList length: %s" % len(descList))
     for item in descList:
         id = item[1]
         desc = item[0]
@@ -88,6 +89,7 @@ def price_extractor(descList):
         dict_values["desc_xml"] = desc_xml
         output_dict[id] = dict_values
         item[0] = desc_xml
+    print("Out dict length: %s" % len(output_dict))
     return (output_dict)
 
 
@@ -402,13 +404,11 @@ def format_extractor(descList, input_dict):
                 out_ms_format = 1
             elif re.search(format_pattern, ms_format):
                 out_ms_format = re.search(format_pattern, ms_format).group(1)
-                print(out_ms_format)
                 out_ms_format = conversion_tables.format_types[out_ms_format]
             else:
                 out_ms_format = None
 
             if out_ms_format is not None:
-                print("ms format: %s" % ms_format)
                 if re.search(obl_pattern, ms_format):
                     out_ms_format = out_ms_format + 100
 
@@ -580,8 +580,6 @@ def term_extractor(descList, input_dict):
             #     "term": "La"
             # },
 
-
-
         else:
             desc_xml = desc
             norm_term = None
@@ -633,7 +631,7 @@ def desc_extractor(input):
         for i in desc:
             date = i.xpath("ancestor::tei:TEI//tei:sourceDesc//tei:date", namespaces=tei)[0].text
             author = i.xpath("parent::tei:item/tei:name[@type='author']", namespaces=tei)
-            id = i.xpath("parent::tei:item/@xml:id", namespaces=tei)
+            id = i.xpath("@xml:id", namespaces=tei)
             if len(id) > 0:  # some of the tei:item do not contain any identifier. We ignore them.
                 id = id[0]
                 if len(author) > 0:
@@ -696,8 +694,10 @@ def xml_output_production(dictionnary):
             for desc in desc_list:  # now let's update the tei:desc elements in the output file
                 item_element = desc.getparent()  # https://stackoverflow.com/questions/7474972/python-lxml-append
                 # -element-after-another-element
-                item_element.insert(item_element.index(desc) + 1, etree.fromstring(
-                    "<desc xmlns=\"http://www.tei-c.org/ns/1\">%s</desc>" % desc_string))
+                try:
+                    item_element.insert(item_element.index(desc) + 1, etree.fromstring("<desc xmlns=\"http://www.tei-c.org/ns/1\">%s</desc>" % desc_string))
+                except:
+                    print("<desc xmlns=\"http://www.tei-c.org/ns/1\">%s</desc>" % desc_string)
                 item_element.remove(desc)  # we remove the non processed tei:desc
 
             output_file = "../output/xml/%s" % file
@@ -707,10 +707,22 @@ def xml_output_production(dictionnary):
                 sortie_xml.write(str(output))
 
 
+def duplicates_identification(a):
+    seen = {}
+    dupes = []
+    for x in a:
+        if x not in seen:
+            seen[x] = 1
+        else:
+            if seen[x] == 1:
+                dupes.append(x)
+            seen[x] += 1
+    return dupes
+
 if __name__ == "__main__":
     no_price = 0
     no_date = 0
-    files = "../input/Data_clean/*.xml"  # the path to the files to be processed
+    files = "../input/Data_clean_with_id/*.xml"  # the path to the files to be processed
     input_dir = os.path.dirname(files)
     output_dir = "../output/xml"
     try:
@@ -725,6 +737,11 @@ if __name__ == "__main__":
     output_dict = pn_extractor(list_desc, output_dict)
     output_dict = format_extractor(list_desc, output_dict)
     output_dict = term_extractor(list_desc, output_dict)
+
+    liste_desc_check = [i[-3] for i in list_desc]
+    print((duplicates_identification(liste_desc_check)))
+
+
 
     # xml_output_production(output_dict)
     for key in output_dict:
