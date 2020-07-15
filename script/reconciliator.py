@@ -256,7 +256,8 @@ def double_loop(input_dict, searched_date):
     sensibility = 0.6
     filtered_list_with_score = [[item[1], item[0]] for item in final_list if item[0] > sensibility and item[2] >= 0.4]
 
-    # Now let's create the clusters (limit: the scores are lost)
+    # Now let's create the clusters. We transform the list of pairs into a graph. The connected nodes are our clusters !
+    # See https://stackoverflow.com/a/4843408
     filtered_list = [item[0] for item in filtered_list_with_score]
     graphed_list = to_graph(filtered_list)
     cleaned_list = [list(item) for item in list(connected_components(graphed_list))]
@@ -368,6 +369,7 @@ if __name__ == "__main__":
     if date:
         mon_dict = year_filtering(mon_dict)
     output_dict1 = {}
+    print("Number of entries after filtering: %s" % len(mon_dict))
     double_loop(mon_dict, date)
     t_stop = process_time()
     print("Elapsed time during the whole program in seconds:", t_stop - t1)

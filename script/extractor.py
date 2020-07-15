@@ -595,7 +595,7 @@ def desc_extractor(input):
         list_desc = []
         for i in desc:
             date = i.xpath("ancestor::tei:TEI//tei:sourceDesc//tei:date", namespaces=tei)[0].text
-            author = i.xpath("parent::tei:item/tei:name[@type='author']", namespaces=tei)
+            author = i.xpath("parent::tei:item/tei:name", namespaces=tei)
             try:
                 price = i.xpath("parent::tei:item/tei:num[@type='price']", namespaces=tei)[0].text
             except:
@@ -692,7 +692,7 @@ if __name__ == "__main__":
     no_price = 0
     no_date = 0
     # files = "../input/Data_clean_with_id/*.xml"  # the path to the files to be processed
-    files = "../input/Data/*159.xml"
+    files = "../input/Data_test/*.xml"
     input_dir = os.path.dirname(files)
     output_dir = "../output/xml"
     try:
@@ -708,8 +708,6 @@ if __name__ == "__main__":
     output_dict = format_extractor(list_desc, output_dict)
     output_dict = term_extractor(list_desc, output_dict)
 
-    liste_desc_check = [i[-3] for i in list_desc]
-    print((duplicates_identification(liste_desc_check)))
 
 
 
