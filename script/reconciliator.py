@@ -322,20 +322,20 @@ def year_filtering(dictionnary, year_arg, author):
         year = year_arg.split("=")[1]
         for key in dictionnary:
             print(dictionnary[key]["date"])
-            if dictionnary[key]["date"] is not None and dictionnary[key]["date"] > year:
+            if dictionnary[key]["date"] is not None and dictionnary[key]["date"] >= year:
                 output_dict[key] = dictionnary[key]
     elif re.compile("^b=").match(year_arg): # b= stands for before
         year = year_arg.split("=")[1]
         for key in dictionnary:
-            if dictionnary[key]["date"] is not None and dictionnary[key]["date"] < year:
+            if dictionnary[key]["date"] is not None and dictionnary[key]["date"] <= year:
                 output_dict[key] = dictionnary[key]
     else: # any year range
         year_before = year_arg.split("-")[0]
         year_after = year_arg.split("-")[1]
         for key in dictionnary:
-            if dictionnary[key]["date"] is not None and year_before < dictionnary[key]["date".split("-")[0]] < year_after:
+            if dictionnary[key]["date"] is not None and year_before <= dictionnary[key]["date".split("-")[0]] <= year_after:
                 output_dict[key] = dictionnary[key]
-    with open('../output/json/%s/%s/filtered_db.json' % (author, year_arg), 'w') as outfile:
+    with open('../output/json/%s/%s/filtered_db.json' % (norm_author, year_arg), 'w') as outfile:
         outfile.truncate(0)
         json.dump(output_dict, outfile)
     return output_dict
@@ -353,7 +353,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     author = args.author
     print(author)
-    page = args.page
     year = args.year
     normalisation_table = str.maketrans("éèêàç", "eeeac") # We normalize author names to create the folders
     norm_author = author.translate(normalisation_table)
@@ -362,7 +361,7 @@ if __name__ == "__main__":
     except:
         pass
     try:
-        os.mkdir("../output/json/%s/%s" % (author, year))
+        os.mkdir("../output/json/%s/%s" % (norm_author, year))
     except:
         pass
 
