@@ -4,8 +4,10 @@ import tqdm
 from difflib import SequenceMatcher
 import sys
 import os
+import re
 import networkx
 from networkx.algorithms.components.connected import connected_components
+import argparse
 
 
 def similar(a, b):  # https://stackoverflow.com/a/17388505
@@ -271,11 +273,15 @@ def second_method(input_dict):
 
     print("Number of pairs found: %s" % (len(filtered_list)))
     print("Number of reconciliated documents: %s" % (len(cleaned_output_list)))
+    if year:
+        path = '../output/json/%s/%s' % (norm_author, year)
+    else:
+        path = '../output/json/%s' % norm_author
 
-    with open('../output/json/%s/reconciliated_pairs.json' % norm_author, 'w') as outfile:
+    with open('%s/reconciliated_pairs.json' % path, 'w') as outfile:
         json.dump(filtered_list_with_score, outfile)
 
-    with open('../output/json/%s/reconciliated_documents.json' % norm_author, 'w') as outfile:
+    with open('%s/reconciliated_documents.json' % path, 'w') as outfile:
         outfile.truncate(0)
         json.dump(cleaned_output_list, outfile)
 
@@ -309,19 +315,62 @@ def author_filtering(dictionnary,
         json.dump(output_dict, outfile)
     return output_dict
 
+def year_filtering(dictionnary, year_arg, author):
+    print(year_arg)
+    output_dict = {}
+    if re.compile("^a=").match(year_arg): # a= stands for after
+        year = year_arg.split("=")[1]
+        for key in dictionnary:
+            print(dictionnary[key]["date"])
+            if dictionnary[key]["date"] is not None and dictionnary[key]["date"] > year:
+                output_dict[key] = dictionnary[key]
+    elif re.compile("^b=").match(year_arg): # b= stands for before
+        year = year_arg.split("=")[1]
+        for key in dictionnary:
+            if dictionnary[key]["date"] is not None and dictionnary[key]["date"] < year:
+                output_dict[key] = dictionnary[key]
+    else: # any year range
+        year_before = year_arg.split("-")[0]
+        year_after = year_arg.split("-")[1]
+        for key in dictionnary:
+            if dictionnary[key]["date"] is not None and year_before < dictionnary[key]["date".split("-")[0]] < year_after:
+                output_dict[key] = dictionnary[key]
+    with open('../output/json/%s/%s/filtered_db.json' % (author, year_arg), 'w') as outfile:
+        outfile.truncate(0)
+        json.dump(output_dict, outfile)
+    return output_dict
+
 
 if __name__ == "__main__":
     t1 = process_time()
-    author = sys.argv[1]
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-a", "--author", help="Author to be processed (mandatory !)")
+    parser.add_argument("-y", "--year", help="Year of the documents to be found (b= for before, a= for after, YYYY-YYYY for a year range)")
+
+    if len(sys.argv)==1:
+      sys.exit("""Please give me the name of the author with the -a flag !""")
+    args = parser.parse_args()
+    author = args.author
+    print(author)
+    page = args.page
+    year = args.year
     normalisation_table = str.maketrans("éèêàç", "eeeac") # We normalize author names to create the folders
     norm_author = author.translate(normalisation_table)
     try:
         os.mkdir("../output/json/%s" % norm_author)
     except:
         pass
+    try:
+        os.mkdir("../output/json/%s/%s" % (author, year))
+    except:
+        pass
+
     with open('../output/json/export.json', 'r') as outfile:
         mon_dict = json.load(outfile)
     mon_dict = author_filtering(mon_dict, author)
+    if year:
+        mon_dict = year_filtering(mon_dict, year, author)
     output_dict1 = {}
     second_method(mon_dict)
     t_stop = process_time()
