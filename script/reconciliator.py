@@ -192,7 +192,7 @@ def to_edges(l):  # https://stackoverflow.com/a/4843408
         last = current
 
 
-def second_method(input_dict):
+def double_loop(input_dict, searched_date):
     print("Comparing the entries")
     # First we compare each entry with each other one and give a score to each pair
     for i in tqdm.tqdm(input_dict):
@@ -252,7 +252,7 @@ def second_method(input_dict):
                           {first_entry: mon_dict[first_entry]}, {second_entry: mon_dict[second_entry]}))
     final_list.sort(reverse=True, key=lambda x: (x[2], x[0]))  # we sort by author distance first, and then by the score
 
-    # The filtered list removes all entries with a score lower or equal to 0.4
+    # The filtered list removes all entries with a score lower or equal to 0.6
     sensibility = 0.6
     filtered_list_with_score = [[item[1], item[0]] for item in final_list if item[0] > sensibility and item[2] >= 0.4]
 
@@ -273,8 +273,8 @@ def second_method(input_dict):
 
     print("Number of pairs found: %s" % (len(filtered_list)))
     print("Number of reconciliated documents: %s" % (len(cleaned_output_list)))
-    if year:
-        path = '../output/json/%s/%s' % (norm_author, year)
+    if searched_date:
+        path = '../output/json/%s/%s' % (norm_author, searched_date)
     else:
         path = '../output/json/%s' % norm_author
 
@@ -286,7 +286,7 @@ def second_method(input_dict):
         json.dump(cleaned_output_list, outfile)
 
 
-def first_method(dictionnary):
+def cluster_method(dictionnary):
     print("Number of entries of the input dict: %s" % len(dictionnary))
     price_cluster(dictionnary)
     t2 = process_time()
@@ -303,74 +303,71 @@ def first_method(dictionnary):
     print("Elapsed time during the whole program in seconds:", t_stop - t1)
 
 
-def author_filtering(dictionnary,
-                   authorname):  # this function extracts the entries based on the similarity with the searched author name
+def author_filtering(dictionnary):  # this function extracts the entries based on the similarity with the searched author name
     output_dict = {}
     for key in dictionnary:
-        if dictionnary[key]["author"] is not None and similar(dictionnary[key]["author"].lower(), authorname) > 0.75:
+        if dictionnary[key]["author"] is not None and similar(dictionnary[key]["author"].lower(), author) > 0.75:
             output_dict[key] = dictionnary[key]
     with open('../output/json/%s/filtered_db.json' % norm_author, 'w') as outfile:
         outfile.truncate(0)
-        print("Number of documents of %s in the database: %s" % (authorname, len(output_dict)))
+        print("Number of documents of %s in the database: %s" % (author, len(output_dict)))
         json.dump(output_dict, outfile)
     return output_dict
 
-def year_filtering(dictionnary, year_arg, author):
-    print(year_arg)
+def year_filtering(dictionnary):
     output_dict = {}
-    if re.compile("^a=").match(year_arg): # a= stands for after
-        year = year_arg.split("=")[1]
+    if re.compile("^a=").match(date): # a= stands for after
+        norm_date = date.split("=")[1]
         for key in dictionnary:
             print(dictionnary[key]["date"])
-            if dictionnary[key]["date"] is not None and dictionnary[key]["date"] >= year:
+            if dictionnary[key]["date"] is not None and dictionnary[key]["date"] >= norm_date:
                 output_dict[key] = dictionnary[key]
-    elif re.compile("^b=").match(year_arg): # b= stands for before
-        year = year_arg.split("=")[1]
+    elif re.compile("^b=").match(date): # b= stands for before
+        norm_date = date.split("=")[1]
         for key in dictionnary:
-            if dictionnary[key]["date"] is not None and dictionnary[key]["date"] <= year:
+            if dictionnary[key]["date"] is not None and dictionnary[key]["date"] <= norm_date:
                 output_dict[key] = dictionnary[key]
     else: # any year range
-        year_before = year_arg.split("-")[0]
-        year_after = year_arg.split("-")[1]
+        date_before = date.split("-")[0]
+        date_after = date.split("-")[1]
         for key in dictionnary:
-            if dictionnary[key]["date"] is not None and year_before <= dictionnary[key]["date".split("-")[0]] <= year_after:
+            if dictionnary[key]["date"] is not None and date_before <= dictionnary[key]["date".split("-")[0]] <= date_after:
                 output_dict[key] = dictionnary[key]
-    with open('../output/json/%s/%s/filtered_db.json' % (norm_author, year_arg), 'w') as outfile:
+    with open('../output/json/%s/%s/filtered_db.json' % (norm_author, date), 'w') as outfile:
         outfile.truncate(0)
         json.dump(output_dict, outfile)
     return output_dict
 
+def dircreate(path):
+    try:
+        os.mkdir(path)
+    except:
+        pass
 
 if __name__ == "__main__":
     t1 = process_time()
 
     parser = argparse.ArgumentParser()
     parser.add_argument("-a", "--author", help="Author to be processed (mandatory !)")
-    parser.add_argument("-y", "--year", help="Year of the documents to be found (b= for before, a= for after, YYYY-YYYY for a year range)")
-
+    parser.add_argument("-date", "--date", help="Date of the documents to be found (b= for before, a= for after, YYYY-YYYY for a year range)")
     if len(sys.argv)==1:
       sys.exit("""Please give me the name of the author with the -a flag !""")
     args = parser.parse_args()
     author = args.author
-    print(author)
-    year = args.year
+    date = args.date
     normalisation_table = str.maketrans("éèêàç", "eeeac") # We normalize author names to create the folders
     norm_author = author.translate(normalisation_table)
-    try:
-        os.mkdir("../output/json/%s" % norm_author)
-    except:
-        pass
-    try:
-        os.mkdir("../output/json/%s/%s" % (norm_author, year))
-    except:
-        pass
+
+    dircreate("../output/json/%s" % norm_author)
+    dircreate("../output/json/%s/%s" % (norm_author, date))
 
     with open('../output/json/export.json', 'r') as outfile:
         mon_dict = json.load(outfile)
-    mon_dict = author_filtering(mon_dict, author)
-    if year:
-        mon_dict = year_filtering(mon_dict, year, author)
+
+    mon_dict = author_filtering(mon_dict)
+    if date:
+        mon_dict = year_filtering(mon_dict)
     output_dict1 = {}
-    second_method(mon_dict)
+    double_loop(mon_dict, date)
     t_stop = process_time()
     print("Elapsed time during the whole program in seconds:", t_stop - t1)
