@@ -27,7 +27,6 @@ from xml.etree import ElementTree
 def price_extractor(descList):
     """
     Extracts the prices of the manuscripts sold and described in the tei:desc.
-    TODO: fix the problem of inconsistency between the length of the input list and the length of the output dict
     :param descList: the list containing all of the tei:desc
     :return: a dict with the ids as keys, and value another dict with the prices
     """
@@ -37,60 +36,21 @@ def price_extractor(descList):
     for item in descList:
         id = item[1]
         desc = item[0]
-        desc = clean_text(desc)
-        raw_price = re.split("[\s]", desc)[-1]  # usually the price is the last information of the tei:desc nodes
-        integer_pattern = re.compile("^\d{1,3}$")  # searches for any non decimal number
-        decimal_pattern = re.compile("^\d{1,3}\.\d{1,3}$")  # searches for any decimal numbers
-        # exceptional rules
-        pattern_1 = re.compile(".*\.\d$")  # searches for this kind of values: "Rare.75"
-        pattern_2 = re.compile("in-\d°\d")  # searches for this kind of values: "in-4°50"
-        pattern_3 = re.compile("^(?!.*in)(-\d*)$")  # searches for this kind of values: "-5", ignoring any string that
-        # corresponds to a measure (in-4, in-8, etc.)
-        dict_values = {"desc": desc}
-        if integer_pattern.match(raw_price):
-            position = re.search("\d{1,3}$", desc).span()
-            price = raw_price
-            start_position = position[0]
-            end_position = position[1]
-        elif decimal_pattern.match(raw_price):
-            position = re.search("\d{1,3}\.\d{1,3}$", desc).span()
-            price = raw_price # there is an issue with decimals. float() rounds the number...
-            start_position = position[0]
-            end_position = position[1]
-        elif pattern_1.match(raw_price):
-            position = re.search(".*\.(\d)$", desc).span(1)
-            price = re.sub(r".*\.(\d)", r"\1", raw_price)
-            start_position = position[0]
-            end_position = position[1]
-        elif pattern_2.match(raw_price):
-            position = re.search("in-\d°(\d)", desc).span(1)
-            price = re.sub(r"in-\d°(\d)", r"\1", raw_price)
-            start_position = position[0]
-            end_position = position[1]
-        elif pattern_3.match(raw_price):
-            position = re.search("(?!.*in)-(\d*)", desc).span(1)
-            price = re.sub(r"^(?!.*in)-(\d*)$", r"\1", raw_price)
-            start_position = position[0]
-            end_position = position[1]
+        if item[-1] is not None:
+            pattern = re.compile("[0-9]{0,3}\.[0-9]{0,2}")
+            if pattern.match(item[-1]):
+                price = float(item[-1])
+            else:
+                price = int(item[-1])
         else:
             price = None
-            no_price_trigger()
-            start_position = None
-            end_position = None
+        desc = clean_text(desc)
+        dict_values = {"desc": desc}
         dict_values["price"] = price
-        if start_position and end_position:
-            desc_xml = "%s<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 quantity=\u0022%s\u0022 " \
-                       "type=\u0022price\u0022>%s</measure>%s" \
-                       % (desc[:start_position], price, desc[start_position:end_position], desc[end_position:])
-            if isInt(dict_values["price"]):  # we convert the given price to integers
-                dict_values["price"] = int(dict_values["price"])
-            desc_xml = desc
-        else:
-            desc_xml = desc  # to avoid using the variable corresponding to the previous entry
-        # dict_values["desc_xml"] = desc_xml
+        dict_values["author"] = item[2]
+        desc_xml = desc
         output_dict[id] = dict_values
         item[0] = desc_xml
-    print("Out dict length: %s" % len(output_dict))
     return (output_dict)
 
 
@@ -436,7 +396,7 @@ def term_extractor(descList, input_dict):
         apas_pattern = re.compile("((Apostille)\s?a[utographe]{0,9}\.?\s?[signée]{0,6}\.?)")  # > Apas
         pas_pattern = re.compile("(([Pp]ièce|[Pp]\.)\s.*?au[tographe]{1,8}\.?\s?si[gnée]{0,4}\.?)")  # > Pas
         pa_pattern = re.compile("(([Pp]ièce|[Pp]\.)\s?.*aut[ographe]{0,7}\.?)")  # > Pa
-        ps_pattern = re.compile("(([Pp]ièce|[Pp]\.)\s?(signée|sig\.|s\.))")  # > Ps
+        ps_pattern = re.compile("(([Pp]ièce|[Pp]\.)\s?(signée|sig|sig\.|s\.))")  # > Ps
         bias_pattern = re.compile("((Billet|B\.)\s?.*a[utographe]{0,9}\.?\s?s[igné]{0,4}\.?)")  # > bias
         bis_pattern = re.compile("((Billet|B\.)\s?s[igné]{0,4}\.?)")  # > bis
         las_pattern = re.compile("((Lettre|Let\.|L\.)\s?a[utographe]{0,9}\.?\s?s[ignée]{0,5}\.?)")  # > Las
@@ -636,6 +596,10 @@ def desc_extractor(input):
         for i in desc:
             date = i.xpath("ancestor::tei:TEI//tei:sourceDesc//tei:date", namespaces=tei)[0].text
             author = i.xpath("parent::tei:item/tei:name[@type='author']", namespaces=tei)
+            try:
+                price = i.xpath("parent::tei:item/tei:num[@type='price']", namespaces=tei)[0].text
+            except:
+                price = None
             id = i.xpath("@xml:id", namespaces=tei)
             if len(id) > 0:  # some of the tei:item do not contain any identifier. We ignore them.
                 id = id[0]
@@ -643,13 +607,13 @@ def desc_extractor(input):
                     author = author[0].text
                     try:
                         author = author.split(" ")[0]# we keep only the surname of the author
-                        list_desc.append([i.text, id, author, date])
+                        list_desc.append([i.text, id, author, date, price])
                     except:
                         author = None
-                        list_desc.append([i.text, id, author, date])
+                        list_desc.append([i.text, id, author, date, price])
                 else:
                     author = None
-                    list_desc.append([i.text, id, author, date])
+                    list_desc.append([i.text, id, author, date, price])
         return list_desc
 
 
@@ -727,7 +691,8 @@ def duplicates_identification(a):
 if __name__ == "__main__":
     no_price = 0
     no_date = 0
-    files = "../input/Data_clean_with_id/*.xml"  # the path to the files to be processed
+    # files = "../input/Data_clean_with_id/*.xml"  # the path to the files to be processed
+    files = "../input/Data/*159.xml"
     input_dir = os.path.dirname(files)
     output_dir = "../output/xml"
     try:
