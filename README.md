@@ -68,10 +68,48 @@ into
 </item>
 ```
 
-To carry this task we use the `extractor.py` [[available here](https://github.com/katabase/reconciliation/tree/master/script)].
+To carry this task we use the `extractor.py` and the `reconciliator.py` [[available here](https://github.com/katabase/reconciliation/tree/master/script)].
+
+### Installation 
+
+```buildoutcfg
+git clone https://github.com/katabase/reconciliation.git
+cd reconciliation
+python3 -m venv my_env
+source my_env/bin/activate
+pip3 install -r requirements.txt
+
+```
+
+### Using the tool
+
+Two main scripts are used: 
++ the first one, `extractor.py`, is for the extraction of the information in the xml files
++ the second one, `reconciliator.py`, is used to reconciliate the entries, *i.e.* to identify the entries corresponding 
+to the same documents. The user has to provide an author  (using the flag `-a`) to filter the database. The user can also 
+filter by date (using the flag -d). 
+
+The data will be stored in json in folders corresponding to the date and the authorname. Three files are created: 
++ `filtered_db.json` is the result of the extraction before the reconciliation of the entries.
++ `reconciliated_pairs.json` provides a list of all the *probable* similar documents, ordered by probability
++ `reconciliated_documents.json` provides the list of the documents that have been reconciliated. 
+
+
+#### First example
+
+We want to work on Mme de Sévigné. 
++ First, we create the database. In the script directory, ``python3 extractor.py``
++ Then, we use the second script: ``python3 reconciliator.py -a Sévigné``
++ The files will be stored in ``output/json/Sevigne/``
+
+#### Second example
+We want to select the production of Mme de Sévigné between 1680-1690: 
++ First, we create the database. In the script directory, ``python3 extractor.py``
++ Then, we use the second script with the -d flag: ``python3 reconciliator.py -a Sévigné -d 1680-1690``
++ The results will be stored in `output/json/Sevigne/1680-1690/`
 
 ### Cite this repository
-Matthias Gille Levenson and Simon Gabay (éd.), _Operation Reconciliation: Reconciliation of Manuscript Sale Catalogues Entries_, Genève: Université de Genève, Lyon: Ecole normale supérieure de Lyon, 2020, [https://github.com/katabase/reconciliation](https://github.com/katabase/reconciliation).
+Matthias Gille Levenson and Simon Gabay (éd.), _Operation Reconciliation: Reconciliation of Manuscript Sale Catalogues Entries_, Genève: Université de Genève, Lyon: École normale supérieure de Lyon, 2020, [https://github.com/katabase/reconciliation](https://github.com/katabase/reconciliation).
 
 ### Licence
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
