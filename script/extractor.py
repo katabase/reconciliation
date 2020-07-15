@@ -224,7 +224,7 @@ def date_extractor(descList, input_dict):
             no_date_trigger()
             desc_xml = desc
         # dict_values["date_range"] = date_range
-        output_dict[id] = dict_values
+        input_dict[id] = dict_values
         item[0] = desc_xml
     return output_dict
 
@@ -347,7 +347,7 @@ def pn_extractor(descList, input_dict):
         # dict_values["path"] = path  # idem
         # dict_values["desc_xml"] = desc_xml
         dict_values["number_of_pages"] = page_number
-        output_dict[id] = dict_values
+        input_dict[id] = dict_values
         item[0] = desc_xml
     return input_dict
 
@@ -417,7 +417,7 @@ def format_extractor(descList, input_dict):
                     out_ms_format = out_ms_format + 100
 
         dict_values["format"] = out_ms_format
-        output_dict[id] = dict_values
+        input_dict[id] = dict_values
         item[0] = desc_xml
     return input_dict
 
@@ -448,7 +448,7 @@ def term_extractor(descList, input_dict):
         ma_pattern = re.compile("([Mm]anuscrit aut[ographe]{0,7}\.?)")  # > Ma
         ca_pattern = re.compile("([Cc]hanson\saut[ographe]{0,7}\.?)")  # > Ca
         as_pattern = re.compile(
-            "((Autographe|autographe|[Aa]ut\.)\s?s[ignée]{0,5}\.?)")  # > as # this one must be the last pattern tested.
+            "((Autographe|autographe|[Aa]ut\.|[Aa]\.)\s?s[ignée]{0,5}\.?)")  # > as # this one must be the last pattern tested.
 
         if re.search(pas_pattern, desc):
             term_search = re.search(pas_pattern, desc)
@@ -603,7 +603,7 @@ def term_extractor(descList, input_dict):
         dict_values["term"] = norm_term
         dict_values["author"] = author
         dict_values["sell_date"] = sell_date
-        output_dict[id] = dict_values
+        input_dict[id] = dict_values
     return input_dict
 
 
