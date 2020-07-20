@@ -12,7 +12,7 @@ Our objective is to detect such similar entries.
 
 # 2. Workflow
 
-## 2.1. Clean the data
+## 2.1. Cleaning of the data
 
 Entries of catalogues look like the following:
 
@@ -23,7 +23,8 @@ Entries of catalogues look like the following:
    <trait>
       <p>l'illustre compositeur</p>
    </trait>
-   <desc>L. a s.; 1836, 1 p 1 /2 in8. 12</desc>
+   <desc>L. a s.; 1836, 1 p 1 /2 in8.</desc>
+    <measure commodity="currency" unit="FRF" quantity="3">12</measure>
 </item>
 ```
 
@@ -49,11 +50,29 @@ We need to extract data from the `desc` and transform
    <trait>
       <p>l'illustre compositeur</p>
    </trait>
-   <desc>L. a. s.; 1836, 1 p. in-8. 12</desc>
+   <desc>L. a. s.; 1836, 1 p. in-8.</desc>
+    <measure commodity="currency" unit="FRF" quantity="3">12</measure>
 </item>
 ```
 
 into
+
+```json
+{
+"CAT_000156_e14_d1": {
+    "desc": "L. a. s.; 1836, 1 p. in-8. 12",
+    "price": 12,
+    "author": "Cherubini",
+    "date": 1836,
+    "number_of_pages": 1,
+    "format": 8,
+    "term": 4,
+    "sell_date": "Mars 1893"
+  }
+}
+```
+
+and
 
 ```xml
 <item n="80" xml:id="CAT_000146_e80">
@@ -62,23 +81,30 @@ into
    <trait>
       <p>l'illustre compositeur</p>
    </trait>
-   <desc><term>L. a. s.</term>; <date>1836</date>,
+   <desc><term>L. a. s.</term>;<date>1836</date>,
    <measure type="length">1 p.</measure> <measure type="length">in-8</measure>.
-   <measure type="price" quantity="12">12</desc>
+   <measure commodity="currency" unit="FRF" quantity="3">12</measure></desc>
 </item>
 ```
+(xml output not fully implemented)
 
-To carry this task we use the `extractor.py` and the `reconciliator.py` [[available here](https://github.com/katabase/reconciliation/tree/master/script)].
+### 2.3 Reconciliation of the entries
+
+
+
+
+
 
 ### Installation 
 
-```buildoutcfg
+To carry this task we use the `extractor.py` and the `reconciliator.py` [[available here](https://github.com/katabase/reconciliation/tree/master/script)].
+
+```
 git clone https://github.com/katabase/reconciliation.git
 cd reconciliation
 python3 -m venv my_env
 source my_env/bin/activate
 pip3 install -r requirements.txt
-
 ```
 
 ### Using the tool
@@ -92,7 +118,8 @@ filter by date (using the flag -d).
 The data will be stored in json in folders corresponding to the date and the authorname. Three files are created: 
 + `filtered_db.json` is the result of the extraction before the reconciliation of the entries.
 + `reconciliated_pairs.json` provides a list of all the *probable* similar documents, ordered by probability
-+ `reconciliated_documents.json` provides the list of the documents that have been reconciliated. 
++ `reconciliated_documents.json` provides the list of the documents that have been reconciliated.
++ `final_db.json` contains all the entries with the reconciliation done 
 
 
 #### First example
@@ -109,6 +136,18 @@ We want to select the production of Mme de Sévigné between 1680-1690:
 + The results will be stored in `output/json/Sevigne/1680-1690/`
 
 ### Cite this repository
+If you use these data, please cite this paper:
+```
+@inproceedings{gabay:howmanyDH2020,
+  AUTHOR = {Gabay, Simon and Rondeau Du Noyer, Lucie and Gille Levenson, Matthias, and Petkovic, Ljudmila, and Bartz, Alexandre},
+  TITLE = {Quantifying the Unknown. How many manuscripts of the marquise de Sévigné still exist?},
+SHORTTITLE = {Quantifying the Unknown},
+  ADDRESS = {Ottawa, Canada},
+  MONTH = July,
+  YEAR = {2020},
+  BOOKTITLE = {DH2020: carrefours/intersections},
+  KEYWORDS = {Machine learning ; Manuscript sales catalogues ; 19th c. France; Mme de Sévigné},
+}
 Matthias Gille Levenson and Simon Gabay (éd.), _Operation Reconciliation: Reconciliation of Manuscript Sale Catalogues Entries_, Genève: Université de Genève, Lyon: École normale supérieure de Lyon, 2020, [https://github.com/katabase/reconciliation](https://github.com/katabase/reconciliation).
 
 ### Licence
