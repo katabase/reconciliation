@@ -216,9 +216,9 @@ def is_roman(value):
         return value
 
 
-def pn_extractor(descList, input_dict):
+def length_extractor(descList, input_dict):
     print("Extracting length information")
-    page_number_pattern = re.compile(
+    length_pattern = re.compile(
         "([IVXivx0-9\/]{1,6})\.?\s(pages|page|pag.|p.)\s([0-5\/]{0,3})")  # this pattern matches the most frequent case.
     pattern_fraction = re.compile("([0-9\/]{1,6})\s?de\s?p[ages]{0,3}\.?")
     for item in descList:
@@ -229,25 +229,25 @@ def pn_extractor(descList, input_dict):
         desc = desc.replace("p/", "p")
         dict_values = input_dict[id]
         path = None
-        page_number = None
+        length = None
         groups = ""
-        if re.search(page_number_pattern, desc):
-            position_chaîne = re.search(page_number_pattern, desc).span()
-            pn_search = re.search(page_number_pattern, desc)
+        if re.search(length_pattern, desc):
+            position_chaîne = re.search(length_pattern, desc).span()
+            pn_search = re.search(length_pattern, desc)
             groups = pn_search.groups()
             first_group = pn_search.group(1)
             second_group = pn_search.group(3)
             if second_group == "":  # if the second group is empty, there is no fraction
                 if first_group != "":
                     if isInt(is_roman(first_group.upper())):
-                        page_number = int(is_roman(first_group.upper()))
+                        length = int(is_roman(first_group.upper()))
                         path = 1
                     else:
                         try:
-                            page_number = conversion_tables.fractions_to_float[first_group]
+                            length = conversion_tables.fractions_to_float[first_group]
                             path = 2
                         except:
-                            page_number = "key error, please check the transcription: %s" % first_group
+                            length = "key error, please check the transcription: %s" % first_group
                             path = 3
             elif first_group != "" and second_group != "":
                 if isInt(first_group):
@@ -277,36 +277,36 @@ def pn_extractor(descList, input_dict):
                     except:
                         value_2 = 404
                         path = 11
-                page_number = float(value_1) + float(value_2)
+                length = float(value_1) + float(value_2)
             else:
-                page_number = None
+                length = None
                 path = 12
         elif re.search(pattern_fraction, desc):
             path = 13
             search = re.search("([0-9\/]{1,6})\s?de\s?p[age]{0,3}\.?", desc)
             position_chaîne = search.span()
             try:  # test to be removed after.
-                page_number = conversion_tables.fractions_to_float[search.group(1)]
+                length = conversion_tables.fractions_to_float[search.group(1)]
             except:
-                page_number = 0
+                length = 0
 
-        if page_number != None:
+        if length != None:
             starting_position = position_chaîne[0]
             ending_position = position_chaîne[1]
             if desc[
                 ending_position - 1] == " ":  # if a space is the last character of the identified range of page ("1 p. "), we can
                 ending_position = ending_position - 1
-            desc_xml = "%s<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 quantity=\u0022%s\u0022 " \
-                       "type=\u0022length\u0022>%s</measure>%s" \
-                       % (desc[:starting_position], page_number, desc[starting_position:ending_position],
+            desc_xml = "%s<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022" \
+                       " type=\u0022length\u0022 unit=\u0022p\u0022 n=\u0022%s\u0022>%s</measure>%s" \
+                       % (desc[:starting_position], length, desc[starting_position:ending_position],
                           desc[ending_position:])
-            desc_xml = desc
+            # desc_xml = desc
         else:
             desc_xml = desc
         # dict_values["groups"] = groups # for debugging purposes only
         # dict_values["path"] = path  # idem
         # dict_values["desc_xml"] = desc_xml
-        dict_values["number_of_pages"] = page_number
+        dict_values["number_of_pages"] = length
         input_dict[id] = dict_values
         item[0] = desc_xml
     return input_dict
@@ -349,15 +349,7 @@ def format_extractor(descList, input_dict):
             start_position = None
             end_position = None
 
-        # Let's create the xml element
-        if start_position and end_position:
-            if desc[end_position - 1] == " ":  # if the last character of the identified format is a space
-                end_position = end_position - 1
-            desc_xml = "%s<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022" \
-                       " type=\u0022format\u0022>%s</measure>%s" \
-                       % (desc[:start_position], desc[start_position:end_position],
-                          desc[end_position:])
-            desc_xml = desc
+
         # dict_values["desc_xml"] = desc_xml
         # let's improve the format identification
         obl_pattern = re.compile(".*ob[l]{0,1}.*")
@@ -376,6 +368,17 @@ def format_extractor(descList, input_dict):
                 if re.search(obl_pattern, ms_format):
                     out_ms_format = out_ms_format + 100
 
+        # Let's create the xml element
+        if start_position and end_position:
+            if desc[end_position - 1] == " ":  # if the last character of the identified format is a space
+                end_position = end_position - 1
+            desc_xml = "%s<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022" \
+                       " type=\u0022format\u0022 unit=\u0022f\u0022 n=\u0022%s\u0022>%s</measure>%s" \
+                       % (desc[:start_position], out_ms_format, desc[start_position:end_position],
+                          desc[end_position:])
+            # desc_xml = desc
+
+        dict_values["desc_xml"] = desc_xml
         dict_values["format"] = out_ms_format
         input_dict[id] = dict_values
         item[0] = desc_xml
@@ -558,8 +561,8 @@ def term_extractor(descList, input_dict):
                        " type=\"%s\">%s</term>%s" \
                        % (desc[:start_position], norm_term, desc[start_position:end_position],
                           desc[end_position:])
-            desc_xml = desc
-        # dict_values["desc_xml"] = desc_xml
+            # desc_xml = desc
+        dict_values["desc_xml"] = desc_xml
         dict_values["term"] = norm_term
         dict_values["author"] = author
         dict_values["sell_date"] = sell_date
@@ -597,7 +600,7 @@ def desc_extractor(input):
             date = i.xpath("ancestor::tei:TEI//tei:sourceDesc//tei:date", namespaces=tei)[0].text
             author = i.xpath("parent::tei:item/tei:name", namespaces=tei)
             try:
-                price = i.xpath("parent::tei:item/tei:num[@type='price']", namespaces=tei)[0].text
+                price = i.xpath("parent::tei:item//tei:num[@type='price']", namespaces=tei)[0].text
             except:
                 price = None
             id = i.xpath("@xml:id", namespaces=tei)
@@ -650,7 +653,7 @@ def xml_output_production(dictionnary):
     # -existing-namespace-attributes
     for key in dictionnary:
         input_info = key.split("_")
-        file = "%s_%s_clean.xml" % (input_info[0], input_info[1])  # the filename follow the structure CAT_ID.xml
+        file = "%s_%s_clean_addPrice.xml" % (input_info[0], input_info[1])  # the filename follow the structure CAT_ID.xml
         item = input_info[2].split("e")[-1]
         desc_string = output_dict[key]["desc_xml"].replace("&", "&amp;")
         input_file = "../output/xml/%s" % file
@@ -659,7 +662,6 @@ def xml_output_production(dictionnary):
             output_root = f.getroot()
             path = "//tei:item[@n=\'%s\']/tei:desc" % item
             desc_list = output_root.xpath(path, namespaces=NSMAP1)
-
             for desc in desc_list:  # now let's update the tei:desc elements in the output file
                 item_element = desc.getparent()  # https://stackoverflow.com/questions/7474972/python-lxml-append
                 # -element-after-another-element
@@ -668,7 +670,6 @@ def xml_output_production(dictionnary):
                 except:
                     print("<desc xmlns=\"http://www.tei-c.org/ns/1\">%s</desc>" % desc_string)
                 item_element.remove(desc)  # we remove the non processed tei:desc
-
             output_file = "../output/xml/%s" % file
             with open(output_file, "w+") as sortie_xml:
                 output = etree.tostring(output_root, pretty_print=True, encoding='utf-8', xml_declaration=True).decode(
@@ -704,12 +705,15 @@ if __name__ == "__main__":
     list_desc = conversion_to_list(files)
     output_dict = price_extractor(list_desc)
     output_dict = date_extractor(list_desc, output_dict)
-    output_dict = pn_extractor(list_desc, output_dict)
+    output_dict = length_extractor(list_desc, output_dict)
     output_dict = format_extractor(list_desc, output_dict)
     output_dict = term_extractor(list_desc, output_dict)
 
 
 
+    with open('../output/json/export.json', 'w') as outfile:
+        outfile.truncate(0)
+        json.dump(output_dict, outfile)
 
     # xml_output_production(output_dict)
     for key in output_dict:
@@ -718,9 +722,6 @@ if __name__ == "__main__":
         # output_dict[key].pop("desc")
 
     print("Producing the json output")
-    with open('../output/json/export.json', 'w') as outfile:
-        outfile.truncate(0)
-        json.dump(output_dict, outfile)
     print("Done !")
     print("Number of entries without price: %s" % str(no_price))
     print("Number of entries without date: %s" % str(no_date))
