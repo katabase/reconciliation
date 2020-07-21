@@ -24,7 +24,7 @@ Entries of catalogues look like the following:
       <p>l'illustre compositeur</p>
    </trait>
    <desc>L. a s.; 1836, 1 p 1 /2 in8.</desc>
-    <measure commodity="currency" unit="FRF" quantity="3">12</measure>
+    <measure commodity="currency" unit="FRF" quantity="12">12</measure>
 </item>
 ```
 
@@ -51,7 +51,7 @@ We need to extract data from the `desc` and transform
       <p>l'illustre compositeur</p>
    </trait>
    <desc>L. a. s.; 1836, 1 p. in-8.</desc>
-    <measure commodity="currency" unit="FRF" quantity="3">12</measure>
+    <measure commodity="currency" unit="FRF" quantity="12">12</measure>
 </item>
 ```
 
@@ -82,22 +82,20 @@ and
       <p>l'illustre compositeur</p>
    </trait>
    <desc><term>L. a. s.</term>;<date>1836</date>,
-   <measure type="length">1 p.</measure> <measure type="length">in-8</measure>.
-   <measure commodity="currency" unit="FRF" quantity="3">12</measure></desc>
+   <measure type="length" unit="p" n="1">1 p.</measure> <measure unit="f" type="format" n="8">in-8</measure>.
+   <measure commodity="currency" unit="FRF" quantity="12">12</measure></desc>
 </item>
 ```
-(xml output not fully implemented)
 
-### 2.3 Reconciliation of the entries
+To carry this task we use the `extractor.py` [[available here](https://github.com/katabase/reconciliation/tree/master/script/extractor.py)].
+ (xml output not fully implemented).
 
+## 2.3 Reconciliation of the entries
 
-
-
+The reconciliation is carried out by the script `reconciliator.py` [[available here](https://github.com/katabase/reconciliation/tree/master/script/reconciliator.py)].
 
 
 ### Installation 
-
-To carry this task we use the `extractor.py` and the `reconciliator.py` [[available here](https://github.com/katabase/reconciliation/tree/master/script)].
 
 ```
 git clone https://github.com/katabase/reconciliation.git
