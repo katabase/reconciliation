@@ -36,6 +36,8 @@ def price_extractor(descList):
     for item in descList:
         id = item[1]
         desc = item[0]
+        print(item)
+        print("%s: %s" % (id, item[-1]))
         if item[-1] is not None:
             pattern = re.compile("[0-9]{0,3}\.[0-9]{0,2}")
             if pattern.match(item[-1]):
@@ -360,7 +362,10 @@ def format_extractor(descList, input_dict):
                 out_ms_format = 1
             elif re.search(format_pattern, ms_format):
                 out_ms_format = re.search(format_pattern, ms_format).group(1)
-                out_ms_format = conversion_tables.format_types[out_ms_format]
+                try:
+                    out_ms_format = conversion_tables.format_types[out_ms_format]
+                except:
+                    out_ms_format = None
             else:
                 out_ms_format = None
 
@@ -600,7 +605,7 @@ def desc_extractor(input):
             date = i.xpath("ancestor::tei:TEI//tei:sourceDesc//tei:date", namespaces=tei)[0].text
             author = i.xpath("parent::tei:item/tei:name", namespaces=tei)
             try:
-                price = i.xpath("parent::tei:item//tei:num[@type='price']", namespaces=tei)[0].text
+                price = i.xpath("parent::tei:item//tei:measure[@commodity='currency']/@quantity", namespaces=tei)[0]
             except:
                 price = None
             id = i.xpath("@xml:id", namespaces=tei)
@@ -635,7 +640,7 @@ def clean_text(input_text):
 def conversion_to_list(path):
     final_list = []
     for xml_file in glob.iglob(path):
-        for desc_element in desc_extractor(xml_file):
+        for desc_element in desc_extractor(xml_file)[:9]:
             final_list.append(desc_element)
     return final_list
 
@@ -692,8 +697,7 @@ def duplicates_identification(a):
 if __name__ == "__main__":
     no_price = 0
     no_date = 0
-    # files = "../input/Data_clean_with_id/*.xml"  # the path to the files to be processed
-    files = "../input/Data_test/*.xml"
+    files = "../input/Data_clean/*.xml"
     input_dir = os.path.dirname(files)
     output_dir = "../output/xml"
     try:
