@@ -28,10 +28,10 @@ def conversion_to_list(path):
     return final_list
 
 
-def xml_output_production(final_list, corpus):
+def xml_output_production(final_list):
     """
-    Replaces all tei:desc by the structure
-    :param dictionnary: the dictionnary created by the different extraction steps
+    Creates xi:include links to each of the xml file contained in Data_clean
+    :param final_list: a list containing all the paths
     :return:
     """
     print("Updating the xml files")
