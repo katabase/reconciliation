@@ -196,53 +196,58 @@ def double_loop(input_dict, searched_date):
     print("Comparing the entries")
     # First we compare each entry with each other one and give a score to each pair
     for i in tqdm.tqdm(input_dict):
+        catalog_entry_i = i.split("_d")[0]
         term = input_dict[i]["term"]
         date = input_dict[i]["date"]
         format = input_dict[i]["format"]
         price = input_dict[i]["price"]
         pn = input_dict[i]["number_of_pages"]
         for j in input_dict:
-            dict2 = {}
-            score = 0
-            if j == i:
+            catalog_entry_j = j.split("_d")[0]
+            if catalog_entry_i == catalog_entry_j: # to compare two sub-entries (two tei:desc from the same item) makes no sense
                 pass
             else:
-                if input_dict[j]["term"] == term:
-                    score = score + 0.2
-                else:
-                    score = score - 0.1
-
-                if input_dict[j]["date"] == date and input_dict[j]["date"] is not None:
-                    score = score + 0.5
-                else:
-                    score = score - 0.5
-
-                if input_dict[j]["number_of_pages"] == pn:
-                    score = score + 0.1
-                else:
-                    score = score - 0.1
-
-                if input_dict[j]["format"] == format:
-                    score = score + 0.1
-                else:
-                    score = score - 0.3
-
-                if input_dict[j]["price"] == price:
-                    score = score + 0.1
-                else:
-                    score = score - 0.1
-                try:
-                    dict2["author_distance"] = similar(input_dict[j]["author"], input_dict[i]["author"])
-                except:
-                    dict2["author_distance"] = 0
-                dict2["score"] = score
-                # We clean the dictionnary, as A-B comparison equals B-A comparison
-                if "%s-%s" % (j, i) in output_dict1:
+                dict2 = {}
+                score = 0
+                if j == i:
                     pass
                 else:
-                    output_dict1["%s-%s" % (i, j)] = dict2
+                    if input_dict[j]["term"] == term:
+                        score = score + 0.2
+                    else:
+                        score = score - 0.1
 
-    # The final list contains the result of the whole comparison process, without filtering, sorted by the score
+                    if input_dict[j]["date"] == date and input_dict[j]["date"] is not None:
+                        score = score + 0.5
+                    else:
+                        score = score - 0.5
+
+                    if input_dict[j]["number_of_pages"] == pn:
+                        score = score + 0.1
+                    else:
+                        score = score - 0.1
+
+                    if input_dict[j]["format"] == format:
+                        score = score + 0.1
+                    else:
+                        score = score - 0.3
+
+                    if input_dict[j]["price"] == price:
+                        score = score + 0.1
+                    else:
+                        score = score - 0.1
+                    try:
+                        dict2["author_distance"] = similar(input_dict[j]["author"], input_dict[i]["author"])
+                    except:
+                        dict2["author_distance"] = 0
+                    dict2["score"] = score
+                    # We clean the dictionnary, as A-B comparison equals B-A comparison
+                    if "%s-%s" % (j, i) in output_dict1:
+                        pass
+                    else:
+                        output_dict1["%s-%s" % (i, j)] = dict2
+
+    # The final list contains the result of the whole comparison process, without filtering, sorted by score
     final_list = []
     for key in output_dict1:
         first_entry = key.split("-")[0]
@@ -261,6 +266,8 @@ def double_loop(input_dict, searched_date):
     filtered_list = [item[0] for item in filtered_list_with_score]
     graphed_list = to_graph(filtered_list)
     cleaned_list = [list(item) for item in list(connected_components(graphed_list))]
+    print(list(graphed_list))
+    print(cleaned_list)
     cleaned_output_list = []
     n = 0
     for item in cleaned_list:
@@ -285,7 +292,7 @@ def double_loop(input_dict, searched_date):
     with open('%s/reconciliated_documents.json' % path, 'w') as outfile:
         outfile.truncate(0)
         json.dump(cleaned_output_list, outfile)
-
+    print(cleaned_output_list)
 
 def cluster_method(dictionnary):
     print("Number of entries of the input dict: %s" % len(dictionnary))
@@ -358,6 +365,7 @@ if __name__ == "__main__":
     date = args.date
     normalisation_table = str.maketrans("éèêàç", "eeeac") # We normalize author names to create the folders
     norm_author = author.translate(normalisation_table)
+    print(author)
 
     dircreate("../output/json/%s" % norm_author)
     dircreate("../output/json/%s/%s" % (norm_author, date))

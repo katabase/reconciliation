@@ -640,7 +640,7 @@ def clean_text(input_text):
 def conversion_to_list(path):
     final_list = []
     for xml_file in glob.iglob(path):
-        for desc_element in desc_extractor(xml_file)[:9]:
+        for desc_element in desc_extractor(xml_file):
             final_list.append(desc_element)
     return final_list
 
