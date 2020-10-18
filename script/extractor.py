@@ -293,7 +293,7 @@ def length_extractor(descList, input_dict):
                 ending_position = ending_position - 1
             desc_xml = f'{desc[:starting_position]}<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022' \
                        f' type=\u0022length\u0022 unit=\u0022p\u0022 n=\u0022{length}\u0022>' \
-                       f'{desc[starting_position:ending_position]}</measure>{desc[ending_position:]}' \
+                       f'{desc[starting_position:ending_position]}</measure>{desc[ending_position:]}'
         else:
             desc_xml = desc
         # dict_values["path"] = path  # idem # for debugging purposes only
