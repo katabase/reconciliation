@@ -58,25 +58,24 @@ def partial_conversion(year):
 
 
 def main(desc):
+    """
+
+    :param desc: The tei:desc as a string
+    :return: the formatted date the string corresponding to the date.
+    """
     full_date = re.search("([0-3]{0,1}[0-9I][er]{0,2}) (.{0,13}) an ([XIVxiv]{1,4}|[0-9]{1,2})", desc)
     partial_date = re.search("an ([XIVxiv]{1,4}|[0-9]{1,2})", desc)
     if full_date:
-        date_span = full_date.span()
+        date_string = full_date.group(0)
         day = full_date.group(1)
         month = full_date.group(2)
         year = full_date.group(3).upper()
         date = full_conversion(year, month, day)
     elif not full_date and partial_date:
-        date_span = partial_date.span()
         year = partial_date.group(1).upper()
+        date_string = year
         date = partial_conversion(year)
     else:
         date = "none"
-
-    if date != "none":
-        start_position = date_span[0]
-        end_position = date_span[1]
-    else:
-        start_position = None
-        end_position = None
-    return date, start_position, end_position
+        date_string = None
+    return date, date_string

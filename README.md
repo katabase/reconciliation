@@ -88,7 +88,7 @@ and
 ```
 
 To carry this task we use the `extractor.py` [[available here](https://github.com/katabase/reconciliation/tree/master/script/extractor.py)].
- (xml output not fully implemented).
+(xml output not fully implemented).
 
 ## 2.3 Reconciliation of the entries
 
