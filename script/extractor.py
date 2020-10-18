@@ -638,7 +638,7 @@ def xml_output_production(dictionnary):
             with open(input_file, 'r+') as fichier:
                 f = etree.parse(fichier)
                 output_root = f.getroot()
-                log_path = f'//tei:item[@n=\'{item}\']/tei:desc'
+                path = f'//tei:item[@n=\'{item}\']/tei:desc'
                 desc_list = output_root.xpath(path, namespaces=NSMAP1)
                 for desc in desc_list:  # now let's update the tei:desc elements in the output file
                     item_element = desc.getparent()  # https://stackoverflow.com/questions/7474972/python-lxml-append
@@ -655,6 +655,7 @@ def xml_output_production(dictionnary):
                     sortie_xml.write(str(output))
         except Exception as e:
             add_to_log(key, e)
+            print(e)
 
 def add_to_log(id, exception, *args):
     """
@@ -689,7 +690,7 @@ if __name__ == "__main__":
     no_date = 0
     with open('log.log', 'w') as log_file:
         log_file.truncate(0)
-    files = "../input/Data_clean/*5_clean.xml"
+    files = "../input/Data_clean/*_clean.xml"
     input_dir = os.path.dirname(files)
     output_dir = "../output/xml"
     try:
