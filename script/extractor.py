@@ -73,13 +73,13 @@ def date_extractor(descList, input_dict):
             ".*\san ([XIVxiv]{1,4}|[0-9]{1,2}).*")  # we search for any hint of the republican calendar (in
         # general, "an" and a year in roman)
         dict_values = input_dict[id]
-        date_# log_path = None
+        date_log_path = None
         date_range = None
         desc_xml = desc
         # Let's extract the gregorian calendar dates.
         # Example: "Pièce de vers aut. sig. sig. aussi par sa femme Caroline Vanhove: 18 janvier 1798, 1 p. in-8 obl. 22"
         if loose_gregorian_calendar_pattern.match(desc):
-            date_# log_path = 1
+            date_log_path = 1
             # First, we start reducing the string with a first split using the comma as delimiter, as (usually) there
             # is no comma in a date:
             # ['Pièce de vers aut. sig. sig. aussi par sa femme Caroline Vanhove: 18 janvier 1798', ' 1 p. in-8 obl. 22']
@@ -136,7 +136,7 @@ def date_extractor(descList, input_dict):
 
             # If the date is a year and nothing else, no need to process it.
             if gregorian_year_pattern.match(date):
-                date_# log_path = 2
+                date_log_path = 2
                 matched = re.finditer(gregorian_year_pattern, date)
                 for match in matched:
                     desc_xml = desc.replace(match.group(0), f'<date \
@@ -145,16 +145,16 @@ def date_extractor(descList, input_dict):
             else: # we are going to use the dateparser library to extract the date automatically.
                 # see https://dateparser.readthedocs.io/en/v0.2.1/_modules/dateparser/date.html
                 # This is the case where I could not find a way to retrieve the date string.
-                date_# log_path = 3
+                date_log_path = 3
                 split_date = date.replace("(", "").replace(")", "").replace("[", "").split(" ")
 
                 parsed_date = dateparser.date.DateDataParser().get_date_data(u'%s' % date)
                 if parsed_date["date_obj"] is None:  # if it doesn't work, we select the YYYY string.
-                    date_# log_path = 4
+                    date_log_path = 4
                     date = re.search("(1[0-9][0-9][0-9])", date).group(0)
                 else:
                     date_range = re.search("(1[0-9][0-9][0-9])", date).span()
-                    date_# log_path = 5
+                    date_log_path = 5
                     # We get the precision of the date: dateparser will autocomplete
                     # the date using the current date if it has only the month. That is not what we want.
                     if parsed_date["period"] == "month":
@@ -169,7 +169,7 @@ def date_extractor(descList, input_dict):
         # If we do not match a gregorian year string (YYYY), but a republican year string ('an V', for instance),
         # we convert the republican date
         elif republican_calendar_pattern.match(desc):
-            date_# log_path = 6
+            date_log_path = 6
             date, date_string = rep_greg_conversion.main(desc)
             if date_string is not None:
                 desc_xml = desc.replace(date_string, f'<date xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 date=\u0022{date}\u0022'
@@ -226,7 +226,7 @@ def length_extractor(descList, input_dict):
         desc = re.sub(r"\s+", " ", desc)
         desc = desc.replace("p/", "p")
         dict_values = input_dict[id]
-        # log_path = None
+        log_path = None
         length = None
         if re.search(length_pattern, desc):
             position_chaîne = re.search(length_pattern, desc).span()
@@ -237,48 +237,48 @@ def length_extractor(descList, input_dict):
                 if first_group != "":
                     if isInt(is_roman(first_group.upper())):
                         length = int(is_roman(first_group.upper()))
-                        # log_path = 1
+                        log_path = 1
                     else:
                         try:
                             length = conversion_tables.fractions_to_float[first_group]
-                            # log_path = 2
+                            log_path = 2
                         except:
                             length = f'key error, please check the transcription: {first_group}'
-                            # log_path = 3
+                            log_path = 3
             elif first_group != "" and second_group != "":
                 if isInt(first_group):
                     value_1 = int(first_group)
-                    # log_path = 4
+                    log_path = 4
                 else:
                     value_1 = is_roman(first_group.upper())  # the price
                     # can be in roman numbers
-                    # log_path = 5
+                    log_path = 5
                     if isInt(value_1):
-                        # log_path = 6
+                        log_path = 6
                         pass
                     else:
                         try:
                             value_1 = conversion_tables.fractions_to_float[value_1]
-                            # log_path = 7
+                            log_path = 7
                         except:
                             value_1 = 501
-                            # log_path = 8
+                            log_path = 8
                 if isInt(second_group):
                     value_2 = int(second_group)
-                    # log_path = 9
+                    log_path = 9
                 else:
                     try:
                         value_2 = conversion_tables.fractions_to_float[second_group]
-                        # log_path = 10
+                        log_path = 10
                     except:
                         value_2 = 404
-                        # log_path = 11
+                        log_path = 11
                 length = float(value_1) + float(value_2)
             else:
                 length = None
-                # log_path = 12
+                log_path = 12
         elif re.search(pattern_fraction, desc):
-            # log_path = 13
+            log_path = 13
             search = re.search("([0-9\/]{1,6})\s?de\s?p[age]{0,3}\.?", desc)
             position_chaîne = search.span()
             try:  # test to be removed after.
@@ -293,10 +293,13 @@ def length_extractor(descList, input_dict):
                 ending_position = ending_position - 1
             desc_xml = f'{desc[:starting_position]}<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022' \
                        f' type=\u0022length\u0022 unit=\u0022p\u0022 n=\u0022{length}\u0022>' \
-                       f'{desc[starting_position:ending_position]}</measure>{desc[ending_position:]}'
+                       f'{desc[starting_position:ending_position]}</measure>{desc[ending_position:]}' \
+            # desc_xml = desc
         else:
             desc_xml = desc
-        # dict_values["path"] = path  # idem # for debugging purposes only
+        # dict_values["groups"] = groups # for debugging purposes only
+        # dict_values["path"] = path  # idem
+        # dict_values["desc_xml"] = desc_xml
         dict_values["number_of_pages"] = length
         input_dict[id] = dict_values
         item[0] = desc_xml
@@ -406,14 +409,14 @@ def term_extractor(descList, input_dict):
             term_search = re.search(pas_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = conversion_tables.term_types["P.a.s."]
-            
+
             correct_pattern = pas_pattern
 
         elif re.search(apas_pattern, desc):
             term_search = re.search(apas_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = conversion_tables.term_types["Ap.a.s."]
-            
+
             correct_pattern = apas_pattern
 
 
@@ -421,14 +424,14 @@ def term_extractor(descList, input_dict):
             term_search = re.search(ps_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = conversion_tables.term_types["P.s."]
-            
+
             correct_pattern = ps_pattern
 
         elif re.search(pa_pattern, desc):
             term_search = re.search(pa_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = conversion_tables.term_types["P.a."]
-            
+
             correct_pattern = pa_pattern
 
 
@@ -436,14 +439,14 @@ def term_extractor(descList, input_dict):
             term_search = re.search(bias_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = conversion_tables.term_types["Bi.a.s."]
-            
+
             correct_pattern = bias_pattern
 
         elif re.search(bis_pattern, desc):
             term_search = re.search(bis_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = conversion_tables.term_types["Bi.s."]
-            
+
             correct_pattern = bis_pattern
 
 
@@ -451,63 +454,63 @@ def term_extractor(descList, input_dict):
             term_search = re.search(las_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = conversion_tables.term_types["L.a.s."]
-            
+
             correct_pattern = las_pattern
 
         elif re.search(la_pattern, desc):
             term_search = re.search(la_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = conversion_tables.term_types["L.a."]
-            
+
             correct_pattern = la_pattern
 
         elif re.search(brs_pattern, desc):
             term_search = re.search(brs_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = conversion_tables.term_types["Br.s."]
-            
+
             correct_pattern = brs_pattern
 
         elif re.search(qs_pattern, desc):
             term_search = re.search(qs_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = conversion_tables.term_types["Q.s."]
-            
+
             correct_pattern = qs_pattern
 
         elif re.search(ma_pattern, desc):
             term_search = re.search(ma_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = conversion_tables.term_types["M.a."]
-            
+
             correct_pattern = ma_pattern
 
         elif re.search(ca_pattern, desc):
             term_search = re.search(ca_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = conversion_tables.term_types["C.a."]
-            
+
             correct_pattern = ca_pattern
 
         elif re.search(qas_pattern, desc):
             term_search = re.search(qas_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = conversion_tables.term_types["Q.a.s."]
-            
+
             correct_pattern = qas_pattern
 
         elif re.search(ls_pattern, desc):
             term_search = re.search(ls_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = conversion_tables.term_types["L.s."]
-            
+
             correct_pattern = ls_pattern
 
         elif re.search(as_pattern, desc):  # keep this search the last one
             term_search = re.search(as_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
             norm_term = conversion_tables.term_types["A.s."]
-            
+
             correct_pattern = as_pattern
 
             # Check this problem (not matched by as_pattern):
@@ -635,7 +638,7 @@ def xml_output_production(dictionnary):
             with open(input_file, 'r+') as fichier:
                 f = etree.parse(fichier)
                 output_root = f.getroot()
-                # log_path = f'//tei:item[@n=\'{item}\']/tei:desc'
+                log_path = f'//tei:item[@n=\'{item}\']/tei:desc'
                 desc_list = output_root.xpath(path, namespaces=NSMAP1)
                 for desc in desc_list:  # now let's update the tei:desc elements in the output file
                     item_element = desc.getparent()  # https://stackoverflow.com/questions/7474972/python-lxml-append
