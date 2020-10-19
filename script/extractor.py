@@ -667,7 +667,7 @@ def add_to_log(id, exception, *args):
     :return: None
     """
     exception = str(exception)
-    with open('log.log', 'a') as log_file:
+    with open('log/log.log', 'a') as log_file:
         log_file.write(f'\n {id} throws and error \n {exception}')
         if args:
             log_file.write(f'\n Additional information:\n {str(args)}')
