@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000016">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Bulletin Charavay (Décembre 1919, n°515)</title>
+            <respStmt>
+               <persName ref="#COL_000001">Simon Gabay</persName>
+               <resp>éditeur scientifique <date when="2019">2019</date></resp>
+            </respStmt>
+         </titleStmt>
+         <extent>à remplir en indiquant la taille finale du fichier</extent>
+         <publicationStmt>
+            <publisher>Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Lettres autographes et documents historiques</title>
+               <publisher>Noël Charavary</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date when="1919">1919</date>
+            </bibl>
+            <listWit>                  
+               <witness xml:id="CAT_000015_w">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives nationales</institution>
+                        <repository>Pierrefitte-sur-Seine</repository>
+                        <idno type="shelfmark">AB XXXVIII 71</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr type="catalogue" target="http://www.archivesnationales.culture.gouv.fr/chan/chan/AP-pdf/AB-XXXVIII-inventaire.pdf"/>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces selected entries</p>
+         </samplingDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <gap/>
+            <item n="89531" xml:id="CAT_000016_e89531" corresp="#MS_000011">
+               <num type="lot">89531</num>
+               <name type="author">SÉVIGNÉ (Marie de RABUTIN-CHANTAL, marquise de),</name>
+               <trait>
+                  <p>l'illustre épistolière. –</p>
+               </trait>
+               <desc xmlns="http://www.tei-c.org/ns/1"><term xmlns="http://www.tei-c.org/ns/1.0" type="7">L. a. s.</term>; Grignan,<date xmlns="http://www.tei-c.org/ns/1.0" when="1695-06-05"> 5 juin 1695</date>, <measure xmlns="http://www.tei-c.org/ns/1.0" type="length" unit="p" n="4.5">4 p. 1/2</measure> <measure xmlns="http://www.tei-c.org/ns/1.0" type="format" unit="f" n="4">in-4.</measure> Rare,</desc><measure commodity="currency" unit="FRF" quantity="162.50">162.50 Fr.</measure>
+               <note>Spirituelle épître dans laquelle elle lui reproche son silence. «Je scay que
+               vous estes en fort bonne santé, que voulez-vous que je pense? A quoy ressemble
+               votre conduitte. Donnez-y un nom, Monsieur, voilà le procès en état
+               destre jugé. Jugez le. Je consens, comme vous voyez, que vous soyez juge
+               et partie».</note>
+            </item>
+            <gap/>
+         </list>
+      </body>
+   </text>
+</TEI>

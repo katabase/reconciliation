@@ -103,7 +103,7 @@ def date_extractor(descList, input_dict):
             # a date. No change in our example
             string_list = re.split("(1[0-9][0-9][0-9])", string_list)
             string_list = string_list[:-1]
-            date_string = ' '.join([str(elem) for elem in string_list])
+            date_string = ''.join([str(elem) for elem in string_list])
             unprocessed_date_string = date_string
 
             # Third, we reduce the string using the colon as delimiter.
@@ -127,9 +127,6 @@ def date_extractor(descList, input_dict):
             date_string = re.sub(r'L\. a\. s\.', '', date_string)
             # And eventually we can extract the date as a string to process it
             date = re.sub(r'^\s', '', date_string)
-
-            desc_xml = desc.replace(unprocessed_date_string, f'<date xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 '
-                                                             f'when=\u0022{date}\u0022>{unprocessed_date_string}</date>')
 
             gregorian_year_pattern = re.compile("^1[0-9][0-9][0-9]$")  # this pattern matches strings that contains
             # only a year
@@ -163,6 +160,10 @@ def date_extractor(descList, input_dict):
                         date = parsed_date["date_obj"].strftime('%Y')
                     else:
                         date = parsed_date["date_obj"].strftime('%Y-%m-%d')
+
+                desc_xml = desc.replace(unprocessed_date_string, f'<date xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 '
+                                                             f'when=\u0022{date}\u0022>{unprocessed_date_string}</date>')
+
             # print(desc_xml)
             dict_values["date"] = date
 
