@@ -8,8 +8,8 @@ import json
 import dateparser
 import datetime
 from decimal import *
-import rep_greg_conversion
-import conversion_tables
+import tables.rep_greg_conversion
+import tables.conversion_tables
 from dateparser.search import search_dates
 from lxml import etree
 import xml.etree.ElementTree as ET
@@ -171,7 +171,7 @@ def date_extractor(descList, input_dict):
         # we convert the republican date
         elif republican_calendar_pattern.match(desc):
             date_log_path = 6
-            date, date_string = rep_greg_conversion.main(desc)
+            date, date_string = tables.rep_greg_conversion.main(desc)
             if date_string is not None:
                 desc_xml = desc.replace(date_string, f'<date xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 date=\u0022{date}\u0022'
                                                      f' type=\u0022length\u0022>{date_string}</date>')
@@ -209,8 +209,8 @@ def is_float(string):
 
 def is_roman(value):
     try:
-        value in conversion_tables.roman_to_arabic.keys()
-        value = conversion_tables.roman_to_arabic[value]
+        value in tables.conversion_tables.roman_to_arabic.keys()
+        value = tables.conversion_tables.roman_to_arabic[value]
         return value
     except:
         return value
@@ -241,7 +241,7 @@ def length_extractor(descList, input_dict):
                         log_path = 1
                     else:
                         try:
-                            length = conversion_tables.fractions_to_float[first_group]
+                            length = tables.conversion_tables.fractions_to_float[first_group]
                             log_path = 2
                         except:
                             length = f'key error, please check the transcription: {first_group}'
@@ -259,7 +259,7 @@ def length_extractor(descList, input_dict):
                         pass
                     else:
                         try:
-                            value_1 = conversion_tables.fractions_to_float[value_1]
+                            value_1 = tables.conversion_tables.fractions_to_float[value_1]
                             log_path = 7
                         except:
                             value_1 = 501
@@ -269,7 +269,7 @@ def length_extractor(descList, input_dict):
                     log_path = 9
                 else:
                     try:
-                        value_2 = conversion_tables.fractions_to_float[second_group]
+                        value_2 = tables.conversion_tables.fractions_to_float[second_group]
                         log_path = 10
                     except:
                         value_2 = 404
@@ -283,7 +283,7 @@ def length_extractor(descList, input_dict):
             search = re.search("([0-9\/]{1,6})\s?de\s?p[age]{0,3}\.?", desc)
             position_chaîne = search.span()
             try:  # test to be removed after.
-                length = conversion_tables.fractions_to_float[search.group(1)]
+                length = tables.conversion_tables.fractions_to_float[search.group(1)]
             except:
                 length = 0
 
@@ -355,7 +355,7 @@ def format_extractor(descList, input_dict):
             elif re.search(format_pattern, ms_format):
                 encoded_ms_format = re.search(format_pattern, ms_format).group(1)
                 try:
-                    encoded_ms_format = conversion_tables.format_types[encoded_ms_format]
+                    encoded_ms_format = tables.conversion_tables.format_types[encoded_ms_format]
                 except:
                     encoded_ms_format = None
             else:
@@ -409,14 +409,14 @@ def term_extractor(descList, input_dict):
         if re.search(pas_pattern, desc):
             term_search = re.search(pas_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = conversion_tables.term_types["P.a.s."]
+            norm_term = tables.conversion_tables.term_types["P.a.s."]
 
             correct_pattern = pas_pattern
 
         elif re.search(apas_pattern, desc):
             term_search = re.search(apas_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = conversion_tables.term_types["Ap.a.s."]
+            norm_term = tables.conversion_tables.term_types["Ap.a.s."]
 
             correct_pattern = apas_pattern
 
@@ -424,14 +424,14 @@ def term_extractor(descList, input_dict):
         elif re.search(ps_pattern, desc):
             term_search = re.search(ps_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = conversion_tables.term_types["P.s."]
+            norm_term = tables.conversion_tables.term_types["P.s."]
 
             correct_pattern = ps_pattern
 
         elif re.search(pa_pattern, desc):
             term_search = re.search(pa_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = conversion_tables.term_types["P.a."]
+            norm_term = tables.conversion_tables.term_types["P.a."]
 
             correct_pattern = pa_pattern
 
@@ -439,14 +439,14 @@ def term_extractor(descList, input_dict):
         elif re.search(bias_pattern, desc):
             term_search = re.search(bias_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = conversion_tables.term_types["Bi.a.s."]
+            norm_term = tables.conversion_tables.term_types["Bi.a.s."]
 
             correct_pattern = bias_pattern
 
         elif re.search(bis_pattern, desc):
             term_search = re.search(bis_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = conversion_tables.term_types["Bi.s."]
+            norm_term = tables.conversion_tables.term_types["Bi.s."]
 
             correct_pattern = bis_pattern
 
@@ -454,63 +454,63 @@ def term_extractor(descList, input_dict):
         elif re.search(las_pattern, desc):
             term_search = re.search(las_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = conversion_tables.term_types["L.a.s."]
+            norm_term = tables.conversion_tables.term_types["L.a.s."]
 
             correct_pattern = las_pattern
 
         elif re.search(la_pattern, desc):
             term_search = re.search(la_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = conversion_tables.term_types["L.a."]
+            norm_term = tables.conversion_tables.term_types["L.a."]
 
             correct_pattern = la_pattern
 
         elif re.search(brs_pattern, desc):
             term_search = re.search(brs_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = conversion_tables.term_types["Br.s."]
+            norm_term = tables.conversion_tables.term_types["Br.s."]
 
             correct_pattern = brs_pattern
 
         elif re.search(qs_pattern, desc):
             term_search = re.search(qs_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = conversion_tables.term_types["Q.s."]
+            norm_term = tables.conversion_tables.term_types["Q.s."]
 
             correct_pattern = qs_pattern
 
         elif re.search(ma_pattern, desc):
             term_search = re.search(ma_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = conversion_tables.term_types["M.a."]
+            norm_term = tables.conversion_tables.term_types["M.a."]
 
             correct_pattern = ma_pattern
 
         elif re.search(ca_pattern, desc):
             term_search = re.search(ca_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = conversion_tables.term_types["C.a."]
+            norm_term = tables.conversion_tables.term_types["C.a."]
 
             correct_pattern = ca_pattern
 
         elif re.search(qas_pattern, desc):
             term_search = re.search(qas_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = conversion_tables.term_types["Q.a.s."]
+            norm_term = tables.conversion_tables.term_types["Q.a.s."]
 
             correct_pattern = qas_pattern
 
         elif re.search(ls_pattern, desc):
             term_search = re.search(ls_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = conversion_tables.term_types["L.s."]
+            norm_term = tables.conversion_tables.term_types["L.s."]
 
             correct_pattern = ls_pattern
 
         elif re.search(as_pattern, desc):  # keep this search the last one
             term_search = re.search(as_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = conversion_tables.term_types["A.s."]
+            norm_term = tables.conversion_tables.term_types["A.s."]
 
             correct_pattern = as_pattern
 
@@ -689,7 +689,7 @@ def duplicates_identification(a):
 if __name__ == "__main__":
     no_price = 0
     no_date = 0
-    with open('log.log', 'w') as log_file:
+    with open('log/log.log', 'w') as log_file:
         log_file.truncate(0)
     files = "../input/Data_clean/*_clean.xml"
     input_dir = os.path.dirname(files)

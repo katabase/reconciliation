@@ -1,9 +1,9 @@
 import json
 import re
-from conversion_tables import *
+from tables.conversion_tables import *
 
 
-with open("corresp_table.json", "r") as corresp_table:
+with open("tables/corresp_table.json", "r") as corresp_table:
     conversion_table = json.load(corresp_table)
 
 def is_int(string):
