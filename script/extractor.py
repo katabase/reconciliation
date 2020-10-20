@@ -14,6 +14,9 @@ from dateparser.search import search_dates
 from lxml import etree
 import xml.etree.ElementTree as ET
 from xml.etree import ElementTree
+import logging
+
+logging.basicConfig(filename='log.log', level=logging.DEBUG)
 
 tei = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
@@ -35,13 +38,13 @@ def price_extractor(descList):
                 try:
                     price = float(item[-1])
                 except Exception as e:
-                    add_to_log(id, e)
-                    price = None
+                	logging.info('Failed to parse price %s', e)
+                	price = None
             else:
                 try:
                     price = int(item[-1])
                 except Exception as j:
-                    add_to_log(id, j)
+                    logging.info('Failed to parse price %s', j)
                     price = None
         else:
             price = None
@@ -834,19 +837,7 @@ def TO_DELETE_xml_output_production(dictionnary):
             add_to_log(key, e)
             print(file, key, e)
 
-def add_to_log(id, exception, *args):
-    """
-    This function creates a log file with the entries that are not correctly formatted
-    :param id: the identifier of the incorrect entry
-    :param exception: the exception raised
-    :param args: other problems
-    :return: None
-    """
-    exception = str(exception)
-    with open('log/log.log', 'a') as log_file:
-        log_file.write(f'\n {id} throws and error \n {exception}')
-        if args:
-            log_file.write(f'\n Additional information:\n {str(args)}')
+
 
 
 
@@ -865,8 +856,6 @@ def duplicates_identification(a):
 if __name__ == "__main__":
     no_price = 0
     no_date = 0
-    with open('log/log.log', 'w') as log_file:
-        log_file.truncate(0)
     input_dir = '../input/Data_clean'
     output_dir = '../output/xml'
     files = '*_clean.xml'
