@@ -691,7 +691,7 @@ if __name__ == "__main__":
     no_date = 0
     with open('log/log.log', 'w') as log_file:
         log_file.truncate(0)
-    files = "../input/Data_clean/CAT_000222_clean.xml"
+    files = "../input/Data_clean/*_clean.xml"
     input_dir = os.path.dirname(files)
     output_dir = "../output/xml"
     try:
