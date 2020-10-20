@@ -351,30 +351,34 @@ def format_extractor(descList, input_dict):
         fol_pattern = re.compile(".*in\-f[olio]?.*")
         if ms_format is not None:
             if re.search(fol_pattern, ms_format):
-                encoded_ms_format = 1
+                xml_encoded_format = '#document_format_1'
             elif re.search(format_pattern, ms_format):
-                encoded_ms_format = re.search(format_pattern, ms_format).group(1)
+                xml_encoded_format = re.search(format_pattern, ms_format).group(1)
                 try:
-                    encoded_ms_format = tables.conversion_tables.format_types[encoded_ms_format]
+                    xml_encoded_format = f'#document_format_{tables.conversion_tables.format_types[xml_encoded_format]}'
                 except:
-                    encoded_ms_format = None
+                    xml_encoded_format = None
             else:
-                encoded_ms_format = None
+                xml_encoded_format = None
 
-            if encoded_ms_format is not None:
+            if xml_encoded_format is not None:
                 if re.search(obl_pattern, ms_format):
-                    encoded_ms_format = encoded_ms_format + 100
+                    xml_encoded_format = f'#document_format_{str(int(xml_encoded_format.split("_")[-1]) + 100)}'
 
         # Let's create the xml element
         if start_position and end_position:
             if desc[end_position - 1] == " ":  # if the last character of the identified format is a space
                 end_position = end_position - 1
             desc_xml = f"{desc[:start_position]}<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 " \
-                       f" type=\u0022format\u0022 unit=\u0022f\u0022 n=\u0022{encoded_ms_format}\u0022>" \
+                       f" type=\u0022format\u0022 unit=\u0022f\u0022 n=\u0022{xml_encoded_format}\u0022>" \
                        f"{desc[start_position:end_position]}</measure>{desc[end_position:]}"
             # desc_xml = desc
 
         dict_values["desc_xml"] = desc_xml
+        if xml_encoded_format is not None:
+            encoded_ms_format = xml_encoded_format.split('_')[-1]
+        else:
+            xml_encoded_format = None
         dict_values["format"] = encoded_ms_format
         input_dict[id] = dict_values
         item[0] = desc_xml # we update the list
@@ -409,14 +413,14 @@ def term_extractor(descList, input_dict):
         if re.search(pas_pattern, desc):
             term_search = re.search(pas_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = tables.conversion_tables.term_types["P.a.s."]
+            xml_norm_term = f'#document_type_{tables.conversion_tables.term_types["P.a.s."]}'
 
             correct_pattern = pas_pattern
 
         elif re.search(apas_pattern, desc):
             term_search = re.search(apas_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = tables.conversion_tables.term_types["Ap.a.s."]
+            xml_norm_term = f'#document_type_{tables.conversion_tables.term_types["Ap.a.s."]}'
 
             correct_pattern = apas_pattern
 
@@ -424,14 +428,14 @@ def term_extractor(descList, input_dict):
         elif re.search(ps_pattern, desc):
             term_search = re.search(ps_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = tables.conversion_tables.term_types["P.s."]
+            xml_norm_term = f'#document_type_{tables.conversion_tables.term_types["P.s."]}'
 
             correct_pattern = ps_pattern
 
         elif re.search(pa_pattern, desc):
             term_search = re.search(pa_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = tables.conversion_tables.term_types["P.a."]
+            xml_norm_term = f'#document_type_{tables.conversion_tables.term_types["P.a."]}'
 
             correct_pattern = pa_pattern
 
@@ -439,14 +443,14 @@ def term_extractor(descList, input_dict):
         elif re.search(bias_pattern, desc):
             term_search = re.search(bias_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = tables.conversion_tables.term_types["Bi.a.s."]
+            xml_norm_term = f'#document_type_{tables.conversion_tables.term_types["Bi.a.s."]}'
 
             correct_pattern = bias_pattern
 
         elif re.search(bis_pattern, desc):
             term_search = re.search(bis_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = tables.conversion_tables.term_types["Bi.s."]
+            xml_norm_term = f'#document_type_{tables.conversion_tables.term_types["Bi.s."]}'
 
             correct_pattern = bis_pattern
 
@@ -454,63 +458,63 @@ def term_extractor(descList, input_dict):
         elif re.search(las_pattern, desc):
             term_search = re.search(las_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = tables.conversion_tables.term_types["L.a.s."]
+            xml_norm_term = f'#document_type_{tables.conversion_tables.term_types["L.a.s."]}'
 
             correct_pattern = las_pattern
 
         elif re.search(la_pattern, desc):
             term_search = re.search(la_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = tables.conversion_tables.term_types["L.a."]
+            xml_norm_term = f'#document_type_{tables.conversion_tables.term_types["L.a."]}'
 
             correct_pattern = la_pattern
 
         elif re.search(brs_pattern, desc):
             term_search = re.search(brs_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = tables.conversion_tables.term_types["Br.s."]
+            xml_norm_term = f'#document_type_{tables.conversion_tables.term_types["Br.s."]}'
 
             correct_pattern = brs_pattern
 
         elif re.search(qs_pattern, desc):
             term_search = re.search(qs_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = tables.conversion_tables.term_types["Q.s."]
+            xml_norm_term = f'#document_type_{tables.conversion_tables.term_types["Q.s."]}'
 
             correct_pattern = qs_pattern
 
         elif re.search(ma_pattern, desc):
             term_search = re.search(ma_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = tables.conversion_tables.term_types["M.a."]
+            xml_norm_term = f'#document_type_{tables.conversion_tables.term_types["M.a."]}'
 
             correct_pattern = ma_pattern
 
         elif re.search(ca_pattern, desc):
             term_search = re.search(ca_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = tables.conversion_tables.term_types["C.a."]
+            xml_norm_term = f'#document_type_{tables.conversion_tables.term_types["C.a."]}'
 
             correct_pattern = ca_pattern
 
         elif re.search(qas_pattern, desc):
             term_search = re.search(qas_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = tables.conversion_tables.term_types["Q.a.s."]
+            xml_norm_term = f'#document_type_{tables.conversion_tables.term_types["Q.a.s."]}'
 
             correct_pattern = qas_pattern
 
         elif re.search(ls_pattern, desc):
             term_search = re.search(ls_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = tables.conversion_tables.term_types["L.s."]
+            xml_norm_term = f'#document_type_{tables.conversion_tables.term_types["L.s."]}'
 
             correct_pattern = ls_pattern
 
         elif re.search(as_pattern, desc):  # keep this search the last one
             term_search = re.search(as_pattern, desc)
             term = re.sub(r"\s$", "", term_search.group(1))
-            norm_term = tables.conversion_tables.term_types["A.s."]
+            xml_norm_term = f'#document_type_{tables.conversion_tables.term_types["A.s."]}'
 
             correct_pattern = as_pattern
 
@@ -527,14 +531,18 @@ def term_extractor(descList, input_dict):
 
         else:
             desc_xml = desc
-            norm_term = None
+            xml_norm_term = None
             correct_pattern = None
 
         # Let's create the xml element
         if correct_pattern:
             desc_xml = desc.replace(term, f'<term xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 '
-                                                         f'ana=\"{norm_term}\">{term}</term>')
+                                                         f'ana=\"{xml_norm_term}\">{term}</term>')
         dict_values["desc_xml"] = desc_xml
+        if xml_norm_term is not None:
+            norm_term = xml_norm_term.split("_")[-1]
+        else:
+            norm_term = None
         dict_values["term"] = norm_term
         dict_values["author"] = author
         dict_values["sell_date"] = sell_date
@@ -619,11 +627,7 @@ def conversion_to_list(path):
 
 def xml_output_production2(dictionnary, path):
     print("Updating the xml files")
-    for xml_file in glob.iglob(path):
-        with open(xml_file, 'r+') as fichier:
-            tei = {'tei': 'http://www.tei-c.org/ns/1.0'}
-            tree = etree.parse(fichier)
-            xml_taxonomy = """
+    xml_taxonomy = """
     <classDesc>
             <taxonomy xml:id="format">
                <desc>Document format</desc>
@@ -662,6 +666,42 @@ def xml_output_production2(dictionnary, path):
                </category>
                <category xml:id="document_format_64">
                   <catDesc>In-64</catDesc>
+               </category>
+               <category xml:id="document_format_101">
+                  <catDesc>In-folio oblong</catDesc>
+               </category>
+               <category xml:id="document_format_102">
+                  <catDesc>In-2° oblong</catDesc>
+               </category>
+               <category xml:id="document_format_103">
+                  <catDesc>In-3° oblong</catDesc>
+               </category>
+               <category xml:id="document_format_104">
+                  <catDesc>In-quarto oblong</catDesc>
+               </category>
+               <category xml:id="document_format_108">
+                  <catDesc>In-octavo oblong</catDesc>
+               </category>
+               <category xml:id="document_format_112">
+                  <catDesc>In-12 oblong</catDesc>
+               </category>
+               <category xml:id="document_format_116">
+                  <catDesc>In-16 oblong</catDesc>
+               </category>
+               <category xml:id="document_format_118">
+                  <catDesc>In-18 oblong</catDesc>
+               </category>
+               <category xml:id="document_format_132">
+                  <catDesc>In-32 oblong</catDesc>
+               </category>
+               <category xml:id="document_format_140">
+                  <catDesc>In-40 oblong</catDesc>
+               </category>
+               <category xml:id="document_format_148">
+                  <catDesc>In-48 oblong</catDesc>
+               </category>
+               <category xml:id="document_format_164">
+                  <catDesc>In-64 oblong</catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="document_type">
@@ -713,6 +753,11 @@ def xml_output_production2(dictionnary, path):
                </category>
             </taxonomy>
          </classDesc>"""
+    for xml_file in glob.iglob(path):
+        print(xml_file)
+        with open(xml_file, 'r+') as fichier:
+            tei = {'tei': 'http://www.tei-c.org/ns/1.0'}
+            tree = etree.parse(fichier)
             taxonomy = etree.fromstring(xml_taxonomy)
             tei_encodingDesc = tree.xpath('//tei:encodingDesc', namespaces=tei)[0]
             tei_encodingDesc.insert(1, taxonomy)
@@ -802,25 +847,27 @@ if __name__ == "__main__":
     no_date = 0
     with open('log/log.log', 'w') as log_file:
         log_file.truncate(0)
-    files = "../input/Data_clean/*_clean.xml"
-    input_dir = os.path.dirname(files)
-    output_dir = "../output/xml"
+    input_dir = '../input/Data_clean'
+    output_dir = '../output/xml'
+    files = '*5_clean.xml'
+    input_files = f'{input_dir}/{files}'
+    output_files = f'{output_dir}/{files}'
+    input_dir = os.path.dirname(input_files)
     try:
         shutil.copytree(input_dir, output_dir)  # shutil.copytree contains a mkdir command, we have to delete the
         # directory if it exists
     except:
         shutil.rmtree(output_dir)
         shutil.copytree(input_dir, output_dir)
-    list_desc = conversion_to_list(files)
+    list_desc = conversion_to_list(input_files)
     output_dict = price_extractor(list_desc)
     output_dict = date_extractor(list_desc, output_dict)
     output_dict = length_extractor(list_desc, output_dict)
     output_dict = format_extractor(list_desc, output_dict)
     output_dict = term_extractor(list_desc, output_dict)
 
-
     #xml_output_production(output_dict)
-    xml_output_production2(output_dict, "../output/xml/*_clean.xml")
+    xml_output_production2(output_dict, output_files)
 
     for key in output_dict:
         del output_dict[key]["desc_xml"]
