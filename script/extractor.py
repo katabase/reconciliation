@@ -104,7 +104,7 @@ def date_extractor(descList, input_dict):
             string_list = re.split("(1[0-9][0-9][0-9])", string_list)
             string_list = string_list[:-1]
             date_string = ''.join([str(elem) for elem in string_list])
-            unprocessed_date_string = date_string
+            unprocessed_date_string = date_string.strip()
 
             # Third, we reduce the string using the colon as delimiter.
             # '18 janvier 1798'
@@ -691,7 +691,7 @@ if __name__ == "__main__":
     no_date = 0
     with open('log/log.log', 'w') as log_file:
         log_file.truncate(0)
-    files = "../input/Data_clean/*_clean.xml"
+    files = "../input/Data_clean/CAT_000222_clean.xml"
     input_dir = os.path.dirname(files)
     output_dir = "../output/xml"
     try:
