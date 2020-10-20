@@ -345,7 +345,7 @@ def format_extractor(descList, input_dict):
 
 
         # dict_values["desc_xml"] = desc_xml
-        # let's improve the format identification
+        # let's improve the format identification: the "oblong" cases
         obl_pattern = re.compile(".*ob[l]{0,1}.*")
         format_pattern = re.compile("(in-[0-9]{1,2})")
         fol_pattern = re.compile(".*in\-f[olio]?.*")
@@ -370,11 +370,13 @@ def format_extractor(descList, input_dict):
             if desc[end_position - 1] == " ":  # if the last character of the identified format is a space
                 end_position = end_position - 1
             desc_xml = f"{desc[:start_position]}<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 " \
-                       f" type=\u0022format\u0022 unit=\u0022f\u0022 n=\u0022{xml_encoded_format}\u0022>" \
+                       f" type=\u0022format\u0022 unit=\u0022f\u0022 ana=\u0022{xml_encoded_format}\u0022>" \
                        f"{desc[start_position:end_position]}</measure>{desc[end_position:]}"
             # desc_xml = desc
 
         dict_values["desc_xml"] = desc_xml
+        # xml_encoded_format is meant for the json output, while encoded_ms_format will
+        # be the value of the @ana attribute, pointing to a taxonomy
         if xml_encoded_format is not None:
             encoded_ms_format = xml_encoded_format.split('_')[-1]
         else:
@@ -540,6 +542,8 @@ def term_extractor(descList, input_dict):
                                                          f'ana=\"{xml_norm_term}\">{term}</term>')
         dict_values["desc_xml"] = desc_xml
         if xml_norm_term is not None:
+            # norm_term is meant for the json output, while xml_norm_term is
+            # the value of the @ana attribute, pointing to a taxonomy
             norm_term = xml_norm_term.split("_")[-1]
         else:
             norm_term = None
