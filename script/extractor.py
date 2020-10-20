@@ -55,7 +55,7 @@ def price_extractor(descList):
     return (output_dict)
 
 
-# Second, the Extracting the date
+
 def date_extractor(descList, input_dict):
     """
     Extracts the dates from the list containing all of the tei:desc, and update the main dict.
@@ -104,6 +104,7 @@ def date_extractor(descList, input_dict):
             string_list = re.split("(1[0-9][0-9][0-9])", string_list)
             string_list = string_list[:-1]
             date_string = ''.join([str(elem) for elem in string_list])
+            # Strip is used to remove leading and trailing spaces.
             unprocessed_date_string = date_string.strip()
 
             # Third, we reduce the string using the colon as delimiter.
@@ -113,6 +114,10 @@ def date_extractor(descList, input_dict):
                 if loose_gregorian_calendar_pattern.match(elem):
                     date_string = elem
             # Etc.
+            date_string = date_string.split("(")
+            for elem in date_string:
+                if loose_gregorian_calendar_pattern.match(elem):
+                    date_string = elem
             date_string = date_string.split("«")
             for elem in date_string:
                 if loose_gregorian_calendar_pattern.match(elem):
@@ -628,148 +633,159 @@ def conversion_to_list(path):
             final_list.append(desc_element)
     return final_list
 
-
-def xml_output_production2(dictionnary, path):
-    print("Updating the xml files")
-    xml_taxonomy = """
+# This is the taxonomy informations to add to the teiHeader of each output file.
+xml_taxonomy = """
     <classDesc>
-            <taxonomy xml:id="format">
-               <desc>Document format</desc>
-               <category xml:id="document_format_1">
-                  <catDesc>In-folio</catDesc>
-               </category>
-               <category xml:id="document_format_2">
-                  <catDesc>In-2°</catDesc>
-               </category>
-               <category xml:id="document_format_3">
-                  <catDesc>In-3°</catDesc>
-               </category>
-               <category xml:id="document_format_4">
-                  <catDesc>In-quarto</catDesc>
-               </category>
-               <category xml:id="document_format_8">
-                  <catDesc>In-octavo</catDesc>
-               </category>
-               <category xml:id="document_format_12">
-                  <catDesc>In-12</catDesc>
-               </category>
-               <category xml:id="document_format_16">
-                  <catDesc>In-16</catDesc>
-               </category>
-               <category xml:id="document_format_18">
-                  <catDesc>In-18</catDesc>
-               </category>
-               <category xml:id="document_format_32">
-                  <catDesc>In-32</catDesc>
-               </category>
-               <category xml:id="document_format_40">
-                  <catDesc>In-40</catDesc>
-               </category>
-               <category xml:id="document_format_48">
-                  <catDesc>In-48</catDesc>
-               </category>
-               <category xml:id="document_format_64">
-                  <catDesc>In-64</catDesc>
-               </category>
-               <category xml:id="document_format_101">
-                  <catDesc>In-folio oblong</catDesc>
-               </category>
-               <category xml:id="document_format_102">
-                  <catDesc>In-2° oblong</catDesc>
-               </category>
-               <category xml:id="document_format_103">
-                  <catDesc>In-3° oblong</catDesc>
-               </category>
-               <category xml:id="document_format_104">
-                  <catDesc>In-quarto oblong</catDesc>
-               </category>
-               <category xml:id="document_format_108">
-                  <catDesc>In-octavo oblong</catDesc>
-               </category>
-               <category xml:id="document_format_112">
-                  <catDesc>In-12 oblong</catDesc>
-               </category>
-               <category xml:id="document_format_116">
-                  <catDesc>In-16 oblong</catDesc>
-               </category>
-               <category xml:id="document_format_118">
-                  <catDesc>In-18 oblong</catDesc>
-               </category>
-               <category xml:id="document_format_132">
-                  <catDesc>In-32 oblong</catDesc>
-               </category>
-               <category xml:id="document_format_140">
-                  <catDesc>In-40 oblong</catDesc>
-               </category>
-               <category xml:id="document_format_148">
-                  <catDesc>In-48 oblong</catDesc>
-               </category>
-               <category xml:id="document_format_164">
-                  <catDesc>In-64 oblong</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="document_type">
-               <desc>Document type</desc>
-               <category xml:id="document_type_1">
-                  <catDesc>Apostille autographe signée</catDesc>
-               </category>
-               <category xml:id="document_type_2">
-                  <catDesc>Apostille autographe</catDesc>
-               </category>
-               <category xml:id="document_type_3">
-                  <catDesc>Pièce autographe</catDesc>
-               </category>
-               <category xml:id="document_type_4">
-                  <catDesc>Pièce signée</catDesc>
-               </category>
-               <category xml:id="document_type_5">
-                  <catDesc>Billet autographe signé</catDesc>
-               </category>
-               <category xml:id="document_type_6">
-                  <catDesc>Billet signé</catDesc>
-               </category>
-               <category xml:id="document_type_7">
-                  <catDesc>Lettre autographe signée</catDesc>
-               </category>
-               <category xml:id="document_type_8">
-                  <catDesc>Lettre autographe</catDesc>
-               </category>
-               <category xml:id="document_type_9">
-                  <catDesc>Lettre signée</catDesc>
-               </category>
-               <category xml:id="document_type_10">
-                  <catDesc>Brevet signé</catDesc>
-               </category>
-               <category xml:id="document_type_11">
-                  <catDesc>Quittance autographe signée</catDesc>
-               </category>
-               <category xml:id="document_type_12">
-                  <catDesc>Quittance signée</catDesc>
-               </category>
-               <category xml:id="document_type_13">
-                  <catDesc>Manuscrit autographe</catDesc>
-               </category>
-               <category xml:id="document_type_14">
-                  <catDesc>Chanson autographe</catDesc>
-               </category>
-               <category xml:id="document_type_15">
-                  <catDesc>Document (?) Autographe signé</catDesc>
-               </category>
-            </taxonomy>
-         </classDesc>"""
+        <taxonomy xml:id="format">
+           <desc>Document format</desc>
+           <category xml:id="document_format_1">
+              <catDesc>In-folio</catDesc>
+           </category>
+           <category xml:id="document_format_2">
+              <catDesc>In-2°</catDesc>
+           </category>
+           <category xml:id="document_format_3">
+              <catDesc>In-3°</catDesc>
+           </category>
+           <category xml:id="document_format_4">
+              <catDesc>In-quarto</catDesc>
+           </category>
+           <category xml:id="document_format_8">
+              <catDesc>In-octavo</catDesc>
+           </category>
+           <category xml:id="document_format_12">
+              <catDesc>In-12</catDesc>
+           </category>
+           <category xml:id="document_format_16">
+              <catDesc>In-16</catDesc>
+           </category>
+           <category xml:id="document_format_18">
+              <catDesc>In-18</catDesc>
+           </category>
+           <category xml:id="document_format_32">
+              <catDesc>In-32</catDesc>
+           </category>
+           <category xml:id="document_format_40">
+              <catDesc>In-40</catDesc>
+           </category>
+           <category xml:id="document_format_48">
+              <catDesc>In-48</catDesc>
+           </category>
+           <category xml:id="document_format_64">
+              <catDesc>In-64</catDesc>
+           </category>
+           <category xml:id="document_format_101">
+              <catDesc>In-folio oblong</catDesc>
+           </category>
+           <category xml:id="document_format_102">
+              <catDesc>In-2° oblong</catDesc>
+           </category>
+           <category xml:id="document_format_103">
+              <catDesc>In-3° oblong</catDesc>
+           </category>
+           <category xml:id="document_format_104">
+              <catDesc>In-quarto oblong</catDesc>
+           </category>
+           <category xml:id="document_format_108">
+              <catDesc>In-octavo oblong</catDesc>
+           </category>
+           <category xml:id="document_format_112">
+              <catDesc>In-12 oblong</catDesc>
+           </category>
+           <category xml:id="document_format_116">
+              <catDesc>In-16 oblong</catDesc>
+           </category>
+           <category xml:id="document_format_118">
+              <catDesc>In-18 oblong</catDesc>
+           </category>
+           <category xml:id="document_format_132">
+              <catDesc>In-32 oblong</catDesc>
+           </category>
+           <category xml:id="document_format_140">
+              <catDesc>In-40 oblong</catDesc>
+           </category>
+           <category xml:id="document_format_148">
+              <catDesc>In-48 oblong</catDesc>
+           </category>
+           <category xml:id="document_format_164">
+              <catDesc>In-64 oblong</catDesc>
+           </category>
+        </taxonomy>
+        <taxonomy xml:id="document_type">
+           <desc>Document type</desc>
+           <category xml:id="document_type_1">
+              <catDesc>Apostille autographe signée</catDesc>
+           </category>
+           <category xml:id="document_type_2">
+              <catDesc>Apostille autographe</catDesc>
+           </category>
+           <category xml:id="document_type_3">
+              <catDesc>Pièce autographe</catDesc>
+           </category>
+           <category xml:id="document_type_4">
+              <catDesc>Pièce signée</catDesc>
+           </category>
+           <category xml:id="document_type_5">
+              <catDesc>Billet autographe signé</catDesc>
+           </category>
+           <category xml:id="document_type_6">
+              <catDesc>Billet signé</catDesc>
+           </category>
+           <category xml:id="document_type_7">
+              <catDesc>Lettre autographe signée</catDesc>
+           </category>
+           <category xml:id="document_type_8">
+              <catDesc>Lettre autographe</catDesc>
+           </category>
+           <category xml:id="document_type_9">
+              <catDesc>Lettre signée</catDesc>
+           </category>
+           <category xml:id="document_type_10">
+              <catDesc>Brevet signé</catDesc>
+           </category>
+           <category xml:id="document_type_11">
+              <catDesc>Quittance autographe signée</catDesc>
+           </category>
+           <category xml:id="document_type_12">
+              <catDesc>Quittance signée</catDesc>
+           </category>
+           <category xml:id="document_type_13">
+              <catDesc>Manuscrit autographe</catDesc>
+           </category>
+           <category xml:id="document_type_14">
+              <catDesc>Chanson autographe</catDesc>
+           </category>
+           <category xml:id="document_type_15">
+              <catDesc>Document (?) Autographe signé</catDesc>
+           </category>
+        </taxonomy>
+    </classDesc>"""
+
+
+def xml_output_production(dictionary, path):
+    """
+    This function is used to rewrite all the tei:desc of the output files with the new informations contained in the dictionary.
+    param dictionary: the dictionary that contains all the informations produced.
+    param path: a path to the output files to rewrite.
+    """
+    print("Updating the xml files")
     for xml_file in glob.iglob(path):
-        print(xml_file)
         with open(xml_file, 'r+') as fichier:
-            tei = {'tei': 'http://www.tei-c.org/ns/1.0'}
             tree = etree.parse(fichier)
+
+            # Add taxonomy to the teiHeader.
             taxonomy = etree.fromstring(xml_taxonomy)
             tei_encodingDesc = tree.xpath('//tei:encodingDesc', namespaces=tei)[0]
             tei_encodingDesc.insert(1, taxonomy)
+
+            # For each desc, with an @xml:id attribute, replace them with their enhanced desc retrieved from the dictionary.
             for desc in tree.xpath("//tei:desc[@xml:id]", namespaces=tei):
                 id = desc.xpath('./@xml:id')[0]
-                desc_string = dictionnary[id]["desc_xml"].replace("&", "&amp;")
+                desc_string = dictionary[id]["desc_xml"].replace("&", "&amp;")
                 new_desc = etree.fromstring("<desc xmlns=\"http://www.tei-c.org/ns/1\" xml:id='%s'>%s</desc>" % (id, desc_string))
                 desc.getparent().replace(desc, new_desc)
+
+        # Rewrite the file with updated descs. 
         with open(xml_file, "w+") as sortie_xml:
             output = etree.tostring(tree, pretty_print=True, encoding='utf-8', xml_declaration=True).decode(
                         'utf8')
@@ -778,7 +794,7 @@ def xml_output_production2(dictionnary, path):
 
 
 # À SUPPRIMER"
-def xml_output_production(dictionnary):
+def TO_DELETE_xml_output_production(dictionnary):
     """
     Replaces all tei:desc by the structure
     :param dictionnary: the dictionnary created by the different extraction steps
@@ -853,7 +869,7 @@ if __name__ == "__main__":
         log_file.truncate(0)
     input_dir = '../input/Data_clean'
     output_dir = '../output/xml'
-    files = '*5_clean.xml'
+    files = '*_clean.xml'
     input_files = f'{input_dir}/{files}'
     output_files = f'{output_dir}/{files}'
     input_dir = os.path.dirname(input_files)
@@ -871,7 +887,7 @@ if __name__ == "__main__":
     output_dict = term_extractor(list_desc, output_dict)
 
     #xml_output_production(output_dict)
-    xml_output_production2(output_dict, output_files)
+    xml_output_production(output_dict, output_files)
 
     for key in output_dict:
         del output_dict[key]["desc_xml"]
