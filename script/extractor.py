@@ -15,7 +15,7 @@ from lxml import etree
 import xml.etree.ElementTree as ET
 from xml.etree import ElementTree
 
-
+tei = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 
 def price_extractor(descList):
@@ -533,7 +533,7 @@ def term_extractor(descList, input_dict):
         # Let's create the xml element
         if correct_pattern:
             desc_xml = desc.replace(term, f'<term xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 '
-                                                         f'type=\"{norm_term}\">{term}</term>')
+                                                         f'ana=\"{norm_term}\">{term}</term>')
         dict_values["desc_xml"] = desc_xml
         dict_values["term"] = norm_term
         dict_values["author"] = author
@@ -564,7 +564,6 @@ def desc_extractor(input):
     :return: a list of lists that contains the tei:desc value, the date of the sale,
     """
     with open(input, 'r+') as fichier:
-        tei = {'tei': 'http://www.tei-c.org/ns/1.0'}
         f = etree.parse(fichier)
         root = f.getroot()
         desc = root.xpath("//tei:desc", namespaces=tei)
@@ -618,6 +617,118 @@ def conversion_to_list(path):
     return final_list
 
 
+def xml_output_production2(dictionnary, path):
+    print("Updating the xml files")
+    for xml_file in glob.iglob(path):
+        with open(xml_file, 'r+') as fichier:
+            tei = {'tei': 'http://www.tei-c.org/ns/1.0'}
+            tree = etree.parse(fichier)
+            xml_taxonomy = """
+    <classDesc>
+            <taxonomy xml:id="format">
+               <desc>Document format</desc>
+               <category xml:id="document_format_1">
+                  <catDesc>In-folio</catDesc>
+               </category>
+               <category xml:id="document_format_2">
+                  <catDesc>In-2°</catDesc>
+               </category>
+               <category xml:id="document_format_3">
+                  <catDesc>In-3°</catDesc>
+               </category>
+               <category xml:id="document_format_4">
+                  <catDesc>In-quarto</catDesc>
+               </category>
+               <category xml:id="document_format_8">
+                  <catDesc>In-octavo</catDesc>
+               </category>
+               <category xml:id="document_format_12">
+                  <catDesc>In-12</catDesc>
+               </category>
+               <category xml:id="document_format_16">
+                  <catDesc>In-16</catDesc>
+               </category>
+               <category xml:id="document_format_18">
+                  <catDesc>In-18</catDesc>
+               </category>
+               <category xml:id="document_format_32">
+                  <catDesc>In-32</catDesc>
+               </category>
+               <category xml:id="document_format_40">
+                  <catDesc>In-40</catDesc>
+               </category>
+               <category xml:id="document_format_48">
+                  <catDesc>In-48</catDesc>
+               </category>
+               <category xml:id="document_format_64">
+                  <catDesc>In-64</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="document_type">
+               <desc>Document type</desc>
+               <category xml:id="document_type_1">
+                  <catDesc>Apostille autographe signée</catDesc>
+               </category>
+               <category xml:id="document_type_2">
+                  <catDesc>Apostille autographe</catDesc>
+               </category>
+               <category xml:id="document_type_3">
+                  <catDesc>Pièce autographe</catDesc>
+               </category>
+               <category xml:id="document_type_4">
+                  <catDesc>Pièce signée</catDesc>
+               </category>
+               <category xml:id="document_type_5">
+                  <catDesc>Billet autographe signé</catDesc>
+               </category>
+               <category xml:id="document_type_6">
+                  <catDesc>Billet signé</catDesc>
+               </category>
+               <category xml:id="document_type_7">
+                  <catDesc>Lettre autographe signée</catDesc>
+               </category>
+               <category xml:id="document_type_8">
+                  <catDesc>Lettre autographe</catDesc>
+               </category>
+               <category xml:id="document_type_9">
+                  <catDesc>Lettre signée</catDesc>
+               </category>
+               <category xml:id="document_type_10">
+                  <catDesc>Brevet signé</catDesc>
+               </category>
+               <category xml:id="document_type_11">
+                  <catDesc>Quittance autographe signée</catDesc>
+               </category>
+               <category xml:id="document_type_12">
+                  <catDesc>Quittance signée</catDesc>
+               </category>
+               <category xml:id="document_type_13">
+                  <catDesc>Manuscrit autographe</catDesc>
+               </category>
+               <category xml:id="document_type_14">
+                  <catDesc>Chanson autographe</catDesc>
+               </category>
+               <category xml:id="document_type_15">
+                  <catDesc>Document (?) Autographe signé</catDesc>
+               </category>
+            </taxonomy>
+         </classDesc>"""
+            taxonomy = etree.fromstring(xml_taxonomy)
+            tei_encodingDesc = tree.xpath('//tei:encodingDesc', namespaces=tei)[0]
+            tei_encodingDesc.insert(1, taxonomy)
+            for desc in tree.xpath("//tei:desc[@xml:id]", namespaces=tei):
+                id = desc.xpath('./@xml:id')[0]
+                desc_string = dictionnary[id]["desc_xml"].replace("&", "&amp;")
+                new_desc = etree.fromstring("<desc xmlns=\"http://www.tei-c.org/ns/1\" xml:id='%s'>%s</desc>" % (id, desc_string))
+                desc.getparent().replace(desc, new_desc)
+        with open(xml_file, "w+") as sortie_xml:
+            output = etree.tostring(tree, pretty_print=True, encoding='utf-8', xml_declaration=True).decode(
+                        'utf8')
+            sortie_xml.write(str(output))
+
+
+
+# À SUPPRIMER"
 def xml_output_production(dictionnary):
     """
     Replaces all tei:desc by the structure
@@ -656,7 +767,7 @@ def xml_output_production(dictionnary):
                     sortie_xml.write(str(output))
         except Exception as e:
             add_to_log(key, e)
-            print(e)
+            print(file, key, e)
 
 def add_to_log(id, exception, *args):
     """
@@ -708,7 +819,8 @@ if __name__ == "__main__":
     output_dict = term_extractor(list_desc, output_dict)
 
 
-    xml_output_production(output_dict)
+    #xml_output_production(output_dict)
+    xml_output_production2(output_dict, "../output/xml/*_clean.xml")
 
     for key in output_dict:
         del output_dict[key]["desc_xml"]
