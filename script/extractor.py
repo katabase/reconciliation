@@ -19,7 +19,7 @@ from xml.etree import ElementTree
 
 # Module used to note errors in a .log file.
 import logging
-logging.basicConfig(filename='errors.log', level=logging.DEBUG)
+logging.basicConfig(filename='errors.log', level=logging.DEBUG, filemode="w", format="%(levelname)-8s [%(filename)s:%(lineno)d] %(message)s")
 
 tei = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
@@ -42,13 +42,13 @@ def price_extractor(descList):
                 try:
                     price = float(item[-1])
                 except Exception as e:
-                	logging.info('Failed to parse price %s', e)
+                	logging.info('Failed to parse price %s for id : %s', e, id)
                 	price = None
             else:
                 try:
                     price = int(item[-1])
                 except Exception as j:
-                    logging.info('Failed to parse price %s', j)
+                    logging.info('Failed to parse price %s for id : %s', j, id)
                     price = None
         else:
             price = None
