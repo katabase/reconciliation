@@ -11,14 +11,18 @@ from decimal import *
 import tables.rep_greg_conversion
 import tables.conversion_tables
 from dateparser.search import search_dates
+
+# Module used to parse XML files.
 from lxml import etree
 import xml.etree.ElementTree as ET
 from xml.etree import ElementTree
-import logging
 
-logging.basicConfig(filename='log.log', level=logging.DEBUG)
+# Module used to note errors in a .log file.
+import logging
+logging.basicConfig(filename='errors.log', level=logging.DEBUG)
 
 tei = {'tei': 'http://www.tei-c.org/ns/1.0'}
+
 
 
 def price_extractor(descList):
@@ -70,30 +74,33 @@ def date_extractor(descList, input_dict):
     for item in descList:
         desc, id = item[0], item[1]
         desc = clean_text(desc)
+        # We search for any series of four digits (as a gregorian date)
         loose_gregorian_calendar_pattern = re.compile(
-            ".*(1[0-9][0-9][0-9]).*")  # we search for any series of four digits
+            ".*(1[0-9][0-9][0-9]).*")
+        # We search for any hint of the republication calendar (as "an" and roman numerals)
         republican_calendar_pattern = re.compile(
-            ".*\san ([XIVxiv]{1,4}|[0-9]{1,2}).*")  # we search for any hint of the republican calendar (in
-        # general, "an" and a year in roman)
+            ".*\san ([XIVxiv]{1,4}|[0-9]{1,2}).*")
+
         dict_values = input_dict[id]
         date_log_path = None
         date_range = None
         desc_xml = desc
+
         # Let's extract the gregorian calendar dates.
         # Example: "Pièce de vers aut. sig. sig. aussi par sa femme Caroline Vanhove: 18 janvier 1798, 1 p. in-8 obl. 22"
         if loose_gregorian_calendar_pattern.match(desc):
             date_log_path = 1
-            # First, we start reducing the string with a first split using the comma as delimiter, as (usually) there
-            # is no comma in a date:
-            # ['Pièce de vers aut. sig. sig. aussi par sa femme Caroline Vanhove: 18 janvier 1798', ' 1 p. in-8 obl. 22']
+            """First, we start reducing the string with a first split using the comma as delimiter, as (usually) there
+            is no comma in a date:
+            ['Pièce de vers aut. sig. sig. aussi par sa femme Caroline Vanhove: 18 janvier 1798', ' 1 p. in-8 obl. 22']"""
             tokenizedDesc = desc.split(",")
             string_list = []
             for tok_item in tokenizedDesc:
                 if loose_gregorian_calendar_pattern.match(tok_item):
                     string_list.append(tok_item)
-            # we can reduce the list to its last element: it will contain the date, as (usually) there is only a
-            # single date:
-            # ['Pièce de vers aut. sig. sig. aussi par sa femme Caroline Vanhove: 18 janvier 1798']
+            """We can reduce the list to its last element: it will contain the date, as (usually) there is only a
+            single date:
+            ['Pièce de vers aut. sig. sig. aussi par sa femme Caroline Vanhove: 18 janvier 1798']"""
             string_list = string_list[-1]
 
             # Second, we can reduce the string using the semi colon as delimiter.
@@ -121,14 +128,17 @@ def date_extractor(descList, input_dict):
             for elem in date_string:
                 if loose_gregorian_calendar_pattern.match(elem):
                     date_string = elem
+
             date_string = date_string.split("«")
             for elem in date_string:
                 if loose_gregorian_calendar_pattern.match(elem):
                     date_string = elem
+
             date_string = date_string.split(">")
             for elem in date_string:
                 if loose_gregorian_calendar_pattern.match(elem):
                     date_string = elem
+
             # Then we clean the string
             date_string = re.sub(r'\s+', ' ', date_string)
             date_string = re.sub(r'\(', '', date_string)
@@ -136,9 +146,8 @@ def date_extractor(descList, input_dict):
             # And eventually we can extract the date as a string to process it
             date = re.sub(r'^\s', '', date_string)
 
-            gregorian_year_pattern = re.compile("^1[0-9][0-9][0-9]$")  # this pattern matches strings that contains
-            # only a year
-
+            # This pattern matches strings that contains only a year.
+            gregorian_year_pattern = re.compile("^1[0-9][0-9][0-9]$")  
             # If the date is a year and nothing else, no need to process it.
             if gregorian_year_pattern.match(date):
                 date_log_path = 2
@@ -146,15 +155,16 @@ def date_extractor(descList, input_dict):
                 for match in matched:
                     desc_xml = desc.replace(match.group(0), f'<date \
                            xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 when=\u0022{date}\u0022>{match.group(0)}</date>')
-
-            else: # we are going to use the dateparser library to extract the date automatically.
-                # see https://dateparser.readthedocs.io/en/v0.2.1/_modules/dateparser/date.html
-                # This is the case where I could not find a way to retrieve the date string.
+            else:
+            # To extrat the date automatically, we use the dateparser library.
+            # see https://dateparser.readthedocs.io/en/v0.2.1/_modules/dateparser/date.html
+            # This is the case where I could not find a way to retrieve the date string.
                 date_log_path = 3
                 split_date = date.replace("(", "").replace(")", "").replace("[", "").split(" ")
 
                 parsed_date = dateparser.date.DateDataParser().get_date_data(u'%s' % date)
-                if parsed_date["date_obj"] is None:  # if it doesn't work, we select the YYYY string.
+                # if it doesn't work, we select the YYYY string.
+                if parsed_date["date_obj"] is None: 
                     date_log_path = 4
                     date = re.search("(1[0-9][0-9][0-9])", date).group(0)
                 else:
@@ -164,19 +174,21 @@ def date_extractor(descList, input_dict):
                     # the date using the current date if it has only the month. That is not what we want.
                     if parsed_date["period"] == "month":
                         date = parsed_date["date_obj"].strftime('%Y-%m')
-                    elif parsed_date["period"] == "year":  # this statement should never be true
+                    # This statement should never be true.
+                    elif parsed_date["period"] == "year":
                         date = parsed_date["date_obj"].strftime('%Y')
                     else:
                         date = parsed_date["date_obj"].strftime('%Y-%m-%d')
 
+                # Then we inject the normalised date in the @when attribute.
                 desc_xml = desc.replace(unprocessed_date_string, f'<date xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 '
                                                              f'when=\u0022{date}\u0022>{unprocessed_date_string}</date>')
 
-            # print(desc_xml)
+            # We update the dictionary.
             dict_values["date"] = date
 
         # If we do not match a gregorian year string (YYYY), but a republican year string ('an V', for instance),
-        # we convert the republican date
+        # we convert the republican date.
         elif republican_calendar_pattern.match(desc):
             date_log_path = 6
             date, date_string = tables.rep_greg_conversion.main(desc)
@@ -225,9 +237,16 @@ def is_roman(value):
 
 
 def length_extractor(descList, input_dict):
+    """
+    Extracts the lenghts from the list containing all of the tei:desc, and update the main dict.
+    :param descList: the list containing all of the tei:desc
+    :param input_dict: the dictionnary containing the data previously extracted (prices and dates)
+    :return: a dict which keys are the ids, and which values are another dict with prices, dates and lenghts
+    """
     print("Extracting length information")
+    # This pattern works with the most frequent cases.
     length_pattern = re.compile(
-        "([IVXivx0-9\/]{1,6})\.?\s(pages|page|pag.|p.)\s([0-5\/]{0,3})")  # this pattern works with the most frequent cases.
+        "([IVXivx0-9\/]{1,6})\.?\s(pages|page|pag.|p.)\s([0-5\/]{0,3})")
     pattern_fraction = re.compile("([0-9\/]{1,6})\s?de\s?p[ages]{0,3}\.?")
     for item in descList:
         desc, id = item[0], item[1]
@@ -242,7 +261,8 @@ def length_extractor(descList, input_dict):
             pn_search = re.search(length_pattern, desc)
             first_group = pn_search.group(1)
             second_group = pn_search.group(3)
-            if second_group == "":  # if the second group is empty, there is no fraction
+            # If the second group is empty, there is no fraction.
+            if second_group == "": 
                 if first_group != "":
                     if isInt(is_roman(first_group.upper())):
                         length = int(is_roman(first_group.upper()))
@@ -259,8 +279,8 @@ def length_extractor(descList, input_dict):
                     value_1 = int(first_group)
                     log_path = 4
                 else:
-                    value_1 = is_roman(first_group.upper())  # the price
-                    # can be in roman numbers
+                    # The lenght can be in roman numbers.
+                    value_1 = is_roman(first_group.upper())  
                     log_path = 5
                     if isInt(value_1):
                         log_path = 6
@@ -298,7 +318,8 @@ def length_extractor(descList, input_dict):
         if length != None:
             starting_position = position_chaîne[0]
             ending_position = position_chaîne[1]
-            if desc[ending_position - 1] == " ":  # if a space is the last character of the identified range of page ("1 p. "), we can
+            # if a space is the last character of the identified range of page ("1 p. "), we can remove it.
+            if desc[ending_position - 1] == " ": 
                 ending_position = ending_position - 1
             desc_xml = f'{desc[:starting_position]}<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022' \
                        f' type=\u0022length\u0022 unit=\u0022p\u0022 n=\u0022{length}\u0022>' \
@@ -316,6 +337,12 @@ def length_extractor(descList, input_dict):
 
 
 def format_extractor(descList, input_dict):
+    """
+    Extracts the format from the list containing all of the tei:desc, and update the main dict.
+    :param descList: the list containing all of the tei:desc
+    :param input_dict: the dictionnary containing the data previously extracted
+    :return: a dict which keys are the ids, and which values are another dict 
+    """
     print("Extracting format information")
     for item in descList:
         desc, id = item[0], item[1]
@@ -375,7 +402,8 @@ def format_extractor(descList, input_dict):
 
         # Let's create the xml element
         if start_position and end_position:
-            if desc[end_position - 1] == " ":  # if the last character of the identified format is a space
+            # if the last character of the identified format is a space, we remove it.
+            if desc[end_position - 1] == " ":
                 end_position = end_position - 1
             desc_xml = f"{desc[:start_position]}<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 " \
                        f" type=\u0022format\u0022 unit=\u0022f\u0022 ana=\u0022{xml_encoded_format}\u0022>" \
@@ -396,6 +424,12 @@ def format_extractor(descList, input_dict):
 
 
 def term_extractor(descList, input_dict):
+    """
+    Extracts the term from the list containing all of the tei:desc, and update the main dict.
+    :param descList: the list containing all of the tei:desc
+    :param input_dict: the dictionnary containing the data previously extracted
+    :return: a dict which keys are the ids, and which values are another dict 
+    """
     print("Extracting term information")
     for item in descList:
         desc, id, author, sell_date = item[0], item[1], item[2], item[3]
@@ -595,13 +629,15 @@ def desc_extractor(input):
                 price = i.xpath("parent::tei:item//tei:measure[@commodity='currency']/@quantity", namespaces=tei)[0]
             except:
                 price = None
+            # Only items with an @xml:id attribute are kept.
             id = i.xpath("@xml:id", namespaces=tei)
-            if len(id) > 0:  # some of the tei:item do not contain any identifier. We ignore them.
+            if len(id) > 0: 
                 id = id[0]
                 if len(author) > 0:
                     author = author[0].text
                     try:
-                        author = author.split(" ")[0]# we keep only the surname of the author
+                        # We keep only the surname of the author.
+                        author = author.split(" ")[0]
                         list_desc.append([i.text, id, author,  sell_date, price])
                     except:
                         author = None
@@ -853,6 +889,9 @@ def duplicates_identification(a):
             seen[x] += 1
     return dupes
 
+
+
+
 if __name__ == "__main__":
     no_price = 0
     no_date = 0
@@ -863,8 +902,9 @@ if __name__ == "__main__":
     output_files = f'{output_dir}/{files}'
     input_dir = os.path.dirname(input_files)
     try:
-        shutil.copytree(input_dir, output_dir)  # shutil.copytree contains a mkdir command, we have to delete the
-        # directory if it exists
+        # shutil.copytree contains a mkdir command, we have to delete the directory if it exists
+        shutil.copytree(input_dir, output_dir)
+
     except:
         shutil.rmtree(output_dir)
         shutil.copytree(input_dir, output_dir)
@@ -875,7 +915,7 @@ if __name__ == "__main__":
     output_dict = format_extractor(list_desc, output_dict)
     output_dict = term_extractor(list_desc, output_dict)
 
-    #xml_output_production(output_dict)
+    # We write the xml output files.
     xml_output_production(output_dict, output_files)
 
     for key in output_dict:
