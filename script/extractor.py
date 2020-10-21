@@ -832,65 +832,6 @@ def xml_output_production(dictionary, path):
 
 
 
-# À SUPPRIMER"
-def TO_DELETE_xml_output_production(dictionnary):
-    """
-    Replaces all tei:desc by the structure
-    :param dictionnary: the dictionnary created by the different extraction steps
-    :return:
-    """
-    print("Updating the xml files")
-    tei_namespace = "http://www.tei-c.org/ns/1.0"
-    NSMAP1 = {'tei': tei_namespace}  # pour la recherche d'éléments avec la méthode xpath
-    ElementTree.register_namespace("", tei_namespace)  # http://effbot.org/zone/element-namespaces.htm#preserving
-    # -existing-namespace-attributes
-    for key in dictionnary:
-        input_info = key.split("_")
-        file = f'{input_info[0]}_{input_info[1]}_clean.xml'  # the filename follow the structure CAT_ID.xml
-        item = input_info[2].split("e")[-1]
-        desc_string = output_dict[key]["desc_xml"].replace("&", "&amp;")
-        input_file = f'../output/xml/{file}'
-        try:
-            with open(input_file, 'r+') as fichier:
-                f = etree.parse(fichier)
-                output_root = f.getroot()
-                path = f'//tei:item[@n=\'{item}\']/tei:desc'
-                desc_list = output_root.xpath(path, namespaces=NSMAP1)
-                for desc in desc_list:  # now let's update the tei:desc elements in the output file
-                    item_element = desc.getparent()  # https://stackoverflow.com/questions/7474972/python-lxml-append
-                    # -element-after-another-element
-                    try:
-                        item_element.insert(item_element.index(desc) + 1, etree.fromstring("<desc xmlns=\"http://www.tei-c.org/ns/1\">%s</desc>" % desc_string))
-                    except Exception as e:
-                        add_to_log('no_id', e, desc_string)
-                    item_element.remove(desc)  # we remove the non processed tei:desc
-                output_file = f'../output/xml/{file}'
-                with open(output_file, "w+") as sortie_xml:
-                    output = etree.tostring(output_root, pretty_print=True, encoding='utf-8', xml_declaration=True).decode(
-                        'utf8')
-                    sortie_xml.write(str(output))
-        except Exception as e:
-            add_to_log(key, e)
-            print(file, key, e)
-
-
-
-
-
-def duplicates_identification(a):
-    seen = {}
-    dupes = []
-    for x in a:
-        if x not in seen:
-            seen[x] = 1
-        else:
-            if seen[x] == 1:
-                dupes.append(x)
-            seen[x] += 1
-    return dupes
-
-
-
 
 if __name__ == "__main__":
     no_price = 0
