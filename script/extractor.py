@@ -819,16 +819,18 @@ def xml_output_production(dictionary, path):
 
             # For each desc, with an @xml:id attribute, replace them with their enhanced desc retrieved from the dictionary.
             for desc in tree.xpath("//tei:desc[@xml:id]", namespaces=tei):
+            	# For now, all desc don't have an @xml:id
                 id = desc.xpath('./@xml:id')[0]
                 desc_string = dictionary[id]["desc_xml"].replace("&", "&amp;")
                 new_desc = etree.fromstring("<desc xmlns=\"http://www.tei-c.org/ns/1\" xml:id='%s'>%s</desc>" % (id, desc_string))
                 desc.getparent().replace(desc, new_desc)
 
         # Rewrite the file with updated descs. 
-        with open(xml_file, "w+") as sortie_xml:
+        with open(xml_file.replace("clean", "tagged"), "w+") as sortie_xml:
             output = etree.tostring(tree, pretty_print=True, encoding='utf-8', xml_declaration=True).decode(
                         'utf8')
             sortie_xml.write(str(output))
+            os.remove(xml_file)
 
 
 
@@ -842,6 +844,7 @@ if __name__ == "__main__":
     input_files = f'{input_dir}/{files}'
     output_files = f'{output_dir}/{files}'
     input_dir = os.path.dirname(input_files)
+
     try:
         # shutil.copytree contains a mkdir command, we have to delete the directory if it exists
         shutil.copytree(input_dir, output_dir)
@@ -858,6 +861,7 @@ if __name__ == "__main__":
 
     # We write the xml output files.
     xml_output_production(output_dict, output_files)
+
 
     for key in output_dict:
         del output_dict[key]["desc_xml"]
