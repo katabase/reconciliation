@@ -808,6 +808,12 @@ def xml_output_production(dictionary, path):
     param path: a path to the output files to rewrite.
     """
     print("Updating the xml files")
+    # For XPath search
+    tei_namespace = "http://www.tei-c.org/ns/1.0"
+    NSMAP1 = {'tei': tei_namespace}
+    # http://effbot.org/zone/element-namespaces.htm#preserving-existing-namespace-attributes
+    ElementTree.register_namespace("", tei_namespace)
+ 
     for xml_file in glob.iglob(path):
         with open(xml_file, 'r+') as fichier:
             tree = etree.parse(fichier)
@@ -818,11 +824,11 @@ def xml_output_production(dictionary, path):
             tei_encodingDesc.insert(1, taxonomy)
 
             # For each desc, with an @xml:id attribute, replace them with their enhanced desc retrieved from the dictionary.
-            for desc in tree.xpath("//tei:desc[@xml:id]", namespaces=tei):
+            for desc in tree.xpath("//tei:desc[@xml:id]", namespaces=NSMAP1):
             	# For now, all desc don't have an @xml:id
                 id = desc.xpath('./@xml:id')[0]
                 desc_string = dictionary[id]["desc_xml"].replace("&", "&amp;")
-                new_desc = etree.fromstring("<desc xmlns=\"http://www.tei-c.org/ns/1\" xml:id='%s'>%s</desc>" % (id, desc_string))
+                new_desc = etree.fromstring("<desc xmlns=\"http://www.tei-c.org/ns/1.0\" xml:id='%s'>%s</desc>" % (id, desc_string))
                 desc.getparent().replace(desc, new_desc)
 
         # Rewrite the file with updated descs. 
