@@ -674,7 +674,7 @@ def conversion_to_list(path):
 
 # This is the taxonomy informations to add to the teiHeader of each output file.
 xml_taxonomy = """
-    <classDesc>
+    <classDecl>
         <taxonomy xml:id="format">
            <desc>Document format</desc>
            <category xml:id="document_format_1">
